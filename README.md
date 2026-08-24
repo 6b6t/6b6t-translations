@@ -15,4 +15,20 @@ checks reject structural changes and broken placeholders. English text that has
 not been translated yet may remain in place, so contributions can be submitted
 one page at a time.
 
+## Catalog layout
+
+Most legacy page copy remains in focused files such as `home.json`,
+`shop.json`, and `history.json`. The exhaustive `ui.json` catalog covers every
+other detected website element and is divided into predictable sections:
+
+- `pages` — route-specific content such as home, shop, account, stats, Legend,
+  Hytale, and Horizon
+- `shared` — navigation, footer, dialogs, galleries, accessibility labels, and
+  reusable components
+- `server` — messages that can reach the interface from APIs or shared services
+
+Within those sections, keys are grouped by route and component filename. You
+may translate one small component section at a time; a whole-language rewrite
+is not required.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete workflow.
