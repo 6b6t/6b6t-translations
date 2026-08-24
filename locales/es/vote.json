@@ -1,11 +1,11 @@
 {
-  "page-name": "Vote",
-  "seo-description": "Vote for 6b6t to help us be on top of server lists and get rewards like more homes, lower cooldowns and access to the /skin command for free.",
-  "vote-link": "Vote Link {{number}}",
-  "title": "Vote for 6b6t",
-  "subheading": "What is voting?",
+  "page-name": "Votar",
+  "seo-description": "Vota por 6b6t para ayudarnos a llegar a lo más alto de las listas de servidores y obtén recompensas como más homes, cooldowns más bajos y acceso gratuito al comando /skin.",
+  "vote-link": "Enlace de votación {{number}}",
+  "title": "Vota por 6b6t",
+  "subheading": "¿Qué es votar?",
   "__text": [
-    "Voting for 6b6t helps us rank up on server listings and allows new players to find our server.",
-    "Every time you vote, you are rewarded for helping 6b6t to grow and become bigger and better than ever before."
+    "Votar por 6b6t nos ayuda a subir en las listas de servidores y permite que nuevos jugadores encuentren nuestro servidor.",
+    "Cada vez que votas, recibes recompensas por ayudar a que 6b6t crezca y sea más grande y mejor que nunca."
   ]
 }
