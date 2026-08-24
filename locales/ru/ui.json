@@ -307,6 +307,7 @@
         "total": "Total",
         "firstSmoked": "First Smoked",
         "first": "First",
+        "value1Value2": "{{value1}}{{value2}}",
         "cigars": "cigars",
         "cigarsTotal": "cigars total",
         "totalCigarsSmoked": "Total Cigars Smoked",
@@ -329,6 +330,7 @@
       },
       "legendLightbox": {
         "sacredArtifact": "Sacred Artifact #",
+        "value1Value2": "{{value1}}{{value2}}",
         "of": "of",
         "closeLightbox": "Close lightbox",
         "previousImage": "Previous image",
@@ -755,6 +757,7 @@
               "viewAllShopTransactionsAndPaymentDetails": "View all shop transactions and payment details",
               "totalTransactions": "Total Transactions",
               "currentPage": "Current Page",
+              "value1Value2": "{{value1}}{{value2}}",
               "showing": "Showing",
               "of": "of",
               "date": "Date",
@@ -927,6 +930,7 @@
             "custom": "Custom",
             "recoveryTickets": "Recovery Tickets",
             "reviewManualAccountRecoveryRequestsAndMakeApprovalDecisions": "Review manual account recovery requests and make approval decisions.",
+            "value1Value2": "{{value1}}{{value2}}",
             "recoveryStatsRange": "Recovery stats range",
             "showing": "Showing",
             "day": "day",
@@ -1364,6 +1368,7 @@
         "last": "Last",
         "messagesFor": "messages for",
         "page": "Page",
+        "value1Value2": "{{value1}}{{value2}}",
         "of": "of"
       },
       "components": {
@@ -1678,6 +1683,7 @@
           "walkthroughProgress": "Walkthrough progress",
           "goToWalkthroughStepValue1": "Go to walkthrough step {{value1}}",
           "step": "Step",
+          "value1Value2": "{{value1}}{{value2}}",
           "of": "of",
           "skip": "Skip",
           "back": "Back"
@@ -2008,6 +2014,7 @@
         "elite": "Elite",
         "apex": "Apex",
         "legend": "Legend",
+        "value1Value2": "{{value1}}{{value2}}",
         "primeUltra": "Prime Ultra",
         "eliteUltra": "Elite Ultra",
         "changeTheColorOfYourNameInChatWith": "Change the color of your name in chat with /namecolor",
@@ -2110,6 +2117,7 @@
         "staysLiveFor24Hours": "Stays live for 24 hours",
         "preview": "Preview",
         "choose": "Choose",
+        "value1Value2": "{{value1}}{{value2}}",
         "beSeenBeforePlayersEvenJoin": "Be seen before players even join.",
         "placeYourShopEventBaseOrCommunityDirectlyOn": "Place your shop, event, base, or community directly on the 6b6t multiplayer listing. Write the message once, choose a 6, 12, or 24-hour run, and preview exactly how it will appear.",
         "tryYourMessage": "Try your message",
@@ -2694,6 +2702,7 @@
         "rank": "Rank",
         "name": "Name",
         "value": "Value",
+        "value1Value2": "{{value1}}{{value2}}",
         "noDataAvailableForThisTimeRange": "No data available for this time range",
         "playersRanked": "players ranked",
         "previousPage": "Previous page",
@@ -2866,6 +2875,9 @@
       }
     },
     "updates": {
+      "discordMarkdown": {
+        "value1Value2": "{{value1}}{{value2}}"
+      },
       "page": {
         "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
         "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
@@ -3221,6 +3233,7 @@
         "closeLightbox": "Close lightbox",
         "previousImage": "Previous image",
         "nextImage": "Next image",
+        "value1Value2": "{{value1}}{{value2}}",
         "of": "of"
       }
     },
