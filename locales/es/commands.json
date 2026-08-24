@@ -1,0 +1,28 @@
+{
+  "page-name": "Commands",
+  "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
+  "sections": {
+    "commandsList": {
+      "bestMatches": "Best matches",
+      "commandsList": "COMMANDS LIST",
+      "availableServerCommands": "Available Server Commands",
+      "useTheFiltersToFindTheCommandYouNeed": "Use the filters to find the command you need by category, rank requirement, or command name.",
+      "search": "Search",
+      "searchCommands": "Search commands...",
+      "category": "Category",
+      "rankRequirement": "Rank requirement",
+      "command": "Command",
+      "description": "Description",
+      "example": "Example",
+      "rank": "Rank",
+      "noCommandsFoundMatchingYourFilters": "No commands found matching your filters.",
+      "premiumCommands": "Premium Commands",
+      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Use the rank filter above to preview commands unlocked by Prime, Prime Ultra, Elite, Elite Ultra, Apex, and Legend.",
+      "viewPremiumRanks": "View Premium Ranks"
+    },
+    "page": {
+      "text6b6tServerCommands": "6b6t Server Commands",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+    }
+  }
+}

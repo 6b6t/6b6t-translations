@@ -1,0 +1,31 @@
+{
+  "page-name": "Contact Us",
+  "seo-description": "Contact Us at 6b6t.",
+  "sections": {
+    "page": {
+      "contactUs": "Contact Us",
+      "getIn": "Get in",
+      "touch": "Touch",
+      "needHelpWeReHereToAssistYouWith": "Need help? We're here to assist you with any questions or concerns about 6b6t.",
+      "email": "Email",
+      "discord": "Discord",
+      "contactViaEmail": "Contact via Email",
+      "sendUsAnEmailAndWeLlGetBack": "Send us an email and we'll get back to you within 24 hours.",
+      "openYourEmailApp": "Open your email app",
+      "composeAnEmailDescribingYourConcern": "Compose an email describing your concern",
+      "sendTo": "Send to",
+      "contactViaDiscord": "Contact via Discord",
+      "createATicketInOur": "Create a ticket in our",
+      "discordServer": "Discord Server",
+      "forFasterSupport": "for faster support.",
+      "joinOurDiscordServer": "Join our Discord Server",
+      "createATicketIn": "Create a ticket in",
+      "waitForATeamMemberToRespond": "Wait for a team member to respond",
+      "discordSupportIs": "Discord support is",
+      "exclusiveToRankedPlayers": "exclusive to ranked players",
+      "youMustHaveARankFromThe": ". You must have a rank from the",
+      "text6b6tShop": "6b6t Shop",
+      "toCreateATicket": "to create a ticket."
+    }
+  }
+}
