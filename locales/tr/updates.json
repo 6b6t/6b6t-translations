@@ -4,30 +4,30 @@
       "value1Value2": "{{value1}}{{value2}}"
     },
     "page": {
-      "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
-      "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
-      "joinDiscord": "Join Discord",
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord.",
-      "changelog": "Changelog",
-      "server": "Server",
-      "updates": "Updates",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel."
+      "discordUpdatesAreComingHereSoon": "Discord güncellemeleri yakında burada olacak",
+      "theChangelogPageIsReadyToSyncFromThe": "Değişiklik günlüğü sayfası, resmi Discord güncelleme kanalından senkronize olmaya hazır. O zamana kadar en yeni gönderileri okumak için Discord'a katıl.",
+      "joinDiscord": "Discord'a Katıl",
+      "text6b6tUpdates": "6b6t Güncellemeleri",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi.",
+      "changelog": "Değişiklik Günlüğü",
+      "server": "Sunucu",
+      "updates": "Güncellemeler",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular."
     },
     "updatesList": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchUpdates": "Search updates",
-      "clear": "Clear",
-      "showing": "Showing",
-      "searchResult": "search result",
-      "latestPost": "Latest post",
-      "noUpdatesMatchedYourSearch": "No updates matched your search."
+      "edited": "Düzenlendi",
+      "postedBy": "Gönderen",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
+      "openInDiscord": "Discord'da Aç",
+      "newUpdate": "yeni güncelleme",
+      "justAppeared": "az önce göründü.",
+      "dismiss": "Kapat",
+      "searchUpdates": "Güncelleme ara",
+      "clear": "Temizle",
+      "showing": "Gösteriliyor",
+      "searchResult": "arama sonucu",
+      "latestPost": "Son gönderi",
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme bulunamadı."
     }
   }
 }
