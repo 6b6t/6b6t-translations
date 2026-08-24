@@ -4,30 +4,30 @@
       "value1Value2": "{{value1}}{{value2}}"
     },
     "page": {
-      "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
-      "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
-      "joinDiscord": "Join Discord",
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord.",
+      "discordUpdatesAreComingHereSoon": "Las actualizaciones de Discord llegarán aquí pronto",
+      "theChangelogPageIsReadyToSyncFromThe": "La página del changelog está lista para sincronizarse con el canal oficial de actualizaciones de Discord. Mientras tanto, únete a Discord para leer las publicaciones más recientes.",
+      "joinDiscord": "Únete a Discord",
+      "text6b6tUpdates": "Actualizaciones de 6b6t",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Últimas publicaciones del changelog del servidor 6b6t e historial de actualizaciones de Discord.",
       "changelog": "Changelog",
-      "server": "Server",
-      "updates": "Updates",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel."
+      "server": "Servidor",
+      "updates": "Actualizaciones",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Últimos cambios, correcciones y anuncios del canal oficial de changelog de 6b6t en Discord."
     },
     "updatesList": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchUpdates": "Search updates",
-      "clear": "Clear",
-      "showing": "Showing",
-      "searchResult": "search result",
-      "latestPost": "Latest post",
-      "noUpdatesMatchedYourSearch": "No updates matched your search."
+      "edited": "Editado",
+      "postedBy": "Publicado por",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Esta actualización se publicó con archivos adjuntos en Discord.",
+      "openInDiscord": "Abrir en Discord",
+      "newUpdate": "nueva actualización",
+      "justAppeared": "acaba de aparecer.",
+      "dismiss": "Cerrar",
+      "searchUpdates": "Buscar actualizaciones",
+      "clear": "Limpiar",
+      "showing": "Mostrando",
+      "searchResult": "resultado de búsqueda",
+      "latestPost": "Última publicación",
+      "noUpdatesMatchedYourSearch": "Ninguna actualización coincide con tu búsqueda."
     }
   }
 }
