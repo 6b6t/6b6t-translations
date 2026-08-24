@@ -17,18 +17,21 @@ one page at a time.
 
 ## Catalog layout
 
-Most legacy page copy remains in focused files such as `home.json`,
-`shop.json`, and `history.json`. The exhaustive `ui.json` catalog covers every
-other detected website element and is divided into predictable sections:
+Each website page has its own complete file. For example, `home.json` contains
+the homepage hero, features, gallery, partners, statistics, videos, FAQ, and
+all other homepage content. `shop.json`, `legend.json`, `hytale.json`, and the
+other page files follow the same pattern.
 
-- `pages` — route-specific content such as home, shop, account, stats, Legend,
-  Hytale, and Horizon
-- `shared` — navigation, footer, dialogs, galleries, accessibility labels, and
-  reusable components
-- `server` — messages that can reach the interface from APIs or shared services
+Inside a page file, generated website copy is grouped under `sections` by the
+component or area that displays it. Existing direct translation keys may appear
+before `sections` in older page files; they are also active and must remain.
 
-Within those sections, keys are grouped by route and component filename. You
-may translate one small component section at a time; a whole-language rewrite
-is not required.
+- `shared.json` — navigation, footer, dialogs, galleries, accessibility labels,
+  and reusable components
+- `server.json` — messages that can reach the interface from APIs or shared
+  services
+
+You may translate one small section at a time; a whole-language rewrite is not
+required.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete workflow.

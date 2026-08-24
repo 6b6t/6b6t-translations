@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "horizonCountdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "horizonIsLive": "Horizon is live",
+      "timeRemainingUntilHorizonStartsStreaming": "Time remaining until Horizon starts streaming"
+    },
+    "page": {
+      "horizonLiveOn6b6t": "Horizon — Live on 6b6t",
+      "countdownToHorizonS6b6tStreamOnAugust22": "Countdown to Horizon's 6b6t stream on August 22, 2026 at 20:00 CEST.",
+      "text6b6tHome": "6b6t home",
+      "text6b6t": "6b6t",
+      "horizon": "Horizon",
+      "horizonIsStreamingOn6b6t": "Horizon is streaming on 6b6t.",
+      "saturdayAugust22": "Saturday, August 22",
+      "text2000Cest": "20:00 CEST",
+      "eventBriefing": "Event briefing",
+      "text2Hours": "2 hours",
+      "usingAllOfTheDupedLootFromTheLast": "Using all of the duped loot from the last week, help protect Horizon or hunt him and try to kill him. The protector team won&apos;t have PvP inside the group and won&apos;t be able to damage Horizon. The event lasts 2 hours.",
+      "chooseYourSide": "Choose your side",
+      "huntHorizon": "Hunt Horizon",
+      "doWhateverYouCanToHuntAndKillHorizon": "Do whatever you can to hunt and kill Horizon. Nobody can stop you.",
+      "protectHorizon": "Protect Horizon",
+      "stopTheEnemiesFromKillingHorizonPvpWithinThe": "Stop the enemies from killing Horizon! PvP within the group is turned off and you can&apos;t damage Horizon.",
+      "thehorizonmcMinecraftSkin": "TheHorizonMC Minecraft skin",
+      "featuredStreamer": "Featured streamer",
+      "thehorizonmc": "TheHorizonMC",
+      "xTwitter": "X / Twitter",
+      "youtube": "YouTube",
+      "github": "GitHub",
+      "curseforge": "CurseForge",
+      "worldwideStartTimes": "Worldwide start times",
+      "sameMomentEverywhere": "Same moment, everywhere",
+      "text6b6tOrgHorizon": "6b6t.org/horizon"
+    }
+  }
+}

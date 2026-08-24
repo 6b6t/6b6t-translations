@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "statusClient": {
+      "text6b6tServerStatus": "6b6t SERVER STATUS",
+      "refresh": "Refresh",
+      "currentPlayers": "Current Players",
+      "connectionFailed": "Connection Failed",
+      "playersOnline": "players online",
+      "loading": "Loading...",
+      "serverLimit": "Server Limit",
+      "maximumCapacity": "maximum capacity",
+      "capacity": "Capacity",
+      "version": "Version",
+      "minecraftVersion": "minecraft version",
+      "serverAddress": "Server Address",
+      "ping": "Ping",
+      "ms": "ms"
+    },
+    "statusPageContent": {
+      "text6b6tServerStatus": "6b6t SERVER STATUS",
+      "refresh": "Refresh",
+      "currentPlayers": "Current Players",
+      "connectionFailed": "Connection Failed",
+      "playersOnline": "players online",
+      "loading": "Loading...",
+      "serverLimit": "Server Limit",
+      "maximumCapacity": "maximum capacity",
+      "capacity": "Capacity",
+      "version": "Version",
+      "minecraftVersion": "minecraft version",
+      "serverAddress": "Server Address",
+      "ping": "Ping",
+      "ms": "ms"
+    }
+  }
+}

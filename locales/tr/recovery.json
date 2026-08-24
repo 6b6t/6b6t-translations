@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "components": {
+      "phaseIndicator": {
+        "start": "Start",
+        "start2": "start",
+        "identity": "Identity",
+        "intent": "intent",
+        "challenge": "challenge",
+        "verify": "Verify",
+        "reset": "Reset",
+        "result": "Result",
+        "blocked": "blocked",
+        "success": "success"
+      },
+      "recoveryWalkthrough": {
+        "startWithTheAccount": "Start With The Account",
+        "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Enter the username first. The flow checks which recovery path is safe for that account.",
+        "setTheNewContactEmail": "Set The New Contact Email",
+        "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "The new email is only accepted after identity checks pass, so use an inbox you control.",
+        "prepareProofDetails": "Prepare Proof Details",
+        "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Strong proof is specific account history that another player would not know.",
+        "reviewOrReset": "Review Or Reset",
+        "ifTheAutomaticScoreIsEnoughYouContinueTo": "If the automatic score is enough, you continue to verification. Otherwise a ticket is created.",
+        "howRecoveryWorks": "How recovery works",
+        "walkthroughProgress": "Walkthrough progress",
+        "goToWalkthroughStepValue1": "Go to walkthrough step {{value1}}",
+        "step": "Step",
+        "value1Value2": "{{value1}}{{value2}}",
+        "of": "of",
+        "skip": "Skip",
+        "back": "Back"
+      },
+      "steps": {
+        "blockedStep": {
+          "recoveryBlocked": "Recovery Blocked",
+          "theOriginalAccountOwnerHasConfirmedTheyDidNot": "The original account owner has confirmed they did not initiate this recovery. No further recovery attempts can proceed for this account.",
+          "returnToStart": "Return to Start"
+        },
+        "challengeStep": {
+          "securityChallenge": "Security Challenge",
+          "thisAccountIsCurrentlyLinkedToAnEmailAddress": "This account is currently linked to an email address. For security, please enter it if you remember it.",
+          "currentlyConnectedEmailOptional": "Currently connected email (optional)",
+          "oldEmailExampleCom": "old-email@example.com",
+          "ifYouDonAposTKnowItLeaveThis": "If you don&apos;t know it, leave this blank. You will just need to provide more proof on the next step.",
+          "verifyAccountIdentity": "Verify Account Identity"
+        },
+        "gracePeriodPendingStep": {
+          "theAccountOwnerHasBeenNotifiedViaEmailIf": "The account owner has been notified via email. If they do not respond within",
+          "days": "days",
+          "youCanProceedWithIdentityVerification": ", you can proceed with identity verification.",
+          "verification": "Verification",
+          "returnToStart": "Return to Start"
+        },
+        "intentStep": {
+          "setNewContactEmail": "Set New Contact Email",
+          "enterTheEmailThatShouldBeLinkedToThis": "Enter the email that should be linked to this account after recovery.",
+          "newTargetEmail": "New Target Email",
+          "required": "(required)",
+          "nameExampleCom": "name@example.com",
+          "checked": "Checked",
+          "iCanStillLogDirectlyIntoThe6b6tMinecraft": "I can still log directly into the 6b6t Minecraft server",
+          "continueRecovery": "Continue Recovery"
+        },
+        "lane1DeadEndStep": {
+          "returnToStart": "Return to Start"
+        },
+        "lane2aStep": {
+          "join6b6t": "Join 6b6t",
+          "run": "Run",
+          "newTargetEmail": "New Target Email",
+          "required": "(required)",
+          "nameExampleCom": "name@example.com",
+          "abc123": "ABC123",
+          "returnToStart": "Return to Start"
+        },
+        "manualReviewStep": {
+          "manualReview": "Manual Review",
+          "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "Your identity verification passed perfectly. However, because this account has been active recently (offline for only",
+          "daysOurSecurityPolicyRequiresAnAdminToManually": "days), our security policy requires an admin to manually review this recovery before proceeding.",
+          "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "Your identity verification passed. However, because this account holds a special rank, manual review is required for security.",
+          "submitProofOfAccountOwnershipForAdminReviewInclude": "Submit proof of account ownership for admin review. Include purchase receipts, transaction IDs, or any evidence that ties you to this account.",
+          "contactTargetEmail": "Contact / Target Email",
+          "proofType": "Proof Type",
+          "shopOrderIdInvoice": "Shop Order ID / Invoice",
+          "bankCardStatement": "Bank/Card Statement",
+          "other": "Other",
+          "proofDetails": "Proof Details",
+          "provideProofDetailsThatCanBeVerified": "Provide proof details that can be verified.",
+          "attachmentsOptionalOneUrlPathPerLineUpTo": "Attachments (optional, one URL/path per line, up to 3)",
+          "verification": "Verification",
+          "submitManualReview": "Submit Manual Review"
+        },
+        "premiumAccountStep": {
+          "premiumMinecraftAccount": "Premium Minecraft Account",
+          "thisUsernameIsAuthenticatedByMicrosoftMojangSo6b6t": "This username is authenticated by Microsoft/Mojang, so 6b6t cannot reset it through AuthMe recovery. Sign in with the Microsoft account that owns this Minecraft profile to regain access.",
+          "returnToStart": "Return to Start"
+        },
+        "privateScoreStep": {
+          "privateConnectionDetails": "Private Connection Details",
+          "yourPublicProofWasNotEnoughProvidePrivateNetwork": "Your public proof was not enough. Provide private network details to boost your score.",
+          "ipAddressIpv4OrIpv6": "IP Address (IPv4 or IPv6)",
+          "regionState": "Region/State",
+          "city": "City",
+          "asnExampleAs1234": "ASN (example: AS1234)",
+          "ispProvider": "ISP / Provider",
+          "scorePrivateDetails": "Score Private Details"
+        },
+        "publicScoreStep": {
+          "overworld": "Overworld",
+          "nether": "Nether",
+          "end": "End",
+          "notSure": "Not sure",
+          "none": "None",
+          "accountProofRequired": "Account Proof Required",
+          "provideDetailsAboutYourAccountToVerifyYourIdentity": "Provide details about your account to verify your identity.",
+          "countriesYouPlayFrom": "Countries you play from",
+          "commaSeparated": "(comma separated)",
+          "eGGermanyNetherlandsUnitedStates": "e.g. Germany, Netherlands, United States",
+          "howManySavedHomesDidThisAccountHave": "How many saved homes did this account have?",
+          "savedHomeNames": "Saved Home Names",
+          "savedHomeName": "Saved home name",
+          "dimensionForSavedHomeValue1": "Dimension for saved home {{value1}}",
+          "removeSavedHomeValue1": "Remove saved home {{value1}}",
+          "addHome": "Add Home",
+          "howManyCoordinateLocationsCanYouProvide": "How many coordinate locations can you provide?",
+          "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "Coordinate proof is skipped because no coordinate locations were provided.",
+          "knownCoordinates": "Known Coordinates",
+          "dimensionForCoordinateValue1": "Dimension for coordinate {{value1}}",
+          "removeCoordinateValue1": "Remove coordinate {{value1}}",
+          "addCoordinate": "Add Coordinate",
+          "approximateCoordinatesAreOkayIfTheyPointNearA": "Approximate coordinates are okay if they point near a base, stash, or saved home.",
+          "iRememberWhereILastLoggedOut": "I remember where I last logged out",
+          "lastLogoutLocation": "Last Logout Location",
+          "dimensionForLastLogoutLocation": "Dimension for last logout location",
+          "thisIsStrongProofIfYouRememberWhereYou": "This is strong proof if you remember where you disconnected.",
+          "otherDetails": "Other Details",
+          "optional": "(optional)",
+          "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "Inventory items, sword names, unwritten book contents, pet names...",
+          "submitProofCalculateScore": "Submit Proof & Calculate Score"
+        },
+        "resetPasswordStep": {
+          "setNewPassword": "Set New Password",
+          "yourIdentityHasBeenVerifiedChooseANewPassword": "Your identity has been verified. Choose a new password for your account.",
+          "newPassword": "New Password",
+          "minimum8Characters": "Minimum 8 characters",
+          "confirmPassword": "Confirm Password",
+          "resetPassword": "Reset Password"
+        },
+        "startStep": {
+          "minecraftUsername": "Minecraft Username",
+          "yourminecraftname": "YourMinecraftName",
+          "verification": "Verification",
+          "continue": "Continue"
+        },
+        "successStep": {
+          "recoveryFlowCompletedForThisSession": "Recovery flow completed for this session.",
+          "startNewRecovery": "Start New Recovery"
+        },
+        "verifyEmailCodeStep": {
+          "emailVerification": "Email Verification",
+          "emailVerificationCode": "Email Verification Code",
+          "text6DigitCode": "6-digit code",
+          "verifyCode": "Verify Code"
+        }
+      }
+    },
+    "block": {
+      "page": {
+        "error": "error",
+        "noBlockTokenProvided": "No block token provided.",
+        "loading": "loading",
+        "success": "success",
+        "anErrorOccurredPleaseTryAgainLater": "An error occurred. Please try again later.",
+        "noBlockTokenProvidedInTheUrl": "No block token provided in the URL.",
+        "accountSecurity": "Account Security",
+        "block": "Block",
+        "recovery": "Recovery",
+        "ifYouDidNotInitiateAnAccountRecoveryClick": "If you did not initiate an account recovery, click the button below to block the attempt and protect your account.",
+        "confirmBlock": "Confirm Block",
+        "blockThisRecoveryAttempt": "Block This Recovery Attempt",
+        "processing": "Processing...",
+        "accountProtected": "Account Protected",
+        "thisBlockIsPermanentTheAccountOwnerConfirmedThey": "This block is permanent. The account owner confirmed they did not authorize this recovery attempt."
+      }
+    },
+    "page": {
+      "accountSecurity": "Account Security",
+      "account": "Account",
+      "recovery": "Recovery",
+      "completeTheRecoveryFlowToProveAccountOwnershipAnd": "Complete the recovery flow to prove account ownership and restore access. For security reasons, responses are intentionally generic."
+    },
+    "reset": {
+      "page": {
+        "error": "error",
+        "noResetTokenProvidedInTheUrl": "No reset token provided in the URL.",
+        "loading": "loading",
+        "success": "success",
+        "idle": "idle",
+        "accountSecurity": "Account Security",
+        "reset": "Reset",
+        "password": "Password",
+        "yourRecoveryRequestWasApprovedSetANewPassword": "Your recovery request was approved. Set a new password for your account below.",
+        "newPassword": "New Password",
+        "passwordResetComplete": "Password Reset Complete",
+        "minimum8Characters": "Minimum 8 characters",
+        "confirmPassword": "Confirm Password",
+        "resetPassword": "Reset Password"
+      }
+    }
+  }
+}

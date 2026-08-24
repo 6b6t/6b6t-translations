@@ -15,8 +15,8 @@ values in English; do not submit empty strings or machine-generated filler.
 
 - Keep `6b6t`, Minecraft usernames, commands such as `/tpa`, URLs, and server
   addresses unchanged.
-- In `ui.json`, choose a focused section under `pages`, `shared`, or `server`;
-  do not attempt to translate technical keys.
+- Choose a focused `sections` group in one page file, `shared.json`, or
+  `server.json`; do not attempt to translate technical keys.
 - Translate naturally for players rather than word-for-word.
 - Preserve the meaning and tone of the English source.
 - Do not add promotions, links, claims, or instructions that are absent from

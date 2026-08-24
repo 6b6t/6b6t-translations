@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "discordMarkdown": {
+      "value1Value2": "{{value1}}{{value2}}"
+    },
+    "page": {
+      "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
+      "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
+      "joinDiscord": "Join Discord",
+      "text6b6tUpdates": "6b6t Updates",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord.",
+      "changelog": "Changelog",
+      "server": "Server",
+      "updates": "Updates",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel."
+    },
+    "updatesList": {
+      "edited": "Edited",
+      "postedBy": "Posted by",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
+      "openInDiscord": "Open in Discord",
+      "newUpdate": "new update",
+      "justAppeared": "just appeared.",
+      "dismiss": "Dismiss",
+      "searchUpdates": "Search updates",
+      "clear": "Clear",
+      "showing": "Showing",
+      "searchResult": "search result",
+      "latestPost": "Latest post",
+      "noUpdatesMatchedYourSearch": "No updates matched your search."
+    }
+  }
+}

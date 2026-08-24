@@ -19,5 +19,311 @@
   "youtube-shorts-title": "Latest YouTube Shorts",
   "youtube-shorts-description": "Check out our latest YouTube Shorts showcasing epic moments, base tours, and highlights from the 6b6t anarchy server.",
   "youtube-shorts-visit-channel": "Visit Our Channel",
-  "youtube-shorts-error": "Failed to load YouTube content. Please try again later."
+  "youtube-shorts-error": "Failed to load YouTube content. Please try again later.",
+  "sections": {
+    "changelog": {
+      "latestUpdates": {
+        "latestChangelog": "Latest Changelog",
+        "recent": "Recent",
+        "serverUpdates": "server updates",
+        "viewAllUpdates": "View all updates",
+        "latestPost": "Latest post",
+        "latest": "Latest",
+        "openValue1": "Open {{value1}}",
+        "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
+        "onceTheDiscordChannelIsReachableTheNewestChangelog": "Once the Discord channel is reachable, the newest changelog posts will appear here automatically.",
+        "joinDiscord": "Join Discord"
+      }
+    },
+    "faq": {
+      "faq": {
+        "whatIs6b6t": "What is 6b6t?",
+        "text6b6tIsAMinecraftAnarchyServerWherePlayersCan": "6b6t is a Minecraft anarchy server where players can enjoy full freedom with no rules. It offers a unique experience with commands like",
+        "and": "and",
+        "toMakeExplorationAndGameplaySmootherUnlikeManyOther": "to make exploration and gameplay smoother. Unlike many other servers, 6b6t has no queue, so you can join anytime without waiting. Thanks to advanced custom technology, developed by 6b6t, the server supports up to 2,000 players at once.",
+        "howOldIs6b6t": "How old is 6b6t?",
+        "text6b6tWasStartedOnJanuary16th2022FromDay": "6b6t was started on January 16th, 2022. From day one, it had the commands",
+        "onTheFirstDay6b6tReached50PlayersOnline": ". On the first day 6b6t reached 50 players online.",
+        "whatCommandsDoes6b6tHave": "What commands does 6b6t have?",
+        "text6b6tHasManyCommandsButTheMostFrequentlyUsed": "6b6t has many commands, but the most frequently used ones are",
+        "youCanSeeTheFullListOfCommandsOn": ". You can see the full list of commands on the",
+        "commandsPage": "commands page",
+        "is6b6tA2b2tAlternative": "Is 6b6t a 2b2t alternative?",
+        "text6b6tIsnAposTADirect2b2tAlternativeBecause": "6b6t isn&apos;t a direct 2b2t alternative because it has its own unique features and direction. The administrators make independent decisions, such as updating to Minecraft 1.19 a year ahead of 2b2t, and the server includes additional gameplay elements, like the teleportation commands.",
+        "howManyPlayersOn6b6t": "How many players on 6b6t?",
+        "between150And250PlayersPlayAtTheSame": "Between 150 and 250 players play at the same time on 6b6t during peak times and at minimum 50 players.",
+        "is6b6tCrossPlatformForJavaAndBedrockEdition": "Is 6b6t cross platform for Java and Bedrock edition?",
+        "yes6b6tSupportsBothMinecraftJavaEditionAndMinecraft": "Yes, 6b6t supports both Minecraft Java edition and Minecraft Bedrock edition.",
+        "javaEdition": "Java Edition",
+        "bedrockEdition": "Bedrock Edition",
+        "howBigIs6b6t": "How big is 6b6t?",
+        "text6b6tIsOver20tb": "6b6t is over 20TB.",
+        "text0Tb": "0 TB",
+        "text20Tb": "20+ TB",
+        "text25Tb": "25 TB",
+        "howManyUniquePlayersJoined6b6t": "How many unique players joined 6b6t?",
+        "over": "Over",
+        "uniquePlayersJoined6b6tSinceTheStart": "unique players joined 6b6t since the start.",
+        "whereCanILearnAbout6b6tUpdates": "Where can I learn about 6b6t updates?",
+        "theBestPlaceToLearnAboutTheChangesAnd": "The best place to learn about the changes and new features on 6b6t is in the official",
+        "text6b6tDiscord": "6b6t Discord",
+        "frequentlyAsked": "Frequently Asked",
+        "questions": "Questions",
+        "everythingYouNeedToKnowAboutThe6b6tMinecraft": "Everything you need to know about the 6b6t Minecraft anarchy server",
+        "stillHaveQuestions": "Still have questions?",
+        "joinOurDiscord": "Join our Discord",
+        "forMoreHelp": "for more help"
+      }
+    },
+    "features": {
+      "gameplayFeaturesTabs": {
+        "featureHighlights": "Feature Highlights"
+      },
+      "serverFeatures": {
+        "everlasting": "Everlasting",
+        "text6b6tStartedManyYearsAgoAndTheAdminsAre": "6b6t started many years ago and the admins are committed to keeping it online forever.",
+        "text16thJanuary": "16th January",
+        "universalAccess": "Universal Access",
+        "playerBase": "Player Base",
+        "activeAdmins": "Active Admins",
+        "theOfficial6b6tDiscordProvidesFrequentUpdatesAndOpen": "The official 6b6t Discord provides frequent updates and open discussion.",
+        "discordMembers": "Discord Members",
+        "essentialCommands": "Essential Commands",
+        "enjoyConvenientAccessToEssentialCommandsLikeTpaAnd": "Enjoy convenient access to essential commands like /tpa and /home while maintaining anarchy gameplay.",
+        "latestMinecraftVersion": "Latest Minecraft Version",
+        "nonP2wCosmetics": "Non P2W Cosmetics",
+        "coloredChatUsernamePrefixAndNametagToRankOwners": "Colored chat, username, prefix and nametag to rank owners. /balloons command that spawns a cosmetic balloon that follow you. Temporarily increase render distance with /buildermode without moving too far away",
+        "serverFeatures": "SERVER FEATURES",
+        "whyPlayOn": "Why play on",
+        "text6b6t": "6b6t",
+        "text6b6tOffersAUniqueMinecraftAnarchyServerExperienceWith": "6b6t offers a unique Minecraft anarchy server experience with /tpa and /home commands however while having no rules and no queue.",
+        "gameplayFeatures": "Gameplay Features"
+      }
+    },
+    "gallery": {
+      "gallery": {
+        "gallery": "Gallery",
+        "serverScreenshots": "Server Screenshots",
+        "momentsCapturedFromThe6b6tAnarchyServer": "Moments captured from the 6b6t anarchy server",
+        "tryAgain": "Try again",
+        "noImagesFound": "No images found"
+      },
+      "galleryModal": {
+        "featured": "Featured"
+      }
+    },
+    "hero": {
+      "connectionNotice": {
+        "text6b6tConnection": "6b6t / connection",
+        "weHaveProtectedYour": "We have protected your",
+        "freedomToChoose": "freedom to choose",
+        "whereYouPlay": "where you play.",
+        "mojangBanned6b6tToKeepPlayingDownloadAnarchymod": "Mojang banned 6b6t. To keep playing, download AnarchyMod.",
+        "connectInTwoSteps": "Connect in two steps",
+        "downloadTheMod": "Download the mod",
+        "getTheLatestFabricRelease": "Get the latest Fabric release.",
+        "playOn6b6t": "Play on 6b6t",
+        "openMinecraftAndConnect": "Open Minecraft and connect.",
+        "downloadAnarchyMod": "Download Anarchy Mod"
+      },
+      "heroButtons": {
+        "playNow": "Play Now",
+        "shop": "Shop"
+      },
+      "heroContent": {
+        "text6b6t": "6b6t",
+        "anarchy": "Anarchy",
+        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t is a survival Minecraft anarchy server with no rules, no punishments and no queue. Players can do whatever they want in a world supporting up to 2000 players simultaneously and use commands such as /tpa and /home.",
+        "bulletPointIcon": "Bullet Point Icon",
+        "join": "Join",
+        "membersOnDiscord": "members on Discord"
+      },
+      "heroSlider": {
+        "spawnArea": "Spawn Area",
+        "playerBattles": "Player Battles",
+        "baseBuilding": "Base Building",
+        "vastLandscapes": "Vast Landscapes",
+        "text6b6tPreviewSpawnArea": "6b6t Preview - Spawn Area",
+        "text6b6tPreviewValue1": "6b6t Preview - {{value1}}",
+        "previousSlide": "Previous slide",
+        "nextSlide": "Next slide"
+      },
+      "heroStats": {
+        "onlinePlayers": "Online Players",
+        "maxPlayers": "Max Players",
+        "version": "Version"
+      },
+      "serverConnectionModal": {
+        "text6b6t": "6b6t",
+        "text6b6t2": "6b6t 2",
+        "text6b6t3": "6b6t 3",
+        "copyValue1": "Copy {{value1}}",
+        "openValue1InMinecraftBedrock": "Open {{value1}} in Minecraft Bedrock",
+        "open": "Open",
+        "closeConnectionModal": "Close connection modal",
+        "text6b6tLogo": "6b6t logo",
+        "connectTo": "Connect to",
+        "closeModal": "Close modal",
+        "theAnarchyModIsRequiredForJavaEdition": "The Anarchy Mod is required for Java Edition",
+        "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang blocked standard connections to 6b6t. The official mod restores access and adds the server automatically.",
+        "javaEdition": "Java Edition",
+        "twoStepsThenYouAreIn": "Two steps, then you are in",
+        "fabric": "FABRIC ·",
+        "required": "Required",
+        "downloadTheAnarchyMod": "Download the Anarchy Mod",
+        "getTheLatestOfficialReleaseAndInstallItIn": "Get the latest official release and install it in your Fabric profile.",
+        "downloadLatestRelease": "Download latest release",
+        "viewSourceCode": "View source code",
+        "play": "Play",
+        "launchMinecraft": "Launch Minecraft",
+        "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "Start your Fabric profile, open Multiplayer, and select 6b6t from the server list.",
+        "serverAddress": "Server address",
+        "fallbackAddresses": "Fallback addresses",
+        "playingOnBedrock": "Playing on Bedrock?",
+        "noFabricModNeededUseADirectBedrockConnection": "No Fabric mod needed—use a direct Bedrock connection.",
+        "serverOnline": "Server online",
+        "text2000Players": "/2000 players",
+        "java": "Java",
+        "done": "Done"
+      }
+    },
+    "home": {
+      "anarchyModBanner": {
+        "officialAddon": "OFFICIAL ADDON",
+        "fabricLoader": "Fabric Loader",
+        "fabricMod": "Fabric Mod",
+        "introducing6b6tSOfficialAnarchyMod": "Introducing 6b6t's Official Anarchy Mod",
+        "downloadForFabric": "Download for Fabric",
+        "viewSource": "View Source",
+        "benefits": "Benefits",
+        "unlockExtraHomes": "Unlock Extra Homes",
+        "instantlyAdds2MoreStackableHomesToYourAvailable": "Instantly adds 2 more stackable homes to your available home points.",
+        "instantServerAccess": "Instant Server Access",
+        "automaticallyAddsThe6b6tServerIntoYourMultiplayerMenu": "Automatically adds the 6b6t server into your multiplayer menu.",
+        "text1194Supported": "1.19.4+ Supported"
+      }
+    },
+    "partners": {
+      "protonBanner": {
+        "vpn": "VPN",
+        "protonVpn": "Proton VPN",
+        "secureInternetAccess": "Secure internet access",
+        "mail": "Mail",
+        "protonMail": "Proton Mail",
+        "encryptedEmail": "Encrypted email",
+        "pass": "Pass",
+        "protonPass": "Proton Pass",
+        "identityProtection": "Identity protection",
+        "drive": "Drive",
+        "protonDrive": "Proton Drive",
+        "secureStorage": "Secure storage",
+        "text6b6t": "6b6t",
+        "proton": "Proton",
+        "aHistoricPartnership": "A Historic Partnership.",
+        "privacyMeetsAnarchy": "Privacy Meets Anarchy."
+      }
+    },
+    "social": {
+      "featuredVideo": {
+        "join6b6tHytale": "JOIN 6B6T HYTALE"
+      },
+      "youTubeShorts": {
+        "epic6b6tAnarchyPvpMoments": "Epic 6b6t Anarchy PvP Moments",
+        "massive6b6tBaseTour": "Massive 6b6t Base Tour",
+        "text6b6tServerHighlights": "6b6t Server Highlights",
+        "youtubePlayButton": "YouTube Play Button"
+      }
+    },
+    "stats": {
+      "playerGraph": {
+        "text7Days": "7 Days",
+        "text1Month": "1 Month",
+        "text1Year": "1 Year",
+        "playerActivity": "Player Activity",
+        "current": "Current",
+        "value1Average": "{{value1}} Average",
+        "value1Peak": "{{value1}} Peak",
+        "trackTheServerAposSPlayerCountOverThe": "Track the server&apos;s player count over the past 7 days and see when the community is most active.",
+        "averagePlayers": "Average Players",
+        "peakPlayers": "Peak Players"
+      }
+    },
+    "vote": {
+      "voteSection": {
+        "minecraftBuzz": "Minecraft Buzz",
+        "minecraftMp": "Minecraft MP",
+        "mclike": "MCLike",
+        "topMinecraftServers": "Top Minecraft Servers",
+        "planetMinecraft": "Planet Minecraft",
+        "firstDayOfVoting": "First day of voting",
+        "text3HomesSethome": "3 homes (/sethome)",
+        "threeDaysOfVoting": "Three days of voting",
+        "accessToSkinCommand": "Access to /skin command",
+        "text300sHomeCooldown": "300s /home cooldown",
+        "text420sTpaCooldown": "420s /tpa cooldown",
+        "oneWeekOfVoting": "One week of voting",
+        "text4HomesSethome": "4 homes (/sethome)",
+        "text90sHomeCooldown": "90s /home cooldown",
+        "text120sTpaCooldown": "120s /tpa cooldown",
+        "oneMonthOfVoting": "One month of voting",
+        "accessToSitCommand": "Access to /sit command",
+        "text5HomesSethome": "5 homes (/sethome)",
+        "text15sHomeCooldown": "15s /home cooldown",
+        "text30sTpaCooldown": "30s /tpa cooldown",
+        "text90DaysOfVoting": "90 days of voting",
+        "whiteUsername": "White username",
+        "voteFor": "Vote for",
+        "text6b6t": "6b6t",
+        "andGetRewards": "and Get Rewards",
+        "supportTheServer": "SUPPORT THE SERVER",
+        "votingSites": "Voting Sites",
+        "checkRewards": "Check Rewards",
+        "howToCheckYourVotes": "How to check your votes",
+        "simplyRunTheCommand": "Simply run the command",
+        "on6b6tToSeeYourCurrentVoteCount": "on 6b6t to see your current vote count.",
+        "voteOnAll7SitesDaily7VotesPer": "Vote on all 7 sites daily (7 votes per day = 49 per week = 210 per month).",
+        "featured": "FEATURED",
+        "voting": "Voting",
+        "clickToVote": "Click to vote",
+        "voteOnAllSitesDailyForMaximumRewardsYou": "Vote on all sites daily for maximum rewards. You can vote from a mobile phone too.",
+        "recommendedDownload": "RECOMMENDED DOWNLOAD",
+        "text6b6tClientMod": "6b6t Client Mod",
+        "theUltimateConnectionToolkitForFabric": "The ultimate connection toolkit for Fabric",
+        "improveYourExperienceOn6b6tByInstallingOurOfficial": "Improve your experience on 6b6t by installing our official mod called AnarchyMod. It gives you 2 homes for free which are available immediately after joining with the mod already installed. AnarchyMod seamlessly bypasses Mojang's potential blacklist of the server, ensuring you can always connect, and automatically adds 6b6t straight to your multiplayer server list.",
+        "downloadFromGithub": "Download from GitHub",
+        "text100FreeOpenSource": "100% Free & Open Source",
+        "manualInstallationRequired": "Manual installation required.",
+        "keyFeatures": "Key Features",
+        "freeHomes": "Free Homes",
+        "ifYouInstallTheOfficial6b6tModYouGet": "If you install the official 6b6t mod, you get 2 more homes for free. These homes stack together with homes from voting and ranks.",
+        "blacklistEvasion": "Blacklist Evasion",
+        "mojangHasThreatenedToBlacklist2b2tIf6b6tDoes": "Mojang has threatened to blacklist 2b2t. If 6b6t does get blacklisted, this mod lets you join regardless.",
+        "fabricLoader": "Fabric Loader",
+        "supportFrom1194UpToTheLatest": "Support from 1.19.4 up to the latest Minecraft version. Works with other mods.",
+        "typesOfRewardsOn6b6t": "Types of Rewards on 6b6t",
+        "moreHomes": "More Homes",
+        "getUpTo5HomesByVotingByDefault": "Get up to 5 homes by voting. By default, you have 2 homes (one when joining, second with wearing netherite armor).",
+        "lowerCooldowns": "Lower Cooldowns",
+        "enjoyReducedCooldownsOnTpaAndHomeCommandsMatching": "Enjoy reduced cooldowns on /tpa and /home commands, matching those of Apex rank players.",
+        "skinCommand": "/skin Command",
+        "changeYourSkinUsing": "Change your skin using",
+        "lookLikeAnyoneYouWant": ". Look like anyone you want!",
+        "whiteUsername2": "White Username",
+        "after90DaysOfVotingGetAWhiteUsername": "After 90 days of voting, get a white username, similar to colored names available to paid ranks.",
+        "wantInstantAccess": "Want instant access?",
+        "getAllTheseFeaturesInstantlyByPurchasingAnyRank": "Get all these features instantly by purchasing any rank on our store.",
+        "viewRanks": "View ranks",
+        "votes": "Votes",
+        "ultimateReward": "Ultimate Reward",
+        "monthlyTopVoters": "Monthly Top Voters",
+        "voteEveryDayOnAllSitesToEarnAmazing": "Vote every day on all sites to earn amazing rewards",
+        "text1stPlace": "1st Place",
+        "donatorRank30Days": "Donator Rank (30 days)",
+        "text2ndPlace": "2nd Place",
+        "text5DiamondKits": "5× Diamond Kits",
+        "text3rdPlace": "3rd Place",
+        "text3DiamondKits": "3× Diamond Kits"
+      }
+    }
+  }
 }
