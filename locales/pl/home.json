@@ -1,0 +1,23 @@
+{
+  "page-name": "Minecraft's Largest Anarchy Server",
+  "seo-description": "6b6t is the biggest Minecraft anarchy server with no rules, no queue, and full 1.8-1.21.x support. Join millions of players in a world of chaos with /tpa, /home, and more. IP: play.6b6t.org",
+  "server-statistics": "Server Statistics",
+  "about-us": "About us",
+  "tell-me-more": "Tell Me More",
+  "server-age": "Server Age: {{days}} days old",
+  "players-joined": "{{players}} players joined",
+  "world-size": "World Size: {{size}}",
+  "tps": "TPS",
+  "online": "Online",
+  "carousel-image-alt": "6b6t showcase image",
+  "location": "Location: Miami, USA",
+  "read-now": "Read Now",
+  "featured-video-badge": "Now Streaming",
+  "featured-video-title": "Latest From 6b6t",
+  "featured-video-description": "Watch the latest video about 6b6t from FitMC. The largest and the oldest anarchy server in Hytale.",
+  "featured-video-cta": "Click to play",
+  "youtube-shorts-title": "Latest YouTube Shorts",
+  "youtube-shorts-description": "Check out our latest YouTube Shorts showcasing epic moments, base tours, and highlights from the 6b6t anarchy server.",
+  "youtube-shorts-visit-channel": "Visit Our Channel",
+  "youtube-shorts-error": "Failed to load YouTube content. Please try again later."
+}

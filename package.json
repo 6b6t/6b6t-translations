@@ -1,0 +1,9 @@
+{
+  "name": "6b6t-translations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/validate-translations.mjs locales",
+    "seed": "node scripts/seed-locales.mjs"
+  }
+}
