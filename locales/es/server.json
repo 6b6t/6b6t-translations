@@ -5,115 +5,115 @@
         "analytics": {
           "anarchyMod": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "unauthorized": "Unauthorized",
-              "internalServerError": "Internal server error"
+              "notAuthenticated": "No autenticado",
+              "unauthorized": "No autorizado",
+              "internalServerError": "Error interno del servidor"
             }
           },
           "shop": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "unauthorized": "Unauthorized"
+              "notAuthenticated": "No autenticado",
+              "unauthorized": "No autorizado"
             }
           },
           "transactions": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "unauthorized": "Unauthorized"
+              "notAuthenticated": "No autenticado",
+              "unauthorized": "No autorizado"
             }
           }
         },
         "auth": {
           "login": {
             "route": {
-              "emailAndPasswordAreRequired": "Email and password are required",
-              "internalServerError": "Internal server error"
+              "emailAndPasswordAreRequired": "El correo electrónico y la contraseña son obligatorios",
+              "internalServerError": "Error interno del servidor"
             }
           },
           "me": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "invalidSession": "Invalid session",
-              "internalServerError": "Internal server error"
+              "notAuthenticated": "No autenticado",
+              "invalidSession": "Sesión no válida",
+              "internalServerError": "Error interno del servidor"
             }
           }
         },
         "communityEvent": {
           "route": {
-            "unauthorized": "Unauthorized",
-            "resetConfirmationDidNotMatch": "Reset confirmation did not match"
+            "unauthorized": "No autorizado",
+            "resetConfirmationDidNotMatch": "La confirmación de restablecimiento no coincide"
           }
         },
         "milestones": {
           "route": {
-            "notAuthenticated": "Not authenticated",
-            "unauthorized": "Unauthorized",
-            "pointsAndRewardAreRequired": "points and reward are required",
-            "invalidMilestoneIndex": "Invalid milestone index",
-            "invalidPointsValue": "Invalid points value",
-            "failedToProcessAdminAction": "Failed to process admin action",
-            "failedToFetchMilestones": "Failed to fetch milestones"
+            "notAuthenticated": "No autenticado",
+            "unauthorized": "No autorizado",
+            "pointsAndRewardAreRequired": "Los puntos y la recompensa son obligatorios",
+            "invalidMilestoneIndex": "Índice de hito no válido",
+            "invalidPointsValue": "Valor de puntos no válido",
+            "failedToProcessAdminAction": "No se pudo procesar la acción de administración",
+            "failedToFetchMilestones": "No se pudieron obtener los hitos"
           }
         },
         "motd": {
           "ads": {
             "requestId": {
               "route": {
-                "motdAuditStoreIsUnavailable": "MOTD audit store is unavailable",
-                "invalidJsonPayload": "Invalid JSON payload"
+                "motdAuditStoreIsUnavailable": "El registro de auditoría de MOTD no está disponible",
+                "invalidJsonPayload": "Datos JSON no válidos"
               }
             },
             "route": {
-              "motdAdStoreIsUnavailable": "MOTD ad store is unavailable"
+              "motdAdStoreIsUnavailable": "El almacenamiento de anuncios MOTD no está disponible"
             }
           },
           "manual": {
             "route": {
-              "invalidJsonPayload": "Invalid JSON payload"
+              "invalidJsonPayload": "Datos JSON no válidos"
             }
           }
         },
         "printify": {
           "requests": {
             "route": {
-              "forbidden": "Forbidden"
+              "forbidden": "Acceso denegado"
             }
           }
         },
         "recovery": {
           "gracePeriod": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "invalidSession": "Invalid session",
-              "invalidJsonPayload": "Invalid JSON payload"
+              "notAuthenticated": "No autenticado",
+              "invalidSession": "Sesión no válida",
+              "invalidJsonPayload": "Datos JSON no válidos"
             }
           },
           "lookup": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "invalidSession": "Invalid session",
-              "unauthorized": "Unauthorized"
+              "notAuthenticated": "No autenticado",
+              "invalidSession": "Sesión no válida",
+              "unauthorized": "No autorizado"
             }
           },
           "submissions": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "invalidSession": "Invalid session",
-              "unauthorized": "Unauthorized",
-              "recoverySubmissionLogStoreIsUnavailable": "Recovery submission log store is unavailable",
-              "invalidUsernameFilter": "Invalid username filter"
+              "notAuthenticated": "No autenticado",
+              "invalidSession": "Sesión no válida",
+              "unauthorized": "No autorizado",
+              "recoverySubmissionLogStoreIsUnavailable": "El registro de solicitudes de recuperación no está disponible",
+              "invalidUsernameFilter": "Filtro de nombre de usuario no válido"
             }
           },
           "tickets": {
             "route": {
-              "notAuthenticated": "Not authenticated",
-              "invalidSession": "Invalid session",
-              "unauthorized": "Unauthorized",
-              "recoveryTicketStoreIsUnavailable": "Recovery ticket store is unavailable",
-              "invalidJsonPayload": "Invalid JSON payload",
-              "ticketNotFound": "Ticket not found",
-              "ticketHasAlreadyBeenReviewed": "Ticket has already been reviewed.",
-              "targetEmailIsAlreadyLinkedToAnotherAccount": "Target email is already linked to another account."
+              "notAuthenticated": "No autenticado",
+              "invalidSession": "Sesión no válida",
+              "unauthorized": "No autorizado",
+              "recoveryTicketStoreIsUnavailable": "El almacenamiento de tickets de recuperación no está disponible",
+              "invalidJsonPayload": "Datos JSON no válidos",
+              "ticketNotFound": "Ticket no encontrado",
+              "ticketHasAlreadyBeenReviewed": "Este ticket ya fue revisado.",
+              "targetEmailIsAlreadyLinkedToAnotherAccount": "El correo de destino ya está vinculado a otra cuenta."
             }
           }
         }
@@ -121,19 +121,19 @@
       "analytics": {
         "transactions": {
           "route": {
-            "authenticationRequired": "Authentication required",
-            "insufficientPermissions": "Insufficient permissions",
-            "invalidPagination": "Invalid pagination",
-            "failedToFetchTransactions": "Failed to fetch transactions"
+            "authenticationRequired": "Se requiere autenticación",
+            "insufficientPermissions": "Permisos insuficientes",
+            "invalidPagination": "Paginación no válida",
+            "failedToFetchTransactions": "No se pudieron obtener las transacciones"
           }
         },
         "users": {
           "username": {
             "transactions": {
               "route": {
-                "notAuthorized": "Not authorized",
-                "invalidLimit": "Invalid limit",
-                "failedToFetchUserTransactions": "Failed to fetch user transactions"
+                "notAuthorized": "No autorizado",
+                "invalidLimit": "Límite no válido",
+                "failedToFetchUserTransactions": "No se pudieron obtener las transacciones del usuario"
               }
             }
           }
@@ -143,367 +143,367 @@
         "logs": {
           "route": {
             "antispamMessagesValue1": "antispam_messages:{{value1}}",
-            "failedToFetchAntispamLogs": "Failed to fetch antispam logs"
+            "failedToFetchAntispamLogs": "No se pudieron obtener los registros de antispam"
           }
         }
       },
       "cigarLeaderboard": {
         "route": {
-          "failedToFetchCigarLeaderboardData": "Failed to fetch cigar leaderboard data"
+          "failedToFetchCigarLeaderboardData": "No se pudieron obtener los datos de la clasificación de cigarros"
         }
       },
       "commands": {
         "route": {
-          "failedToFetchCommands": "Failed to fetch commands"
+          "failedToFetchCommands": "No se pudieron obtener los comandos"
         }
       },
       "communityEvent": {
         "history": {
           "route": {
-            "tooManyRequests": "Too many requests",
-            "communityEventHistoryIsTemporarilyUnavailable": "Community event history is temporarily unavailable"
+            "tooManyRequests": "Demasiadas solicitudes",
+            "communityEventHistoryIsTemporarilyUnavailable": "El historial del evento comunitario no está disponible temporalmente"
           }
         },
         "route": {
-          "tooManyRequests": "Too many requests",
-          "communityEventIsTemporarilyUnavailable": "Community event is temporarily unavailable"
+          "tooManyRequests": "Demasiadas solicitudes",
+          "communityEventIsTemporarilyUnavailable": "El evento comunitario no está disponible temporalmente"
         }
       },
       "communityPoints": {
         "history": {
           "route": {
-            "failedToFetchCompletionHistory": "Failed to fetch completion history"
+            "failedToFetchCompletionHistory": "No se pudo obtener el historial de finalización"
           }
         },
         "route": {
-          "notAuthenticated": "Not authenticated",
-          "unauthorized": "Unauthorized",
-          "invalidRanktypeValue1": "Invalid rankType: {{value1}}",
-          "failedToAddPoints": "Failed to add points"
+          "notAuthenticated": "No autenticado",
+          "unauthorized": "No autorizado",
+          "invalidRanktypeValue1": "rankType no válido: {{value1}}",
+          "failedToAddPoints": "No se pudieron añadir los puntos"
         }
       },
       "creem": {
         "route": {
-          "webhookServiceIsNotConfigured": "Webhook service is not configured"
+          "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado"
         }
       },
       "dbStatus": {
         "route": {
-          "thisEndpointIsOnlyAvailableInDevelopment": "This endpoint is only available in development",
-          "legendplayerModelNotAvailable": "LegendPlayer model not available",
+          "thisEndpointIsOnlyAvailableInDevelopment": "Este endpoint solo está disponible en desarrollo",
+          "legendplayerModelNotAvailable": "El modelo LegendPlayer no está disponible",
           "playerData": "player_data",
-          "databaseCheckFailed": "Database check failed"
+          "databaseCheckFailed": "Falló la comprobación de la base de datos"
         }
       },
       "discord": {
         "motd": {
           "interactions": {
             "route": {
-              "invalidRequestSignature": "Invalid request signature",
-              "invalidJsonPayload": "Invalid JSON payload"
+              "invalidRequestSignature": "Firma de solicitud no válida",
+              "invalidJsonPayload": "Datos JSON no válidos"
             }
           },
           "review": {
             "route": {
-              "unauthorized": "Unauthorized",
-              "invalidJsonPayload": "Invalid JSON payload",
-              "youDoNotHavePermissionToReviewMotds": "You do not have permission to review MOTDs."
+              "unauthorized": "No autorizado",
+              "invalidJsonPayload": "Datos JSON no válidos",
+              "youDoNotHavePermissionToReviewMotds": "No tienes permiso para revisar MOTD."
             }
           }
         },
         "registerRoles": {
           "route": {
-            "firstJoinDate": "First Join Date",
-            "daysMinimumBetweenNowAndFirstJoinDate": "Days minimum between now and first join date",
-            "hoursOfTotalPlaytime": "Hours of total playtime",
-            "hoursMinimumOfTotalPlaytime": "Hours minimum of total playtime",
-            "hoursPlayedLast30Days": "Hours played last 30 days",
-            "hoursMinimumPlayedInTheLast30Days": "Hours minimum played in the last 30 days",
-            "rank": "Rank",
-            "matchingRank": "Matching Rank",
-            "firstJoinYear": "First Join Year",
-            "yearTheUserFirstJoined": "Year the user first joined"
+            "firstJoinDate": "Fecha de primera conexión",
+            "daysMinimumBetweenNowAndFirstJoinDate": "Mínimo de días entre hoy y la primera conexión",
+            "hoursOfTotalPlaytime": "Horas totales de juego",
+            "hoursMinimumOfTotalPlaytime": "Mínimo de horas totales de juego",
+            "hoursPlayedLast30Days": "Horas jugadas en los últimos 30 días",
+            "hoursMinimumPlayedInTheLast30Days": "Mínimo de horas jugadas en los últimos 30 días",
+            "rank": "Rango",
+            "matchingRank": "Rango correspondiente",
+            "firstJoinYear": "Año de primera conexión",
+            "yearTheUserFirstJoined": "Año en que el usuario se conectó por primera vez"
           }
         },
         "widget": {
           "route": {
-            "failedToFetchDiscordData": "Failed to fetch Discord data"
+            "failedToFetchDiscordData": "No se pudieron obtener los datos de Discord"
           }
         }
       },
       "gallery": {
         "id": {
           "route": {
-            "imageIdIsRequired": "Image ID is required",
-            "imageNotFound": "Image not found",
-            "failedToFetchImageData": "Failed to fetch image data"
+            "imageIdIsRequired": "Se requiere el ID de la imagen",
+            "imageNotFound": "Imagen no encontrada",
+            "failedToFetchImageData": "No se pudieron obtener los datos de la imagen"
           }
         },
         "route": {
-          "failedToFetchGalleryData": "Failed to fetch gallery data"
+          "failedToFetchGalleryData": "No se pudieron obtener los datos de la galería"
         }
       },
       "internal": {
         "communityEvent": {
           "deliver": {
             "route": {
-              "unauthorized": "Unauthorized",
-              "outboxDeliveryFailed": "Outbox delivery failed"
+              "unauthorized": "No autorizado",
+              "outboxDeliveryFailed": "Falló la entrega de la bandeja de salida"
             }
           }
         }
       },
       "legendData": {
         "route": {
-          "usernameParameterIsRequired": "Username parameter is required",
-          "noThemeFound": "No theme found",
-          "internalServerError": "Internal server error"
+          "usernameParameterIsRequired": "Se requiere el parámetro de nombre de usuario",
+          "noThemeFound": "No se encontró ningún tema",
+          "internalServerError": "Error interno del servidor"
         }
       },
       "legendSubscribers": {
         "route": {
-          "unableToLoadLegendSubscribers": "Unable to load legend subscribers"
+          "unableToLoadLegendSubscribers": "No se pudieron cargar los suscriptores de Legend"
         }
       },
       "media": {
         "path": {
           "route": {
-            "noFilePathProvided": "No file path provided",
-            "invalidFilePath": "Invalid file path",
-            "fileNotFound": "File not found",
-            "notAFile": "Not a file",
-            "internalServerError": "Internal server error"
+            "noFilePathProvided": "No se proporcionó una ruta de archivo",
+            "invalidFilePath": "Ruta de archivo no válida",
+            "fileNotFound": "Archivo no encontrado",
+            "notAFile": "No es un archivo",
+            "internalServerError": "Error interno del servidor"
           }
         }
       },
       "migrateRedisLinkToMariadb": {
         "route": {
-          "migrationAuthorizationRequired": "Migration authorization required",
-          "usePostToTriggerTheMigration": "Use POST to trigger the migration."
+          "migrationAuthorizationRequired": "Se requiere autorización para la migración",
+          "usePostToTriggerTheMigration": "Utiliza POST para iniciar la migración."
         }
       },
       "monitoring": {
         "discordTest": {
           "route": {
-            "discordWebhookNotConfigured": "Discord webhook not configured",
-            "discordWebhookTestSentSuccessfully": "Discord webhook test sent successfully",
-            "discordWebhookTestFailed": "Discord webhook test failed",
-            "internalServerErrorDuringDiscordTest": "Internal server error during Discord test"
+            "discordWebhookNotConfigured": "El webhook de Discord no está configurado",
+            "discordWebhookTestSentSuccessfully": "Prueba del webhook de Discord enviada correctamente",
+            "discordWebhookTestFailed": "Falló la prueba del webhook de Discord",
+            "internalServerErrorDuringDiscordTest": "Error interno del servidor durante la prueba de Discord"
           }
         },
         "errorReport": {
           "resolve": {
             "route": {
-              "errorNotFound": "Error not found",
-              "errorMarkedAsResolved": "Error marked as resolved",
-              "internalServerError": "Internal server error"
+              "errorNotFound": "Error no encontrado",
+              "errorMarkedAsResolved": "Error marcado como resuelto",
+              "internalServerError": "Error interno del servidor"
             }
           },
           "route": {
-            "reportIsTooLarge": "Report is too large",
-            "invalidJson": "Invalid JSON",
-            "invalidErrorReport": "Invalid error report",
-            "tooManyReports": "Too many reports",
-            "errorLoggedSuccessfully": "Error logged successfully",
-            "internalServerError": "Internal server error"
+            "reportIsTooLarge": "El informe es demasiado grande",
+            "invalidJson": "JSON no válido",
+            "invalidErrorReport": "Informe de error no válido",
+            "tooManyReports": "Demasiados informes",
+            "errorLoggedSuccessfully": "Error registrado correctamente",
+            "internalServerError": "Error interno del servidor"
           }
         }
       },
       "motd": {
         "cron": {
           "route": {
-            "motdCronSecretIsNotConfigured": "MOTD_CRON_SECRET is not configured",
-            "unauthorized": "Unauthorized"
+            "motdCronSecretIsNotConfigured": "MOTD_CRON_SECRET no está configurado",
+            "unauthorized": "No autorizado"
           }
         },
         "myAds": {
           "route": {
-            "notAuthenticated": "Not authenticated",
-            "motdAdStoreIsUnavailable": "MOTD ad store is unavailable"
+            "notAuthenticated": "No autenticado",
+            "motdAdStoreIsUnavailable": "El almacenamiento de anuncios MOTD no está disponible"
           }
         }
       },
       "playerEffect": {
         "uuid": {
-          "missingOrInvalidUuid": "Missing or invalid uuid",
-          "noEffectFoundForThisPlayer": "No effect found for this player"
+          "missingOrInvalidUuid": "UUID ausente o no válido",
+          "noEffectFoundForThisPlayer": "No se encontró ningún efecto para este jugador"
         }
       },
       "playerHistory": {
         "route": {
-          "schedulerAuthorizationRequired": "Scheduler authorization required",
-          "playerHistoryRecordedSuccessfully": "Player history recorded successfully",
-          "failedToRecordPlayerHistory": "Failed to record player history",
-          "invalidOrExcessiveDateRange": "Invalid or excessive date range",
-          "tooManyDataPointsRequested": "Too many data points requested",
-          "failedToFetchPlayerHistory": "Failed to fetch player history"
+          "schedulerAuthorizationRequired": "Se requiere autorización del programador",
+          "playerHistoryRecordedSuccessfully": "Historial del jugador registrado correctamente",
+          "failedToRecordPlayerHistory": "No se pudo registrar el historial del jugador",
+          "invalidOrExcessiveDateRange": "Rango de fechas no válido o demasiado amplio",
+          "tooManyDataPointsRequested": "Se solicitaron demasiados puntos de datos",
+          "failedToFetchPlayerHistory": "No se pudo obtener el historial del jugador"
         }
       },
       "players": {
         "route": {
-          "playerListUnavailableFromCommandServiceUsingPublicServer": "Player list unavailable from command service; using public server status count."
+          "playerListUnavailableFromCommandServiceUsingPublicServer": "La lista de jugadores no está disponible desde el servicio de comandos; se utilizará el número de jugadores del estado público del servidor."
         }
       },
       "printify": {
         "webhook": {
           "route": {
-            "payloadTooLarge": "Payload too large",
-            "invalidSignature": "Invalid signature",
-            "invalidJson": "Invalid JSON",
-            "unexpectedResource": "Unexpected resource"
+            "payloadTooLarge": "Los datos enviados son demasiado grandes",
+            "invalidSignature": "Firma no válida",
+            "invalidJson": "JSON no válido",
+            "unexpectedResource": "Recurso inesperado"
           }
         }
       },
       "recover": {
         "blockChallenge": {
           "route": {
-            "invalidJsonPayload": "Invalid JSON payload",
-            "missingOrInvalidBlockToken": "Missing or invalid block token."
+            "invalidJsonPayload": "Datos JSON no válidos",
+            "missingOrInvalidBlockToken": "Token de bloqueo ausente o no válido."
           }
         },
         "manual": {
           "route": {
-            "invalidJsonPayload": "Invalid JSON payload",
-            "captchaVerificationFailed": "Captcha verification failed",
-            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "Recovery session expired or invalid. Please restart recovery.",
-            "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
-            "manualReviewIsNotAvailableForThisRecoverySession": "Manual review is not available for this recovery session yet. Continue the recovery flow first.",
-            "recoveryTicketStoreIsUnavailable": "Recovery ticket store is unavailable",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "A pending manual review ticket already exists for this account. Please wait for review.",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Manual recovery ticket submitted successfully. The support team will review it."
+            "invalidJsonPayload": "Datos JSON no válidos",
+            "captchaVerificationFailed": "Falló la verificación CAPTCHA",
+            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "La sesión de recuperación expiró o no es válida. Reinicia el proceso de recuperación.",
+            "yourRequestWasReceivedIfTheAccountExistsAnd": "Tu solicitud fue recibida. Si la cuenta existe y las pruebas proporcionadas pueden verificarse, el equipo de soporte se pondrá en contacto contigo.",
+            "manualReviewIsNotAvailableForThisRecoverySession": "La revisión manual aún no está disponible para esta sesión de recuperación. Continúa primero con el proceso de recuperación.",
+            "recoveryTicketStoreIsUnavailable": "El almacenamiento de tickets de recuperación no está disponible",
+            "aPendingManualReviewTicketAlreadyExistsForThis": "Ya existe un ticket de revisión manual pendiente para esta cuenta. Espera a que sea revisado.",
+            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "El ticket de recuperación manual se envió correctamente. El equipo de soporte lo revisará."
           }
         },
         "resetPassword": {
           "route": {
-            "invalidJsonPayload": "Invalid JSON payload",
-            "invalidOrMissingResetToken": "Invalid or missing reset token.",
-            "passwordMustBeAtLeast8Characters": "Password must be at least 8 characters.",
-            "passwordIsTooLong": "Password is too long.",
-            "resetLinkHasExpiredOrIsInvalidPleaseContact": "Reset link has expired or is invalid. Please contact support."
+            "invalidJsonPayload": "Datos JSON no válidos",
+            "invalidOrMissingResetToken": "Token de restablecimiento ausente o no válido.",
+            "passwordMustBeAtLeast8Characters": "La contraseña debe tener al menos 8 caracteres.",
+            "passwordIsTooLong": "La contraseña es demasiado larga.",
+            "resetLinkHasExpiredOrIsInvalidPleaseContact": "El enlace de restablecimiento expiró o no es válido. Contacta con soporte."
           }
         },
         "route": {
-          "ifThisAccountExistsRecoveryOptionsWillBeShown": "If this account exists, recovery options will be shown.",
+          "ifThisAccountExistsRecoveryOptionsWillBeShown": "Si esta cuenta existe, se mostrarán las opciones de recuperación.",
           "verificationAlreadyIssued": "verification_already_issued",
-          "captchaVerificationFailed": "Captcha verification failed",
-          "tooManyRecoveryAttemptsPleaseTryAgainLater": "Too many recovery attempts. Please try again later.",
+          "captchaVerificationFailed": "Falló la verificación CAPTCHA",
+          "tooManyRecoveryAttemptsPleaseTryAgainLater": "Demasiados intentos de recuperación. Inténtalo de nuevo más tarde.",
           "rowdatapacket": "RowDataPacket",
-          "recoverySessionExpiredPleaseStartAgain": "Recovery session expired. Please start again.",
-          "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "Automatic verification is unavailable. Submit a manual review request if you believe you own this account.",
-          "recoverySessionInvalidOrExpired": "Recovery session invalid or expired.",
-          "recoverySessionExpiredPleaseRestart": "Recovery session expired. Please restart.",
-          "invalidLaneForScoreStep": "Invalid lane for score step.",
-          "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "Automatic recovery is temporarily locked for this account after failed verification attempts. Submit manual review or try again later.",
-          "publicProofHasAlreadyBeenSubmittedForThisSession": "Public proof has already been submitted for this session. Continue with the next step or restart recovery.",
-          "identityScorePassedHoweverDueToAccountSecurityPolicies": "Identity score passed. However, due to account security policies, manual review is required.",
-          "identityScorePassedButANewEmailIsRequired": "Identity score passed, but a new email is required to continue automated recovery.",
-          "identityScorePassedButWeCouldNotDeliverA": "Identity score passed, but we could not deliver a verification email. Submit manual review.",
-          "identityScorePassedEnterTheVerificationCodeSentTo": "Identity score passed. Enter the verification code sent to your new email.",
-          "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "Additional private details are required before a final decision can be made.",
-          "ifAnAccountWithThisUsernameExistsAndIs": "If an account with this username exists and is recoverable, email instructions will be sent.",
-          "publicScoreStepMustBeCompletedFirst": "Public score step must be completed first.",
-          "privateProofHasAlreadyBeenSubmittedForThisSession": "Private proof has already been submitted for this session. Submit manual review or restart recovery.",
-          "identityScorePassedButNoNewEmailWasProvided": "Identity score passed, but no new email was provided. Submit manual review.",
-          "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "Automatic verification failed after private checks. Submit a manual review ticket.",
-          "noPendingEmailVerificationInThisSession": "No pending email verification in this session.",
-          "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "Maximum verification attempts reached. Recovery session has been invalidated. Please start again.",
-          "verificationCodeExpiredOrIsNoLongerValid": "Verification code expired or is no longer valid.",
-          "invalidVerificationCode": "Invalid verification code.",
-          "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "This email address is already associated with another account.",
-          "emailVerifiedYouCanProceedToPasswordReset": "Email verified. You can proceed to password reset.",
-          "theGracePeriodIsStillActivePleaseWaitFor": "The grace period is still active. Please wait for it to elapse.",
-          "theGracePeriodHasElapsedYouMayNowStart": "The grace period has elapsed. You may now start a new recovery session to proceed with identity verification.",
-          "noActiveGracePeriodChallengeFoundForThisAccount": "No active grace period challenge found for this account.",
-          "invalidRecoverySession": "Invalid recovery session.",
-          "sessionHasNotBeenApprovedForPasswordResetComplete": "Session has not been approved for password reset. Complete email verification first.",
-          "passwordResetIsAlreadyBeingProcessedForThisSession": "Password reset is already being processed for this session.",
-          "invalidJsonPayload": "Invalid JSON payload",
-          "invalidRecoveryAction": "Invalid recovery action",
-          "unhandledRecoveryAction": "Unhandled recovery action"
+          "recoverySessionExpiredPleaseStartAgain": "La sesión de recuperación expiró. Comienza de nuevo.",
+          "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "La verificación automática no está disponible. Envía una solicitud de revisión manual si crees que eres el propietario de esta cuenta.",
+          "recoverySessionInvalidOrExpired": "La sesión de recuperación no es válida o ha expirado.",
+          "recoverySessionExpiredPleaseRestart": "La sesión de recuperación expiró. Reiníciala.",
+          "invalidLaneForScoreStep": "Ruta no válida para el paso de puntuación.",
+          "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "La recuperación automática de esta cuenta está bloqueada temporalmente tras varios intentos de verificación fallidos. Solicita una revisión manual o inténtalo de nuevo más tarde.",
+          "publicProofHasAlreadyBeenSubmittedForThisSession": "Las pruebas públicas ya fueron enviadas para esta sesión. Continúa con el siguiente paso o reinicia la recuperación.",
+          "identityScorePassedHoweverDueToAccountSecurityPolicies": "La puntuación de identidad fue suficiente. Sin embargo, las políticas de seguridad de la cuenta requieren una revisión manual.",
+          "identityScorePassedButANewEmailIsRequired": "La puntuación de identidad fue suficiente, pero se requiere un nuevo correo electrónico para continuar con la recuperación automática.",
+          "identityScorePassedButWeCouldNotDeliverA": "La puntuación de identidad fue suficiente, pero no pudimos enviar el correo de verificación. Solicita una revisión manual.",
+          "identityScorePassedEnterTheVerificationCodeSentTo": "La puntuación de identidad fue suficiente. Introduce el código de verificación enviado a tu nuevo correo electrónico.",
+          "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "Se necesitan datos privados adicionales antes de tomar una decisión final.",
+          "ifAnAccountWithThisUsernameExistsAndIs": "Si existe una cuenta recuperable con este nombre de usuario, se enviarán instrucciones por correo electrónico.",
+          "publicScoreStepMustBeCompletedFirst": "Primero debes completar el paso de puntuación pública.",
+          "privateProofHasAlreadyBeenSubmittedForThisSession": "Las pruebas privadas ya fueron enviadas para esta sesión. Solicita una revisión manual o reinicia la recuperación.",
+          "identityScorePassedButNoNewEmailWasProvided": "La puntuación de identidad fue suficiente, pero no se proporcionó un nuevo correo electrónico. Solicita una revisión manual.",
+          "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "La verificación automática falló después de las comprobaciones privadas. Envía un ticket de revisión manual.",
+          "noPendingEmailVerificationInThisSession": "No hay ninguna verificación de correo pendiente en esta sesión.",
+          "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "Se alcanzó el número máximo de intentos de verificación. La sesión de recuperación fue invalidada. Comienza de nuevo.",
+          "verificationCodeExpiredOrIsNoLongerValid": "El código de verificación expiró o ya no es válido.",
+          "invalidVerificationCode": "Código de verificación no válido.",
+          "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "Esta dirección de correo electrónico ya está asociada a otra cuenta.",
+          "emailVerifiedYouCanProceedToPasswordReset": "Correo electrónico verificado. Ya puedes continuar con el restablecimiento de la contraseña.",
+          "theGracePeriodIsStillActivePleaseWaitFor": "El período de gracia sigue activo. Espera a que finalice.",
+          "theGracePeriodHasElapsedYouMayNowStart": "El período de gracia terminó. Ya puedes iniciar una nueva sesión de recuperación para continuar con la verificación de identidad.",
+          "noActiveGracePeriodChallengeFoundForThisAccount": "No se encontró ningún período de gracia activo para esta cuenta.",
+          "invalidRecoverySession": "Sesión de recuperación no válida.",
+          "sessionHasNotBeenApprovedForPasswordResetComplete": "La sesión no ha sido aprobada para restablecer la contraseña. Completa primero la verificación del correo electrónico.",
+          "passwordResetIsAlreadyBeingProcessedForThisSession": "El restablecimiento de contraseña ya se está procesando para esta sesión.",
+          "invalidJsonPayload": "Datos JSON no válidos",
+          "invalidRecoveryAction": "Acción de recuperación no válida",
+          "unhandledRecoveryAction": "Acción de recuperación no gestionada"
         }
       },
       "route": {
-        "text6b6tOrgMetadataApi": "6b6t.org Metadata API"
+        "text6b6tOrgMetadataApi": "API de metadatos de 6b6t.org"
       },
       "serverStatus": {
         "route": {
-          "unknown": "Unknown",
+          "unknown": "Desconocido",
           "error": "Error",
-          "failedToFetchServerStatus": "Failed to fetch server status"
+          "failedToFetchServerStatus": "No se pudo obtener el estado del servidor"
         }
       },
       "stripe": {
         "route": {
-          "webhookErrorValue1": "Webhook Error: {{value1}}",
-          "alreadyProcessed": "Already processed",
-          "received": "Received",
-          "unhandledEventType": "Unhandled event type",
-          "webhookHandlerFailed": "Webhook handler failed"
+          "webhookErrorValue1": "Error del webhook: {{value1}}",
+          "alreadyProcessed": "Ya procesado",
+          "received": "Recibido",
+          "unhandledEventType": "Tipo de evento no gestionado",
+          "webhookHandlerFailed": "Falló el procesamiento del webhook"
         }
       },
       "tebex": {
         "route": {
-          "payloadTooLarge": "Payload too large",
-          "missingSignature": "Missing signature",
-          "invalidSignature": "Invalid signature",
-          "webhookServiceIsNotConfigured": "Webhook service is not configured",
-          "webhookProcessingFailed": "Webhook processing failed"
+          "payloadTooLarge": "Los datos enviados son demasiado grandes",
+          "missingSignature": "Falta la firma",
+          "invalidSignature": "Firma no válida",
+          "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado",
+          "webhookProcessingFailed": "Falló el procesamiento del webhook"
         }
       },
       "telegram": {
         "reconcile": {
           "route": {
-            "missingTelegramReconcileCronSecret": "Missing TELEGRAM_RECONCILE_CRON_SECRET.",
-            "unauthorized": "Unauthorized."
+            "missingTelegramReconcileCronSecret": "Falta TELEGRAM_RECONCILE_CRON_SECRET.",
+            "unauthorized": "No autorizado."
           }
         },
         "start": {
           "route": {
-            "youMustBeLoggedInToLinkTelegram": "You must be logged in to link Telegram.",
-            "telegramLinkingIsNotEnabledForYourAccountYet": "Telegram linking is not enabled for your account yet.",
-            "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "Telegram login is not configured. Missing TELEGRAM_BOT_USERNAME.",
-            "invalidJsonBody": "Invalid JSON body.",
-            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Telegram login is not configured. Missing COOKIE_SECRET on server."
+            "youMustBeLoggedInToLinkTelegram": "Debes iniciar sesión para vincular Telegram.",
+            "telegramLinkingIsNotEnabledForYourAccountYet": "La vinculación con Telegram aún no está habilitada para tu cuenta.",
+            "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "El inicio de sesión con Telegram no está configurado. Falta TELEGRAM_BOT_USERNAME.",
+            "invalidJsonBody": "Contenido JSON no válido.",
+            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "El inicio de sesión con Telegram no está configurado. Falta COOKIE_SECRET en el servidor."
           }
         },
         "webhook": {
           "route": {
-            "missingTelegramWebhookSecret": "Missing TELEGRAM_WEBHOOK_SECRET.",
-            "unauthorizedWebhookRequest": "Unauthorized webhook request.",
-            "missingTelegramChannelId": "Missing TELEGRAM_CHANNEL_ID.",
-            "invalidJsonPayload": "Invalid JSON payload.",
-            "failedToRevokeTelegramPerks": "Failed to revoke Telegram perks.",
-            "failedToRemoveMembershipMapping": "Failed to remove membership mapping.",
-            "failedToUpdateMembershipState": "Failed to update membership state.",
-            "failedToGrantTelegramPerks": "Failed to grant Telegram perks.",
-            "failedToFinalizeTelegramPerksState": "Failed to finalize Telegram perks state."
+            "missingTelegramWebhookSecret": "Falta TELEGRAM_WEBHOOK_SECRET.",
+            "unauthorizedWebhookRequest": "Solicitud de webhook no autorizada.",
+            "missingTelegramChannelId": "Falta TELEGRAM_CHANNEL_ID.",
+            "invalidJsonPayload": "Datos JSON no válidos.",
+            "failedToRevokeTelegramPerks": "No se pudieron revocar los beneficios de Telegram.",
+            "failedToRemoveMembershipMapping": "No se pudo eliminar la vinculación de membresía.",
+            "failedToUpdateMembershipState": "No se pudo actualizar el estado de la membresía.",
+            "failedToGrantTelegramPerks": "No se pudieron otorgar los beneficios de Telegram.",
+            "failedToFinalizeTelegramPerksState": "No se pudo finalizar el estado de los beneficios de Telegram."
           }
         }
       },
       "uptime": {
         "route": {
-          "schedulerAuthorizationRequired": "Scheduler authorization required",
-          "serverUptimeCheckCompleted": "Server uptime check completed",
-          "failedToCheckServerUptime": "Failed to check server uptime",
-          "serveruptimeModelNotAvailable": "ServerUptime model not available",
-          "failedToFetchUptimeData": "Failed to fetch uptime data"
+          "schedulerAuthorizationRequired": "Se requiere autorización del programador",
+          "serverUptimeCheckCompleted": "Comprobación del tiempo de actividad del servidor completada",
+          "failedToCheckServerUptime": "No se pudo comprobar el tiempo de actividad del servidor",
+          "serveruptimeModelNotAvailable": "El modelo ServerUptime no está disponible",
+          "failedToFetchUptimeData": "No se pudieron obtener los datos de tiempo de actividad"
         }
       },
       "youtube": {
         "channel": {
           "route": {
-            "youtubeApiNotConfigured": "YouTube API not configured",
-            "noChannelsFoundFor6b6t": "No channels found for 6b6t"
+            "youtubeApiNotConfigured": "La API de YouTube no está configurada",
+            "noChannelsFoundFor6b6t": "No se encontraron canales de 6b6t"
           }
         },
         "shorts": {
           "route": {
-            "maxres1280x720": "maxres (1280x720)",
-            "standard640x480": "standard (640x480)",
-            "youtubeApiNotConfigured": "YouTube API not configured",
-            "text6b6tChannelNotFound": "6b6t channel not found",
-            "noVideosFoundForThisChannel": "No videos found for this channel",
-            "noYoutubeShortsFoundForThisChannel": "No YouTube Shorts found for this channel"
+            "maxres1280x720": "resolución máxima (1280x720)",
+            "standard640x480": "estándar (640x480)",
+            "youtubeApiNotConfigured": "La API de YouTube no está configurada",
+            "text6b6tChannelNotFound": "No se encontró el canal de 6b6t",
+            "noVideosFoundForThisChannel": "No se encontraron videos en este canal",
+            "noYoutubeShortsFoundForThisChannel": "No se encontraron YouTube Shorts en este canal"
           }
         }
       }
@@ -511,22 +511,22 @@
     "lib": {
       "admin": {
         "auth": {
-          "adminModelNotAvailable": "Admin model not available",
-          "adminWithThisEmailAlreadyExists": "Admin with this email already exists",
-          "invalidCredentials": "Invalid credentials",
-          "databaseModelNotAvailable": "Database model not available",
-          "adminSessionNotFound": "Admin session not found",
-          "adminNotFound": "Admin not found"
+          "adminModelNotAvailable": "El modelo Admin no está disponible",
+          "adminWithThisEmailAlreadyExists": "Ya existe un administrador con este correo electrónico",
+          "invalidCredentials": "Credenciales no válidas",
+          "databaseModelNotAvailable": "El modelo de base de datos no está disponible",
+          "adminSessionNotFound": "No se encontró la sesión del administrador",
+          "adminNotFound": "Administrador no encontrado"
         },
         "monitoringAuth": {
-          "notAuthenticated": "Not authenticated",
-          "invalidSession": "Invalid session",
-          "unauthorized": "Unauthorized"
+          "notAuthenticated": "No autenticado",
+          "invalidSession": "Sesión no válida",
+          "unauthorized": "No autorizado"
         },
         "motdAuth": {
-          "notAuthenticated": "Not authenticated",
-          "invalidSession": "Invalid session",
-          "unauthorized": "Unauthorized"
+          "notAuthenticated": "No autenticado",
+          "invalidSession": "Sesión no válida",
+          "unauthorized": "No autorizado"
         }
       },
       "antispam": {
@@ -545,93 +545,93 @@
         }
       },
       "communityEvent": {
-        "rank": "Rank",
+        "rank": "Rango",
         "legend": "Legend",
         "apex": "Apex",
         "elite": "Elite",
         "newlineNewlineNewlineNewlineNewlineValue1NewlineNewlineValue2": "<newline><newline><newline><newline><newline>{{value1}}<newline><newline>{{value2}}<newline>"
       },
       "communityGoal": {
-        "reachTheGoalByAugust14ToUnlockA": "Reach the goal by August 14 to unlock a powerful dupe across 6b6t for 72 hours. If the goal lands later, the event moves to the closest following weekend."
+        "reachTheGoalByAugust14ToUnlockA": "Alcanza la meta antes del 14 de agosto para desbloquear un poderoso dupe en todo 6b6t durante 72 horas. Si la meta se alcanza más tarde, el evento se trasladará al fin de semana siguiente más cercano."
       },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
-          "sendAPrivateMessageToAnyOnlinePlayer": "Send a private message to any online player",
-          "turnYourCrackedAccountIntoAPremiumAccount": "Turn your cracked account into a premium account.",
+          "sendAPrivateMessageToAnyOnlinePlayer": "Envía un mensaje privado a cualquier jugador conectado",
+          "turnYourCrackedAccountIntoAPremiumAccount": "Convierte tu cuenta cracked en una cuenta premium.",
           "replyR": "/reply, /r",
-          "sendAPrivateMessageToTheLastPersonWho": "Send a private message to the last person who sent you a private message",
+          "sendAPrivateMessageToTheLastPersonWho": "Envía un mensaje privado a la última persona que te envió un mensaje privado",
           "lastL": "/last, /l",
-          "sendAPrivateMessageToTheLastPersonYou": "Send a private message to the last person you messaged.",
+          "sendAPrivateMessageToTheLastPersonYou": "Envía un mensaje privado a la última persona a la que le escribiste.",
           "killSuicide": "/kill, /suicide",
-          "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "Ignores/blocks another player permanently. (Hides their messages in chat)",
-          "getAListOfEveryoneWhoYouIgnored": "Get a list of everyone who you ignored.",
+          "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "Ignora o bloquea permanentemente a otro jugador. (Oculta sus mensajes en el chat)",
+          "getAListOfEveryoneWhoYouIgnored": "Muestra una lista de todos los jugadores que has ignorado.",
           "ignorelistClear": "/ignorelist clear",
-          "unignoreAllPlayers": "Unignore all players.",
-          "showHideMessagesThatYouGetIntoPvpMode": "Show/hide messages that you get into PvP mode.",
+          "unignoreAllPlayers": "Deja de ignorar a todos los jugadores.",
+          "showHideMessagesThatYouGetIntoPvpMode": "Muestra u oculta los mensajes que indican que entraste en modo PvP.",
           "groupchatGc": "/groupchat, /gc",
-          "talkPrivatelyInAGroupchatWithMultiplePeople": "Talk privately in a groupchat with multiple people.",
-          "toggleViewingTheChat": "Toggle viewing the chat.",
+          "talkPrivatelyInAGroupchatWithMultiplePeople": "Habla en privado con varias personas mediante un chat grupal.",
+          "toggleViewingTheChat": "Activa o desactiva la visualización del chat.",
           "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
-          "turnsPrivateMessagesOnOrOffSoYouCan": "Turns private messages on or off so you can choose whether other players can message you.",
-          "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Toggles or customizes particle effects around your player.",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Skips the server lobby and sends you directly into the main world.",
-          "enableOrDisableViewingSpamMessagesInChat": "Enable or disable viewing spam messages in chat.",
-          "showHideChatMessagesOfPeopleJoiningTheServer": "Show/hide chat messages of people joining the server.",
+          "turnsPrivateMessagesOnOrOffSoYouCan": "Activa o desactiva los mensajes privados para que puedas elegir si otros jugadores pueden enviarte mensajes.",
+          "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Activa, desactiva o personaliza los efectos de partículas alrededor de tu jugador.",
+          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Omite el lobby del servidor y te envía directamente al mundo principal.",
+          "enableOrDisableViewingSpamMessagesInChat": "Activa o desactiva la visualización de mensajes de spam en el chat.",
+          "showHideChatMessagesOfPeopleJoiningTheServer": "Muestra u oculta los mensajes del chat cuando los jugadores entran al servidor.",
           "connectionmsgsColor": "/connectionmsgs color",
-          "changeTheColorOfConnectionMessagesInYourChat": "Change the color of connection messages in your chat.",
-          "showHideChatMessagesOfPeopleDying": "Show/hide chat messages of people dying.",
+          "changeTheColorOfConnectionMessagesInYourChat": "Cambia el color de los mensajes de conexión en tu chat.",
+          "showHideChatMessagesOfPeopleDying": "Muestra u oculta los mensajes del chat cuando mueren jugadores.",
           "deathmsgsColor": "/deathmsgs color",
-          "changeTheColorOfDeathMessagesInYourChat": "Change the color of death messages in your chat.",
-          "createsANewHomeAtYourCurrentLocation": "Creates a new home at your current location.",
-          "teleportToAHome": "Teleport to a home.",
+          "changeTheColorOfDeathMessagesInYourChat": "Cambia el color de los mensajes de muerte en tu chat.",
+          "createsANewHomeAtYourCurrentLocation": "Crea un nuevo home en tu ubicación actual.",
+          "teleportToAHome": "Teletranspórtate a un home.",
           "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Lists all your homes.",
-          "deletesAHome": "Deletes a home.",
-          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Cancels an active teleport to your home (useful if you triggered it by mistake).",
-          "renamesOneOfYourSavedHomesToSomethingDifferent": "Renames one of your saved homes to something different.",
-          "requestToTeleportToAnotherPlayer": "Request to teleport to another player.",
+          "listsAllYourHomes": "Muestra todos tus homes.",
+          "deletesAHome": "Elimina un home.",
+          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Cancela un teletransporte activo hacia tu home (útil si lo activaste por error).",
+          "renamesOneOfYourSavedHomesToSomethingDifferent": "Cambia el nombre de uno de tus homes guardados.",
+          "requestToTeleportToAnotherPlayer": "Solicita teletransportarte hacia otro jugador.",
           "tptoggleTpt": "/tptoggle, /tpt",
-          "hidesTeleportRequestsFromAllPlayers": "Hides teleport requests from all players.",
-          "acceptATpaRequest": "Accept a tpa request.",
-          "declineATpaRequest": "Decline a tpa request.",
-          "wearAnyItemOnYourHead": "Wear any item on your head.",
+          "hidesTeleportRequestsFromAllPlayers": "Oculta las solicitudes de teletransporte de todos los jugadores.",
+          "acceptATpaRequest": "Acepta una solicitud de /tpa.",
+          "declineATpaRequest": "Rechaza una solicitud de /tpa.",
+          "wearAnyItemOnYourHead": "Ponte cualquier objeto en la cabeza.",
           "invisframeIframe": "/invisframe, /iframe",
-          "toggleInvisibilityFrames": "Toggle invisibility frames.",
+          "toggleInvisibilityFrames": "Activa o desactiva los marcos invisibles.",
           "chatcolorCc": "/chatcolor, /cc",
-          "changeTheColorOfYourChatMessages": "Change the color of your chat messages.",
+          "changeTheColorOfYourChatMessages": "Cambia el color de tus mensajes en el chat.",
           "namecolorNc": "/namecolor, /nc",
-          "changeTheColorOfYourUsernameInChat": "Change the color of your username in chat.",
-          "lightUpACigar": "Light up a cigar",
-          "giveYourselfAGlowingEffect": "Give yourself a glowing effect.",
-          "teleportToTheGlobalHostspot": "Teleport to the global hostspot.",
+          "changeTheColorOfYourUsernameInChat": "Cambia el color de tu nombre de usuario en el chat.",
+          "lightUpACigar": "Enciende un cigarro",
+          "giveYourselfAGlowingEffect": "Aplícate un efecto de brillo.",
+          "teleportToTheGlobalHostspot": "Teletranspórtate al Hotspot global.",
           "hotspotCreate": "/hotspot create",
-          "createANewHotspotAtYourCurrentLocation": "Create a new hotspot at your current location.",
+          "createANewHotspotAtYourCurrentLocation": "Crea un nuevo Hotspot en tu ubicación actual.",
           "hotspotColor": "/hotspot color",
-          "changeTheColorOfTheHotspot": "Change the color of the hotspot.",
+          "changeTheColorOfTheHotspot": "Cambia el color del Hotspot.",
           "hotspotNotificationsHotspotNotify": "/hotspot notifications, /hotspot notify",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "Change how you view the hotspot notification or disable it",
+          "changeHowYouViewTheHotspotNotificationOrDisable": "Cambia cómo ves la notificación del Hotspot o desactívala",
           "hotspotCancel": "/hotspot cancel",
-          "cancelYourHotspot": "Cancel your hotspot",
+          "cancelYourHotspot": "Cancela tu Hotspot",
           "hotspotBalloon": "/hotspot balloon",
-          "giveABalloonToEveryoneAtYourHotspot": "Give a balloon to everyone at your hotspot.",
+          "giveABalloonToEveryoneAtYourHotspot": "Pon un globo a todos los jugadores de tu Hotspot.",
           "hotspotGlow": "/hotspot glow",
-          "giveAGlowToEveryoneAtYourHotspot": "Give a glow to everyone at your hotspot.",
+          "giveAGlowToEveryoneAtYourHotspot": "Aplica un efecto de brillo a todos los jugadores de tu Hotspot.",
           "hotspotName": "/hotspot name",
-          "changeTheNameOfYourHotspot": "Change the name of your hotspot.",
+          "changeTheNameOfYourHotspot": "Cambia el nombre de tu Hotspot.",
           "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspot": "See information about the current hotspot.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "Increase your view distance temporarily for building.",
+          "seeInformationAboutTheCurrentHotspot": "Consulta información sobre el Hotspot actual.",
+          "increaseYourViewDistanceTemporarilyForBuilding": "Aumenta temporalmente tu distancia de renderizado para construir.",
           "buildermodeHome": "/buildermode home",
-          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Enable buildermode when teleporting to the specified home.",
-          "putACosmeticBalloonOnYourHead": "Put a cosmetic balloon on your head.",
-          "sitOnAnyBlockToRest": "Sit on any block to rest.",
+          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Activa buildermode cuando te teletransportes al home especificado.",
+          "putACosmeticBalloonOnYourHead": "Ponte un globo cosmético sobre la cabeza.",
+          "sitOnAnyBlockToRest": "Siéntate en cualquier bloque para descansar.",
           "shopBuy": "/shop, /buy",
-          "getALinkToTheOfficial6b6tShop": "Get a link to the official 6b6t Shop.",
-          "showsTheVoteCountAndInstructionsToVote": "Shows the vote count and instructions to vote.",
-          "getAnInviteToThe6b6tDiscordServer": "Get an invite to the 6b6t Discord Server.",
-          "getALinkToThe6b6tWebsite": "Get a link to the 6b6t Website.",
-          "getALinkToThisWebpage": "Get a link to this webpage."
+          "getALinkToTheOfficial6b6tShop": "Obtén un enlace a la tienda oficial de 6b6t.",
+          "showsTheVoteCountAndInstructionsToVote": "Muestra tu cantidad de votos y las instrucciones para votar.",
+          "getAnInviteToThe6b6tDiscordServer": "Obtén una invitación al servidor de Discord de 6b6t.",
+          "getALinkToThe6b6tWebsite": "Obtén un enlace al sitio web de 6b6t.",
+          "getALinkToThisWebpage": "Obtén un enlace a esta página web."
         }
       },
       "db": {
@@ -641,22 +641,22 @@
           }
         },
         "shopAnalytics": {
-          "shopsessionModelNotAvailable": "ShopSession model not available",
-          "sessionUpdateReturnedNull": "Session update returned null",
-          "sessionNotFound": "Session not found",
-          "transactionModelNotAvailable": "Transaction model not available",
-          "transactionUpdateReturnedNull": "Transaction update returned null"
+          "shopsessionModelNotAvailable": "El modelo ShopSession no está disponible",
+          "sessionUpdateReturnedNull": "La actualización de la sesión devolvió null",
+          "sessionNotFound": "Sesión no encontrada",
+          "transactionModelNotAvailable": "El modelo Transaction no está disponible",
+          "transactionUpdateReturnedNull": "La actualización de la transacción devolvió null"
         }
       },
       "discordChangelog": {
-        "discordReturnedValue1ForValue2": "Discord returned {{value1}} for #{{value2}}"
+        "discordReturnedValue1ForValue2": "Discord devolvió {{value1}} para #{{value2}}"
       },
       "galleryUtil": {
-        "recentEpicBuild": "Recent Epic Build",
-        "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "A magnificent structure built in November 2024, showcasing the creativity of our players.",
-        "morningAdventures": "Morning Adventures",
-        "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "Early morning exploration revealing hidden treasures and landscapes.",
-        "legendGalleryFeature": "Legend Gallery Feature"
+        "recentEpicBuild": "Construcción épica reciente",
+        "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "Una magnífica estructura construida en noviembre de 2024 que demuestra la creatividad de nuestros jugadores.",
+        "morningAdventures": "Aventuras matutinas",
+        "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "Una exploración a primera hora de la mañana que revela tesoros ocultos y paisajes.",
+        "legendGalleryFeature": "Galería de Legend"
       },
       "link": {
         "mariadbClient": {
@@ -668,68 +668,68 @@
       },
       "motd": {
         "config": {
-          "text6Hours": "6 hours",
-          "text12Hours": "12 hours",
-          "text24Hours": "24 hours"
+          "text6Hours": "6 horas",
+          "text12Hours": "12 horas",
+          "text24Hours": "24 horas"
         },
         "discordReview": {
-          "motdReviewRequest": "MOTD Review Request",
-          "status": "Status",
-          "request": "Request",
-          "player": "Player",
-          "package": "Package",
-          "duration": "Duration",
-          "amount": "Amount",
+          "motdReviewRequest": "Solicitud de revisión de MOTD",
+          "status": "Estado",
+          "request": "Solicitud",
+          "player": "Jugador",
+          "package": "Paquete",
+          "duration": "Duración",
+          "amount": "Importe",
           "motd": "MOTD",
-          "revisionReason": "Revision reason",
-          "approve": "Approve",
-          "requestRevision": "Request Revision",
-          "requestMotdRevision": "Request MOTD Revision",
-          "reason": "Reason",
-          "explainWhatNeedsToBeChanged": "Explain what needs to be changed."
+          "revisionReason": "Motivo de la revisión",
+          "approve": "Aprobar",
+          "requestRevision": "Solicitar revisión",
+          "requestMotdRevision": "Solicitar revisión del MOTD",
+          "reason": "Motivo",
+          "explainWhatNeedsToBeChanged": "Explica qué debe cambiarse."
         },
         "email": {
           "smtpNotConfigured": "smtp_not_configured"
         },
         "minimessage": {
           "ᴀᴅ": "ᴀᴅ",
-          "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Unsupported MiniMessage tag <{{value1}}>. Only colors, bold, italic, underline, and strikethrough are allowed.",
-          "legacyMinecraftColorCodesAreNotAllowed": "Legacy Minecraft color codes are not allowed."
+          "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Etiqueta MiniMessage <{{value1}}> no compatible. Solo se permiten colores, negrita, cursiva, subrayado y tachado.",
+          "legacyMinecraftColorCodesAreNotAllowed": "Los códigos de color antiguos de Minecraft no están permitidos."
         },
         "notifications": {
-          "motdAdValue1": "MOTD ad {{value1}}",
-          "request": "Request",
-          "player": "Player",
-          "package": "Package",
-          "status": "Status",
+          "motdAdValue1": "Anuncio MOTD {{value1}}",
+          "request": "Solicitud",
+          "player": "Jugador",
+          "package": "Paquete",
+          "status": "Estado",
           "motd": "MOTD"
         },
         "payments": {
-          "duplicateCheckoutCompletedWebhookIgnored": "Duplicate checkout.completed webhook ignored"
+          "duplicateCheckoutCompletedWebhookIgnored": "Se ignoró un webhook checkout.completed duplicado"
         },
         "queue": {
-          "reservationReleasedAfterCheckoutCreationFailed": "Reservation released after checkout creation failed",
-          "noCustomerEmailWasAvailableFromThePaymentProvider": "No customer email was available from the payment provider"
+          "reservationReleasedAfterCheckoutCreationFailed": "La reserva fue liberada después de que fallara la creación del proceso de pago",
+          "noCustomerEmailWasAvailableFromThePaymentProvider": "El proveedor de pagos no proporcionó ningún correo electrónico del cliente"
         },
         "refunds": {
-          "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem refund endpoint is not configured; issue the refund in Creem and retry/confirm from the webhook.",
-          "creemApiKeyIsNotConfigured": "CREEM_API_KEY is not configured"
+          "creemRefundEndpointIsNotConfiguredIssueTheRefund": "El endpoint de reembolsos de Creem no está configurado; realiza el reembolso en Creem y vuelve a intentarlo o confírmalo desde el webhook.",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY no está configurada"
         }
       },
       "printify": {
         "claims": {
-          "physicalProductFulfillmentIsNotOpenYet": "Physical product fulfillment is not open yet.",
-          "physicalProductFulfillmentIsTemporarilyUnavailable": "Physical product fulfillment is temporarily unavailable."
+          "physicalProductFulfillmentIsNotOpenYet": "El despacho de productos físicos aún no está habilitado.",
+          "physicalProductFulfillmentIsTemporarilyUnavailable": "El despacho de productos físicos no está disponible temporalmente."
         },
         "email": {
-          "smtpIsNotConfigured": "SMTP is not configured"
+          "smtpIsNotConfigured": "SMTP no está configurado"
         },
         "historicalProducts": {
-          "apexRankPurchaseMousepad": "Apex rank purchase — mousepad",
-          "primeToApexUpgradeMousepad": "Prime to Apex upgrade — mousepad",
-          "eliteToApexUpgradeMousepad": "Elite to Apex upgrade — mousepad",
-          "legendRank3MonthsMug": "Legend rank (3 months) — mug",
-          "legendRankThreePaid1MonthPeriodsMug": "Legend rank (three paid 1-month periods) — mug"
+          "apexRankPurchaseMousepad": "Compra del rango Apex — mousepad",
+          "primeToApexUpgradeMousepad": "Mejora de Prime a Apex — mousepad",
+          "eliteToApexUpgradeMousepad": "Mejora de Elite a Apex — mousepad",
+          "legendRank3MonthsMug": "Rango Legend (3 meses) — taza",
+          "legendRankThreePaid1MonthPeriodsMug": "Rango Legend (tres períodos pagados de 1 mes) — taza"
         }
       },
       "rankColors": {
@@ -743,23 +743,23 @@
           "smtpNotConfigured": "smtp_not_configured"
         },
         "gracePeriod": {
-          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "This recovery attempt was blocked because the account logged into the server during the grace period.",
-          "databaseModelUnavailable": "Database model unavailable",
-          "failedToCreateChallenge": "Failed to create challenge",
-          "failedToNotifyTheAccountOwnerByEmail": "Failed to notify the account owner by email.",
-          "serviceUnavailable": "Service unavailable",
-          "invalidOrExpiredBlockToken": "Invalid or expired block token.",
-          "thisRecoveryAttemptWasAlreadyBlocked": "This recovery attempt was already blocked.",
-          "theGracePeriodForThisChallengeHasAlreadyExpired": "The grace period for this challenge has already expired and cannot be blocked.",
-          "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "This recovery challenge has already been consumed and can no longer be blocked.",
-          "thisRecoveryAttemptWasAlreadyApprovedByASuper": "This recovery attempt was already approved by a super admin and cannot be blocked.",
-          "recoveryAttemptHasBeenBlockedSuccessfully": "Recovery attempt has been blocked successfully.",
-          "theAccountOwnerHasBlockedThisRecoveryAttempt": "The account owner has blocked this recovery attempt.",
-          "thisRecoveryAttemptWasBlockedByTheAccountOwner": "This recovery attempt was blocked by the account owner.",
-          "thisGracePeriodHasAlreadyElapsed": "This grace period has already elapsed.",
-          "thisGracePeriodHasAlreadyBeenConsumed": "This grace period has already been consumed.",
-          "thisGracePeriodWasAlreadyApprovedByASuper": "This grace period was already approved by a super admin.",
-          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Grace period approved. The requester can continue recovery now."
+          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Este intento de recuperación fue bloqueado porque la cuenta inició sesión en el servidor durante el período de gracia.",
+          "databaseModelUnavailable": "El modelo de base de datos no está disponible",
+          "failedToCreateChallenge": "No se pudo crear la verificación",
+          "failedToNotifyTheAccountOwnerByEmail": "No se pudo notificar por correo electrónico al propietario de la cuenta.",
+          "serviceUnavailable": "Servicio no disponible",
+          "invalidOrExpiredBlockToken": "Token de bloqueo no válido o expirado.",
+          "thisRecoveryAttemptWasAlreadyBlocked": "Este intento de recuperación ya fue bloqueado.",
+          "theGracePeriodForThisChallengeHasAlreadyExpired": "El período de gracia de esta verificación ya expiró y no puede bloquearse.",
+          "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Esta verificación de recuperación ya fue utilizada y ya no puede bloquearse.",
+          "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Este intento de recuperación ya fue aprobado por un superadministrador y no puede bloquearse.",
+          "recoveryAttemptHasBeenBlockedSuccessfully": "El intento de recuperación fue bloqueado correctamente.",
+          "theAccountOwnerHasBlockedThisRecoveryAttempt": "El propietario de la cuenta bloqueó este intento de recuperación.",
+          "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Este intento de recuperación fue bloqueado por el propietario de la cuenta.",
+          "thisGracePeriodHasAlreadyElapsed": "Este período de gracia ya finalizó.",
+          "thisGracePeriodHasAlreadyBeenConsumed": "Este período de gracia ya fue utilizado.",
+          "thisGracePeriodWasAlreadyApprovedByASuper": "Este período de gracia ya fue aprobado por un superadministrador.",
+          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Período de gracia aprobado. El solicitante ya puede continuar con la recuperación."
         },
         "hcaptcha": {
           "missingSecret": "missing_secret",
@@ -767,121 +767,121 @@
           "httpValue1": "http_{{value1}}"
         },
         "proofVerification": {
-          "proofTypeDoesNotRequireTransactionVerification": "Proof type does not require transaction verification.",
-          "transactionStoreIsUnavailableForVerification": "Transaction store is unavailable for verification.",
-          "noStripeSessionEmailIdentifierFoundInSubmittedProof": "No Stripe/session/email identifier found in submitted proof details.",
-          "noMatchingTransactionWasFoundForTheSubmittedProof": "No matching transaction was found for the submitted proof.",
-          "proofMatchedTransactionIdentifiersButNotForTheSame": "Proof matched transaction identifiers, but not for the same Minecraft username.",
-          "transactionProofVerifiedByValue1Value2": "Transaction proof verified by {{value1}}.{{value2}}"
+          "proofTypeDoesNotRequireTransactionVerification": "Este tipo de prueba no requiere verificar una transacción.",
+          "transactionStoreIsUnavailableForVerification": "El almacenamiento de transacciones no está disponible para la verificación.",
+          "noStripeSessionEmailIdentifierFoundInSubmittedProof": "No se encontró ningún identificador de Stripe, sesión o correo electrónico en las pruebas enviadas.",
+          "noMatchingTransactionWasFoundForTheSubmittedProof": "No se encontró ninguna transacción que coincida con las pruebas enviadas.",
+          "proofMatchedTransactionIdentifiersButNotForTheSame": "Las pruebas coinciden con identificadores de transacción, pero no con el mismo nombre de usuario de Minecraft.",
+          "transactionProofVerifiedByValue1Value2": "Prueba de transacción verificada mediante {{value1}}.{{value2}}"
         },
         "provider": {
           "base": "base",
           "stash": "stash",
-          "accountEmailUpdateFailed": "Account email update failed.",
-          "recoveryEmailUpdateEndpointIsNotConfigured": "Recovery email update endpoint is not configured",
-          "recoveryPasswordResetEndpointIsNotConfigured": "Recovery password reset endpoint is not configured"
+          "accountEmailUpdateFailed": "No se pudo actualizar el correo electrónico de la cuenta.",
+          "recoveryEmailUpdateEndpointIsNotConfigured": "El endpoint para actualizar el correo de recuperación no está configurado",
+          "recoveryPasswordResetEndpointIsNotConfigured": "El endpoint para restablecer la contraseña de recuperación no está configurado"
         }
       },
       "shop": {
         "ranks": {
-          "primePrefix": "Prime Prefix",
-          "primeDiscordRank": "Prime Discord Rank",
+          "primePrefix": "Prefijo Prime",
+          "primeDiscordRank": "Rango Prime en Discord",
           "text12Homes": "12 homes",
-          "ignoreUpTo2000Players": "Ignore up to 2000 players",
-          "lowerTpaHomeCooldowns": "Lower /tpa & /home cooldowns",
-          "contact": "Contact",
+          "ignoreUpTo2000Players": "Ignora hasta 2.000 jugadores",
+          "lowerTpaHomeCooldowns": "Cooldowns más bajos de /tpa y /home",
+          "contact": "Contacto",
           "contact6b6tOrg": "contact@6b6t.org",
-          "ifYouHaveAnyQuestions": "if you have any questions",
-          "text24PointsTowardsTheCurrentCommunityGoal": "24 points towards the current Community Goal",
-          "primeUltraPrefix": "Prime Ultra Prefix",
-          "primeUltraDiscordRank": "Prime Ultra Discord Rank",
+          "ifYouHaveAnyQuestions": "si tienes alguna pregunta",
+          "text24PointsTowardsTheCurrentCommunityGoal": "24 puntos para la meta comunitaria actual",
+          "primeUltraPrefix": "Prefijo Prime Ultra",
+          "primeUltraDiscordRank": "Rango Prime Ultra en Discord",
           "text18Homes": "18 homes",
           "hatSkinSitInvisframe": "/hat & /skin & /sit & /invisframe",
-          "text3BalloonsWithBalloons": "3 balloons with /balloons",
-          "uniqueChatColorWithChatcolor": "Unique chat color with /chatcolor",
-          "accessToAdvertisingIn6b6tDiscord": "Access to #advertising in 6b6t Discord",
-          "text9PointsTowardsTheCurrentCommunityGoal": "9 points towards the current Community Goal",
-          "text30PointsTowardsTheCurrentCommunityGoal": "30 points towards the current Community Goal",
-          "text63PointsTowardsTheCurrentCommunityGoal": "63 points towards the current Community Goal",
-          "elitePrefix": "Elite Prefix",
-          "eliteDiscordRank": "Elite Discord Rank",
+          "text3BalloonsWithBalloons": "3 globos con /balloons",
+          "uniqueChatColorWithChatcolor": "Color de chat exclusivo con /chatcolor",
+          "accessToAdvertisingIn6b6tDiscord": "Acceso a #advertising en el Discord de 6b6t",
+          "text9PointsTowardsTheCurrentCommunityGoal": "9 puntos para la meta comunitaria actual",
+          "text30PointsTowardsTheCurrentCommunityGoal": "30 puntos para la meta comunitaria actual",
+          "text63PointsTowardsTheCurrentCommunityGoal": "63 puntos para la meta comunitaria actual",
+          "elitePrefix": "Prefijo Elite",
+          "eliteDiscordRank": "Rango Elite en Discord",
           "text30Homes": "30 homes",
-          "ignoreUpTo5000Players": "Ignore up to 5000 players",
+          "ignoreUpTo5000Players": "Ignora hasta 5.000 jugadores",
           "hotspotCreate": "& /hotspot create",
-          "text5BalloonsWithBalloons": "5 balloons with /balloons",
-          "text100PointsTowardsTheCurrentCommunityGoal": "100 points towards the current Community Goal",
-          "text76PointsTowardsTheCurrentCommunityGoal": "76 points towards the current Community Goal",
-          "eliteUltraPrefix": "Elite Ultra Prefix",
-          "eliteUltraDiscordRank": "Elite Ultra Discord Rank",
+          "text5BalloonsWithBalloons": "5 globos con /balloons",
+          "text100PointsTowardsTheCurrentCommunityGoal": "100 puntos para la meta comunitaria actual",
+          "text76PointsTowardsTheCurrentCommunityGoal": "76 puntos para la meta comunitaria actual",
+          "eliteUltraPrefix": "Prefijo Elite Ultra",
+          "eliteUltraDiscordRank": "Rango Elite Ultra en Discord",
           "text50Homes": "50 homes",
-          "hotspotColorToChangeTheBossbarColorIn3": "/hotspot color to change the bossbar color in 3 colors",
-          "text30BalloonsWithBalloons": "30 balloons with /balloons",
-          "useColorsInAnvils": "Use colors in anvils",
-          "text26PointsTowardsTheCurrentCommunityGoal": "26 points towards the current Community Goal",
-          "text95PointsTowardsTheCurrentCommunityGoal": "95 points towards the current Community Goal",
-          "text175PointsTowardsTheCurrentCommunityGoal": "175 points towards the current Community Goal",
-          "apexDiscordRank": "Apex Discord Rank",
-          "text100Homes": "100 Homes",
-          "text40BalloonsWithBalloons": "40 balloons with /balloons",
+          "hotspotColorToChangeTheBossbarColorIn3": "/hotspot color para cambiar el color de la bossbar entre 3 colores",
+          "text30BalloonsWithBalloons": "30 globos con /balloons",
+          "useColorsInAnvils": "Usa colores en los yunques",
+          "text26PointsTowardsTheCurrentCommunityGoal": "26 puntos para la meta comunitaria actual",
+          "text95PointsTowardsTheCurrentCommunityGoal": "95 puntos para la meta comunitaria actual",
+          "text175PointsTowardsTheCurrentCommunityGoal": "175 puntos para la meta comunitaria actual",
+          "apexDiscordRank": "Rango Apex en Discord",
+          "text100Homes": "100 homes",
+          "text40BalloonsWithBalloons": "40 globos con /balloons",
           "skinHatSit": "/skin & /hat & /sit",
-          "buildermodeWith32RenderDistance": "/buildermode with 32 render distance",
-          "hotspotCreateWith90MinuteLengthAnd60Minute": "/hotspot create with 90 minute length and 60 minute cooldown",
-          "useColorsInAnvilsWithTheSignForExample": "Use colors in anvils with the & sign, for example: &aHello",
-          "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "Use underline, strikethrough and italic in anvils with the & sign",
-          "text30sTpaCooldown": "30s /tpa cooldown",
-          "text15sHomeCooldown": "15s /home cooldown",
-          "accessTo5ChatColorsInChatcolor": "Access to 5 chat colors in /chatcolor",
-          "changeItemNameColorsInAnvils": "Change item name colors in anvils",
-          "changeColorOfConnectionMessagesWithConnectionmsgsColor": "Change color of connection messages with /connectionmsgs color",
-          "changeColorOfDeathMessagesWithDeathmsgsColor": "Change color of death messages with /deathmsgs color",
-          "accessToAdvertisingCommunityProjects": "Access to #advertising & #community-projects",
-          "embedLinksPermissionInGeneralIn6b6tDiscord": "Embed Links permission in #general in 6b6t Discord",
-          "attachFilesPermissionInGeneralIn6b6tDiscord": "Attach Files permission in #general in 6b6t Discord",
-          "addReactionsPermissionInGeneralIn6b6tDiscord": "Add Reactions permission in #general in 6b6t Discord",
-          "changeNicknamePermissionIn6b6tDiscord": "Change Nickname permission in 6b6t Discord",
-          "streamingPermissionIn6b6tDiscord": "Streaming permission in 6b6t Discord",
-          "accessTo10RankOnlyChannelsIn6b6tDiscord": "Access to 10+ rank only channels in 6b6t Discord",
-          "legendPrefix": "Legend Prefix",
-          "legendDiscordRank": "Legend Discord Rank",
-          "text500Homes": "500 Homes",
-          "text70BalloonsWithBalloons": "70 balloons with /balloons",
-          "cigarLightUpCigarsInMinecraft": "/cigar - light up cigars in Minecraft!",
-          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode home &lt;home&gt; - automatically enable builder mode when you teleport to a chosen home",
-          "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot create with 120 minute length and 80 minute cooldown",
-          "useBoldInAnvilsWithTheSign": "Use bold in anvils with the & sign",
-          "text10sTpaCooldown": "10s /tpa cooldown",
-          "text10sHomeCooldown": "10s /home cooldown",
-          "itTakes3sInsteadOf15sToTeleportTo": "It takes 3s instead of 15s to teleport to someone using /tpa",
-          "itTakes3sInsteadOf15sForSomeoneTo": "It takes 3s instead of 15s for someone to teleport to you using /tpa",
-          "accessTo16ChatColorsInChatcolor": "Access to 16 chat colors in /chatcolor",
-          "accessTo12NameColorsInNamecolor": "Access to 12 name colors in /namecolor",
-          "setAGlowColorUsingGlow": "Set a glow color using /glow",
-          "customizableStatisticsWebpageLookUsingDashboard": "Customizable statistics webpage look using dashboard",
-          "accessToAdvertising": "Access to #advertising",
-          "text50PointsTowardsTheCurrentCommunityGoal": "50 points towards the current Community Goal",
-          "text150PointsTowardsTheCurrentCommunityGoal": "150 points towards the current Community Goal",
+          "buildermodeWith32RenderDistance": "/buildermode con 32 chunks de distancia de renderizado",
+          "hotspotCreateWith90MinuteLengthAnd60Minute": "/hotspot create con una duración de 90 minutos y un cooldown de 60 minutos",
+          "useColorsInAnvilsWithTheSignForExample": "Usa colores en los yunques con el símbolo &, por ejemplo: &aHello",
+          "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "Usa subrayado, tachado y cursiva en los yunques con el símbolo &",
+          "text30sTpaCooldown": "30 s de cooldown de /tpa",
+          "text15sHomeCooldown": "15 s de cooldown de /home",
+          "accessTo5ChatColorsInChatcolor": "Acceso a 5 colores de chat con /chatcolor",
+          "changeItemNameColorsInAnvils": "Cambia el color del nombre de los objetos en los yunques",
+          "changeColorOfConnectionMessagesWithConnectionmsgsColor": "Cambia el color de los mensajes de conexión con /connectionmsgs color",
+          "changeColorOfDeathMessagesWithDeathmsgsColor": "Cambia el color de los mensajes de muerte con /deathmsgs color",
+          "accessToAdvertisingCommunityProjects": "Acceso a #advertising y #community-projects",
+          "embedLinksPermissionInGeneralIn6b6tDiscord": "Permiso para insertar enlaces en #general en el Discord de 6b6t",
+          "attachFilesPermissionInGeneralIn6b6tDiscord": "Permiso para adjuntar archivos en #general en el Discord de 6b6t",
+          "addReactionsPermissionInGeneralIn6b6tDiscord": "Permiso para añadir reacciones en #general en el Discord de 6b6t",
+          "changeNicknamePermissionIn6b6tDiscord": "Permiso para cambiar el apodo en el Discord de 6b6t",
+          "streamingPermissionIn6b6tDiscord": "Permiso para transmitir en el Discord de 6b6t",
+          "accessTo10RankOnlyChannelsIn6b6tDiscord": "Acceso a más de 10 canales exclusivos para jugadores con rango en el Discord de 6b6t",
+          "legendPrefix": "Prefijo Legend",
+          "legendDiscordRank": "Rango Legend en Discord",
+          "text500Homes": "500 homes",
+          "text70BalloonsWithBalloons": "70 globos con /balloons",
+          "cigarLightUpCigarsInMinecraft": "/cigar - ¡enciende cigarros en Minecraft!",
+          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode home &lt;home&gt; - activa automáticamente builder mode cuando te teletransportas a un home elegido",
+          "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot create con una duración de 120 minutos y un cooldown de 80 minutos",
+          "useBoldInAnvilsWithTheSign": "Usa negrita en los yunques con el símbolo &",
+          "text10sTpaCooldown": "10 s de cooldown de /tpa",
+          "text10sHomeCooldown": "10 s de cooldown de /home",
+          "itTakes3sInsteadOf15sToTeleportTo": "Tardas 3 s en lugar de 15 s en teletransportarte a alguien usando /tpa",
+          "itTakes3sInsteadOf15sForSomeoneTo": "Los demás tardan 3 s en lugar de 15 s en teletransportarse hacia ti usando /tpa",
+          "accessTo16ChatColorsInChatcolor": "Acceso a 16 colores de chat con /chatcolor",
+          "accessTo12NameColorsInNamecolor": "Acceso a 12 colores de nombre con /namecolor",
+          "setAGlowColorUsingGlow": "Elige un color de brillo con /glow",
+          "customizableStatisticsWebpageLookUsingDashboard": "Personaliza el aspecto de tu página de estadísticas desde el dashboard",
+          "accessToAdvertising": "Acceso a #advertising",
+          "text50PointsTowardsTheCurrentCommunityGoal": "50 puntos para la meta comunitaria actual",
+          "text150PointsTowardsTheCurrentCommunityGoal": "150 puntos para la meta comunitaria actual",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
-          "text6b6tMousepad": "6b6t Mousepad",
-          "legend1Month": "Legend (1 Month)",
-          "text6b6tMug": "6b6t Mug",
-          "legend3Months": "Legend (3 Months)",
-          "primeUltra1Month": "Prime Ultra (1 Month)",
-          "primeUltra3Months": "Prime Ultra (3 Months)",
-          "primeUltra6Months": "Prime Ultra (6 Months)",
-          "primeUltraTrial1Month": "Prime Ultra Trial (1 Month)",
-          "primeUltraTrial3Months": "Prime Ultra Trial (3 Months)",
-          "primeUltraTrial6Months": "Prime Ultra Trial (6 Months)",
-          "eliteUltraTrial1Month": "Elite Ultra Trial (1 Month)",
-          "eliteUltraTrial3Months": "Elite Ultra Trial (3 Months)",
-          "eliteUltraTrial6Months": "Elite Ultra Trial (6 Months)",
-          "eliteUltra1Month": "Elite Ultra (1 Month)",
-          "eliteUltra3Months": "Elite Ultra (3 Months)",
-          "eliteUltra6Months": "Elite Ultra (6 Months)",
-          "primeToEliteUpgrade": "Prime to Elite upgrade",
-          "primeToApexUpgrade": "Prime to Apex upgrade",
-          "eliteToApexUpgrade": "Elite to Apex upgrade"
+          "text6b6tMousepad": "Mousepad de 6b6t",
+          "legend1Month": "Legend (1 mes)",
+          "text6b6tMug": "Taza de 6b6t",
+          "legend3Months": "Legend (3 meses)",
+          "primeUltra1Month": "Prime Ultra (1 mes)",
+          "primeUltra3Months": "Prime Ultra (3 meses)",
+          "primeUltra6Months": "Prime Ultra (6 meses)",
+          "primeUltraTrial1Month": "Prueba de Prime Ultra (1 mes)",
+          "primeUltraTrial3Months": "Prueba de Prime Ultra (3 meses)",
+          "primeUltraTrial6Months": "Prueba de Prime Ultra (6 meses)",
+          "eliteUltraTrial1Month": "Prueba de Elite Ultra (1 mes)",
+          "eliteUltraTrial3Months": "Prueba de Elite Ultra (3 meses)",
+          "eliteUltraTrial6Months": "Prueba de Elite Ultra (6 meses)",
+          "eliteUltra1Month": "Elite Ultra (1 mes)",
+          "eliteUltra3Months": "Elite Ultra (3 meses)",
+          "eliteUltra6Months": "Elite Ultra (6 meses)",
+          "primeToEliteUpgrade": "Mejora de Prime a Elite",
+          "primeToApexUpgrade": "Mejora de Prime a Apex",
+          "eliteToApexUpgrade": "Mejora de Elite a Apex"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
