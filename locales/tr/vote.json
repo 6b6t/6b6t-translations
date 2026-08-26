@@ -1,11 +1,11 @@
 {
-  "page-name": "Vote",
-  "seo-description": "Vote for 6b6t to help us be on top of server lists and get rewards like more homes, lower cooldowns and access to the /skin command for free.",
-  "vote-link": "Vote Link {{number}}",
-  "title": "Vote for 6b6t",
-  "subheading": "What is voting?",
+  "page-name": "Oy Ver",
+  "seo-description": "6b6t'ye oy ver, sunucu listelerinde üst sıralarda yer almamıza yardımcı ol ve daha fazla home, daha düşük bekleme süreleri ve ücretsiz /skin komutuna erişim gibi ödüller kazan.",
+  "vote-link": "Oy Verme Bağlantısı {{number}}",
+  "title": "6b6t'ye Oy Ver",
+  "subheading": "Oy vermek nedir?",
   "__text": [
-    "Voting for 6b6t helps us rank up on server listings and allows new players to find our server.",
-    "Every time you vote, you are rewarded for helping 6b6t to grow and become bigger and better than ever before."
+    "6b6t'ye oy vermek, sunucu listelerinde yükselmemize ve yeni oyuncuların sunucumuzu bulmasına yardımcı olur.",
+    "Her oy verdiğinde, 6b6t'nin büyümesine ve her zamankinden daha iyi hale gelmesine yardım ettiğin için ödüllendirilirsin."
   ]
 }

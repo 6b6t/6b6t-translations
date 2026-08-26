@@ -1,28 +1,28 @@
 {
-  "page-name": "Commands",
-  "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
+  "page-name": "Komutlar",
+  "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg ve daha fazlası dahil olmak üzere temel 6b6t komutları hakkında bilgi edinin.",
   "sections": {
     "commandsList": {
-      "bestMatches": "Best matches",
-      "commandsList": "COMMANDS LIST",
-      "availableServerCommands": "Available Server Commands",
-      "useTheFiltersToFindTheCommandYouNeed": "Use the filters to find the command you need by category, rank requirement, or command name.",
-      "search": "Search",
-      "searchCommands": "Search commands...",
-      "category": "Category",
-      "rankRequirement": "Rank requirement",
-      "command": "Command",
-      "description": "Description",
-      "example": "Example",
+      "bestMatches": "En iyi eşleşmeler",
+      "commandsList": "KOMUT LİSTESİ",
+      "availableServerCommands": "Kullanılabilir Sunucu Komutları",
+      "useTheFiltersToFindTheCommandYouNeed": "İhtiyacın olan komutu kategoriye, rank gereksinimine veya komut adına göre bulmak için filtreleri kullan.",
+      "search": "Ara",
+      "searchCommands": "Komut ara...",
+      "category": "Kategori",
+      "rankRequirement": "Rank gereksinimi",
+      "command": "Komut",
+      "description": "Açıklama",
+      "example": "Örnek",
       "rank": "Rank",
-      "noCommandsFoundMatchingYourFilters": "No commands found matching your filters.",
-      "premiumCommands": "Premium Commands",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Use the rank filter above to preview commands unlocked by Prime, Prime Ultra, Elite, Elite Ultra, Apex, and Legend.",
-      "viewPremiumRanks": "View Premium Ranks"
+      "noCommandsFoundMatchingYourFilters": "Filtrelerine uyan komut bulunamadı.",
+      "premiumCommands": "Premium Komutlar",
+      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Prime, Prime Ultra, Elite, Elite Ultra, Apex ve Legend ile açılan komutları önizlemek için yukarıdaki rank filtresini kullan.",
+      "viewPremiumRanks": "Premium Rank'ları Görüntüle"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Server Commands",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+      "text6b6tServerCommands": "6b6t Sunucu Komutları",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "6b6t Minecraft anarşi sunucusunda kullanılabilir komutların tam listesi"
     }
   }
 }
