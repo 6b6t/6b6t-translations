@@ -6,6 +6,7 @@ The English files in `locales/en` are the source text. Translate the matching
 values in one of these folders:
 
 - `locales/de` — German
+- `locales/es` — Spanish
 - `locales/pl` — Polish
 - `locales/ru` — Russian
 - `locales/tr` — Turkish

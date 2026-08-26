@@ -2,7 +2,7 @@ import { constants } from "node:fs";
 import { copyFile, mkdir, readdir } from "node:fs/promises";
 import path from "node:path";
 
-const TARGET_LOCALES = ["de", "pl", "ru", "tr"];
+const TARGET_LOCALES = ["de", "es", "pl", "ru", "tr"];
 const root = path.resolve("locales");
 const englishDirectory = path.join(root, "en");
 const files = (await readdir(englishDirectory)).filter((file) =>
@@ -25,4 +25,6 @@ for (const locale of TARGET_LOCALES) {
   }
 }
 
-console.log("Created missing German, Polish, Russian, and Turkish catalogs.");
+console.log(
+  "Created missing German, Spanish, Polish, Russian, and Turkish catalogs.",
+);

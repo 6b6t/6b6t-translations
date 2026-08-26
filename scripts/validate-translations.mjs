@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 
 const SOURCE_LOCALE = "en";
-const TRANSLATED_LOCALES = ["de", "pl", "ru", "tr"];
+const TRANSLATED_LOCALES = ["de", "es", "pl", "ru", "tr"];
 const ALL_LOCALES = [SOURCE_LOCALE, ...TRANSLATED_LOCALES];
 const PLACEHOLDER_PATTERN = /{{\s*([A-Za-z0-9_.-]+)\s*}}/g;
 
