@@ -1,6 +1,7 @@
 {
   "sections": {
     "antispamClient": {
+      "failedToFetchLogs": "Failed to fetch logs",
       "loadingModerationLogs": "Cargando registros de moderación...",
       "unableToLoadLogs": "No se pudieron cargar los registros",
       "tryAgain": "Intentar de nuevo",
@@ -23,6 +24,7 @@
       "expanded": "(expandido)",
       "last": "Últimos",
       "messagesFor": "mensajes de",
+      "beforeMute": "before mute:",
       "page": "Página",
       "value1Value2": "{{value1}}{{value2}}",
       "of": "de"
@@ -30,6 +32,7 @@
     "components": {
       "muteSystemCard": {
         "muteSystem": "Sistema de muteo",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
         "on": "activado",
         "or": "o",
         "off": "desactivado",
@@ -37,6 +40,7 @@
       }
     },
     "page": {
+      "antiSpamLogs": "Anti-Spam Logs",
       "completeTransparencyInOurModerationSystemViewAllSpam": "Transparencia total en nuestro sistema de moderación. Consulta todas las acciones de prevención de spam, muteos y actividades de moderación en 6b6t.org.",
       "notAllowed": "No permitido",
       "spammingOtherMinecraftServers": "Hacer spam de otros servidores de Minecraft",
@@ -55,6 +59,7 @@
       "appealYourMuteUsingTheFormBelow": "Apela tu mute mediante el formulario de abajo.",
       "openAppealForm": "Abrir formulario de apelación",
       "publicModerationLogs": "Registros públicos de moderación",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Real-time moderation actions and spam prevention activities",
       "toProtectOurModeratorsPrivacyTheyAreNotShown": "Para proteger la privacidad de nuestros moderadores, sus nombres no se muestran en esta página. Cuando se aplica un muteo por",
       "doxxing": "doxxing",
       "or": "o",

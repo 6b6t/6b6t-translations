@@ -1,7 +1,10 @@
 {
   "sections": {
     "discordMarkdown": {
-      "value1Value2": "{{value1}}{{value2}}"
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
     },
     "page": {
       "discordUpdatesAreComingHereSoon": "Aktualizacje z Discorda wkrótce tutaj",
@@ -19,14 +22,20 @@
       "postedBy": "Opublikowano przez",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "Ta aktualizacja została opublikowana z załącznikami na Discordzie.",
       "openInDiscord": "Otwórz na Discordzie",
+      "couldNotLoadMoreUpdates": "Could not load more updates.",
+      "couldNotSearchUpdates": "Could not search updates.",
       "newUpdate": "nowa aktualizacja",
       "justAppeared": "właśnie się pojawiła.",
       "dismiss": "Zamknij",
       "searchUpdates": "Szukaj aktualizacji",
+      "searching": "Searching...",
+      "search": "Search",
       "clear": "Wyczyść",
       "showing": "Wyświetlanie",
       "searchResult": "wynik wyszukiwania",
       "latestPost": "Najnowszy post",
+      "loading": "Loading...",
+      "loadMoreValue1": "Load more {{value1}}",
       "noUpdatesMatchedYourSearch": "Żadne aktualizacje nie pasują do wyszukiwania."
     }
   }

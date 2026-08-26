@@ -4,6 +4,13 @@
   "sections": {
     "commandsList": {
       "bestMatches": "Najlepsze dopasowania",
+      "free": "Free",
+      "primeUltra": "Prime Ultra",
+      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
+      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
+      "eliteUltra": "Elite Ultra",
+      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
+      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
       "commandsList": "LISTA KOMEND",
       "availableServerCommands": "Dostępne komendy serwera",
       "useTheFiltersToFindTheCommandYouNeed": "Użyj filtrów, aby znaleźć potrzebną komendę według kategorii, wymaganej rangi lub nazwy komendy.",
@@ -15,6 +22,8 @@
       "description": "Opis",
       "example": "Przykład",
       "rank": "Ranga",
+      "value1Value2": "{{value1}}-{{value2}}",
+      "fullExample": "Full example:",
       "noCommandsFoundMatchingYourFilters": "Nie znaleziono komend pasujących do wybranych filtrów.",
       "premiumCommands": "Komendy Premium",
       "useTheRankFilterAboveToPreviewCommandsUnlocked": "Użyj powyższego filtra rangi, aby zobaczyć komendy dostępne dla rang Prime, Prime Ultra, Elite, Elite Ultra, Apex i Legend.",

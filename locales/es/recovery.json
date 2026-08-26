@@ -16,12 +16,24 @@
       "recoveryWalkthrough": {
         "startWithTheAccount": "Comienza con la cuenta",
         "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Introduce primero el nombre de usuario. El sistema comprobará qué método de recuperación es seguro para esa cuenta.",
+        "useTheExactInGameUsername": "Use the exact in-game username.",
+        "completeTheCaptchaOnceBeforeSubmitting": "Complete the captcha once before submitting.",
+        "ifTheAccountCanStillUseTheNormalEmail": "If the account can still use the normal email reset path, recovery will redirect there.",
         "setTheNewContactEmail": "Establece el nuevo correo de contacto",
         "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "El nuevo correo solo se aceptará después de verificar tu identidad, así que utiliza una dirección a la que tengas acceso.",
+        "useAnEmailYouCanVerifyImmediately": "Use an email you can verify immediately.",
+        "ifYouStillRememberTheOldEmailProvideIt": "If you still remember the old email, provide it when asked.",
+        "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Security responses stay generic so attackers cannot learn what matched.",
         "prepareProofDetails": "Prepara las pruebas",
         "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Una prueba sólida consiste en información específica sobre el historial de la cuenta que otro jugador no podría conocer.",
+        "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Saved homes and coordinate locations are optional when you do not have them.",
+        "countriesLastLogoutLocationItemNamesAndOldBase": "Countries, last logout location, item names, and old base details can help the score.",
+        "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Only submit details you actually remember; wrong guesses can weaken the request.",
         "reviewOrReset": "Revisión o restablecimiento",
         "ifTheAutomaticScoreIsEnoughYouContinueTo": "Si la puntuación automática es suficiente, continuarás con la verificación. De lo contrario, se creará un ticket.",
+        "manualReviewTicketsKeepTheProofAttachedForStaff": "Manual review tickets keep the proof attached for staff.",
+        "recoveryIsRateLimitedSoDoNotSpamAttempts": "Recovery is rate limited, so do not spam attempts.",
+        "onceApprovedFinishTheEmailCodeStepAndSet": "Once approved, finish the email code step and set a new password.",
         "howRecoveryWorks": "Cómo funciona la recuperación",
         "walkthroughProgress": "Progreso de la guía",
         "goToWalkthroughStepValue1": "Ir al paso {{value1}} de la guía",
@@ -29,7 +41,9 @@
         "value1Value2": "{{value1}}{{value2}}",
         "of": "de",
         "skip": "Omitir",
-        "back": "Atrás"
+        "back": "Atrás",
+        "startRecovery": "Start Recovery",
+        "next": "Next"
       },
       "steps": {
         "blockedStep": {
@@ -46,10 +60,14 @@
           "verifyAccountIdentity": "Verificar identidad de la cuenta"
         },
         "gracePeriodPendingStep": {
+          "recoveryPendingGracePeriodActive": "Recovery Pending - Grace Period Active",
           "theAccountOwnerHasBeenNotifiedViaEmailIf": "El propietario de la cuenta ha sido notificado por correo electrónico. Si no responde en un plazo de",
           "days": "días",
           "youCanProceedWithIdentityVerification": ", podrás continuar con la verificación de identidad.",
+          "gracePeriodExpires": "Grace period expires:",
           "verification": "Verificación",
+          "checking": "Checking...",
+          "checkStatus": "Check Status",
           "returnToStart": "Volver al inicio"
         },
         "intentStep": {
@@ -63,20 +81,30 @@
           "continueRecovery": "Continuar recuperación"
         },
         "lane1DeadEndStep": {
+          "standardResetRequired": "Standard Reset Required",
+          "automatedRecoveryUnavailable": "Automated Recovery Unavailable",
+          "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Your account already has a verified email matching the one you entered. Please use the standard 'Forgot Password' flow to reset your credentials.",
+          "weCannotProcessAnAutomatedRecoveryForThisAccount": "We cannot process an automated recovery for this account with the provided information to ensure its security.",
           "returnToStart": "Volver al inicio"
         },
         "lane2aStep": {
+          "inGameRecoveryInstructions": "In-Game Recovery Instructions",
+          "sinceYouCanStillJoinTheServerProveControl": "Since you can still join the server, prove control of the account from in-game before changing the recovery email. This code verifies the email-change request, then we will confirm the new email.",
           "join6b6t": "Entra a 6b6t",
           "run": "Ejecuta",
+          "copyThe6CharacterRecoveryCodeShownInChat": "Copy the 6-character recovery code shown in chat and enter it below.",
           "newTargetEmail": "Nuevo correo electrónico",
           "required": "(obligatorio)",
           "nameExampleCom": "name@example.com",
+          "inGameRecoveryCode": "In-Game Recovery Code",
           "abc123": "ABC123",
+          "verifyInGameCode": "Verify In-Game Code",
           "returnToStart": "Volver al inicio"
         },
         "manualReviewStep": {
           "manualReview": "Revisión manual",
           "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "Tu verificación de identidad se completó correctamente. Sin embargo, como esta cuenta ha tenido actividad recientemente (lleva sin conectarse solo",
+          "aFew": "a few",
           "daysOurSecurityPolicyRequiresAnAdminToManually": "días), nuestra política de seguridad requiere que un administrador revise manualmente esta recuperación antes de continuar.",
           "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "Tu verificación de identidad se completó correctamente. Sin embargo, debido a que esta cuenta tiene un rango especial, se requiere una revisión manual por motivos de seguridad.",
           "submitProofOfAccountOwnershipForAdminReviewInclude": "Envía pruebas de que eres el propietario de la cuenta para que un administrador las revise. Incluye recibos de compra, IDs de transacciones o cualquier evidencia que permita relacionarte con esta cuenta.",
@@ -100,16 +128,19 @@
           "privateConnectionDetails": "Datos privados de conexión",
           "yourPublicProofWasNotEnoughProvidePrivateNetwork": "Las pruebas públicas no fueron suficientes. Proporciona datos privados de tu conexión para aumentar tu puntuación.",
           "ipAddressIpv4OrIpv6": "Dirección IP (IPv4 o IPv6)",
-          "regionState": "Región/Estado",
           "city": "Ciudad",
           "asnExampleAs1234": "ASN (ejemplo: AS1234)",
           "ispProvider": "ISP / Proveedor",
           "scorePrivateDetails": "Evaluar datos privados"
         },
         "publicScoreStep": {
-          "overworld": "Overworld",
-          "nether": "Nether",
-          "end": "End",
+          "overworld": "overworld",
+          "overworld2": "Overworld",
+          "nether": "nether",
+          "nether2": "Nether",
+          "end": "end",
+          "end2": "End",
+          "unknown": "unknown",
           "notSure": "No estoy seguro",
           "none": "Ninguno",
           "accountProofRequired": "Se requieren pruebas de la cuenta",
@@ -118,7 +149,10 @@
           "commaSeparated": "(separados por comas)",
           "eGGermanyNetherlandsUnitedStates": "p. ej. Alemania, Países Bajos, Estados Unidos",
           "howManySavedHomesDidThisAccountHave": "¿Cuántos homes guardados tenía esta cuenta?",
+          "homeNameProofIsSkippedBecauseThisAccountHad": "Home-name proof is skipped because this account had no saved homes.",
           "savedHomeNames": "Nombres de los homes guardados",
+          "oneRowPerHome": "(one row per home)",
+          "optional": "(opcional)",
           "savedHomeName": "Nombre del home guardado",
           "dimensionForSavedHomeValue1": "Dimensión del home guardado {{value1}}",
           "removeSavedHomeValue1": "Eliminar home guardado {{value1}}",
@@ -126,6 +160,7 @@
           "howManyCoordinateLocationsCanYouProvide": "¿Cuántas ubicaciones con coordenadas puedes proporcionar?",
           "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "La prueba mediante coordenadas se omitirá porque no se proporcionaron ubicaciones.",
           "knownCoordinates": "Coordenadas conocidas",
+          "oneRowPerLocation": "(one row per location)",
           "dimensionForCoordinateValue1": "Dimensión de las coordenadas {{value1}}",
           "removeCoordinateValue1": "Eliminar coordenadas {{value1}}",
           "addCoordinate": "Añadir coordenadas",
@@ -135,7 +170,6 @@
           "dimensionForLastLogoutLocation": "Dimensión de la última ubicación de desconexión",
           "thisIsStrongProofIfYouRememberWhereYou": "Esta es una prueba sólida si recuerdas dónde te desconectaste.",
           "otherDetails": "Otros detalles",
-          "optional": "(opcional)",
           "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "Objetos del inventario, nombres de espadas, contenido de libros sin firmar, nombres de mascotas...",
           "submitProofCalculateScore": "Enviar pruebas y calcular puntuación"
         },
@@ -145,6 +179,7 @@
           "newPassword": "Nueva contraseña",
           "minimum8Characters": "Mínimo 8 caracteres",
           "confirmPassword": "Confirmar contraseña",
+          "reEnterYourNewPassword": "Re-enter your new password",
           "resetPassword": "Restablecer contraseña"
         },
         "startStep": {
@@ -159,6 +194,7 @@
         },
         "verifyEmailCodeStep": {
           "emailVerification": "Verificación de correo electrónico",
+          "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don't see it.",
           "emailVerificationCode": "Código de verificación del correo",
           "text6DigitCode": "Código de 6 dígitos",
           "verifyCode": "Verificar código"
@@ -171,6 +207,8 @@
         "noBlockTokenProvided": "No se proporcionó ningún token de bloqueo.",
         "loading": "cargando",
         "success": "completado",
+        "recoveryAttemptHasBeenBlockedSuccessfully": "Recovery attempt has been blocked successfully.",
+        "failedToBlockRecoveryAttempt": "Failed to block recovery attempt.",
         "anErrorOccurredPleaseTryAgainLater": "Ocurrió un error. Inténtalo de nuevo más tarde.",
         "noBlockTokenProvidedInTheUrl": "No se proporcionó ningún token de bloqueo en la URL.",
         "accountSecurity": "Seguridad de la cuenta",
@@ -196,6 +234,7 @@
         "noResetTokenProvidedInTheUrl": "No se proporcionó ningún token de restablecimiento en la URL.",
         "loading": "cargando",
         "success": "completado",
+        "passwordHasBeenResetSuccessfully": "Password has been reset successfully.",
         "idle": "inactivo",
         "accountSecurity": "Seguridad de la cuenta",
         "reset": "Restablecer",
@@ -205,6 +244,7 @@
         "passwordResetComplete": "Contraseña restablecida correctamente",
         "minimum8Characters": "Mínimo 8 caracteres",
         "confirmPassword": "Confirmar contraseña",
+        "reEnterYourPassword": "Re-enter your password",
         "resetPassword": "Restablecer contraseña"
       }
     }

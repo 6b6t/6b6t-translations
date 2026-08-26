@@ -1,12 +1,17 @@
 {
   "sections": {
     "statusClient": {
+      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "ESTADO DEL SERVIDOR 6b6t",
+      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
+      "lastUpdated": "Last updated:",
+      "loading": "Cargando...",
       "refresh": "Actualizar",
       "currentPlayers": "Jugadores actuales",
       "connectionFailed": "Falló la conexión",
       "playersOnline": "jugadores conectados",
-      "loading": "Cargando...",
+      "online": "Online",
+      "offline": "Offline",
       "serverLimit": "Límite del servidor",
       "maximumCapacity": "capacidad máxima",
       "capacity": "Capacidad",
@@ -17,12 +22,17 @@
       "ms": "ms"
     },
     "statusPageContent": {
+      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "ESTADO DEL SERVIDOR 6b6t",
+      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
+      "lastUpdated": "Last updated:",
+      "loading": "Cargando...",
       "refresh": "Actualizar",
       "currentPlayers": "Jugadores actuales",
       "connectionFailed": "Falló la conexión",
       "playersOnline": "jugadores conectados",
-      "loading": "Cargando...",
+      "online": "Online",
+      "offline": "Offline",
       "serverLimit": "Límite del servidor",
       "maximumCapacity": "capacidad máxima",
       "capacity": "Capacidad",

@@ -2,14 +2,30 @@
   "sections": {
     "app": {
       "actions": {
+        "motd": {
+          "revisionRequested": "revision_requested",
+          "paidPendingReview": "paid_pending_review"
+        },
         "printify": {
           "signInAgainBeforeClaiming": "Zaloguj się ponownie przed odebraniem.",
-          "signInAgainBeforeApplying": "Zaloguj się ponownie przed zastosowaniem."
+          "checkTheShippingDetails": "Check the shipping details.",
+          "theClaimCouldNotBeProcessed": "The claim could not be processed.",
+          "signInAgainBeforeApplying": "Zaloguj się ponownie przed zastosowaniem.",
+          "checkTheApplicationDetails": "Check the application details.",
+          "theHistoricalRequestCouldNotBeSubmitted": "The historical request could not be submitted."
         },
-        "shopCheckout": {
-          "value1Value2ShopSuccessProviderTebexOrderValue3": "{{value1}}/{{value2}}/shop/success?provider=tebex&order={{value3}}"
+        "shopTracking": {
+          "unknownError": "Unknown error"
         },
         "stripe": {
+          "subscription": "subscription",
+          "payment": "payment",
+          "pay": "pay",
+          "whoIsThisGiftFrom": "Who is this gift from?",
+          "custom": "custom",
+          "text": "text",
+          "giftMessage": "Gift message",
+          "hosted": "hosted",
           "rankForValue1": "Ranga dla {{value1}}"
         }
       },
@@ -18,7 +34,8 @@
           "text6b6tMinecraftServer": "Serwer Minecraft 6b6t",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Największy serwer anarchii Minecraft bez zasad i bez kolejki. Wspiera edycje Java i Bedrock z podstawowymi komendami takimi jak /tpa i /home.",
           "text6b6tMinecraftAnarchyServer": "Serwer anarchii Minecraft 6b6t",
-          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Dołącz do największego serwera anarchii Minecraft bez zasad, bez kolejki i z pojemnością ponad 2000 graczy. Doświadcz prawdziwej anarchii z komendami /tpa i /home na edycjach Java i Bedrock."
+          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Dołącz do największego serwera anarchii Minecraft bez zasad, bez kolejki i z pojemnością ponad 2000 graczy. Doświadcz prawdziwej anarchii z komendami /tpa i /home na edycjach Java i Bedrock.",
+          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
         }
       },
       "manifest": {
@@ -43,12 +60,16 @@
       "hours": "Godzin",
       "minutes": "Minut",
       "seconds": "Sekund",
+      "finalizingPurchases": "Finalizing purchases…",
+      "eventEnded": "Event ended",
       "value1DaysValue2HoursValue3MinutesValue4SecondsRemaining": "Pozostało {{value1}} dni, {{value2}} godzin, {{value3}} minut, {{value4}} sekund",
       "upgradedFrom": "ulepszył z",
       "to": "do",
       "boughtThe": "kupił rangę",
       "rank": "Ranga.",
       "addedToTheDupeEvent": "Dodano do wydarzenia Dupe",
+      "finalizing": "Finalizing",
+      "ended": "Ended",
       "live": "Na żywo",
       "theDupeEventHasEnded": "Wydarzenie Dupe dobiegło końca.",
       "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "Dziękujemy za udział i uczynienie wydarzenia niezapomnianym. Chroń swój łup — anarchia trwa dalej na 6b6t.",
@@ -81,6 +102,7 @@
       "viewRanks": "Zobacz rangi"
     },
     "developmentThemeSwitcher": {
+      "themeIsNowFixedToSnowySiteWide": "Theme is now fixed to SNOWY site-wide",
       "fixed": "STAŁY"
     },
     "gallery": {
@@ -94,6 +116,7 @@
         "filterOptions": "Opcje filtrów",
         "filters": "Filtry",
         "toggleFilterPanel": "Przełącz panel filtrów",
+        "activeFilters": "Active filters:",
         "category": "Kategoria:",
         "featured2": "Wyróżnione",
         "showing": "Wyświetlanie",
@@ -101,8 +124,12 @@
         "imagesFromThe6b6tCommunity": "obrazów ze społeczności 6b6t"
       },
       "galleryCard": {
+        "imageobject": "ImageObject",
+        "organization": "Organization",
         "text6b6tMinecraftServer": "Serwer Minecraft 6b6t",
+        "webpage": "WebPage",
         "text6b6tGalleryMinecraftServerScreenshots": "Galeria 6b6t – zrzuty ekranu serwera Minecraft",
+        "clickToViewInLightboxCtrlClickOrMiddle": "Click to view in lightbox, Ctrl+Click or Middle-click to open in new tab",
         "value1Value2": "{{value1}} – {{value2}}",
         "externalLink": "Link zewnętrzny",
         "featured": "⭐ Wyróżnione",
@@ -141,6 +168,10 @@
       "discord": "Discord"
     },
     "layout": {
+      "copyButton": {
+        "copied": "Copied!",
+        "copy": "Copy"
+      },
       "footer": {
         "socials": "Social media",
         "discord": "Discord",
@@ -169,6 +200,15 @@
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t to survivalowy serwer anarchii Minecraft bez zasad, bez kar i bez kolejki. Gracze mogą robić, co chcą, w świecie obsługującym do 2000 graczy jednocześnie i korzystać z komend takich jak /tpa i /home.",
+        "serverAddress": "Server Address:",
+        "teleportToAPlayer": "Teleport to a player",
+        "teleportToYourHome": "Teleport to your home",
+        "sendAPrivateMessageToAPlayer": "Send a private message to a player",
+        "stopSeeingMessagesFromAPlayer": "Stop seeing messages from a player",
+        "viewVotingLinksAndRewards": "View voting links and rewards",
+        "changeYourSkin": "Change your skin",
+        "equipBalloonCosmetics": "Equip balloon cosmetics",
+        "teleportToAnActiveHotspot": "Teleport to an active hotspot",
         "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Wszelkie prawa zastrzeżone. • Operowany przez qbasty labs FZE • contact@6b6t.org",
         "xTwitter": "X (Twitter)"
       },
@@ -241,6 +281,7 @@
       }
     },
     "milestoneProgress": {
+      "communityEvent": "Community Event",
       "rankPurchasesContributeTowardTheNextCommunityEvent": "Zakupy rang przyczyniają się do kolejnego wydarzenia społeczności.",
       "communityGoal": "Cel społeczności",
       "allRankPurchasesContributeToReachingTheCommunityGoal": "Wszystkie zakupy rang przyczyniają się do osiągnięcia celu społeczności.",
@@ -249,6 +290,7 @@
       "communityGoalReached": "Cel społeczności osiągnięty!"
     },
     "modeToggle": {
+      "currentThemeSnowySiteWide": "Current theme: Snowy (site-wide)",
       "defaultDisabled": "Domyślny (wyłączony)",
       "snowyActiveSiteWide": "Śnieżny (aktywny na całej stronie)"
     },
@@ -289,6 +331,11 @@
       "cb": "CB"
     },
     "recentBuyers": {
+      "primeEliteUpgrade": "Prime → Elite upgrade",
+      "apex": "Apex",
+      "legend3Months": "Legend (3 Months)",
+      "primeApexUpgrade": "Prime → Apex upgrade",
+      "elite": "Elite",
       "rankExtensions": "Przedłużenia rang",
       "dupeEventRankExtensions": "Przedłużenia rang wydarzenia Dupe",
       "everyEligibleRankPurchaseAndUpgradeAddsTheTime": "Każdy kwalifikujący się zakup rangi i ulepszenie dodaje poniższy czas do odliczania wydarzenia na żywo.",
@@ -296,7 +343,6 @@
       "type": "Typ",
       "eventExtension": "Przedłużenie wydarzenia",
       "prime": "Prime",
-      "elite": "Elite",
       "recentExtensions": "Ostatnie przedłużenia",
       "playersHaveExtendedTheDupeEventBy": "Gracze przedłużyli wydarzenie Dupe o",
       "inTotal": "łącznie.",
@@ -309,16 +355,22 @@
       "purchasedThe": "kupił rangę",
       "extendedTheDupeEventBy": "Przedłużył wydarzenie Dupe o",
       "noRankPurchasesHaveExtendedTheEventYet": "Żadne zakupy rang nie przedłużyły jeszcze wydarzenia.",
+      "loadingExtensions": "Loading extensions…",
+      "showLess": "Show less",
+      "showMore": "Show more",
       "couldNotLoadTheFullListTryAgain": "Nie udało się wczytać pełnej listy. Spróbuj ponownie."
     },
     "reviewCard": {
       "value1Avatar": "Awatar {{value1}}",
       "discordLogo": "Logo Discord",
-      "quot": "&quot;",
+      "fullStar": "Full star",
+      "halfStar": "Half star",
+      "emptyStar": "Empty star",
       "halfStarFill": "Połowa gwiazdki",
       "screenshots": "Zrzuty ekranu (",
       "images": "obrazy)",
       "screenshotValue1ByValue2": "Zrzut ekranu {{value1}} autorstwa {{value2}}",
+      "searchIconClickToViewImage": "Search icon - Click to view image",
       "reviewScreenshotsFromValue1": "Zrzuty ekranu recenzji od {{value1}}",
       "closeModal": "Zamknij modal",
       "previousImage": "Poprzedni obraz",
@@ -326,6 +378,9 @@
       "goToImageValue1": "Przejdź do obrazu {{value1}}"
     },
     "reviewSlideshow": {
+      "prime": "Prime",
+      "elite": "Elite",
+      "apex": "Apex",
       "reviews": "Recenzje",
       "whatOurCommunitySaysAboutTheirExperience": "Co społeczność mówi o swoich doświadczeniach",
       "averageRating": "Średnia ocena",
@@ -334,7 +389,16 @@
       "goToSlideGroupValue1": "Przejdź do grupy slajdów {{value1}}",
       "of": "z"
     },
+    "socialIcons": {
+      "socialIcon": "Social Icon"
+    },
     "socialProofSection": {
+      "amazingServerTheApexRankIsAbsolutelyWorthIt": "Amazing server! The Apex rank is absolutely worth it. The community is fantastic and I've never experienced any lag issues. Staff team is super helpful too!",
+      "unitedStates": "United States",
+      "beenPlayingFor6MonthsNowWithEliteRank": "Been playing for 6 months now with Elite rank. The tools and permissions are game-changing. Best investment I've made for Minecraft!",
+      "canada": "Canada",
+      "justUpgradedToLegendRankLastWeekAndWow": "Just upgraded to Legend rank last week and wow! The features are incredible. The priority queue alone saves me so much time. 10/10 would recommend!",
+      "unitedKingdom": "United Kingdom",
       "verifiedCheckmark": "Zweryfikowany znacznik",
       "over": "Ponad",
       "satisfiedCustomers": "+ zadowolonych klientów",
@@ -364,15 +428,22 @@
         "loadingGalleryImages": "Ładowanie obrazów z galerii..."
       },
       "enhancedThemeControls": {
+        "autoSaveFailed": "Auto-save failed",
         "colors": "Kolory",
         "background": "Tło",
+        "color": "Color",
         "enhancedThemeCustomization": "Zaawansowana personalizacja motywu",
         "unsavedChanges": "Niezapisane zmiany",
         "saving": "Zapisywanie...",
         "allChangesSaved": "Wszystkie zmiany zapisane",
         "reset": "Resetuj",
+        "saved": "Saved!",
+        "error": "Error",
+        "save": "Save",
         "backgroundImage": "Obraz tła",
         "chooseAServerScreenshotAsYourBackground": "Wybierz zrzut ekranu serwera jako tło",
+        "changeBackground": "Change Background",
+        "chooseBackground": "Wybierz tło",
         "backgroundSelected": "Tło wybrane",
         "text30OpacityCoverMode": "30% krycia • Tryb cover"
       },
@@ -437,7 +508,8 @@
         "flowingLeavesAndMagicalGreenEnergyNature": "Płynące liście i magiczna zielona energia. (Natura)",
         "legendaryChampion": "Legendarny Czempion",
         "celestialLightAndCosmicEnergyAuraPrestige": "Niebiańskie światło i aura kosmicznej energii. (Prestiż)",
-        "loadingEffect": "Ładowanie efektu..."
+        "loadingEffect": "Ładowanie efektu...",
+        "profileEffect": "Profile Effect:"
       },
       "playerStatsFaq": {
         "total": "łącznie",
@@ -445,8 +517,14 @@
         "whenDidValue1Join6b6t": "Kiedy {{value1}} dołączył do 6b6t?",
         "value1Joined6b6tOrgForTheFirstTimeOn": "{{value1}} dołączył do 6b6t.org po raz pierwszy {{value2}}.",
         "howMuchHasValue1PlayedOn6b6t": "Ile {{value1}} grał na 6b6t?",
+        "value1HasPlayedValue2Value3On6b6t": "{{value1}} has played {{value2}} {{value3}} on 6b6t.",
+        "value1HasNotPlayedMuchRecently": "{{value1}} has not played much recently.",
         "howManyKillsDoesValue1HaveOn6b6t": "Ile zabójstw ma {{value1}} na 6b6t?",
+        "value1HasValue2Value3OnTheServer": "{{value1}} has {{value2}} {{value3}} on the server.",
+        "value1HasNoRecordedKillsYet": "{{value1}} has no recorded kills yet.",
         "whatIsValue1SRankOn6b6t": "Jaka jest ranga {{value1}} na 6b6t?",
+        "value1IsARegularPlayerOn6b6t": "{{value1}} is a regular player on 6b6t.",
+        "value1HasTheValue2RankOn6b6t": "{{value1}} has the {{value2}} rank on 6b6t.",
         "whereCanISeeValue1SPlayingHistory": "Gdzie mogę zobaczyć historię grania {{value1}}?",
         "youCanViewValue1SCompleteStatsHistoryIncluding": "Możesz zobaczyć pełną historię statystyk {{value1}}, w tym czas gry, zabójstwa, śmierci i więcej, właśnie tutaj na stronie profilu 6b6t.",
         "frequentlyAskedQuestionsAbout": "Często zadawane pytania o"
@@ -463,6 +541,8 @@
         "chooseYourColorTheme": "Wybierz motyw kolorystyczny",
         "backgroundSettings": "Ustawienia tła",
         "currentBackground": "Aktualne tło",
+        "imageValue1": "Image: {{value1}}",
+        "noBackgroundSelected": "No background selected",
         "chooseBackground": "Wybierz tło",
         "position": "Pozycja",
         "cover": "Cover",
@@ -475,13 +555,17 @@
         "screen": "Screen",
         "blurEffect": "Efekt rozmycia",
         "removeBackground": "Usuń tło",
-        "resetToDefaults": "Przywróć domyślne"
+        "resetToDefaults": "Przywróć domyślne",
+        "saveChanges": "Save Changes"
       },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityBadge": "Odznaka społeczności Telegram 6b6t",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Połączono Telegram i obecnie jest członkiem grupy 6b6t"
       },
       "themedStatsRenderer": {
+        "legend": "legend",
+        "champion": "champion",
+        "hero": "hero",
         "memberSince": "🗓️ Członek od",
         "returnToLeaderboards": "Wróć do rankingów",
         "statsReset": "Reset statystyk",
@@ -531,11 +615,13 @@
     },
     "monitoring": {
       "shopErrorBoundary": {
+        "client": "client",
         "somethingWentWrong": "Coś poszło nie tak",
         "weReSorryButSomethingUnexpectedHappenedOurTeam": "Przepraszamy, wydarzyło się coś nieoczekiwanego. Nasz zespół został powiadomiony.",
         "tryAgain": "Spróbuj ponownie",
         "resetPage": "Zresetuj stronę",
-        "backToShop": "Wróć do sklepu"
+        "backToShop": "Wróć do sklepu",
+        "errorId": "Error ID:"
       }
     }
   }

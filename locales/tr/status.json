@@ -1,12 +1,17 @@
 {
   "sections": {
     "statusClient": {
+      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
+      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
+      "lastUpdated": "Last updated:",
+      "loading": "Yükleniyor...",
       "refresh": "Yenile",
       "currentPlayers": "Mevcut Oyuncular",
       "connectionFailed": "Bağlantı Başarısız",
       "playersOnline": "oyuncu çevrimiçi",
-      "loading": "Yükleniyor...",
+      "online": "Online",
+      "offline": "Offline",
       "serverLimit": "Sunucu Limiti",
       "maximumCapacity": "maksimum kapasite",
       "capacity": "Kapasite",
@@ -17,12 +22,17 @@
       "ms": "ms"
     },
     "statusPageContent": {
+      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
+      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
+      "lastUpdated": "Last updated:",
+      "loading": "Yükleniyor...",
       "refresh": "Yenile",
       "currentPlayers": "Mevcut Oyuncular",
       "connectionFailed": "Bağlantı Başarısız",
       "playersOnline": "oyuncu çevrimiçi",
-      "loading": "Yükleniyor...",
+      "online": "Online",
+      "offline": "Offline",
       "serverLimit": "Sunucu Limiti",
       "maximumCapacity": "maksimum kapasite",
       "capacity": "Kapasite",

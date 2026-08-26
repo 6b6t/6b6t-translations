@@ -4,8 +4,24 @@
       "legend": {
         "components": {
           "legendComparisonGrid": {
-            "apex": "Apex",
-            "legend": "Legend",
+            "apex": "apex",
+            "apex2": "Apex",
+            "legend": "legend",
+            "legend2": "Legend",
+            "legendPrefix": "Legend Öneki",
+            "text500Homes": "500 Home",
+            "text10s": "10s",
+            "text3s": "3s",
+            "included": "Included",
+            "text70Balloons": "70 Balloons",
+            "text16Colors": "16 Colors",
+            "text12Colors": "12 Colors",
+            "text32Particles": "32 Particles",
+            "text32Chunks": "32 chunks",
+            "text120Minutes": "120 minutes",
+            "text6Colors": "6 Colors",
+            "text5000Players": "5000 Players",
+            "legendDiscordRole": "Legend Discord Role",
             "notIncluded": "Dahil değil",
             "viewValue1": "{{value1}} Görüntüle",
             "blur": "bulanık",
@@ -17,9 +33,11 @@
             "current": "MEVCUT",
             "lifetimeRank": "Ömür Boyu Rank",
             "mo": "ay",
-            "readyToBecomeALegend": "Legend olmaya hazır mısın?"
+            "readyToBecomeALegend": "Legend olmaya hazır mısın?",
+            "cancelAnytime14DayRefundPolicy": "Cancel anytime. 14-Day refund policy."
           },
           "userSelectForm": {
+            "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
             "redirectingToShop": "Mağazaya yönlendiriliyorsunuz...",
             "legendRankSelection": "Legend Rank Seçimi",
             "minecraftUsername": "Minecraft Kullanıcı Adı",
@@ -29,16 +47,44 @@
           }
         },
         "layout": {
-          "text6b6tTeam": "6b6t Ekibi",
-          "legendRankFeaturesDominateTheAnarchyServerWith500": "Legend Rank Özellikleri - 500 Home, Kozmetikler ve Komutlarla Anarşi Sunucusuna Hükmet",
+          "text6b6t": "6b6t",
+          "legendRank": "legend rank",
+          "minecraftAnarchyServer": "minecraft anarchy server",
+          "anarchyServerRanks": "anarchy server ranks",
+          "minecraftAnarchy": "minecraft anarchy",
+          "anarchyGaming": "anarchy gaming",
+          "ultimateAnarchyRank": "ultimate anarchy rank",
+          "anarchyServerPremium": "anarchy server premium",
+          "legendaryAnarchyRank": "legendary anarchy rank",
+          "minecraftAnarchyExperience": "minecraft anarchy experience",
+          "anarchyServerCosmetics": "anarchy server cosmetics",
+          "anarchyServerCommands": "anarchy server commands",
           "text6b6tAnarchy": "6b6t Anarşi",
+          "anarchyMinecraftServer": "anarchy minecraft server",
+          "premiumAnarchyRank": "premium anarchy rank",
+          "anarchyServerUpgrades": "anarchy server upgrades",
+          "cigarCommand": "cigar command",
+          "text500Homes": "500 homes",
+          "instantTeleportation": "instant teleportation",
+          "exclusiveCosmetics": "exclusive cosmetics",
+          "text6b6tTeam": "6b6t Ekibi",
+          "minecraftAnarchyServerRanks": "Minecraft Anarchy Server Ranks",
+          "text6b6tLegendRankUltimateMinecraftAnarchyServerExperience": "6b6t Legend Rank - Ultimate Minecraft Anarchy Server Experience",
+          "legendRankFeaturesDominateTheAnarchyServerWith500": "Legend Rank Özellikleri - 500 Home, Kozmetikler ve Komutlarla Anarşi Sunucusuna Hükmet",
+          "anarchyMinecraftAnarchyServer6b6tLegendRankPremiumGaming": "Anarchy,Minecraft,Anarchy Server,6b6t,Legend Rank,Premium Gaming,Server Ranks,Ultimate Anarchy",
+          "text6b6tLegendRankUltimateAnarchyServerExperience": "6b6t Legend Rank - Ultimate Anarchy Server Experience",
+          "theUltimateLegendRankOn6b6tTheMostPowerful": "The ultimate Legend rank on 6b6t - the most powerful Minecraft anarchy server rank. Dominate the anarchy server with 500 homes, instant teleportation, exclusive cosmetics, and the legendary /cigar command.",
+          "text6b6tAnarchy2": "6b6t Anarşi",
           "text6b6tAnarchyServer": "6b6t Anarşi Sunucusu",
           "theUltimateMinecraftAnarchyServerExperience": "Nihai Minecraft anarşi sunucusu deneyimi",
+          "purchaseTheUltimateLegendRankOn6b6tTheMost": "Purchase the ultimate Legend rank on 6b6t - the most powerful Minecraft anarchy server rank. Dominate the anarchy with premium features.",
           "skipToMainContent": "Ana içeriğe geç"
         },
         "legendUserShopMenu": {
           "loadingCheckout": "Ödeme yükleniyor...",
           "setUsername": "Kullanıcı Adı Belirle",
+          "subscribeForValue1": "Subscribe for {{value1}}",
+          "unavailable": "Unavailable",
           "legendRankPurchase": "Legend Rank Satın Alma",
           "pleaseEnterYourMinecraftUsernameAboveToCheckEligibility": "Uygunluğunuzu kontrol etmek ve Legend Rank satın almak için lütfen yukarıya Minecraft kullanıcı adınızı girin. Legend Rank yalnızca Apex Rank'ına sahip oyuncular için mevcuttur.",
           "unableToLoadRankInformation": "Rank bilgileri yüklenemedi",
@@ -47,6 +93,8 @@
           "youAreALegendRankMemberThankYouFor": "Bir Legend Rank üyesisiniz. Sunucuyu ve topluluğu desteklediğiniz için teşekkür ederiz!",
           "apexRankRequired": "Apex Rank Gerekli",
           "legendRankIsExclusivelyAvailableForApexRankHolders": "Legend Rank yalnızca Apex Rank'ına sahip oyuncular için mevcuttur. Şu anda sahip olduğunuz rank:",
+          "noRank": "no rank",
+          "value1Rank": "{{value1}} rank",
           "pleasePurchaseApexRankFirstToUnlockLegend": ". Legend'ın kilidini açmak için önce Apex Rank'ını satın almalısınız.",
           "viewApexRank": "Apex Rank'ını Görüntüle",
           "congratulationsApexMember": "Tebrikler, Apex Üyesi!",
@@ -60,8 +108,15 @@
       }
     },
     "audioManager": {
+      "pauseBackgroundMusic": "Pause background music",
+      "playBackgroundMusic": "Play background music",
       "pauseMusic": "Müziği duraklat",
-      "playMusic": "Müziği çal"
+      "playMusic": "Müziği çal",
+      "pause": "PAUSE",
+      "music": "MUSIC"
+    },
+    "book": {
+      "value1": "{{value1}}..."
     },
     "bookDialog": {
       "viewValue1ImageInFullScreen": "{{value1}} görselini tam ekranda görüntüle",
@@ -87,21 +142,49 @@
     "data": {
       "featuresData": {
         "text500Homes": "500 Home",
+        "text500Homes2": "500 Home",
         "neverWorryAboutRunningOutSpotsInThe6b6t": "6b6t dünyasında yer sıkıntısı çekmekten asla endişe etmeyin",
+        "utility": "Utility",
+        "set500HomesWithSethome": "Set 500 homes with /sethome",
+        "neverRunOutOfThem": "Never run out of them",
+        "travelInstantly": "Travel instantly",
         "builderMode": "İnşaatçı Modu",
         "seeEverythingAtYourBaseSoYouCanBuild": "Üssünüzdeki her şeyi görün, böylece özgürce inşa edebilir ve etkileyici ekran görüntüleri alabilirsiniz",
+        "building": "Building",
+        "automaticallyEnableWithBuildermodeHome": "Automatically enable with /buildermode home",
+        "increaseViewDistanceTo32": "Increase view distance to 32",
+        "seeEverything": "See everything",
         "cigars": "Purolar",
+        "cigars2": "Purolar",
         "theBaddestCoolestMostUniqueCosmeticYouVeEver": "Minecraft'ta gördüğünüz en havalı, en çılgın, en eşsiz kozmetik! Purolar!",
+        "cosmetic": "Cosmetic",
+        "firstMinecraftServerToAddCigars": "First Minecraft server to add cigars",
+        "relaxAndTakeAScreenshotWithThe6b6tOwner": "Relax and take a screenshot with the 6b6t owner",
+        "theCoolestCosmeticEverRunCigar": "The coolest cosmetic ever, run /cigar",
         "glow": "Parlama",
+        "glow2": "Parlama",
         "standOutAtNightAndDuringTheDayBetween": "Gece ve gündüz, binlerce oyuncu arasında öne çıkın; ışık sizsiniz",
-        "hotspot": "Hotspot",
+        "withGlowItWonTBeDark": "With /glow it won't be dark",
+        "youGlowTheSameColorAsYourNamecolor": "You glow the same color as your /namecolor",
+        "noLimitsOnUsage": "No limits on usage",
+        "hotspot": "hotspot",
+        "hotspot2": "Hotspot",
         "createTheMostActiveLocationsOnTheServer": "Sunucudaki en hareketli bölgeleri oluşturun",
+        "social": "Social",
+        "createAHotspotAndHostADestructiveParty": "Create a hotspot and host a destructive party",
+        "giveEveryoneAGlowEffectWithHotspotGlow": "Give everyone a glow effect with /hotspot glow",
+        "giveEveryoneYourFavoriteBalloonWithHotspotBalloon": "Give everyone your favorite balloon with /hotspot balloon",
         "nameColor": "İsim Rengi",
-        "yourStyleYourColors12ToChooseFrom": "Sizin stiliniz, sizin renkleriniz. Seçebileceğiniz 12 renk"
+        "yourStyleYourColors12ToChooseFrom": "Sizin stiliniz, sizin renkleriniz. Seçebileceğiniz 12 renk",
+        "customization": "Customization",
+        "changeYourNameColorWithNamecolor": "Change your name color with /namecolor",
+        "pickFrom12ColorsPreviewItWithTheCommand": "Pick from 12 colors (preview it with the command)",
+        "standOutTogetherWithChatcolor": "Stand out together with /chatcolor"
       },
       "pricingData": {
         "monthlyLegend": "Aylık Legend",
         "flexibleBillingForTheRareAdventures": "Ender maceralar için esnek faturalandırma",
+        "month": "/ month",
         "legendPrefix": "Legend Öneki",
         "legendDiscordRank": "Legend Discord Rank",
         "lightUpCigarsInMinecraftWithCigar": "/cigar ile Minecraft'ta puro yakın!",
@@ -137,8 +220,12 @@
         "changeNicknamePermissionIn6b6tDiscord": "6b6t Discord'da Takma Adı Değiştir izni",
         "streamingPermissionIn6b6tDiscord": "6b6t Discord'da Video Yayını izni",
         "accessTo10RankOnlyChannelsIn6b6tDiscord": "6b6t Discord'da 10'dan fazla rank'a özel kanala erişim",
+        "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "Priority support using #premium-tickets channel in 6b6t Discord",
+        "chooseMonthlyCovenant": "Choose Monthly Covenant",
         "threeMonthLegend": "Üç aylık Legend",
-        "longTermPlanningForTheWarriors": "Savaşçılar için uzun vadeli planlama"
+        "longTermPlanningForTheWarriors": "Savaşçılar için uzun vadeli planlama",
+        "save4499": "save €44.99",
+        "chooseThreeMonthCovenant": "Choose Three Month Covenant"
       }
     },
     "faq": {
@@ -177,8 +264,7 @@
       "libraryHeader": {
         "theLegendaryLibrary": "EFSANEVİ KÜTÜPHANE",
         "quotWelcomeToTheExclusiveWorldOfLegendaryPlayers": "&quot;6b6t'deki Efsanevi oyuncuların ayrıcalıklı dünyasına hoş geldiniz. Burada anarşide görülmüş en güçlü özelliklere ve kozmetiklere erişim kazanırsınız. Bu avantajlar sizi öne çıkarır, güçlendirir ve efsanevi kılar.",
-        "donAposTWaitBecomeALegend": "Bekleme. Bir LEGEND ol.",
-        "quot": ".&quot;"
+        "donAposTWaitBecomeALegend": "Bekleme. Bir LEGEND ol."
       },
       "librarySection": {
         "quotEachTomeContainsLegendaryPowersClickAnyBook": "&quot;Her cilt, efsanevi güçler barındırır. Sırlarını keşfetmek için herhangi bir kitaba tıklayın.&quot;"
@@ -205,6 +291,8 @@
         "alreadyActive": "✦ Zaten Aktif ✦",
         "youAlreadyHaveLegendRankThankYouForYour": "Zaten Legend Rank'ına sahipsiniz! Desteğiniz için teşekkür ederiz.",
         "requiresApexRank": "⚠️ Apex Rank Gerektirir",
+        "youNeedToPurchaseTheApexRankFirstTo": "You need to purchase the Apex rank first to unlock Legend.",
+        "youCurrentlyHaveValue1RankUpgradeToApexTo": "You currently have {{value1}} rank. Upgrade to Apex to unlock Legend.",
         "getApexRank": "Apex Rank Al",
         "setUsernameFirst": "👤 Önce Kullanıcı Adı Belirleyin",
         "pleaseEnterYourMinecraftUsernameToCheckEligibilityAnd": "Uygunluğunuzu kontrol etmek ve satın almak için lütfen Minecraft kullanıcı adınızı girin."
@@ -215,6 +303,7 @@
         "selectYourLegendMethod": "Legend Yönteminizi Seçin",
         "userIcon": "Kullanıcı simgesi",
         "loggedInAs": "Şu şekilde giriş yapıldı:",
+        "value1": "[{{value1}}]",
         "change": "Değiştir",
         "loginIcon": "Giriş simgesi",
         "setYourMinecraftUsername": "Minecraft Kullanıcı Adınızı Belirleyin",
@@ -226,7 +315,9 @@
         "checkingEligibility": "Uygunluk Kontrol Ediliyor..."
       },
       "shopBuyButton": {
+        "creatingCheckoutSession": "Creating checkout session...",
         "checkoutSessionCreated": "Ödeme oturumu oluşturuldu!",
+        "selectUsernameFirst": "Select Username First",
         "selectSubscriptionDuration": "Abonelik Süresini Seçin",
         "chooseHowLongYouWantToSubscribeForLonger": "Ne kadar süre abone olmak istediğinizi seçin. Daha uzun süreler daha iyi değer sunar!",
         "close": "Kapat",
@@ -299,6 +390,7 @@
       "first": "İlk",
       "value1Value2": "{{value1}}{{value2}}",
       "cigars": "puro",
+      "firstSmoked2": "First smoked:",
       "cigarsTotal": "toplam puro",
       "totalCigarsSmoked": "Toplam İçilen Puro",
       "activeSmokers7d": "Aktif İçiciler (7g)",
@@ -354,6 +446,7 @@
       }
     },
     "userSelectForm": {
+      "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
       "legendRankSelection": "Legend Rank Seçimi",
       "minecraftUsername": "Minecraft Kullanıcı Adı",
       "dinnerbone": "Dinnerbone",
