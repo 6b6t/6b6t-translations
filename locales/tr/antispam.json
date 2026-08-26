@@ -1,6 +1,7 @@
 {
   "sections": {
     "antispamClient": {
+      "failedToFetchLogs": "Failed to fetch logs",
       "loadingModerationLogs": "Moderasyon kayıtları yükleniyor...",
       "unableToLoadLogs": "Kayıtlar Yüklenemedi",
       "tryAgain": "Tekrar Dene",
@@ -23,6 +24,7 @@
       "expanded": "(genişletildi)",
       "last": "Son",
       "messagesFor": "mesaj, oyuncu:",
+      "beforeMute": "before mute:",
       "page": "Sayfa",
       "value1Value2": "{{value1}}{{value2}}",
       "of": "/"
@@ -30,6 +32,7 @@
     "components": {
       "muteSystemCard": {
         "muteSystem": "Susturma Sistemi",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
         "on": "açık",
         "or": "veya",
         "off": "kapalı",
@@ -37,6 +40,7 @@
       }
     },
     "page": {
+      "antiSpamLogs": "Anti-Spam Logs",
       "completeTransparencyInOurModerationSystemViewAllSpam": "Moderasyon sistemimizde tam şeffaflık. 6b6t.org üzerindeki tüm spam önleme işlemlerini, susturmaları ve moderasyon faaliyetlerini görüntüleyin.",
       "notAllowed": "Yasak Olanlar",
       "spammingOtherMinecraftServers": "Başka Minecraft sunucuları için spam yapmak",
@@ -55,6 +59,7 @@
       "appealYourMuteUsingTheFormBelow": "Susturmanıza aşağıdaki formu kullanarak itiraz edin.",
       "openAppealForm": "İtiraz Formunu Aç",
       "publicModerationLogs": "Herkese Açık Moderasyon Kayıtları",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Real-time moderation actions and spam prevention activities",
       "toProtectOurModeratorsPrivacyTheyAreNotShown": "Moderatörlerimizin gizliliğini korumak için, isimleri bu sayfada gösterilmez. Bir susturma şu sebeple verildiğinde:",
       "doxxing": "Doxxing",
       "or": "veya",

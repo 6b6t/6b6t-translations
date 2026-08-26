@@ -2,6 +2,12 @@
   "page-name": "Statystyki",
   "seo-description": "Zobacz najlepszych graczy w różnych kategoriach",
   "sections": {
+    "username": {
+      "page": {
+        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
+        "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
+      }
+    },
     "leaderboardStatisticCard": {
       "rank": "Pozycja",
       "name": "Nazwa",
@@ -25,6 +31,7 @@
     "statsPageContent": {
       "playerStatistics": "Statystyki graczy",
       "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "Zobacz najlepszych graczy na 6b6t w różnych kategoriach statystyk. Wyszukaj konkretnego gracza lub przeglądaj rankingi poniżej.",
+      "statsReset": "Stats reset:",
       "statsWereResetOnMay222026DueTo": "Statystyki zostały zresetowane 22 maja 2026 z powodu uszkodzenia danych i nie udało się ich odzyskać.",
       "underMaintenance": "Przerwa techniczna",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Ta statystyka jest tymczasowo niedostępna. Pracujemy nad przywróceniem najnowszych danych rankingowych tak szybko, jak to możliwe.",

@@ -1,6 +1,7 @@
 {
   "sections": {
     "antispamClient": {
+      "failedToFetchLogs": "Failed to fetch logs",
       "loadingModerationLogs": "Loading moderation logs...",
       "unableToLoadLogs": "Unable to Load Logs",
       "tryAgain": "Try Again",
@@ -23,6 +24,7 @@
       "expanded": "(expanded)",
       "last": "Last",
       "messagesFor": "messages for",
+      "beforeMute": "before mute:",
       "page": "Page",
       "value1Value2": "{{value1}}{{value2}}",
       "of": "of"
@@ -30,6 +32,7 @@
     "components": {
       "muteSystemCard": {
         "muteSystem": "Mute System",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
         "on": "on",
         "or": "or",
         "off": "off",
@@ -37,6 +40,7 @@
       }
     },
     "page": {
+      "antiSpamLogs": "Anti-Spam Logs",
       "completeTransparencyInOurModerationSystemViewAllSpam": "Complete transparency in our moderation system. View all spam prevention actions, mutes, and moderation activities on 6b6t.org.",
       "notAllowed": "Not Allowed",
       "spammingOtherMinecraftServers": "Spamming other minecraft servers",
@@ -55,6 +59,7 @@
       "appealYourMuteUsingTheFormBelow": "Appeal your mute using the form below.",
       "openAppealForm": "Open Appeal Form",
       "publicModerationLogs": "Public Moderation Logs",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Real-time moderation actions and spam prevention activities",
       "toProtectOurModeratorsPrivacyTheyAreNotShown": "To protect our moderators' privacy, they are not shown on this page. When a mute is issued for",
       "doxxing": "Doxxing",
       "or": "or",

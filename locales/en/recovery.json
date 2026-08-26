@@ -16,12 +16,24 @@
       "recoveryWalkthrough": {
         "startWithTheAccount": "Start With The Account",
         "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Enter the username first. The flow checks which recovery path is safe for that account.",
+        "useTheExactInGameUsername": "Use the exact in-game username.",
+        "completeTheCaptchaOnceBeforeSubmitting": "Complete the captcha once before submitting.",
+        "ifTheAccountCanStillUseTheNormalEmail": "If the account can still use the normal email reset path, recovery will redirect there.",
         "setTheNewContactEmail": "Set The New Contact Email",
         "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "The new email is only accepted after identity checks pass, so use an inbox you control.",
+        "useAnEmailYouCanVerifyImmediately": "Use an email you can verify immediately.",
+        "ifYouStillRememberTheOldEmailProvideIt": "If you still remember the old email, provide it when asked.",
+        "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Security responses stay generic so attackers cannot learn what matched.",
         "prepareProofDetails": "Prepare Proof Details",
         "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Strong proof is specific account history that another player would not know.",
+        "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Saved homes and coordinate locations are optional when you do not have them.",
+        "countriesLastLogoutLocationItemNamesAndOldBase": "Countries, last logout location, item names, and old base details can help the score.",
+        "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Only submit details you actually remember; wrong guesses can weaken the request.",
         "reviewOrReset": "Review Or Reset",
         "ifTheAutomaticScoreIsEnoughYouContinueTo": "If the automatic score is enough, you continue to verification. Otherwise a ticket is created.",
+        "manualReviewTicketsKeepTheProofAttachedForStaff": "Manual review tickets keep the proof attached for staff.",
+        "recoveryIsRateLimitedSoDoNotSpamAttempts": "Recovery is rate limited, so do not spam attempts.",
+        "onceApprovedFinishTheEmailCodeStepAndSet": "Once approved, finish the email code step and set a new password.",
         "howRecoveryWorks": "How recovery works",
         "walkthroughProgress": "Walkthrough progress",
         "goToWalkthroughStepValue1": "Go to walkthrough step {{value1}}",
@@ -29,7 +41,9 @@
         "value1Value2": "{{value1}}{{value2}}",
         "of": "of",
         "skip": "Skip",
-        "back": "Back"
+        "back": "Back",
+        "startRecovery": "Start Recovery",
+        "next": "Next"
       },
       "steps": {
         "blockedStep": {
@@ -46,10 +60,14 @@
           "verifyAccountIdentity": "Verify Account Identity"
         },
         "gracePeriodPendingStep": {
+          "recoveryPendingGracePeriodActive": "Recovery Pending - Grace Period Active",
           "theAccountOwnerHasBeenNotifiedViaEmailIf": "The account owner has been notified via email. If they do not respond within",
           "days": "days",
           "youCanProceedWithIdentityVerification": ", you can proceed with identity verification.",
+          "gracePeriodExpires": "Grace period expires:",
           "verification": "Verification",
+          "checking": "Checking...",
+          "checkStatus": "Check Status",
           "returnToStart": "Return to Start"
         },
         "intentStep": {
@@ -63,20 +81,30 @@
           "continueRecovery": "Continue Recovery"
         },
         "lane1DeadEndStep": {
+          "standardResetRequired": "Standard Reset Required",
+          "automatedRecoveryUnavailable": "Automated Recovery Unavailable",
+          "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Your account already has a verified email matching the one you entered. Please use the standard 'Forgot Password' flow to reset your credentials.",
+          "weCannotProcessAnAutomatedRecoveryForThisAccount": "We cannot process an automated recovery for this account with the provided information to ensure its security.",
           "returnToStart": "Return to Start"
         },
         "lane2aStep": {
+          "inGameRecoveryInstructions": "In-Game Recovery Instructions",
+          "sinceYouCanStillJoinTheServerProveControl": "Since you can still join the server, prove control of the account from in-game before changing the recovery email. This code verifies the email-change request, then we will confirm the new email.",
           "join6b6t": "Join 6b6t",
           "run": "Run",
+          "copyThe6CharacterRecoveryCodeShownInChat": "Copy the 6-character recovery code shown in chat and enter it below.",
           "newTargetEmail": "New Target Email",
           "required": "(required)",
           "nameExampleCom": "name@example.com",
+          "inGameRecoveryCode": "In-Game Recovery Code",
           "abc123": "ABC123",
+          "verifyInGameCode": "Verify In-Game Code",
           "returnToStart": "Return to Start"
         },
         "manualReviewStep": {
           "manualReview": "Manual Review",
           "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "Your identity verification passed perfectly. However, because this account has been active recently (offline for only",
+          "aFew": "a few",
           "daysOurSecurityPolicyRequiresAnAdminToManually": "days), our security policy requires an admin to manually review this recovery before proceeding.",
           "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "Your identity verification passed. However, because this account holds a special rank, manual review is required for security.",
           "submitProofOfAccountOwnershipForAdminReviewInclude": "Submit proof of account ownership for admin review. Include purchase receipts, transaction IDs, or any evidence that ties you to this account.",
@@ -100,16 +128,19 @@
           "privateConnectionDetails": "Private Connection Details",
           "yourPublicProofWasNotEnoughProvidePrivateNetwork": "Your public proof was not enough. Provide private network details to boost your score.",
           "ipAddressIpv4OrIpv6": "IP Address (IPv4 or IPv6)",
-          "regionState": "Region/State",
           "city": "City",
           "asnExampleAs1234": "ASN (example: AS1234)",
           "ispProvider": "ISP / Provider",
           "scorePrivateDetails": "Score Private Details"
         },
         "publicScoreStep": {
-          "overworld": "Overworld",
-          "nether": "Nether",
-          "end": "End",
+          "overworld": "overworld",
+          "overworld2": "Overworld",
+          "nether": "nether",
+          "nether2": "Nether",
+          "end": "end",
+          "end2": "End",
+          "unknown": "unknown",
           "notSure": "Not sure",
           "none": "None",
           "accountProofRequired": "Account Proof Required",
@@ -118,7 +149,10 @@
           "commaSeparated": "(comma separated)",
           "eGGermanyNetherlandsUnitedStates": "e.g. Germany, Netherlands, United States",
           "howManySavedHomesDidThisAccountHave": "How many saved homes did this account have?",
+          "homeNameProofIsSkippedBecauseThisAccountHad": "Home-name proof is skipped because this account had no saved homes.",
           "savedHomeNames": "Saved Home Names",
+          "oneRowPerHome": "(one row per home)",
+          "optional": "(optional)",
           "savedHomeName": "Saved home name",
           "dimensionForSavedHomeValue1": "Dimension for saved home {{value1}}",
           "removeSavedHomeValue1": "Remove saved home {{value1}}",
@@ -126,6 +160,7 @@
           "howManyCoordinateLocationsCanYouProvide": "How many coordinate locations can you provide?",
           "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "Coordinate proof is skipped because no coordinate locations were provided.",
           "knownCoordinates": "Known Coordinates",
+          "oneRowPerLocation": "(one row per location)",
           "dimensionForCoordinateValue1": "Dimension for coordinate {{value1}}",
           "removeCoordinateValue1": "Remove coordinate {{value1}}",
           "addCoordinate": "Add Coordinate",
@@ -135,7 +170,6 @@
           "dimensionForLastLogoutLocation": "Dimension for last logout location",
           "thisIsStrongProofIfYouRememberWhereYou": "This is strong proof if you remember where you disconnected.",
           "otherDetails": "Other Details",
-          "optional": "(optional)",
           "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "Inventory items, sword names, unwritten book contents, pet names...",
           "submitProofCalculateScore": "Submit Proof & Calculate Score"
         },
@@ -145,6 +179,7 @@
           "newPassword": "New Password",
           "minimum8Characters": "Minimum 8 characters",
           "confirmPassword": "Confirm Password",
+          "reEnterYourNewPassword": "Re-enter your new password",
           "resetPassword": "Reset Password"
         },
         "startStep": {
@@ -159,6 +194,7 @@
         },
         "verifyEmailCodeStep": {
           "emailVerification": "Email Verification",
+          "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don't see it.",
           "emailVerificationCode": "Email Verification Code",
           "text6DigitCode": "6-digit code",
           "verifyCode": "Verify Code"
@@ -171,6 +207,8 @@
         "noBlockTokenProvided": "No block token provided.",
         "loading": "loading",
         "success": "success",
+        "recoveryAttemptHasBeenBlockedSuccessfully": "Recovery attempt has been blocked successfully.",
+        "failedToBlockRecoveryAttempt": "Failed to block recovery attempt.",
         "anErrorOccurredPleaseTryAgainLater": "An error occurred. Please try again later.",
         "noBlockTokenProvidedInTheUrl": "No block token provided in the URL.",
         "accountSecurity": "Account Security",
@@ -196,6 +234,7 @@
         "noResetTokenProvidedInTheUrl": "No reset token provided in the URL.",
         "loading": "loading",
         "success": "success",
+        "passwordHasBeenResetSuccessfully": "Password has been reset successfully.",
         "idle": "idle",
         "accountSecurity": "Account Security",
         "reset": "Reset",
@@ -205,6 +244,7 @@
         "passwordResetComplete": "Password Reset Complete",
         "minimum8Characters": "Minimum 8 characters",
         "confirmPassword": "Confirm Password",
+        "reEnterYourPassword": "Re-enter your password",
         "resetPassword": "Reset Password"
       }
     }
