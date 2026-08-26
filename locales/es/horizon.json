@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "horizonCountdown": {
+      "days": "Días",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos",
+      "horizonIsLive": "Horizon está en directo",
+      "timeRemainingUntilHorizonStartsStreaming": "Tiempo restante hasta que Horizon comience el directo"
+    },
+    "page": {
+      "horizonLiveOn6b6t": "Horizon — En directo en 6b6t",
+      "countdownToHorizonS6b6tStreamOnAugust22": "Cuenta regresiva para el directo de Horizon en 6b6t el 22 de agosto de 2026 a las 20:00 CEST.",
+      "text6b6tHome": "Inicio de 6b6t",
+      "text6b6t": "6b6t",
+      "horizon": "Horizon",
+      "horizonIsStreamingOn6b6t": "Horizon está transmitiendo en directo en 6b6t.",
+      "saturdayAugust22": "Sábado 22 de agosto",
+      "text2000Cest": "20:00 CEST",
+      "eventBriefing": "Información del evento",
+      "text2Hours": "2 horas",
+      "usingAllOfTheDupedLootFromTheLast": "Usando todo el loot duplicado durante la última semana, ayuda a proteger a Horizon o cázalo e intenta matarlo. El equipo de protección no tendrá PvP entre sus miembros y tampoco podrá hacerle daño a Horizon. El evento dura 2 horas.",
+      "chooseYourSide": "Elige tu bando",
+      "huntHorizon": "Cazar a Horizon",
+      "doWhateverYouCanToHuntAndKillHorizon": "Haz todo lo que puedas para cazar y matar a Horizon. Nadie puede detenerte.",
+      "protectHorizon": "Proteger a Horizon",
+      "stopTheEnemiesFromKillingHorizonPvpWithinThe": "¡Evita que los enemigos maten a Horizon! El PvP dentro del grupo está desactivado y no puedes hacerle daño a Horizon.",
+      "thehorizonmcMinecraftSkin": "Skin de Minecraft de TheHorizonMC",
+      "featuredStreamer": "Streamer destacado",
+      "thehorizonmc": "TheHorizonMC",
+      "xTwitter": "X / Twitter",
+      "youtube": "YouTube",
+      "github": "GitHub",
+      "curseforge": "CurseForge",
+      "worldwideStartTimes": "Horarios de inicio en todo el mundo",
+      "sameMomentEverywhere": "El mismo momento, en todo el mundo",
+      "text6b6tOrgHorizon": "6b6t.org/horizon"
+    }
+  }
+}

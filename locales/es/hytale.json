@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "components": {
+      "countdown": {
+        "days": "DÍAS",
+        "hours": "HORAS",
+        "mins": "MINS",
+        "secs": "SEGS"
+      },
+      "hytaleConnectionModal": {
+        "serverConnection": "Conexión al servidor",
+        "closeModal": "Cerrar ventana",
+        "text6b6tHytale": "6b6t Hytale",
+        "serverAddresses": "Direcciones del servidor",
+        "howToJoin": "Cómo entrar",
+        "launchYourHytaleClient": "Abre tu cliente de Hytale",
+        "navigateToMultiplayerGtAddServer": "Ve a Multijugador &gt; Añadir servidor",
+        "enterOneOfTheAddressesAbove": "Introduce una de las direcciones de arriba",
+        "joinAndEmbraceTheChaos": "Entra y abraza el caos",
+        "joinTheDiscordForUpdates": "Únete al Discord para recibir novedades"
+      },
+      "hytaleFaq": {
+        "areThereReallyNoRules": "¿De verdad no hay reglas?",
+        "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "El servidor 6b6t Hytale es un servidor de anarquía pura. los grifeos, los raids y el PvP están completamente permitidos. Como el primer servidor anárquico de Hytale, ofrecemos libertad absoluta sin baneos.",
+        "whatMakesThisTheFirstAnarchyServer": "¿Qué lo convierte en el primer servidor anárquico?",
+        "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t abrió apenas unos minutos después del lanzamiento mundial de Hytale el 13 de enero de 2026. Creamos el primer entorno de anarquía real en la historia de Hytale, con un mundo permanente que nunca será reiniciado.",
+        "willTheMapEverReset": "¿Alguna vez se reiniciará el mapa?",
+        "theMapOf6b6tHytaleServerWillNeverReset": "El mapa del servidor 6b6t Hytale nunca se reiniciará. 6b6t es el servidor anárquico más antiguo de Hytale y comenzó el 13 de enero de 2026. Este mundo es permanente y conservará tus construcciones y su historia para siempre.",
+        "isItPayToWin": "¿Es Pay-to-Win?",
+        "common": "Preguntas",
+        "queries": "frecuentes"
+      },
+      "hytaleFeaturedVideo": {
+        "featuredVideo": "Video destacado",
+        "fitmcOn": "FitMC en",
+        "text6b6tHytale": "6b6t Hytale",
+        "watchTheLatestVideoAbout6b6tFromFitmcThe": "Mira el último video de FitMC sobre 6b6t, el servidor anárquico más grande y antiguo de Hytale.",
+        "fitmcOn6b6tHytale": "FitMC en 6b6t Hytale",
+        "clickToPlay": "Haz clic para reproducir"
+      },
+      "hytaleFooter": {
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "twitter": "Twitter",
+        "reddit": "Reddit",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "text6b6t": "6b6t",
+        "hytale": "Hytale",
+        "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "La experiencia anárquica definitiva, reinventada para Hytale. Sin reglas, sin amos, posibilidades infinitas.",
+        "serverIp": "IP del servidor",
+        "copyIp": "Copiar IP",
+        "links": "Enlaces",
+        "home": "Inicio",
+        "notAffiliatedWithMojangStudiosOrHypixelStudios": "No afiliado con Mojang Studios ni Hypixel Studios.",
+        "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. Todos los derechos reservados."
+      },
+      "hytaleGallery": {
+        "allMedia": "Todo",
+        "hytale": "Hytale",
+        "aGlimpseOf": "Un vistazo al",
+        "chaos": "caos",
+        "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "Descubre historias aún no contadas y paisajes esperando ser conquistados."
+      },
+      "hytaleGalleryModal": {
+        "closeModal": "Cerrar ventana",
+        "featured": "Destacado"
+      },
+      "hytaleHero": {
+        "text6b6t": "6b6t",
+        "theFirstAnarchyServerInHytale": "El primer servidor anárquico de Hytale",
+        "noRulesNoResetsNoMercyExperience": "Sin reglas. Sin reinicios. Sin piedad. Experimenta la",
+        "trueAnarchy": "anarquía real",
+        "inHytaleOnThe": "en Hytale en el",
+        "firstAnarchyServer": "primer servidor anárquico",
+        "establishedJust": ", creado apenas",
+        "minutesAfterTheGameLaunched": "minutos después del lanzamiento del juego",
+        "chaosReignsInThisOpenWorldWithNoBans": ". El caos reina en este mundo abierto sin baneos.",
+        "playersOnline": "Jugadores conectados",
+        "capacity": "capacidad",
+        "liveQuery": "Datos en tiempo real",
+        "tps": "TPS:",
+        "entities": "Entidades:",
+        "chunks": "Chunks:",
+        "joinDiscord": "Únete a Discord",
+        "playNow": "Jugar ahora",
+        "playHytaleTrailer": "Ver tráiler de Hytale",
+        "hytaleTrailerThumbnail": "Miniatura del tráiler de Hytale",
+        "playVideo": "Reproducir video",
+        "hytaleTrailer": "Tráiler de Hytale"
+      },
+      "hytaleNav": {
+        "home": "INICIO",
+        "text6b6t": "6b6t",
+        "text6b6t2": "6B6T",
+        "play": "JUGAR",
+        "toggleMenu": "Abrir o cerrar menú"
+      },
+      "runeDecorations": {
+        "text6b6tForever": "6b6t para siempre",
+        "chaosAwaits": "El caos te espera",
+        "joinTheAnarchy": "Únete a la anarquía",
+        "noRulesNoMercy": "Sin reglas, sin piedad",
+        "hytale2026": "Hytale 2026"
+      },
+      "serverAge": {
+        "serverAge": "Antigüedad del servidor",
+        "days": "DÍAS",
+        "hours": "HORAS",
+        "mins": "MINS",
+        "secs": "SEGS",
+        "est": "Est.",
+        "cet": "CET"
+      }
+    },
+    "page": {
+      "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - El primer servidor anárquico de Hytale | Hytale Anarchy",
+      "joinTheFirstAndOldestAnarchyServerInHytale": "Únete al primer y más antiguo servidor anárquico de Hytale. Sin reglas, sin baneos y sin reinicios. El servidor anárquico original de Hytale. Juega gratis conectándote a hytale.6b6t.org",
+      "text6b6tFirstAnarchyServerInHytaleHytaleAnarchyServer": "6b6t - El primer servidor anárquico de Hytale | Servidor Hytale Anarchy",
+      "theFirstAnarchyServerInHytaleNoRulesPure": "El primer servidor anárquico de Hytale. Sin reglas, caos puro. ¡Juega Gratis!",
+      "join6b6tTheFirstAnarchyServerInHytaleLaunched": "Únete a 6b6t, el primer servidor anárquico de Hytale, lanzado apenas unos minutos después de la salida del juego. Experimenta la verdadera libertad: sin reglas, sin reinicios y con caos puro.",
+      "text6b6tAnarchyServer": "6b6t - Servidor anárquico",
+      "text6b6t": "6b6t",
+      "freeToPlayWithOptionalCosmeticPurchases": "Gratis para jugar con compras cosméticas opcionales",
+      "areThereReallyNoRulesOn6b6tHytale": "¿De verdad no hay reglas en 6b6t Hytale?",
+      "text6b6tHytaleServerIsAPureAnarchyServerJust": "6b6t Hytale es un servidor de anarquía pura, al igual que el servidor anárquico de Minecraft 6b6t. El griefing, los raids y el PvP están completamente permitidos. Los únicos límites son los que impone el propio juego. Sobrevive por cualquier medio necesario.",
+      "willThe6b6tHytaleMapEverReset": "¿Alguna vez se reiniciará el mapa de 6b6t Hytale?",
+      "theMapOf6b6tHytaleServerWillNeverReset": "El mapa del servidor 6b6t Hytale nunca se reiniciará. 6b6t Hytale es el servidor anárquico más antiguo de Hytale y su mapa comenzó el 13 de enero de 2026. Este mundo seguirá siendo el mismo durante los próximos años. Tu legado será permanente.",
+      "is6b6tHytalePayToWin": "¿6b6t Hytale es Pay-to-Win?",
+      "absolutelyNot6b6tFocusedOnMonetizationThroughCosmeticsAnd": "En absoluto. 6b6t se centra en la monetización mediante cosméticos y no utiliza mecánicas Pay-to-Win ni Pay-to-Play. Todos tienen las mismas oportunidades dentro del juego.",
+      "howDoIConnectTo6b6tHytaleServer": "¿Cómo me conecto al servidor 6b6t Hytale?",
+      "connectTo6b6tHytaleAtHytale6b6tOrgLink": "Conéctate a 6b6t Hytale en hytale.6b6t.org. Vincula tu cuenta y estarás listo para jugar. Entrar y jugar en el servidor es gratis.",
+      "whenDid6b6tHytaleLaunch": "¿Cuándo se lanzó 6b6t Hytale?",
+      "text6b6tHytaleLaunchedOnJanuary132026JustMinutes": "6b6t Hytale abrió el 13 de enero de 2026, apenas unos minutos después del lanzamiento oficial de Hytale, convirtiéndose en el primer servidor anárquico de la historia del juego.",
+      "home": "Inicio",
+      "hytaleServer": "Servidor de Hytale",
+      "text6b6tIsTheLargestAnarchyMinecraftServerAndThe": "6b6t es el servidor anárquico de Minecraft más grande y el primer servidor anárquico de Hytale. Sin reglas, sin baneos, anarquía pura.",
+      "text6b6tHytaleServerScreenshots": "Capturas del servidor 6b6t Hytale",
+      "galleryShowcasingTheFirstWeeksOf6b6tHytaleAnarchy": "Galería de las primeras semanas del servidor anárquico 6b6t Hytale. Las capturas incluyen castillos, highways, bases y momentos históricos de enero de 2026.",
+      "aCastleDuringTheDay": "Un castillo durante el día",
+      "inventoryFullOfDupedItems": "Inventario lleno de objetos duplicados",
+      "oneOfTheFirstHighways": "Una de las primeras highways",
+      "highwayBuildersWorkingTogether": "Constructores de highways trabajando juntos",
+      "text3rdDayOnTheServer": "Tercer día en el servidor",
+      "aGlitchedBlock": "Un bloque bugueado",
+      "spawnInTheFirstWeekOf6b6tHytale": "Spawn durante la primera semana de 6b6t Hytale",
+      "oneOfTheFirstPeacefulNights": "Una de las primeras noches tranquilas",
+      "aModernHouse": "Una casa moderna"
+    }
+  }
+}

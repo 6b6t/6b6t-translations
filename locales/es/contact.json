@@ -1,0 +1,31 @@
+{
+  "page-name": "Contáctanos",
+  "seo-description": "Contáctanos en 6b6t.",
+  "sections": {
+    "page": {
+      "contactUs": "Contáctanos",
+      "getIn": "Ponte en",
+      "touch": "contacto",
+      "needHelpWeReHereToAssistYouWith": "¿Necesitas ayuda? Estamos aquí para ayudarte con cualquier pregunta o problema relacionado con 6b6t.",
+      "email": "Correo electrónico",
+      "discord": "Discord",
+      "contactViaEmail": "Contactar por correo",
+      "sendUsAnEmailAndWeLlGetBack": "Envíanos un correo y te responderemos en un plazo de 24 horas.",
+      "openYourEmailApp": "Abre tu aplicación de correo",
+      "composeAnEmailDescribingYourConcern": "Escribe un correo describiendo tu consulta o problema",
+      "sendTo": "Enviar a",
+      "contactViaDiscord": "Contactar por Discord",
+      "createATicketInOur": "Crea un ticket en nuestro",
+      "discordServer": "servidor de Discord",
+      "forFasterSupport": "para recibir soporte más rápido.",
+      "joinOurDiscordServer": "Únete a nuestro servidor de Discord",
+      "createATicketIn": "Crea un ticket en",
+      "waitForATeamMemberToRespond": "Espera a que un miembro del equipo responda",
+      "discordSupportIs": "El soporte por Discord es",
+      "exclusiveToRankedPlayers": "exclusivo para jugadores con rango",
+      "youMustHaveARankFromThe": ". Debes tener un rango de la",
+      "text6b6tShop": "tienda de 6b6t",
+      "toCreateATicket": "para crear un ticket."
+    }
+  }
+}
