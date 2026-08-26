@@ -248,15 +248,6 @@
       }
     },
     "footer": {
-      "visa": "Visa",
-      "mastercard": "Mastercard",
-      "applePay": "Apple Pay",
-      "googlePay": "Google Pay",
-      "ideal": "iDEAL",
-      "bancontact": "Bancontact",
-      "eps": "EPS",
-      "acceptedPaymentMethods": "Accepted Payment Methods",
-      "cardsAndWallets": "Cards and Wallets",
       "features": "Features",
       "pricing": "Pricing",
       "faq": "FAQ",

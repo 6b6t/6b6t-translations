@@ -248,15 +248,6 @@
       }
     },
     "footer": {
-      "visa": "Visa",
-      "mastercard": "Mastercard",
-      "applePay": "Apple Pay",
-      "googlePay": "Google Pay",
-      "ideal": "iDEAL",
-      "bancontact": "Bancontact",
-      "eps": "EPS",
-      "acceptedPaymentMethods": "Kabul Edilen Ödeme Yöntemleri",
-      "cardsAndWallets": "Kartlar ve Cüzdanlar",
       "features": "Özellikler",
       "pricing": "Fiyatlandırma",
       "faq": "SSS",
