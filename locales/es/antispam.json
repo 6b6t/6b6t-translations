@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "antispamClient": {
+      "failedToFetchLogs": "Failed to fetch logs",
+      "loadingModerationLogs": "Cargando registros de moderación...",
+      "unableToLoadLogs": "No se pudieron cargar los registros",
+      "tryAgain": "Intentar de nuevo",
+      "noModerationRecordsAvailable": "No hay registros de moderación disponibles",
+      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "¡Buenas noticias! No se han registrado acciones de prevención de spam recientemente. Nuestra comunidad mantiene el chat limpio y respetuoso.",
+      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "Esta página se actualizará automáticamente cuando se produzcan acciones de moderación.",
+      "searchPlayer": "Buscar jugador...",
+      "newestFirst": "Más recientes primero",
+      "oldestFirst": "Más antiguos primero",
+      "action": "Acción",
+      "player": "Jugador",
+      "reason": "Motivo",
+      "duration": "Duración",
+      "expiresIn": "Expira en",
+      "date": "Fecha",
+      "details": "Detalles",
+      "mute": "muteo",
+      "hidden": "Oculto",
+      "messages": "mensajes",
+      "expanded": "(expandido)",
+      "last": "Últimos",
+      "messagesFor": "mensajes de",
+      "beforeMute": "before mute:",
+      "page": "Página",
+      "value1Value2": "{{value1}}{{value2}}",
+      "of": "de"
+    },
+    "components": {
+      "muteSystemCard": {
+        "muteSystem": "Sistema de muteo",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
+        "on": "activado",
+        "or": "o",
+        "off": "desactivado",
+        "thisMuteSystemIsFullyTransparentAndAnarchy": "Este sistema de muteo es completamente transparente y compatible con la anarquía."
+      }
+    },
+    "page": {
+      "antiSpamLogs": "Anti-Spam Logs",
+      "completeTransparencyInOurModerationSystemViewAllSpam": "Transparencia total en nuestro sistema de moderación. Consulta todas las acciones de prevención de spam, muteos y actividades de moderación en 6b6t.org.",
+      "notAllowed": "No permitido",
+      "spammingOtherMinecraftServers": "Hacer spam de otros servidores de Minecraft",
+      "excessiveAutomatedSpamming": "Spam automatizado excesivo",
+      "spammingWithMultipleAccounts": "Hacer spam con varias cuentas",
+      "illegalContentRelatedToChildren": "Contenido ilegal relacionado con menores",
+      "doxxingOrDdosing": "Doxxing o ataques DDoS",
+      "advertisingProxiesVpnsOtherConnectionMethods": "Promocionar proxies, VPN u otros métodos de conexión",
+      "distributingMalwareOrMaliciousLinks": "Distribuir malware o enlaces maliciosos",
+      "affectsBothChatAndWhispers": "Afecta tanto al chat como a los mensajes privados",
+      "allowed": "Permitido",
+      "advertising6b6tWebsiteDiscordServersAmpProjectsOnceEvery": "Promocionar el sitio web de 6b6t, servidores de Discord y proyectos una vez cada cinco minutos",
+      "ifYouDoNotWishToSeeTheMessages": "Si no quieres ver los mensajes de jugadores que no están infringiendo ninguna regla, puedes seguir usando",
+      "ignoreLtPlayerGt": "/ignore &lt;player&gt;",
+      "appealsProcess": "Proceso de apelación",
+      "appealYourMuteUsingTheFormBelow": "Apela tu mute mediante el formulario de abajo.",
+      "openAppealForm": "Abrir formulario de apelación",
+      "publicModerationLogs": "Registros públicos de moderación",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Real-time moderation actions and spam prevention activities",
+      "toProtectOurModeratorsPrivacyTheyAreNotShown": "Para proteger la privacidad de nuestros moderadores, sus nombres no se muestran en esta página. Cuando se aplica un muteo por",
+      "doxxing": "doxxing",
+      "or": "o",
+      "theMutedPlayerSNameAndTheirMessagesAre": ", el nombre del jugador muteado y sus mensajes también se mantienen ocultos.",
+      "loadingModerationLogs": "Cargando registros de moderación...",
+      "thisPageShowsAllModerationActionsTakenByThe": "Esta página muestra todas las acciones de moderación realizadas por el sistema de prevención de spam de 6b6t.",
+      "appealsAreHandled": "Las apelaciones se gestionan",
+      "exclusivelyViaTheAppealForm": "exclusivamente mediante el formulario de apelación"
+    }
+  }
+}

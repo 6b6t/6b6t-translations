@@ -1,33 +1,42 @@
 {
   "sections": {
     "discordMarkdown": {
-      "value1Value2": "{{value1}}{{value2}}"
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
     },
     "page": {
-      "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
-      "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
-      "joinDiscord": "Join Discord",
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord.",
+      "discordUpdatesAreComingHereSoon": "Aktualizacje z Discorda wkrótce tutaj",
+      "theChangelogPageIsReadyToSyncFromThe": "Strona changelogu jest gotowa do synchronizacji z oficjalnym kanałem aktualizacji na Discordzie. Do tego czasu dołącz do Discorda, aby czytać najnowsze posty.",
+      "joinDiscord": "Dołącz do Discorda",
+      "text6b6tUpdates": "Aktualizacje 6b6t",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Najnowsze posty changelogu serwera 6b6t i historia aktualizacji z Discorda.",
       "changelog": "Changelog",
-      "server": "Server",
-      "updates": "Updates",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel."
+      "server": "Serwer",
+      "updates": "Aktualizacje",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Najnowsze zmiany, poprawki i ogłoszenia z oficjalnego kanału changelogu 6b6t na Discordzie."
     },
     "updatesList": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchUpdates": "Search updates",
-      "clear": "Clear",
-      "showing": "Showing",
-      "searchResult": "search result",
-      "latestPost": "Latest post",
-      "noUpdatesMatchedYourSearch": "No updates matched your search."
+      "edited": "Edytowano",
+      "postedBy": "Opublikowano przez",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Ta aktualizacja została opublikowana z załącznikami na Discordzie.",
+      "openInDiscord": "Otwórz na Discordzie",
+      "couldNotLoadMoreUpdates": "Could not load more updates.",
+      "couldNotSearchUpdates": "Could not search updates.",
+      "newUpdate": "nowa aktualizacja",
+      "justAppeared": "właśnie się pojawiła.",
+      "dismiss": "Zamknij",
+      "searchUpdates": "Szukaj aktualizacji",
+      "searching": "Searching...",
+      "search": "Search",
+      "clear": "Wyczyść",
+      "showing": "Wyświetlanie",
+      "searchResult": "wynik wyszukiwania",
+      "latestPost": "Najnowszy post",
+      "loading": "Loading...",
+      "loadMoreValue1": "Load more {{value1}}",
+      "noUpdatesMatchedYourSearch": "Żadne aktualizacje nie pasują do wyszukiwania."
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "page-name": "Comandos",
+  "seo-description": "Conoce los comandos esenciales de 6b6t, incluidos /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg y más.",
+  "sections": {
+    "commandsList": {
+      "bestMatches": "Mejores coincidencias",
+      "free": "Free",
+      "primeUltra": "Prime Ultra",
+      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
+      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
+      "eliteUltra": "Elite Ultra",
+      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
+      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
+      "commandsList": "LISTA DE COMANDOS",
+      "availableServerCommands": "Comandos disponibles del servidor",
+      "useTheFiltersToFindTheCommandYouNeed": "Usa los filtros para encontrar el comando que necesitas por categoría, rango requerido o nombre del comando.",
+      "search": "Buscar",
+      "searchCommands": "Buscar comandos...",
+      "category": "Categoría",
+      "rankRequirement": "Rango requerido",
+      "command": "Comando",
+      "description": "Descripción",
+      "example": "Ejemplo",
+      "rank": "Rango",
+      "value1Value2": "{{value1}}-{{value2}}",
+      "fullExample": "Full example:",
+      "noCommandsFoundMatchingYourFilters": "No se encontraron comandos que coincidan con tus filtros.",
+      "premiumCommands": "Comandos premium",
+      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Usa el filtro de rango de arriba para ver los comandos desbloqueados por Prime, Prime Ultra, Elite, Elite Ultra, Apex y Legend.",
+      "viewPremiumRanks": "Ver rangos premium"
+    },
+    "page": {
+      "text6b6tServerCommands": "Comandos del servidor 6b6t",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Lista completa de comandos disponibles en el servidor anárquico de Minecraft 6b6t"
+    }
+  }
+}

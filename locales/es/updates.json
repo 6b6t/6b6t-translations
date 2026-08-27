@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "discordMarkdown": {
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
+    },
+    "page": {
+      "discordUpdatesAreComingHereSoon": "Las actualizaciones de Discord llegarán aquí pronto",
+      "theChangelogPageIsReadyToSyncFromThe": "La página del changelog está lista para sincronizarse con el canal oficial de actualizaciones de Discord. Mientras tanto, únete a Discord para leer las publicaciones más recientes.",
+      "joinDiscord": "Únete a Discord",
+      "text6b6tUpdates": "Actualizaciones de 6b6t",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Últimas publicaciones del changelog del servidor 6b6t e historial de actualizaciones de Discord.",
+      "changelog": "Changelog",
+      "server": "Servidor",
+      "updates": "Actualizaciones",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Últimos cambios, correcciones y anuncios del canal oficial de changelog de 6b6t en Discord."
+    },
+    "updatesList": {
+      "edited": "Editado",
+      "postedBy": "Publicado por",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Esta actualización se publicó con archivos adjuntos en Discord.",
+      "openInDiscord": "Abrir en Discord",
+      "couldNotLoadMoreUpdates": "Could not load more updates.",
+      "couldNotSearchUpdates": "Could not search updates.",
+      "newUpdate": "nueva actualización",
+      "justAppeared": "acaba de aparecer.",
+      "dismiss": "Cerrar",
+      "searchUpdates": "Buscar actualizaciones",
+      "searching": "Searching...",
+      "search": "Search",
+      "clear": "Limpiar",
+      "showing": "Mostrando",
+      "searchResult": "resultado de búsqueda",
+      "latestPost": "Última publicación",
+      "loading": "Loading...",
+      "loadMoreValue1": "Load more {{value1}}",
+      "noUpdatesMatchedYourSearch": "Ninguna actualización coincide con tu búsqueda."
+    }
+  }
+}

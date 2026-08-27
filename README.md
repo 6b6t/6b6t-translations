@@ -6,6 +6,7 @@ The English files in `locales/en` are the source text. Translate the matching
 values in one of these folders:
 
 - `locales/de` — German
+- `locales/es` — Spanish
 - `locales/pl` — Polish
 - `locales/ru` — Russian
 - `locales/tr` — Turkish
@@ -35,3 +36,11 @@ You may translate one small section at a time; a whole-language rewrite is not
 required.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete workflow.
+
+## Publishing accepted translations
+
+After a translation pull request is reviewed and merged, redeploy the website
+in Dokploy. The website build downloads this repository's latest `main` commit,
+validates every catalog and placeholder, and compiles the accepted translations
+into the deployment. No website sync pull request or Git submodule update is
+required.

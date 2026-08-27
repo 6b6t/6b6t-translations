@@ -1,28 +1,37 @@
 {
-  "page-name": "Commands",
-  "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
+  "page-name": "Komendy",
+  "seo-description": "Poznaj najważniejsze komendy 6b6t, w tym /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg i wiele innych.",
   "sections": {
     "commandsList": {
-      "bestMatches": "Best matches",
-      "commandsList": "COMMANDS LIST",
-      "availableServerCommands": "Available Server Commands",
-      "useTheFiltersToFindTheCommandYouNeed": "Use the filters to find the command you need by category, rank requirement, or command name.",
-      "search": "Search",
-      "searchCommands": "Search commands...",
-      "category": "Category",
-      "rankRequirement": "Rank requirement",
-      "command": "Command",
-      "description": "Description",
-      "example": "Example",
-      "rank": "Rank",
-      "noCommandsFoundMatchingYourFilters": "No commands found matching your filters.",
-      "premiumCommands": "Premium Commands",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Use the rank filter above to preview commands unlocked by Prime, Prime Ultra, Elite, Elite Ultra, Apex, and Legend.",
-      "viewPremiumRanks": "View Premium Ranks"
+      "bestMatches": "Najlepsze dopasowania",
+      "free": "Free",
+      "primeUltra": "Prime Ultra",
+      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
+      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
+      "eliteUltra": "Elite Ultra",
+      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
+      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
+      "commandsList": "LISTA KOMEND",
+      "availableServerCommands": "Dostępne komendy serwera",
+      "useTheFiltersToFindTheCommandYouNeed": "Użyj filtrów, aby znaleźć potrzebną komendę według kategorii, wymaganej rangi lub nazwy komendy.",
+      "search": "Szukaj",
+      "searchCommands": "Szukaj komend...",
+      "category": "Kategoria",
+      "rankRequirement": "Wymagana ranga",
+      "command": "Komenda",
+      "description": "Opis",
+      "example": "Przykład",
+      "rank": "Ranga",
+      "value1Value2": "{{value1}}-{{value2}}",
+      "fullExample": "Full example:",
+      "noCommandsFoundMatchingYourFilters": "Nie znaleziono komend pasujących do wybranych filtrów.",
+      "premiumCommands": "Komendy Premium",
+      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Użyj powyższego filtra rangi, aby zobaczyć komendy dostępne dla rang Prime, Prime Ultra, Elite, Elite Ultra, Apex i Legend.",
+      "viewPremiumRanks": "Zobacz rangi Premium"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Server Commands",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+      "text6b6tServerCommands": "Komendy serwera 6b6t",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Pełna lista komend dostępnych na anarchistycznym serwerze Minecraft 6b6t"
     }
   }
 }

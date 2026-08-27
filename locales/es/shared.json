@@ -1,0 +1,628 @@
+{
+  "sections": {
+    "app": {
+      "actions": {
+        "motd": {
+          "revisionRequested": "revision_requested",
+          "paidPendingReview": "paid_pending_review"
+        },
+        "printify": {
+          "signInAgainBeforeClaiming": "Vuelve a iniciar sesión antes de reclamarlo.",
+          "checkTheShippingDetails": "Check the shipping details.",
+          "theClaimCouldNotBeProcessed": "The claim could not be processed.",
+          "signInAgainBeforeApplying": "Vuelve a iniciar sesión antes de solicitarlo.",
+          "checkTheApplicationDetails": "Check the application details.",
+          "theHistoricalRequestCouldNotBeSubmitted": "The historical request could not be submitted."
+        },
+        "shopTracking": {
+          "unknownError": "Unknown error"
+        },
+        "stripe": {
+          "subscription": "subscription",
+          "payment": "payment",
+          "pay": "pay",
+          "whoIsThisGiftFrom": "Who is this gift from?",
+          "custom": "custom",
+          "text": "text",
+          "giftMessage": "Gift message",
+          "hosted": "hosted",
+          "rankForValue1": "Rango para {{value1}}"
+        }
+      },
+      "components": {
+        "langLayout": {
+          "text6b6tMinecraftServer": "Servidor de Minecraft 6b6t",
+          "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "El servidor anárquico de Minecraft más grande, sin reglas ni cola. Compatible con las ediciones Java y Bedrock, con comandos esenciales como /tpa y /home.",
+          "text6b6tMinecraftAnarchyServer": "Servidor anárquico de Minecraft 6b6t",
+          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Únete al servidor anárquico más grande de Minecraft, sin reglas, sin cola y con capacidad para más de 2.000 jugadores. Vive la verdadera anarquía con comandos esenciales como /tpa y /home tanto en Java como en Bedrock Edition.",
+          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
+        }
+      },
+      "manifest": {
+        "text6b6tWebsite": "Sitio web de 6b6t"
+      }
+    },
+    "bottomSocialProof": {
+      "joinThe": "Únete a la",
+      "community": "comunidad",
+      "happyCustomers": "Clientes satisfechos",
+      "uniquePlayers": "Jugadores únicos",
+      "satisfactionRate": "Tasa de satisfacción",
+      "starRatingValue1Of5": "Valoración de {{value1}} de 5 estrellas",
+      "text495AverageRating": "Valoración media de 4,9/5",
+      "shoppingCart": "Carrito de compras",
+      "shopNow": "Comprar ahora",
+      "arrowRight": "Flecha hacia la derecha",
+      "browseOurExclusiveRanksAndPerks": "Explora nuestros rangos y beneficios exclusivos"
+    },
+    "communityEventCountdown": {
+      "days": "Días",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos",
+      "finalizingPurchases": "Finalizing purchases…",
+      "eventEnded": "Event ended",
+      "value1DaysValue2HoursValue3MinutesValue4SecondsRemaining": "Quedan {{value1}} días, {{value2}} horas, {{value3}} minutos y {{value4}} segundos",
+      "upgradedFrom": "mejoró de",
+      "to": "a",
+      "boughtThe": "compró el",
+      "rank": "rango.",
+      "addedToTheDupeEvent": "Añadido al Dupe Event",
+      "finalizing": "Finalizing",
+      "ended": "Ended",
+      "live": "En vivo",
+      "theDupeEventHasEnded": "El Dupe Event ha terminado.",
+      "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "Gracias por participar y hacer que el evento fuera inolvidable. Mantén tu loot a salvo: la anarquía continúa en 6b6t.",
+      "keepPlaying": "Seguir jugando",
+      "dupeEvent": "Dupe Event",
+      "viewEvent": "Ver evento",
+      "manyPowerfulDupesAreEnabledOn6b6t": "Muchos dupes poderosos están habilitados en 6b6t.",
+      "dupeAsMuchAsYouCanCreateStashesAnd": "Duplica todo lo que puedas, crea stashes y construye bases que duren años.",
+      "important": "Importante:",
+      "toJoinInstall": "Para entrar, instala",
+      "anarchymod": "AnarchyMod",
+      "becauseMojangBlacklisted6b6t": "porque Mojang incluyó a 6b6t en su lista negra.",
+      "downloadAnarchymod": "Descargar AnarchyMod",
+      "eventEndingIn": "El evento termina en",
+      "eventExtension": "Extensión del evento",
+      "buyARankFromThe": "Compra un rango en la",
+      "text6b6tShop": "tienda de 6b6t",
+      "toExtendTheDupeEvent": "para extender el Dupe Event.",
+      "shopNow": "Comprar ahora",
+      "text6b6tOnYoutube": "6b6t en YouTube",
+      "youtube": "YouTube",
+      "joinThe6b6tDiscord": "Únete al Discord de 6b6t",
+      "discord": "Discord",
+      "text6b6tOnReddit": "6b6t en Reddit",
+      "reddit": "Reddit",
+      "contact6b6tOrg": "contact@6b6t.org",
+      "eligibleRankPurchasesAddTimeToTheEventFor": "Las compras de rangos elegibles añaden tiempo al evento para todos.",
+      "wantToExtendTheEvent": "¿Quieres extender el evento?",
+      "purchaseAnEligibleRankBelowToAddMoreTime": "Compra uno de los rangos elegibles de abajo para añadir más tiempo al Dupe Event para todos.",
+      "viewRanks": "Ver rangos"
+    },
+    "developmentThemeSwitcher": {
+      "themeIsNowFixedToSnowySiteWide": "Theme is now fixed to SNOWY site-wide",
+      "fixed": "FIJO"
+    },
+    "gallery": {
+      "gallery": {
+        "errorLoadingGallery": "Error al cargar la galería",
+        "retry": "Reintentar",
+        "text6b6tGallery": "Galería de 6b6t",
+        "images": "imágenes",
+        "featured": "destacadas",
+        "latest": "📅 Más reciente:",
+        "filterOptions": "Opciones de filtro",
+        "filters": "Filtros",
+        "toggleFilterPanel": "Mostrar u ocultar panel de filtros",
+        "activeFilters": "Active filters:",
+        "category": "Categoría:",
+        "featured2": "Destacadas",
+        "showing": "Mostrando",
+        "of": "de",
+        "imagesFromThe6b6tCommunity": "imágenes de la comunidad de 6b6t"
+      },
+      "galleryCard": {
+        "imageobject": "ImageObject",
+        "organization": "Organization",
+        "text6b6tMinecraftServer": "Servidor de Minecraft 6b6t",
+        "webpage": "WebPage",
+        "text6b6tGalleryMinecraftServerScreenshots": "Galería de 6b6t - Capturas del servidor de Minecraft",
+        "clickToViewInLightboxCtrlClickOrMiddle": "Click to view in lightbox, Ctrl+Click or Middle-click to open in new tab",
+        "value1Value2": "{{value1}} - {{value2}}",
+        "externalLink": "Enlace externo",
+        "featured": "⭐ Destacada",
+        "author": "Autor"
+      },
+      "galleryFilters": {
+        "categories": "Categorías",
+        "all": "Todas",
+        "special": "Especial",
+        "featuredOnly": "⭐ Solo destacadas",
+        "tags": "Etiquetas",
+        "more": "más",
+        "sortBy": "Ordenar por",
+        "dateAdded": "Fecha de publicación",
+        "dateTaken": "Fecha de captura",
+        "title": "Título",
+        "featuredFirst": "Destacadas primero",
+        "newestFirst": "Más recientes primero",
+        "oldestFirst": "Más antiguas primero",
+        "clearAllFilters": "Borrar todos los filtros"
+      },
+      "galleryGrid": {
+        "noImagesAvailable": "No hay imágenes disponibles",
+        "noImagesFound": "No se encontraron imágenes",
+        "tryAdjustingYourFiltersOrSearchTerms": "Prueba ajustando los filtros o los términos de búsqueda."
+      },
+      "lightbox": {
+        "closeLightbox": "Cerrar visor",
+        "previousImage": "Imagen anterior",
+        "nextImage": "Imagen siguiente",
+        "value1Value2": "{{value1}}{{value2}}",
+        "of": "de"
+      }
+    },
+    "icons": {
+      "discord": "Discord"
+    },
+    "layout": {
+      "copyButton": {
+        "copied": "Copied!",
+        "copy": "Copy"
+      },
+      "footer": {
+        "socials": "Redes sociales",
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "twitter": "Twitter",
+        "reddit": "Reddit",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "telegram": "Telegram",
+        "about": "Acerca de",
+        "about6b6t": "Acerca de 6b6t",
+        "votingRewards": "Recompensas por votar",
+        "contact": "Contacto",
+        "termsOfService": "Términos de servicio",
+        "privacyPolicy": "Política de privacidad",
+        "refundPolicy": "Política de reembolsos",
+        "server": "Servidor",
+        "shop": "Tienda",
+        "vote": "Votar",
+        "commands": "Comandos",
+        "stats": "Estadísticas",
+        "updates": "Actualizaciones",
+        "status": "Estado",
+        "mostUsefulCommands": "Comandos más útiles",
+        "text6b6tMinecraftServerLogo": "Logo del servidor de Minecraft 6b6t",
+        "text6b6t": "6b6t",
+        "minecraft": "Minecraft",
+        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t es un servidor anárquico de supervivencia de Minecraft sin reglas, sin castigos y sin cola. Los jugadores pueden hacer lo que quieran en un mundo con capacidad para hasta 2.000 jugadores simultáneos y utilizar comandos como /tpa y /home.",
+        "serverAddress": "Server Address:",
+        "teleportToAPlayer": "Teleport to a player",
+        "teleportToYourHome": "Teleport to your home",
+        "sendAPrivateMessageToAPlayer": "Send a private message to a player",
+        "stopSeeingMessagesFromAPlayer": "Stop seeing messages from a player",
+        "viewVotingLinksAndRewards": "View voting links and rewards",
+        "changeYourSkin": "Change your skin",
+        "equipBalloonCosmetics": "Equip balloon cosmetics",
+        "teleportToAnActiveHotspot": "Teleport to an active hotspot",
+        "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Todos los derechos reservados. • Operado por qbasty labs FZE • contact@6b6t.org",
+        "xTwitter": "X (Twitter)"
+      },
+      "header": {
+        "home": "Inicio",
+        "blog": "Blog",
+        "vote": "Votar",
+        "stats": "Estadísticas",
+        "commands": "Comandos",
+        "shop": "Tienda",
+        "discord": "Discord",
+        "join": "Entrar",
+        "activeMembers": "miembros activos",
+        "text6b6t": "6b6t",
+        "hytale": "Hytale",
+        "about": "Acerca de",
+        "hytaleAnarchyServer": "Servidor anárquico de Hytale"
+      },
+      "languageSwitcher": {
+        "language": "Idioma"
+      },
+      "mobileNav": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "reddit": "Reddit",
+        "playNow": "Jugar ahora"
+      },
+      "nav": {
+        "home": "Inicio",
+        "stats": "Estadísticas",
+        "commands": "Comandos",
+        "shop": "Tienda",
+        "account": "Cuenta",
+        "hytale": "Hytale",
+        "updates": "Actualizaciones",
+        "history": "Historia",
+        "blog": "Blog",
+        "antispam": "Antispam",
+        "vote": "Votar",
+        "accountRecovery": "Recuperación de cuenta",
+        "contact": "Contacto",
+        "mainNavigation": "Navegación principal",
+        "text6b6tLogo": "Logo de 6b6t",
+        "text6b": "6b",
+        "text6t": "6t",
+        "theBiggestAnarchyServer": "El servidor anárquico más grande",
+        "joinDiscord": "Únete a Discord",
+        "discord": "Discord",
+        "members": "Miembros",
+        "about": "Acerca de",
+        "youtube": "YouTube",
+        "reddit": "Reddit",
+        "playNow": "Jugar ahora",
+        "toggleMobileMenu": "Abrir o cerrar menú móvil"
+      },
+      "paymentMethodsShowcase": {
+        "acceptedPaymentMethods": "Métodos de pago aceptados",
+        "cardsAndWallets": "Tarjetas y billeteras digitales",
+        "visa": "Visa",
+        "mastercard": "Mastercard",
+        "paypal": "PayPal",
+        "crypto": "Criptomonedas",
+        "applePay": "Apple Pay",
+        "googlePay": "Google Pay",
+        "ideal": "iDEAL",
+        "bancontact": "Bancontact",
+        "eps": "EPS"
+      }
+    },
+    "milestoneProgress": {
+      "communityEvent": "Community Event",
+      "rankPurchasesContributeTowardTheNextCommunityEvent": "Las compras de rangos contribuyen al próximo evento comunitario.",
+      "communityGoal": "Meta comunitaria",
+      "allRankPurchasesContributeToReachingTheCommunityGoal": "Todas las compras de rangos contribuyen a alcanzar la meta comunitaria.",
+      "communityGoalProgress": "Progreso de la meta comunitaria",
+      "communityGoalReachedTheDupeEventHasBeenUnlocked": "Meta comunitaria alcanzada. El Dupe Event ha sido desbloqueado.",
+      "communityGoalReached": "¡Meta comunitaria alcanzada!"
+    },
+    "modeToggle": {
+      "currentThemeSnowySiteWide": "Current theme: Snowy (site-wide)",
+      "defaultDisabled": "Predeterminado (desactivado)",
+      "snowyActiveSiteWide": "Nevado (activo en todo el sitio)"
+    },
+    "motion": {
+      "username": {
+        "loggedInAs": "Sesión iniciada como",
+        "change": "Cambiar",
+        "setYourMinecraftUsername": "Introduce tu nombre de usuario de Minecraft",
+        "enterMinecraftUsername": "Introduce tu nombre de usuario de Minecraft",
+        "dinnerbone": "Dinnerbone",
+        "thisWillBeUsedToLinkYourPurchasesTo": "Se utilizará para vincular tus compras con tu cuenta de Minecraft.",
+        "loading": "Cargando..."
+      }
+    },
+    "paymentBrandLogos": {
+      "crypto": "Criptomonedas",
+      "klarna": "Klarna",
+      "cashApp": "Cash App",
+      "blik": "BLIK",
+      "upi": "UPI",
+      "twint": "TWINT",
+      "paysafecard": "PaysafeCard",
+      "value1Logo": "Logo de {{value1}}"
+    },
+    "paymentIcons": {
+      "paypal": "PayPal",
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "applePay": "Apple Pay",
+      "googlePay": "Google Pay",
+      "ideal": "iDEAL",
+      "bancontact": "Bancontact",
+      "eps": "EPS",
+      "eps2": "eps",
+      "linkByStripe": "Link by Stripe",
+      "mobilepay": "MobilePay",
+      "cartesBancaires": "Cartes Bancaires",
+      "cb": "CB"
+    },
+    "recentBuyers": {
+      "primeEliteUpgrade": "Prime → Elite upgrade",
+      "apex": "Apex",
+      "legend3Months": "Legend (3 Months)",
+      "primeApexUpgrade": "Prime → Apex upgrade",
+      "elite": "Elite",
+      "rankExtensions": "Extensiones por rangos",
+      "dupeEventRankExtensions": "Extensiones del Dupe Event por rangos",
+      "everyEligibleRankPurchaseAndUpgradeAddsTheTime": "Cada compra o mejora de un rango elegible añade el tiempo indicado abajo a la cuenta regresiva del evento.",
+      "rankOrUpgrade": "Rango o mejora",
+      "type": "Tipo",
+      "eventExtension": "Extensión del evento",
+      "prime": "Prime",
+      "recentExtensions": "Extensiones recientes",
+      "playersHaveExtendedTheDupeEventBy": "Los jugadores han extendido el Dupe Event en",
+      "inTotal": "en total.",
+      "showing": "Mostrando",
+      "of": "de",
+      "extensions": "extensiones",
+      "upgradedFrom": "mejoró de",
+      "to": "a",
+      "rank": "Rango",
+      "purchasedThe": "compró el",
+      "extendedTheDupeEventBy": "Extendió el Dupe Event en",
+      "noRankPurchasesHaveExtendedTheEventYet": "Ninguna compra de rango ha extendido el evento todavía.",
+      "loadingExtensions": "Loading extensions…",
+      "showLess": "Show less",
+      "showMore": "Show more",
+      "couldNotLoadTheFullListTryAgain": "No se pudo cargar la lista completa. Inténtalo de nuevo."
+    },
+    "reviewCard": {
+      "value1Avatar": "Avatar de {{value1}}",
+      "discordLogo": "Logo de Discord",
+      "fullStar": "Full star",
+      "halfStar": "Half star",
+      "emptyStar": "Empty star",
+      "halfStarFill": "Media estrella rellena",
+      "screenshots": "Capturas (",
+      "images": "imágenes)",
+      "screenshotValue1ByValue2": "Captura {{value1}} de {{value2}}",
+      "searchIconClickToViewImage": "Search icon - Click to view image",
+      "reviewScreenshotsFromValue1": "Ver capturas de {{value1}}",
+      "closeModal": "Cerrar ventana",
+      "previousImage": "Imagen anterior",
+      "nextImage": "Imagen siguiente",
+      "goToImageValue1": "Ir a la imagen {{value1}}"
+    },
+    "reviewSlideshow": {
+      "prime": "Prime",
+      "elite": "Elite",
+      "apex": "Apex",
+      "reviews": "Reseñas",
+      "whatOurCommunitySaysAboutTheirExperience": "Lo que nuestra comunidad dice sobre su experiencia",
+      "averageRating": "Valoración media",
+      "verified": "Verificado",
+      "players": "Jugadores",
+      "goToSlideGroupValue1": "Ir al grupo de diapositivas {{value1}}",
+      "of": "de"
+    },
+    "socialIcons": {
+      "socialIcon": "Social Icon"
+    },
+    "socialProofSection": {
+      "amazingServerTheApexRankIsAbsolutelyWorthIt": "Amazing server! The Apex rank is absolutely worth it. The community is fantastic and I've never experienced any lag issues. Staff team is super helpful too!",
+      "unitedStates": "United States",
+      "beenPlayingFor6MonthsNowWithEliteRank": "Been playing for 6 months now with Elite rank. The tools and permissions are game-changing. Best investment I've made for Minecraft!",
+      "canada": "Canada",
+      "justUpgradedToLegendRankLastWeekAndWow": "Just upgraded to Legend rank last week and wow! The features are incredible. The priority queue alone saves me so much time. 10/10 would recommend!",
+      "unitedKingdom": "United Kingdom",
+      "verifiedCheckmark": "Marca de verificación",
+      "over": "Más de",
+      "satisfiedCustomers": "+ clientes satisfechos",
+      "realReviewsFrom": "Reseñas reales de",
+      "discordMembers": "miembros de Discord",
+      "verifiedPurchasesFromOurDiscordCommunity": "Compras verificadas de nuestra comunidad de Discord"
+    },
+    "stats": {
+      "backgroundRenderer": {
+        "background": "Fondo"
+      },
+      "backgroundSelector": {
+        "chooseBackground": "Elegir fondo",
+        "selectAServerScreenshot30OpacityCoverMode": "Selecciona una captura del servidor (30 % de opacidad, modo cubrir)",
+        "removeBackground": "Eliminar fondo",
+        "backgroundSettings": "Configuración del fondo",
+        "position": "Posición",
+        "cover": "Cubrir",
+        "center": "Centrar",
+        "repeat": "Repetir",
+        "blendMode": "Modo de fusión",
+        "overlay": "Superponer",
+        "multiply": "Multiplicar",
+        "screen": "Trama",
+        "opacity": "Opacidad:",
+        "applyBlurEffect": "Aplicar efecto de desenfoque",
+        "loadingGalleryImages": "Cargando imágenes de la galería..."
+      },
+      "enhancedThemeControls": {
+        "autoSaveFailed": "Auto-save failed",
+        "colors": "Colores",
+        "background": "Fondo",
+        "color": "Color",
+        "enhancedThemeCustomization": "Personalización avanzada del tema",
+        "unsavedChanges": "Cambios sin guardar",
+        "saving": "Guardando...",
+        "allChangesSaved": "Todos los cambios guardados",
+        "reset": "Restablecer",
+        "saved": "Saved!",
+        "error": "Error",
+        "save": "Save",
+        "backgroundImage": "Imagen de fondo",
+        "chooseAServerScreenshotAsYourBackground": "Elige una captura del servidor como fondo",
+        "changeBackground": "Change Background",
+        "chooseBackground": "Elegir fondo",
+        "backgroundSelected": "Fondo seleccionado",
+        "text30OpacityCoverMode": "30 % de opacidad • Modo cubrir"
+      },
+      "giftBadgeDisplay": {
+        "text2025ChristmasLobbyChallengeBadge": "Insignia del desafío navideño del lobby 2025",
+        "text2025NewYearGiftEventBadge": "Insignia del evento de regalos de Año Nuevo 2025",
+        "completedThe2025ChristmasLobbyChallenge": "Completó el desafío navideño del lobby 2025"
+      },
+      "legendThemeProvider": {
+        "golden": "Dorado",
+        "crimson": "Carmesí",
+        "emerald": "Esmeralda",
+        "sapphire": "Zafiro",
+        "sunshine": "Sol",
+        "amethyst": "Amatista",
+        "ember": "Brasa",
+        "rose": "Rosa",
+        "off": "Desactivado",
+        "sky": "Cielo",
+        "ocean": "Océano",
+        "navy": "Azul marino",
+        "ice": "Hielo",
+        "cherry": "Cereza",
+        "wine": "Vino",
+        "ruby": "Rubí",
+        "brick": "Ladrillo",
+        "forest": "Bosque",
+        "lime": "Lima",
+        "mint": "Menta",
+        "olive": "Oliva",
+        "lavender": "Lavanda",
+        "magenta": "Magenta",
+        "indigo": "Índigo",
+        "peach": "Durazno",
+        "rust": "Óxido",
+        "coral": "Coral",
+        "carbon": "Carbono",
+        "silver": "Plata",
+        "pearl": "Perla",
+        "cyber": "Ciber",
+        "electric": "Eléctrico",
+        "plasma": "Plasma",
+        "cotton": "Algodón",
+        "dream": "Sueño",
+        "whisper": "Susurro",
+        "shadow": "Sombra",
+        "midnight": "Medianoche",
+        "abyss": "Abismo",
+        "tropical": "Tropical",
+        "sunset": "Atardecer",
+        "aurora": "Aurora",
+        "snowy": "Nevado"
+      },
+      "playerBadgeDisplay": {
+        "text2025HalloweenChallengeBadge": "Insignia del desafío de Halloween 2025",
+        "completedThe2025HalloweenLobbyChallenge": "Completó el desafío de Halloween del lobby 2025"
+      },
+      "playerEffectDisplay": {
+        "fireMaster": "Maestro del fuego",
+        "blazingFlamesAndEmberEffectsCombat": "Llamas ardientes y efectos de brasas. (Combate)",
+        "natureGuardian": "Guardián de la naturaleza",
+        "flowingLeavesAndMagicalGreenEnergyNature": "Hojas flotantes y energía verde mágica. (Naturaleza)",
+        "legendaryChampion": "Campeón legendario",
+        "celestialLightAndCosmicEnergyAuraPrestige": "Luz celestial y aura de energía cósmica. (Prestigio)",
+        "loadingEffect": "Cargando efecto...",
+        "profileEffect": "Profile Effect:"
+      },
+      "playerStatsFaq": {
+        "total": "total",
+        "totalKills": "muertes totales",
+        "whenDidValue1Join6b6t": "¿Cuándo se unió {{value1}} a 6b6t?",
+        "value1Joined6b6tOrgForTheFirstTimeOn": "{{value1}} se unió a 6b6t.org por primera vez el {{value2}}.",
+        "howMuchHasValue1PlayedOn6b6t": "¿Cuánto ha jugado {{value1}} en 6b6t?",
+        "value1HasPlayedValue2Value3On6b6t": "{{value1}} has played {{value2}} {{value3}} on 6b6t.",
+        "value1HasNotPlayedMuchRecently": "{{value1}} has not played much recently.",
+        "howManyKillsDoesValue1HaveOn6b6t": "¿Cuántas kills tiene {{value1}} en 6b6t?",
+        "value1HasValue2Value3OnTheServer": "{{value1}} has {{value2}} {{value3}} on the server.",
+        "value1HasNoRecordedKillsYet": "{{value1}} has no recorded kills yet.",
+        "whatIsValue1SRankOn6b6t": "¿Qué rango tiene {{value1}} en 6b6t?",
+        "value1IsARegularPlayerOn6b6t": "{{value1}} is a regular player on 6b6t.",
+        "value1HasTheValue2RankOn6b6t": "{{value1}} has the {{value2}} rank on 6b6t.",
+        "whereCanISeeValue1SPlayingHistory": "¿Dónde puedo ver el historial de juego de {{value1}}?",
+        "youCanViewValue1SCompleteStatsHistoryIncluding": "Puedes ver el historial completo de estadísticas de {{value1}}, incluido el tiempo de juego, kills, muertes y más, aquí mismo en su perfil de 6b6t.",
+        "frequentlyAskedQuestionsAbout": "Preguntas frecuentes sobre"
+      },
+      "simplifiedThemeControls": {
+        "colors": "Colores",
+        "background": "Fondo",
+        "themeSettings": "Configuración del tema",
+        "unsavedChanges": "Cambios sin guardar",
+        "saving": "Guardando...",
+        "saved": "Guardado",
+        "errorSaving": "Error al guardar",
+        "customizeYourIndividualStatsPageWithColorsAndBackgrounds": "Personaliza tu página de estadísticas con colores y fondos",
+        "chooseYourColorTheme": "Elige tu tema de color",
+        "backgroundSettings": "Configuración del fondo",
+        "currentBackground": "Fondo actual",
+        "imageValue1": "Image: {{value1}}",
+        "noBackgroundSelected": "No background selected",
+        "chooseBackground": "Elegir fondo",
+        "position": "Posición",
+        "cover": "Cubrir",
+        "center": "Centrar",
+        "repeat": "Repetir",
+        "opacity": "Opacidad:",
+        "blendMode": "Modo de fusión",
+        "overlay": "Superponer",
+        "multiply": "Multiplicar",
+        "screen": "Trama",
+        "blurEffect": "Efecto de desenfoque",
+        "removeBackground": "Eliminar fondo",
+        "resetToDefaults": "Restablecer valores predeterminados",
+        "saveChanges": "Save Changes"
+      },
+      "telegramBadgeDisplay": {
+        "text6b6tTelegramCommunityBadge": "Insignia de la comunidad de Telegram de 6b6t",
+        "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Telegram vinculado y actualmente miembro del grupo de 6b6t"
+      },
+      "themedStatsRenderer": {
+        "legend": "legend",
+        "champion": "champion",
+        "hero": "hero",
+        "memberSince": "🗓️ Miembro desde",
+        "returnToLeaderboards": "Volver a las clasificaciones",
+        "statsReset": "Reinicio de estadísticas",
+        "statsWereResetOnMay222026DueTo": "Las estadísticas se reiniciaron el 22 de mayo de 2026 debido a una corrupción de datos y no pudieron recuperarse. Las estadísticas que aparecen abajo comienzan desde esa fecha.",
+        "isAPlayerOfThe6b6tAnarchyMinecraftServer": "es jugador del servidor anárquico de Minecraft 6b6t. Es miembro desde",
+        "stat": "Estadística",
+        "noStatsAvailable": "No hay estadísticas disponibles",
+        "unableToFindAnyStatsForUser": "No se encontraron estadísticas para el usuario",
+        "tryRejoiningTheServerToGetInTheStats": "💡 Prueba volviendo a entrar al servidor para aparecer en la base de datos de estadísticas."
+      },
+      "themeErrorBoundary": {
+        "themeLoadingError": "Error al cargar el tema",
+        "thereWasAnErrorLoadingTheThemeSettingsThis": "Ocurrió un error al cargar la configuración del tema. Esto no afectará la visualización de tus estadísticas.",
+        "technicalDetails": "Detalles técnicos",
+        "retryLoadingTheme": "Reintentar carga del tema"
+      },
+      "treeBadgeDisplay": {
+        "foundAllOfThe24ChristmasTreesDuring2025": "Encontró los 24 árboles de Navidad durante el evento navideño de 2025",
+        "text2025ChristmasEventBadge": "Insignia del evento de Navidad 2025"
+      }
+    },
+    "ui": {
+      "carousel": {
+        "previousSlide": "Diapositiva anterior",
+        "nextSlide": "Diapositiva siguiente"
+      },
+      "cookieBanner": {
+        "cookieConsent": "Consentimiento de cookies",
+        "gdpr": "RGPD",
+        "weUseCookiesToEnhanceYourExperience": "Utilizamos cookies para mejorar tu experiencia.",
+        "privacyPolicy": "Política de privacidad",
+        "decline": "Rechazar",
+        "acceptAll": "Aceptar todas"
+      },
+      "dialog": {
+        "close": "Cerrar"
+      },
+      "notification": {
+        "dismissNotification": "Cerrar notificación"
+      },
+      "sheet": {
+        "close": "Cerrar"
+      },
+      "sonner": {
+        "groupToastTextMutedForeground": "group-[.toast]:text-muted-foreground"
+      }
+    },
+    "monitoring": {
+      "shopErrorBoundary": {
+        "client": "client",
+        "somethingWentWrong": "Algo salió mal",
+        "weReSorryButSomethingUnexpectedHappenedOurTeam": "Lo sentimos, ocurrió un error inesperado. Nuestro equipo ya ha sido notificado.",
+        "tryAgain": "Intentar de nuevo",
+        "resetPage": "Restablecer página",
+        "backToShop": "Volver a la tienda",
+        "errorId": "Error ID:"
+      }
+    }
+  }
+}
