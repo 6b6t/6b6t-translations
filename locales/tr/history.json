@@ -33,7 +33,7 @@
   "sections": {
     "components": {
       "historyHero": {
-        "estJanuary2022": "Kur. Ocak 2022",
+        "estJanuary2022": "Kuruluş, Ocak 2022",
         "playersJoined": "Katılan Oyuncu",
         "blocksPlaced": "Yerleştirilen Blok",
         "yearsOnline": "Çevrimiçi Yıl",
@@ -90,10 +90,10 @@
         "birthOf6b6t": "6b6t'nin Doğuşu",
         "startedByQbastyOnJanuary16th20226b6tImmediately": "16 Ocak 2022'de qbasty tarafından başlatılan 6b6t, /tpa ve /home komutlarına sahip 1.12.2 anarşi sunucusu olarak hemen ilgi gördü.",
         "acquisitions": "Devralmalar",
-        "duringTheThirdMonthOfItsExistence6b6tAcquired": "Var olduğu üçüncü ayında, 6b6t kapanmak üzere olan 7b7t'yi devraldı. Haritalar birleştirildi ve tarih korundu.",
-        "noAnticheatEvent": "Anticheat Yok Etkinliği",
+        "duringTheThirdMonthOfItsExistence6b6tAcquired": "Açıldıktan sonraki üçüncü ayında, 6b6t kapanmak üzere olan 7b7t'yi devraldı. Haritalar birleştirildi ve geçmiş korundu.",
+        "noAnticheatEvent": "No Anticheat Etkinliği",
         "theFirstEverEventDuringWhichTheAntiCheat": "6b6t'de Anticheat'in devre dışı bırakıldığı ilk etkinlik; 48 saatten uzun bir süre boyunca kontrolsüz kaosa ve oyuncu etkinliğine izin verdi.",
-        "text6b6tUpdatesTo1192": "6b6t 1.19.2'ye Güncelleniyor",
+        "text6b6tUpdatesTo1192": "6b6t 1.19.2'ye Güncellendi",
         "text6b6tBecomesTheFirstAnarchyServerToUpgradeTo": "6b6t, deneysel yazılım MultiPaper sayesinde 1.19'a yükselen ilk anarşi sunucusu oldu. 2b2t'nin yükseltmesi bir yıldan fazla daha uzun sürdü.",
         "lackOfGrowth": "Büyüme Eksikliği",
         "text6b6tExperiencesTheOnlyPeriodInTimeWhenThe": "6b6t, ortalama oyuncu sayısının yaklaşık 30 civarında olduğu tek dönemi yaşadı. Zorluklar olmadan büyüme olmaz.",
@@ -112,7 +112,7 @@
         "illegalsEvent": "Illegals Etkinliği",
         "aRareIllegalsEventTakesPlaceOnTheServer": "Sunucuda nadir görülen bir illegals etkinliği gerçekleşti ve çevrimiçi olanlar için eşsiz bir deneyim yarattı.",
         "dupePatch": "Dupe Yaması",
-        "lastKnownAdminAddedDupeWasPatchedResolvingA": "Bilinen son yönetici kaynaklı dupe yamandı ve önemli bir sorun çözüldü.",
+        "lastKnownAdminAddedDupeWasPatchedResolvingA": "Bilinen son yönetici kaynaklı dupe düzeltildi ve önemli bir sorun çözüldü.",
         "newBuildCompetition": "Yeni İnşa Yarışması",
         "newBuildCompetitionInThemeOfAncientCivilizationsWas": "Antik Medeniyetler temalı yeni bir inşa yarışması başlatılarak yaratıcılık ve topluluk katılımı teşvik edildi.",
         "allTimePlayerRecord6b6tReachesABrandNew": "Tüm Zamanların Oyuncu Rekoru: 6b6t, aynı anda sırasız 580 oyuncuyla yepyeni bir rekora ulaştı. Ekip, 6b6t'nin sırasız 1000 oyuncuyu desteklemesinin yakında gerçek olacağını duyurdu.",
@@ -130,7 +130,7 @@
       "starIconForSpecialThanks": "Özel teşekkürler için yıldız ikonu",
       "starIcon": "Yıldız ikonu",
       "specialThanks": "Özel Teşekkürler",
-      "thisPageWasMadePossibleThanksTo": "Bu sayfa şu sayede mümkün oldu:",
+      "thisPageWasMadePossibleThanksTo": "Bu sayfa şunun sayede mümkün oldu:",
       "text6b6tTimes": "6b6t Times",
       "whoHelpedGatherAllTheHistoricalInformationAndResearch": "sunucumuzun yolculuğunu belgelemek için gereken tüm tarihi bilgi ve araştırmaları toplamamıza yardımcı oldu."
     }
