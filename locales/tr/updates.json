@@ -11,7 +11,7 @@
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi.",
       "changelog": "Değişiklik Günlüğü",
       "server": "Sunucu",
-      "updates": "Güncellemeler",
+      "updates": "Güncellemeleri",
       "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular."
     },
     "updatesList": {
@@ -27,7 +27,7 @@
       "showing": "Gösteriliyor",
       "searchResult": "arama sonucu",
       "latestPost": "Son gönderi",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme bulunamadı."
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
     }
   }
 }
