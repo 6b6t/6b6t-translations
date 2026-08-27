@@ -4,8 +4,8 @@
   "sections": {
     "username": {
       "page": {
-        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
-        "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
+        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} es un jugador de 6b6t.org. Consulta su tiempo de juego, kills, muertes y otras estadísticas en el servidor anárquico de Minecraft 6b6t.",
+        "viewValue1SStatsOn6b6tOrgTheBest": "Consulta las estadísticas de {{value1}} en 6b6t.org. El mejor lugar para ver estadísticas de 6b6t."
       }
     },
     "leaderboardStatisticCard": {
@@ -31,7 +31,7 @@
     "statsPageContent": {
       "playerStatistics": "Estadísticas de jugadores",
       "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "Consulta a los mejores jugadores de 6b6t en distintas estadísticas. Busca a un jugador específico o explora las clasificaciones de abajo.",
-      "statsReset": "Stats reset:",
+      "statsReset": "Reinicio de estadísticas:",
       "statsWereResetOnMay222026DueTo": "Las estadísticas se reiniciaron el 22 de mayo de 2026 debido a una corrupción de datos y no pudieron recuperarse.",
       "underMaintenance": "En mantenimiento",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Esta estadística no está disponible temporalmente. Estamos trabajando para volver a ofrecer los datos más recientes de la clasificación lo antes posible.",
