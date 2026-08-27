@@ -1,7 +1,10 @@
 {
   "sections": {
     "discordMarkdown": {
-      "value1Value2": "{{value1}}{{value2}}"
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
     },
     "page": {
       "discordUpdatesAreComingHereSoon": "Discord güncellemeleri yakında burada olacak",
@@ -27,7 +30,13 @@
       "showing": "Gösteriliyor",
       "searchResult": "arama sonucu",
       "latestPost": "Son gönderi",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı.",
+      "couldNotLoadMoreUpdates": "Daha fazla güncelleme yüklenemedi.",
+      "couldNotSearchUpdates": "Güncellemeler aranamadı.",
+      "searching": "Aranıyor...",
+      "search": "Ara",
+      "loading": "Yükleniyor...",
+      "loadMoreValue1": "Daha fazla {{value1}} yükle"
     }
   }
 }

@@ -28,7 +28,18 @@
           "revenueAtRisk": "Risk Altındaki Gelir",
           "fromFailedTransactions": "Başarısız işlemlerden",
           "affectedUsers": "Etkilenen Kullanıcılar",
-          "uniqueUsersImpacted": "Etkilenen benzersiz kullanıcı"
+          "uniqueUsersImpacted": "Etkilenen benzersiz kullanıcı",
+          "noRecentErrorsDetectedAllSystemsOperational": "Son zamanlarda hata tespit edilmedi - Tüm sistemler çalışıyor",
+          "unknown": "BİLİNMİYOR",
+          "unknown2": "bilinmiyor",
+          "unknownError": "Bilinmeyen hata",
+          "paymentId": "Ödeme Kimliği:",
+          "amountAtRisk": "Risk Altındaki Tutar:",
+          "realTimeMonitoringAndManagementOfShopErrorsAnd": "Mağaza hatalarının ve sorunlarının gerçek zamanlı izlenmesi ve yönetimi",
+          "lastUpdated": "Son güncelleme:",
+          "realTimeErrorTrackingAndNotificationsEnabledAutoRefresh": "Gerçek zamanlı hata takibi ve bildirimler etkin • Her 30 saniyede bir otomatik yenileme",
+          "value1ActiveIssues": "{{value1}} aktif sorun",
+          "noCriticalIssues": "Kritik sorun yok"
         }
       }
     },
@@ -55,7 +66,11 @@
             "launchTrendTraffic": "Başlatma Trendi ve Trafik",
             "displayingLast": "Son",
             "days": "gün gösteriliyor",
-            "noDataCouldBeRetrieved": "Veri alınamadı."
+            "noDataCouldBeRetrieved": "Veri alınamadı.",
+            "failedToFetchStatistics": "İstatistikler alınamadı",
+            "text7Days": "7 gün",
+            "text30Days": "30 gün",
+            "text90Days": "90 gün"
           }
         },
         "shop": {
@@ -95,7 +110,10 @@
             "to": "-",
             "transactions2": "işlem",
             "previous": "Önceki",
-            "next": "Sonraki"
+            "next": "Sonraki",
+            "stripe": "stripe",
+            "value1Value2PaidMonths": "({{value1}}/{{value2}} ödenen ay)",
+            "value1": "{{value1}} —"
           }
         }
       },
@@ -116,7 +134,12 @@
           "secondsToTheCurrentEndTheResultingEndWill": "saniye ekler. Sonuç bitiş şu olacak:",
           "type": "Devam etmek için",
           "toContinue": "yaz",
-          "cancel": "İptal"
+          "cancel": "İptal",
+          "enterTheNumberOfSecondsToAdd": "Eklenecek saniye sayısını girin",
+          "notConfigured": "Yapılandırılmadı",
+          "enterSecondsToPreview": "Önizlemek için saniye girin",
+          "extending": "Uzatılıyor…",
+          "extendEvent": "Etkinliği uzat"
         },
         "page": {
           "communityEvent": "Topluluk Etkinliği",
@@ -128,7 +151,16 @@
           "starts": "Başlangıç:",
           "viewTheOfficialEventAnnouncement": "Resmi etkinlik duyurusunu görüntüle",
           "rankPurchasesExtendTheStoredEndTimeAutomaticallyAfter": "Rank satın alımları, etkinlik başladıktan sonra kayıtlı bitiş zamanını otomatik olarak uzatır.",
-          "resetEvent": "Etkinliği sıfırla"
+          "resetEvent": "Etkinliği sıfırla",
+          "resetCommunityEvent": "TOPLULUK ETKİNLİĞİNİ SIFIRLA",
+          "eventReset": "Etkinlik sıfırlandı.",
+          "thePublished72HourDupeEventScheduleIsLoaded": "Yayınlanan 72 saatlik Dupe Etkinliği takvimi otomatik olarak yüklenir.",
+          "enabled": "Etkin",
+          "disabled": "Devre Dışı",
+          "visible": "Görünür",
+          "hidden": "Gizli",
+          "notConfigured": "Yapılandırılmadı",
+          "initialEnd": "Başlangıç bitişi:"
         }
       },
       "fulfillment": {
@@ -150,7 +182,18 @@
           "postalEnding": ", posta kodu sonu",
           "emailNotification": "E-posta bildirimi",
           "customerFacingExplanationRequiredForRejectNeedInfo": "Müşteriye gösterilecek açıklama (reddetme / daha fazla bilgi için gereklidir)",
-          "resendDecisionEmail": "Karar e-postasını yeniden gönder"
+          "resendDecisionEmail": "Karar e-postasını yeniden gönder",
+          "approve": "approve",
+          "reject2": "Reddet",
+          "couldNotLoadRequests": "Talepler yüklenemedi",
+          "addACustomerFacingExplanationBeforeRejectingOrRequesting": "Reddetmeden veya bilgi talep etmeden önce müşteriye yönelik bir açıklama ekleyin.",
+          "reviewFailed": "İnceleme başarısız oldu",
+          "notSupplied": "belirtilmedi",
+          "unknown": "bilinmiyor",
+          "notNeeded": "gerekli değil",
+          "value1": "— {{value1}}",
+          "applicantEvidence": "Başvuran kanıtı:",
+          "currentCustomerMessage": "Mevcut müşteri mesajı:"
         }
       },
       "layout": {
@@ -210,7 +253,13 @@
           "requestRevision": "Revizyon İste",
           "retryRefund": "İadeyi Tekrar Dene",
           "retryCommand": "Komutu Tekrar Dene",
-          "selectAMotdAdvertisementToReviewItsDetails": "Detaylarını incelemek için bir MOTD reklamı seç."
+          "selectAMotdAdvertisementToReviewItsDetails": "Detaylarını incelemek için bir MOTD reklamı seç.",
+          "couldNotLoadMotdAds": "MOTD reklamları yüklenemedi",
+          "motdActionFailed": "MOTD işlemi başarısız oldu",
+          "queueRunCompletedValue1": "Sıra çalıştırması tamamlandı: {{value1}}",
+          "manualMotdActionFailed": "Manuel MOTD işlemi başarısız oldu",
+          "manualMotdSet": "Manuel MOTD ayarlandı",
+          "currentMotdClearedValue1": "Mevcut MOTD temizlendi: {{value1}}"
         }
       },
       "page": {
@@ -230,7 +279,8 @@
         "pullRecoveryDataLinkedEmailHomesIpsAndPlayerstats": "Kullanıcı adına göre kurtarma verilerini, bağlı e-postayı, evleri, IP'leri ve oyuncu istatistiklerini çek",
         "recoveryLogs": "Kurtarma Günlükleri",
         "inspectSubmittedRecoveryFormPayloadsWithSensitiveFieldsRedacted": "Hassas alanları gizlenmiş gönderilen kurtarma formu verilerini incele",
-        "recoveryResultLogs": "Kurtarma Sonuç Günlükleri"
+        "recoveryResultLogs": "Kurtarma Sonuç Günlükleri",
+        "inspectResultBearingRecoverySubmissionsWithScoresAndSanitized": "Puanlı ve sadeleştirilmiş sonuçlara sahip, sonuç içeren kurtarma başvurularını incele"
       },
       "recovery": {
         "logs": {
@@ -327,12 +377,69 @@
           "superAdminApprovalNote": "Süper Admin Onay Notu",
           "approveGraceSkip": "Ek Süre Atlamasını Onayla",
           "cancel": "İptal",
-          "thisLets": "Bu, \""
+          "thisLets": "Bu, \"",
+          "approved2": "Onaylandı",
+          "denied2": "Reddedildi",
+          "all2": "Tümü",
+          "text7d": "7g",
+          "text30d": "30g",
+          "text90d": "90g",
+          "custom2": "Özel",
+          "unknownError": "Bilinmeyen hata",
+          "value1Value22": ", {{value1}} - {{value2}}",
+          "sinceValue1": ", {{value1}}'den beri",
+          "routedToManual": "Manuele Yönlendirildi:",
+          "inProgressOther": "Devam Ediyor / Diğer:",
+          "decidedSuccessRate": "Karar Verilen Başarı Oranı:",
+          "totalSuccesses": "Toplam Başarı:",
+          "approvedByAdmin": "Yönetici Tarafından Onaylandı:",
+          "deniedByAdmin": "Yönetici Tarafından Reddedildi:",
+          "totalReviewed": "Toplam İncelenen:",
+          "manualTicketsDay": "Manuel talep / gün:",
+          "avgScore": "Ort. puan:",
+          "avgReviewTime": "Ort. inceleme süresi:",
+          "recoveryPage": "Kurtarma Sayfası:",
+          "manualTicketForm": "Manuel Talep Formu:",
+          "resetLinkAttempts": "Sıfırlama Bağlantısı Denemeleri:",
+          "blockChallenge": "Blok Sorgusu:",
+          "lookingUp": "Aranıyor...",
+          "lookup": "Ara",
+          "verified": "doğrulandı",
+          "unverified": "doğrulanmadı",
+          "ranked": "Sıralı",
+          "defaultRank": "Varsayılan rank",
+          "found": "bulundu",
+          "missing": "eksik",
+          "emailIsVerifiedOnTheAccount": "E-posta hesapta doğrulanmış.",
+          "emailExistsButIsNotVerified": "E-posta mevcut ancak doğrulanmamış.",
+          "noEmailReturnedByTheRecoveryProvider": "Kurtarma sağlayıcısı tarafından e-posta döndürülmedi.",
+          "providerStatus": "Sağlayıcı durumu:",
+          "found2": "Bulundu",
+          "missing2": "Eksik",
+          "playerstatsLookupError": "Playerstats sorgu hatası:",
+          "lastLogin2": "Son Giriş",
+          "contactEmail": "İletişim E-postası:",
+          "targetEmail": "Hedef E-posta:",
+          "proofType2": "Kanıt Türü:",
+          "yes": "Evet",
+          "no": "Hayır",
+          "challengeId": "Sorgu Kimliği:",
+          "superAdminsCanApproveSelectedPendingGracePeriodRequests": "Süper yöneticiler, talep sahibinin kimlik doğrulamasına hemen devam edebilmesi için seçili bekleyen ek süre taleplerini onaylayabilir.",
+          "notifiedEmail2": "Bildirilen E-posta",
+          "ownerEmail": "Sahip E-postası:",
+          "explainWhyThe60DayGracePeriodIsBeing": "60 günlük ek sürenin neden atlandığını açıklayın...",
+          "thisWillApproveRecoveryForUserValue1TicketValue2": "Bu, \"{{value1}}\" kullanıcısının kurtarma talebini onaylayacaktır (talep {{value2}}). Hesap e-postası güncellenecek ve bir şifre sıfırlama işlemi başlatılacaktır.",
+          "thisWillDenyRecoveryForUserValue1TicketValue2": "Bu, \"{{value1}}\" kullanıcısının kurtarma talebini reddedecektir (talep {{value2}}). Talep sahibine talebinin reddedildiği bildirilecektir.",
+          "processing": "İşleniyor...",
+          "confirmValue1": "{{value1}}'i Onayla",
+          "continueRecoveryImmediatelyInsteadOfWaitingForThe60": "\" 60 günlük sahip bildirim penceresini beklemek yerine kurtarmaya hemen devam et.",
+          "confirmGraceSkip": "Ek Süre Atlamasını Onayla"
         },
         "resultLogs": {
           "page": {
             "recoveryResultLogs": "Kurtarma Sonuç Günlükleri",
-            "reviewRecoverySubmissionsThatReachedAScoreOrRecovery": "Puan veya kurtarma sonucuna ulaşan kurtarma gönderimlerini incele; gönderilen alanları, puan dökümlerini ve temizlenmiş sonuçları içerir."
+            "reviewRecoverySubmissionsThatReachedAScoreOrRecovery": "Puan veya kurtarma sonucuna ulaşan kurtarma gönderimlerini incele; gönderilen alanları, puan dökümlerini ve temizlenmiş sonuçları içerir.",
+            "noResultBearingRecoverySubmissionsFoundForTheseFilters": "Bu filtreler için sonuç içeren kurtarma başvurusu bulunamadı."
           }
         }
       }
@@ -344,7 +451,10 @@
         "signInToAccessTheAdminPanel": "Admin paneline erişmek için giriş yap",
         "email": "E-posta",
         "adminExampleCom": "admin@example.com",
-        "password": "Şifre"
+        "password": "Şifre",
+        "loginFailed": "Giriş başarısız",
+        "signingIn": "Giriş yapılıyor...",
+        "signIn": "Giriş Yap"
       }
     },
     "recoverySubmissionLogViewer": {
@@ -372,7 +482,25 @@
       "status": "Durum",
       "ip": "IP",
       "loadingRecoveryLogs": "Kurtarma günlükleri yükleniyor...",
-      "selectedSubmissionDetails": "Seçilen Gönderim Detayları"
+      "selectedSubmissionDetails": "Seçilen Gönderim Detayları",
+      "all": "tümü",
+      "recoveryPage2": "Kurtarma Sayfası",
+      "manualTicket2": "Manuel Talep",
+      "resetLink2": "Sıfırlama Bağlantısı",
+      "blockChallenge2": "Blok Sorgusu",
+      "noStatus": "Durum yok",
+      "unknown": "bilinmiyor",
+      "success": "başarılı",
+      "failed": "başarısız",
+      "none": "Yok",
+      "noScoreRecorded": "Kayıtlı puan yok",
+      "noOutcomeRecorded": "Kayıtlı sonuç yok",
+      "value2": "değer",
+      "unknownError": "Bilinmeyen hata",
+      "loading": "Yükleniyor...",
+      "apply": "Uygula",
+      "notAvailable": "Kullanılamıyor",
+      "value1": "({{value1}})"
     }
   }
 }

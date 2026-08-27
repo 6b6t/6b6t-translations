@@ -48,7 +48,8 @@
         "players": "Oyuncular",
         "numerousTimesInTheServerHistoryClansLikeLaggang": "Sunucu tarihi boyunca birçok kez, LagGang, Colonizadores, 555, THM gibi klanlar yüzlerce oyuncuyu bir araya getirerek sunucuda izlerini bıraktı ve mümkün olanın sınırlarını zorladı.",
         "joinTheAdventure": "Maceraya Katıl",
-        "readOurBlog": "Blogumuzu Oku"
+        "readOurBlog": "Blogumuzu Oku",
+        "theOwnerQbastyAndTheAdminXymbHaveKept": "Sahibi qbasty ve yönetici Xymb, aylarca süren düşük aktivite ve mali destek eksikliği dönemlerinde bile sunucuyu çevrimiçi tuttu."
       },
       "historyRoadmap": {
         "launched": "Başladı",
@@ -70,7 +71,26 @@
         "text546Players": "546 Oyuncu",
         "largestCreations": "En Büyük Yapılar",
         "serverHistoryRoadmap": "Sunucu Tarihi Yol Haritası",
-        "decorativeTimelineRoad": "Dekoratif zaman çizelgesi yolu"
+        "decorativeTimelineRoad": "Dekoratif zaman çizelgesi yolu",
+        "text6b6tLaunchesWithMergedAssetsFrom7b7t": "6b6t, 7b7t'den birleştirilen varlıklarla başlıyor.",
+        "text24hNoAnticheatEvent": "24 saatlik anticheat'siz etkinlik.",
+        "serverUpdatedTo1192": "Sunucu 1.19.2'ye güncellendi.",
+        "text40CoordsLeaked": "40+ koordinat sızdırıldı.",
+        "switchedToFolia": "Folia'ya geçildi.",
+        "first300PlayerRecord": "İlk 300+ oyuncu rekoru.",
+        "monthLongEvent": "Ay süren etkinlik.",
+        "serverPutUpForSale": "Sunucu satışa çıkarıldı.",
+        "abandonedUntilAugust": "Ağustos'a kadar terk edildi.",
+        "updateUnderNewSoftware": "Yeni yazılım altında güncelleme.",
+        "hiddenAdminDupes": "Gizli yönetici dupe'ları.",
+        "christmasBuildComp": "Noel inşa yarışması.",
+        "allTimeHigh": "Tüm zamanların zirvesi.",
+        "illegalsEvent2": "Illegals etkinliği.",
+        "majorAuthExploit": "Büyük auth exploit'i.",
+        "lastAdminDupePatched": "Son yönetici dupe'ı yamalandı.",
+        "newBuildComp": "Yeni inşa yarışması.",
+        "ongoing": "Devam ediyor",
+        "largestMapartLogo": "En büyük mapart/logo."
       },
       "historyTimeline": {
         "jan": "OCA",
@@ -120,7 +140,34 @@
         "playersContinueToDevelopExtraordinaryArtifactsOnTheServer": "Oyuncular sunucuda olağanüstü eserler geliştirmeye devam ediyor; örneğin SnifferSquad klanının yaptığı Ashes adlı en büyük harita sanatı veya 555 tarafından yapılan en büyük spawn logosu gibi.",
         "timeline": "Zaman Çizelgesi",
         "learnMore": "Daha Fazla Bilgi",
-        "theStoryContinuesWhatAreYouGoingToDo": "Hikaye devam ediyor… SEN ne yapacaksın?"
+        "theStoryContinuesWhatAreYouGoingToDo": "Hikaye devam ediyor… SEN ne yapacaksın?",
+        "fromRed500ToRed600": "from-red-500 to-red-600",
+        "january162022": "16 Ocak 2022",
+        "fromPurple500ToPurple600": "from-purple-500 to-purple-600",
+        "march22022": "2 Mart 2022",
+        "fromOrange500ToOrange600": "from-orange-500 to-orange-600",
+        "october142022": "14 Ekim 2022",
+        "fromIndigo500ToIndigo600": "from-indigo-500 to-indigo-600",
+        "december102022": "10 Aralık 2022",
+        "juneNovember2023": "Haziran - Kasım 2023",
+        "fromBlue500ToBlue600": "from-blue-500 to-blue-600",
+        "june252023": "25 Haziran 2023",
+        "fromCyan500ToCyan600": "from-cyan-500 to-cyan-600",
+        "august22023": "2 Ağustos 2023",
+        "december1312023": "1-31 Aralık 2023",
+        "fromAmber500ToAmber600": "from-amber-500 to-amber-600",
+        "september132024": "13 Eylül 2024",
+        "october132024": "13 Ekim 2024",
+        "december2024": "Aralık 2024",
+        "fromPink500ToPink600": "from-pink-500 to-pink-600",
+        "february282025": "28 Şubat 2025",
+        "march212025": "21 Mart 2025",
+        "fromGreen500ToGreen600": "from-green-500 to-green-600",
+        "april102025": "10 Nisan 2025",
+        "allTimePlayerHigh": "Tüm Zamanların Oyuncu Rekoru",
+        "june12025": "1 Haziran 2025",
+        "ongoing": "Devam ediyor",
+        "from08cff9ToF7eb01": "from-[#08CFF9] to-[#F7EB01]"
       }
     },
     "page": {
@@ -132,7 +179,12 @@
       "specialThanks": "Özel Teşekkürler",
       "thisPageWasMadePossibleThanksTo": "Bu sayfa şunun sayede mümkün oldu:",
       "text6b6tTimes": "6b6t Times",
-      "whoHelpedGatherAllTheHistoricalInformationAndResearch": "sunucumuzun yolculuğunu belgelemek için gereken tüm tarihi bilgi ve araştırmaları toplamamıza yardımcı oldu."
+      "whoHelpedGatherAllTheHistoricalInformationAndResearch": "sunucumuzun yolculuğunu belgelemek için gereken tüm tarihi bilgi ve araştırmaları toplamamıza yardımcı oldu.",
+      "webpage": "WebPage",
+      "website": "WebSite",
+      "organization": "Organization",
+      "breadcrumblist": "BreadcrumbList",
+      "listitem": "ListItem"
     }
   }
 }

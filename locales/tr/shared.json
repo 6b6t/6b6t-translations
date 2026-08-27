@@ -4,13 +4,29 @@
       "actions": {
         "printify": {
           "signInAgainBeforeClaiming": "Talep etmeden önce tekrar giriş yapın.",
-          "signInAgainBeforeApplying": "Uygulamadan önce tekrar giriş yapın."
-        },
-        "shopCheckout": {
-          "value1Value2ShopSuccessProviderTebexOrderValue3": "{{value1}}/{{value2}}/shop/success?provider=tebex&order={{value3}}"
+          "signInAgainBeforeApplying": "Uygulamadan önce tekrar giriş yapın.",
+          "checkTheShippingDetails": "Kargo detaylarını kontrol edin.",
+          "theClaimCouldNotBeProcessed": "Talep işlenemedi.",
+          "checkTheApplicationDetails": "Başvuru detaylarını kontrol edin.",
+          "theHistoricalRequestCouldNotBeSubmitted": "Geçmiş talep gönderilemedi."
         },
         "stripe": {
-          "rankForValue1": "{{value1}} için Rank"
+          "rankForValue1": "{{value1}} için Rank",
+          "subscription": "subscription",
+          "payment": "payment",
+          "pay": "pay",
+          "whoIsThisGiftFrom": "Bu hediye kimden?",
+          "custom": "custom",
+          "text": "text",
+          "giftMessage": "Hediye mesajı",
+          "hosted": "hosted"
+        },
+        "motd": {
+          "revisionRequested": "revision_requested",
+          "paidPendingReview": "paid_pending_review"
+        },
+        "shopTracking": {
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "components": {
@@ -18,7 +34,8 @@
           "text6b6tMinecraftServer": "6b6t Minecraft Sunucusu",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Kuralsız ve sırasız en büyük Minecraft anarşi sunucusu. /tpa ve /home gibi temel komutlarla hem Java hem de Bedrock sürümlerini destekler.",
           "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarşi Sunucusu",
-          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Kuralsız, sırasız ve 2000'den fazla oyuncu kapasitesine sahip en büyük Minecraft anarşi sunucusuna katılın. Hem Java hem de Bedrock sürümlerinde /tpa ve /home gibi temel komutlarla gerçek anarşiyi deneyimleyin."
+          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Kuralsız, sırasız ve 2000'den fazla oyuncu kapasitesine sahip en büyük Minecraft anarşi sunucusuna katılın. Hem Java hem de Bedrock sürümlerinde /tpa ve /home gibi temel komutlarla gerçek anarşiyi deneyimleyin.",
+          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
         }
       },
       "manifest": {
@@ -78,10 +95,15 @@
       "eligibleRankPurchasesAddTimeToTheEventFor": "Uygun rank satın alımları herkes için etkinliğe süre ekler.",
       "wantToExtendTheEvent": "Etkinliği uzatmak ister misiniz?",
       "purchaseAnEligibleRankBelowToAddMoreTime": "Herkes için Dupe Etkinliğine daha fazla süre eklemek için aşağıdan uygun bir rank satın alın.",
-      "viewRanks": "Rank'ları görüntüle"
+      "viewRanks": "Rank'ları görüntüle",
+      "finalizingPurchases": "Satın alımlar sonlandırılıyor…",
+      "eventEnded": "Etkinlik sona erdi",
+      "finalizing": "Sonlandırılıyor",
+      "ended": "Sona erdi"
     },
     "developmentThemeSwitcher": {
-      "fixed": "SABİT"
+      "fixed": "SABİT",
+      "themeIsNowFixedToSnowySiteWide": "Tema artık site genelinde KARLI olarak sabitlendi"
     },
     "gallery": {
       "gallery": {
@@ -98,7 +120,8 @@
         "featured2": "Öne Çıkan",
         "showing": "Gösteriliyor",
         "of": "/",
-        "imagesFromThe6b6tCommunity": "6b6t topluluğundan görsel"
+        "imagesFromThe6b6tCommunity": "6b6t topluluğundan görsel",
+        "activeFilters": "Aktif filtreler:"
       },
       "galleryCard": {
         "text6b6tMinecraftServer": "6b6t Minecraft Sunucusu",
@@ -106,7 +129,11 @@
         "value1Value2": "{{value1}} - {{value2}}",
         "externalLink": "Harici bağlantı",
         "featured": "⭐ Öne Çıkan",
-        "author": "Yazar"
+        "author": "Yazar",
+        "imageobject": "ImageObject",
+        "organization": "Organization",
+        "webpage": "WebPage",
+        "clickToViewInLightboxCtrlClickOrMiddle": "Lightbox'ta görüntülemek için tıkla, yeni sekmede açmak için Ctrl+Tıklama veya Orta Tık kullan"
       },
       "galleryFilters": {
         "categories": "Kategoriler",
@@ -170,7 +197,16 @@
         "minecraft": "Minecraft",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t, kuralsız, cezasız ve sırasız bir survival Minecraft anarşi sunucusudur. Oyuncular, aynı anda 2000 oyuncuyu destekleyen bir dünyada istedikleri her şeyi yapabilir ve /tpa ve /home gibi komutları kullanabilirler.",
         "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Tüm Hakları Saklıdır. • qbasty labs FZE tarafından işletilmektedir • contact@6b6t.org",
-        "xTwitter": "X (Twitter)"
+        "xTwitter": "X (Twitter)",
+        "serverAddress": "Sunucu Adresi:",
+        "teleportToAPlayer": "Bir oyuncuya ışınlan",
+        "teleportToYourHome": "Home'una ışınlan",
+        "sendAPrivateMessageToAPlayer": "Bir oyuncuya özel mesaj gönder",
+        "stopSeeingMessagesFromAPlayer": "Bir oyuncudan gelen mesajları görmeyi durdur",
+        "viewVotingLinksAndRewards": "Oylama bağlantılarını ve ödüllerini görüntüle",
+        "changeYourSkin": "Skinini değiştir",
+        "equipBalloonCosmetics": "Balon kozmetiklerini kuşan",
+        "teleportToAnActiveHotspot": "Aktif bir Hotspot'a ışınlan"
       },
       "header": {
         "home": "Ana Sayfa",
@@ -238,6 +274,10 @@
         "ideal": "iDEAL",
         "bancontact": "Bancontact",
         "eps": "EPS"
+      },
+      "copyButton": {
+        "copied": "Kopyalandı!",
+        "copy": "Kopyala"
       }
     },
     "milestoneProgress": {
@@ -246,11 +286,13 @@
       "allRankPurchasesContributeToReachingTheCommunityGoal": "Tüm rank satın alımları topluluk hedefine ulaşmaya katkı sağlar.",
       "communityGoalProgress": "Topluluk hedefi ilerlemesi",
       "communityGoalReachedTheDupeEventHasBeenUnlocked": "Topluluk hedefine ulaşıldı. Dupe Etkinliğinin kilidi açıldı.",
-      "communityGoalReached": "Topluluk Hedefine Ulaşıldı!"
+      "communityGoalReached": "Topluluk Hedefine Ulaşıldı!",
+      "communityEvent": "Topluluk Etkinliği"
     },
     "modeToggle": {
       "defaultDisabled": "Varsayılan (Devre Dışı)",
-      "snowyActiveSiteWide": "Karlı (Site Genelinde Aktif)"
+      "snowyActiveSiteWide": "Karlı (Site Genelinde Aktif)",
+      "currentThemeSnowySiteWide": "Mevcut tema: Karlı (site geneli)"
     },
     "motion": {
       "username": {
@@ -309,12 +351,18 @@
       "purchasedThe": "şunu satın aldı:",
       "extendedTheDupeEventBy": "Dupe Etkinliğini şu kadar uzattı:",
       "noRankPurchasesHaveExtendedTheEventYet": "Henüz hiçbir rank satın alımı etkinliği uzatmadı.",
-      "couldNotLoadTheFullListTryAgain": "Tam liste yüklenemedi. Tekrar deneyin."
+      "couldNotLoadTheFullListTryAgain": "Tam liste yüklenemedi. Tekrar deneyin.",
+      "primeEliteUpgrade": "Prime → Elite yükseltmesi",
+      "apex": "Apex",
+      "legend3Months": "Legend (3 Ay)",
+      "primeApexUpgrade": "Prime → Apex yükseltmesi",
+      "loadingExtensions": "Uzatmalar yükleniyor…",
+      "showLess": "Daha az göster",
+      "showMore": "Daha fazla göster"
     },
     "reviewCard": {
       "value1Avatar": "{{value1}} avatarı",
       "discordLogo": "Discord Logosu",
-      "quot": "&quot;",
       "halfStarFill": "Yarım yıldız dolgusu",
       "screenshots": "Ekran Görüntüleri (",
       "images": "görsel)",
@@ -323,7 +371,11 @@
       "closeModal": "Pencereyi kapat",
       "previousImage": "Önceki görsel",
       "nextImage": "Sonraki görsel",
-      "goToImageValue1": "{{value1}}. görsele git"
+      "goToImageValue1": "{{value1}}. görsele git",
+      "fullStar": "Tam yıldız",
+      "halfStar": "Yarım yıldız",
+      "emptyStar": "Boş yıldız",
+      "searchIconClickToViewImage": "Arama ikonu - Görseli görüntülemek için tıkla"
     },
     "reviewSlideshow": {
       "reviews": "Değerlendirmeler",
@@ -332,7 +384,10 @@
       "verified": "Doğrulanmış",
       "players": "Oyuncular",
       "goToSlideGroupValue1": "{{value1}} numaralı slayt grubuna git",
-      "of": "/"
+      "of": "/",
+      "prime": "Prime",
+      "elite": "Elite",
+      "apex": "Apex"
     },
     "socialProofSection": {
       "verifiedCheckmark": "Doğrulanmış Onay İşareti",
@@ -340,7 +395,13 @@
       "satisfiedCustomers": "+ memnun müşteri",
       "realReviewsFrom": "Gerçek Değerlendirmeler",
       "discordMembers": "Discord Üyelerinden",
-      "verifiedPurchasesFromOurDiscordCommunity": "Discord topluluğumuzdan doğrulanmış satın alımlar"
+      "verifiedPurchasesFromOurDiscordCommunity": "Discord topluluğumuzdan doğrulanmış satın alımlar",
+      "amazingServerTheApexRankIsAbsolutelyWorthIt": "İnanılmaz bir sunucu! Apex rank'ı kesinlikle değer. Topluluk harika ve hiç lag sorunu yaşamadım. Ekip de son derece yardımsever!",
+      "unitedStates": "Amerika Birleşik Devletleri",
+      "beenPlayingFor6MonthsNowWithEliteRank": "6 aydır Elite rank ile oynuyorum. Araçlar ve izinler oyunun kurallarını değiştiriyor. Minecraft için yaptığım en iyi yatırım!",
+      "canada": "Kanada",
+      "justUpgradedToLegendRankLastWeekAndWow": "Geçen hafta Legend rank'a yükselttim ve vay canına! Özellikler inanılmaz. Sadece öncelikli sıra bile bana çok zaman kazandırıyor. 10/10 tavsiye ederim!",
+      "unitedKingdom": "Birleşik Krallık"
     },
     "stats": {
       "backgroundRenderer": {
@@ -374,7 +435,14 @@
         "backgroundImage": "Arka Plan Görseli",
         "chooseAServerScreenshotAsYourBackground": "Arka planınız olarak bir sunucu ekran görüntüsü seçin",
         "backgroundSelected": "Arka Plan Seçildi",
-        "text30OpacityCoverMode": "%30 opaklık • Kapla modu"
+        "text30OpacityCoverMode": "%30 opaklık • Kapla modu",
+        "autoSaveFailed": "Otomatik kaydetme başarısız oldu",
+        "color": "Renk",
+        "saved": "Kaydedildi!",
+        "error": "Hata",
+        "save": "Kaydet",
+        "changeBackground": "Arka Planı Değiştir",
+        "chooseBackground": "Arka Plan Seç"
       },
       "giftBadgeDisplay": {
         "text2025ChristmasLobbyChallengeBadge": "2025 Noel Lobi Meydan Okuması Rozeti",
@@ -437,7 +505,8 @@
         "flowingLeavesAndMagicalGreenEnergyNature": "Süzülen yapraklar ve büyülü yeşil enerji. (Doğa)",
         "legendaryChampion": "Efsanevi Şampiyon",
         "celestialLightAndCosmicEnergyAuraPrestige": "Göksel ışık ve kozmik enerji auresi. (Prestij)",
-        "loadingEffect": "Efekt yükleniyor..."
+        "loadingEffect": "Efekt yükleniyor...",
+        "profileEffect": "Profil Efekti:"
       },
       "playerStatsFaq": {
         "total": "toplam",
@@ -449,7 +518,13 @@
         "whatIsValue1SRankOn6b6t": "{{value1}}'in 6b6t'deki rank'ı nedir?",
         "whereCanISeeValue1SPlayingHistory": "{{value1}}'in oynama geçmişini nerede görebilirim?",
         "youCanViewValue1SCompleteStatsHistoryIncluding": "{{value1}}'in oynama süresi, öldürme, ölüm ve daha fazlasını içeren tam istatistik geçmişini tam burada, 6b6t profil sayfasında görüntüleyebilirsiniz.",
-        "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:"
+        "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:",
+        "value1HasPlayedValue2Value3On6b6t": "{{value1}}, 6b6t'de {{value2}} {{value3}} oynadı.",
+        "value1HasNotPlayedMuchRecently": "{{value1}} son zamanlarda fazla oynamadı.",
+        "value1HasValue2Value3OnTheServer": "{{value1}}, sunucuda {{value2}} {{value3}} sahibi.",
+        "value1HasNoRecordedKillsYet": "{{value1}}'in henüz kayıtlı bir öldürmesi yok.",
+        "value1IsARegularPlayerOn6b6t": "{{value1}}, 6b6t'de düzenli bir oyuncudur.",
+        "value1HasTheValue2RankOn6b6t": "{{value1}}, 6b6t'de {{value2}} rank'ına sahiptir."
       },
       "simplifiedThemeControls": {
         "colors": "Renkler",
@@ -475,7 +550,10 @@
         "screen": "Ekran",
         "blurEffect": "Bulanıklaştırma Efekti",
         "removeBackground": "Arka Planı Kaldır",
-        "resetToDefaults": "Varsayılanlara Sıfırla"
+        "resetToDefaults": "Varsayılanlara Sıfırla",
+        "imageValue1": "Görsel: {{value1}}",
+        "noBackgroundSelected": "Arka plan seçilmedi",
+        "saveChanges": "Değişiklikleri Kaydet"
       },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityBadge": "6b6t Telegram Topluluğu Rozeti",
@@ -490,7 +568,10 @@
         "stat": "İstatistik",
         "noStatsAvailable": "İstatistik Bulunmuyor",
         "unableToFindAnyStatsForUser": "Kullanıcı için herhangi bir istatistik bulunamadı",
-        "tryRejoiningTheServerToGetInTheStats": "💡 İstatistik veritabanına girmek için sunucuya tekrar katılmayı deneyin."
+        "tryRejoiningTheServerToGetInTheStats": "💡 İstatistik veritabanına girmek için sunucuya tekrar katılmayı deneyin.",
+        "legend": "legend",
+        "champion": "champion",
+        "hero": "hero"
       },
       "themeErrorBoundary": {
         "themeLoadingError": "Tema Yükleme Hatası",
@@ -535,8 +616,13 @@
         "weReSorryButSomethingUnexpectedHappenedOurTeam": "Üzgünüz, beklenmeyen bir şey oldu. Ekibimiz bilgilendirildi.",
         "tryAgain": "Tekrar Dene",
         "resetPage": "Sayfayı Sıfırla",
-        "backToShop": "Mağazaya Dön"
+        "backToShop": "Mağazaya Dön",
+        "client": "client",
+        "errorId": "Hata Kimliği:"
       }
+    },
+    "socialIcons": {
+      "socialIcon": "Sosyal Medya İkonu"
     }
   }
 }

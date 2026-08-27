@@ -72,7 +72,16 @@
         "everythingYouNeedToKnowAboutThe6b6tMinecraft": "6b6t Minecraft anarşi sunucusu hakkında bilmen gereken her şey",
         "stillHaveQuestions": "Hâlâ sorun mu var?",
         "joinOurDiscord": "Discord'umuza katıl",
-        "forMoreHelp": "daha fazla yardım için"
+        "forMoreHelp": "daha fazla yardım için",
+        "text6b6tIsnTADirect2b2tAlternativeBecauseIt": "6b6t, kendine özgü özellikleri ve yönü olduğu için doğrudan bir 2b2t alternatifi değildir. Yöneticiler, Minecraft'ın daha yeni sürümlerine 2b2t'den önce güncelleme yapmak gibi bağımsız kararlar alır ve sunucu, ışınlanma komutları gibi ek oynanış öğeleri içerir.",
+        "text6b6tIsOver20tbInSizeRepresentingYearsOf": "6b6t 20TB'ın üzerinde bir boyuta sahiptir ve yıllara dayanan oyuncu geçmişini ve yapılarını temsil eder. Büyük dünya boyutu, her zaman keşfedilecek yeni bir bölge ve keşfedilecek üs konumları olmasını sağlar.",
+        "overValue1UniquePlayersJoined6b6tSinceTheStart": "{{value1}}'den fazla benzersiz oyuncu, kuruluşundan bu yana 6b6t'ye katıldı. Sunucu, Ocak 2022'deki açılışından bu yana güçlü bir topluluk sürdürüyor.",
+        "text6b6tIsAMinecraftAnarchyServerWherePlayersCan2": "6b6t, oyuncuların kuralsız tam bir özgürlüğün tadını çıkarabildiği bir Minecraft anarşi sunucusudur. Şu komutlarla eşsiz bir deneyim sunar:",
+        "text6b6tWasStartedOnJanuary16th2022FromDay2": "6b6t, 16 Ocak 2022'de kuruldu. İlk günden itibaren şu komutlara sahipti:",
+        "text6b6tHasManyCommandsButTheMostFrequentlyUsed2": "6b6t'de birçok komut bulunur, ancak en sık kullanılanları şunlardır:",
+        "between150And250PlayersPlayAtTheSame2": "6b6t'de yoğun saatlerde aynı anda 150 ile 250 arasında oyuncu, en az ise 50 oyuncu bulunur.",
+        "yes6b6tSupportsBothMinecraftJavaEditionAndMinecraft2": "Evet, 6b6t hem Minecraft Java sürümünü hem de Minecraft Bedrock sürümünü destekler.",
+        "theBestPlaceToLearnAboutTheChangesAnd2": "6b6t'deki değişiklikler ve yeni özellikler hakkında bilgi almak için en iyi yer resmi"
       }
     },
     "features": {
@@ -97,7 +106,19 @@
         "whyPlayOn": "Neden oynamalısın:",
         "text6b6t": "6b6t",
         "text6b6tOffersAUniqueMinecraftAnarchyServerExperienceWith": "6b6t, kurallar ve sıra olmamasına rağmen /tpa ve /home komutlarıyla eşsiz bir Minecraft anarşi sunucusu deneyimi sunar.",
-        "gameplayFeatures": "Oynanış Özellikleri"
+        "gameplayFeatures": "Oynanış Özellikleri",
+        "playOnJavaEditionBedrockEditionOrWithCracked": "Java Edition, Bedrock Edition ile veya cracked hesaplarla oyna - herkes 6b6t'de hoş karşılanır.",
+        "global": "Global",
+        "tpaTeleportToOtherPlayersWhoAreOnline": "/tpa - Çevrimiçi olan diğer oyunculara ışınlan",
+        "homeSetupMultipleHomesToVisitAnytime": "/home - İstediğin zaman gidebileceğin birden fazla Home kur",
+        "hotspotJoinLargeEventsOrganizedByPlayersThatLast": "/hotspot - Oyuncular tarafından düzenlenen ve sadece birkaç saat süren büyük etkinliklere katıl",
+        "weStayUpToDateWithTheNewestMinecraft": "En yeni Minecraft sürümleriyle güncel kalıyor ve sık sık heyecan verici yeni özellikler ekliyoruz.",
+        "regularMinecraftVersionUpdatesCurrentlyValue1": "Düzenli Minecraft sürüm güncellemeleri, şu anda {{value1}}",
+        "builderAndPvpCompetitionsHostedByThe6b6tAdmins": "6b6t yöneticileri tarafından yılda birkaç kez düzenlenen İnşa ve PvP yarışmaları",
+        "newCommandsAndFrequentBugFixes": "Yeni komutlar ve sık hata düzeltmeleri",
+        "coloredChatNames": "Renkli sohbet isimleri",
+        "customPrefixes": "Özel önekler",
+        "visualEffectsCosmetics": "Görsel efektler ve kozmetikler"
       }
     },
     "gallery": {
@@ -106,7 +127,12 @@
         "serverScreenshots": "Sunucu Ekran Görüntüleri",
         "momentsCapturedFromThe6b6tAnarchyServer": "6b6t anarşi sunucusundan yakalanmış anlar",
         "tryAgain": "Tekrar dene",
-        "noImagesFound": "Görsel bulunamadı"
+        "noImagesFound": "Görsel bulunamadı",
+        "builds": "yapılar",
+        "events": "etkinlikler",
+        "failedToLoadGallery": "Galeri yüklenemedi",
+        "showLess": "Daha az göster",
+        "showAllValue1": "Tümünü göster ({{value1}})"
       },
       "galleryModal": {
         "featured": "Öne Çıkan"
@@ -146,7 +172,10 @@
         "text6b6tPreviewSpawnArea": "6b6t Önizleme - Spawn Alanı",
         "text6b6tPreviewValue1": "6b6t Önizleme - {{value1}}",
         "previousSlide": "Önceki slayt",
-        "nextSlide": "Sonraki slayt"
+        "nextSlide": "Sonraki slayt",
+        "viewValue1": "{{value1}} Görüntüle",
+        "copied": "KOPYALANDI",
+        "clickToCopy": "KOPYALAMAK İÇİN TIKLA"
       },
       "heroStats": {
         "onlinePlayers": "Çevrimiçi Oyuncular",
@@ -184,7 +213,10 @@
         "serverOnline": "Sunucu çevrimiçi",
         "text2000Players": "/2000 oyuncu",
         "java": "Java",
-        "done": "Tamam"
+        "done": "Tamam",
+        "javaPlayersConnectInTwoStepsInstallTheOfficial": "Java oyuncuları iki adımda bağlanır: resmi Anarchy Mod'u yükle, ardından Minecraft'ı başlat ve oyna.",
+        "copied": "Kopyalandı",
+        "copyIp": "IP'yi Kopyala"
       }
     },
     "home": {
@@ -200,7 +232,10 @@
         "instantlyAdds2MoreStackableHomesToYourAvailable": "Mevcut home noktalarına anında 2 kullanılabilir home daha ekler.",
         "instantServerAccess": "Anında Sunucu Erişimi",
         "automaticallyAddsThe6b6tServerIntoYourMultiplayerMenu": "6b6t sunucusunu çok oyunculu menüne otomatik olarak ekler.",
-        "text1194Supported": "1.19.4+ Destekleniyor"
+        "text1194Supported": "1.19.4+ Destekleniyor",
+        "takeYourAnarchyExperienceToTheNextLevelWith": "Hafif, açık kaynaklı Fabric modumuzla anarşi deneyimini bir üst seviyeye taşı. Ekstra Home hakkı, Mojang yasaklarına karşı bağlantı güvenliği ve oyun açılışında otomatik sunucu listesi entegrasyonu gibi anlık taktiksel avantajlar elde et.",
+        "antiBlacklistProtection": "Kara Liste Karşıtı Koruma",
+        "builtInEvasionEnsuresYouCanConnectEvenIf": "Yerleşik atlatma özelliği, Mojang IP'yi engellese bile bağlanabilmeni sağlar."
       }
     },
     "partners": {
@@ -220,7 +255,8 @@
         "text6b6t": "6b6t",
         "proton": "Proton",
         "aHistoricPartnership": "Tarihi Bir Ortaklık.",
-        "privacyMeetsAnarchy": "Gizlilik Anarşiyle Buluşuyor."
+        "privacyMeetsAnarchy": "Gizlilik Anarşiyle Buluşuyor.",
+        "text6b6tHasOfficiallyPartneredWithProtonToChampionA": "6b6t, güvenli ve şifreli bir internetin öncüsü olmak için Proton ile resmi olarak ortaklık kurdu. Gizliliğin bir lüks değil, temel bir hak olduğuna inanıyoruz. Dijital yaşamını, bizim de güvendiğimiz aynı İsviçre merkezli araçlarla koru."
       }
     },
     "social": {
@@ -231,7 +267,8 @@
         "epic6b6tAnarchyPvpMoments": "Epik 6b6t Anarşi PvP Anları",
         "massive6b6tBaseTour": "Devasa 6b6t Üs Turu",
         "text6b6tServerHighlights": "6b6t Sunucu Öne Çıkanları",
-        "youtubePlayButton": "YouTube Oynat Düğmesi"
+        "youtubePlayButton": "YouTube Oynat Düğmesi",
+        "failedToLoadYoutubeShorts": "YouTube Shorts yüklenemedi"
       }
     },
     "stats": {
@@ -245,7 +282,12 @@
         "value1Peak": "{{value1}} Zirve",
         "trackTheServerAposSPlayerCountOverThe": "Sunucunun son 7 gündeki oyuncu sayısını takip et ve topluluğun en aktif olduğu zamanları gör.",
         "averagePlayers": "Ortalama Oyuncu",
-        "peakPlayers": "Zirve Oyuncu"
+        "peakPlayers": "Zirve Oyuncu",
+        "failedToLoadData": "Veri yüklenemedi",
+        "activePlayers": "aktif oyuncu",
+        "serverOffline": "sunucu çevrimdışı",
+        "avgPlayers": "ort. oyuncu",
+        "peakPlayers2": "Zirve Oyuncu"
       }
     },
     "vote": {
@@ -322,7 +364,8 @@
         "text2ndPlace": "2. Sıra",
         "text5DiamondKits": "5× Elmas Kiti",
         "text3rdPlace": "3. Sıra",
-        "text3DiamondKits": "3× Elmas Kiti"
+        "text3DiamondKits": "3× Elmas Kiti",
+        "helpUsGrowByVotingDailyOnTheseMinecraft": "Bu Minecraft sunucu listelerinde her gün oy vererek büyümemize yardımcı ol. Her oy, sunucumuzun sıralamada daha yükseğe çıkmasına yardımcı olur ve sana özel oyun içi ayrıcalıklar kazandırır."
       }
     }
   }

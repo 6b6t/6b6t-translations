@@ -25,7 +25,9 @@
       "messagesFor": "mesaj, oyuncu:",
       "page": "Sayfa",
       "value1Value2": "{{value1}}{{value2}}",
-      "of": "/"
+      "of": "/",
+      "failedToFetchLogs": "Kayıtlar alınamadı",
+      "beforeMute": "susturmadan önce:"
     },
     "components": {
       "muteSystemCard": {
@@ -33,7 +35,8 @@
         "on": "on",
         "or": "veya",
         "off": "off",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "Bu susturma sistemi tamamen şeffaf ve anarşiye uygundur."
+        "thisMuteSystemIsFullyTransparentAndAnarchy": "Bu susturma sistemi tamamen şeffaf ve anarşiye uygundur.",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t'de susturmalar vardır, ancak tamamen şeffaftır ve susturulan oyuncuları görmeyi yine de seçebilirsin. Oyuncuları bu web sitesindeki kurallara göre susturuyoruz. Tam anarşi deneyimini yaşamak ve susturulan oyuncuları görmek istiyorsan şu komutu kullan:"
       }
     },
     "page": {
@@ -62,7 +65,9 @@
       "loadingModerationLogs": "Moderasyon kayıtları yükleniyor...",
       "thisPageShowsAllModerationActionsTakenByThe": "Bu sayfa, 6b6t spam önleme sistemi tarafından alınan tüm moderasyon işlemlerini gösterir.",
       "appealsAreHandled": "İtirazlar",
-      "exclusivelyViaTheAppealForm": " yalnızca itiraz formu üzerinden ele alınır."
+      "exclusivelyViaTheAppealForm": " yalnızca itiraz formu üzerinden ele alınır.",
+      "antiSpamLogs": "Anti-Spam Kayıtları",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Gerçek zamanlı moderasyon işlemleri ve spam önleme faaliyetleri"
     }
   }
 }

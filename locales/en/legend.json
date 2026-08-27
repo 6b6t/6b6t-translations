@@ -4,8 +4,24 @@
       "legend": {
         "components": {
           "legendComparisonGrid": {
-            "apex": "Apex",
-            "legend": "Legend",
+            "apex": "apex",
+            "apex2": "Apex",
+            "legend": "legend",
+            "legend2": "Legend",
+            "legendPrefix": "Legend Prefix",
+            "text500Homes": "500 Homes",
+            "text10s": "10s",
+            "text3s": "3s",
+            "included": "Included",
+            "text70Balloons": "70 Balloons",
+            "text16Colors": "16 Colors",
+            "text12Colors": "12 Colors",
+            "text32Particles": "32 Particles",
+            "text32Chunks": "32 chunks",
+            "text120Minutes": "120 minutes",
+            "text6Colors": "6 Colors",
+            "text5000Players": "5000 Players",
+            "legendDiscordRole": "Legend Discord Role",
             "notIncluded": "Not included",
             "viewValue1": "View {{value1}}",
             "blur": "blur",
@@ -17,9 +33,11 @@
             "current": "CURRENT",
             "lifetimeRank": "Lifetime Rank",
             "mo": "mo",
-            "readyToBecomeALegend": "Ready to become a Legend?"
+            "readyToBecomeALegend": "Ready to become a Legend?",
+            "cancelAnytime14DayRefundPolicy": "Cancel anytime. 14-Day refund policy."
           },
           "userSelectForm": {
+            "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
             "redirectingToShop": "Redirecting to shop...",
             "legendRankSelection": "Legend Rank Selection",
             "minecraftUsername": "Minecraft Username",
@@ -29,16 +47,44 @@
           }
         },
         "layout": {
+          "text6b6t": "6b6t",
+          "legendRank": "legend rank",
+          "minecraftAnarchyServer": "minecraft anarchy server",
+          "anarchyServerRanks": "anarchy server ranks",
+          "minecraftAnarchy": "minecraft anarchy",
+          "anarchyGaming": "anarchy gaming",
+          "ultimateAnarchyRank": "ultimate anarchy rank",
+          "anarchyServerPremium": "anarchy server premium",
+          "legendaryAnarchyRank": "legendary anarchy rank",
+          "minecraftAnarchyExperience": "minecraft anarchy experience",
+          "anarchyServerCosmetics": "anarchy server cosmetics",
+          "anarchyServerCommands": "anarchy server commands",
+          "text6b6tAnarchy": "6b6t anarchy",
+          "anarchyMinecraftServer": "anarchy minecraft server",
+          "premiumAnarchyRank": "premium anarchy rank",
+          "anarchyServerUpgrades": "anarchy server upgrades",
+          "cigarCommand": "cigar command",
+          "text500Homes": "500 homes",
+          "instantTeleportation": "instant teleportation",
+          "exclusiveCosmetics": "exclusive cosmetics",
           "text6b6tTeam": "6b6t Team",
+          "minecraftAnarchyServerRanks": "Minecraft Anarchy Server Ranks",
+          "text6b6tLegendRankUltimateMinecraftAnarchyServerExperience": "6b6t Legend Rank - Ultimate Minecraft Anarchy Server Experience",
           "legendRankFeaturesDominateTheAnarchyServerWith500": "Legend Rank Features - Dominate the Anarchy Server with 500 Homes, Cosmetics, Commands",
-          "text6b6tAnarchy": "6b6t Anarchy",
+          "anarchyMinecraftAnarchyServer6b6tLegendRankPremiumGaming": "Anarchy,Minecraft,Anarchy Server,6b6t,Legend Rank,Premium Gaming,Server Ranks,Ultimate Anarchy",
+          "text6b6tLegendRankUltimateAnarchyServerExperience": "6b6t Legend Rank - Ultimate Anarchy Server Experience",
+          "theUltimateLegendRankOn6b6tTheMostPowerful": "The ultimate Legend rank on 6b6t - the most powerful Minecraft anarchy server rank. Dominate the anarchy server with 500 homes, instant teleportation, exclusive cosmetics, and the legendary /cigar command.",
+          "text6b6tAnarchy2": "6b6t Anarchy",
           "text6b6tAnarchyServer": "6b6t Anarchy Server",
           "theUltimateMinecraftAnarchyServerExperience": "The ultimate Minecraft anarchy server experience",
+          "purchaseTheUltimateLegendRankOn6b6tTheMost": "Purchase the ultimate Legend rank on 6b6t - the most powerful Minecraft anarchy server rank. Dominate the anarchy with premium features.",
           "skipToMainContent": "Skip to main content"
         },
         "legendUserShopMenu": {
           "loadingCheckout": "Loading checkout...",
           "setUsername": "Set Username",
+          "subscribeForValue1": "Subscribe for {{value1}}",
+          "unavailable": "Unavailable",
           "legendRankPurchase": "Legend Rank Purchase",
           "pleaseEnterYourMinecraftUsernameAboveToCheckEligibility": "Please enter your Minecraft username above to check eligibility and purchase Legend rank. Legend rank is exclusively available for Apex rank holders.",
           "unableToLoadRankInformation": "Unable to load rank information",
@@ -47,6 +93,8 @@
           "youAreALegendRankMemberThankYouFor": "You are a Legend rank member. Thank you for supporting the server and community!",
           "apexRankRequired": "Apex Rank Required",
           "legendRankIsExclusivelyAvailableForApexRankHolders": "Legend rank is exclusively available for Apex rank holders. You currently have",
+          "noRank": "no rank",
+          "value1Rank": "{{value1}} rank",
           "pleasePurchaseApexRankFirstToUnlockLegend": ". Please purchase Apex rank first to unlock Legend.",
           "viewApexRank": "View Apex Rank",
           "congratulationsApexMember": "Congratulations, Apex Member!",
@@ -60,8 +108,15 @@
       }
     },
     "audioManager": {
+      "pauseBackgroundMusic": "Pause background music",
+      "playBackgroundMusic": "Play background music",
       "pauseMusic": "Pause music",
-      "playMusic": "Play music"
+      "playMusic": "Play music",
+      "pause": "PAUSE",
+      "music": "MUSIC"
+    },
+    "book": {
+      "value1": "{{value1}}..."
     },
     "bookDialog": {
       "viewValue1ImageInFullScreen": "View {{value1}} image in full screen",
@@ -86,22 +141,50 @@
     },
     "data": {
       "featuresData": {
-        "text500Homes": "500 Homes",
+        "text500Homes": "500-homes",
+        "text500Homes2": "500 Homes",
         "neverWorryAboutRunningOutSpotsInThe6b6t": "Never worry about running out spots in the 6b6t world",
+        "utility": "Utility",
+        "set500HomesWithSethome": "Set 500 homes with /sethome",
+        "neverRunOutOfThem": "Never run out of them",
+        "travelInstantly": "Travel instantly",
         "builderMode": "Builder Mode",
         "seeEverythingAtYourBaseSoYouCanBuild": "See everything at your base, so you can build freely and take impressive screenshots",
-        "cigars": "Cigars",
+        "building": "Building",
+        "automaticallyEnableWithBuildermodeHome": "Automatically enable with /buildermode home",
+        "increaseViewDistanceTo32": "Increase view distance to 32",
+        "seeEverything": "See everything",
+        "cigars": "cigars",
+        "cigars2": "Cigars",
         "theBaddestCoolestMostUniqueCosmeticYouVeEver": "The baddest coolest most unique cosmetic you've ever seen in Minecraft! Cigars!",
-        "glow": "Glow",
+        "cosmetic": "Cosmetic",
+        "firstMinecraftServerToAddCigars": "First Minecraft server to add cigars",
+        "relaxAndTakeAScreenshotWithThe6b6tOwner": "Relax and take a screenshot with the 6b6t owner",
+        "theCoolestCosmeticEverRunCigar": "The coolest cosmetic ever, run /cigar",
+        "glow": "glow",
+        "glow2": "Glow",
         "standOutAtNightAndDuringTheDayBetween": "Stand out at night and during the day, between thousands of players, you're the light",
-        "hotspot": "Hotspot",
+        "withGlowItWonTBeDark": "With /glow it won't be dark",
+        "youGlowTheSameColorAsYourNamecolor": "You glow the same color as your /namecolor",
+        "noLimitsOnUsage": "No limits on usage",
+        "hotspot": "hotspot",
+        "hotspot2": "Hotspot",
         "createTheMostActiveLocationsOnTheServer": "Create the most active locations on the server",
+        "social": "Social",
+        "createAHotspotAndHostADestructiveParty": "Create a hotspot and host a destructive party",
+        "giveEveryoneAGlowEffectWithHotspotGlow": "Give everyone a glow effect with /hotspot glow",
+        "giveEveryoneYourFavoriteBalloonWithHotspotBalloon": "Give everyone your favorite balloon with /hotspot balloon",
         "nameColor": "Name Color",
-        "yourStyleYourColors12ToChooseFrom": "Your style, your colors. 12 to choose from"
+        "yourStyleYourColors12ToChooseFrom": "Your style, your colors. 12 to choose from",
+        "customization": "Customization",
+        "changeYourNameColorWithNamecolor": "Change your name color with /namecolor",
+        "pickFrom12ColorsPreviewItWithTheCommand": "Pick from 12 colors (preview it with the command)",
+        "standOutTogetherWithChatcolor": "Stand out together with /chatcolor"
       },
       "pricingData": {
         "monthlyLegend": "Monthly legend",
         "flexibleBillingForTheRareAdventures": "Flexible billing for the rare adventures",
+        "month": "/ month",
         "legendPrefix": "Legend Prefix",
         "legendDiscordRank": "Legend Discord Rank",
         "lightUpCigarsInMinecraftWithCigar": "Light up cigars in Minecraft with /cigar!",
@@ -137,8 +220,12 @@
         "changeNicknamePermissionIn6b6tDiscord": "Change Nickname permission in 6b6t Discord",
         "streamingPermissionIn6b6tDiscord": "Streaming permission in 6b6t Discord",
         "accessTo10RankOnlyChannelsIn6b6tDiscord": "Access to 10+ rank only channels in 6b6t Discord",
+        "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "Priority support using #premium-tickets channel in 6b6t Discord",
+        "chooseMonthlyCovenant": "Choose Monthly Covenant",
         "threeMonthLegend": "Three month legend",
-        "longTermPlanningForTheWarriors": "Long term planning for the warriors"
+        "longTermPlanningForTheWarriors": "Long term planning for the warriors",
+        "save4499": "save €44.99",
+        "chooseThreeMonthCovenant": "Choose Three Month Covenant"
       }
     },
     "faq": {
@@ -177,8 +264,7 @@
       "libraryHeader": {
         "theLegendaryLibrary": "THE LEGENDARY LIBRARY",
         "quotWelcomeToTheExclusiveWorldOfLegendaryPlayers": "&quot;Welcome to the exclusive world of Legendary players on 6b6t. Here you get access to the most powerful features and cosmetics ever seen in anarchy. These perks make you stand out, they make you powerful and they make you legendary.",
-        "donAposTWaitBecomeALegend": "Don&apos;t wait. Become a LEGEND.",
-        "quot": ".&quot;"
+        "donAposTWaitBecomeALegend": "Don&apos;t wait. Become a LEGEND."
       },
       "librarySection": {
         "quotEachTomeContainsLegendaryPowersClickAnyBook": "&quot;Each tome contains legendary powers. Click any book to explore its secrets.&quot;"
@@ -205,6 +291,8 @@
         "alreadyActive": "✦ Already Active ✦",
         "youAlreadyHaveLegendRankThankYouForYour": "You already have Legend rank! Thank you for your support.",
         "requiresApexRank": "⚠️ Requires Apex Rank",
+        "youNeedToPurchaseTheApexRankFirstTo": "You need to purchase the Apex rank first to unlock Legend.",
+        "youCurrentlyHaveValue1RankUpgradeToApexTo": "You currently have {{value1}} rank. Upgrade to Apex to unlock Legend.",
         "getApexRank": "Get Apex Rank",
         "setUsernameFirst": "👤 Set Username First",
         "pleaseEnterYourMinecraftUsernameToCheckEligibilityAnd": "Please enter your Minecraft username to check eligibility and purchase."
@@ -215,6 +303,7 @@
         "selectYourLegendMethod": "Select Your Legend Method",
         "userIcon": "User icon",
         "loggedInAs": "Logged in as",
+        "value1": "[{{value1}}]",
         "change": "Change",
         "loginIcon": "Login icon",
         "setYourMinecraftUsername": "Set Your Minecraft Username",
@@ -226,7 +315,9 @@
         "checkingEligibility": "Checking Eligibility..."
       },
       "shopBuyButton": {
+        "creatingCheckoutSession": "Creating checkout session...",
         "checkoutSessionCreated": "Checkout session created!",
+        "selectUsernameFirst": "Select Username First",
         "selectSubscriptionDuration": "Select Subscription Duration",
         "chooseHowLongYouWantToSubscribeForLonger": "Choose how long you want to subscribe for. Longer durations offer better value!",
         "close": "Close",
@@ -248,15 +339,6 @@
       }
     },
     "footer": {
-      "visa": "Visa",
-      "mastercard": "Mastercard",
-      "applePay": "Apple Pay",
-      "googlePay": "Google Pay",
-      "ideal": "iDEAL",
-      "bancontact": "Bancontact",
-      "eps": "EPS",
-      "acceptedPaymentMethods": "Accepted Payment Methods",
-      "cardsAndWallets": "Cards and Wallets",
       "features": "Features",
       "pricing": "Pricing",
       "faq": "FAQ",
@@ -308,6 +390,7 @@
       "first": "First",
       "value1Value2": "{{value1}}{{value2}}",
       "cigars": "cigars",
+      "firstSmoked2": "First smoked:",
       "cigarsTotal": "cigars total",
       "totalCigarsSmoked": "Total Cigars Smoked",
       "activeSmokers7d": "Active Smokers (7d)",
@@ -363,6 +446,7 @@
       }
     },
     "userSelectForm": {
+      "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
       "legendRankSelection": "Legend Rank Selection",
       "minecraftUsername": "Minecraft Username",
       "dinnerbone": "Dinnerbone",

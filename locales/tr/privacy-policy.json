@@ -75,7 +75,24 @@
       "yourContinuedUseOfTheServicesAfterChangesAre": "Değişiklikler yayımlandıktan sonra Hizmetleri kullanmaya devam etmeniz, güncellenmiş Gizlilik Politikasını kabul ettiğiniz anlamına gelir.",
       "text9ContactUs": "9. Bize Ulaşın",
       "email": "E-posta:",
-      "lastUpdatedFebruary132026": "Son güncelleme: 13 Şubat 2026"
+      "lastUpdatedFebruary132026": "Son güncelleme: 13 Şubat 2026",
+      "effectiveDate": "Yürürlük Tarihi:",
+      "dataControllerLegalEntity": "Veri sorumlusu / Tüzel kişilik:",
+      "registeredAddress": "Kayıtlı adres:",
+      "weMayCollectTheFollowingCategoriesOfInformation": "Aşağıdaki bilgi kategorilerini toplayabiliriz:",
+      "informationAboutYourInteractionsWithOurServersAndServices": "– oynanış eylemleri, oturum bilgileri ve oyun içi etkinlikler dahil olmak üzere, sunucularımız ve hizmetlerimizle olan etkileşimlerinize ilişkin bilgiler.",
+      "detailsAboutProductsAndRanksYouBuySuchAs": "– satın aldığınız ürünler ve rank'lara ilişkin ayrıntılar (ürün, fiyat, tarih ve rank'ın bağlı olduğu hesap gibi). Ödeme işlemleri üçüncü taraf sağlayıcılar tarafından gerçekleştirilir; tam ödeme kartı bilgilerinizi saklamayız.",
+      "weUseYourInformationTo": "Bilgilerinizi şu amaçlarla kullanırız:",
+      "wherePrivacyLawsLikeTheGdprApplyWeRely": "GDPR gibi gizlilik yasalarının uygulandığı yerlerde, aşağıdaki hukuki dayanaklara güveniriz:",
+      "weMayShareYourInformationWith": "Bilgilerinizi şunlarla paylaşabiliriz:",
+      "dataSharedWithThirdPartyServicesWillNotBe": "Üçüncü taraf hizmetlerle paylaşılan veriler, bu hizmetler tarafından kendi pazarlama amaçları için kullanılmaz ve satılmaz.",
+      "inParticular": "Özellikle:",
+      "informationRelatedToYourAccountRanksAndOtherPurchases": "– hesabınız, rank'larınız ve diğer satın alımlarınızla ilgili bilgiler, Hizmetleri işlettiğimiz sürece saklanabilir. Bu, ömür boyu veya uzun vadeli rank'lar sunmamıza ve haklarınızın çalışmaya devam etmesini sağlamamıza yardımcı olur.",
+      "serverLogsAndInGameLogs": "Sunucu kayıtları ve oyun içi kayıtlar",
+      "manyTypesOfTechnicalAndInGameLogsAre": "– birçok teknik ve oyun içi kayıt türü, çoğu yerde şu süre içinde silinir:",
+      "althoughSomeLogsMayBeKeptLongerWhereNeeded": ", ancak bazı kayıtlar güvenlik, kötüye kullanımı önleme veya yasal nedenlerle daha uzun süre saklanabilir.",
+      "dependingOnYourLocationAndApplicableLawYouMay": "Bulunduğunuz konuma ve geçerli yasaya bağlı olarak, aşağıdaki haklara sahip olabilirsiniz:",
+      "weMayUpdateThisPrivacyPolicyFromTimeTo": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Güncellediğimizde:"
     }
   }
 }

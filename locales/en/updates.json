@@ -1,7 +1,10 @@
 {
   "sections": {
     "discordMarkdown": {
-      "value1Value2": "{{value1}}{{value2}}"
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
     },
     "page": {
       "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
@@ -19,14 +22,20 @@
       "postedBy": "Posted by",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
       "openInDiscord": "Open in Discord",
+      "couldNotLoadMoreUpdates": "Could not load more updates.",
+      "couldNotSearchUpdates": "Could not search updates.",
       "newUpdate": "new update",
       "justAppeared": "just appeared.",
       "dismiss": "Dismiss",
       "searchUpdates": "Search updates",
+      "searching": "Searching...",
+      "search": "Search",
       "clear": "Clear",
       "showing": "Showing",
       "searchResult": "search result",
       "latestPost": "Latest post",
+      "loading": "Loading...",
+      "loadMoreValue1": "Load more {{value1}}",
       "noUpdatesMatchedYourSearch": "No updates matched your search."
     }
   }

@@ -29,7 +29,21 @@
         "value1Value2": "{{value1}}{{value2}}",
         "of": "/",
         "skip": "Atla",
-        "back": "Geri"
+        "back": "Geri",
+        "useTheExactInGameUsername": "Tam olarak oyun içi kullanıcı adını kullanın.",
+        "completeTheCaptchaOnceBeforeSubmitting": "Göndermeden önce captcha'yı bir kez tamamlayın.",
+        "ifTheAccountCanStillUseTheNormalEmail": "Hesap hâlâ normal e-posta sıfırlama yolunu kullanabiliyorsa, kurtarma sizi oraya yönlendirir.",
+        "useAnEmailYouCanVerifyImmediately": "Hemen doğrulayabileceğiniz bir e-posta kullanın.",
+        "ifYouStillRememberTheOldEmailProvideIt": "Eski e-postayı hâlâ hatırlıyorsanız, istendiğinde belirtin.",
+        "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Güvenlik yanıtları kasıtlı olarak geneldir, böylece saldırganlar neyin eşleştiğini öğrenemez.",
+        "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Kayıtlı evler ve koordinat konumları, elinizde yoksa isteğe bağlıdır.",
+        "countriesLastLogoutLocationItemNamesAndOldBase": "Ülkeler, son çıkış konumu, eşya isimleri ve eski üs detayları puanı artırmaya yardımcı olabilir.",
+        "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Yalnızca gerçekten hatırladığınız detayları girin; yanlış tahminler talebi zayıflatabilir.",
+        "manualReviewTicketsKeepTheProofAttachedForStaff": "Manuel inceleme talepleri, kanıtı ekip için ekli tutar.",
+        "recoveryIsRateLimitedSoDoNotSpamAttempts": "Kurtarma işlemi hız sınırlıdır, bu yüzden art arda deneme yapmayın.",
+        "onceApprovedFinishTheEmailCodeStepAndSet": "Onaylandıktan sonra e-posta kodu adımını tamamlayın ve yeni bir şifre belirleyin.",
+        "startRecovery": "Kurtarmayı Başlat",
+        "next": "İleri"
       },
       "steps": {
         "blockedStep": {
@@ -50,7 +64,11 @@
           "days": "gün içinde yanıt vermezse",
           "youCanProceedWithIdentityVerification": ", kimlik doğrulamasına geçebilirsiniz.",
           "verification": "Doğrulama",
-          "returnToStart": "Başlangıca Dön"
+          "returnToStart": "Başlangıca Dön",
+          "recoveryPendingGracePeriodActive": "Kurtarma Beklemede - Bekleme Süresi Aktif",
+          "gracePeriodExpires": "Bekleme süresi bitiş:",
+          "checking": "Kontrol ediliyor...",
+          "checkStatus": "Durumu Kontrol Et"
         },
         "intentStep": {
           "setNewContactEmail": "Yeni İletişim E-postası Belirle",
@@ -63,7 +81,11 @@
           "continueRecovery": "Kurtarmaya Devam Et"
         },
         "lane1DeadEndStep": {
-          "returnToStart": "Başlangıca Dön"
+          "returnToStart": "Başlangıca Dön",
+          "standardResetRequired": "Standart Sıfırlama Gerekli",
+          "automatedRecoveryUnavailable": "Otomatik Kurtarma Kullanılamıyor",
+          "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Hesabınızda, girdiğinizle eşleşen doğrulanmış bir e-posta zaten var. Kimlik bilgilerinizi sıfırlamak için lütfen standart 'Şifremi Unuttum' sürecini kullanın.",
+          "weCannotProcessAnAutomatedRecoveryForThisAccount": "Güvenliğini sağlamak için, sağlanan bilgilerle bu hesap için otomatik bir kurtarma işlemi gerçekleştiremiyoruz."
         },
         "lane2aStep": {
           "join6b6t": "6b6t'ye Katıl",
@@ -72,7 +94,12 @@
           "required": "(zorunlu)",
           "nameExampleCom": "name@example.com",
           "abc123": "ABC123",
-          "returnToStart": "Başlangıca Dön"
+          "returnToStart": "Başlangıca Dön",
+          "inGameRecoveryInstructions": "Oyun İçi Kurtarma Talimatları",
+          "sinceYouCanStillJoinTheServerProveControl": "Sunucuya hâlâ katılabildiğiniz için, kurtarma e-postasını değiştirmeden önce hesap üzerindeki kontrolünüzü oyun içinden kanıtlayın. Bu kod, e-posta değişikliği talebini doğrular; ardından yeni e-postayı onaylarız.",
+          "copyThe6CharacterRecoveryCodeShownInChat": "Sohbette gösterilen 6 karakterli kurtarma kodunu kopyalayın ve aşağıya girin.",
+          "inGameRecoveryCode": "Oyun İçi Kurtarma Kodu",
+          "verifyInGameCode": "Oyun İçi Kodu Doğrula"
         },
         "manualReviewStep": {
           "manualReview": "Manuel İnceleme",
@@ -89,7 +116,8 @@
           "provideProofDetailsThatCanBeVerified": "Doğrulanabilir kanıt detayları sağlayın.",
           "attachmentsOptionalOneUrlPathPerLineUpTo": "Ekler (isteğe bağlı, her satıra bir URL/yol, en fazla 3 adet)",
           "verification": "Doğrulama",
-          "submitManualReview": "Manuel İncelemeyi Gönder"
+          "submitManualReview": "Manuel İncelemeyi Gönder",
+          "aFew": "birkaç"
         },
         "premiumAccountStep": {
           "premiumMinecraftAccount": "Premium Minecraft Hesabı",
@@ -100,7 +128,6 @@
           "privateConnectionDetails": "Özel Bağlantı Detayları",
           "yourPublicProofWasNotEnoughProvidePrivateNetwork": "Genel kanıtınız yeterli olmadı. Puanınızı artırmak için özel ağ bilgilerinizi girin.",
           "ipAddressIpv4OrIpv6": "IP Adresi (IPv4 veya IPv6)",
-          "regionState": "Bölge/Eyalet",
           "city": "Şehir",
           "asnExampleAs1234": "ASN (örnek: AS1234)",
           "ispProvider": "İSS / Sağlayıcı",
@@ -137,7 +164,14 @@
           "otherDetails": "Diğer Detaylar",
           "optional": "(isteğe bağlı)",
           "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "Envanter eşyaları, kılıç isimleri, yazılmamış kitap içerikleri, evcil hayvan isimleri...",
-          "submitProofCalculateScore": "Kanıtı Gönder ve Puanı Hesapla"
+          "submitProofCalculateScore": "Kanıtı Gönder ve Puanı Hesapla",
+          "overworld2": "Overworld",
+          "nether2": "Nether",
+          "end2": "End",
+          "unknown": "unknown",
+          "homeNameProofIsSkippedBecauseThisAccountHad": "Bu hesabın kayıtlı Home'u olmadığı için Home ismi kanıtı atlanıyor.",
+          "oneRowPerHome": "(Home başına bir satır)",
+          "oneRowPerLocation": "(konum başına bir satır)"
         },
         "resetPasswordStep": {
           "setNewPassword": "Yeni Şifre Belirle",
@@ -145,7 +179,8 @@
           "newPassword": "Yeni Şifre",
           "minimum8Characters": "En az 8 karakter",
           "confirmPassword": "Şifreyi Onayla",
-          "resetPassword": "Şifreyi Sıfırla"
+          "resetPassword": "Şifreyi Sıfırla",
+          "reEnterYourNewPassword": "Yeni şifrenizi tekrar girin"
         },
         "startStep": {
           "minecraftUsername": "Minecraft Kullanıcı Adı",
@@ -161,7 +196,8 @@
           "emailVerification": "E-posta Doğrulama",
           "emailVerificationCode": "E-posta Doğrulama Kodu",
           "text6DigitCode": "6 haneli kod",
-          "verifyCode": "Kodu Doğrula"
+          "verifyCode": "Kodu Doğrula",
+          "a6DigitCodeHasBeenSentToYour": "E-postanıza 6 haneli bir kod gönderildi. Görünmüyorsa spam klasörünüzü kontrol edin."
         }
       }
     },
@@ -181,7 +217,9 @@
         "blockThisRecoveryAttempt": "Bu Kurtarma Girişimini Engelle",
         "processing": "İşleniyor...",
         "accountProtected": "Hesap Korundu",
-        "thisBlockIsPermanentTheAccountOwnerConfirmedThey": "Bu engelleme kalıcıdır. Hesap sahibi, bu kurtarma girişimini yetkilendirmediğini onayladı."
+        "thisBlockIsPermanentTheAccountOwnerConfirmedThey": "Bu engelleme kalıcıdır. Hesap sahibi, bu kurtarma girişimini yetkilendirmediğini onayladı.",
+        "recoveryAttemptHasBeenBlockedSuccessfully": "Kurtarma girişimi başarıyla engellendi.",
+        "failedToBlockRecoveryAttempt": "Kurtarma girişimi engellenemedi."
       }
     },
     "page": {
@@ -205,7 +243,9 @@
         "passwordResetComplete": "Şifre Sıfırlama Tamamlandı",
         "minimum8Characters": "En az 8 karakter",
         "confirmPassword": "Şifreyi Onayla",
-        "resetPassword": "Şifreyi Sıfırla"
+        "resetPassword": "Şifreyi Sıfırla",
+        "passwordHasBeenResetSuccessfully": "Şifre başarıyla sıfırlandı.",
+        "reEnterYourPassword": "Şifrenizi tekrar girin"
       }
     }
   }

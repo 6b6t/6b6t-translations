@@ -15,7 +15,6 @@
       "text1Definitions": "1. Tanımlar",
       "quotWeQuotQuotUsQuotQuotOurQuot": "&quot;Biz&quot;, &quot;bize&quot;, &quot;bizim&quot;",
       "text6b6tAndItsOperators": "– 6b6t ve operatörleri.",
-      "quotServicesQuot": "&quot;Hizmetler&quot;",
       "allMinecraftServersWebsitesShopsDiscordServersCommunitiesSocial": "– işlettiğimiz tüm Minecraft sunucuları, web siteleri, mağazalar, Discord sunucuları, topluluklar, sosyal medya kanalları ve ilgili hizmetler; bunlarla sınırlı olmamak üzere Bölüm 2'de listelenen alan adları ve hizmetler dahil.",
       "quotYouQuotQuotUserQuotQuotPlayerQuot": "&quot;Siz&quot; / &quot;Kullanıcı&quot; / &quot;Oyuncu&quot;",
       "anyPersonAccessingOrUsingTheServices": "– Hizmetlere erişen veya bunları kullanan herhangi bir kişi.",
@@ -111,7 +110,29 @@
       "terminationDoesNotEntitleYouToAnyRefundUnless": "Fesih, İade Politikamız veya geçerli yasalar gerektirmedikçe size herhangi bir iade hakkı vermez.",
       "text14ContactInformation": "14. İletişim Bilgileri",
       "email": "E-posta:",
-      "lastUpdatedFebruary232026": "Son güncelleme: 23 Şubat 2026"
+      "lastUpdatedFebruary232026": "Son güncelleme: 23 Şubat 2026",
+      "effectiveDate": "Yürürlük Tarihi:",
+      "operatorLegalEntity": "İşletmeci / Tüzel kişilik:",
+      "registeredAddress": "Kayıtlı adres:",
+      "theseTermsApplyToAllServicesWeOperateIncluding": "Bu Şartlar, işlettiğimiz tüm Hizmetler için geçerlidir; buna aşağıdaki alan adları ve tüm alt alan adları altında sunulan Minecraft sunucularımız ve web sitelerimiz de dahildir:",
+      "theyAlsoSpecificallyCoverAsPartOfOurServices": "Ayrıca, Hizmetlerimizin bir parçası olarak özellikle şunları da kapsar:",
+      "ourMainWebsite": "Ana web sitemiz:",
+      "ourShop": "Mağazamız:",
+      "ourDiscordServer": "Discord sunucumuz:",
+      "minecraftServerNetworkThisMeansThatMostInGame": "Minecraft sunucu ağı. Bu, çoğu oyun içi davranışın izin verildiği anlamına gelir; buna şunlar da dahildir:",
+      "andMayResultInPermanentRemovalFromOurServices": "ve Hizmetlerimizden kalıcı olarak çıkarılmanıza ve diğer sonuçlara yol açabilir:",
+      "withinTheseLimitsWeAimToKeepInGame": "Bu sınırlar dahilinde, oyun içi ve topluluk konuşmasını makul ölçüde olabildiğince özgür tutmayı hedefliyoruz.",
+      "byJoiningAndUsingOurDiscordServerYouAgree": "Discord sunucumuza katılıp onu kullanarak, bu Şartlara ek olarak söz konusu kurallara da uymayı kabul edersiniz. Discord kurallarının ihlali şu sonuçlara yol açabilir:",
+      "removalOfAnyDiscordRelatedBenefitsOrRolesIncluding": "ücretli rank'lara veya satın alımlara bağlı ayrıcalıklar dahil olmak üzere, Discord ile ilgili her türlü ayrıcalık veya rolün kaldırılması.",
+      "ifYouWishToKeepYourDiscordRankBenefits": "Discord rank ayrıcalıklarınızı korumak istiyorsanız, Discord kurallarını ihlal etmemeyi kabul edersiniz. Kuralları ihlal ettiğiniz için Discord sunucusuna veya Discord ile ilgili ayrıcalıklara erişiminizi kaybetmeniz, size iade hakkı vermez.",
+      "withoutAnyWarrantiesOfAnyKindWhetherExpressOr": ", açık veya zımni herhangi bir garanti olmaksızın sağlanır. Bu, sınırlama olmaksızın şunları içerir:",
+      "noGuaranteeThatTheServicesWillBeUninterruptedSecure": "Hizmetlerin kesintisiz, güvenli veya hatasız olacağına dair herhangi bir garanti verilmemesi,",
+      "noGuaranteeThatInGameDataSuchAsItems": "oyun içi verilerin (eşyalar, yapılar veya üsler gibi) korunacağına dair herhangi bir garanti verilmemesi.",
+      "text10IntellectualPropertyAndUserGeneratedContent": "10. Fikri Mülkiyet ve Kullanıcı Tarafından Oluşturulan İçerik",
+      "whenYouCreateOrUploadContentInConnectionWith": "Hizmetlerle bağlantılı olarak içerik oluşturduğunuzda veya yüklediğinizde (örneğin yapılar, oyun içi sohbet, web sitemizdeki gönderiler veya bizimle paylaştığınız medya), bu içerik üzerinde sahip olabileceğiniz haklar sizde kalır.",
+      "byUsingTheServicesYouGrantUsANon": "Hizmetleri kullanarak, Hizmetleri işletmek, sürdürmek, tanıtmak ve geliştirmek için makul ölçüde gerekli olduğu şekilde bu içeriği saklamamız, çoğaltmamız, görüntülememiz, sergilememiz ve kullanmamız için bize münhasır olmayan, dünya genelinde geçerli, telif ücretsiz bir lisans vermiş olursunuz. Örneğin buna, sunucudan alınan ekran görüntülerinin veya videoların tanıtım materyallerinde kullanılması da dahildir.",
+      "weMayUpdateTheseTermsOfServiceFromTime": "Bu Kullanım Şartlarını zaman zaman güncelleyebiliriz. Güncellediğimizde:",
+      "weReserveTheRightToSuspendOrTerminateYour": "Aşağıdaki durumlarda, önceden bildirimde bulunarak ya da bulunmadan, Hizmetlerin bir kısmına veya tamamına erişiminizi istediğimiz zaman askıya alma veya sonlandırma hakkını saklı tutarız:"
     }
   }
 }

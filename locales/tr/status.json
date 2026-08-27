@@ -14,7 +14,12 @@
       "minecraftVersion": "minecraft sürümü",
       "serverAddress": "Sunucu Adresi",
       "ping": "Ping",
-      "ms": "ms"
+      "ms": "ms",
+      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
+      "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
+      "lastUpdated": "Son güncelleme:",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı"
     },
     "statusPageContent": {
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
@@ -30,7 +35,12 @@
       "minecraftVersion": "minecraft sürümü",
       "serverAddress": "Sunucu Adresi",
       "ping": "Ping",
-      "ms": "ms"
+      "ms": "ms",
+      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
+      "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
+      "lastUpdated": "Son güncelleme:",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı"
     }
   }
 }

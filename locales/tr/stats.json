@@ -28,7 +28,14 @@
       "statsWereResetOnMay222026DueTo": "İstatistikler, veri bozulması nedeniyle 22 Mayıs 2026'da sıfırlandı ve kurtarılamadı.",
       "underMaintenance": "Bakımda",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Bu istatistik geçici olarak kullanılamıyor. En son liderlik tablosu verilerini en kısa sürede sunmaya çalışıyoruz.",
-      "loadingStatisticsData": "İstatistik verileri yükleniyor..."
+      "loadingStatisticsData": "İstatistik verileri yükleniyor...",
+      "statsReset": "İstatistik sıfırlama:"
+    },
+    "username": {
+      "page": {
+        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}}, 6b6t.org'da bir oyuncudur. Oyun süresi, öldürme, ölüm ve diğer istatistiklerini 6b6t Minecraft anarşi sunucusunda görüntüle.",
+        "viewValue1SStatsOn6b6tOrgTheBest": "{{value1}}'in istatistiklerini 6b6t.org'da görüntüle. 6b6t istatistikleri için en iyi yer."
+      }
     }
   }
 }
