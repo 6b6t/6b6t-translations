@@ -4,13 +4,6 @@
   "sections": {
     "commandsList": {
       "bestMatches": "En iyi eşleşmeler",
-      "free": "Free",
-      "primeUltra": "Prime Ultra",
-      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
-      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
-      "eliteUltra": "Elite Ultra",
-      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
-      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
       "commandsList": "KOMUT LİSTESİ",
       "availableServerCommands": "Kullanılabilir Sunucu Komutları",
       "useTheFiltersToFindTheCommandYouNeed": "İhtiyacın olan komutu kategoriye, rank gereksinimine veya komut adına göre bulmak için filtreleri kullan.",
@@ -22,12 +15,19 @@
       "description": "Açıklama",
       "example": "Örnek",
       "rank": "Rank",
-      "value1Value2": "{{value1}}-{{value2}}",
-      "fullExample": "Full example:",
       "noCommandsFoundMatchingYourFilters": "Filtrelerine uyan komut bulunamadı.",
       "premiumCommands": "Premium Komutlar",
       "useTheRankFilterAboveToPreviewCommandsUnlocked": "Prime, Prime Ultra, Elite, Elite Ultra, Apex ve Legend ile açılan komutları önizlemek için yukarıdaki rank filtresini kullan.",
-      "viewPremiumRanks": "Premium Rank'ları Görüntüle"
+      "viewPremiumRanks": "Premium Rank'ları Görüntüle",
+      "free": "Free",
+      "primeUltra": "Prime Ultra",
+      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
+      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
+      "eliteUltra": "Elite Ultra",
+      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
+      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
+      "value1Value2": "{{value1}}-{{value2}}",
+      "fullExample": "Tam örnek:"
     },
     "page": {
       "text6b6tServerCommands": "6b6t Sunucu Komutları",

@@ -14,7 +14,7 @@
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi.",
       "changelog": "Değişiklik Günlüğü",
       "server": "Sunucu",
-      "updates": "Güncellemeler",
+      "updates": "Güncellemeleri",
       "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular."
     },
     "updatesList": {
@@ -22,21 +22,21 @@
       "postedBy": "Gönderen",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
       "openInDiscord": "Discord'da Aç",
-      "couldNotLoadMoreUpdates": "Could not load more updates.",
-      "couldNotSearchUpdates": "Could not search updates.",
       "newUpdate": "yeni güncelleme",
       "justAppeared": "az önce göründü.",
       "dismiss": "Kapat",
       "searchUpdates": "Güncelleme ara",
-      "searching": "Searching...",
-      "search": "Search",
       "clear": "Temizle",
       "showing": "Gösteriliyor",
       "searchResult": "arama sonucu",
       "latestPost": "Son gönderi",
-      "loading": "Loading...",
-      "loadMoreValue1": "Load more {{value1}}",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme bulunamadı."
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı.",
+      "couldNotLoadMoreUpdates": "Daha fazla güncelleme yüklenemedi.",
+      "couldNotSearchUpdates": "Güncellemeler aranamadı.",
+      "searching": "Aranıyor...",
+      "search": "Ara",
+      "loading": "Yükleniyor...",
+      "loadMoreValue1": "Daha fazla {{value1}} yükle"
     }
   }
 }

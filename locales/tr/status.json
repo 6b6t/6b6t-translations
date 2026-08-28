@@ -1,17 +1,12 @@
 {
   "sections": {
     "statusClient": {
-      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
-      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
-      "lastUpdated": "Last updated:",
-      "loading": "Yükleniyor...",
       "refresh": "Yenile",
       "currentPlayers": "Mevcut Oyuncular",
       "connectionFailed": "Bağlantı Başarısız",
       "playersOnline": "oyuncu çevrimiçi",
-      "online": "Online",
-      "offline": "Offline",
+      "loading": "Yükleniyor...",
       "serverLimit": "Sunucu Limiti",
       "maximumCapacity": "maksimum kapasite",
       "capacity": "Kapasite",
@@ -19,20 +14,20 @@
       "minecraftVersion": "minecraft sürümü",
       "serverAddress": "Sunucu Adresi",
       "ping": "Ping",
-      "ms": "ms"
+      "ms": "ms",
+      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
+      "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
+      "lastUpdated": "Son güncelleme:",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı"
     },
     "statusPageContent": {
-      "failedToFetchServerStatus": "Failed to fetch server status",
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
-      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
-      "lastUpdated": "Last updated:",
-      "loading": "Yükleniyor...",
       "refresh": "Yenile",
       "currentPlayers": "Mevcut Oyuncular",
       "connectionFailed": "Bağlantı Başarısız",
       "playersOnline": "oyuncu çevrimiçi",
-      "online": "Online",
-      "offline": "Offline",
+      "loading": "Yükleniyor...",
       "serverLimit": "Sunucu Limiti",
       "maximumCapacity": "maksimum kapasite",
       "capacity": "Kapasite",
@@ -40,7 +35,12 @@
       "minecraftVersion": "minecraft sürümü",
       "serverAddress": "Sunucu Adresi",
       "ping": "Ping",
-      "ms": "ms"
+      "ms": "ms",
+      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
+      "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
+      "lastUpdated": "Son güncelleme:",
+      "online": "Çevrimiçi",
+      "offline": "Çevrimdışı"
     }
   }
 }
