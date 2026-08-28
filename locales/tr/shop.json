@@ -437,7 +437,7 @@
     "refundPolicy": {
       "page": {
         "refundPolicy": "İade Politikası",
-        "august212026": "21 Ağustos 2026",
+        "august282026": "28 Ağustos 2026",
         "thisPolicyOutlinesTheTermsAndConditionsForRefunds": "Bu politika, 6b6t mağazası, web sitesi veya diğer resmi 6b6t satış kanalları aracılığıyla yapılan satın alımlarla ilgili iadelerin şart ve koşullarını açıklar.",
         "qbastyLabsFze": "qbasty labs FZE",
         "m1FloorTwinTowers": "M1 Floor, Twin Towers",
@@ -527,14 +527,9 @@
         "and": ", ve",
         "updateTheQuotEffectiveDateQuotAndQuotLast": "bu belgenin üst kısmındaki &quot;Yürürlük Tarihi&quot; ve &quot;Son Güncelleme&quot; tarihini güncelleyeceğiz.",
         "yourContinuedUseOfOurServicesAfterChangesAre": "Değişiklikler yayınlandıktan sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş İade Politikasını kabul ettiğiniz anlamına gelir.",
-        "text7PurchasesProcessedByPaddle": "7. Paddle Tarafından İşlenen Satın Alımlar",
-        "forPurchasesProcessedByPaddlePaddleActsAsThe": "Paddle tarafından işlenen satın alımlarda, Paddle yetkili yeniden satıcı ve Kayıtlı Satıcı (Merchant of Record) olarak hareket eder. Bu satın alımlar aynı zamanda Paddle'ın İade Politikası ve Alıcı Şartları'na tabidir.",
-        "wherePaddleSRefundPolicyOrApplicableLawProvides": "Paddle'ın İade Politikası veya yürürlükteki yasaların ek iade, iptal veya cayma hakları sağladığı durumlarda, bu haklar da geçerlidir ve bu İade Politikası ile sınırlandırılmaz. Paddle, kendi politikalarına ve yürürlükteki yasalara uygun olarak iade taleplerini onaylayabilir, kısmen onaylayabilir veya reddedebilir.",
-        "refundRequestsForPurchasesProcessedByPaddleMayAlso": "Paddle tarafından işlenen satın alımlara ilişkin iade talepleri, Paddle'ın sunduğu iade ve destek yöntemleri kullanılarak doğrudan Paddle üzerinden de gönderilebilir.",
-        "ifThereIsAnyConflictBetweenThisRefundPolicy": "Bu İade Politikası ile Paddle tarafından işlenen bir satın alıma ilişkin Paddle'ın İade Politikası veya Alıcı Şartları arasında herhangi bir çelişki olması durumunda, bu İade Politikasının müşteriye ek veya daha kapsamlı haklar sağladığı durumlar dışında, Paddle'ın politikaları geçerli olacaktır.",
-        "text8ContactInformation": "8. İletişim Bilgileri",
+        "text7ContactInformation": "7. İletişim Bilgileri",
         "email": "E-posta:",
-        "lastUpdatedAugust212026": "Son güncelleme: 21 Ağustos 2026",
+        "lastUpdatedAugust282026": "Son güncelleme: 28 Ağustos 2026",
         "effectiveDate": "Yürürlük Tarihi:",
         "operatorLegalEntity": "İşletmeci / Tüzel kişilik:",
         "registeredAddress": "Kayıtlı adres:",
@@ -546,9 +541,7 @@
         "theFollowingItemsAreGenerallyNonRefundableExceptWhere": "Aşağıdaki öğeler genellikle iade edilemez (geçerli yasaların iade gerektirdiği durumlar hariç):",
         "afterThe14DayRefundPeriod": "14 günlük iade süresinden sonra",
         "exceptAsDescribedInSection14For50": ", ömür boyu rank paketlerinde %50 iadeler için Bölüm 1.4'te açıklanan durum hariç.",
-        "weMayUpdateThisRefundPolicyFromTimeTo": "Bu İade Politikasını zaman zaman güncelleyebiliriz. Güncellediğimizde:",
-        "whereThisRefundPolicyProvidesAdditionalOrMoreGenerous": "Bu İade Politikasının ek veya daha cömert iade hakları sağladığı durumlarda, bu haklar geçerliliğini korur. Buna, bu İade Politikasının başka bir yerinde sağlanan 14 günlük iade uygunluğu da dahildir.",
-        "paddleSCurrentRefundPolicyAndBuyerTermsAre": "Paddle'ın güncel İade Politikası ve Alıcı Şartları şu adreste mevcuttur:"
+        "weMayUpdateThisRefundPolicyFromTimeTo": "Bu İade Politikasını zaman zaman güncelleyebiliriz. Güncellediğimizde:"
       }
     },
     "reviewModal": {

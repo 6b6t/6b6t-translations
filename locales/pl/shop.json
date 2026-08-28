@@ -438,7 +438,7 @@
       "page": {
         "refundPolicy": "Polityka zwrotów",
         "effectiveDate": "Data wejścia w życie:",
-        "august212026": "21 sierpnia 2026",
+        "august282026": "28 sierpnia 2026",
         "thisPolicyOutlinesTheTermsAndConditionsForRefunds": "Niniejsza polityka określa warunki zwrotów związane z zakupami dokonanymi w sklepie 6b6t, na stronie lub poprzez inne oficjalne kanały sprzedaży 6b6t.",
         "operatorLegalEntity": "Operator / Podmiot prawny:",
         "qbastyLabsFze": "qbasty labs FZE",
@@ -539,16 +539,9 @@
         "and": "oraz",
         "updateTheQuotEffectiveDateQuotAndQuotLast": "zaktualizujemy datę „Obowiązuje od” i „Ostatnia aktualizacja” na górze tego dokumentu.",
         "yourContinuedUseOfOurServicesAfterChangesAre": "Dalsze korzystanie z naszych usług po opublikowaniu zmian oznacza akceptację zaktualizowanej Polityki zwrotów.",
-        "text7PurchasesProcessedByPaddle": "7. Zakupy obsługiwane przez Paddle",
-        "forPurchasesProcessedByPaddlePaddleActsAsThe": "W przypadku zakupów obsługiwanych przez Paddle, Paddle działa jako upoważniony odsprzedawca i Merchant of Record. Te zakupy podlegają również Polityce zwrotów i Warunkom dla kupujących Paddle.",
-        "whereThisRefundPolicyProvidesAdditionalOrMoreGenerous": "Gdzie niniejsza Polityka zwrotów przyznaje dodatkowe lub korzystniejsze prawa do zwrotu, te prawa nadal obowiązują. Obejmuje to wszelką 14-dniową kwalifikowalność do zwrotu określoną w innych miejscach niniejszej Polityki zwrotów.",
-        "wherePaddleSRefundPolicyOrApplicableLawProvides": "Jeśli Polityka zwrotów Paddle lub obowiązujące prawo przyznają dodatkowe prawa do zwrotu, anulowania lub odstąpienia, te prawa również mają zastosowanie i nie są ograniczone niniejszą Polityką zwrotów. Paddle może zatwierdzić, częściowo zatwierdzić lub odrzucić wnioski o zwrot zgodnie ze swoimi zasadami i obowiązującym prawem.",
-        "refundRequestsForPurchasesProcessedByPaddleMayAlso": "Wnioski o zwrot za zakupy obsługiwane przez Paddle można również składać bezpośrednio przez Paddle, korzystając z metod zwrotu i wsparcia udostępnionych przez Paddle.",
-        "ifThereIsAnyConflictBetweenThisRefundPolicy": "W przypadku sprzeczności między niniejszą Polityką zwrotów a Polityką zwrotów lub Warunkami dla kupujących Paddle w odniesieniu do zakupu obsługiwanego przez Paddle, zastosowanie mają zasady Paddle, z wyjątkiem sytuacji, gdy niniejsza Polityka zwrotów przyznaje klientowi dodatkowe lub korzystniejsze prawa.",
-        "paddleSCurrentRefundPolicyAndBuyerTermsAre": "Aktualna Polityka zwrotów i Warunki dla kupujących Paddle są dostępne pod adresem:",
-        "text8ContactInformation": "8. Dane kontaktowe",
+        "text7ContactInformation": "7. Dane kontaktowe",
         "email": "E-mail:",
-        "lastUpdatedAugust212026": "Ostatnia aktualizacja: 21 sierpnia 2026"
+        "lastUpdatedAugust282026": "Ostatnia aktualizacja: 28 sierpnia 2026"
       }
     },
     "reviewModal": {
