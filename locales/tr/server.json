@@ -42,8 +42,8 @@
           "route": {
             "unauthorized": "Yetkisiz erişim",
             "resetConfirmationDidNotMatch": "Sıfırlama onayı eşleşmedi",
-            "invalidExtension": "Invalid extension",
-            "unknownError": "Unknown error"
+            "invalidExtension": "Geçersiz uzatma",
+            "unknownError": "Bilinmeyen hata"
           }
         },
         "milestones": {
@@ -54,8 +54,8 @@
             "invalidMilestoneIndex": "Geçersiz kilometre taşı indeksi",
             "invalidPointsValue": "Geçersiz points değeri",
             "failedToProcessAdminAction": "Yönetici işlemi işlenemedi",
-            "unknownError": "Unknown error",
-            "failedToFetchMilestones": "Kilometre taşları getirilemedi"
+            "failedToFetchMilestones": "Kilometre taşları getirilemedi",
+            "unknownError": "Bilinmeyen hata"
           }
         },
         "motd": {
@@ -64,7 +64,7 @@
               "route": {
                 "motdAuditStoreIsUnavailable": "MOTD denetim deposu kullanılamıyor",
                 "invalidJsonPayload": "Geçersiz JSON verisi",
-                "motdActionFailed": "MOTD action failed"
+                "motdActionFailed": "MOTD işlemi başarısız oldu"
               }
             },
             "route": {
@@ -74,7 +74,7 @@
           "manual": {
             "route": {
               "invalidJsonPayload": "Geçersiz JSON verisi",
-              "motdActionFailed": "MOTD action failed"
+              "motdActionFailed": "MOTD işlemi başarısız oldu"
             }
           }
         },
@@ -82,9 +82,9 @@
           "requests": {
             "route": {
               "forbidden": "Erişim engellendi",
-              "couldNotLoadRequests": "Could not load requests",
-              "invalidRequest": "Invalid request",
-              "reviewFailed": "Review failed"
+              "couldNotLoadRequests": "Talepler yüklenemedi",
+              "invalidRequest": "Geçersiz talep",
+              "reviewFailed": "İnceleme başarısız oldu"
             }
           }
         },
@@ -93,8 +93,8 @@
             "route": {
               "notAuthenticated": "Kimlik doğrulanmadı",
               "invalidSession": "Geçersiz oturum",
-              "onlySuperAdminsCanApproveGracePeriodOverrides": "Only super admins can approve grace-period overrides.",
-              "invalidJsonPayload": "Geçersiz JSON verisi"
+              "invalidJsonPayload": "Geçersiz JSON verisi",
+              "onlySuperAdminsCanApproveGracePeriodOverrides": "Yalnızca süper yöneticiler ek süre istisnalarını onaylayabilir."
             }
           },
           "lookup": {
@@ -102,7 +102,7 @@
               "notAuthenticated": "Kimlik doğrulanmadı",
               "invalidSession": "Geçersiz oturum",
               "unauthorized": "Yetkisiz erişim",
-              "enterAValidMinecraftUsername": "Enter a valid Minecraft username."
+              "enterAValidMinecraftUsername": "Geçerli bir Minecraft kullanıcı adı girin."
             }
           },
           "submissions": {
@@ -123,14 +123,14 @@
               "invalidJsonPayload": "Geçersiz JSON verisi",
               "ticketNotFound": "Bilet bulunamadı",
               "ticketHasAlreadyBeenReviewed": "Bilet zaten incelendi.",
-              "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Game-server email availability check is unavailable. Ticket was not approved.",
               "targetEmailIsAlreadyLinkedToAnotherAccount": "Hedef e-posta zaten başka bir hesaba bağlı.",
-              "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Game-server recovery snapshot is unavailable. Ticket was not approved.",
-              "ownerNotificationGracePeriodIsStillActiveWaitFor": "Owner notification grace period is still active. Wait for it to elapse or use the super-admin grace-period override first.",
-              "noAccountOwnerNotificationChallengeExistsForThisVerified": "No account-owner notification challenge exists for this verified email account. Ticket was not approved.",
-              "couldNotSendTheManualReviewResultEmailTicket": "Could not send the manual review result email. Ticket was not reviewed.",
-              "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Could not consume the account-owner notification pass. Ticket was not approved.",
-              "gameServerEmailUpdateFailedTicketWasNotApproved": "Game-server email update failed. Ticket was not approved."
+              "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Oyun sunucusu e-posta uygunluk kontrolü kullanılamıyor. Talep onaylanmadı.",
+              "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Oyun sunucusu kurtarma anlık görüntüsü kullanılamıyor. Talep onaylanmadı.",
+              "ownerNotificationGracePeriodIsStillActiveWaitFor": "Sahip bildirimi ek süresi hâlâ aktif. Sürenin dolmasını bekleyin veya önce süper yönetici ek süre istisnasını kullanın.",
+              "noAccountOwnerNotificationChallengeExistsForThisVerified": "Bu doğrulanmış e-posta hesabı için hesap sahibi bildirim sorgusu bulunmuyor. Talep onaylanmadı.",
+              "couldNotSendTheManualReviewResultEmailTicket": "Manuel inceleme sonucu e-postası gönderilemedi. Talep incelenmedi.",
+              "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Hesap sahibi bildirim izni kullanılamadı. Talep onaylanmadı.",
+              "gameServerEmailUpdateFailedTicketWasNotApproved": "Oyun sunucusu e-posta güncellemesi başarısız oldu. Talep onaylanmadı."
             }
           }
         }
@@ -159,10 +159,10 @@
       "antispam": {
         "logs": {
           "route": {
-            "selectMuteAsActionMutedAsPlayerCoalesceReason": "SELECT 'mute' as action, muted as player, COALESCE(reason, 'No reason provided') as reason, timestamp, expires_at as expiresAt FROM mutes WHERE {{value1}} ORDER BY timestamp {{value2}} LIMIT ? OFFSET ?",
             "antispamMessagesValue1": "antispam_messages:{{value1}}",
-            "unknownError": "Unknown error",
-            "failedToFetchAntispamLogs": "Antispam günlükleri getirilemedi"
+            "failedToFetchAntispamLogs": "Antispam günlükleri getirilemedi",
+            "selectMuteAsActionMutedAsPlayerCoalesceReason": "SELECT 'mute' as action, muted as player, COALESCE(reason, 'No reason provided') as reason, timestamp, expires_at as expiresAt FROM mutes WHERE {{value1}} ORDER BY timestamp {{value2}} LIMIT ? OFFSET ?",
+            "unknownError": "Bilinmeyen hata"
           }
         }
       },
@@ -198,15 +198,15 @@
           "notAuthenticated": "Kimlik doğrulanmadı",
           "unauthorized": "Yetkisiz erişim",
           "invalidRanktypeValue1": "Geçersiz rankType: {{value1}}",
-          "addedPointsForRankValue1": "Added points for rank: {{value1}}",
           "failedToAddPoints": "Puan eklenemedi",
-          "unknownError": "Unknown error"
+          "addedPointsForRankValue1": "Rank için puan eklendi: {{value1}}",
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "creem": {
         "route": {
-          "completed": "completed",
-          "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış"
+          "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
+          "completed": "completed"
         }
       },
       "dbStatus": {
@@ -215,7 +215,7 @@
           "legendplayerModelNotAvailable": "LegendPlayer modeli mevcut değil",
           "playerData": "player_data",
           "databaseCheckFailed": "Veritabanı kontrolü başarısız oldu",
-          "unknownError": "Unknown error"
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "discord": {
@@ -231,9 +231,9 @@
               "unauthorized": "Yetkisiz erişim",
               "invalidJsonPayload": "Geçersiz JSON verisi",
               "youDoNotHavePermissionToReviewMotds": "MOTD'leri inceleme izniniz yok.",
-              "approvedMotdRequestValue1": "Approved MOTD request {{value1}}.",
-              "requestedRevisionForMotdRequestValue1": "Requested revision for MOTD request {{value1}}.",
-              "motdReviewActionFailed": "MOTD review action failed."
+              "approvedMotdRequestValue1": "MOTD talebi {{value1}} onaylandı.",
+              "requestedRevisionForMotdRequestValue1": "MOTD talebi {{value1}} için revizyon istendi.",
+              "motdReviewActionFailed": "MOTD inceleme işlemi başarısız oldu."
             }
           }
         },
@@ -263,19 +263,12 @@
             "imageIdIsRequired": "Görsel ID'si gereklidir",
             "imageNotFound": "Görsel bulunamadı",
             "failedToFetchImageData": "Görsel verileri getirilemedi",
-            "unknownError": "Unknown error"
+            "unknownError": "Bilinmeyen hata"
           }
         },
         "route": {
           "failedToFetchGalleryData": "Galeri verileri getirilemedi",
-          "unknownError": "Unknown error"
-        }
-      },
-      "hytale": {
-        "players": {
-          "route": {
-            "unknownError": "Unknown error"
-          }
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "internal": {
@@ -297,10 +290,10 @@
       },
       "legendSubscribers": {
         "route": {
+          "unableToLoadLegendSubscribers": "Legend aboneleri yüklenemedi",
           "active": "active",
           "trialing": "trialing",
           "pastDue": "past_due",
-          "unableToLoadLegendSubscribers": "Legend aboneleri yüklenemedi",
           "all": "all"
         }
       },
@@ -318,14 +311,14 @@
       "migrateRedisLinkToMariadb": {
         "route": {
           "migrationAuthorizationRequired": "Geçiş yetkilendirmesi gerekli",
-          "unknownErrorParsingTokens": "Unknown error parsing tokens",
-          "unknownErrorParsingMetadata": "Unknown error parsing metadata",
-          "unknownErrorStoringMapping": "Unknown error storing mapping",
+          "usePostToTriggerTheMigration": "Geçişi başlatmak için POST kullanın.",
+          "unknownErrorParsingTokens": "Token'lar ayrıştırılırken bilinmeyen hata",
+          "unknownErrorParsingMetadata": "Meta veri ayrıştırılırken bilinmeyen hata",
+          "unknownErrorStoringMapping": "Eşleme kaydedilirken bilinmeyen hata",
           "ok": "ok",
-          "unknownMigrationError": "Unknown migration error",
+          "unknownMigrationError": "Bilinmeyen taşıma hatası",
           "error": "error",
-          "methodNotAllowed": "method_not_allowed",
-          "usePostToTriggerTheMigration": "Geçişi başlatmak için POST kullanın."
+          "methodNotAllowed": "method_not_allowed"
         }
       },
       "monitoring": {
@@ -340,10 +333,10 @@
         "errorReport": {
           "resolve": {
             "route": {
-              "missingRequiredFieldsFingerprintId": "Missing required fields: fingerprint, id",
               "errorNotFound": "Hata bulunamadı",
               "errorMarkedAsResolved": "Hata çözüldü olarak işaretlendi",
-              "internalServerError": "Sunucu hatası"
+              "internalServerError": "Sunucu hatası",
+              "missingRequiredFieldsFingerprintId": "Eksik zorunlu alanlar: fingerprint, id"
             }
           },
           "route": {
@@ -382,16 +375,16 @@
           "schedulerAuthorizationRequired": "Zamanlayıcı yetkilendirmesi gerekli",
           "playerHistoryRecordedSuccessfully": "Oyuncu geçmişi başarıyla kaydedildi",
           "failedToRecordPlayerHistory": "Oyuncu geçmişi kaydedilemedi",
-          "unknownError": "Unknown error",
           "invalidOrExcessiveDateRange": "Geçersiz veya aşırı tarih aralığı",
           "tooManyDataPointsRequested": "Çok fazla veri noktası istendi",
-          "failedToFetchPlayerHistory": "Oyuncu geçmişi getirilemedi"
+          "failedToFetchPlayerHistory": "Oyuncu geçmişi getirilemedi",
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "players": {
         "route": {
           "playerListUnavailableFromCommandServiceUsingPublicServer": "Komut servisinden oyuncu listesi alınamıyor; herkese açık sunucu durumu sayısı kullanılıyor.",
-          "unknownError": "Unknown error"
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "printify": {
@@ -421,12 +414,12 @@
             "yourRequestWasReceivedIfTheAccountExistsAnd": "Talebiniz alındı. Hesap mevcutsa ve sağlanan kanıt doğrulanabilirse destek ekibi sizinle iletişime geçecektir.",
             "manualReviewIsNotAvailableForThisRecoverySession": "Bu kurtarma oturumu için manuel inceleme henüz kullanılamıyor. Önce kurtarma akışına devam edin.",
             "recoveryTicketStoreIsUnavailable": "Kurtarma bileti deposu kullanılamıyor",
-            "pending": "pending",
             "aPendingManualReviewTicketAlreadyExistsForThis": "Bu hesap için bekleyen bir manuel inceleme bileti zaten mevcut. Lütfen incelemeyi bekleyin.",
+            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Manuel kurtarma bileti başarıyla gönderildi. Destek ekibi inceleyecektir.",
+            "pending": "pending",
             "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "Could not notify the account owner. Manual ticket was not submitted.",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "Could not link the account-owner notification to this manual ticket. Manual ticket was not submitted.",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Manuel kurtarma bileti başarıyla gönderildi. Destek ekibi inceleyecektir."
+            "couldNotNotifyTheAccountOwnerManualTicketWas": "Hesap sahibine bildirim gönderilemedi. Manuel talep gönderilmedi.",
+            "couldNotLinkTheAccountOwnerNotificationToThis": "Hesap sahibi bildirimi bu manuel talebe bağlanamadı. Manuel talep gönderilmedi."
           }
         },
         "resetPassword": {
@@ -436,20 +429,17 @@
             "passwordMustBeAtLeast8Characters": "Şifre en az 8 karakter olmalıdır.",
             "passwordIsTooLong": "Şifre çok uzun.",
             "resetLinkHasExpiredOrIsInvalidPleaseContact": "Sıfırlama bağlantısının süresi doldu veya geçersiz. Lütfen destek ile iletişime geçin.",
-            "passwordHasBeenResetSuccessfullyYouCanNowLog": "Password has been reset successfully. You can now log in with your new password."
+            "passwordHasBeenResetSuccessfullyYouCanNowLog": "Şifre başarıyla sıfırlandı. Artık yeni şifrenizle giriş yapabilirsiniz."
           }
         },
         "route": {
           "ifThisAccountExistsRecoveryOptionsWillBeShown": "Bu hesap mevcutsa, kurtarma seçenekleri gösterilecektir.",
           "verificationAlreadyIssued": "verification_already_issued",
-          "verificationEmailUnavailable": "verification_email_unavailable",
-          "emailProviderIsNotConfiguredInThisEnvironmentUse": "Email provider is not configured in this environment. Use developmentCode for local testing.",
           "captchaVerificationFailed": "Captcha doğrulaması başarısız oldu",
           "tooManyRecoveryAttemptsPleaseTryAgainLater": "Çok fazla kurtarma denemesi. Lütfen daha sonra tekrar deneyin.",
           "rowdatapacket": "RowDataPacket",
           "recoverySessionExpiredPleaseStartAgain": "Kurtarma oturumunun süresi doldu. Lütfen yeniden başlayın.",
           "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "Otomatik doğrulama kullanılamıyor. Bu hesabın sahibi olduğunuza inanıyorsanız manuel inceleme talebi gönderin.",
-          "inGameVerificationIsRequiredUseEmailchangeInGame": "In-game verification is required. Use /emailchange in-game, then complete verification.",
           "recoverySessionInvalidOrExpired": "Kurtarma oturumu geçersiz veya süresi dolmuş.",
           "recoverySessionExpiredPleaseRestart": "Kurtarma oturumunun süresi doldu. Lütfen yeniden başlatın.",
           "invalidLaneForScoreStep": "Puan adımı için geçersiz şerit.",
@@ -469,28 +459,31 @@
           "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "Maksimum doğrulama denemesine ulaşıldı. Kurtarma oturumu geçersiz kılındı. Lütfen yeniden başlayın.",
           "verificationCodeExpiredOrIsNoLongerValid": "Doğrulama kodunun süresi doldu veya artık geçerli değil.",
           "invalidVerificationCode": "Geçersiz doğrulama kodu.",
-          "emailVerifiedButTheGameServerEmailAvailabilityCheck": "Email verified, but the game-server email availability check is unavailable. Submit manual review.",
           "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "Bu e-posta adresi zaten başka bir hesapla ilişkilendirilmiş.",
-          "emailVerifiedButTheGameServerEmailUpdateEndpoint": "Email verified, but the game-server email update endpoint is not configured. Submit manual review.",
           "emailVerifiedYouCanProceedToPasswordReset": "E-posta doğrulandı. Şifre sıfırlamaya devam edebilirsiniz.",
-          "inGameVerificationIsNotActive": "In-game verification is not active.",
-          "tooManyIncorrectInGameCodesPleaseRestartRecovery": "Too many incorrect in-game codes. Please restart recovery and request a new code.",
-          "invalidOrExpiredInGameCode": "Invalid or expired in-game code.",
-          "enterTheNewTargetEmailBeforeVerifyingTheIn": "Enter the new target email before verifying the in-game email-change code.",
-          "inGameCodeVerifiedButWeCouldNotDeliver": "In-game code verified, but we could not deliver a verification email. Submit manual review.",
-          "inGameCodeVerifiedEnterTheVerificationCodeSent": "In-game code verified. Enter the verification code sent to your new email.",
-          "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
           "theGracePeriodIsStillActivePleaseWaitFor": "Bekleme süresi hâlâ etkin. Lütfen sona ermesini bekleyin.",
           "theGracePeriodHasElapsedYouMayNowStart": "Bekleme süresi sona erdi. Artık kimlik doğrulamasına devam etmek için yeni bir kurtarma oturumu başlatabilirsiniz.",
-          "couldNotCheckGracePeriodStatus": "Could not check grace period status.",
           "noActiveGracePeriodChallengeFoundForThisAccount": "Bu hesap için etkin bir bekleme süresi doğrulaması bulunamadı.",
           "invalidRecoverySession": "Geçersiz kurtarma oturumu.",
           "sessionHasNotBeenApprovedForPasswordResetComplete": "Oturum şifre sıfırlama için onaylanmadı. Önce e-posta doğrulamasını tamamlayın.",
           "passwordResetIsAlreadyBeingProcessedForThisSession": "Bu oturum için şifre sıfırlama zaten işleniyor.",
-          "passwordHasBeenResetSuccessfully": "Password has been reset successfully.",
           "invalidJsonPayload": "Geçersiz JSON verisi",
           "invalidRecoveryAction": "Geçersiz kurtarma eylemi",
-          "unhandledRecoveryAction": "İşlenmeyen kurtarma eylemi"
+          "unhandledRecoveryAction": "İşlenmeyen kurtarma eylemi",
+          "verificationEmailUnavailable": "verification_email_unavailable",
+          "emailProviderIsNotConfiguredInThisEnvironmentUse": "Bu ortamda e-posta sağlayıcısı yapılandırılmamış. Yerel test için developmentCode kullanın.",
+          "inGameVerificationIsRequiredUseEmailchangeInGame": "Oyun içi doğrulama gereklidir. Oyun içinde /emailchange komutunu kullanın, ardından doğrulamayı tamamlayın.",
+          "emailVerifiedButTheGameServerEmailAvailabilityCheck": "E-posta doğrulandı, ancak oyun sunucusu e-posta uygunluk kontrolü kullanılamıyor. Manuel inceleme gönderin.",
+          "emailVerifiedButTheGameServerEmailUpdateEndpoint": "E-posta doğrulandı, ancak oyun sunucusu e-posta güncelleme uç noktası yapılandırılmamış. Manuel inceleme gönderin.",
+          "inGameVerificationIsNotActive": "Oyun içi doğrulama aktif değil.",
+          "tooManyIncorrectInGameCodesPleaseRestartRecovery": "Çok fazla yanlış oyun içi kod girildi. Lütfen kurtarmayı yeniden başlatıp yeni bir kod isteyin.",
+          "invalidOrExpiredInGameCode": "Geçersiz veya süresi dolmuş oyun içi kod.",
+          "enterTheNewTargetEmailBeforeVerifyingTheIn": "Oyun içi e-posta değişikliği kodunu doğrulamadan önce yeni hedef e-postayı girin.",
+          "inGameCodeVerifiedButWeCouldNotDeliver": "Oyun içi kod doğrulandı, ancak doğrulama e-postası gönderilemedi. Manuel inceleme gönderin.",
+          "inGameCodeVerifiedEnterTheVerificationCodeSent": "Oyun içi kod doğrulandı. Yeni e-postanıza gönderilen doğrulama kodunu girin.",
+          "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
+          "couldNotCheckGracePeriodStatus": "Ek süre durumu kontrol edilemedi.",
+          "passwordHasBeenResetSuccessfully": "Şifre başarıyla sıfırlandı."
         }
       },
       "route": {
@@ -506,24 +499,24 @@
       },
       "stripe": {
         "route": {
-          "unknownError": "Unknown error",
           "webhookErrorValue1": "Webhook Hatası: {{value1}}",
           "alreadyProcessed": "Zaten işlendi",
           "received": "Alındı",
           "unhandledEventType": "İşlenmeyen etkinlik türü",
           "webhookHandlerFailed": "Webhook işleyicisi başarısız oldu",
+          "unknownError": "Bilinmeyen hata",
           "completed": "completed"
         }
       },
       "tebex": {
         "route": {
-          "pending": "pending",
-          "lost": "lost",
           "payloadTooLarge": "Veri yükü çok büyük",
           "missingSignature": "Eksik imza",
           "invalidSignature": "Geçersiz imza",
           "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
-          "webhookProcessingFailed": "Webhook işleme başarısız oldu"
+          "webhookProcessingFailed": "Webhook işleme başarısız oldu",
+          "pending": "pending",
+          "lost": "lost"
         },
         "status": {
           "route": {
@@ -542,11 +535,11 @@
           "route": {
             "youMustBeLoggedInToLinkTelegram": "Telegram'ı bağlamak için giriş yapmış olmalısınız.",
             "telegramLinkingIsNotEnabledForYourAccountYet": "Telegram bağlama hesabınız için henüz etkin değil.",
-            "theLoggedInMinecraftUsernameIsInvalid": "The logged-in Minecraft username is invalid.",
             "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "Telegram girişi yapılandırılmamış. TELEGRAM_BOT_USERNAME eksik.",
-            "invalidRequestPayload": "Invalid request payload.",
             "invalidJsonBody": "Geçersiz JSON gövdesi.",
-            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Telegram girişi yapılandırılmamış. Sunucuda COOKIE_SECRET eksik."
+            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Telegram girişi yapılandırılmamış. Sunucuda COOKIE_SECRET eksik.",
+            "theLoggedInMinecraftUsernameIsInvalid": "Giriş yapılan Minecraft kullanıcı adı geçersiz.",
+            "invalidRequestPayload": "Geçersiz istek yükü."
           }
         },
         "webhook": {
@@ -568,17 +561,17 @@
           "schedulerAuthorizationRequired": "Zamanlayıcı yetkilendirmesi gerekli",
           "serverUptimeCheckCompleted": "Sunucu çalışma süresi kontrolü tamamlandı",
           "failedToCheckServerUptime": "Sunucu çalışma süresi kontrol edilemedi",
-          "unknownError": "Unknown error",
           "serveruptimeModelNotAvailable": "ServerUptime modeli mevcut değil",
-          "failedToFetchUptimeData": "Çalışma süresi verileri getirilemedi"
+          "failedToFetchUptimeData": "Çalışma süresi verileri getirilemedi",
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "youtube": {
         "channel": {
           "route": {
             "youtubeApiNotConfigured": "YouTube API yapılandırılmamış",
-            "youtubeApiChannelSearchErrorValue1": "YouTube API channel search error: {{value1}}",
-            "noChannelsFoundFor6b6t": "6b6t için kanal bulunamadı"
+            "noChannelsFoundFor6b6t": "6b6t için kanal bulunamadı",
+            "youtubeApiChannelSearchErrorValue1": "YouTube API kanal arama hatası: {{value1}}"
           }
         },
         "shorts": {
@@ -586,11 +579,18 @@
             "maxres1280x720": "maxres (1280x720)",
             "standard640x480": "standard (640x480)",
             "youtubeApiNotConfigured": "YouTube API yapılandırılmamış",
-            "youtubeApiChannelSearchErrorValue1": "YouTube API channel search error: {{value1}}",
             "text6b6tChannelNotFound": "6b6t kanalı bulunamadı",
-            "youtubeApiErrorValue1": "YouTube API error: {{value1}}",
             "noVideosFoundForThisChannel": "Bu kanal için video bulunamadı",
-            "noYoutubeShortsFoundForThisChannel": "Bu kanal için YouTube Shorts bulunamadı"
+            "noYoutubeShortsFoundForThisChannel": "Bu kanal için YouTube Shorts bulunamadı",
+            "youtubeApiChannelSearchErrorValue1": "YouTube API kanal arama hatası: {{value1}}",
+            "youtubeApiErrorValue1": "YouTube API hatası: {{value1}}"
+          }
+        }
+      },
+      "hytale": {
+        "players": {
+          "route": {
+            "unknownError": "Bilinmeyen hata"
           }
         }
       }
@@ -600,11 +600,11 @@
         "auth": {
           "adminModelNotAvailable": "Yönetici modeli mevcut değil",
           "adminWithThisEmailAlreadyExists": "Bu e-postaya sahip bir yönetici zaten mevcut",
-          "unknownError": "Unknown error",
           "invalidCredentials": "Geçersiz kimlik bilgileri",
           "databaseModelNotAvailable": "Veritabanı modeli mevcut değil",
           "adminSessionNotFound": "Yönetici oturumu bulunamadı",
-          "adminNotFound": "Yönetici bulunamadı"
+          "adminNotFound": "Yönetici bulunamadı",
+          "unknownError": "Bilinmeyen hata"
         },
         "monitoringAuth": {
           "notAuthenticated": "Kimlik doğrulanmadı",
@@ -619,14 +619,14 @@
       },
       "antispam": {
         "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "Asyncchat MySQL"
+          "asyncchatMysql": "Asyncchat MySQL",
+          "asyncchat": "asyncchat"
         }
       },
       "asyncchat": {
         "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "Asyncchat MySQL"
+          "asyncchatMysql": "Asyncchat MySQL",
+          "asyncchat": "asyncchat"
         }
       },
       "auth": {
@@ -634,19 +634,14 @@
           "enderdash": "EnderDash"
         }
       },
-      "commandService": {
-        "commands": {
-          "unknownCommandServiceError": "Unknown command service error"
-        }
-      },
       "communityEvent": {
         "rank": "Rank",
         "legend": "Legend",
         "apex": "Apex",
         "elite": "Elite",
-        "purchasedTheUpgradeFromValue1RankToGoldBold": "purchased the upgrade from {{value1}} Rank to <gold><bold>{{value2}} Rank</bold></gold>",
-        "purchasedTheGoldBoldValue1RankBoldGold": "purchased the <gold><bold>{{value1}} Rank</bold></gold>",
-        "newlineNewlineNewlineNewlineNewlineValue1NewlineNewlineValue2": "<newline><newline><newline><newline><newline>{{value1}}<newline><newline>{{value2}}<newline>"
+        "newlineNewlineNewlineNewlineNewlineValue1NewlineNewlineValue2": "<newline><newline><newline><newline><newline>{{value1}}<newline><newline>{{value2}}<newline>",
+        "purchasedTheUpgradeFromValue1RankToGoldBold": "{{value1}} rank'ından <gold><bold>{{value2}} rank'ına</bold></gold> yükseltme satın aldı",
+        "purchasedTheGoldBoldValue1RankBoldGold": "<gold><bold>{{value1}} rank'ını</bold></gold> satın aldı"
       },
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "6b6t genelinde 72 saat boyunca güçlü bir dupe açmak için 14 Ağustos'a kadar hedefe ulaşın. Hedefe daha geç ulaşılırsa etkinlik en yakın sonraki hafta sonuna ertelenir."
@@ -661,7 +656,6 @@
           "lastL": "/last, /l",
           "sendAPrivateMessageToTheLastPersonYou": "En son mesaj gönderdiğiniz kişiye özel mesaj gönder.",
           "killSuicide": "/kill, /suicide",
-          "killsYouInGameIfYouAreAlive": "Kills you in-game if you are alive.",
           "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "Başka bir oyuncuyu kalıcı olarak yok sayar/engeller. (Sohbetteki mesajlarını gizler)",
           "getAListOfEveryoneWhoYouIgnored": "Yok saydığınız herkesin listesini alın.",
           "ignorelistClear": "/ignorelist clear",
@@ -681,16 +675,16 @@
           "showHideChatMessagesOfPeopleDying": "Ölen kişilerin sohbet mesajlarını göster/gizle.",
           "deathmsgsColor": "/deathmsgs color",
           "changeTheColorOfDeathMessagesInYourChat": "Sohbetinizdeki ölüm mesajlarının rengini değiştirin.",
-          "createsANewHomeAtYourCurrentLocation": "Mevcut konumunuzda yeni bir ev oluşturur.",
-          "teleportToAHome": "Bir eve ışınlanın.",
+          "createsANewHomeAtYourCurrentLocation": "Mevcut konumunuzda yeni bir home oluşturur.",
+          "teleportToAHome": "Bir home'a ışınlanın.",
           "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Tüm evlerinizi listeler.",
-          "deletesAHome": "Bir evi siler.",
-          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Evinize olan aktif bir ışınlanmayı iptal eder (yanlışlıkla tetiklediyseniz kullanışlıdır).",
-          "renamesOneOfYourSavedHomesToSomethingDifferent": "Kayıtlı evlerinizden birinin adını değiştirir.",
+          "listsAllYourHomes": "Tüm home'larınızı listeler.",
+          "deletesAHome": "Bir home'u siler.",
+          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Home'unuza olan aktif bir ışınlanmayı iptal eder (yanlışlıkla tetiklediyseniz kullanışlıdır).",
+          "renamesOneOfYourSavedHomesToSomethingDifferent": "Kayıtlı home'larınızdan birinin adını değiştirir.",
           "requestToTeleportToAnotherPlayer": "Başka bir oyuncuya ışınlanma isteği gönderin.",
           "tptoggleTpt": "/tptoggle, /tpt",
-          "hidesTeleportRequestsFromAllPlayers": "Işınlanma isteklerini tüm oyunculardan gizler.",
+          "hidesTeleportRequestsFromAllPlayers": "Işınlanma isteklerini tüm oyuncular için kapatır.",
           "acceptATpaRequest": "Bir tpa isteğini kabul et.",
           "declineATpaRequest": "Bir tpa isteğini reddet.",
           "wearAnyItemOnYourHead": "Başınıza herhangi bir eşya giyin.",
@@ -721,77 +715,72 @@
           "seeInformationAboutTheCurrentHotspot": "Mevcut hotspot hakkında bilgi görün.",
           "increaseYourViewDistanceTemporarilyForBuilding": "İnşaat için görüş mesafenizi geçici olarak artırın.",
           "buildermodeHome": "/buildermode home",
-          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Belirtilen eve ışınlanırken buildermode'u etkinleştirin.",
+          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Belirtilen home'a ışınlandığınızda buildermode'u etkinleştirin.",
           "putACosmeticBalloonOnYourHead": "Başınıza kozmetik bir balon koyun.",
           "sitOnAnyBlockToRest": "Dinlenmek için herhangi bir bloğa oturun.",
-          "changeYourInGameSkin": "Change your in-game skin.",
-          "letsYouLeaveYourBodyAndFlyAroundIn": "Lets you leave your body and fly around in spectator-like mode to scout the area without moving your actual player.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "Resmi 6b6t Mağazasına bağlantı alın.",
           "showsTheVoteCountAndInstructionsToVote": "Oy sayısını ve oy verme talimatlarını gösterir.",
           "getAnInviteToThe6b6tDiscordServer": "6b6t Discord Sunucusuna davet alın.",
           "getALinkToThe6b6tWebsite": "6b6t Web Sitesine bağlantı alın.",
-          "getALinkToThisWebpage": "Bu web sayfasına bağlantı alın."
+          "getALinkToThisWebpage": "Bu web sayfasına bağlantı alın.",
+          "killsYouInGameIfYouAreAlive": "Hayattaysan seni oyun içinde öldürür.",
+          "changeYourInGameSkin": "Oyun içi skininizi değiştirin.",
+          "letsYouLeaveYourBodyAndFlyAroundIn": "Gerçek oyuncunu hareket ettirmeden bölgeyi keşfetmek için bedenini bırakıp izleyici benzeri modda uçmanı sağlar."
         }
       },
       "db": {
-        "mysqlPool": {
-          "mysqlValue1": "MySQL:{{value1}}"
-        },
         "schemas": {
+          "recoveryTicket": {
+            "uniquePendingRecoveryTicketPerUsername": "unique_pending_recovery_ticket_per_username",
+            "pending": "pending"
+          },
           "motdAd": {
             "active": "active"
-          },
-          "recoveryTicket": {
-            "pending": "pending",
-            "uniquePendingRecoveryTicketPerUsername": "unique_pending_recovery_ticket_per_username"
           }
         },
         "shopAnalytics": {
           "shopsessionModelNotAvailable": "ShopSession modeli mevcut değil",
           "sessionUpdateReturnedNull": "Oturum güncellemesi null döndürdü",
-          "unknownError": "Unknown error",
           "sessionNotFound": "Oturum bulunamadı",
           "transactionModelNotAvailable": "Transaction modeli mevcut değil",
           "transactionUpdateReturnedNull": "Transaction güncellemesi null döndürdü",
+          "unknownError": "Bilinmeyen hata",
           "refunded": "refunded",
           "completed": "completed",
           "disputed": "disputed"
+        },
+        "mysqlPool": {
+          "mysqlValue1": "MySQL:{{value1}}"
         }
       },
       "discordChangelog": {
-        "unknownError": "Unknown error",
         "discordReturnedValue1ForValue2": "Discord, #{{value2}} için {{value1}} döndürdü",
-        "unknownDiscordError": "Unknown Discord error"
+        "unknownError": "Bilinmeyen hata",
+        "unknownDiscordError": "Bilinmeyen Discord hatası"
       },
       "galleryUtil": {
         "recentEpicBuild": "Son Muhteşem Yapı",
         "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "Kasım 2024'te inşa edilen, oyuncularımızın yaratıcılığını sergileyen muhteşem bir yapı.",
-        "november122024": "November 12, 2024",
         "morningAdventures": "Sabah Maceraları",
         "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "Gizli hazineleri ve manzaraları ortaya çıkaran sabahın erken saatlerinde keşif.",
-        "september292024": "September 29, 2024",
         "legendGalleryFeature": "Legend Galeri Özelliği",
-        "aFeaturedLegendThemedScreenshotShowcasingPremiumPlayerContent": "A featured legend-themed screenshot showcasing premium player content.",
-        "november52024": "November 5, 2024",
-        "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "6b6t Gallery - Community screenshots and moments from the anarchy server"
-      },
-      "hooks": {
-        "useGallery": {
-          "failedToFetchGalleryData": "Galeri verileri getirilemedi",
-          "failedToFetchImageData": "Görsel verileri getirilemedi"
-        }
+        "november122024": "12 Kasım 2024",
+        "september292024": "29 Eylül 2024",
+        "aFeaturedLegendThemedScreenshotShowcasingPremiumPlayerContent": "Premium oyuncu içeriğini sergileyen, öne çıkan Legend temalı bir ekran görüntüsü.",
+        "november52024": "5 Kasım 2024",
+        "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "6b6t Galerisi - Anarşi sunucusundan topluluk ekran görüntüleri ve anlar"
       },
       "link": {
         "mariadbClient": {
-          "text6b6tLink": "6b6t_link",
-          "linkMysql": "Link MySQL"
+          "linkMysql": "Link MySQL",
+          "text6b6tLink": "6b6t_link"
         },
         "redis": {
           "text6b6tWebsite": "6b6t-website"
         },
         "telegramMembership": {
-          "unknownError": "Unknown error"
+          "unknownError": "Bilinmeyen hata"
         }
       },
       "motd": {
@@ -801,17 +790,12 @@
           "text24Hours": "24 saat"
         },
         "discordReview": {
-          "pending": "pending",
-          "pendingModeratorReview": "Pending moderator review",
-          "approvedByValue1": "Approved by {{value1}}",
-          "revisionRequestedByValue1": "Revision requested by {{value1}}",
           "motdReviewRequest": "MOTD İnceleme Talebi",
           "status": "Durum",
           "request": "Talep",
           "player": "Oyuncu",
           "package": "Paket",
           "duration": "Süre",
-          "value1H": "{{value1}}h",
           "amount": "Tutar",
           "motd": "MOTD",
           "revisionReason": "Revizyon nedeni",
@@ -819,14 +803,16 @@
           "requestRevision": "Revizyon İste",
           "requestMotdRevision": "MOTD Revizyonu İste",
           "reason": "Neden",
-          "explainWhatNeedsToBeChanged": "Neyin değiştirilmesi gerektiğini açıklayın."
+          "explainWhatNeedsToBeChanged": "Neyin değiştirilmesi gerektiğini açıklayın.",
+          "pending": "pending",
+          "pendingModeratorReview": "Moderatör incelemesi bekliyor",
+          "approvedByValue1": "{{value1}} tarafından onaylandı",
+          "revisionRequestedByValue1": "{{value1}} tarafından revizyon istendi",
+          "value1H": "{{value1}}s"
         },
         "email": {
           "smtpNotConfigured": "smtp_not_configured",
           "smtpSendFailed": "smtp_send_failed"
-        },
-        "manual": {
-          "active": "active"
         },
         "minimessage": {
           "ᴀᴅ": "ᴀᴅ",
@@ -846,13 +832,13 @@
           "completed": "completed"
         },
         "queue": {
+          "reservationReleasedAfterCheckoutCreationFailed": "Ödeme oluşturma başarısız olduktan sonra rezervasyon serbest bırakıldı",
+          "noCustomerEmailWasAvailableFromThePaymentProvider": "Ödeme sağlayıcısından müşteri e-postası alınamadı",
           "checkoutStarted": "checkout_started",
           "checkoutExpired": "checkout_expired",
-          "reservationReleasedAfterCheckoutCreationFailed": "Ödeme oluşturma başarısız olduktan sonra rezervasyon serbest bırakıldı",
           "paidPendingReview": "paid_pending_review",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
-          "noCustomerEmailWasAvailableFromThePaymentProvider": "Ödeme sağlayıcısından müşteri e-postası alınamadı",
           "cancelled": "cancelled",
           "refundFailed": "refund_failed",
           "active": "active",
@@ -861,29 +847,26 @@
         "refunds": {
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem iade uç noktası yapılandırılmamış; iadeyi Creem üzerinden gerçekleştirin ve webhook üzerinden tekrar deneyin/onaylayın.",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY yapılandırılmamış",
-          "creemRefundRequestFailedWithStatusValue1": "Creem refund request failed with status {{value1}}"
+          "creemRefundRequestFailedWithStatusValue1": "Creem iade talebi {{value1}} durumuyla başarısız oldu"
+        },
+        "manual": {
+          "active": "active"
         }
       },
       "printify": {
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Fiziksel ürün tedariki henüz açık değil.",
+          "physicalProductFulfillmentIsTemporarilyUnavailable": "Fiziksel ürün tedariki geçici olarak kullanılamıyor.",
           "completed": "completed",
           "delivered": "delivered",
-          "unknownError": "Unknown error",
-          "physicalProductFulfillmentIsTemporarilyUnavailable": "Fiziksel ürün tedariki geçici olarak kullanılamıyor.",
+          "unknownError": "Bilinmeyen hata",
           "submitting": "submitting",
           "reserved": "reserved",
           "processing": "processing"
         },
-        "client": {
-          "networkError": "Network error"
-        },
         "email": {
           "smtpIsNotConfigured": "SMTP yapılandırılmamış",
-          "emailDeliveryFailed": "Email delivery failed"
-        },
-        "entitlementAnchor": {
-          "completed": "completed"
+          "emailDeliveryFailed": "E-posta gönderimi başarısız oldu"
         },
         "historicalProducts": {
           "apexRankPurchaseMousepad": "Apex Rank satın alma — mouse pad",
@@ -891,6 +874,12 @@
           "eliteToApexUpgradeMousepad": "Elite'ten Apex'e yükseltme — mouse pad",
           "legendRank3MonthsMug": "Legend Rank (3 ay) — kupa",
           "legendRankThreePaid1MonthPeriodsMug": "Legend Rank (üç ödemeli 1 aylık dönem) — kupa"
+        },
+        "client": {
+          "networkError": "Ağ hatası"
+        },
+        "entitlementAnchor": {
+          "completed": "completed"
         }
       },
       "rankColors": {
@@ -900,30 +889,20 @@
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_failed",
           "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
           "smtpNotConfigured": "smtp_not_configured",
-          "yourAccountRecoveryRequestHasBeenApproved": "Your account recovery request has been approved.",
-          "yourAccountRecoveryRequestHasBeenDenied": "Your account recovery request has been denied.",
-          "noteValue1": "Note: {{value1}}",
-          "youMayResubmitANewTicketAfter24Hours": "You may resubmit a new ticket after 24 hours if you have additional evidence.",
-          "clickTheLinkBelowToSetANewPassword": "Click the link below to set a new password: {{value1}} This link expires in 24 hours."
+          "smtpSendFailed": "smtp_send_failed",
+          "yourAccountRecoveryRequestHasBeenApproved": "Hesap kurtarma talebiniz onaylandı.",
+          "yourAccountRecoveryRequestHasBeenDenied": "Hesap kurtarma talebiniz reddedildi.",
+          "noteValue1": "Not: {{value1}}",
+          "youMayResubmitANewTicketAfter24Hours": "Ek kanıtınız varsa 24 saat sonra yeni bir talep gönderebilirsiniz.",
+          "clickTheLinkBelowToSetANewPassword": "Yeni bir şifre belirlemek için aşağıdaki bağlantıya tıklayın: {{value1}} Bu bağlantının süresi 24 saat içinde dolar."
         },
         "gracePeriod": {
           "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Bu kurtarma girişimi, hesap bekleme süresi içinde sunucuya giriş yaptığı için engellendi.",
-          "pending": "pending",
-          "consumed": "consumed",
-          "expired": "expired",
-          "blocked": "blocked",
-          "notApplicable": "not_applicable",
-          "error": "error",
           "databaseModelUnavailable": "Veritabanı modeli kullanılamıyor",
-          "theAccountOwnerNotificationPassWasAlreadyConsumedStart": "The account-owner notification pass was already consumed. Start recovery again.",
-          "passed": "passed",
           "failedToCreateChallenge": "Doğrulama oluşturulamadı",
-          "smtpSendFailed": "smtp_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "Hesap sahibine e-posta ile bildirim gönderilemedi.",
-          "created": "created",
           "serviceUnavailable": "Servis kullanılamıyor",
           "invalidOrExpiredBlockToken": "Geçersiz veya süresi dolmuş engelleme belirteci.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Bu kurtarma girişimi zaten engellendi.",
@@ -931,15 +910,25 @@
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Bu kurtarma doğrulaması zaten kullanıldı ve artık engellenemez.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Bu kurtarma girişimi zaten bir süper yönetici tarafından onaylandı ve engellenemez.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "Kurtarma girişimi başarıyla engellendi.",
-          "missing": "missing",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
-          "theAccountOwnerNotificationPassWasAlreadyConsumed": "The account-owner notification pass was already consumed.",
-          "gracePeriodChallengeNotFound": "Grace-period challenge not found.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Bu kurtarma girişimi hesap sahibi tarafından engellendi.",
           "thisGracePeriodHasAlreadyElapsed": "Bu bekleme süresi zaten sona erdi.",
           "thisGracePeriodHasAlreadyBeenConsumed": "Bu bekleme süresi zaten kullanıldı.",
           "thisGracePeriodWasAlreadyApprovedByASuper": "Bu bekleme süresi zaten bir süper yönetici tarafından onaylandı.",
-          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Bekleme süresi onaylandı. Talep sahibi artık kurtarmaya devam edebilir."
+          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Bekleme süresi onaylandı. Talep sahibi artık kurtarmaya devam edebilir.",
+          "pending": "pending",
+          "consumed": "consumed",
+          "expired": "expired",
+          "blocked": "blocked",
+          "notApplicable": "not_applicable",
+          "error": "error",
+          "theAccountOwnerNotificationPassWasAlreadyConsumedStart": "Hesap sahibi bildirim izni zaten kullanılmış. Kurtarmayı yeniden başlatın.",
+          "passed": "passed",
+          "smtpSendFailed": "smtp_send_failed",
+          "created": "created",
+          "missing": "missing",
+          "theAccountOwnerNotificationPassWasAlreadyConsumed": "Hesap sahibi bildirim izni zaten kullanılmış.",
+          "gracePeriodChallengeNotFound": "Ek süre sorgusu bulunamadı."
         },
         "hcaptcha": {
           "missingSecret": "missing_secret",
@@ -956,21 +945,21 @@
           "transactionProofVerifiedByValue1Value2": "İşlem kanıtı {{value1}}.{{value2}} tarafından doğrulandı"
         },
         "provider": {
+          "base": "base",
+          "stash": "stash",
+          "accountEmailUpdateFailed": "Hesap e-postası güncellemesi başarısız oldu.",
+          "recoveryEmailUpdateEndpointIsNotConfigured": "Kurtarma e-posta güncelleme uç noktası yapılandırılmamış",
+          "recoveryPasswordResetEndpointIsNotConfigured": "Kurtarma şifre sıfırlama uç noktası yapılandırılmamış",
           "unavailable": "unavailable",
           "found": "found",
           "notFound": "not_found",
-          "base": "base",
-          "stash": "stash",
-          "unitedStates": "United States",
-          "california": "California",
-          "accountEmailUpdateFailed": "Hesap e-postası güncellemesi başarısız oldu.",
-          "recoveryEmailUpdateEndpointIsNotConfigured": "Kurtarma e-posta güncelleme uç noktası yapılandırılmamış",
-          "gameServerEmailUpdateFailed": "Game-server email update failed.",
-          "gameServerPasswordResetFailed": "Game-server password reset failed.",
-          "recoveryPasswordResetEndpointIsNotConfigured": "Kurtarma şifre sıfırlama uç noktası yapılandırılmamış",
-          "inGameCodeVerificationEndpointIsNotConfigured": "In-game code verification endpoint is not configured.",
-          "invalidOrExpiredInGameCode": "Invalid or expired in-game code.",
-          "inGameVerificationServiceIsUnavailable": "In-game verification service is unavailable."
+          "unitedStates": "Amerika Birleşik Devletleri",
+          "california": "Kaliforniya",
+          "gameServerEmailUpdateFailed": "Oyun sunucusu e-posta güncellemesi başarısız oldu.",
+          "gameServerPasswordResetFailed": "Oyun sunucusu şifre sıfırlama işlemi başarısız oldu.",
+          "inGameCodeVerificationEndpointIsNotConfigured": "Oyun içi kod doğrulama uç noktası yapılandırılmamış.",
+          "invalidOrExpiredInGameCode": "Geçersiz veya süresi dolmuş oyun içi kod.",
+          "inGameVerificationServiceIsUnavailable": "Oyun içi doğrulama servisi kullanılamıyor."
         },
         "redis": {
           "expired": "expired",
@@ -981,7 +970,6 @@
       },
       "shop": {
         "ranks": {
-          "unknownError": "Unknown error",
           "primePrefix": "Prime Öneki",
           "primeDiscordRank": "Prime Discord Rank",
           "text12Homes": "12 ev",
@@ -1039,17 +1027,13 @@
           "changeNicknamePermissionIn6b6tDiscord": "6b6t Discord'da Takma Adı Değiştir izni",
           "streamingPermissionIn6b6tDiscord": "6b6t Discord'da Video Yayını izni",
           "accessTo10RankOnlyChannelsIn6b6tDiscord": "6b6t Discord'da 10+ rank'a özel kanallara erişim",
-          "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "Priority support using #premium-tickets channel in 6b6t Discord",
           "legendPrefix": "Legend Öneki",
           "legendDiscordRank": "Legend Discord Rank",
           "text500Homes": "500 Ev",
           "text70BalloonsWithBalloons": "/balloons ile 70 balon",
           "cigarLightUpCigarsInMinecraft": "/cigar - Minecraft'ta puro yak!",
-          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode home &lt;home&gt; - seçtiğiniz bir eve ışınlandığınızda otomatik olarak builder modunu etkinleştirir",
+          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode home &lt;home&gt; - seçtiğiniz bir home'a ışınlandığınızda otomatik olarak builder modunu etkinleştirir",
           "hotspotCreateWith120MinuteLengthAnd80Minute": "120 dakika süre ve 80 dakika bekleme süresi ile /hotspot create",
-          "hotspotNameChangeTheNameOfHotspots": "/hotspot name - change the name of Hotspots",
-          "hotspotGlowApplyAGlowEffectToEveryoneThat": "/hotspot glow - apply a glow effect to everyone that teleported to your Hotspot",
-          "hotspotBalloonApplyABalloonToEveryoneThatTeleported": "/hotspot balloon - apply a balloon to everyone that teleported to your Hotspot",
           "useBoldInAnvilsWithTheSign": "& işareti ile örslerde kalın yazı kullanın",
           "text10sTpaCooldown": "10sn /tpa bekleme süresi",
           "text10sHomeCooldown": "10sn /home bekleme süresi",
@@ -1084,6 +1068,11 @@
           "primeToEliteUpgrade": "Prime'dan Elite'e yükseltme",
           "primeToApexUpgrade": "Prime'dan Apex'e yükseltme",
           "eliteToApexUpgrade": "Elite'ten Apex'e yükseltme",
+          "unknownError": "Bilinmeyen hata",
+          "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "6b6t Discord'da #premium-tickets kanalını kullanarak öncelikli destek",
+          "hotspotNameChangeTheNameOfHotspots": "/hotspot name - Hotspot'ların adını değiştirin",
+          "hotspotGlowApplyAGlowEffectToEveryoneThat": "/hotspot glow - Hotspot'unuza ışınlanan herkese parlama efekti uygulayın",
+          "hotspotBalloonApplyABalloonToEveryoneThatTeleported": "/hotspot balloon - Hotspot'unuza ışınlanan herkese balon uygulayın",
           "default": "default"
         },
         "stripe": {
@@ -1094,6 +1083,17 @@
       "stats": {
         "mysqlClient": {
           "statsMysql": "Stats MySQL"
+        }
+      },
+      "commandService": {
+        "commands": {
+          "unknownCommandServiceError": "Bilinmeyen komut servisi hatası"
+        }
+      },
+      "hooks": {
+        "useGallery": {
+          "failedToFetchGalleryData": "Galeri verileri getirilemedi",
+          "failedToFetchImageData": "Görsel verileri getirilemedi"
         }
       },
       "themeSecurity": {

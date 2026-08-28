@@ -1,7 +1,6 @@
 {
   "sections": {
     "antispamClient": {
-      "failedToFetchLogs": "Failed to fetch logs",
       "loadingModerationLogs": "Moderasyon kayıtları yükleniyor...",
       "unableToLoadLogs": "Kayıtlar Yüklenemedi",
       "tryAgain": "Tekrar Dene",
@@ -24,24 +23,24 @@
       "expanded": "(genişletildi)",
       "last": "Son",
       "messagesFor": "mesaj, oyuncu:",
-      "beforeMute": "before mute:",
       "page": "Sayfa",
       "value1Value2": "{{value1}}{{value2}}",
-      "of": "/"
+      "of": "/",
+      "failedToFetchLogs": "Kayıtlar alınamadı",
+      "beforeMute": "susturmadan önce:"
     },
     "components": {
       "muteSystemCard": {
         "muteSystem": "Susturma Sistemi",
-        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
-        "on": "açık",
+        "on": "on",
         "or": "veya",
-        "off": "kapalı",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "Bu susturma sistemi tamamen şeffaf ve anarşiktir."
+        "off": "off",
+        "thisMuteSystemIsFullyTransparentAndAnarchy": "Bu susturma sistemi tamamen şeffaf ve anarşiye uygundur.",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t'de susturmalar vardır, ancak tamamen şeffaftır ve susturulan oyuncuları görmeyi yine de seçebilirsin. Oyuncuları bu web sitesindeki kurallara göre susturuyoruz. Tam anarşi deneyimini yaşamak ve susturulan oyuncuları görmek istiyorsan şu komutu kullan:"
       }
     },
     "page": {
-      "antiSpamLogs": "Anti-Spam Logs",
-      "completeTransparencyInOurModerationSystemViewAllSpam": "Moderasyon sistemimizde tam şeffaflık. 6b6t.org üzerindeki tüm spam önleme işlemlerini, susturmaları ve moderasyon faaliyetlerini görüntüleyin.",
+      "completeTransparencyInOurModerationSystemViewAllSpam": "Moderasyon sistemimiz tamamen şeffaf. 6b6t.org üzerindeki tüm spam önleme işlemlerini, susturmaları ve moderasyon faaliyetlerini görüntüleyin.",
       "notAllowed": "Yasak Olanlar",
       "spammingOtherMinecraftServers": "Başka Minecraft sunucuları için spam yapmak",
       "excessiveAutomatedSpamming": "Aşırı otomatik spam yapma",
@@ -50,7 +49,7 @@
       "doxxingOrDdosing": "Doxxing veya DDoS yapma",
       "advertisingProxiesVpnsOtherConnectionMethods": "Proxy/VPN/diğer bağlantı yöntemlerinin reklamını yapma",
       "distributingMalwareOrMaliciousLinks": "Kötü amaçlı yazılım veya zararlı bağlantılar dağıtma",
-      "affectsBothChatAndWhispers": "Hem sohbeti hem de fısıltıları (whisper) etkiler",
+      "affectsBothChatAndWhispers": "Hem sohbet hem de fısıltılar (whisper) için geçerlidir",
       "allowed": "İzin Verilenler",
       "advertising6b6tWebsiteDiscordServersAmpProjectsOnceEvery": "6b6t web sitesinin, Discord sunucularının &amp; projelerinin beş dakikada bir reklamını yapmak",
       "ifYouDoNotWishToSeeTheMessages": "Herhangi bir kuralı ihlal etmeyen oyuncuların mesajlarını görmek istemiyorsanız, yine de şunu kullanabilirsiniz:",
@@ -59,7 +58,6 @@
       "appealYourMuteUsingTheFormBelow": "Susturmanıza aşağıdaki formu kullanarak itiraz edin.",
       "openAppealForm": "İtiraz Formunu Aç",
       "publicModerationLogs": "Herkese Açık Moderasyon Kayıtları",
-      "realTimeModerationActionsAndSpamPreventionActivities": "Real-time moderation actions and spam prevention activities",
       "toProtectOurModeratorsPrivacyTheyAreNotShown": "Moderatörlerimizin gizliliğini korumak için, isimleri bu sayfada gösterilmez. Bir susturma şu sebeple verildiğinde:",
       "doxxing": "Doxxing",
       "or": "veya",
@@ -67,7 +65,9 @@
       "loadingModerationLogs": "Moderasyon kayıtları yükleniyor...",
       "thisPageShowsAllModerationActionsTakenByThe": "Bu sayfa, 6b6t spam önleme sistemi tarafından alınan tüm moderasyon işlemlerini gösterir.",
       "appealsAreHandled": "İtirazlar",
-      "exclusivelyViaTheAppealForm": " yalnızca itiraz formu üzerinden ele alınır."
+      "exclusivelyViaTheAppealForm": " yalnızca itiraz formu üzerinden ele alınır.",
+      "antiSpamLogs": "Anti-Spam Kayıtları",
+      "realTimeModerationActionsAndSpamPreventionActivities": "Gerçek zamanlı moderasyon işlemleri ve spam önleme faaliyetleri"
     }
   }
 }
