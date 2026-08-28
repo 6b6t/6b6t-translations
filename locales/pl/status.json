@@ -1,10 +1,10 @@
 {
   "sections": {
     "statusClient": {
-      "failedToFetchServerStatus": "Failed to fetch server status",
+      "failedToFetchServerStatus": "Nie udało się pobrać statusu serwera",
       "text6b6tServerStatus": "STATUS SERWERA 6B6T",
-      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
-      "lastUpdated": "Last updated:",
+      "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
+      "lastUpdated": "Ostatnia aktualizacja:",
       "loading": "Ładowanie...",
       "refresh": "Odśwież",
       "currentPlayers": "Aktualni gracze",
@@ -22,10 +22,10 @@
       "ms": "ms"
     },
     "statusPageContent": {
-      "failedToFetchServerStatus": "Failed to fetch server status",
+      "failedToFetchServerStatus": "Nie udało się pobrać statusu serwera",
       "text6b6tServerStatus": "STATUS SERWERA 6B6T",
-      "realTimeServerInformationAndPlayerStatistics": "Real-time server information and player statistics",
-      "lastUpdated": "Last updated:",
+      "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
+      "lastUpdated": "Ostatnia aktualizacja:",
       "loading": "Ładowanie...",
       "refresh": "Odśwież",
       "currentPlayers": "Aktualni gracze",
