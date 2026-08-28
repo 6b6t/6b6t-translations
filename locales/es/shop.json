@@ -438,7 +438,7 @@
       "page": {
         "refundPolicy": "Política de reembolsos",
         "effectiveDate": "Effective Date:",
-        "august212026": "21 de agosto de 2026",
+        "august282026": "28 de agosto de 2026",
         "thisPolicyOutlinesTheTermsAndConditionsForRefunds": "Esta política establece los términos y condiciones de los reembolsos relacionados con compras realizadas a través de la tienda de 6b6t, el sitio web u otros canales oficiales de venta de 6b6t.",
         "operatorLegalEntity": "Operator / Legal entity:",
         "qbastyLabsFze": "qbasty labs FZE",
@@ -539,16 +539,9 @@
         "and": ", y",
         "updateTheQuotEffectiveDateQuotAndQuotLast": "actualizaremos las fechas de &quot;Entrada en vigor&quot; y &quot;Última actualización&quot; que aparecen al principio de este documento.",
         "yourContinuedUseOfOurServicesAfterChangesAre": "Si continúas utilizando nuestros servicios después de que se publiquen los cambios, se entenderá que aceptas la Política de reembolsos actualizada.",
-        "text7PurchasesProcessedByPaddle": "7. Compras procesadas por Paddle",
-        "forPurchasesProcessedByPaddlePaddleActsAsThe": "Para las compras procesadas por Paddle, Paddle actúa como revendedor autorizado y Merchant of Record. Estas compras también están sujetas a la Política de reembolsos y los Términos del comprador de Paddle.",
-        "whereThisRefundPolicyProvidesAdditionalOrMoreGenerous": "Where this Refund Policy provides additional or more generous refund rights, those rights continue to apply. This includes any 14-day refund eligibility provided elsewhere in this Refund Policy.",
-        "wherePaddleSRefundPolicyOrApplicableLawProvides": "Cuando la Política de reembolsos de Paddle o la legislación aplicable otorguen derechos adicionales de reembolso, cancelación o desistimiento, dichos derechos también serán aplicables y no estarán limitados por esta Política de reembolsos. Paddle puede aprobar, aprobar parcialmente o rechazar solicitudes de reembolso de acuerdo con sus políticas y la legislación aplicable.",
-        "refundRequestsForPurchasesProcessedByPaddleMayAlso": "Las solicitudes de reembolso de compras procesadas por Paddle también pueden presentarse directamente a través de Paddle utilizando los métodos de reembolso y soporte que ofrece.",
-        "ifThereIsAnyConflictBetweenThisRefundPolicy": "Si existe algún conflicto entre esta Política de reembolsos y la Política de reembolsos o los Términos del comprador de Paddle respecto de una compra procesada por Paddle, se aplicarán las políticas de Paddle, salvo cuando esta Política de reembolsos otorgue al cliente derechos adicionales o más favorables.",
-        "paddleSCurrentRefundPolicyAndBuyerTermsAre": "Paddle’s current Refund Policy and Buyer Terms are available at:",
-        "text8ContactInformation": "8. Información de contacto",
+        "text7ContactInformation": "7. Información de contacto",
         "email": "Correo electrónico:",
-        "lastUpdatedAugust212026": "Última actualización: 21 de agosto de 2026"
+        "lastUpdatedAugust282026": "Última actualización: 28 de agosto de 2026"
       }
     },
     "reviewModal": {

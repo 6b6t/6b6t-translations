@@ -438,7 +438,7 @@
       "page": {
         "refundPolicy": "İade Politikası",
         "effectiveDate": "Effective Date:",
-        "august212026": "21 Ağustos 2026",
+        "august282026": "28 Ağustos 2026",
         "thisPolicyOutlinesTheTermsAndConditionsForRefunds": "Bu politika, 6b6t mağazası, web sitesi veya diğer resmi 6b6t satış kanalları aracılığıyla yapılan satın alımlarla ilgili iadelerin şart ve koşullarını açıklar.",
         "operatorLegalEntity": "Operator / Legal entity:",
         "qbastyLabsFze": "qbasty labs FZE",
@@ -539,16 +539,9 @@
         "and": ", ve",
         "updateTheQuotEffectiveDateQuotAndQuotLast": "bu belgenin üst kısmındaki &quot;Yürürlük Tarihi&quot; ve &quot;Son Güncelleme&quot; tarihini güncelleyeceğiz.",
         "yourContinuedUseOfOurServicesAfterChangesAre": "Değişiklikler yayınlandıktan sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş İade Politikasını kabul ettiğiniz anlamına gelir.",
-        "text7PurchasesProcessedByPaddle": "7. Paddle Tarafından İşlenen Satın Alımlar",
-        "forPurchasesProcessedByPaddlePaddleActsAsThe": "Paddle tarafından işlenen satın alımlarda, Paddle yetkili yeniden satıcı ve Kayıtlı Satıcı (Merchant of Record) olarak hareket eder. Bu satın alımlar aynı zamanda Paddle'ın İade Politikası ve Alıcı Şartları'na tabidir.",
-        "whereThisRefundPolicyProvidesAdditionalOrMoreGenerous": "Where this Refund Policy provides additional or more generous refund rights, those rights continue to apply. This includes any 14-day refund eligibility provided elsewhere in this Refund Policy.",
-        "wherePaddleSRefundPolicyOrApplicableLawProvides": "Paddle'ın İade Politikası veya yürürlükteki yasaların ek iade, iptal veya cayma hakları sağladığı durumlarda, bu haklar da geçerlidir ve bu İade Politikası ile sınırlandırılmaz. Paddle, kendi politikalarına ve yürürlükteki yasalara uygun olarak iade taleplerini onaylayabilir, kısmen onaylayabilir veya reddedebilir.",
-        "refundRequestsForPurchasesProcessedByPaddleMayAlso": "Paddle tarafından işlenen satın alımlara ilişkin iade talepleri, Paddle'ın sunduğu iade ve destek yöntemleri kullanılarak doğrudan Paddle üzerinden de gönderilebilir.",
-        "ifThereIsAnyConflictBetweenThisRefundPolicy": "Bu İade Politikası ile Paddle tarafından işlenen bir satın alıma ilişkin Paddle'ın İade Politikası veya Alıcı Şartları arasında herhangi bir çelişki olması durumunda, bu İade Politikasının müşteriye ek veya daha kapsamlı haklar sağladığı durumlar dışında, Paddle'ın politikaları geçerli olacaktır.",
-        "paddleSCurrentRefundPolicyAndBuyerTermsAre": "Paddle’s current Refund Policy and Buyer Terms are available at:",
-        "text8ContactInformation": "8. İletişim Bilgileri",
+        "text7ContactInformation": "7. İletişim Bilgileri",
         "email": "E-posta:",
-        "lastUpdatedAugust212026": "Son güncelleme: 21 Ağustos 2026"
+        "lastUpdatedAugust282026": "Son güncelleme: 28 Ağustos 2026"
       }
     },
     "reviewModal": {

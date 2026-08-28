@@ -438,7 +438,7 @@
       "page": {
         "refundPolicy": "Refund Policy",
         "effectiveDate": "Effective Date:",
-        "august212026": "August 21, 2026",
+        "august282026": "August 28, 2026",
         "thisPolicyOutlinesTheTermsAndConditionsForRefunds": "This policy outlines the terms and conditions for refunds related to purchases made through the 6b6t shop, website or other official 6b6t sales channels.",
         "operatorLegalEntity": "Operator / Legal entity:",
         "qbastyLabsFze": "qbasty labs FZE",
@@ -539,16 +539,9 @@
         "and": ", and",
         "updateTheQuotEffectiveDateQuotAndQuotLast": "update the &quot;Effective Date&quot; and &quot;Last Updated&quot; date at the top of this document.",
         "yourContinuedUseOfOurServicesAfterChangesAre": "Your continued use of our services after changes are posted means you accept the updated Refund Policy.",
-        "text7PurchasesProcessedByPaddle": "7. Purchases Processed by Paddle",
-        "forPurchasesProcessedByPaddlePaddleActsAsThe": "For purchases processed by Paddle, Paddle acts as the authorised reseller and Merchant of Record. These purchases are also subject to Paddle’s Refund Policy and Buyer Terms.",
-        "whereThisRefundPolicyProvidesAdditionalOrMoreGenerous": "Where this Refund Policy provides additional or more generous refund rights, those rights continue to apply. This includes any 14-day refund eligibility provided elsewhere in this Refund Policy.",
-        "wherePaddleSRefundPolicyOrApplicableLawProvides": "Where Paddle’s Refund Policy or applicable law provides additional refund, cancellation, or withdrawal rights, those rights also apply and are not limited by this Refund Policy. Paddle may approve, partially approve, or decline refund requests in accordance with its policies and applicable law.",
-        "refundRequestsForPurchasesProcessedByPaddleMayAlso": "Refund requests for purchases processed by Paddle may also be submitted directly through Paddle using the refund and support methods provided by Paddle.",
-        "ifThereIsAnyConflictBetweenThisRefundPolicy": "If there is any conflict between this Refund Policy and Paddle’s Refund Policy or Buyer Terms regarding a purchase processed by Paddle, Paddle’s policies will apply, except where this Refund Policy provides the customer with additional or more generous rights.",
-        "paddleSCurrentRefundPolicyAndBuyerTermsAre": "Paddle’s current Refund Policy and Buyer Terms are available at:",
-        "text8ContactInformation": "8. Contact Information",
+        "text7ContactInformation": "7. Contact Information",
         "email": "Email:",
-        "lastUpdatedAugust212026": "Last updated: August 21, 2026"
+        "lastUpdatedAugust282026": "Last updated: August 28, 2026"
       }
     },
     "reviewModal": {
