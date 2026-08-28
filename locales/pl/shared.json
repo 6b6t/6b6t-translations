@@ -275,6 +275,7 @@
         "crypto": "Krypto",
         "applePay": "Apple Pay",
         "googlePay": "Google Pay",
+        "alipay": "Alipay",
         "ideal": "iDEAL",
         "bancontact": "Bancontact",
         "eps": "EPS"
@@ -321,6 +322,7 @@
       "mastercard": "Mastercard",
       "applePay": "Apple Pay",
       "googlePay": "Google Pay",
+      "alipay": "Alipay",
       "ideal": "iDEAL",
       "bancontact": "Bancontact",
       "eps": "EPS",
