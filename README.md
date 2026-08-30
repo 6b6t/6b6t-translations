@@ -7,6 +7,7 @@ values in one of these folders:
 
 - `locales/de` — German
 - `locales/es` — Spanish
+- `locales/hi` — Hindi
 - `locales/pl` — Polish
 - `locales/ru` — Russian
 - `locales/tr` — Turkish

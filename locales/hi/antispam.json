@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "antispamClient": {
+      "failedToFetchLogs": "लॉग लाने में विफल",
+      "loadingModerationLogs": "मॉडरेशन लॉग लोड हो रहा है...",
+      "unableToLoadLogs": "लॉग लोड करने में असमर्थ",
+      "tryAgain": "पुनः प्रयास करें",
+      "noModerationRecordsAvailable": "कोई मॉडरेशन रिकॉर्ड उपलब्ध नहीं है",
+      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "अच्छी खबर! हाल ही में कोई स्पैम निवारण कार्रवाई दर्ज नहीं की गई है। हमारा समुदाय चैट को स्वच्छ और सम्मानजनक बनाए रख रहा है।",
+      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "मॉडरेशन कार्रवाई होने पर यह पृष्ठ स्वचालित रूप से अपडेट हो जाएगा.",
+      "searchPlayer": "प्लेयर खोजें...",
+      "newestFirst": "नवीनतम प्रथम",
+      "oldestFirst": "सबसे पुराना पहले",
+      "action": "कार्रवाई",
+      "player": "खिलाड़ी",
+      "reason": "कारण",
+      "duration": "अवधि",
+      "expiresIn": "में समाप्त होना",
+      "date": "तारीख",
+      "details": "विवरण",
+      "mute": "म्यूट",
+      "hidden": "छिपा हुआ",
+      "messages": "संदेशों",
+      "expanded": "(विस्तारित)",
+      "last": "अंतिम",
+      "messagesFor": "के लिए संदेश",
+      "beforeMute": "म्यूट करने से पहले:",
+      "page": "पेज",
+      "value1Value2": "{{value1}}{{value2}}",
+      "of": "का"
+    },
+    "components": {
+      "muteSystemCard": {
+        "muteSystem": "म्यूट सिस्टम",
+        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t में म्यूट हैं, लेकिन वे पूरी तरह से पारदर्शी हैं और आप अभी भी म्यूट किए गए प्लेयर्स को देखने का निर्णय ले सकते हैं। हम इस वेबसाइट के नियमों के अनुसार खिलाड़ियों को म्यूट करते हैं। यदि आप पूर्ण अराजकता का अनुभव लेना चाहते हैं और आप मौन खिलाड़ियों को देखना चाहते हैं, तो कमांड का उपयोग करें:",
+        "on": "पर",
+        "or": "या",
+        "off": "बंद",
+        "thisMuteSystemIsFullyTransparentAndAnarchy": "यह मूक व्यवस्था पूर्णतः पारदर्शी एवं अराजक है।"
+      }
+    },
+    "page": {
+      "antiSpamLogs": "एंटी-स्पैम लॉग",
+      "completeTransparencyInOurModerationSystemViewAllSpam": "हमारी मॉडरेशन प्रणाली में पूर्ण पारदर्शिता। 6b6t.org पर सभी स्पैम रोकथाम कार्रवाइयां, म्यूट और मॉडरेशन गतिविधियां देखें।",
+      "notAllowed": "अनुमति नहीं",
+      "spammingOtherMinecraftServers": "अन्य minecraft सर्वरों को स्पैमिंग करना",
+      "excessiveAutomatedSpamming": "अत्यधिक स्वचालित स्पैमिंग",
+      "spammingWithMultipleAccounts": "एकाधिक खातों से स्पैमिंग",
+      "illegalContentRelatedToChildren": "बच्चों से संबंधित अवैध सामग्री",
+      "doxxingOrDdosing": "डॉक्सिंग या DDoSing",
+      "advertisingProxiesVpnsOtherConnectionMethods": "विज्ञापन प्रॉक्सी/VPNs/other कनेक्शन विधियाँ",
+      "distributingMalwareOrMaliciousLinks": "मैलवेयर या दुर्भावनापूर्ण लिंक वितरित करना",
+      "affectsBothChatAndWhispers": "चैट और फुसफुसाहट दोनों को प्रभावित करता है",
+      "allowed": "अनुमत",
+      "advertising6b6tWebsiteDiscordServersAmpProjectsOnceEvery": "विज्ञापन 6b6t वेबसाइट, Discord सर्वर &amp; हर पांच मिनट में एक बार प्रोजेक्ट करता है",
+      "ifYouDoNotWishToSeeTheMessages": "यदि आप उन खिलाड़ियों के संदेश नहीं देखना चाहते जो कोई नियम नहीं तोड़ रहे हैं, तो भी आप इसका उपयोग कर सकते हैं",
+      "ignoreLtPlayerGt": "/ignore &lt;player&gt;",
+      "appealsProcess": "अपील प्रक्रिया",
+      "appealYourMuteUsingTheFormBelow": "नीचे दिए गए फॉर्म का उपयोग करके अपने म्यूट के खिलाफ अपील करें।",
+      "openAppealForm": "अपील प्रपत्र खोलें",
+      "publicModerationLogs": "सार्वजनिक मॉडरेशन लॉग",
+      "realTimeModerationActionsAndSpamPreventionActivities": "वास्तविक समय मॉडरेशन क्रियाएँ और स्पैम रोकथाम गतिविधियाँ",
+      "toProtectOurModeratorsPrivacyTheyAreNotShown": "हमारे मॉडरेटर की गोपनीयता की रक्षा के लिए, उन्हें इस पृष्ठ पर नहीं दिखाया गया है। जब म्यूट जारी किया जाता है",
+      "doxxing": "डॉक्सिंग",
+      "or": "या",
+      "theMutedPlayerSNameAndTheirMessagesAre": ", म्यूट किए गए खिलाड़ी का नाम और उनके संदेश भी छिपाए रखे जाते हैं।",
+      "loadingModerationLogs": "मॉडरेशन लॉग लोड हो रहा है...",
+      "thisPageShowsAllModerationActionsTakenByThe": "यह पृष्ठ 6b6t स्पैम रोकथाम प्रणाली द्वारा की गई सभी मॉडरेशन कार्रवाइयों को दिखाता है।",
+      "appealsAreHandled": "अपीलें निपटाई जाती हैं",
+      "exclusivelyViaTheAppealForm": "विशेष रूप से अपील प्रपत्र के माध्यम से"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "discordMarkdown": {
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@उपयोगकर्ता",
+      "updatesPing": "@अपडेट्स पिंग"
+    },
+    "page": {
+      "discordUpdatesAreComingHereSoon": "Discord अपडेट जल्द ही यहां आ रहे हैं",
+      "theChangelogPageIsReadyToSyncFromThe": "चेंजलॉग पेज आधिकारिक Discord अपडेट चैनल से सिंक करने के लिए तैयार है। तब तक, नवीनतम पोस्ट पढ़ने के लिए Discord से जुड़ें।",
+      "joinDiscord": "Discord से जुड़ें",
+      "text6b6tUpdates": "6b6t अपडेट",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "नवीनतम 6b6t सर्वर चेंजलॉग पोस्ट और Discord से अद्यतन इतिहास।",
+      "changelog": "बदलाव का",
+      "server": "सर्वर",
+      "updates": "अपडेट",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "आधिकारिक 6b6t Discord चेंजलॉग चैनल से नवीनतम परिवर्तन, सुधार और घोषणाएँ।"
+    },
+    "updatesList": {
+      "edited": "संपादित",
+      "postedBy": "के द्वारा प्रकाशित किया गया",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "यह अद्यतन Discord में अनुलग्नकों के साथ पोस्ट किया गया था।",
+      "openInDiscord": "Discord में खोलें",
+      "couldNotLoadMoreUpdates": "अधिक अपडेट लोड नहीं किया जा सका.",
+      "couldNotSearchUpdates": "अद्यतन खोजे नहीं जा सके.",
+      "newUpdate": "नई अपडेट",
+      "justAppeared": "अभी प्रकट हुआ.",
+      "dismiss": "नकार देना",
+      "searchUpdates": "अपडेट खोजें",
+      "searching": "खोज रहे हैं...",
+      "search": "खोज",
+      "clear": "स्पष्ट",
+      "showing": "दिखा",
+      "searchResult": "खोज का परिणाम",
+      "latestPost": "नवीनतम पोस्ट",
+      "loading": "लोड हो रहा है...",
+      "loadMoreValue1": "अधिक {{value1}} लोड करें",
+      "noUpdatesMatchedYourSearch": "कोई भी अपडेट आपकी खोज से मेल नहीं खाता."
+    }
+  }
+}

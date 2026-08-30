@@ -1,0 +1,33 @@
+{
+  "page-name": "हमसे संपर्क करें",
+  "seo-description": "6b6t पर हमसे संपर्क करें।",
+  "sections": {
+    "page": {
+      "contactUs": "हमसे संपर्क करें",
+      "getIn": "अंदर आना",
+      "touch": "छूना",
+      "needHelpWeReHereToAssistYouWith": "मदद की ज़रूरत है? हम 6b6t के बारे में किसी भी प्रश्न या चिंता में आपकी सहायता के लिए यहां हैं।",
+      "email": "ईमेल",
+      "discord": "Discord",
+      "contactViaEmail": "ईमेल के माध्यम से संपर्क करें",
+      "sendUsAnEmailAndWeLlGetBack": "हमें एक ईमेल भेजें और हम 24 घंटों के भीतर आपसे संपर्क करेंगे।",
+      "openYourEmailApp": "अपना ईमेल ऐप खोलें",
+      "composeAnEmailDescribingYourConcern": "अपनी चिंता का वर्णन करते हुए एक ईमेल लिखें",
+      "sendTo": "भेजना",
+      "responseTimeTypicallyWithin24Hours": "प्रतिक्रिया समय: आम तौर पर 24 घंटों के भीतर",
+      "contactViaDiscord": "Discord के माध्यम से संपर्क करें",
+      "createATicketInOur": "हमारे में एक टिकट बनाएं",
+      "discordServer": "Discord सर्वर",
+      "forFasterSupport": "तेज़ समर्थन के लिए.",
+      "joinOurDiscordServer": "हमारे Discord सर्वर से जुड़ें",
+      "createATicketIn": "में एक टिकट बनाएं",
+      "waitForATeamMemberToRespond": "टीम के किसी सदस्य के जवाब की प्रतीक्षा करें",
+      "responseTimeTypicallyWithin1Hour": "प्रतिक्रिया समय: आम तौर पर 1 घंटे के भीतर",
+      "discordSupportIs": "Discord सपोर्ट है",
+      "exclusiveToRankedPlayers": "रैंक वाले खिलाड़ियों के लिए विशेष",
+      "youMustHaveARankFromThe": ". आपके पास से एक रैंक होनी चाहिए",
+      "text6b6tShop": "6b6t दुकान",
+      "toCreateATicket": "टिकट बनाने के लिए."
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "components": {
+      "phaseIndicator": {
+        "start": "शुरू",
+        "start2": "शुरू",
+        "identity": "पहचान",
+        "intent": "इरादा",
+        "challenge": "चुनौती",
+        "verify": "सत्यापित करें",
+        "reset": "रीसेट करें",
+        "result": "परिणाम",
+        "blocked": "अवरोधित",
+        "success": "सफलता"
+      },
+      "recoveryWalkthrough": {
+        "startWithTheAccount": "खाते से प्रारंभ करें",
+        "enterTheUsernameFirstTheFlowChecksWhichRecovery": "पहले उपयोगकर्ता नाम दर्ज करें. प्रवाह जाँचता है कि उस खाते के लिए कौन सा पुनर्प्राप्ति पथ सुरक्षित है।",
+        "useTheExactInGameUsername": "सटीक इन-गेम उपयोगकर्ता नाम का उपयोग करें.",
+        "completeTheCaptchaOnceBeforeSubmitting": "सबमिट करने से पहले एक बार कैप्चा पूरा कर लें.",
+        "ifTheAccountCanStillUseTheNormalEmail": "यदि खाता अभी भी सामान्य ईमेल रीसेट पथ का उपयोग कर सकता है, तो पुनर्प्राप्ति वहां पुनर्निर्देशित हो जाएगी।",
+        "setTheNewContactEmail": "नया संपर्क ईमेल सेट करें",
+        "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "नया ईमेल केवल पहचान जांच के बाद ही स्वीकार किया जाता है, इसलिए अपने नियंत्रण वाले इनबॉक्स का उपयोग करें।",
+        "useAnEmailYouCanVerifyImmediately": "ऐसे ईमेल का उपयोग करें जिसे आप तुरंत सत्यापित कर सकें।",
+        "ifYouStillRememberTheOldEmailProvideIt": "यदि आपको अभी भी पुराना ईमेल याद है, तो मांगे जाने पर उसे प्रदान करें।",
+        "securityResponsesStayGenericSoAttackersCannotLearnWhat": "सुरक्षा प्रतिक्रियाएँ सामान्य रहती हैं इसलिए हमलावर यह नहीं जान पाते कि क्या मेल खाता है।",
+        "prepareProofDetails": "प्रमाण विवरण तैयार करें",
+        "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "इसका पुख्ता प्रमाण विशिष्ट खाता इतिहास है जिसे कोई अन्य खिलाड़ी नहीं जानता होगा।",
+        "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "सहेजे गए घर और समन्वित स्थान वैकल्पिक हैं जब वे आपके पास नहीं हैं।",
+        "countriesLastLogoutLocationItemNamesAndOldBase": "देश, अंतिम लॉगआउट स्थान, आइटम नाम और पुराने आधार विवरण स्कोर में मदद कर सकते हैं।",
+        "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "केवल वही विवरण सबमिट करें जो आपको वास्तव में याद हो; ग़लत अनुमान अनुरोध को कमज़ोर कर सकते हैं.",
+        "reviewOrReset": "समीक्षा करें या रीसेट करें",
+        "ifTheAutomaticScoreIsEnoughYouContinueTo": "यदि स्वचालित स्कोर पर्याप्त है, तो आप सत्यापन जारी रखें। नहीं तो टिकट बन जाता है.",
+        "manualReviewTicketsKeepTheProofAttachedForStaff": "मैन्युअल समीक्षा टिकट कर्मचारियों के लिए सबूत संलग्न रखते हैं।",
+        "recoveryIsRateLimitedSoDoNotSpamAttempts": "पुनर्प्राप्ति दर सीमित है, इसलिए स्पैम प्रयास न करें।",
+        "onceApprovedFinishTheEmailCodeStepAndSet": "एक बार स्वीकृत होने पर, ईमेल कोड चरण पूरा करें और एक नया पासवर्ड सेट करें।",
+        "howRecoveryWorks": "पुनर्प्राप्ति कैसे कार्य करती है",
+        "walkthroughProgress": "पूर्वाभ्यास प्रगति",
+        "goToWalkthroughStepValue1": "वॉकथ्रू चरण {{value1}} पर जाएं",
+        "step": "कदम",
+        "value1Value2": "{{value1}}{{value2}}",
+        "of": "का",
+        "skip": "छोडना",
+        "back": "पीछे",
+        "startRecovery": "वसूली शुरू",
+        "next": "अगला"
+      },
+      "steps": {
+        "blockedStep": {
+          "recoveryBlocked": "पुनर्प्राप्ति अवरुद्ध",
+          "theOriginalAccountOwnerHasConfirmedTheyDidNot": "मूल खाता स्वामी ने पुष्टि की है कि उन्होंने यह पुनर्प्राप्ति शुरू नहीं की है। इस खाते के लिए कोई और पुनर्प्राप्ति प्रयास आगे नहीं बढ़ सकते।",
+          "returnToStart": "प्रारंभ पर लौटें"
+        },
+        "challengeStep": {
+          "securityChallenge": "सुरक्षा चैलेंज",
+          "thisAccountIsCurrentlyLinkedToAnEmailAddress": "यह खाता वर्तमान में एक ईमेल पते से जुड़ा हुआ है। सुरक्षा के लिए, यदि आपको यह याद है तो कृपया इसे दर्ज करें।",
+          "currentlyConnectedEmailOptional": "वर्तमान में कनेक्टेड ईमेल (वैकल्पिक)",
+          "oldEmailExampleCom": "old-email@example.com",
+          "ifYouDonAposTKnowItLeaveThis": "यदि आपको यह पता नहीं है, तो इसे खाली छोड़ दें। अगले चरण में आपको बस अधिक प्रमाण देना होगा।",
+          "verifyAccountIdentity": "खाता पहचान सत्यापित करें"
+        },
+        "gracePeriodPendingStep": {
+          "recoveryPendingGracePeriodActive": "पुनर्प्राप्ति लंबित - अनुग्रह अवधि सक्रिय",
+          "theAccountOwnerHasBeenNotifiedViaEmailIf": "खाता स्वामी को ईमेल के माध्यम से सूचित कर दिया गया है। यदि वे भीतर से प्रतिक्रिया नहीं देते",
+          "days": "दिन",
+          "youCanProceedWithIdentityVerification": ", आप पहचान सत्यापन के साथ आगे बढ़ सकते हैं।",
+          "gracePeriodExpires": "अनुग्रह अवधि समाप्त हो रही है:",
+          "verification": "सत्यापन",
+          "checking": "जाँच हो रही है...",
+          "checkStatus": "स्थिति जाँचिए",
+          "returnToStart": "प्रारंभ पर लौटें"
+        },
+        "intentStep": {
+          "setNewContactEmail": "नया संपर्क ईमेल सेट करें",
+          "enterTheEmailThatShouldBeLinkedToThis": "वह ईमेल दर्ज करें जिसे पुनर्प्राप्ति के बाद इस खाते से लिंक किया जाना चाहिए।",
+          "newTargetEmail": "नया लक्ष्य ईमेल",
+          "required": "(आवश्यक)",
+          "nameExampleCom": "name@example.com",
+          "checked": "चेक किए गए",
+          "iCanStillLogDirectlyIntoThe6b6tMinecraft": "मैं अभी भी सीधे 6b6t Minecraft सर्वर में लॉग इन कर सकता हूं",
+          "continueRecovery": "पुनर्प्राप्ति जारी रखें"
+        },
+        "lane1DeadEndStep": {
+          "standardResetRequired": "मानक रीसेट आवश्यक",
+          "automatedRecoveryUnavailable": "स्वचालित पुनर्प्राप्ति अनुपलब्ध",
+          "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "आपके खाते में पहले से ही आपके द्वारा दर्ज ईमेल से मेल खाता एक सत्यापित ईमेल है। कृपया अपने क्रेडेंशियल रीसेट करने के लिए मानक 'पासवर्ड भूल गए' प्रवाह का उपयोग करें।",
+          "weCannotProcessAnAutomatedRecoveryForThisAccount": "हम इस खाते की सुरक्षा सुनिश्चित करने के लिए प्रदान की गई जानकारी के साथ स्वचालित पुनर्प्राप्ति की प्रक्रिया नहीं कर सकते।",
+          "returnToStart": "प्रारंभ पर लौटें"
+        },
+        "lane2aStep": {
+          "inGameRecoveryInstructions": "इन-गेम पुनर्प्राप्ति निर्देश",
+          "sinceYouCanStillJoinTheServerProveControl": "चूँकि आप अभी भी सर्वर से जुड़ सकते हैं, पुनर्प्राप्ति ईमेल बदलने से पहले इन-गेम से खाते का नियंत्रण साबित करें। यह कोड ईमेल-परिवर्तन अनुरोध को सत्यापित करता है, फिर हम नए ईमेल की पुष्टि करेंगे।",
+          "join6b6t": "6b6t से जुड़ें",
+          "run": "दौड़ना",
+          "copyThe6CharacterRecoveryCodeShownInChat": "चैट में दिखाए गए 6-वर्ण पुनर्प्राप्ति कोड को कॉपी करें और इसे नीचे दर्ज करें।",
+          "newTargetEmail": "नया लक्ष्य ईमेल",
+          "required": "(आवश्यक)",
+          "nameExampleCom": "name@example.com",
+          "inGameRecoveryCode": "इन-गेम रिकवरी कोड",
+          "abc123": "ABC123",
+          "verifyInGameCode": "इन-गेम कोड सत्यापित करें",
+          "returnToStart": "प्रारंभ पर लौटें"
+        },
+        "manualReviewStep": {
+          "manualReview": "मैन्युअल समीक्षा",
+          "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "आपकी पहचान का सत्यापन पूरी तरह से सफल हो गया। हालाँकि, क्योंकि यह खाता हाल ही में सक्रिय हुआ है (केवल ऑफ़लाइन के लिए)।",
+          "aFew": "कुछ",
+          "daysOurSecurityPolicyRequiresAnAdminToManually": "दिन), हमारी सुरक्षा नीति के लिए व्यवस्थापक को आगे बढ़ने से पहले इस पुनर्प्राप्ति की मैन्युअल रूप से समीक्षा करने की आवश्यकता होती है।",
+          "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "आपकी पहचान सत्यापन पारित हो गया. हालाँकि, क्योंकि यह खाता एक विशेष रैंक रखता है, सुरक्षा के लिए मैन्युअल समीक्षा आवश्यक है।",
+          "submitProofOfAccountOwnershipForAdminReviewInclude": "व्यवस्थापक समीक्षा के लिए खाते के स्वामित्व का प्रमाण सबमिट करें। खरीद रसीदें, लेन-देन आईडी, या कोई सबूत शामिल करें जो आपको इस खाते से जोड़ता है।",
+          "contactTargetEmail": "संपर्क/लक्ष्य ईमेल",
+          "proofType": "प्रमाण प्रकार",
+          "shopOrderIdInvoice": "दुकान ऑर्डर आईडी/चालान",
+          "bankCardStatement": "Bank/Card वक्तव्य",
+          "other": "अन्य",
+          "proofDetails": "प्रमाण विवरण",
+          "provideProofDetailsThatCanBeVerified": "ऐसे प्रमाण विवरण प्रदान करें जिन्हें सत्यापित किया जा सके।",
+          "attachmentsOptionalOneUrlPathPerLineUpTo": "अनुलग्नक (वैकल्पिक, प्रति पंक्ति एक URL/path, 3 तक)",
+          "verification": "सत्यापन",
+          "submitManualReview": "मैन्युअल समीक्षा सबमिट करें"
+        },
+        "premiumAccountStep": {
+          "premiumMinecraftAccount": "प्रीमियम Minecraft खाता",
+          "thisUsernameIsAuthenticatedByMicrosoftMojangSo6b6t": "यह उपयोगकर्ता नाम Microsoft/Mojang द्वारा प्रमाणित है, इसलिए 6b6t इसे AuthMe पुनर्प्राप्ति के माध्यम से रीसेट नहीं कर सकता है। पहुंच पुनः प्राप्त करने के लिए उस Microsoft खाते से साइन इन करें जो इस Minecraft प्रोफ़ाइल का स्वामी है।",
+          "returnToStart": "प्रारंभ पर लौटें"
+        },
+        "privateScoreStep": {
+          "privateConnectionDetails": "निजी कनेक्शन विवरण",
+          "yourPublicProofWasNotEnoughProvidePrivateNetwork": "आपका सार्वजनिक सबूत पर्याप्त नहीं था. अपना स्कोर बढ़ाने के लिए निजी नेटवर्क विवरण प्रदान करें।",
+          "ipAddressIpv4OrIpv6": "आईपी ​​पता (आईपीवी4 या आईपीवी6)",
+          "city": "शहर",
+          "asnExampleAs1234": "एएसएन (उदाहरण: एएस1234)",
+          "ispProvider": "आईएसपी/प्रदाता",
+          "scorePrivateDetails": "निजी विवरण स्कोर करें"
+        },
+        "publicScoreStep": {
+          "overworld": "ओवरवर्ल्ड",
+          "overworld2": "ओवरवर्ल्ड",
+          "nether": "निचले",
+          "nether2": "निचले",
+          "end": "अंत",
+          "end2": "अंत",
+          "unknown": "अज्ञात",
+          "notSure": "निश्चित नहीं",
+          "none": "कोई नहीं",
+          "accountProofRequired": "खाता प्रमाण आवश्यक",
+          "provideDetailsAboutYourAccountToVerifyYourIdentity": "अपनी पहचान सत्यापित करने के लिए अपने खाते के बारे में विवरण प्रदान करें।",
+          "countriesYouPlayFrom": "आप जिन देशों से खेलते हैं",
+          "commaSeparated": "(अल्पविराम से अलग)",
+          "eGGermanyNetherlandsUnitedStates": "जैसे जर्मनी, नीदरलैंड, संयुक्त राज्य अमेरिका",
+          "howManySavedHomesDidThisAccountHave": "इस खाते में कितने सहेजे गए घर थे?",
+          "homeNameProofIsSkippedBecauseThisAccountHad": "गृह-नाम प्रमाण छोड़ दिया गया है क्योंकि इस खाते में कोई सहेजा गया घर नहीं था।",
+          "savedHomeNames": "सहेजे गए घर के नाम",
+          "oneRowPerHome": "(प्रति घर एक पंक्ति)",
+          "optional": "(वैकल्पिक)",
+          "savedHomeName": "घर का नाम सहेजा गया",
+          "dimensionForSavedHomeValue1": "सहेजे गए घर के लिए आयाम {{value1}}",
+          "removeSavedHomeValue1": "सहेजे गए होम {{value1}} को हटा दें",
+          "addHome": "होम जोड़ें",
+          "howManyCoordinateLocationsCanYouProvide": "आप कितने समन्वित स्थान प्रदान कर सकते हैं?",
+          "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "समन्वय प्रमाण छोड़ दिया गया है क्योंकि कोई समन्वय स्थान प्रदान नहीं किया गया था।",
+          "knownCoordinates": "ज्ञात निर्देशांक",
+          "oneRowPerLocation": "(प्रति स्थान एक पंक्ति)",
+          "dimensionForCoordinateValue1": "समन्वय {{value1}} के लिए आयाम",
+          "removeCoordinateValue1": "निर्देशांक {{value1}} हटाएं",
+          "addCoordinate": "समन्वय जोड़ें",
+          "approximateCoordinatesAreOkayIfTheyPointNearA": "अनुमानित निर्देशांक ठीक हैं यदि वे किसी आधार, गुप्त स्थान, या सहेजे गए घर के पास इंगित करते हैं।",
+          "iRememberWhereILastLoggedOut": "मुझे याद है कि मैंने आखिरी बार कहां लॉग आउट किया था",
+          "lastLogoutLocation": "अंतिम लॉगआउट स्थान",
+          "dimensionForLastLogoutLocation": "अंतिम लॉगआउट स्थान के लिए आयाम",
+          "thisIsStrongProofIfYouRememberWhereYou": "यदि आपको याद है कि आपने कहां कनेक्शन काटा था तो यह पुख्ता सबूत है।",
+          "otherDetails": "अन्य विवरण",
+          "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "इन्वेंटरी आइटम, तलवार के नाम, अलिखित पुस्तक सामग्री, पालतू जानवरों के नाम...",
+          "submitProofCalculateScore": "प्रमाण जमा करें और स्कोर की गणना करें"
+        },
+        "resetPasswordStep": {
+          "setNewPassword": "नया पासवर्ड सेट करें",
+          "yourIdentityHasBeenVerifiedChooseANewPassword": "आपकी पहचान सत्यापित कर दी गई है. अपने खाते के लिए एक नया पासवर्ड चुनें.",
+          "newPassword": "नया पासवर्ड",
+          "minimum8Characters": "न्यूनतम 8 अक्षर",
+          "confirmPassword": "पासवर्ड की पुष्टि कीजिये",
+          "reEnterYourNewPassword": "अपना नया पासवर्ड पुनः दर्ज करें",
+          "resetPassword": "पासवर्ड रीसेट"
+        },
+        "startStep": {
+          "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
+          "yourminecraftname": "YourMinecraftName",
+          "verification": "सत्यापन",
+          "continue": "जारी रखना"
+        },
+        "successStep": {
+          "recoveryFlowCompletedForThisSession": "इस सत्र के लिए पुनर्प्राप्ति प्रवाह पूरा हो गया.",
+          "startNewRecovery": "नई पुनर्प्राप्ति प्रारंभ करें"
+        },
+        "verifyEmailCodeStep": {
+          "emailVerification": "ईमेल सत्यापन",
+          "a6DigitCodeHasBeenSentToYour": "आपके ईमेल पर 6 अंकों का कोड भेजा गया है। यदि आपको अपना स्पैम फ़ोल्डर दिखाई न दे तो उसकी जाँच करें।",
+          "emailVerificationCode": "ईमेल सत्यापन कोड",
+          "text6DigitCode": "6 अंकीय कोड",
+          "verifyCode": "कोड सत्यापित करें"
+        }
+      }
+    },
+    "block": {
+      "page": {
+        "error": "गलती",
+        "noBlockTokenProvided": "कोई ब्लॉक टोकन प्रदान नहीं किया गया.",
+        "loading": "लोड हो रहा है",
+        "success": "सफलता",
+        "recoveryAttemptHasBeenBlockedSuccessfully": "पुनर्प्राप्ति प्रयास सफलतापूर्वक अवरुद्ध कर दिया गया है.",
+        "failedToBlockRecoveryAttempt": "पुनर्प्राप्ति प्रयास को अवरुद्ध करने में विफल.",
+        "anErrorOccurredPleaseTryAgainLater": "एक त्रुटि पाई गई। कृपया बाद में पुन: प्रयास करें।",
+        "noBlockTokenProvidedInTheUrl": "यूआरएल में कोई ब्लॉक टोकन प्रदान नहीं किया गया है।",
+        "accountSecurity": "खाता सुरक्षा",
+        "block": "अवरोध पैदा करना",
+        "recovery": "वसूली",
+        "ifYouDidNotInitiateAnAccountRecoveryClick": "यदि आपने खाता पुनर्प्राप्ति शुरू नहीं की है, तो प्रयास को रोकने और अपने खाते की सुरक्षा के लिए नीचे दिए गए बटन पर क्लिक करें।",
+        "confirmBlock": "ब्लॉक की पुष्टि करें",
+        "blockThisRecoveryAttempt": "इस पुनर्प्राप्ति प्रयास को रोकें",
+        "processing": "प्रसंस्करण...",
+        "accountProtected": "खाता सुरक्षित",
+        "thisBlockIsPermanentTheAccountOwnerConfirmedThey": "यह ब्लॉक स्थायी है. खाता स्वामी ने पुष्टि की कि उन्होंने इस पुनर्प्राप्ति प्रयास को अधिकृत नहीं किया है।"
+      }
+    },
+    "page": {
+      "accountSecurity": "खाता सुरक्षा",
+      "account": "खाता",
+      "recovery": "वसूली",
+      "completeTheRecoveryFlowToProveAccountOwnershipAnd": "खाते का स्वामित्व साबित करने और पहुंच बहाल करने के लिए पुनर्प्राप्ति प्रवाह को पूरा करें। सुरक्षा कारणों से, प्रतिक्रियाएँ जानबूझकर सामान्य होती हैं।"
+    },
+    "reset": {
+      "page": {
+        "error": "गलती",
+        "noResetTokenProvidedInTheUrl": "यूआरएल में कोई रीसेट टोकन प्रदान नहीं किया गया है।",
+        "loading": "लोड हो रहा है",
+        "success": "सफलता",
+        "passwordHasBeenResetSuccessfully": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है.",
+        "idle": "निठल्ला",
+        "accountSecurity": "खाता सुरक्षा",
+        "reset": "रीसेट करें",
+        "password": "पासवर्ड",
+        "yourRecoveryRequestWasApprovedSetANewPassword": "आपका पुनर्प्राप्ति अनुरोध स्वीकृत हो गया था. नीचे अपने खाते के लिए एक नया पासवर्ड सेट करें।",
+        "newPassword": "नया पासवर्ड",
+        "passwordResetComplete": "पासवर्ड रीसेट पूर्ण",
+        "minimum8Characters": "न्यूनतम 8 अक्षर",
+        "confirmPassword": "पासवर्ड की पुष्टि कीजिये",
+        "reEnterYourPassword": "अपना पासवर्ड पुनः दर्ज करें",
+        "resetPassword": "पासवर्ड रीसेट"
+      }
+    }
+  }
+}
