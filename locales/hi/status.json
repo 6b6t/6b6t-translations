@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "statusClient": {
+      "failedToFetchServerStatus": "सर्वर स्थिति लाने में विफल",
+      "text6b6tServerStatus": "6b6t सर्वर स्थिति",
+      "realTimeServerInformationAndPlayerStatistics": "वास्तविक समय सर्वर जानकारी और खिलाड़ी आँकड़े",
+      "lastUpdated": "आखरी अपडेट:",
+      "loading": "लोड हो रहा है...",
+      "refresh": "ताज़ा करना",
+      "currentPlayers": "मौजूदा खिलाड़ी",
+      "connectionFailed": "कनेक्शन विफल",
+      "playersOnline": "खिलाड़ी ऑनलाइन",
+      "online": "ऑनलाइन",
+      "offline": "ऑफलाइन",
+      "serverLimit": "सर्वर सीमा",
+      "maximumCapacity": "अधिकतम योग्यता",
+      "capacity": "क्षमता",
+      "version": "संस्करण",
+      "minecraftVersion": "minecraft संस्करण",
+      "serverAddress": "सर्वर पता",
+      "ping": "गुनगुनाहट",
+      "ms": "एमएस"
+    },
+    "statusPageContent": {
+      "failedToFetchServerStatus": "सर्वर स्थिति लाने में विफल",
+      "text6b6tServerStatus": "6b6t सर्वर स्थिति",
+      "realTimeServerInformationAndPlayerStatistics": "वास्तविक समय सर्वर जानकारी और खिलाड़ी आँकड़े",
+      "lastUpdated": "आखरी अपडेट:",
+      "loading": "लोड हो रहा है...",
+      "refresh": "ताज़ा करना",
+      "currentPlayers": "मौजूदा खिलाड़ी",
+      "connectionFailed": "कनेक्शन विफल",
+      "playersOnline": "खिलाड़ी ऑनलाइन",
+      "online": "ऑनलाइन",
+      "offline": "ऑफलाइन",
+      "serverLimit": "सर्वर सीमा",
+      "maximumCapacity": "अधिकतम योग्यता",
+      "capacity": "क्षमता",
+      "version": "संस्करण",
+      "minecraftVersion": "minecraft संस्करण",
+      "serverAddress": "सर्वर पता",
+      "ping": "गुनगुनाहट",
+      "ms": "एमएस"
+    }
+  }
+}

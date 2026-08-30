@@ -1,0 +1,37 @@
+{
+  "page-name": "आदेश",
+  "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg और अधिक सहित आवश्यक 6b6t कमांड के बारे में जानें।",
+  "sections": {
+    "commandsList": {
+      "bestMatches": "सर्वश्रेष्ठ मैच",
+      "free": "मुक्त",
+      "primeUltra": "Prime Ultra",
+      "border55ffffBg55ffffTextBlack": "बॉर्डर-[#55एफएफएफएफ] बीजी-[#55एफएफएफएफ] टेक्स्ट-काला",
+      "borderFfff55BgFfff55TextBlack": "सीमा-[#एफएफएफएफ55] बीजी-[#एफएफएफएफ55] पाठ-काला",
+      "eliteUltra": "Elite Ultra",
+      "borderFfaa00BgFfaa00TextBlack": "सीमा-[#FFAA00] बीजी-[#FFAA00] पाठ-काला",
+      "borderFfd700BgFfd700TextBlack": "बॉर्डर-[#FFD700] bg-[#FFD700] टेक्स्ट-ब्लैक",
+      "commandsList": "आदेश सूची",
+      "availableServerCommands": "उपलब्ध सर्वर कमांड",
+      "useTheFiltersToFindTheCommandYouNeed": "श्रेणी, रैंक आवश्यकता या कमांड नाम के आधार पर आपको आवश्यक कमांड ढूंढने के लिए फ़िल्टर का उपयोग करें।",
+      "search": "खोज",
+      "searchCommands": "आदेश खोजें...",
+      "category": "वर्ग",
+      "rankRequirement": "रैंक की आवश्यकता",
+      "command": "आज्ञा",
+      "description": "विवरण",
+      "example": "उदाहरण",
+      "rank": "पद",
+      "value1Value2": "{{value1}}-{{value2}}",
+      "fullExample": "पूरा उदाहरण:",
+      "noCommandsFoundMatchingYourFilters": "आपके फ़िल्टर से मेल खाता कोई आदेश नहीं मिला.",
+      "premiumCommands": "प्रीमियम कमांड",
+      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Prime, Prime Ultra, Elite, Elite Ultra, Apex, और Legend द्वारा अनलॉक किए गए कमांड का पूर्वावलोकन करने के लिए उपरोक्त रैंक फ़िल्टर का उपयोग करें।",
+      "viewPremiumRanks": "प्रीमियम रैंक देखें"
+    },
+    "page": {
+      "text6b6tServerCommands": "6b6t सर्वर कमांड",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "6b6t Minecraft अराजकता सर्वर पर उपलब्ध आदेशों की पूरी सूची"
+    }
+  }
+}
