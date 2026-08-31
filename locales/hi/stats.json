@@ -1,0 +1,41 @@
+{
+  "page-name": "आँकड़े",
+  "seo-description": "विभिन्न श्रेणियों में हमारे शीर्ष खिलाड़ियों को देखें",
+  "sections": {
+    "username": {
+      "page": {
+        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} 6b6t.org पर एक खिलाड़ी है। 6b6t Minecraft अराजकता सर्वर पर उनके खेलने का समय, हत्याएं, मौतें और अन्य आँकड़े देखें।",
+        "viewValue1SStatsOn6b6tOrgTheBest": "6b6t.org पर {{value1}} के आँकड़े देखें। 6b6t आँकड़ों के लिए सर्वोत्तम स्थान।"
+      }
+    },
+    "leaderboardStatisticCard": {
+      "rank": "पद",
+      "name": "नाम",
+      "value": "कीमत",
+      "value1Value2": "{{value1}}{{value2}}",
+      "noDataAvailableForThisTimeRange": "इस समय सीमा के लिए कोई डेटा उपलब्ध नहीं है",
+      "playersRanked": "खिलाड़ियों को स्थान दिया गया",
+      "previousPage": "पिछला पृष्ठ",
+      "nextPage": "अगला पृष्ठ"
+    },
+    "loading": {
+      "loadingSpinner": "स्पिनर लोड हो रहा है",
+      "loadingStatistics": "आँकड़े लोड हो रहे हैं..."
+    },
+    "playerStatsSearch": {
+      "playerStatsSearch": "खिलाड़ी आँकड़े खोजें",
+      "lookUpAnyPlayer39SStatistics": "किसी भी प्लेयर&#39;s आँकड़े देखें",
+      "enterMinecraftUsername": "Minecraft उपयोगकर्ता नाम दर्ज करें...",
+      "search": "खोज"
+    },
+    "statsPageContent": {
+      "playerStatistics": "खिलाड़ी सांख्यिकी",
+      "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "विभिन्न आँकड़ों में 6b6t पर शीर्ष खिलाड़ियों को देखें। किसी विशिष्ट खिलाड़ी को खोजें या नीचे लीडरबोर्ड ब्राउज़ करें।",
+      "statsReset": "आँकड़े रीसेट:",
+      "statsWereResetOnMay222026DueTo": "डेटा भ्रष्टाचार के कारण 22 मई, 2026 को आँकड़े रीसेट कर दिए गए और उन्हें पुनर्प्राप्त नहीं किया जा सका।",
+      "underMaintenance": "रखरखाव जारी",
+      "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "यह आँकड़ा अस्थायी रूप से अनुपलब्ध है. हम यथाशीघ्र आपके लिए नवीनतम लीडरबोर्ड डेटा लाने पर काम कर रहे हैं।",
+      "loadingStatisticsData": "सांख्यिकी डेटा लोड हो रहा है..."
+    }
+  }
+}

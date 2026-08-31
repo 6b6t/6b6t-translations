@@ -1,0 +1,630 @@
+{
+  "sections": {
+    "app": {
+      "actions": {
+        "motd": {
+          "revisionRequested": "पुनरीक्षण_अनुरोध",
+          "paidPendingReview": "भुगतान_लंबित_समीक्षा"
+        },
+        "printify": {
+          "signInAgainBeforeClaiming": "दावा करने से पहले दोबारा साइन इन करें.",
+          "checkTheShippingDetails": "शिपिंग विवरण की जाँच करें.",
+          "theClaimCouldNotBeProcessed": "दावा संसाधित नहीं किया जा सका.",
+          "signInAgainBeforeApplying": "आवेदन करने से पहले दोबारा साइन इन करें.",
+          "checkTheApplicationDetails": "आवेदन विवरण जांचें.",
+          "theHistoricalRequestCouldNotBeSubmitted": "ऐतिहासिक अनुरोध सबमिट नहीं किया जा सका."
+        },
+        "shopTracking": {
+          "unknownError": "अज्ञात त्रुटि"
+        },
+        "stripe": {
+          "subscription": "सदस्यता",
+          "payment": "भुगतान",
+          "pay": "वेतन",
+          "whoIsThisGiftFrom": "यह उपहार किसका है?",
+          "custom": "रिवाज़",
+          "text": "मूलपाठ",
+          "giftMessage": "उपहार संदेश",
+          "hosted": "की मेजबानी",
+          "rankForValue1": "{{value1}} के लिए रैंक"
+        }
+      },
+      "components": {
+        "langLayout": {
+          "text6b6tMinecraftServer": "6b6t Minecraft सर्वर",
+          "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "सबसे बड़ा Minecraft अराजकता सर्वर जिसमें कोई नियम और कोई कतार नहीं है। /tpa और /home जैसे आवश्यक कमांड के साथ Java और Bedrock दोनों संस्करणों का समर्थन करता है।",
+          "text6b6tMinecraftAnarchyServer": "6b6t Minecraft अराजकता सर्वर",
+          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "बिना किसी नियम, बिना कतार और 2000+ प्लेयर क्षमता वाले सबसे बड़े Minecraft अराजकता सर्वर से जुड़ें। Java और Bedrock दोनों संस्करणों पर /tpa और /home जैसे आवश्यक कमांड के साथ वास्तविक अराजकता का अनुभव करें।",
+          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft अराजकता सर्वर, 6b6t, कोई नियम सर्वर नहीं, मुफ्त Minecraft सर्वर, अराजकता गेमप्ले, Minecraft PvP, उत्तरजीविता सर्वर"
+        }
+      },
+      "manifest": {
+        "text6b6tWebsite": "6b6t वेबसाइट"
+      }
+    },
+    "bottomSocialProof": {
+      "joinThe": "शामिल होना",
+      "community": "समुदाय",
+      "happyCustomers": "खुश ग्राहक",
+      "uniquePlayers": "अनोखे खिलाड़ी",
+      "satisfactionRate": "संतुष्टि दर",
+      "starRatingValue1Of5": "5 की स्टार रेटिंग {{value1}}",
+      "text495AverageRating": "4.9/5 औसत रेटिंग",
+      "shoppingCart": "शॉपिंग कार्ट",
+      "shopNow": "अभी खरीदें",
+      "arrowRight": "दाईं ओर तीर लगाएं",
+      "browseOurExclusiveRanksAndPerks": "हमारे विशेष रैंक और लाभ ब्राउज़ करें"
+    },
+    "communityEventCountdown": {
+      "days": "दिन",
+      "hours": "घंटे",
+      "minutes": "मिनट",
+      "seconds": "सेकंड",
+      "finalizingPurchases": "खरीदारी को अंतिम रूप दिया जा रहा है...",
+      "eventEnded": "कार्यक्रम समाप्त हुआ",
+      "value1DaysValue2HoursValue3MinutesValue4SecondsRemaining": "{{value1}} दिन, {{value2}} घंटे, {{value3}} मिनट, {{value4}} सेकंड शेष",
+      "upgradedFrom": "से अपग्रेड किया गया",
+      "to": "को",
+      "boughtThe": "खरीद लिया",
+      "rank": "पद.",
+      "addedToTheDupeEvent": "डुप इवेंट में जोड़ा गया",
+      "finalizing": "अंतिम रूप दिया जा",
+      "ended": "समाप्त",
+      "live": "रहना",
+      "theDupeEventHasEnded": "डुप्पे इवेंट ख़त्म हो गया है.",
+      "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "कार्यक्रम में भाग लेने और इसे अविस्मरणीय बनाने के लिए धन्यवाद। अपनी लूट को सुरक्षित रखें—6b6t पर अराजकता जारी है।",
+      "keepPlaying": "खेलत रहो",
+      "dupeEvent": "नकल घटना",
+      "viewEvent": "घटना देखें",
+      "manyPowerfulDupesAreEnabledOn6b6t": "6b6t पर कई शक्तिशाली डुप्लिकेट सक्षम हैं।",
+      "dupeAsMuchAsYouCanCreateStashesAnd": "जितना हो सके धोखा दें, छुपी जगहें बनाएं और ऐसे अड्डे बनाएं जो सालों तक टिके रहें।",
+      "important": "महत्वपूर्ण:",
+      "toJoinInstall": "शामिल होने के लिए, इंस्टॉल करें",
+      "anarchymod": "AnarchyMod",
+      "becauseMojangBlacklisted6b6t": "क्योंकि Mojang ने 6b6t को काली सूची में डाल दिया है।",
+      "downloadAnarchymod": "AnarchyMod डाउनलोड करें",
+      "eventEndingIn": "इवेंट ख़त्म हो रहा है",
+      "eventExtension": "घटना विस्तार",
+      "buyARankFromThe": "से एक रैंक खरीदें",
+      "text6b6tShop": "6b6t दुकान",
+      "toExtendTheDupeEvent": "डुप इवेंट का विस्तार करने के लिए।",
+      "shopNow": "अभी खरीदें",
+      "text6b6tOnYoutube": "YouTube पर 6b6t",
+      "youtube": "YouTube",
+      "joinThe6b6tDiscord": "6b6t Discord से जुड़ें",
+      "discord": "Discord",
+      "text6b6tOnReddit": "Reddit पर 6b6t",
+      "reddit": "Reddit",
+      "contact6b6tOrg": "contact@6b6t.org",
+      "eligibleRankPurchasesAddTimeToTheEventFor": "योग्य रैंक की खरीदारी से सभी के लिए इवेंट में समय जुड़ जाता है।",
+      "wantToExtendTheEvent": "क्या आप इवेंट को आगे बढ़ाना चाहते हैं?",
+      "purchaseAnEligibleRankBelowToAddMoreTime": "सभी के लिए डुप इवेंट में अधिक समय जोड़ने के लिए नीचे एक योग्य रैंक खरीदें।",
+      "viewRanks": "रैंक देखें"
+    },
+    "developmentThemeSwitcher": {
+      "themeIsNowFixedToSnowySiteWide": "थीम अब पूरी साइट पर SNOWY पर तय कर दी गई है",
+      "fixed": "स्थिर"
+    },
+    "gallery": {
+      "gallery": {
+        "errorLoadingGallery": "गैलरी लोड करने में त्रुटि",
+        "retry": "पुन: प्रयास करें",
+        "text6b6tGallery": "6b6t गैलरी",
+        "images": "इमेजिस",
+        "featured": "प्रदर्शित",
+        "latest": "📅 नवीनतम:",
+        "filterOptions": "फ़िल्टर विकल्प",
+        "filters": "फिल्टर",
+        "toggleFilterPanel": "फ़िल्टर पैनल टॉगल करें",
+        "activeFilters": "सक्रिय फ़िल्टर:",
+        "category": "वर्ग:",
+        "featured2": "प्रदर्शित",
+        "showing": "दिखा",
+        "of": "का",
+        "imagesFromThe6b6tCommunity": "6b6t समुदाय से छवियाँ"
+      },
+      "galleryCard": {
+        "imageobject": "ImageObject",
+        "organization": "संगठन",
+        "text6b6tMinecraftServer": "6b6t Minecraft सर्वर",
+        "webpage": "WebPage",
+        "text6b6tGalleryMinecraftServerScreenshots": "6b6t गैलरी - Minecraft सर्वर स्क्रीनशॉट",
+        "clickToViewInLightboxCtrlClickOrMiddle": "लाइटबॉक्स में देखने के लिए क्लिक करें, नए टैब में खोलने के लिए Ctrl+क्लिक करें या मिडिल-क्लिक करें",
+        "value1Value2": "{{value1}} - {{value2}}",
+        "externalLink": "बाहरी लिंक",
+        "featured": "⭐ विशेष रुप से प्रदर्शित",
+        "author": "लेखक"
+      },
+      "galleryFilters": {
+        "categories": "श्रेणियाँ",
+        "all": "सभी",
+        "special": "विशेष",
+        "featuredOnly": "⭐ केवल विशेष रुप से प्रदर्शित",
+        "tags": "टैग",
+        "more": "अधिक",
+        "sortBy": "इसके अनुसार क्रमबद्ध करें",
+        "dateAdded": "तिथि जोड़ी",
+        "dateTaken": "दिनांक लिया गया",
+        "title": "शीर्षक",
+        "featuredFirst": "सबसे पहले प्रदर्शित",
+        "newestFirst": "सबसे पहले नवीनतम",
+        "oldestFirst": "सबसे पुराना पहले",
+        "clearAllFilters": "सभी फ़िल्टर साफ़ करें"
+      },
+      "galleryGrid": {
+        "noImagesAvailable": "कोई छवियाँ उपलब्ध नहीं",
+        "noImagesFound": "कोई चित्र नहीं मिला",
+        "tryAdjustingYourFiltersOrSearchTerms": "अपने फ़िल्टर या खोज शब्द समायोजित करने का प्रयास करें।"
+      },
+      "lightbox": {
+        "closeLightbox": "लाइटबॉक्स बंद करें",
+        "previousImage": "पिछली छवि",
+        "nextImage": "अगली छवि",
+        "value1Value2": "{{value1}}{{value2}}",
+        "of": "का"
+      }
+    },
+    "icons": {
+      "discord": "Discord"
+    },
+    "layout": {
+      "copyButton": {
+        "copied": "नकल की गई!",
+        "copy": "प्रतिलिपि"
+      },
+      "footer": {
+        "socials": "सामाजिक",
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "twitter": "Twitter",
+        "reddit": "Reddit",
+        "tiktok": "TikTok",
+        "instagram": "Instagram",
+        "telegram": "टेलीग्राम",
+        "about": "के बारे में",
+        "about6b6t": "6b6t के बारे में",
+        "votingRewards": "मतदान पुरस्कार",
+        "contact": "संपर्क",
+        "termsOfService": "सेवा की शर्तें",
+        "privacyPolicy": "गोपनीयता नीति",
+        "refundPolicy": "भुगतान वापसी की नीति",
+        "server": "सर्वर",
+        "shop": "दुकान",
+        "vote": "वोट",
+        "commands": "आदेश",
+        "stats": "आँकड़े",
+        "updates": "अपडेट",
+        "status": "स्थिति",
+        "mostUsefulCommands": "सर्वाधिक उपयोगी आदेश",
+        "text6b6tMinecraftServerLogo": "6b6t Minecraft सर्वर लोगो",
+        "text6b6t": "6b6t",
+        "minecraft": "Minecraft",
+        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t एक उत्तरजीविता Minecraft अराजकता सर्वर है जिसमें कोई नियम, कोई दंड और कोई कतार नहीं है। खिलाड़ी एक साथ 2000 खिलाड़ियों को सपोर्ट करने वाली दुनिया में जो चाहें कर सकते हैं और /tpa और /home जैसे कमांड का उपयोग कर सकते हैं।",
+        "serverAddress": "सर्वर पता:",
+        "teleportToAPlayer": "किसी खिलाड़ी को टेलीपोर्ट करें",
+        "teleportToYourHome": "अपने घर पर टेलीपोर्ट करें",
+        "sendAPrivateMessageToAPlayer": "किसी खिलाड़ी को निजी संदेश भेजें",
+        "stopSeeingMessagesFromAPlayer": "किसी खिलाड़ी के संदेश देखना बंद करें",
+        "viewVotingLinksAndRewards": "वोटिंग लिंक और पुरस्कार देखें",
+        "changeYourSkin": "अपनी त्वचा बदलें",
+        "equipBalloonCosmetics": "गुब्बारा सौंदर्य प्रसाधन सुसज्जित करें",
+        "teleportToAnActiveHotspot": "एक सक्रिय हॉटस्पॉट पर टेलीपोर्ट करें",
+        "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. सर्वाधिकार सुरक्षित। • qbasty labs FZE • contact@6b6t.org द्वारा संचालित",
+        "xTwitter": "एक्स (Twitter)"
+      },
+      "header": {
+        "home": "घर",
+        "blog": "ब्लॉग",
+        "vote": "वोट",
+        "stats": "आँकड़े",
+        "commands": "आदेश",
+        "shop": "दुकान",
+        "discord": "Discord",
+        "join": "जोड़ना",
+        "activeMembers": "सक्रिय सदस्य",
+        "text6b6t": "6b6t",
+        "hytale": "Hytale",
+        "about": "के बारे में",
+        "hytaleAnarchyServer": "Hytale अराजकता सर्वर"
+      },
+      "languageSwitcher": {
+        "language": "भाषा"
+      },
+      "mobileNav": {
+        "home": "घर",
+        "about": "के बारे में",
+        "discord": "Discord",
+        "youtube": "YouTube",
+        "reddit": "Reddit",
+        "playNow": "अब खेलते हैं"
+      },
+      "nav": {
+        "home": "घर",
+        "stats": "आँकड़े",
+        "commands": "आदेश",
+        "shop": "दुकान",
+        "account": "खाता",
+        "hytale": "Hytale",
+        "updates": "अपडेट",
+        "history": "इतिहास",
+        "blog": "ब्लॉग",
+        "antispam": "स्पैम - विरोधी",
+        "vote": "वोट",
+        "accountRecovery": "खाता पुनर्प्राप्ति",
+        "contact": "संपर्क",
+        "mainNavigation": "मुख्य नेविगेशन",
+        "text6b6tLogo": "6b6t लोगो",
+        "text6b": "6b",
+        "text6t": "6t",
+        "theBiggestAnarchyServer": "सबसे बड़ा अराजकता सर्वर",
+        "joinDiscord": "Discord से जुड़ें",
+        "discord": "Discord",
+        "members": "सदस्यों",
+        "about": "के बारे में",
+        "youtube": "YouTube",
+        "reddit": "Reddit",
+        "playNow": "अब खेलते हैं",
+        "toggleMobileMenu": "मोबाइल मेनू टॉगल करें"
+      },
+      "paymentMethodsShowcase": {
+        "acceptedPaymentMethods": "स्वीकृत भुगतान विधियाँ",
+        "cardsAndWallets": "कार्ड और वॉलेट",
+        "visa": "वीज़ा",
+        "mastercard": "मास्टर कार्ड",
+        "paypal": "PayPal",
+        "crypto": "क्रिप्टो",
+        "applePay": "एप्पल पे",
+        "googlePay": "गूगल पे",
+        "alipay": "Alipay",
+        "ideal": "iDEAL",
+        "bancontact": "बैनसंपर्क",
+        "eps": "EPS"
+      }
+    },
+    "milestoneProgress": {
+      "communityEvent": "सामुदायिक आयोजन",
+      "rankPurchasesContributeTowardTheNextCommunityEvent": "रैंक की खरीदारी अगले सामुदायिक आयोजन में योगदान करती है।",
+      "communityGoal": "सामुदायिक लक्ष्य",
+      "allRankPurchasesContributeToReachingTheCommunityGoal": "सभी रैंक की खरीदारी सामुदायिक लक्ष्य तक पहुंचने में योगदान करती है।",
+      "communityGoalProgress": "सामुदायिक लक्ष्य प्रगति",
+      "communityGoalReachedTheDupeEventHasBeenUnlocked": "सामुदायिक लक्ष्य प्राप्त हुआ. डुप्पे इवेंट को अनलॉक कर दिया गया है।",
+      "communityGoalReached": "सामुदायिक लक्ष्य प्राप्त हुआ!"
+    },
+    "modeToggle": {
+      "currentThemeSnowySiteWide": "वर्तमान विषय: बर्फीला (साइट-व्यापी)",
+      "defaultDisabled": "डिफ़ॉल्ट (अक्षम)",
+      "snowyActiveSiteWide": "बर्फीला (सक्रिय साइट-व्यापी)"
+    },
+    "motion": {
+      "username": {
+        "loggedInAs": "के रूप में लॉग इन किया गया",
+        "change": "परिवर्तन",
+        "setYourMinecraftUsername": "अपना Minecraft उपयोगकर्ता नाम सेट करें",
+        "enterMinecraftUsername": "Minecraft उपयोगकर्ता नाम दर्ज करें",
+        "dinnerbone": "डिनरबोन",
+        "thisWillBeUsedToLinkYourPurchasesTo": "इसका उपयोग आपकी खरीदारी को आपके Minecraft खाते से लिंक करने के लिए किया जाएगा।",
+        "loading": "लोड हो रहा है..."
+      }
+    },
+    "paymentBrandLogos": {
+      "crypto": "क्रिप्टो",
+      "klarna": "Klarna",
+      "cashApp": "Cash App",
+      "blik": "BLIK",
+      "upi": "UPI",
+      "twint": "TWINT",
+      "paysafecard": "PaysafeCard",
+      "value1Logo": "{{value1}} लोगो"
+    },
+    "paymentIcons": {
+      "paypal": "PayPal",
+      "visa": "वीज़ा",
+      "mastercard": "मास्टर कार्ड",
+      "applePay": "एप्पल पे",
+      "googlePay": "गूगल पे",
+      "alipay": "Alipay",
+      "ideal": "iDEAL",
+      "bancontact": "बैनसंपर्क",
+      "eps": "EPS",
+      "eps2": "ईपीएस",
+      "linkByStripe": "स्ट्राइप द्वारा लिंक",
+      "mobilepay": "MobilePay",
+      "cartesBancaires": "कार्टेस बैंकेयर्स",
+      "cb": "CB"
+    },
+    "recentBuyers": {
+      "primeEliteUpgrade": "Prime → Elite अपग्रेड",
+      "apex": "Apex",
+      "legend3Months": "Legend (3 महीने)",
+      "primeApexUpgrade": "Prime → Apex अपग्रेड",
+      "elite": "Elite",
+      "rankExtensions": "रैंक विस्तार",
+      "dupeEventRankExtensions": "डुप इवेंट रैंक एक्सटेंशन",
+      "everyEligibleRankPurchaseAndUpgradeAddsTheTime": "प्रत्येक योग्य रैंक खरीद और अपग्रेड नीचे दिए गए समय को लाइव इवेंट उलटी गिनती में जोड़ता है।",
+      "rankOrUpgrade": "रैंक या अपग्रेड",
+      "type": "प्रकार",
+      "eventExtension": "घटना विस्तार",
+      "prime": "Prime",
+      "recentExtensions": "हाल के एक्सटेंशन",
+      "playersHaveExtendedTheDupeEventBy": "खिलाड़ियों ने डुप इवेंट को आगे बढ़ा दिया है",
+      "inTotal": "कुल मिलाकर।",
+      "showing": "दिखा",
+      "of": "का",
+      "extensions": "एक्सटेंशन",
+      "upgradedFrom": "से अपग्रेड किया गया",
+      "to": "को",
+      "rank": "पद",
+      "purchasedThe": "खरीद लिया",
+      "extendedTheDupeEventBy": "द्वारा डुप्पे इवेंट का विस्तार किया गया",
+      "noRankPurchasesHaveExtendedTheEventYet": "अभी तक किसी भी रैंक की खरीदारी ने इवेंट को आगे नहीं बढ़ाया है।",
+      "loadingExtensions": "एक्सटेंशन लोड हो रहे हैं...",
+      "showLess": "कम दिखाओ",
+      "showMore": "और दिखाएँ",
+      "couldNotLoadTheFullListTryAgain": "पूरी सूची लोड नहीं हो सकी. पुनः प्रयास करें।"
+    },
+    "reviewCard": {
+      "value1Avatar": "{{value1}} अवतार",
+      "discordLogo": "Discord लोगो",
+      "fullStar": "पूर्ण सितारा",
+      "halfStar": "आधा तारा",
+      "emptyStar": "खाली तारा",
+      "halfStarFill": "आधा सितारा भरा",
+      "screenshots": "स्क्रीनशॉट (",
+      "images": "इमेजिस)",
+      "screenshotValue1ByValue2": "{{value2}} द्वारा स्क्रीनशॉट {{value1}}",
+      "searchIconClickToViewImage": "खोज आइकन - छवि देखने के लिए क्लिक करें",
+      "reviewScreenshotsFromValue1": "{{value1}} से स्क्रीनशॉट की समीक्षा करें",
+      "closeModal": "मोडल बंद करें",
+      "previousImage": "पिछली छवि",
+      "nextImage": "अगली छवि",
+      "goToImageValue1": "छवि {{value1}} पर जाएँ"
+    },
+    "reviewSlideshow": {
+      "prime": "Prime",
+      "elite": "Elite",
+      "apex": "Apex",
+      "reviews": "समीक्षा",
+      "whatOurCommunitySaysAboutTheirExperience": "हमारा समुदाय अपने अनुभव के बारे में क्या कहता है",
+      "averageRating": "औसत श्रेणी",
+      "verified": "सत्यापित",
+      "players": "खिलाड़ी",
+      "goToSlideGroupValue1": "स्लाइड समूह {{value1}} पर जाएँ",
+      "of": "का"
+    },
+    "socialIcons": {
+      "socialIcon": "सामाजिक चिह्न"
+    },
+    "socialProofSection": {
+      "amazingServerTheApexRankIsAbsolutelyWorthIt": "अद्भुत सर्वर! Apex रैंक बिल्कुल इसके लायक है। समुदाय शानदार है और मुझे कभी भी अंतराल संबंधी किसी समस्या का अनुभव नहीं हुआ। स्टाफ टीम भी बहुत मददगार है!",
+      "unitedStates": "संयुक्त राज्य अमेरिका",
+      "beenPlayingFor6MonthsNowWithEliteRank": "Elite रैंक के साथ अब 6 महीने से खेल रहा हूं। उपकरण और अनुमतियाँ गेम-चेंजिंग हैं। Minecraft के लिए मैंने सबसे अच्छा निवेश किया है!",
+      "canada": "कनाडा",
+      "justUpgradedToLegendRankLastWeekAndWow": "पिछले सप्ताह ही Legend रैंक पर अपग्रेड किया गया और वाह! सुविधाएँ अविश्वसनीय हैं. अकेले प्राथमिकता कतार से मेरा बहुत समय बचता है। 10/10 अनुशंसा करेंगे!",
+      "unitedKingdom": "यूनाइटेड किंगडम",
+      "verifiedCheckmark": "सत्यापित चेकमार्क",
+      "over": "ऊपर",
+      "satisfiedCustomers": "+ संतुष्ट ग्राहक",
+      "realReviewsFrom": "से वास्तविक समीक्षाएँ",
+      "discordMembers": "Discord सदस्य",
+      "verifiedPurchasesFromOurDiscordCommunity": "हमारे Discord समुदाय से सत्यापित खरीदारी"
+    },
+    "stats": {
+      "backgroundRenderer": {
+        "background": "पृष्ठभूमि"
+      },
+      "backgroundSelector": {
+        "chooseBackground": "पृष्ठभूमि चुनें",
+        "selectAServerScreenshot30OpacityCoverMode": "एक सर्वर स्क्रीनशॉट चुनें (30% अस्पष्टता, कवर मोड)",
+        "removeBackground": "पृष्ठभूमि निकालें",
+        "backgroundSettings": "पृष्ठभूमि सेटिंग्स",
+        "position": "पद",
+        "cover": "ढकना",
+        "center": "केंद्र",
+        "repeat": "दोहराना",
+        "blendMode": "ब्लेंड मोड",
+        "overlay": "उपरिशायी",
+        "multiply": "गुणा",
+        "screen": "स्क्रीन",
+        "opacity": "अपारदर्शिता:",
+        "applyBlurEffect": "धुंधला प्रभाव लागू करें",
+        "loadingGalleryImages": "गैलरी छवियाँ लोड हो रही हैं..."
+      },
+      "enhancedThemeControls": {
+        "autoSaveFailed": "स्वतः-सहेजना विफल",
+        "colors": "रंग",
+        "background": "पृष्ठभूमि",
+        "color": "रंग",
+        "enhancedThemeCustomization": "उन्नत थीम अनुकूलन",
+        "unsavedChanges": "सहेजे न गए परिवर्तन",
+        "saving": "सहेजा जा रहा है...",
+        "allChangesSaved": "सभी परिवर्तन सहेजे गए",
+        "reset": "रीसेट करें",
+        "saved": "सहेजा गया!",
+        "error": "गलती",
+        "save": "बचाना",
+        "backgroundImage": "पृष्ठभूमि छवि",
+        "chooseAServerScreenshotAsYourBackground": "अपनी पृष्ठभूमि के रूप में एक सर्वर स्क्रीनशॉट चुनें",
+        "changeBackground": "पृष्ठिका बदलो",
+        "chooseBackground": "पृष्ठभूमि चुनें",
+        "backgroundSelected": "पृष्ठभूमि चयनित",
+        "text30OpacityCoverMode": "30% अपारदर्शिता • कवर मोड"
+      },
+      "giftBadgeDisplay": {
+        "text2025ChristmasLobbyChallengeBadge": "2025 क्रिसमस लॉबी चैलेंज बैज",
+        "text2025NewYearGiftEventBadge": "2025 नए साल का उपहार कार्यक्रम बैज",
+        "completedThe2025ChristmasLobbyChallenge": "2025 क्रिसमस लॉबी चैलेंज पूरा किया"
+      },
+      "legendThemeProvider": {
+        "golden": "सुनहरा",
+        "crimson": "गहरा लाल",
+        "emerald": "पन्ना",
+        "sapphire": "नीलम",
+        "sunshine": "धूप",
+        "amethyst": "बिल्लौर",
+        "ember": "अंगार",
+        "rose": "गुलाब",
+        "off": "बंद",
+        "sky": "आकाश",
+        "ocean": "महासागर",
+        "navy": "नौसेना",
+        "ice": "बर्फ़",
+        "cherry": "चेरी",
+        "wine": "शराब",
+        "ruby": "रूबी",
+        "brick": "ईंट",
+        "forest": "जंगल",
+        "lime": "नींबू",
+        "mint": "पुदीना",
+        "olive": "जैतून",
+        "lavender": "लैवेंडर",
+        "magenta": "मैजेंटा",
+        "indigo": "नील",
+        "peach": "आड़ू",
+        "rust": "जंग",
+        "coral": "मूंगा",
+        "carbon": "कार्बन",
+        "silver": "चाँदी",
+        "pearl": "मोती",
+        "cyber": "साइबर",
+        "electric": "बिजली",
+        "plasma": "प्लाज्मा",
+        "cotton": "कपास",
+        "dream": "सपना",
+        "whisper": "फुसफुसाना",
+        "shadow": "छाया",
+        "midnight": "मध्यरात्रि",
+        "abyss": "रसातल",
+        "tropical": "उष्णकटिबंधीय",
+        "sunset": "सूर्यास्त",
+        "aurora": "अरोड़ा",
+        "snowy": "हिमाच्छन्न"
+      },
+      "playerBadgeDisplay": {
+        "text2025HalloweenChallengeBadge": "2025 हैलोवीन चैलेंज बैज",
+        "completedThe2025HalloweenLobbyChallenge": "2025 हैलोवीन लॉबी चैलेंज पूरा किया"
+      },
+      "playerEffectDisplay": {
+        "fireMaster": "फायर मास्टर",
+        "blazingFlamesAndEmberEffectsCombat": "धधकती लपटें और अंगारे का प्रभाव। (लड़ाई)",
+        "natureGuardian": "प्रकृति संरक्षक",
+        "flowingLeavesAndMagicalGreenEnergyNature": "बहती पत्तियाँ और जादुई हरित ऊर्जा। (प्रकृति)",
+        "legendaryChampion": "महान चैंपियन",
+        "celestialLightAndCosmicEnergyAuraPrestige": "आकाशीय प्रकाश और ब्रह्मांडीय ऊर्जा आभा। (प्रतिष्ठा)",
+        "loadingEffect": "प्रभाव लोड हो रहा है...",
+        "profileEffect": "प्रोफ़ाइल प्रभाव:"
+      },
+      "playerStatsFaq": {
+        "total": "कुल",
+        "totalKills": "कुल हत्याएं",
+        "whenDidValue1Join6b6t": "{{value1}}, 6b6t में कब शामिल हुआ?",
+        "value1Joined6b6tOrgForTheFirstTimeOn": "{{value1}} पहली बार {{value2}} पर 6b6t.org से जुड़ा।",
+        "howMuchHasValue1PlayedOn6b6t": "{{value1}} ने 6b6t पर कितना खेला है?",
+        "value1HasPlayedValue2Value3On6b6t": "{{value1}} ने 6b6t पर {{value2}} {{value3}} खेला है।",
+        "value1HasNotPlayedMuchRecently": "{{value1}} हाल ही में ज्यादा नहीं खेला गया है।",
+        "howManyKillsDoesValue1HaveOn6b6t": "6b6t पर {{value1}} ने कितनी हत्याएं कीं?",
+        "value1HasValue2Value3OnTheServer": "{{value1}} के सर्वर पर {{value2}} {{value3}} है।",
+        "value1HasNoRecordedKillsYet": "{{value1}} में अभी तक कोई हत्या दर्ज नहीं की गई है।",
+        "whatIsValue1SRankOn6b6t": "6b6t पर {{value1}} की रैंक क्या है?",
+        "value1IsARegularPlayerOn6b6t": "{{value1}}, 6b6t का नियमित खिलाड़ी है।",
+        "value1HasTheValue2RankOn6b6t": "{{value1}} की 6b6t पर {{value2}} रैंक है।",
+        "whereCanISeeValue1SPlayingHistory": "मैं {{value1}} का खेल इतिहास कहां देख सकता हूं?",
+        "youCanViewValue1SCompleteStatsHistoryIncluding": "आप {{value1}} का संपूर्ण आँकड़ा इतिहास देख सकते हैं, जिसमें खेलने का समय, हत्याएँ, मौतें और बहुत कुछ शामिल है, यहीं उनके 6b6t प्रोफ़ाइल पृष्ठ पर।",
+        "frequentlyAskedQuestionsAbout": "के बारे में अक्सर पूछे जाने वाले प्रश्न"
+      },
+      "simplifiedThemeControls": {
+        "colors": "रंग",
+        "background": "पृष्ठभूमि",
+        "themeSettings": "थीम सेटिंग्स",
+        "unsavedChanges": "सहेजे न गए परिवर्तन",
+        "saving": "सहेजा जा रहा है...",
+        "saved": "सहेजा गया",
+        "errorSaving": "सहेजने में त्रुटि",
+        "customizeYourIndividualStatsPageWithColorsAndBackgrounds": "अपने व्यक्तिगत सांख्यिकी पृष्ठ को रंगों और पृष्ठभूमियों के साथ अनुकूलित करें",
+        "chooseYourColorTheme": "अपना रंग थीम चुनें",
+        "backgroundSettings": "पृष्ठभूमि सेटिंग्स",
+        "currentBackground": "वर्तमान पृष्ठभूमि",
+        "imageValue1": "छवि: {{value1}}",
+        "noBackgroundSelected": "कोई पृष्ठभूमि चयनित नहीं",
+        "chooseBackground": "पृष्ठभूमि चुनें",
+        "position": "पद",
+        "cover": "ढकना",
+        "center": "केंद्र",
+        "repeat": "दोहराना",
+        "opacity": "अपारदर्शिता:",
+        "blendMode": "ब्लेंड मोड",
+        "overlay": "उपरिशायी",
+        "multiply": "गुणा",
+        "screen": "स्क्रीन",
+        "blurEffect": "धुंधला प्रभाव",
+        "removeBackground": "पृष्ठभूमि निकालें",
+        "resetToDefaults": "डिफ़ॉल्ट पर पुनः सेट करें",
+        "saveChanges": "परिवर्तनों को सुरक्षित करें"
+      },
+      "telegramBadgeDisplay": {
+        "text6b6tTelegramCommunityBadge": "6b6t टेलीग्राम समुदाय बैज",
+        "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "टेलीग्राम से जुड़े और वर्तमान में 6b6t समूह के सदस्य हैं"
+      },
+      "themedStatsRenderer": {
+        "legend": "legend",
+        "champion": "चैंपियन",
+        "hero": "नायक",
+        "memberSince": "🗓️से सदस्य",
+        "returnToLeaderboards": "लीडरबोर्ड पर लौटें",
+        "statsReset": "आँकड़े रीसेट",
+        "statsWereResetOnMay222026DueTo": "डेटा भ्रष्टाचार के कारण 22 मई, 2026 को आँकड़े रीसेट कर दिए गए और उन्हें पुनर्प्राप्त नहीं किया जा सका। नीचे दिखाए गए आँकड़े उस तारीख से शुरू होते हैं।",
+        "isAPlayerOfThe6b6tAnarchyMinecraftServer": "6b6t एनार्की Minecraft सर्वर का एक प्लेयर है। वे तब से सदस्य हैं",
+        "stat": "स्टेट",
+        "noStatsAvailable": "कोई आँकड़े उपलब्ध नहीं",
+        "unableToFindAnyStatsForUser": "उपयोगकर्ता के लिए कोई आँकड़े ढूँढने में असमर्थ",
+        "tryRejoiningTheServerToGetInTheStats": "💡 आँकड़े डेटाबेस में आने के लिए सर्वर से पुनः जुड़ने का प्रयास करें।"
+      },
+      "themeErrorBoundary": {
+        "themeLoadingError": "थीम लोड करने में त्रुटि",
+        "thereWasAnErrorLoadingTheThemeSettingsThis": "थीम सेटिंग लोड करने में त्रुटि हुई. इससे आपके सांख्यिकी प्रदर्शन पर कोई प्रभाव नहीं पड़ेगा.",
+        "technicalDetails": "टेक्निकल डिटेल",
+        "retryLoadingTheme": "थीम लोड करने का पुनः प्रयास करें"
+      },
+      "treeBadgeDisplay": {
+        "foundAllOfThe24ChristmasTreesDuring2025": "2025 क्रिसमस कार्यक्रम के दौरान सभी 24 क्रिसमस पेड़ मिले",
+        "text2025ChristmasEventBadge": "2025 क्रिसमस इवेंट बैज"
+      }
+    },
+    "ui": {
+      "carousel": {
+        "previousSlide": "पिछली स्लाइड",
+        "nextSlide": "अगली स्लाइड"
+      },
+      "cookieBanner": {
+        "cookieConsent": "कुकी सहमति",
+        "gdpr": "GDPR",
+        "weUseCookiesToEnhanceYourExperience": "हम आपके अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करते हैं।",
+        "privacyPolicy": "गोपनीयता नीति",
+        "decline": "गिरावट",
+        "acceptAll": "सभी स्वीकृत"
+      },
+      "dialog": {
+        "close": "बंद करना"
+      },
+      "notification": {
+        "dismissNotification": "अधिसूचना ख़ारिज करें"
+      },
+      "sheet": {
+        "close": "बंद करना"
+      },
+      "sonner": {
+        "groupToastTextMutedForeground": "समूह-[.टोस्ट]:पाठ-म्यूट-अग्रभूमि"
+      }
+    },
+    "monitoring": {
+      "shopErrorBoundary": {
+        "client": "ग्राहक",
+        "somethingWentWrong": "कुछ गलत हो गया",
+        "weReSorryButSomethingUnexpectedHappenedOurTeam": "हमें खेद है, लेकिन कुछ अप्रत्याशित हुआ। हमारी टीम को सूचित कर दिया गया है.",
+        "tryAgain": "पुनः प्रयास करें",
+        "resetPage": "पेज रीसेट करें",
+        "backToShop": "दुकान पर वापस जाएँ",
+        "errorId": "त्रुटि आईडी:"
+      }
+    }
+  }
+}
