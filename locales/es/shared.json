@@ -31,15 +31,15 @@
       },
       "components": {
         "langLayout": {
-          "text6b6tMinecraftServer": "Servidor de Minecraft 6b6t",
+          "text6b6t": "6b6t",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "El servidor anárquico de Minecraft más grande, sin reglas ni cola. Compatible con las ediciones Java y Bedrock, con comandos esenciales como /tpa y /home.",
-          "text6b6tMinecraftAnarchyServer": "Servidor anárquico de Minecraft 6b6t",
           "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Únete al servidor anárquico más grande de Minecraft, sin reglas, sin cola y con capacidad para más de 2.000 jugadores. Vive la verdadera anarquía con comandos esenciales como /tpa y /home tanto en Java como en Bedrock Edition.",
           "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "servidor anárquico de Minecraft, 6b6t, servidor sin reglas, servidor gratuito de Minecraft, jugabilidad anárquica, PvP de Minecraft, servidor de supervivencia"
         }
       },
       "manifest": {
-        "text6b6tWebsite": "Sitio web de 6b6t"
+        "text6b6tWebsite": "Sitio web de 6b6t",
+        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
       }
     },
     "bottomSocialProof": {

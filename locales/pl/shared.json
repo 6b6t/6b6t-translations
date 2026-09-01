@@ -31,15 +31,15 @@
       },
       "components": {
         "langLayout": {
-          "text6b6tMinecraftServer": "Serwer Minecraft 6b6t",
+          "text6b6t": "6b6t",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Największy serwer anarchii Minecraft bez zasad i bez kolejki. Wspiera edycje Java i Bedrock z podstawowymi komendami takimi jak /tpa i /home.",
-          "text6b6tMinecraftAnarchyServer": "Serwer anarchii Minecraft 6b6t",
           "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Dołącz do największego serwera anarchii Minecraft bez zasad, bez kolejki i z pojemnością ponad 2000 graczy. Doświadcz prawdziwej anarchii z komendami /tpa i /home na edycjach Java i Bedrock.",
           "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
         }
       },
       "manifest": {
-        "text6b6tWebsite": "Strona 6b6t"
+        "text6b6tWebsite": "Strona 6b6t",
+        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
       }
     },
     "bottomSocialProof": {

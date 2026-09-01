@@ -979,6 +979,9 @@
           "invalid": "no válido"
         }
       },
+      "seoUtil": {
+        "text6b6t": "6b6t"
+      },
       "shop": {
         "ranks": {
           "unknownError": "Error desconocido",
