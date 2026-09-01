@@ -2,16 +2,22 @@
   "sections": {
     "app": {
       "actions": {
+        "motd": {
+          "revisionRequested": "revision_requested",
+          "paidPendingReview": "paid_pending_review"
+        },
         "printify": {
           "signInAgainBeforeClaiming": "Talep etmeden önce tekrar giriş yapın.",
-          "signInAgainBeforeApplying": "Uygulamadan önce tekrar giriş yapın.",
           "checkTheShippingDetails": "Kargo detaylarını kontrol edin.",
           "theClaimCouldNotBeProcessed": "Talep işlenemedi.",
+          "signInAgainBeforeApplying": "Uygulamadan önce tekrar giriş yapın.",
           "checkTheApplicationDetails": "Başvuru detaylarını kontrol edin.",
           "theHistoricalRequestCouldNotBeSubmitted": "Geçmiş talep gönderilemedi."
         },
+        "shopTracking": {
+          "unknownError": "Bilinmeyen hata"
+        },
         "stripe": {
-          "rankForValue1": "{{value1}} için Rank",
           "subscription": "subscription",
           "payment": "payment",
           "pay": "pay",
@@ -19,14 +25,8 @@
           "custom": "custom",
           "text": "text",
           "giftMessage": "Hediye mesajı",
-          "hosted": "hosted"
-        },
-        "motd": {
-          "revisionRequested": "revision_requested",
-          "paidPendingReview": "paid_pending_review"
-        },
-        "shopTracking": {
-          "unknownError": "Bilinmeyen hata"
+          "hosted": "hosted",
+          "rankForValue1": "{{value1}} için Rank"
         }
       },
       "components": {
@@ -60,12 +60,16 @@
       "hours": "Saat",
       "minutes": "Dakika",
       "seconds": "Saniye",
+      "finalizingPurchases": "Satın alımlar sonlandırılıyor…",
+      "eventEnded": "Etkinlik sona erdi",
       "value1DaysValue2HoursValue3MinutesValue4SecondsRemaining": "{{value1}} gün, {{value2}} saat, {{value3}} dakika, {{value4}} saniye kaldı",
       "upgradedFrom": "şunu yükseltti:",
       "to": "→",
       "boughtThe": "şunu satın aldı:",
       "rank": "Rank.",
       "addedToTheDupeEvent": "Dupe Etkinliğine eklendi",
+      "finalizing": "Sonlandırılıyor",
+      "ended": "Sona erdi",
       "live": "Canlı",
       "theDupeEventHasEnded": "Dupe Etkinliği sona erdi.",
       "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "Etkinliğe katıldığınız ve onu unutulmaz kıldığınız için teşekkürler. Ganimetinizi güvende tutun—anarşi 6b6t'de devam ediyor.",
@@ -95,15 +99,11 @@
       "eligibleRankPurchasesAddTimeToTheEventFor": "Uygun rank satın alımları herkes için etkinliğe süre ekler.",
       "wantToExtendTheEvent": "Etkinliği uzatmak ister misiniz?",
       "purchaseAnEligibleRankBelowToAddMoreTime": "Herkes için Dupe Etkinliğine daha fazla süre eklemek için aşağıdan uygun bir rank satın alın.",
-      "viewRanks": "Rank'ları görüntüle",
-      "finalizingPurchases": "Satın alımlar sonlandırılıyor…",
-      "eventEnded": "Etkinlik sona erdi",
-      "finalizing": "Sonlandırılıyor",
-      "ended": "Sona erdi"
+      "viewRanks": "Rank'ları görüntüle"
     },
     "developmentThemeSwitcher": {
-      "fixed": "SABİT",
-      "themeIsNowFixedToSnowySiteWide": "Tema artık site genelinde KARLI olarak sabitlendi"
+      "themeIsNowFixedToSnowySiteWide": "Tema artık site genelinde KARLI olarak sabitlendi",
+      "fixed": "SABİT"
     },
     "gallery": {
       "gallery": {
@@ -116,24 +116,24 @@
         "filterOptions": "Filtre seçenekleri",
         "filters": "Filtreler",
         "toggleFilterPanel": "Filtre panelini aç/kapat",
+        "activeFilters": "Aktif filtreler:",
         "category": "Kategori:",
         "featured2": "Öne Çıkan",
         "showing": "Gösteriliyor",
         "of": "/",
-        "imagesFromThe6b6tCommunity": "6b6t topluluğundan görsel",
-        "activeFilters": "Aktif filtreler:"
+        "imagesFromThe6b6tCommunity": "6b6t topluluğundan görsel"
       },
       "galleryCard": {
+        "imageobject": "ImageObject",
+        "organization": "Organization",
         "text6b6tMinecraftServer": "6b6t Minecraft Sunucusu",
+        "webpage": "WebPage",
         "text6b6tGalleryMinecraftServerScreenshots": "6b6t Galerisi - Minecraft Sunucusu Ekran Görüntüleri",
+        "clickToViewInLightboxCtrlClickOrMiddle": "Lightbox'ta görüntülemek için tıkla, yeni sekmede açmak için Ctrl+Tıklama veya Orta Tık kullan",
         "value1Value2": "{{value1}} - {{value2}}",
         "externalLink": "Harici bağlantı",
         "featured": "⭐ Öne Çıkan",
-        "author": "Yazar",
-        "imageobject": "ImageObject",
-        "organization": "Organization",
-        "webpage": "WebPage",
-        "clickToViewInLightboxCtrlClickOrMiddle": "Lightbox'ta görüntülemek için tıkla, yeni sekmede açmak için Ctrl+Tıklama veya Orta Tık kullan"
+        "author": "Yazar"
       },
       "galleryFilters": {
         "categories": "Kategoriler",
@@ -168,6 +168,10 @@
       "discord": "Discord"
     },
     "layout": {
+      "copyButton": {
+        "copied": "Kopyalandı!",
+        "copy": "Kopyala"
+      },
       "footer": {
         "socials": "Sosyal Medya",
         "discord": "Discord",
@@ -196,8 +200,6 @@
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t, kuralsız, cezasız ve sırasız bir survival Minecraft anarşi sunucusudur. Oyuncular, aynı anda 2000 oyuncuyu destekleyen bir dünyada istedikleri her şeyi yapabilir ve /tpa ve /home gibi komutları kullanabilirler.",
-        "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Tüm Hakları Saklıdır. • qbasty labs FZE tarafından işletilmektedir • contact@6b6t.org",
-        "xTwitter": "X (Twitter)",
         "serverAddress": "Sunucu Adresi:",
         "teleportToAPlayer": "Bir oyuncuya ışınlan",
         "teleportToYourHome": "Home'una ışınlan",
@@ -206,7 +208,9 @@
         "viewVotingLinksAndRewards": "Oylama bağlantılarını ve ödüllerini görüntüle",
         "changeYourSkin": "Skinini değiştir",
         "equipBalloonCosmetics": "Balon kozmetiklerini kuşan",
-        "teleportToAnActiveHotspot": "Aktif bir Hotspot'a ışınlan"
+        "teleportToAnActiveHotspot": "Aktif bir Hotspot'a ışınlan",
+        "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Tüm Hakları Saklıdır. • qbasty labs FZE tarafından işletilmektedir • contact@6b6t.org",
+        "xTwitter": "X (Twitter)"
       },
       "header": {
         "home": "Ana Sayfa",
@@ -275,25 +279,21 @@
         "ideal": "iDEAL",
         "bancontact": "Bancontact",
         "eps": "EPS"
-      },
-      "copyButton": {
-        "copied": "Kopyalandı!",
-        "copy": "Kopyala"
       }
     },
     "milestoneProgress": {
+      "communityEvent": "Topluluk Etkinliği",
       "rankPurchasesContributeTowardTheNextCommunityEvent": "Rank satın alımları bir sonraki topluluk etkinliğine katkı sağlar.",
       "communityGoal": "Topluluk Hedefi",
       "allRankPurchasesContributeToReachingTheCommunityGoal": "Tüm rank satın alımları topluluk hedefine ulaşmaya katkı sağlar.",
       "communityGoalProgress": "Topluluk hedefi ilerlemesi",
       "communityGoalReachedTheDupeEventHasBeenUnlocked": "Topluluk hedefine ulaşıldı. Dupe Etkinliğinin kilidi açıldı.",
-      "communityGoalReached": "Topluluk Hedefine Ulaşıldı!",
-      "communityEvent": "Topluluk Etkinliği"
+      "communityGoalReached": "Topluluk Hedefine Ulaşıldı!"
     },
     "modeToggle": {
+      "currentThemeSnowySiteWide": "Mevcut tema: Karlı (site geneli)",
       "defaultDisabled": "Varsayılan (Devre Dışı)",
-      "snowyActiveSiteWide": "Karlı (Site Genelinde Aktif)",
-      "currentThemeSnowySiteWide": "Mevcut tema: Karlı (site geneli)"
+      "snowyActiveSiteWide": "Karlı (Site Genelinde Aktif)"
     },
     "motion": {
       "username": {
@@ -333,6 +333,11 @@
       "cb": "CB"
     },
     "recentBuyers": {
+      "primeEliteUpgrade": "Prime → Elite yükseltmesi",
+      "apex": "Apex",
+      "legend3Months": "Legend (3 Ay)",
+      "primeApexUpgrade": "Prime → Apex yükseltmesi",
+      "elite": "Elite",
       "rankExtensions": "Rank uzatmaları",
       "dupeEventRankExtensions": "Dupe Etkinliği rank uzatmaları",
       "everyEligibleRankPurchaseAndUpgradeAddsTheTime": "Uygun her rank satın alımı ve yükseltmesi, canlı etkinlik geri sayımına aşağıdaki süreyi ekler.",
@@ -340,7 +345,6 @@
       "type": "Tür",
       "eventExtension": "Etkinlik uzatması",
       "prime": "Prime",
-      "elite": "Elite",
       "recentExtensions": "Son uzatmalar",
       "playersHaveExtendedTheDupeEventBy": "Oyuncular Dupe Etkinliğini şu kadar uzattı:",
       "inTotal": "toplamda.",
@@ -353,57 +357,56 @@
       "purchasedThe": "şunu satın aldı:",
       "extendedTheDupeEventBy": "Dupe Etkinliğini şu kadar uzattı:",
       "noRankPurchasesHaveExtendedTheEventYet": "Henüz hiçbir rank satın alımı etkinliği uzatmadı.",
-      "couldNotLoadTheFullListTryAgain": "Tam liste yüklenemedi. Tekrar deneyin.",
-      "primeEliteUpgrade": "Prime → Elite yükseltmesi",
-      "apex": "Apex",
-      "legend3Months": "Legend (3 Ay)",
-      "primeApexUpgrade": "Prime → Apex yükseltmesi",
       "loadingExtensions": "Uzatmalar yükleniyor…",
       "showLess": "Daha az göster",
-      "showMore": "Daha fazla göster"
+      "showMore": "Daha fazla göster",
+      "couldNotLoadTheFullListTryAgain": "Tam liste yüklenemedi. Tekrar deneyin."
     },
     "reviewCard": {
       "value1Avatar": "{{value1}} avatarı",
       "discordLogo": "Discord Logosu",
+      "fullStar": "Tam yıldız",
+      "halfStar": "Yarım yıldız",
+      "emptyStar": "Boş yıldız",
       "halfStarFill": "Yarım yıldız dolgusu",
       "screenshots": "Ekran Görüntüleri (",
       "images": "görsel)",
       "screenshotValue1ByValue2": "{{value2}} tarafından {{value1}}. ekran görüntüsü",
+      "searchIconClickToViewImage": "Arama ikonu - Görseli görüntülemek için tıkla",
       "reviewScreenshotsFromValue1": "{{value1}} kullanıcısının değerlendirme ekran görüntüleri",
       "closeModal": "Pencereyi kapat",
       "previousImage": "Önceki görsel",
       "nextImage": "Sonraki görsel",
-      "goToImageValue1": "{{value1}}. görsele git",
-      "fullStar": "Tam yıldız",
-      "halfStar": "Yarım yıldız",
-      "emptyStar": "Boş yıldız",
-      "searchIconClickToViewImage": "Arama ikonu - Görseli görüntülemek için tıkla"
+      "goToImageValue1": "{{value1}}. görsele git"
     },
     "reviewSlideshow": {
+      "prime": "Prime",
+      "elite": "Elite",
+      "apex": "Apex",
       "reviews": "Değerlendirmeler",
       "whatOurCommunitySaysAboutTheirExperience": "Topluluğumuz deneyimleri hakkında ne diyor",
       "averageRating": "Ortalama Puan",
       "verified": "Doğrulanmış",
       "players": "Oyuncular",
       "goToSlideGroupValue1": "{{value1}} numaralı slayt grubuna git",
-      "of": "/",
-      "prime": "Prime",
-      "elite": "Elite",
-      "apex": "Apex"
+      "of": "/"
+    },
+    "socialIcons": {
+      "socialIcon": "Sosyal Medya İkonu"
     },
     "socialProofSection": {
-      "verifiedCheckmark": "Doğrulanmış Onay İşareti",
-      "over": "Üzerinde",
-      "satisfiedCustomers": "+ memnun müşteri",
-      "realReviewsFrom": "Gerçek Değerlendirmeler",
-      "discordMembers": "Discord Üyelerinden",
-      "verifiedPurchasesFromOurDiscordCommunity": "Discord topluluğumuzdan doğrulanmış satın alımlar",
       "amazingServerTheApexRankIsAbsolutelyWorthIt": "İnanılmaz bir sunucu! Apex rank'ı kesinlikle değer. Topluluk harika ve hiç lag sorunu yaşamadım. Ekip de son derece yardımsever!",
       "unitedStates": "Amerika Birleşik Devletleri",
       "beenPlayingFor6MonthsNowWithEliteRank": "6 aydır Elite rank ile oynuyorum. Araçlar ve izinler oyunun kurallarını değiştiriyor. Minecraft için yaptığım en iyi yatırım!",
       "canada": "Kanada",
       "justUpgradedToLegendRankLastWeekAndWow": "Geçen hafta Legend rank'a yükselttim ve vay canına! Özellikler inanılmaz. Sadece öncelikli sıra bile bana çok zaman kazandırıyor. 10/10 tavsiye ederim!",
-      "unitedKingdom": "Birleşik Krallık"
+      "unitedKingdom": "Birleşik Krallık",
+      "verifiedCheckmark": "Doğrulanmış Onay İşareti",
+      "over": "Üzerinde",
+      "satisfiedCustomers": "+ memnun müşteri",
+      "realReviewsFrom": "Gerçek Değerlendirmeler",
+      "discordMembers": "Discord Üyelerinden",
+      "verifiedPurchasesFromOurDiscordCommunity": "Discord topluluğumuzdan doğrulanmış satın alımlar"
     },
     "stats": {
       "backgroundRenderer": {
@@ -427,24 +430,24 @@
         "loadingGalleryImages": "Galeri görselleri yükleniyor..."
       },
       "enhancedThemeControls": {
+        "autoSaveFailed": "Otomatik kaydetme başarısız oldu",
         "colors": "Renkler",
         "background": "Arka Plan",
+        "color": "Renk",
         "enhancedThemeCustomization": "Gelişmiş Tema Özelleştirmesi",
         "unsavedChanges": "Kaydedilmemiş değişiklikler",
         "saving": "Kaydediliyor...",
         "allChangesSaved": "Tüm değişiklikler kaydedildi",
         "reset": "Sıfırla",
-        "backgroundImage": "Arka Plan Görseli",
-        "chooseAServerScreenshotAsYourBackground": "Arka planınız olarak bir sunucu ekran görüntüsü seçin",
-        "backgroundSelected": "Arka Plan Seçildi",
-        "text30OpacityCoverMode": "%30 opaklık • Kapla modu",
-        "autoSaveFailed": "Otomatik kaydetme başarısız oldu",
-        "color": "Renk",
         "saved": "Kaydedildi!",
         "error": "Hata",
         "save": "Kaydet",
+        "backgroundImage": "Arka Plan Görseli",
+        "chooseAServerScreenshotAsYourBackground": "Arka planınız olarak bir sunucu ekran görüntüsü seçin",
         "changeBackground": "Arka Planı Değiştir",
-        "chooseBackground": "Arka Plan Seç"
+        "chooseBackground": "Arka Plan Seç",
+        "backgroundSelected": "Arka Plan Seçildi",
+        "text30OpacityCoverMode": "%30 opaklık • Kapla modu"
       },
       "giftBadgeDisplay": {
         "text2025ChristmasLobbyChallengeBadge": "2025 Noel Lobi Meydan Okuması Rozeti",
@@ -516,17 +519,17 @@
         "whenDidValue1Join6b6t": "{{value1}} 6b6t'ye ne zaman katıldı?",
         "value1Joined6b6tOrgForTheFirstTimeOn": "{{value1}}, 6b6t.org'a ilk kez {{value2}} tarihinde katıldı.",
         "howMuchHasValue1PlayedOn6b6t": "{{value1}} 6b6t'de ne kadar oynadı?",
-        "howManyKillsDoesValue1HaveOn6b6t": "{{value1}}'in 6b6t'de kaç öldürmesi var?",
-        "whatIsValue1SRankOn6b6t": "{{value1}}'in 6b6t'deki rank'ı nedir?",
-        "whereCanISeeValue1SPlayingHistory": "{{value1}}'in oynama geçmişini nerede görebilirim?",
-        "youCanViewValue1SCompleteStatsHistoryIncluding": "{{value1}}'in oynama süresi, öldürme, ölüm ve daha fazlasını içeren tam istatistik geçmişini tam burada, 6b6t profil sayfasında görüntüleyebilirsiniz.",
-        "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:",
         "value1HasPlayedValue2Value3On6b6t": "{{value1}}, 6b6t'de {{value2}} {{value3}} oynadı.",
         "value1HasNotPlayedMuchRecently": "{{value1}} son zamanlarda fazla oynamadı.",
+        "howManyKillsDoesValue1HaveOn6b6t": "{{value1}}'in 6b6t'de kaç öldürmesi var?",
         "value1HasValue2Value3OnTheServer": "{{value1}}, sunucuda {{value2}} {{value3}} sahibi.",
         "value1HasNoRecordedKillsYet": "{{value1}}'in henüz kayıtlı bir öldürmesi yok.",
+        "whatIsValue1SRankOn6b6t": "{{value1}}'in 6b6t'deki rank'ı nedir?",
         "value1IsARegularPlayerOn6b6t": "{{value1}}, 6b6t'de düzenli bir oyuncudur.",
-        "value1HasTheValue2RankOn6b6t": "{{value1}}, 6b6t'de {{value2}} rank'ına sahiptir."
+        "value1HasTheValue2RankOn6b6t": "{{value1}}, 6b6t'de {{value2}} rank'ına sahiptir.",
+        "whereCanISeeValue1SPlayingHistory": "{{value1}}'in oynama geçmişini nerede görebilirim?",
+        "youCanViewValue1SCompleteStatsHistoryIncluding": "{{value1}}'in oynama süresi, öldürme, ölüm ve daha fazlasını içeren tam istatistik geçmişini tam burada, 6b6t profil sayfasında görüntüleyebilirsiniz.",
+        "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:"
       },
       "simplifiedThemeControls": {
         "colors": "Renkler",
@@ -540,6 +543,8 @@
         "chooseYourColorTheme": "Renk Temanızı Seçin",
         "backgroundSettings": "Arka Plan Ayarları",
         "currentBackground": "Mevcut Arka Plan",
+        "imageValue1": "Görsel: {{value1}}",
+        "noBackgroundSelected": "Arka plan seçilmedi",
         "chooseBackground": "Arka Plan Seç",
         "position": "Konum",
         "cover": "Kapla",
@@ -553,8 +558,6 @@
         "blurEffect": "Bulanıklaştırma Efekti",
         "removeBackground": "Arka Planı Kaldır",
         "resetToDefaults": "Varsayılanlara Sıfırla",
-        "imageValue1": "Görsel: {{value1}}",
-        "noBackgroundSelected": "Arka plan seçilmedi",
         "saveChanges": "Değişiklikleri Kaydet"
       },
       "telegramBadgeDisplay": {
@@ -562,6 +565,9 @@
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Telegram'ı bağladı ve şu anda 6b6t grubunun üyesi"
       },
       "themedStatsRenderer": {
+        "legend": "legend",
+        "champion": "champion",
+        "hero": "hero",
         "memberSince": "🗓️ Üyelik tarihi:",
         "returnToLeaderboards": "Liderlik Tablolarına Dön",
         "statsReset": "İstatistikler sıfırlandı",
@@ -570,10 +576,7 @@
         "stat": "İstatistik",
         "noStatsAvailable": "İstatistik Bulunmuyor",
         "unableToFindAnyStatsForUser": "Kullanıcı için herhangi bir istatistik bulunamadı",
-        "tryRejoiningTheServerToGetInTheStats": "💡 İstatistik veritabanına girmek için sunucuya tekrar katılmayı deneyin.",
-        "legend": "legend",
-        "champion": "champion",
-        "hero": "hero"
+        "tryRejoiningTheServerToGetInTheStats": "💡 İstatistik veritabanına girmek için sunucuya tekrar katılmayı deneyin."
       },
       "themeErrorBoundary": {
         "themeLoadingError": "Tema Yükleme Hatası",
@@ -614,17 +617,14 @@
     },
     "monitoring": {
       "shopErrorBoundary": {
+        "client": "client",
         "somethingWentWrong": "Bir şeyler ters gitti",
         "weReSorryButSomethingUnexpectedHappenedOurTeam": "Üzgünüz, beklenmeyen bir şey oldu. Ekibimiz bilgilendirildi.",
         "tryAgain": "Tekrar Dene",
         "resetPage": "Sayfayı Sıfırla",
         "backToShop": "Mağazaya Dön",
-        "client": "client",
         "errorId": "Hata Kimliği:"
       }
-    },
-    "socialIcons": {
-      "socialIcon": "Sosyal Medya İkonu"
     }
   }
 }

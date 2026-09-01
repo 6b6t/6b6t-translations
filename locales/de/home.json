@@ -63,7 +63,7 @@
         "text6b6tHasManyCommandsButTheMostFrequentlyUsed2": "6b6t has many commands, but the most frequently used ones are",
         "youCanSeeTheFullListOfCommandsOn": ". You can see the full list of commands on the",
         "commandsPage": "commands page",
-        "text6b6tIsnAposTADirect2b2tAlternativeBecause": "6b6t isn&apos;t a direct 2b2t alternative because it has its own unique features and direction. The administrators make independent decisions, such as updating to Minecraft 1.19 a year ahead of 2b2t, and the server includes additional gameplay elements, like the teleportation commands.",
+        "text6b6tIsnAposTADirect2b2tAlternativeBecause": "6b6t ist keine direkte Alternative zu 2b2t, da der Server eigene Funktionen und eine eigene Ausrichtung hat. Die Administratoren treffen unabhängige Entscheidungen, etwa die Aktualisierung auf Minecraft 1.19 ein Jahr vor 2b2t. Außerdem bietet der Server zusätzliche Spielelemente wie Teleportationsbefehle.",
         "between150And250PlayersPlayAtTheSame2": "Between 150 and 250 players play at the same time on 6b6t during peak times and at minimum 50 players.",
         "yes6b6tSupportsBothMinecraftJavaEditionAndMinecraft2": "Yes, 6b6t supports both Minecraft Java edition and Minecraft Bedrock edition.",
         "javaEdition": "Java Edition",
@@ -160,6 +160,10 @@
         "text6b6t": "6b6t",
         "anarchy": "Anarchy",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t is a survival Minecraft anarchy server with no rules, no punishments and no queue. Players can do whatever they want in a world supporting up to 2000 players simultaneously and use commands such as /tpa and /home.",
+        "noRules": "Keine Regeln",
+        "noMapResets": "Keine Karten-Resets",
+        "text200PlayersDaily": "Täglich über 200 Spieler",
+        "noQueue": "Keine Warteschlange",
         "bulletPointIcon": "Bullet Point Icon",
         "join": "Join",
         "membersOnDiscord": "members on Discord"
@@ -285,7 +289,7 @@
         "avgPlayers": "avg players",
         "value1Peak": "{{value1}} Peak",
         "peakPlayers": "peak players",
-        "trackTheServerAposSPlayerCountOverThe": "Track the server&apos;s player count over the past 7 days and see when the community is most active.",
+        "trackTheServerAposSPlayerCountOverThe": "Verfolge die Spielerzahl des Servers in den letzten 7 Tagen und finde heraus, wann die Community am aktivsten ist.",
         "averagePlayers": "Average Players",
         "peakPlayers2": "Peak Players"
       }

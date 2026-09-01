@@ -160,6 +160,10 @@
         "text6b6t": "6b6t",
         "anarchy": "अराजकता",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t एक उत्तरजीविता Minecraft अराजकता सर्वर है जिसमें कोई नियम, कोई दंड और कोई कतार नहीं है। खिलाड़ी एक साथ 2000 खिलाड़ियों को सपोर्ट करने वाली दुनिया में जो चाहें कर सकते हैं और /tpa और /home जैसे कमांड का उपयोग कर सकते हैं।",
+        "noRules": "कोई नियम नहीं",
+        "noMapResets": "मैप रीसेट नहीं होता",
+        "text200PlayersDaily": "हर दिन 200 से अधिक खिलाड़ी",
+        "noQueue": "कोई कतार नहीं",
         "bulletPointIcon": "बुलेट प्वाइंट चिह्न",
         "join": "जोड़ना",
         "membersOnDiscord": "Discord पर सदस्य"
