@@ -14,6 +14,7 @@
       "openYourEmailApp": "E-posta uygulamanı aç",
       "composeAnEmailDescribingYourConcern": "Sorununu açıklayan bir e-posta yaz",
       "sendTo": "Şuraya gönder",
+      "responseTimeTypicallyWithin24Hours": "Yanıt süresi: genellikle 24 saat içinde",
       "contactViaDiscord": "Discord ile İletişim",
       "createATicketInOur": "Daha hızlı destek için",
       "discordServer": "Discord Sunucusu",
@@ -21,13 +22,12 @@
       "joinOurDiscordServer": "Discord Sunucumuza Katıl",
       "createATicketIn": "Bir talep oluştur:",
       "waitForATeamMemberToRespond": "Bir ekip üyesinin yanıtlamasını bekle",
+      "responseTimeTypicallyWithin1Hour": "Yanıt süresi: genellikle 1 saat içinde",
       "discordSupportIs": "Discord desteği",
       "exclusiveToRankedPlayers": "yalnızca rank'lı oyunculara özeldir",
       "youMustHaveARankFromThe": ". Talep oluşturmak için",
       "text6b6tShop": "6b6t Mağazası'ndan",
-      "toCreateATicket": "bir rank'a sahip olmalısın.",
-      "responseTimeTypicallyWithin24Hours": "Yanıt süresi: genellikle 24 saat içinde",
-      "responseTimeTypicallyWithin1Hour": "Yanıt süresi: genellikle 1 saat içinde"
+      "toCreateATicket": "bir rank'a sahip olmalısın."
     }
   }
 }

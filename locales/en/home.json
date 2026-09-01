@@ -160,6 +160,10 @@
         "text6b6t": "6b6t",
         "anarchy": "Anarchy",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t is a survival Minecraft anarchy server with no rules, no punishments and no queue. Players can do whatever they want in a world supporting up to 2000 players simultaneously and use commands such as /tpa and /home.",
+        "noRules": "No rules",
+        "noMapResets": "No map resets",
+        "text200PlayersDaily": "200+ players daily",
+        "noQueue": "No queue",
         "bulletPointIcon": "Bullet Point Icon",
         "join": "Join",
         "membersOnDiscord": "members on Discord"
