@@ -341,7 +341,7 @@
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t Mouse Pad",
-      "includedWithApexOrAnEligibleApexUpgrade": "Apex veya uygun bir Apex yükseltmesiyle birlikte dahildir.",
+      "includedWithApexOrAnEligibleApexUpgradeYou": "Included with Apex or an eligible Apex upgrade. You become eligible 14 days after the rank purchase.",
       "text6b6tMug": "6b6t Kupa",
       "includedWith3MonthLegendOrAfterThreePaid": "3 aylık Legend ile veya üç ödemeli 1 aylık dönemden sonra dahildir.",
       "optional": "İsteğe bağlı",
@@ -367,7 +367,7 @@
       "physicalProducts": "Fiziksel ürünler",
       "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Uygun ürünlerinizi ve teslimatınızı tek bir yerden yönetin. Premium ve cracked hesaplar desteklenir ve her ürün, her Minecraft kimliği için yalnızca bir kez talep edilebilir.",
       "productEligibility": "Ürün uygunluğu",
-      "noEligiblePurchaseFound": "Uygun satın alım bulunamadı",
+      "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "No eligible purchase found. Qualifying rank purchases become eligible after 14 days.",
       "destination": "Varış noktası:",
       "postalCodeEndingValue1": "• {{value1}} ile biten posta kodu",
       "trackShipment": "Gönderiyi takip et",
