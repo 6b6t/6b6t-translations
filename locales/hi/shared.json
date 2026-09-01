@@ -31,15 +31,15 @@
       },
       "components": {
         "langLayout": {
-          "text6b6tMinecraftServer": "6b6t Minecraft सर्वर",
+          "text6b6t": "6b6t",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "सबसे बड़ा Minecraft अराजकता सर्वर जिसमें कोई नियम और कोई कतार नहीं है। /tpa और /home जैसे आवश्यक कमांड के साथ Java और Bedrock दोनों संस्करणों का समर्थन करता है।",
-          "text6b6tMinecraftAnarchyServer": "6b6t Minecraft अराजकता सर्वर",
           "joinTheBiggestMinecraftAnarchyServerWithNoRules": "बिना किसी नियम, बिना कतार और 2000+ प्लेयर क्षमता वाले सबसे बड़े Minecraft अराजकता सर्वर से जुड़ें। Java और Bedrock दोनों संस्करणों पर /tpa और /home जैसे आवश्यक कमांड के साथ वास्तविक अराजकता का अनुभव करें।",
           "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft अराजकता सर्वर, 6b6t, कोई नियम सर्वर नहीं, मुफ्त Minecraft सर्वर, अराजकता गेमप्ले, Minecraft PvP, उत्तरजीविता सर्वर"
         }
       },
       "manifest": {
-        "text6b6tWebsite": "6b6t वेबसाइट"
+        "text6b6tWebsite": "6b6t वेबसाइट",
+        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
       }
     },
     "bottomSocialProof": {
