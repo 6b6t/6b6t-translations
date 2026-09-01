@@ -31,15 +31,15 @@
       },
       "components": {
         "langLayout": {
-          "text6b6tMinecraftServer": "6b6t Minecraft Sunucusu",
+          "text6b6t": "6b6t",
           "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Kuralsız ve sırasız en büyük Minecraft anarşi sunucusu. /tpa ve /home gibi temel komutlarla hem Java hem de Bedrock sürümlerini destekler.",
-          "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarşi Sunucusu",
           "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Kuralsız, sırasız ve 2000'den fazla oyuncu kapasitesine sahip en büyük Minecraft anarşi sunucusuna katılın. Hem Java hem de Bedrock sürümlerinde /tpa ve /home gibi temel komutlarla gerçek anarşiyi deneyimleyin.",
           "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
         }
       },
       "manifest": {
-        "text6b6tWebsite": "6b6t Web Sitesi"
+        "text6b6tWebsite": "6b6t Web Sitesi",
+        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
       }
     },
     "bottomSocialProof": {
