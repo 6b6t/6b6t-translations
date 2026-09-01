@@ -341,7 +341,7 @@
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t माउसपैड",
-      "includedWithApexOrAnEligibleApexUpgrade": "Apex या योग्य Apex अपग्रेड के साथ शामिल है।",
+      "includedWithApexOrAnEligibleApexUpgradeYou": "Included with Apex or an eligible Apex upgrade. You become eligible 14 days after the rank purchase.",
       "text6b6tMug": "6b6t मग",
       "includedWith3MonthLegendOrAfterThreePaid": "3 महीने की Legend के साथ या तीन भुगतान वाली 1 महीने की अवधि के बाद शामिल है।",
       "optional": "वैकल्पिक",
@@ -367,7 +367,7 @@
       "physicalProducts": "भौतिक उत्पाद",
       "manageEligibleProductsAndDeliveryFromOnePlacePremium": "योग्य उत्पादों और वितरण को एक ही स्थान से प्रबंधित करें। प्रीमियम और क्रैक किए गए खाते समर्थित हैं, और प्रत्येक उत्पाद पर Minecraft पहचान के अनुसार केवल एक बार दावा किया जा सकता है।",
       "productEligibility": "उत्पाद पात्रता",
-      "noEligiblePurchaseFound": "कोई योग्य खरीदारी नहीं मिली",
+      "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "No eligible purchase found. Qualifying rank purchases become eligible after 14 days.",
       "destination": "गंतव्य:",
       "postalCodeEndingValue1": "• डाक कोड {{value1}} पर समाप्त होता है",
       "trackShipment": "ट्रैक शिपमेंट",

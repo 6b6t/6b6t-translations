@@ -341,7 +341,7 @@
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "Alfombrilla de ratón de 6b6t",
-      "includedWithApexOrAnEligibleApexUpgrade": "Incluido con Apex o con una mejora elegible a Apex.",
+      "includedWithApexOrAnEligibleApexUpgradeYou": "Included with Apex or an eligible Apex upgrade. You become eligible 14 days after the rank purchase.",
       "text6b6tMug": "Taza de 6b6t",
       "includedWith3MonthLegendOrAfterThreePaid": "Incluido con Legend de 3 meses o después de tres períodos pagados de 1 mes.",
       "optional": "Opcional",
@@ -367,7 +367,7 @@
       "physicalProducts": "Productos físicos",
       "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Gestiona los productos elegibles y su entrega desde un solo lugar. Se admiten cuentas premium y cracked, y cada producto solo puede reclamarse una vez por identidad de Minecraft.",
       "productEligibility": "Elegibilidad del producto",
-      "noEligiblePurchaseFound": "No se encontró ninguna compra elegible",
+      "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "No eligible purchase found. Qualifying rank purchases become eligible after 14 days.",
       "destination": "Destino:",
       "postalCodeEndingValue1": "• código postal terminado en {{value1}}",
       "trackShipment": "Rastrear envío",
