@@ -22,21 +22,21 @@
       "postedBy": "Gönderen",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
       "openInDiscord": "Discord'da Aç",
+      "couldNotLoadMoreUpdates": "Daha fazla güncelleme yüklenemedi.",
+      "couldNotSearchUpdates": "Güncellemeler aranamadı.",
       "newUpdate": "yeni güncelleme",
       "justAppeared": "az önce göründü.",
       "dismiss": "Kapat",
       "searchUpdates": "Güncelleme ara",
+      "searching": "Aranıyor...",
+      "search": "Ara",
       "clear": "Temizle",
       "showing": "Gösteriliyor",
       "searchResult": "arama sonucu",
       "latestPost": "Son gönderi",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı.",
-      "couldNotLoadMoreUpdates": "Daha fazla güncelleme yüklenemedi.",
-      "couldNotSearchUpdates": "Güncellemeler aranamadı.",
-      "searching": "Aranıyor...",
-      "search": "Ara",
       "loading": "Yükleniyor...",
-      "loadMoreValue1": "Daha fazla {{value1}} yükle"
+      "loadMoreValue1": "Daha fazla {{value1}} yükle",
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
     }
   }
 }
