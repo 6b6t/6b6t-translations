@@ -227,6 +227,19 @@
       "themePreviewInstructionCheckmark": "थीम पूर्वावलोकन अनुदेश चेकमार्क",
       "clickAnyThemeToPreviewItsVisualEffects": "किसी भी थीम के दृश्य प्रभावों का पूर्वावलोकन करने के लिए उस पर क्लिक करें"
     },
+    "apexGiftsPanel": {
+      "yourApexRanks": "Your Apex ranks",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
+      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "apexRank": "Apex rank",
+      "value1Value2": "{{value1}}{{value2}}",
+      "minecraftUsername": "Minecraft username",
+      "assignedPermanently": "Assigned permanently",
+      "pleaseWait": "Please wait…",
+      "retryAssignment": "Retry assignment",
+      "assignApexRank": "Assign Apex rank"
+    },
     "discordLinkedNotification": {
       "discordLinked": "Discord लिंक किया गया"
     },
@@ -330,6 +343,7 @@
       "viewMyStats": "मेरे आँकड़े देखें",
       "discordLinkedRole": "Discord लिंक्ड भूमिका",
       "linkDiscord": "लिंक Discord",
+      "loadingApexGifts": "Loading Apex gifts…",
       "legendRankLockIcon": "Legend रैंक लॉक आइकन",
       "legendThemeControls": "Legend थीम नियंत्रण",
       "themeCustomizationIsExclusivelyAvailableTo": "थीम अनुकूलन विशेष रूप से उपलब्ध है",
@@ -337,7 +351,8 @@
       "rankHolders": "रैंक धारक.",
       "yourCurrentRank": "आपकी वर्तमान रैंक:",
       "yourRankDataIsNotAvailableOrYouHaven": "आपका रैंक डेटा उपलब्ध नहीं है या आपने अभी तक Legend दर्जा प्राप्त नहीं किया है।",
-      "getLegendRank": "Legend रैंक प्राप्त करें"
+      "getLegendRank": "Legend रैंक प्राप्त करें",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again."
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t माउसपैड",

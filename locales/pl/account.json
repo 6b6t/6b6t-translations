@@ -227,6 +227,19 @@
       "themePreviewInstructionCheckmark": "Zaznaczenie instrukcji podglądu motywu",
       "clickAnyThemeToPreviewItsVisualEffects": "Kliknij dowolny motyw, aby zobaczyć podgląd efektów wizualnych"
     },
+    "apexGiftsPanel": {
+      "yourApexRanks": "Your Apex ranks",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
+      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "apexRank": "Apex rank",
+      "value1Value2": "{{value1}}{{value2}}",
+      "minecraftUsername": "Minecraft username",
+      "assignedPermanently": "Assigned permanently",
+      "pleaseWait": "Please wait…",
+      "retryAssignment": "Retry assignment",
+      "assignApexRank": "Assign Apex rank"
+    },
     "discordLinkedNotification": {
       "discordLinked": "Discord połączony"
     },
@@ -330,6 +343,7 @@
       "viewMyStats": "Zobacz moje statystyki",
       "discordLinkedRole": "Rola połączonego Discorda",
       "linkDiscord": "Połącz Discorda",
+      "loadingApexGifts": "Loading Apex gifts…",
       "legendRankLockIcon": "Ikona blokady rangi Legend",
       "legendThemeControls": "Sterowanie motywami Legend",
       "themeCustomizationIsExclusivelyAvailableTo": "Personalizacja motywów jest dostępna wyłącznie dla",
@@ -337,7 +351,8 @@
       "rankHolders": "posiadaczy rangi.",
       "yourCurrentRank": "Twoja aktualna ranga:",
       "yourRankDataIsNotAvailableOrYouHaven": "Dane o Twojej randze są niedostępne lub nie posiadasz jeszcze statusu Legend.",
-      "getLegendRank": "Zdobądź rangę Legend"
+      "getLegendRank": "Zdobądź rangę Legend",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again."
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "Podkładka 6b6t",

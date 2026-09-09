@@ -227,6 +227,19 @@
       "themePreviewInstructionCheckmark": "Theme preview instruction checkmark",
       "clickAnyThemeToPreviewItsVisualEffects": "Click any theme to preview its visual effects"
     },
+    "apexGiftsPanel": {
+      "yourApexRanks": "Your Apex ranks",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
+      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "apexRank": "Apex rank",
+      "value1Value2": "{{value1}}{{value2}}",
+      "minecraftUsername": "Minecraft username",
+      "assignedPermanently": "Assigned permanently",
+      "pleaseWait": "Please wait…",
+      "retryAssignment": "Retry assignment",
+      "assignApexRank": "Assign Apex rank"
+    },
     "discordLinkedNotification": {
       "discordLinked": "Discord Linked"
     },
@@ -330,6 +343,7 @@
       "viewMyStats": "View My Stats",
       "discordLinkedRole": "Discord Linked Role",
       "linkDiscord": "Link Discord",
+      "loadingApexGifts": "Loading Apex gifts…",
       "legendRankLockIcon": "Legend rank lock icon",
       "legendThemeControls": "Legend Theme Controls",
       "themeCustomizationIsExclusivelyAvailableTo": "Theme customization is exclusively available to",
@@ -337,7 +351,8 @@
       "rankHolders": "rank holders.",
       "yourCurrentRank": "Your current rank:",
       "yourRankDataIsNotAvailableOrYouHaven": "Your rank data is not available or you haven&apos;t achieved Legend status yet.",
-      "getLegendRank": "Get Legend Rank"
+      "getLegendRank": "Get Legend Rank",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again."
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t Mousepad",

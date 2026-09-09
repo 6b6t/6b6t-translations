@@ -2,6 +2,10 @@
   "sections": {
     "app": {
       "actions": {
+        "apexGifts": {
+          "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
+          "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
+        },
         "motd": {
           "revisionRequested": "पुनरीक्षण_अनुरोध",
           "paidPendingReview": "भुगतान_लंबित_समीक्षा"
@@ -297,6 +301,13 @@
     },
     "motion": {
       "username": {
+        "minecraftPlayerValue1": "Minecraft player: {{value1}}",
+        "chooseTheMinecraftAccountReceivingLegend": "Choose the Minecraft account receiving Legend.",
+        "changeUsername": "Change username",
+        "setUsername": "Set username",
+        "minecraftUsername": "Minecraft username",
+        "saving": "Saving…",
+        "saveUsername": "Save username",
         "loggedInAs": "के रूप में लॉग इन किया गया",
         "change": "परिवर्तन",
         "setYourMinecraftUsername": "अपना Minecraft उपयोगकर्ता नाम सेट करें",

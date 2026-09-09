@@ -227,6 +227,19 @@
       "themePreviewInstructionCheckmark": "Tema önizleme talimatı onay işareti",
       "clickAnyThemeToPreviewItsVisualEffects": "Görsel efektlerini önizlemek için herhangi bir temaya tıklayın"
     },
+    "apexGiftsPanel": {
+      "yourApexRanks": "Your Apex ranks",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
+      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "apexRank": "Apex rank",
+      "value1Value2": "{{value1}}{{value2}}",
+      "minecraftUsername": "Minecraft username",
+      "assignedPermanently": "Assigned permanently",
+      "pleaseWait": "Please wait…",
+      "retryAssignment": "Retry assignment",
+      "assignApexRank": "Assign Apex rank"
+    },
     "discordLinkedNotification": {
       "discordLinked": "Discord Bağlandı"
     },
@@ -330,6 +343,7 @@
       "viewMyStats": "İstatistiklerimi Görüntüle",
       "discordLinkedRole": "Discord Bağlı Rolü",
       "linkDiscord": "Discord'u Bağla",
+      "loadingApexGifts": "Loading Apex gifts…",
       "legendRankLockIcon": "Legend Rank kilit simgesi",
       "legendThemeControls": "Legend Tema Kontrolleri",
       "themeCustomizationIsExclusivelyAvailableTo": "Tema özelleştirme yalnızca",
@@ -337,7 +351,8 @@
       "rankHolders": "Rank sahiplerine özeldir.",
       "yourCurrentRank": "Mevcut rank'ınız:",
       "yourRankDataIsNotAvailableOrYouHaven": "Rank verileriniz mevcut değil veya henüz Legend durumuna ulaşmadınız.",
-      "getLegendRank": "Legend Rank Al"
+      "getLegendRank": "Legend Rank Al",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again."
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t Mouse Pad",

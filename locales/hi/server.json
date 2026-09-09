@@ -166,6 +166,14 @@
           }
         }
       },
+      "checkout": {
+        "creem": {
+          "route": {
+            "invalidCheckoutMetadata": "Invalid checkout metadata",
+            "useTheLegendPageToPurchaseAnAccountBound": "Use the Legend page to purchase an account-bound lifetime plan"
+          }
+        }
+      },
       "cigarLeaderboard": {
         "route": {
           "failedToFetchCigarLeaderboardData": "सिगार लीडरबोर्ड डेटा लाने में विफल"
@@ -206,6 +214,7 @@
       "creem": {
         "route": {
           "completed": "पुरा होना",
+          "opened": "opened",
           "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है"
         }
       },
@@ -983,6 +992,13 @@
         "text6b6t": "6b6t"
       },
       "shop": {
+        "apexGifts": {
+          "completed": "पुरा होना"
+        },
+        "legend": {
+          "lifetime": "LIFETIME",
+          "lifetime2Apex": "LIFETIME + 2 APEX"
+        },
         "ranks": {
           "unknownError": "अज्ञात त्रुटि",
           "primePrefix": "Prime उपसर्ग",
@@ -1065,6 +1081,9 @@
           "accessToAdvertising": "#विज्ञापन तक पहुंच",
           "text50PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 50 अंक",
           "text150PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 150 अंक",
+          "legendValue1": "Legend {{value1}}",
+          "permanentLegendRank": "Permanent Legend rank.",
+          "includesTwoPermanentApexRanksToAssignFromYour": "Includes two permanent Apex ranks to assign from your account.",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",

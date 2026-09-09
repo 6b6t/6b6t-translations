@@ -166,6 +166,14 @@
           }
         }
       },
+      "checkout": {
+        "creem": {
+          "route": {
+            "invalidCheckoutMetadata": "Invalid checkout metadata",
+            "useTheLegendPageToPurchaseAnAccountBound": "Use the Legend page to purchase an account-bound lifetime plan"
+          }
+        }
+      },
       "cigarLeaderboard": {
         "route": {
           "failedToFetchCigarLeaderboardData": "No se pudieron obtener los datos de la clasificación de cigarros"
@@ -206,6 +214,7 @@
       "creem": {
         "route": {
           "completed": "completado",
+          "opened": "opened",
           "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado"
         }
       },
@@ -983,6 +992,13 @@
         "text6b6t": "6b6t"
       },
       "shop": {
+        "apexGifts": {
+          "completed": "completado"
+        },
+        "legend": {
+          "lifetime": "LIFETIME",
+          "lifetime2Apex": "LIFETIME + 2 APEX"
+        },
         "ranks": {
           "unknownError": "Error desconocido",
           "primePrefix": "Prefijo Prime",
@@ -1065,6 +1081,9 @@
           "accessToAdvertising": "Acceso a #advertising",
           "text50PointsTowardsTheCurrentCommunityGoal": "50 puntos para la meta comunitaria actual",
           "text150PointsTowardsTheCurrentCommunityGoal": "150 puntos para la meta comunitaria actual",
+          "legendValue1": "Legend {{value1}}",
+          "permanentLegendRank": "Permanent Legend rank.",
+          "includesTwoPermanentApexRanksToAssignFromYour": "Includes two permanent Apex ranks to assign from your account.",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",

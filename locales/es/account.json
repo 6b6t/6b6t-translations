@@ -227,6 +227,19 @@
       "themePreviewInstructionCheckmark": "Marca de verificación de las instrucciones de vista previa del tema",
       "clickAnyThemeToPreviewItsVisualEffects": "Haz clic en cualquier tema para previsualizar sus efectos visuales"
     },
+    "apexGiftsPanel": {
+      "yourApexRanks": "Your Apex ranks",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
+      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "apexRank": "Apex rank",
+      "value1Value2": "{{value1}}{{value2}}",
+      "minecraftUsername": "Minecraft username",
+      "assignedPermanently": "Assigned permanently",
+      "pleaseWait": "Please wait…",
+      "retryAssignment": "Retry assignment",
+      "assignApexRank": "Assign Apex rank"
+    },
     "discordLinkedNotification": {
       "discordLinked": "Discord vinculado"
     },
@@ -330,6 +343,7 @@
       "viewMyStats": "Ver mis estadísticas",
       "discordLinkedRole": "Rol de Discord vinculado",
       "linkDiscord": "Vincular Discord",
+      "loadingApexGifts": "Loading Apex gifts…",
       "legendRankLockIcon": "Icono de bloqueo del rango Legend",
       "legendThemeControls": "Controles de temas Legend",
       "themeCustomizationIsExclusivelyAvailableTo": "La personalización de temas está disponible exclusivamente para",
@@ -337,7 +351,8 @@
       "rankHolders": "poseedores del rango.",
       "yourCurrentRank": "Tu rango actual:",
       "yourRankDataIsNotAvailableOrYouHaven": "Los datos de tu rango no están disponibles o aún no has alcanzado el rango Legend.",
-      "getLegendRank": "Obtener rango Legend"
+      "getLegendRank": "Obtener rango Legend",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again."
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "Alfombrilla de ratón de 6b6t",
