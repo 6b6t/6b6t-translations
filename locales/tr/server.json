@@ -997,7 +997,9 @@
         },
         "legend": {
           "lifetime": "LIFETIME",
-          "lifetime2Apex": "LIFETIME + 2 APEX"
+          "lifetime2Apex": "LIFETIME + 2 APEX",
+          "monthly": "MONTHLY",
+          "text3Months": "3 MONTHS"
         },
         "ranks": {
           "unknownError": "Bilinmeyen hata",
