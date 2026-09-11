@@ -122,10 +122,12 @@
       }
     },
     "gallery": {
+      "galleryModal": {
+        "featured": "Öne Çıkan"
+      },
       "gallery": {
         "builds": "yapılar",
         "events": "etkinlikler",
-        "failedToLoadGallery": "Galeri yüklenemedi",
         "gallery": "Galeri",
         "serverScreenshots": "Sunucu Ekran Görüntüleri",
         "momentsCapturedFromThe6b6tAnarchyServer": "6b6t anarşi sunucusundan yakalanmış anlar",
@@ -133,9 +135,6 @@
         "noImagesFound": "Görsel bulunamadı",
         "showLess": "Daha az göster",
         "showAllValue1": "Tümünü göster ({{value1}})"
-      },
-      "galleryModal": {
-        "featured": "Öne Çıkan"
       }
     },
     "hero": {
@@ -185,42 +184,6 @@
         "onlinePlayers": "Çevrimiçi Oyuncular",
         "maxPlayers": "Maksimum Oyuncu",
         "version": "Sürüm"
-      },
-      "serverConnectionModal": {
-        "text6b6t": "6b6t",
-        "text6b6t2": "6b6t 2",
-        "text6b6t3": "6b6t 3",
-        "copyValue1": "{{value1}} Kopyala",
-        "openValue1InMinecraftBedrock": "{{value1}}'i Minecraft Bedrock'ta Aç",
-        "open": "Aç",
-        "closeConnectionModal": "Bağlantı penceresini kapat",
-        "text6b6tLogo": "6b6t logosu",
-        "connectTo": "Şuna bağlan",
-        "javaPlayersConnectInTwoStepsInstallTheOfficial": "Java oyuncuları iki adımda bağlanır: resmi Anarchy Mod'u yükle, ardından Minecraft'ı başlat ve oyna.",
-        "closeModal": "Pencereyi kapat",
-        "theAnarchyModIsRequiredForJavaEdition": "Anarchy Mod, Java Sürümü için gereklidir",
-        "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang, 6b6t'ye standart bağlantıları engelledi. Resmi mod erişimi geri yükler ve sunucuyu otomatik olarak ekler.",
-        "javaEdition": "Java Sürümü",
-        "twoStepsThenYouAreIn": "İki adım, ardından içeridesin",
-        "fabric": "FABRIC ·",
-        "required": "Gerekli",
-        "downloadTheAnarchyMod": "Anarchy Mod'u indir",
-        "getTheLatestOfficialReleaseAndInstallItIn": "En son resmi sürümü edin ve Fabric profiline yükle.",
-        "downloadLatestRelease": "Son sürümü indir",
-        "viewSourceCode": "Kaynak kodunu görüntüle",
-        "play": "Oyna",
-        "launchMinecraft": "Minecraft'ı Başlat",
-        "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "Fabric profilini başlat, Çok Oyunculu'yu aç ve sunucu listesinden 6b6t'yi seç.",
-        "serverAddress": "Sunucu adresi",
-        "copied": "Kopyalandı",
-        "copyIp": "IP'yi Kopyala",
-        "fallbackAddresses": "Yedek adresler",
-        "playingOnBedrock": "Bedrock'ta mı oynuyorsun?",
-        "noFabricModNeededUseADirectBedrockConnection": "Fabric moduna gerek yok—doğrudan bir Bedrock bağlantısı kullan.",
-        "serverOnline": "Sunucu çevrimiçi",
-        "text2000Players": "/2000 oyuncu",
-        "java": "Java",
-        "done": "Tamam"
       }
     },
     "home": {
@@ -242,31 +205,7 @@
         "text1194Supported": "1.19.4+ Destekleniyor"
       }
     },
-    "partners": {
-      "protonBanner": {
-        "vpn": "VPN",
-        "protonVpn": "Proton VPN",
-        "secureInternetAccess": "Güvenli internet erişimi",
-        "mail": "Posta",
-        "protonMail": "Proton Mail",
-        "encryptedEmail": "Şifrelenmiş e-posta",
-        "pass": "Şifre",
-        "protonPass": "Proton Pass",
-        "identityProtection": "Kimlik koruması",
-        "drive": "Depolama",
-        "protonDrive": "Proton Drive",
-        "secureStorage": "Güvenli depolama",
-        "text6b6t": "6b6t",
-        "proton": "Proton",
-        "aHistoricPartnership": "Tarihi Bir Ortaklık.",
-        "privacyMeetsAnarchy": "Gizlilik Anarşiyle Buluşuyor.",
-        "text6b6tHasOfficiallyPartneredWithProtonToChampionA": "6b6t, güvenli ve şifreli bir internetin öncüsü olmak için Proton ile resmi olarak ortaklık kurdu. Gizliliğin bir lüks değil, temel bir hak olduğuna inanıyoruz. Dijital yaşamını, bizim de güvendiğimiz aynı İsviçre merkezli araçlarla koru."
-      }
-    },
     "social": {
-      "featuredVideo": {
-        "join6b6tHytale": "6B6T HYTALE'A KATIL"
-      },
       "youTubeShorts": {
         "epic6b6tAnarchyPvpMoments": "Epik 6b6t Anarşi PvP Anları",
         "massive6b6tBaseTour": "Devasa 6b6t Üs Turu",

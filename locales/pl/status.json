@@ -1,28 +1,6 @@
 {
   "sections": {
     "statusClient": {
-      "failedToFetchServerStatus": "Nie udało się pobrać statusu serwera",
-      "text6b6tServerStatus": "STATUS SERWERA 6B6T",
-      "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
-      "lastUpdated": "Ostatnia aktualizacja:",
-      "loading": "Ładowanie...",
-      "refresh": "Odśwież",
-      "currentPlayers": "Aktualni gracze",
-      "connectionFailed": "Połączenie nieudane",
-      "playersOnline": "graczy online",
-      "online": "Online",
-      "offline": "Offline",
-      "serverLimit": "Limit serwera",
-      "maximumCapacity": "maksymalna pojemność",
-      "capacity": "Pojemność",
-      "version": "Wersja",
-      "minecraftVersion": "wersja Minecraft",
-      "serverAddress": "Adres serwera",
-      "ping": "Ping",
-      "ms": "ms"
-    },
-    "statusPageContent": {
-      "failedToFetchServerStatus": "Nie udało się pobrać statusu serwera",
       "text6b6tServerStatus": "STATUS SERWERA 6B6T",
       "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
       "lastUpdated": "Ostatnia aktualizacja:",

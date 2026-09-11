@@ -22,6 +22,6 @@ values in English; do not submit empty strings or machine-generated filler.
 - Do not add promotions, links, claims, or instructions that are absent from
   the English text.
 
-Accepted translations are imported during the next Dokploy website build. A
-merge does not change the running website until an authorized maintainer starts
-or approves that deployment.
+Accepted translations must be synchronized into the website repository before
+its GitHub Actions production deployment. Merging here alone does not change
+the running website; see the publishing steps in README.md.

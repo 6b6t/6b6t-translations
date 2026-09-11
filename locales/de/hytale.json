@@ -1,141 +1,61 @@
 {
   "sections": {
-    "components": {
-      "countdown": {
-        "days": "DAYS",
-        "hours": "HOURS",
-        "mins": "MINS",
-        "secs": "SECS"
-      },
-      "hytaleConnectionModal": {
-        "serverConnection": "Server Connection",
-        "closeModal": "Close modal",
-        "text6b6tHytale": "6b6t Hytale",
-        "statusOnline": "Status: Online",
-        "serverAddresses": "Server Addresses",
-        "clickAnyAddressBelowToCopyUseTheseTo": "Click any address below to copy. Use these to connect in-game.",
-        "howToJoin": "How to Join",
-        "launchYourHytaleClient": "Launch your Hytale client",
-        "navigateToMultiplayerGtAddServer": "Navigate to Multiplayer &gt; Add Server",
-        "enterOneOfTheAddressesAbove": "Enter one of the addresses above",
-        "joinAndEmbraceTheChaos": "Join and embrace the chaos",
-        "joinTheDiscordForUpdates": "Join the Discord for Updates"
-      },
-      "hytaleFaq": {
-        "areThereReallyNoRules": "Are there really no rules?",
-        "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale server is a pure anarchy server. Griefing, raiding, and PvP are all permitted. As the first anarchy server in Hytale, we offer absolute freedom with no bans.",
-        "whatMakesThisTheFirstAnarchyServer": "What makes this the first anarchy server?",
-        "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t went live just minutes after Hytale's global launch on January 13, 2026. We established the first true anarchy environment in Hytale history, creating a permanent world that will never be reset.",
-        "willTheMapEverReset": "Will the map ever reset?",
-        "theMapOf6b6tHytaleServerWillNeverReset": "The map of 6b6t Hytale server will never reset. 6b6t is the oldest anarchy server in Hytale, started on January 13, 2026. This world is permanent, preserving your builds and history forever.",
-        "isItPayToWin": "Is it Pay-to-Win?",
-        "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "Absolutely not. 6b6t is a free anarchy server focused on fair play. Ensuring no Pay-2-Win advantages.",
-        "common": "Common",
-        "queries": "Queries"
-      },
-      "hytaleFeaturedVideo": {
-        "featuredVideo": "Featured Video",
-        "fitmcOn": "FitMC on",
-        "text6b6tHytale": "6b6t Hytale",
-        "watchTheLatestVideoAbout6b6tFromFitmcThe": "Watch the latest video about 6b6t from FitMC. The largest and the oldest anarchy server in Hytale.",
-        "fitmcOn6b6tHytale": "FitMC on 6b6t Hytale",
-        "clickToPlay": "Click to play"
-      },
-      "hytaleFooter": {
-        "discord": "Discord",
-        "youtube": "YouTube",
-        "twitter": "Twitter",
-        "reddit": "Reddit",
-        "tiktok": "TikTok",
-        "instagram": "Instagram",
-        "text6b6t": "6b6t",
-        "hytale": "Hytale",
-        "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "The ultimate anarchy experience, reimagined for Hytale. No rules, no masters, infinite possibilities.",
-        "serverIp": "Server IP",
-        "copyIp": "Copy IP",
-        "links": "Links",
-        "home": "Home",
-        "notAffiliatedWithMojangStudiosOrHypixelStudios": "Not affiliated with Mojang Studios or Hypixel Studios.",
-        "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. All rights reserved."
-      },
-      "hytaleGallery": {
-        "aCastleDuringTheDay": "A castle during the day",
-        "inventoryFullOfDupedItems": "Inventory full of duped items",
-        "oneOfTheFirstHighways": "One of the first highways",
-        "highwayBuildersWorkingTogether": "Highway builders working together",
-        "text3rdDayOnTheServer": "3rd day on the server",
-        "aGlitchedBlock": "A glitched block",
-        "spawnInTheFirstWeekOf6b6tHytale": "Spawn in the first week of 6b6t Hytale",
-        "oneOfTheFirstPeacefulNights": "One of the first peaceful nights",
-        "aModernHouse": "A modern house",
-        "aFortifiedPlayerBaseRisingAboveTheTerrain": "A fortified player base rising above the terrain",
-        "aSprawlingCityBuiltByTheCommunity": "A sprawling city built by the community",
-        "coloredMapart": "colored mapart",
-        "aColorfulPixelArtCreationVisibleOnTheMap": "A colorful pixel art creation visible on the map",
-        "giantTree": "giant tree",
-        "aMassiveTreeToweringOverTheLandscape": "A massive tree towering over the landscape",
-        "aHighwayStretchingEndlesslyIntoTheHorizon": "A highway stretching endlessly into the horizon",
-        "aLavaFilledCraterAtSpawn": "A lava-filled crater at spawn",
-        "aTallTowerPiercingThroughTheClouds": "A tall tower piercing through the clouds",
-        "january2026": "January 2026",
-        "allMedia": "All Media",
-        "hytale": "Hytale",
-        "aGlimpseOf": "A Glimpse of",
-        "chaos": "Chaos",
-        "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "Witness the untold stories and landscapes waiting to be conquered."
-      },
-      "hytaleGalleryModal": {
-        "closeModal": "Close modal",
-        "featured": "Featured"
-      },
-      "hytaleHero": {
-        "text6b6t": "6b6t",
-        "theFirstAnarchyServerInHytale": "The First Anarchy Server in Hytale",
-        "noRulesNoResetsNoMercyExperience": "No rules. No resets. No mercy. Experience",
-        "trueAnarchy": "true anarchy",
-        "inHytaleOnThe": "in Hytale on the",
-        "firstAnarchyServer": "first anarchy server",
-        "establishedJust": ", established just",
-        "minutesAfterTheGameLaunched": "minutes after the game launched",
-        "chaosReignsInThisOpenWorldWithNoBans": ". Chaos reigns in this open world with no bans.",
-        "playersOnline": "Players Online",
-        "capacity": "capacity",
-        "liveQuery": "Live Query",
-        "tps": "TPS:",
-        "entities": "Entities:",
-        "chunks": "Chunks:",
-        "joinDiscord": "Join Discord",
-        "playNow": "Play Now",
-        "playHytaleTrailer": "Play Hytale Trailer",
-        "hytaleTrailerThumbnail": "Hytale Trailer Thumbnail",
-        "playVideo": "Play Video",
-        "hytaleTrailer": "Hytale Trailer"
-      },
-      "hytaleNav": {
-        "home": "HOME",
-        "text6b6t": "6b6t",
-        "text6b6t2": "6B6T",
-        "play": "PLAY",
-        "toggleMenu": "Toggle menu"
-      },
-      "runeDecorations": {
-        "text6b6tForever": "6b6t forever",
-        "chaosAwaits": "Chaos awaits",
-        "joinTheAnarchy": "Join the anarchy",
-        "noRulesNoMercy": "No rules, no mercy",
-        "hytale2026": "Hytale 2026"
-      },
-      "serverAge": {
-        "serverAge": "Server Age",
-        "days": "DAYS",
-        "hours": "HOURS",
-        "mins": "MINS",
-        "secs": "SECS",
-        "est": "Est.",
-        "cet": "CET"
-      }
+    "hytaleConnectionModal": {
+      "serverConnection": "Server Connection",
+      "closeModal": "Close modal",
+      "text6b6tHytale": "6b6t Hytale",
+      "statusOnline": "Status: Online",
+      "serverAddresses": "Server Addresses",
+      "clickAnyAddressBelowToCopyUseTheseTo": "Click any address below to copy. Use these to connect in-game.",
+      "howToJoin": "How to Join",
+      "launchYourHytaleClient": "Launch your Hytale client",
+      "navigateToMultiplayerGtAddServer": "Navigate to Multiplayer &gt; Add Server",
+      "enterOneOfTheAddressesAbove": "Enter one of the addresses above",
+      "joinAndEmbraceTheChaos": "Join and embrace the chaos",
+      "joinTheDiscordForUpdates": "Join the Discord for Updates"
     },
-    "galleryData": {
+    "hytaleFaq": {
+      "areThereReallyNoRules": "Are there really no rules?",
+      "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale server is a pure anarchy server. Griefing, raiding, and PvP are all permitted. As the first anarchy server in Hytale, we offer absolute freedom with no bans.",
+      "whatMakesThisTheFirstAnarchyServer": "What makes this the first anarchy server?",
+      "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t went live just minutes after Hytale's global launch on January 13, 2026. We established the first true anarchy environment in Hytale history, creating a permanent world that will never be reset.",
+      "willTheMapEverReset": "Will the map ever reset?",
+      "theMapOf6b6tHytaleServerWillNeverReset": "The map of 6b6t Hytale server will never reset. 6b6t is the oldest anarchy server in Hytale, started on January 13, 2026. This world is permanent, preserving your builds and history forever.",
+      "isItPayToWin": "Is it Pay-to-Win?",
+      "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "Absolutely not. 6b6t is a free anarchy server focused on fair play. Ensuring no Pay-2-Win advantages.",
+      "common": "Common",
+      "queries": "Queries"
+    },
+    "hytaleFeaturedVideo": {
+      "featuredVideo": "Featured Video",
+      "fitmcOn": "FitMC on",
+      "text6b6tHytale": "6b6t Hytale",
+      "watchTheLatestVideoAbout6b6tFromFitmcThe": "Watch the latest video about 6b6t from FitMC. The largest and the oldest anarchy server in Hytale.",
+      "fitmcOn6b6tHytale": "FitMC on 6b6t Hytale",
+      "clickToPlay": "Click to play"
+    },
+    "hytaleFooter": {
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "reddit": "Reddit",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "text6b6t": "6b6t",
+      "hytale": "Hytale",
+      "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "The ultimate anarchy experience, reimagined for Hytale. No rules, no masters, infinite possibilities.",
+      "serverIp": "Server IP",
+      "copyIp": "Copy IP",
+      "links": "Links",
+      "home": "Home",
+      "notAffiliatedWithMojangStudiosOrHypixelStudios": "Not affiliated with Mojang Studios or Hypixel Studios.",
+      "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. All rights reserved."
+    },
+    "hytaleGalleryModal": {
+      "closeModal": "Close modal",
+      "featured": "Featured"
+    },
+    "hytaleGallery": {
       "aCastleDuringTheDay": "A castle during the day",
       "inventoryFullOfDupedItems": "Inventory full of duped items",
       "oneOfTheFirstHighways": "One of the first highways",
@@ -154,7 +74,49 @@
       "aHighwayStretchingEndlesslyIntoTheHorizon": "A highway stretching endlessly into the horizon",
       "aLavaFilledCraterAtSpawn": "A lava-filled crater at spawn",
       "aTallTowerPiercingThroughTheClouds": "A tall tower piercing through the clouds",
-      "january2026": "January 2026"
+      "january2026": "January 2026",
+      "aGlimpseOf": "A Glimpse of",
+      "chaos": "Chaos",
+      "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "Witness the untold stories and landscapes waiting to be conquered."
+    },
+    "hytaleHero": {
+      "text6b6t": "6b6t",
+      "theFirstAnarchyServerInHytale": "The First Anarchy Server in Hytale",
+      "noRulesNoResetsNoMercyExperience": "No rules. No resets. No mercy. Experience",
+      "trueAnarchy": "true anarchy",
+      "inHytaleOnThe": "in Hytale on the",
+      "firstAnarchyServer": "first anarchy server",
+      "establishedJust": ", established just",
+      "minutesAfterTheGameLaunched": "minutes after the game launched",
+      "chaosReignsInThisOpenWorldWithNoBans": ". Chaos reigns in this open world with no bans.",
+      "playersOnline": "Players Online",
+      "capacity": "capacity",
+      "liveQuery": "Live Query",
+      "tps": "TPS:",
+      "entities": "Entities:",
+      "chunks": "Chunks:",
+      "joinDiscord": "Join Discord",
+      "playNow": "Play Now",
+      "playHytaleTrailer": "Play Hytale Trailer",
+      "hytaleTrailerThumbnail": "Hytale Trailer Thumbnail",
+      "playVideo": "Play Video",
+      "hytaleTrailer": "Hytale Trailer"
+    },
+    "hytaleNav": {
+      "home": "HOME",
+      "text6b6t": "6b6t",
+      "text6b6t2": "6B6T",
+      "play": "PLAY",
+      "toggleMenu": "Toggle menu"
+    },
+    "serverAge": {
+      "serverAge": "Server Age",
+      "days": "DAYS",
+      "hours": "HOURS",
+      "mins": "MINS",
+      "secs": "SECS",
+      "est": "Est.",
+      "cet": "CET"
     },
     "page": {
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - First Anarchy Server in Hytale | Hytale Anarchy",

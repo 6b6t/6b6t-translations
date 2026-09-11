@@ -1,0 +1,33 @@
+{
+  "page-name": "Nous contacter",
+  "seo-description": "Contactez l’équipe 6b6t pour obtenir de l’aide concernant le serveur Minecraft, votre compte, la boutique, les demandes professionnelles ou la communauté.",
+  "sections": {
+    "page": {
+      "contactUs": "Nous contacter",
+      "getIn": "Contactez",
+      "touch": "nous",
+      "needHelpWeReHereToAssistYouWith": "Besoin d’aide ? Nous sommes là pour répondre à toutes vos questions concernant 6b6t.",
+      "email": "E-mail",
+      "discord": "Discord",
+      "contactViaEmail": "Nous contacter par e-mail",
+      "sendUsAnEmailAndWeLlGetBack": "Envoyez-nous un e-mail et nous vous répondrons sous 24 heures.",
+      "openYourEmailApp": "Ouvrez votre application de messagerie",
+      "composeAnEmailDescribingYourConcern": "Rédigez un e-mail décrivant votre problème",
+      "sendTo": "Envoyez-le à",
+      "responseTimeTypicallyWithin24Hours": "Délai de réponse : généralement sous 24 heures",
+      "contactViaDiscord": "Nous contacter sur Discord",
+      "createATicketInOur": "Créez un ticket sur notre",
+      "discordServer": "serveur Discord",
+      "forFasterSupport": "pour une assistance plus rapide.",
+      "joinOurDiscordServer": "Rejoignez notre serveur Discord",
+      "createATicketIn": "Créez un ticket dans",
+      "waitForATeamMemberToRespond": "Attendez la réponse d’un membre de l’équipe",
+      "responseTimeTypicallyWithin1Hour": "Délai de réponse : généralement sous 1 heure",
+      "discordSupportIs": "L’assistance Discord est",
+      "exclusiveToRankedPlayers": "réservée aux joueurs ayant un grade",
+      "youMustHaveARankFromThe": ". Vous devez posséder un grade de la",
+      "text6b6tShop": "boutique 6b6t",
+      "toCreateATicket": "pour créer un ticket."
+    }
+  }
+}

@@ -1,13 +1,8 @@
 {
   "sections": {
     "antispamClient": {
-      "failedToFetchLogs": "Nie udało się pobrać logów",
       "loadingModerationLogs": "Ładowanie logów moderacji...",
-      "unableToLoadLogs": "Nie udało się załadować logów",
       "tryAgain": "Spróbuj ponownie",
-      "noModerationRecordsAvailable": "Brak dostępnych zapisów moderacji",
-      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "Świetna wiadomość! W ostatnim czasie nie odnotowano żadnych działań związanych z zapobieganiem spamowi. Nasza społeczność dba o porządek i kulturę na czacie.",
-      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "Ta strona będzie automatycznie aktualizowana, gdy zostaną podjęte działania moderacyjne.",
       "searchPlayer": "Szukaj gracza...",
       "newestFirst": "Najnowsze najpierw",
       "oldestFirst": "Najstarsze najpierw",
@@ -29,15 +24,13 @@
       "value1Value2": "{{value1}}{{value2}}",
       "of": "z"
     },
-    "components": {
-      "muteSystemCard": {
-        "muteSystem": "System wyciszeń",
-        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t ma wyciszenia, ale są one w pełni transparentne i nadal możesz zdecydować, czy chcesz widzieć wyciszonych graczy. Wyciszamy graczy zgodnie z zasadami na tej stronie. Jeśli chcesz mieć pełne doświadczenie anarchii i widzieć wyciszonych graczy, użyj komendy:",
-        "on": "włączony",
-        "or": "lub",
-        "off": "wyłączony",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "System wyciszeń jest w pełni transparentny i zgodny z anarchią."
-      }
+    "muteSystemCard": {
+      "muteSystem": "System wyciszeń",
+      "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t ma wyciszenia, ale są one w pełni transparentne i nadal możesz zdecydować, czy chcesz widzieć wyciszonych graczy. Wyciszamy graczy zgodnie z zasadami na tej stronie. Jeśli chcesz mieć pełne doświadczenie anarchii i widzieć wyciszonych graczy, użyj komendy:",
+      "on": "włączony",
+      "or": "lub",
+      "off": "wyłączony",
+      "thisMuteSystemIsFullyTransparentAndAnarchy": "System wyciszeń jest w pełni transparentny i zgodny z anarchią."
     },
     "page": {
       "antiSpamLogs": "Logi Anti-Spam",

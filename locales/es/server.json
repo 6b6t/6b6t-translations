@@ -1,652 +1,129 @@
 {
   "sections": {
     "api": {
-      "admin": {
-        "analytics": {
-          "anarchyMod": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "unauthorized": "No autorizado",
-              "internalServerError": "Error interno del servidor"
-            }
-          },
-          "shop": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "unauthorized": "No autorizado"
-            }
-          },
-          "transactions": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "unauthorized": "No autorizado"
-            }
-          }
-        },
-        "auth": {
-          "login": {
-            "route": {
-              "emailAndPasswordAreRequired": "El correo electrónico y la contraseña son obligatorios",
-              "internalServerError": "Error interno del servidor"
-            }
-          },
-          "me": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "invalidSession": "Sesión no válida",
-              "internalServerError": "Error interno del servidor"
-            }
-          }
-        },
-        "communityEvent": {
-          "route": {
-            "unauthorized": "No autorizado",
-            "resetConfirmationDidNotMatch": "La confirmación de restablecimiento no coincide",
-            "invalidExtension": "Extensión no válida",
-            "unknownError": "Error desconocido"
-          }
-        },
-        "milestones": {
-          "route": {
-            "notAuthenticated": "No autenticado",
-            "unauthorized": "No autorizado",
-            "pointsAndRewardAreRequired": "Los puntos y la recompensa son obligatorios",
-            "invalidMilestoneIndex": "Índice de hito no válido",
-            "invalidPointsValue": "Valor de puntos no válido",
-            "failedToProcessAdminAction": "No se pudo procesar la acción de administración",
-            "unknownError": "Error desconocido",
-            "failedToFetchMilestones": "No se pudieron obtener los hitos"
-          }
-        },
-        "motd": {
-          "ads": {
-            "requestId": {
-              "route": {
-                "motdAuditStoreIsUnavailable": "El registro de auditoría de MOTD no está disponible",
-                "invalidJsonPayload": "Datos JSON no válidos",
-                "motdActionFailed": "La acción del MOTD falló"
-              }
-            },
-            "route": {
-              "motdAdStoreIsUnavailable": "El almacenamiento de anuncios MOTD no está disponible"
-            }
-          },
-          "manual": {
-            "route": {
-              "invalidJsonPayload": "Datos JSON no válidos",
-              "motdActionFailed": "La acción del MOTD falló"
-            }
-          }
-        },
-        "printify": {
-          "requests": {
-            "route": {
-              "forbidden": "Acceso denegado",
-              "couldNotLoadRequests": "No se pudieron cargar las solicitudes",
-              "invalidRequest": "Solicitud no válida",
-              "reviewFailed": "La revisión falló"
-            }
-          }
-        },
-        "recovery": {
-          "gracePeriod": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "invalidSession": "Sesión no válida",
-              "onlySuperAdminsCanApproveGracePeriodOverrides": "Solo los superadministradores pueden aprobar excepciones al período de gracia.",
-              "invalidJsonPayload": "Datos JSON no válidos"
-            }
-          },
-          "lookup": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "invalidSession": "Sesión no válida",
-              "unauthorized": "No autorizado",
-              "enterAValidMinecraftUsername": "Introduce un nombre de usuario de Minecraft válido."
-            }
-          },
-          "submissions": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "invalidSession": "Sesión no válida",
-              "unauthorized": "No autorizado",
-              "recoverySubmissionLogStoreIsUnavailable": "El registro de solicitudes de recuperación no está disponible",
-              "invalidUsernameFilter": "Filtro de nombre de usuario no válido"
-            }
-          },
-          "tickets": {
-            "route": {
-              "notAuthenticated": "No autenticado",
-              "invalidSession": "Sesión no válida",
-              "unauthorized": "No autorizado",
-              "recoveryTicketStoreIsUnavailable": "El almacenamiento de tickets de recuperación no está disponible",
-              "invalidJsonPayload": "Datos JSON no válidos",
-              "ticketNotFound": "Ticket no encontrado",
-              "ticketHasAlreadyBeenReviewed": "Este ticket ya fue revisado.",
-              "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "La comprobación de disponibilidad del correo electrónico en el servidor de juego no está disponible. El ticket no fue aprobado.",
-              "targetEmailIsAlreadyLinkedToAnotherAccount": "El correo de destino ya está vinculado a otra cuenta.",
-              "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "La información de recuperación del servidor de juego no está disponible. El ticket no fue aprobado.",
-              "ownerNotificationGracePeriodIsStillActiveWaitFor": "El período de gracia de notificación al propietario sigue activo. Espera a que finalice o utiliza primero la excepción del período de gracia de superadministrador.",
-              "noAccountOwnerNotificationChallengeExistsForThisVerified": "No existe ninguna verificación de notificación al propietario de la cuenta para esta cuenta con correo electrónico verificado. El ticket no fue aprobado.",
-              "couldNotSendTheManualReviewResultEmailTicket": "No se pudo enviar el correo electrónico con el resultado de la revisión manual. El ticket no fue revisado.",
-              "couldNotConsumeTheAccountOwnerNotificationPassTicket": "No se pudo utilizar la autorización de notificación al propietario de la cuenta. El ticket no fue aprobado.",
-              "gameServerEmailUpdateFailedTicketWasNotApproved": "No se pudo actualizar el correo electrónico en el servidor de juego. El ticket no fue aprobado."
-            }
-          }
-        }
-      },
-      "analytics": {
-        "transactions": {
-          "route": {
-            "authenticationRequired": "Se requiere autenticación",
-            "insufficientPermissions": "Permisos insuficientes",
-            "invalidPagination": "Paginación no válida",
-            "failedToFetchTransactions": "No se pudieron obtener las transacciones"
-          }
-        },
-        "users": {
-          "username": {
-            "transactions": {
-              "route": {
-                "notAuthorized": "No autorizado",
-                "invalidLimit": "Límite no válido",
-                "failedToFetchUserTransactions": "No se pudieron obtener las transacciones del usuario"
-              }
-            }
-          }
-        }
-      },
-      "antispam": {
-        "logs": {
-          "route": {
-            "selectMuteAsActionMutedAsPlayerCoalesceReason": "SELECT 'mute' as action, muted as player, COALESCE(reason, 'No reason provided') as reason, timestamp, expires_at as expiresAt FROM mutes WHERE {{value1}} ORDER BY timestamp {{value2}} LIMIT ? OFFSET ?",
-            "antispamMessagesValue1": "antispam_messages:{{value1}}",
-            "unknownError": "Error desconocido",
-            "failedToFetchAntispamLogs": "No se pudieron obtener los registros de antispam"
-          }
-        }
-      },
-      "checkout": {
-        "creem": {
-          "route": {
-            "invalidCheckoutMetadata": "Invalid checkout metadata",
-            "useTheLegendPageToPurchaseAnAccountBound": "Use the Legend page to purchase an account-bound lifetime plan"
-          }
-        }
-      },
-      "cigarLeaderboard": {
-        "route": {
-          "failedToFetchCigarLeaderboardData": "No se pudieron obtener los datos de la clasificación de cigarros"
-        }
+      "text": {
+        "notFound": "Not found"
       },
       "commands": {
-        "route": {
-          "failedToFetchCommands": "No se pudieron obtener los comandos"
-        }
-      },
-      "communityEvent": {
-        "history": {
-          "route": {
-            "tooManyRequests": "Demasiadas solicitudes",
-            "communityEventHistoryIsTemporarilyUnavailable": "El historial del evento comunitario no está disponible temporalmente"
-          }
-        },
-        "route": {
-          "tooManyRequests": "Demasiadas solicitudes",
-          "communityEventIsTemporarilyUnavailable": "El evento comunitario no está disponible temporalmente"
-        }
-      },
-      "communityPoints": {
-        "history": {
-          "route": {
-            "failedToFetchCompletionHistory": "No se pudo obtener el historial de finalización"
-          }
-        },
-        "route": {
-          "notAuthenticated": "No autenticado",
-          "unauthorized": "No autorizado",
-          "invalidRanktypeValue1": "rankType no válido: {{value1}}",
-          "addedPointsForRankValue1": "Puntos añadidos para el rango: {{value1}}",
-          "failedToAddPoints": "No se pudieron añadir los puntos",
-          "unknownError": "Error desconocido"
-        }
+        "failedToFetchCommands": "No se pudieron obtener los comandos"
       },
       "creem": {
-        "route": {
-          "completed": "completado",
-          "opened": "opened",
-          "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado"
-        }
-      },
-      "dbStatus": {
-        "route": {
-          "thisEndpointIsOnlyAvailableInDevelopment": "Este endpoint solo está disponible en desarrollo",
-          "legendplayerModelNotAvailable": "El modelo LegendPlayer no está disponible",
-          "playerData": "player_data",
-          "databaseCheckFailed": "Falló la comprobación de la base de datos",
-          "unknownError": "Error desconocido"
-        }
+        "completed": "completado",
+        "opened": "opened",
+        "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado",
+        "invalidWebhookSignature": "Invalid webhook signature",
+        "webhookProcessingFailed": "Falló el procesamiento del webhook"
       },
       "discord": {
         "motd": {
           "interactions": {
-            "route": {
-              "invalidRequestSignature": "Firma de solicitud no válida",
-              "invalidJsonPayload": "Datos JSON no válidos"
-            }
+            "invalidRequestSignature": "Firma de solicitud no válida",
+            "invalidJsonPayload": "Datos JSON no válidos"
           },
           "review": {
-            "route": {
-              "unauthorized": "No autorizado",
-              "invalidJsonPayload": "Datos JSON no válidos",
-              "youDoNotHavePermissionToReviewMotds": "No tienes permiso para revisar MOTD.",
-              "approvedMotdRequestValue1": "Solicitud MOTD {{value1}} aprobada.",
-              "requestedRevisionForMotdRequestValue1": "Se solicitó una revisión para la solicitud MOTD {{value1}}.",
-              "motdReviewActionFailed": "La acción de revisión del MOTD falló."
-            }
-          }
-        },
-        "registerRoles": {
-          "route": {
-            "firstJoinDate": "Fecha de primera conexión",
-            "daysMinimumBetweenNowAndFirstJoinDate": "Mínimo de días entre hoy y la primera conexión",
-            "hoursOfTotalPlaytime": "Horas totales de juego",
-            "hoursMinimumOfTotalPlaytime": "Mínimo de horas totales de juego",
-            "hoursPlayedLast30Days": "Horas jugadas en los últimos 30 días",
-            "hoursMinimumPlayedInTheLast30Days": "Mínimo de horas jugadas en los últimos 30 días",
-            "rank": "Rango",
-            "matchingRank": "Rango correspondiente",
-            "firstJoinYear": "Año de primera conexión",
-            "yearTheUserFirstJoined": "Año en que el usuario se conectó por primera vez"
-          }
-        },
-        "widget": {
-          "route": {
-            "failedToFetchDiscordData": "No se pudieron obtener los datos de Discord"
+            "unauthorized": "No autorizado",
+            "invalidJsonPayload": "Datos JSON no válidos",
+            "youDoNotHavePermissionToReviewMotds": "No tienes permiso para revisar MOTD.",
+            "approvedMotdRequestValue1": "Solicitud MOTD {{value1}} aprobada.",
+            "requestedRevisionForMotdRequestValue1": "Se solicitó una revisión para la solicitud MOTD {{value1}}.",
+            "motdReviewActionFailed": "La acción de revisión del MOTD falló."
           }
         }
       },
-      "gallery": {
-        "id": {
-          "route": {
-            "imageIdIsRequired": "Se requiere el ID de la imagen",
-            "imageNotFound": "Imagen no encontrada",
-            "failedToFetchImageData": "No se pudieron obtener los datos de la imagen",
-            "unknownError": "Error desconocido"
-          }
-        },
-        "route": {
-          "failedToFetchGalleryData": "No se pudieron obtener los datos de la galería",
-          "unknownError": "Error desconocido"
-        }
-      },
-      "hytale": {
-        "players": {
-          "route": {
-            "unknownError": "Error desconocido"
-          }
-        }
-      },
-      "internal": {
-        "communityEvent": {
-          "deliver": {
-            "route": {
-              "unauthorized": "No autorizado",
-              "outboxDeliveryFailed": "Falló la entrega de la bandeja de salida"
-            }
-          }
-        }
-      },
-      "legendData": {
-        "route": {
-          "usernameParameterIsRequired": "Se requiere el parámetro de nombre de usuario",
-          "noThemeFound": "No se encontró ningún tema",
-          "internalServerError": "Error interno del servidor"
-        }
-      },
+      "text6b6tOrgMetadataApi": "API de metadatos de 6b6t.org",
+      "online": "en línea",
       "legendSubscribers": {
-        "route": {
-          "active": "activo",
-          "trialing": "en período de prueba",
-          "pastDue": "past_due",
-          "unableToLoadLegendSubscribers": "No se pudieron cargar los suscriptores de Legend",
-          "all": "todos"
-        }
+        "active": "activo",
+        "trialing": "en período de prueba",
+        "pastDue": "past_due",
+        "unableToLoadLegendSubscribers": "No se pudieron cargar los suscriptores de Legend",
+        "all": "todos"
       },
       "media": {
-        "path": {
-          "route": {
-            "noFilePathProvided": "No se proporcionó una ruta de archivo",
-            "invalidFilePath": "Ruta de archivo no válida",
-            "fileNotFound": "Archivo no encontrado",
-            "notAFile": "No es un archivo",
-            "internalServerError": "Error interno del servidor"
-          }
-        }
-      },
-      "migrateRedisLinkToMariadb": {
-        "route": {
-          "migrationAuthorizationRequired": "Se requiere autorización para la migración",
-          "unknownErrorParsingTokens": "Error desconocido al procesar los tokens",
-          "unknownErrorParsingMetadata": "Error desconocido al procesar los metadatos",
-          "unknownErrorStoringMapping": "Error desconocido al guardar la vinculación",
-          "ok": "ok",
-          "unknownMigrationError": "Error de migración desconocido",
-          "error": "error",
-          "methodNotAllowed": "method_not_allowed",
-          "usePostToTriggerTheMigration": "Utiliza POST para iniciar la migración."
+        "text": {
+          "noFilePathProvided": "No se proporcionó una ruta de archivo",
+          "invalidFilePath": "Ruta de archivo no válida",
+          "fileNotFound": "Archivo no encontrado"
         }
       },
       "monitoring": {
-        "discordTest": {
-          "route": {
-            "discordWebhookNotConfigured": "El webhook de Discord no está configurado",
-            "discordWebhookTestSentSuccessfully": "Prueba del webhook de Discord enviada correctamente",
-            "discordWebhookTestFailed": "Falló la prueba del webhook de Discord",
-            "internalServerErrorDuringDiscordTest": "Error interno del servidor durante la prueba de Discord"
-          }
-        },
         "errorReport": {
-          "resolve": {
-            "route": {
-              "missingRequiredFieldsFingerprintId": "Faltan campos obligatorios: fingerprint, id",
-              "errorNotFound": "Error no encontrado",
-              "errorMarkedAsResolved": "Error marcado como resuelto",
-              "internalServerError": "Error interno del servidor"
-            }
-          },
-          "route": {
-            "reportIsTooLarge": "El informe es demasiado grande",
-            "invalidJson": "JSON no válido",
-            "invalidErrorReport": "Informe de error no válido",
-            "tooManyReports": "Demasiados informes",
-            "errorLoggedSuccessfully": "Error registrado correctamente",
-            "internalServerError": "Error interno del servidor"
-          }
-        }
-      },
-      "motd": {
-        "cron": {
-          "route": {
-            "motdCronSecretIsNotConfigured": "MOTD_CRON_SECRET no está configurado",
-            "unauthorized": "No autorizado"
-          }
-        },
-        "myAds": {
-          "route": {
-            "notAuthenticated": "No autenticado",
-            "motdAdStoreIsUnavailable": "El almacenamiento de anuncios MOTD no está disponible",
-            "active": "activo"
-          }
-        }
-      },
-      "playerEffect": {
-        "uuid": {
-          "missingOrInvalidUuid": "UUID ausente o no válido",
-          "noEffectFoundForThisPlayer": "No se encontró ningún efecto para este jugador"
-        }
-      },
-      "playerHistory": {
-        "route": {
-          "schedulerAuthorizationRequired": "Se requiere autorización del programador",
-          "playerHistoryRecordedSuccessfully": "Historial del jugador registrado correctamente",
-          "failedToRecordPlayerHistory": "No se pudo registrar el historial del jugador",
-          "unknownError": "Error desconocido",
-          "invalidOrExcessiveDateRange": "Rango de fechas no válido o demasiado amplio",
-          "tooManyDataPointsRequested": "Se solicitaron demasiados puntos de datos",
-          "failedToFetchPlayerHistory": "No se pudo obtener el historial del jugador"
-        }
-      },
-      "players": {
-        "route": {
-          "playerListUnavailableFromCommandServiceUsingPublicServer": "La lista de jugadores no está disponible desde el servicio de comandos; se utilizará el número de jugadores del estado público del servidor.",
-          "unknownError": "Error desconocido"
+          "reportIsTooLarge": "El informe es demasiado grande",
+          "invalidJson": "JSON no válido",
+          "invalidErrorReport": "Informe de error no válido",
+          "tooManyReports": "Demasiados informes",
+          "errorLoggedSuccessfully": "Error registrado correctamente",
+          "internalServerError": "Error interno del servidor"
         }
       },
       "printify": {
         "webhook": {
-          "route": {
-            "payloadTooLarge": "Los datos enviados son demasiado grandes",
-            "invalidSignature": "Firma no válida",
-            "invalidJson": "JSON no válido",
-            "unexpectedResource": "Recurso inesperado",
-            "delivered": "entregado",
-            "shipped": "enviado"
-          }
-        }
-      },
-      "recover": {
-        "blockChallenge": {
-          "route": {
-            "invalidJsonPayload": "Datos JSON no válidos",
-            "missingOrInvalidBlockToken": "Token de bloqueo ausente o no válido."
-          }
-        },
-        "manual": {
-          "route": {
-            "invalidJsonPayload": "Datos JSON no válidos",
-            "captchaVerificationFailed": "Falló la verificación CAPTCHA",
-            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "La sesión de recuperación expiró o no es válida. Reinicia el proceso de recuperación.",
-            "yourRequestWasReceivedIfTheAccountExistsAnd": "Tu solicitud fue recibida. Si la cuenta existe y las pruebas proporcionadas pueden verificarse, el equipo de soporte se pondrá en contacto contigo.",
-            "manualReviewIsNotAvailableForThisRecoverySession": "La revisión manual aún no está disponible para esta sesión de recuperación. Continúa primero con el proceso de recuperación.",
-            "recoveryTicketStoreIsUnavailable": "El almacenamiento de tickets de recuperación no está disponible",
-            "pending": "pendiente",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "Ya existe un ticket de revisión manual pendiente para esta cuenta. Espera a que sea revisado.",
-            "theAccountOwnerHasBlockedThisRecoveryAttempt": "El propietario de la cuenta bloqueó este intento de recuperación.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "No se pudo notificar al propietario de la cuenta. El ticket manual no fue enviado.",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "No se pudo vincular la notificación al propietario de la cuenta con este ticket manual. El ticket manual no fue enviado.",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "El ticket de recuperación manual se envió correctamente. El equipo de soporte lo revisará."
-          }
-        },
-        "resetPassword": {
-          "route": {
-            "invalidJsonPayload": "Datos JSON no válidos",
-            "invalidOrMissingResetToken": "Token de restablecimiento ausente o no válido.",
-            "passwordMustBeAtLeast8Characters": "La contraseña debe tener al menos 8 caracteres.",
-            "passwordIsTooLong": "La contraseña es demasiado larga.",
-            "resetLinkHasExpiredOrIsInvalidPleaseContact": "El enlace de restablecimiento expiró o no es válido. Contacta con soporte.",
-            "passwordHasBeenResetSuccessfullyYouCanNowLog": "La contraseña se restableció correctamente. Ya puedes iniciar sesión con tu nueva contraseña."
-          }
-        },
-        "route": {
-          "ifThisAccountExistsRecoveryOptionsWillBeShown": "Si esta cuenta existe, se mostrarán las opciones de recuperación.",
-          "verificationAlreadyIssued": "verification_already_issued",
-          "verificationEmailUnavailable": "verification_email_unavailable",
-          "emailProviderIsNotConfiguredInThisEnvironmentUse": "El proveedor de correo electrónico no está configurado en este entorno. Usa developmentCode para realizar pruebas locales.",
-          "captchaVerificationFailed": "Falló la verificación CAPTCHA",
-          "tooManyRecoveryAttemptsPleaseTryAgainLater": "Demasiados intentos de recuperación. Inténtalo de nuevo más tarde.",
-          "rowdatapacket": "RowDataPacket",
-          "recoverySessionExpiredPleaseStartAgain": "La sesión de recuperación expiró. Comienza de nuevo.",
-          "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "La verificación automática no está disponible. Envía una solicitud de revisión manual si crees que eres el propietario de esta cuenta.",
-          "inGameVerificationIsRequiredUseEmailchangeInGame": "Se requiere verificación dentro del juego. Usa /emailchange dentro del juego y luego completa la verificación.",
-          "recoverySessionInvalidOrExpired": "La sesión de recuperación no es válida o ha expirado.",
-          "recoverySessionExpiredPleaseRestart": "La sesión de recuperación expiró. Reiníciala.",
-          "invalidLaneForScoreStep": "Ruta no válida para el paso de puntuación.",
-          "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "La recuperación automática de esta cuenta está bloqueada temporalmente tras varios intentos de verificación fallidos. Solicita una revisión manual o inténtalo de nuevo más tarde.",
-          "publicProofHasAlreadyBeenSubmittedForThisSession": "Las pruebas públicas ya fueron enviadas para esta sesión. Continúa con el siguiente paso o reinicia la recuperación.",
-          "identityScorePassedHoweverDueToAccountSecurityPolicies": "La puntuación de identidad fue suficiente. Sin embargo, las políticas de seguridad de la cuenta requieren una revisión manual.",
-          "identityScorePassedButANewEmailIsRequired": "La puntuación de identidad fue suficiente, pero se requiere un nuevo correo electrónico para continuar con la recuperación automática.",
-          "identityScorePassedButWeCouldNotDeliverA": "La puntuación de identidad fue suficiente, pero no pudimos enviar el correo de verificación. Solicita una revisión manual.",
-          "identityScorePassedEnterTheVerificationCodeSentTo": "La puntuación de identidad fue suficiente. Introduce el código de verificación enviado a tu nuevo correo electrónico.",
-          "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "Se necesitan datos privados adicionales antes de tomar una decisión final.",
-          "ifAnAccountWithThisUsernameExistsAndIs": "Si existe una cuenta recuperable con este nombre de usuario, se enviarán instrucciones por correo electrónico.",
-          "publicScoreStepMustBeCompletedFirst": "Primero debes completar el paso de puntuación pública.",
-          "privateProofHasAlreadyBeenSubmittedForThisSession": "Las pruebas privadas ya fueron enviadas para esta sesión. Solicita una revisión manual o reinicia la recuperación.",
-          "identityScorePassedButNoNewEmailWasProvided": "La puntuación de identidad fue suficiente, pero no se proporcionó un nuevo correo electrónico. Solicita una revisión manual.",
-          "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "La verificación automática falló después de las comprobaciones privadas. Envía un ticket de revisión manual.",
-          "noPendingEmailVerificationInThisSession": "No hay ninguna verificación de correo pendiente en esta sesión.",
-          "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "Se alcanzó el número máximo de intentos de verificación. La sesión de recuperación fue invalidada. Comienza de nuevo.",
-          "verificationCodeExpiredOrIsNoLongerValid": "El código de verificación expiró o ya no es válido.",
-          "invalidVerificationCode": "Código de verificación no válido.",
-          "emailVerifiedButTheGameServerEmailAvailabilityCheck": "Correo electrónico verificado, pero la comprobación de disponibilidad del correo en el servidor de juego no está disponible. Envía una solicitud de revisión manual.",
-          "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "Esta dirección de correo electrónico ya está asociada a otra cuenta.",
-          "emailVerifiedButTheGameServerEmailUpdateEndpoint": "Correo electrónico verificado, pero el endpoint para actualizar el correo en el servidor de juego no está configurado. Envía una solicitud de revisión manual.",
-          "emailVerifiedYouCanProceedToPasswordReset": "Correo electrónico verificado. Ya puedes continuar con el restablecimiento de la contraseña.",
-          "inGameVerificationIsNotActive": "La verificación dentro del juego no está activa.",
-          "tooManyIncorrectInGameCodesPleaseRestartRecovery": "Demasiados códigos incorrectos dentro del juego. Reinicia la recuperación y solicita un nuevo código.",
-          "invalidOrExpiredInGameCode": "Código del juego no válido o expirado.",
-          "enterTheNewTargetEmailBeforeVerifyingTheIn": "Introduce el nuevo correo electrónico de destino antes de verificar el código de cambio de correo dentro del juego.",
-          "inGameCodeVerifiedButWeCouldNotDeliver": "Código del juego verificado, pero no pudimos enviar el correo electrónico de verificación. Envía una solicitud de revisión manual.",
-          "inGameCodeVerifiedEnterTheVerificationCodeSent": "Código del juego verificado. Introduce el código de verificación enviado a tu nuevo correo electrónico.",
-          "theAccountOwnerHasBlockedThisRecoveryAttempt": "El propietario de la cuenta bloqueó este intento de recuperación.",
-          "theGracePeriodIsStillActivePleaseWaitFor": "El período de gracia sigue activo. Espera a que finalice.",
-          "theGracePeriodHasElapsedYouMayNowStart": "El período de gracia terminó. Ya puedes iniciar una nueva sesión de recuperación para continuar con la verificación de identidad.",
-          "couldNotCheckGracePeriodStatus": "No se pudo comprobar el estado del período de gracia.",
-          "noActiveGracePeriodChallengeFoundForThisAccount": "No se encontró ningún período de gracia activo para esta cuenta.",
-          "invalidRecoverySession": "Sesión de recuperación no válida.",
-          "sessionHasNotBeenApprovedForPasswordResetComplete": "La sesión no ha sido aprobada para restablecer la contraseña. Completa primero la verificación del correo electrónico.",
-          "passwordResetIsAlreadyBeingProcessedForThisSession": "El restablecimiento de contraseña ya se está procesando para esta sesión.",
-          "passwordHasBeenResetSuccessfully": "La contraseña se restableció correctamente.",
-          "invalidJsonPayload": "Datos JSON no válidos",
-          "invalidRecoveryAction": "Acción de recuperación no válida",
-          "unhandledRecoveryAction": "Acción de recuperación no gestionada"
-        }
-      },
-      "route": {
-        "text6b6tOrgMetadataApi": "API de metadatos de 6b6t.org",
-        "online": "en línea"
-      },
-      "serverStatus": {
-        "route": {
-          "unknown": "Desconocido",
-          "error": "Error",
-          "failedToFetchServerStatus": "No se pudo obtener el estado del servidor"
+          "payloadTooLarge": "Los datos enviados son demasiado grandes",
+          "invalidSignature": "Firma no válida",
+          "invalidJson": "JSON no válido",
+          "unexpectedResource": "Recurso inesperado",
+          "delivered": "entregado",
+          "shipped": "enviado"
         }
       },
       "stripe": {
-        "route": {
-          "unknownError": "Error desconocido",
-          "webhookErrorValue1": "Error del webhook: {{value1}}",
-          "alreadyProcessed": "Ya procesado",
-          "received": "Recibido",
-          "unhandledEventType": "Tipo de evento no gestionado",
-          "webhookHandlerFailed": "Falló el procesamiento del webhook",
-          "completed": "completado"
-        }
+        "unknownError": "Error desconocido",
+        "webhookErrorValue1": "Error del webhook: {{value1}}",
+        "alreadyProcessed": "Ya procesado",
+        "received": "Recibido",
+        "unhandledEventType": "Tipo de evento no gestionado",
+        "webhookHandlerFailed": "Falló el procesamiento del webhook",
+        "completed": "completado"
       },
       "tebex": {
-        "route": {
-          "pending": "pendiente",
-          "lost": "perdido",
-          "payloadTooLarge": "Los datos enviados son demasiado grandes",
-          "missingSignature": "Falta la firma",
-          "invalidSignature": "Firma no válida",
-          "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado",
-          "webhookProcessingFailed": "Falló el procesamiento del webhook"
-        },
-        "status": {
-          "route": {
-            "pending": "pendiente"
-          }
-        }
+        "pending": "pendiente",
+        "lost": "perdido",
+        "payloadTooLarge": "Los datos enviados son demasiado grandes",
+        "missingSignature": "Falta la firma",
+        "invalidSignature": "Firma no válida",
+        "webhookServiceIsNotConfigured": "El servicio de webhook no está configurado",
+        "webhookProcessingFailed": "Falló el procesamiento del webhook"
       },
       "telegram": {
-        "reconcile": {
-          "route": {
-            "missingTelegramReconcileCronSecret": "Falta TELEGRAM_RECONCILE_CRON_SECRET.",
-            "unauthorized": "No autorizado."
-          }
-        },
-        "start": {
-          "route": {
-            "youMustBeLoggedInToLinkTelegram": "Debes iniciar sesión para vincular Telegram.",
-            "telegramLinkingIsNotEnabledForYourAccountYet": "La vinculación con Telegram aún no está habilitada para tu cuenta.",
-            "theLoggedInMinecraftUsernameIsInvalid": "El nombre de usuario de Minecraft de la sesión iniciada no es válido.",
-            "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "El inicio de sesión con Telegram no está configurado. Falta TELEGRAM_BOT_USERNAME.",
-            "invalidRequestPayload": "Datos de la solicitud no válidos.",
-            "invalidJsonBody": "Contenido JSON no válido.",
-            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "El inicio de sesión con Telegram no está configurado. Falta COOKIE_SECRET en el servidor."
-          }
-        },
         "webhook": {
-          "route": {
-            "missingTelegramWebhookSecret": "Falta TELEGRAM_WEBHOOK_SECRET.",
-            "unauthorizedWebhookRequest": "Solicitud de webhook no autorizada.",
-            "missingTelegramChannelId": "Falta TELEGRAM_CHANNEL_ID.",
-            "invalidJsonPayload": "Datos JSON no válidos.",
-            "failedToRevokeTelegramPerks": "No se pudieron revocar los beneficios de Telegram.",
-            "failedToRemoveMembershipMapping": "No se pudo eliminar la vinculación de membresía.",
-            "failedToUpdateMembershipState": "No se pudo actualizar el estado de la membresía.",
-            "failedToGrantTelegramPerks": "No se pudieron otorgar los beneficios de Telegram.",
-            "failedToFinalizeTelegramPerksState": "No se pudo finalizar el estado de los beneficios de Telegram."
-          }
+          "missingTelegramWebhookSecret": "Falta TELEGRAM_WEBHOOK_SECRET.",
+          "unauthorizedWebhookRequest": "Solicitud de webhook no autorizada.",
+          "missingTelegramChannelId": "Falta TELEGRAM_CHANNEL_ID.",
+          "invalidJsonPayload": "Datos JSON no válidos.",
+          "failedToRevokeTelegramPerks": "No se pudieron revocar los beneficios de Telegram.",
+          "failedToRemoveMembershipMapping": "No se pudo eliminar la vinculación de membresía.",
+          "failedToUpdateMembershipState": "No se pudo actualizar el estado de la membresía.",
+          "failedToGrantTelegramPerks": "No se pudieron otorgar los beneficios de Telegram.",
+          "failedToFinalizeTelegramPerksState": "No se pudo finalizar el estado de los beneficios de Telegram."
         }
       },
       "uptime": {
-        "route": {
-          "schedulerAuthorizationRequired": "Se requiere autorización del programador",
-          "serverUptimeCheckCompleted": "Comprobación del tiempo de actividad del servidor completada",
-          "failedToCheckServerUptime": "No se pudo comprobar el tiempo de actividad del servidor",
-          "unknownError": "Error desconocido",
-          "serveruptimeModelNotAvailable": "El modelo ServerUptime no está disponible",
-          "failedToFetchUptimeData": "No se pudieron obtener los datos de tiempo de actividad"
-        }
-      },
-      "youtube": {
-        "channel": {
-          "route": {
-            "youtubeApiNotConfigured": "La API de YouTube no está configurada",
-            "youtubeApiChannelSearchErrorValue1": "Error de búsqueda de canal en la API de YouTube: {{value1}}",
-            "noChannelsFoundFor6b6t": "No se encontraron canales de 6b6t"
-          }
-        },
-        "shorts": {
-          "route": {
-            "maxres1280x720": "resolución máxima (1280x720)",
-            "standard640x480": "estándar (640x480)",
-            "youtubeApiNotConfigured": "La API de YouTube no está configurada",
-            "youtubeApiChannelSearchErrorValue1": "Error de búsqueda de canal en la API de YouTube: {{value1}}",
-            "text6b6tChannelNotFound": "No se encontró el canal de 6b6t",
-            "youtubeApiErrorValue1": "Error de la API de YouTube: {{value1}}",
-            "noVideosFoundForThisChannel": "No se encontraron videos en este canal",
-            "noYoutubeShortsFoundForThisChannel": "No se encontraron YouTube Shorts en este canal"
-          }
-        }
+        "invalidOrExcessiveDateRange": "Rango de fechas no válido o demasiado amplio",
+        "failedToFetchUptimeData": "No se pudieron obtener los datos de tiempo de actividad",
+        "unknownError": "Error desconocido"
       }
     },
     "lib": {
       "admin": {
         "auth": {
-          "adminModelNotAvailable": "El modelo Admin no está disponible",
           "adminWithThisEmailAlreadyExists": "Ya existe un administrador con este correo electrónico",
           "unknownError": "Error desconocido",
           "invalidCredentials": "Credenciales no válidas",
-          "databaseModelNotAvailable": "El modelo de base de datos no está disponible",
           "adminSessionNotFound": "No se encontró la sesión del administrador",
           "adminNotFound": "Administrador no encontrado"
-        },
-        "monitoringAuth": {
-          "notAuthenticated": "No autenticado",
-          "invalidSession": "Sesión no válida",
-          "unauthorized": "No autorizado"
-        },
-        "motdAuth": {
-          "notAuthenticated": "No autenticado",
-          "invalidSession": "Sesión no válida",
-          "unauthorized": "No autorizado"
-        }
-      },
-      "antispam": {
-        "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "Asyncchat MySQL"
-        }
-      },
-      "asyncchat": {
-        "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "Asyncchat MySQL"
-        }
-      },
-      "auth": {
-        "enderdashOauth": {
-          "enderdash": "EnderDash"
         }
       },
       "commandService": {
         "commands": {
           "unknownCommandServiceError": "Error desconocido del servicio de comandos"
         }
+      },
+      "communityEventRateLimit": {
+        "tooManyRequests": "Demasiadas solicitudes",
+        "communityEventIsTemporarilyUnavailable": "El evento comunitario no está disponible temporalmente"
+      },
+      "communityEventStore": {
+        "active": "activo"
       },
       "communityEvent": {
         "rank": "Rango",
@@ -744,24 +221,10 @@
         }
       },
       "db": {
-        "mysqlPool": {
-          "mysqlValue1": "MySQL:{{value1}}"
-        },
-        "schemas": {
-          "motdAd": {
-            "active": "activo"
-          },
-          "recoveryTicket": {
-            "pending": "pendiente",
-            "uniquePendingRecoveryTicketPerUsername": "unique_pending_recovery_ticket_per_username"
-          }
-        },
         "shopAnalytics": {
-          "shopsessionModelNotAvailable": "El modelo ShopSession no está disponible",
           "sessionUpdateReturnedNull": "La actualización de la sesión devolvió null",
           "unknownError": "Error desconocido",
           "sessionNotFound": "Sesión no encontrada",
-          "transactionModelNotAvailable": "El modelo Transaction no está disponible",
           "transactionUpdateReturnedNull": "La actualización de la transacción devolvió null",
           "refunded": "reembolsado",
           "completed": "completado",
@@ -785,20 +248,7 @@
         "november52024": "5 de noviembre de 2024",
         "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "Galería de 6b6t - Capturas de la comunidad y momentos del servidor anárquico"
       },
-      "hooks": {
-        "useGallery": {
-          "failedToFetchGalleryData": "No se pudieron obtener los datos de la galería",
-          "failedToFetchImageData": "No se pudieron obtener los datos de la imagen"
-        }
-      },
       "link": {
-        "mariadbClient": {
-          "text6b6tLink": "6b6t_link",
-          "linkMysql": "Link MySQL"
-        },
-        "redis": {
-          "text6b6tWebsite": "6b6t-website"
-        },
         "telegramMembership": {
           "unknownError": "Error desconocido"
         }
@@ -835,10 +285,9 @@
           "smtpSendFailed": "smtp_send_failed"
         },
         "manual": {
-          "active": "activo"
+          "completed": "completado"
         },
         "minimessage": {
-          "ᴀᴅ": "ᴀᴅ",
           "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Etiqueta MiniMessage <{{value1}}> no compatible. Solo se permiten colores, negrita, cursiva, subrayado y tachado.",
           "legacyMinecraftColorCodesAreNotAllowed": "Los códigos de color antiguos de Minecraft no están permitidos."
         },
@@ -852,20 +301,19 @@
         },
         "payments": {
           "duplicateCheckoutCompletedWebhookIgnored": "Se ignoró un webhook checkout.completed duplicado",
+          "refunded": "reembolsado",
           "completed": "completado"
         },
         "queue": {
-          "checkoutStarted": "checkout_started",
           "checkoutExpired": "checkout_expired",
+          "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "La reserva fue liberada después de que fallara la creación del proceso de pago",
-          "paidPendingReview": "paid_pending_review",
-          "approvedQueued": "approved_queued",
-          "revisionRequested": "revision_requested",
+          "approvedQueued": "aprobado_en_cola",
+          "revisionRequested": "revisión_solicitada",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "El proveedor de pagos no proporcionó ningún correo electrónico del cliente",
           "cancelled": "cancelado",
-          "refundFailed": "refund_failed",
-          "active": "activo",
-          "failed": "fallido"
+          "completed": "completado",
+          "active": "activo"
         },
         "refunds": {
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "El endpoint de reembolsos de Creem no está configurado; realiza el reembolso en Creem y vuelve a intentarlo o confírmalo desde el webhook.",
@@ -873,10 +321,12 @@
           "creemRefundRequestFailedWithStatusValue1": "La solicitud de reembolso de Creem falló con el estado {{value1}}"
         }
       },
+      "playerHistoryInput": {
+        "invalidOrExcessiveDateRange": "Rango de fechas no válido o demasiado amplio"
+      },
       "printify": {
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "El despacho de productos físicos aún no está habilitado.",
-          "completed": "completado",
           "delivered": "entregado",
           "unknownError": "Error desconocido",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "El despacho de productos físicos no está disponible temporalmente.",
@@ -902,11 +352,6 @@
           "legendRankThreePaid1MonthPeriodsMug": "Rango Legend (tres períodos pagados de 1 mes) — taza"
         }
       },
-      "rankColors": {
-        "text55ffff": "text-[#55FFFF]",
-        "textFfff55": "text-[#FFFF55]",
-        "textFfaa00": "text-[#FFAA00]"
-      },
       "recovery": {
         "email": {
           "smtpSendFailed": "smtp_send_failed",
@@ -922,24 +367,21 @@
           "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Este intento de recuperación fue bloqueado porque la cuenta inició sesión en el servidor durante el período de gracia.",
           "pending": "pendiente",
           "consumed": "utilizado",
-          "expired": "expirado",
           "blocked": "bloqueado",
           "notApplicable": "not_applicable",
           "error": "error",
-          "databaseModelUnavailable": "El modelo de base de datos no está disponible",
-          "theAccountOwnerNotificationPassWasAlreadyConsumedStart": "La autorización de notificación al propietario de la cuenta ya fue utilizada. Inicia de nuevo la recuperación.",
-          "passed": "aprobado",
           "failedToCreateChallenge": "No se pudo crear la verificación",
           "smtpSendFailed": "smtp_send_failed",
+          "expired": "expirado",
           "failedToNotifyTheAccountOwnerByEmail": "No se pudo notificar por correo electrónico al propietario de la cuenta.",
           "created": "creado",
-          "serviceUnavailable": "Servicio no disponible",
           "invalidOrExpiredBlockToken": "Token de bloqueo no válido o expirado.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Este intento de recuperación ya fue bloqueado.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "El período de gracia de esta verificación ya expiró y no puede bloquearse.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Esta verificación de recuperación ya fue utilizada y ya no puede bloquearse.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Este intento de recuperación ya fue aprobado por un superadministrador y no puede bloquearse.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "El intento de recuperación fue bloqueado correctamente.",
+          "passed": "aprobado",
           "missing": "ausente",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "El propietario de la cuenta bloqueó este intento de recuperación.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "La autorización de notificación al propietario de la cuenta ya fue utilizada.",
@@ -948,6 +390,8 @@
           "thisGracePeriodHasAlreadyElapsed": "Este período de gracia ya finalizó.",
           "thisGracePeriodHasAlreadyBeenConsumed": "Este período de gracia ya fue utilizado.",
           "thisGracePeriodWasAlreadyApprovedByASuper": "Este período de gracia ya fue aprobado por un superadministrador.",
+          "adminApproved": "admin_approved",
+          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
           "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Período de gracia aprobado. El solicitante ya puede continuar con la recuperación."
         },
         "hcaptcha": {
@@ -955,14 +399,6 @@
           "missingToken": "missing_token",
           "httpValue1": "http_{{value1}}",
           "verificationFailed": "verification_failed"
-        },
-        "proofVerification": {
-          "proofTypeDoesNotRequireTransactionVerification": "Este tipo de prueba no requiere verificar una transacción.",
-          "transactionStoreIsUnavailableForVerification": "El almacenamiento de transacciones no está disponible para la verificación.",
-          "noStripeSessionEmailIdentifierFoundInSubmittedProof": "No se encontró ningún identificador de Stripe, sesión o correo electrónico en las pruebas enviadas.",
-          "noMatchingTransactionWasFoundForTheSubmittedProof": "No se encontró ninguna transacción que coincida con las pruebas enviadas.",
-          "proofMatchedTransactionIdentifiersButNotForTheSame": "Las pruebas coinciden con identificadores de transacción, pero no con el mismo nombre de usuario de Minecraft.",
-          "transactionProofVerifiedByValue1Value2": "Prueba de transacción verificada mediante {{value1}}.{{value2}}"
         },
         "provider": {
           "unavailable": "no disponible",
@@ -981,20 +417,27 @@
           "invalidOrExpiredInGameCode": "Código del juego no válido o expirado.",
           "inGameVerificationServiceIsUnavailable": "El servicio de verificación dentro del juego no está disponible."
         },
-        "redis": {
+        "sessions": {
           "expired": "expirado",
-          "valid": "válido",
           "exhausted": "agotado",
+          "valid": "válido",
           "invalid": "no válido"
         }
+      },
+      "requestRateLimit": {
+        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
+        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
       },
       "seoUtil": {
         "text6b6t": "6b6t"
       },
+      "seo": {
+        "description": "description",
+        "keywords": "keywords",
+        "robots": "robots",
+        "googlebot": "googlebot"
+      },
       "shop": {
-        "apexGifts": {
-          "completed": "completado"
-        },
         "legend": {
           "lifetime": "LIFETIME",
           "lifetime2Apex": "LIFETIME + 2 APEX",
@@ -1003,89 +446,7 @@
         },
         "ranks": {
           "unknownError": "Error desconocido",
-          "primePrefix": "Prefijo Prime",
-          "primeDiscordRank": "Rango Prime en Discord",
-          "text12Homes": "12 homes",
-          "ignoreUpTo2000Players": "Ignora hasta 2.000 jugadores",
-          "lowerTpaHomeCooldowns": "Cooldowns más bajos de /tpa y /home",
-          "contact": "Contacto",
-          "contact6b6tOrg": "contact@6b6t.org",
-          "ifYouHaveAnyQuestions": "si tienes alguna pregunta",
-          "text24PointsTowardsTheCurrentCommunityGoal": "24 puntos para la meta comunitaria actual",
-          "primeUltraPrefix": "Prefijo Prime Ultra",
-          "primeUltraDiscordRank": "Rango Prime Ultra en Discord",
-          "text18Homes": "18 homes",
-          "hatSkinSitInvisframe": "/hat & /skin & /sit & /invisframe",
-          "text3BalloonsWithBalloons": "3 globos con /balloons",
-          "uniqueChatColorWithChatcolor": "Color de chat exclusivo con /chatcolor",
-          "accessToAdvertisingIn6b6tDiscord": "Acceso a #advertising en el Discord de 6b6t",
-          "text9PointsTowardsTheCurrentCommunityGoal": "9 puntos para la meta comunitaria actual",
-          "text30PointsTowardsTheCurrentCommunityGoal": "30 puntos para la meta comunitaria actual",
-          "text63PointsTowardsTheCurrentCommunityGoal": "63 puntos para la meta comunitaria actual",
-          "elitePrefix": "Prefijo Elite",
-          "eliteDiscordRank": "Rango Elite en Discord",
-          "text30Homes": "30 homes",
-          "ignoreUpTo5000Players": "Ignora hasta 5.000 jugadores",
-          "hotspotCreate": "& /hotspot create",
-          "text5BalloonsWithBalloons": "5 globos con /balloons",
-          "text100PointsTowardsTheCurrentCommunityGoal": "100 puntos para la meta comunitaria actual",
-          "text76PointsTowardsTheCurrentCommunityGoal": "76 puntos para la meta comunitaria actual",
-          "eliteUltraPrefix": "Prefijo Elite Ultra",
-          "eliteUltraDiscordRank": "Rango Elite Ultra en Discord",
-          "text50Homes": "50 homes",
-          "hotspotColorToChangeTheBossbarColorIn3": "/hotspot color para cambiar el color de la bossbar entre 3 colores",
-          "text30BalloonsWithBalloons": "30 globos con /balloons",
-          "useColorsInAnvils": "Usa colores en los yunques",
-          "text26PointsTowardsTheCurrentCommunityGoal": "26 puntos para la meta comunitaria actual",
-          "text95PointsTowardsTheCurrentCommunityGoal": "95 puntos para la meta comunitaria actual",
-          "text175PointsTowardsTheCurrentCommunityGoal": "175 puntos para la meta comunitaria actual",
-          "apexDiscordRank": "Rango Apex en Discord",
-          "text100Homes": "100 homes",
-          "text40BalloonsWithBalloons": "40 globos con /balloons",
-          "skinHatSit": "/skin & /hat & /sit",
-          "buildermodeWith32RenderDistance": "/buildermode con 32 chunks de distancia de renderizado",
-          "hotspotCreateWith90MinuteLengthAnd60Minute": "/hotspot create con una duración de 90 minutos y un cooldown de 60 minutos",
-          "useColorsInAnvilsWithTheSignForExample": "Usa colores en los yunques con el símbolo &, por ejemplo: &aHello",
-          "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "Usa subrayado, tachado y cursiva en los yunques con el símbolo &",
-          "text30sTpaCooldown": "30 s de cooldown de /tpa",
-          "text15sHomeCooldown": "15 s de cooldown de /home",
-          "accessTo5ChatColorsInChatcolor": "Acceso a 5 colores de chat con /chatcolor",
-          "changeItemNameColorsInAnvils": "Cambia el color del nombre de los objetos en los yunques",
-          "changeColorOfConnectionMessagesWithConnectionmsgsColor": "Cambia el color de los mensajes de conexión con /connectionmsgs color",
-          "changeColorOfDeathMessagesWithDeathmsgsColor": "Cambia el color de los mensajes de muerte con /deathmsgs color",
-          "accessToAdvertisingCommunityProjects": "Acceso a #advertising y #community-projects",
-          "embedLinksPermissionInGeneralIn6b6tDiscord": "Permiso para insertar enlaces en #general en el Discord de 6b6t",
-          "attachFilesPermissionInGeneralIn6b6tDiscord": "Permiso para adjuntar archivos en #general en el Discord de 6b6t",
-          "addReactionsPermissionInGeneralIn6b6tDiscord": "Permiso para añadir reacciones en #general en el Discord de 6b6t",
-          "changeNicknamePermissionIn6b6tDiscord": "Permiso para cambiar el apodo en el Discord de 6b6t",
-          "streamingPermissionIn6b6tDiscord": "Permiso para transmitir en el Discord de 6b6t",
-          "accessTo10RankOnlyChannelsIn6b6tDiscord": "Acceso a más de 10 canales exclusivos para jugadores con rango en el Discord de 6b6t",
-          "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "Soporte prioritario mediante el canal #premium-tickets en el Discord de 6b6t",
-          "legendPrefix": "Prefijo Legend",
-          "legendDiscordRank": "Rango Legend en Discord",
-          "text500Homes": "500 homes",
-          "text70BalloonsWithBalloons": "70 globos con /balloons",
-          "cigarLightUpCigarsInMinecraft": "/cigar - ¡enciende cigarros en Minecraft!",
-          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode home &lt;home&gt; - activa automáticamente builder mode cuando te teletransportas a un home elegido",
-          "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot create con una duración de 120 minutos y un cooldown de 80 minutos",
-          "hotspotNameChangeTheNameOfHotspots": "/hotspot name - cambia el nombre de los Hotspots",
-          "hotspotGlowApplyAGlowEffectToEveryoneThat": "/hotspot glow - aplica un efecto de brillo a todos los que se teletransportaron a tu Hotspot",
-          "hotspotBalloonApplyABalloonToEveryoneThatTeleported": "/hotspot balloon - pone un globo a todos los que se teletransportaron a tu Hotspot",
-          "useBoldInAnvilsWithTheSign": "Usa negrita en los yunques con el símbolo &",
-          "text10sTpaCooldown": "10 s de cooldown de /tpa",
-          "text10sHomeCooldown": "10 s de cooldown de /home",
-          "itTakes3sInsteadOf15sToTeleportTo": "Tardas 3 s en lugar de 15 s en teletransportarte a alguien usando /tpa",
-          "itTakes3sInsteadOf15sForSomeoneTo": "Los demás tardan 3 s en lugar de 15 s en teletransportarse hacia ti usando /tpa",
-          "accessTo16ChatColorsInChatcolor": "Acceso a 16 colores de chat con /chatcolor",
-          "accessTo12NameColorsInNamecolor": "Acceso a 12 colores de nombre con /namecolor",
-          "setAGlowColorUsingGlow": "Elige un color de brillo con /glow",
-          "customizableStatisticsWebpageLookUsingDashboard": "Personaliza el aspecto de tu página de estadísticas desde el dashboard",
-          "accessToAdvertising": "Acceso a #advertising",
-          "text50PointsTowardsTheCurrentCommunityGoal": "50 puntos para la meta comunitaria actual",
-          "text150PointsTowardsTheCurrentCommunityGoal": "150 puntos para la meta comunitaria actual",
           "legendValue1": "Legend {{value1}}",
-          "permanentLegendRank": "Permanent Legend rank.",
-          "includesTwoPermanentApexRanksToAssignFromYour": "Includes two permanent Apex ranks to assign from your account.",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
@@ -1110,18 +471,31 @@
           "eliteToApexUpgrade": "Mejora de Elite a Apex",
           "default": "predeterminado"
         },
+        "reviews": {
+          "text6b6tTheServerThatFinallyConvincedMeThatI": "6b6t... el servidor que finalmente me convenció de que iba a jugar Minecraft durante mucho tiempo. Obtuve el rango Prime en 2023 gracias a un amigo. Tener más de 5 homes me da la libertad de moverme por el servidor mucho más rápido que la mayoría de los jugadores. El precio del rango Prime está bastante bien, especialmente para quienes no saben si quieren seguir jugando para siempre o no. La visibilidad en el chat es buena; puedo promocionar fácilmente mis cosas porque la gente puede ver mis mensajes. Los cooldowns de Prime todavía se sienten eternos; me gustaría que fueran un poco más bajos. En general, 6b6t con el rango Prime es una experiencia increíble. Probablemente lo recomendaría por encima de Elite, especialmente si no te interesa crear Hotspots.",
+          "text6b6tIsAGreatServerILovePlayingIt": "¡6b6t es un gran servidor! Me encanta jugar con mis amigos y, de vez en cuando, transmitir en directo mientras juego. Hace poco compré el rango Prime y, por 16 euros, ¡es una ganga! Ayuda muchísimo a aumentar la cantidad de homes que puedo tener y me gusta mucho cómo resalta mis mensajes en el chat. Hablando de homes, me encanta que este servidor tenga un plugin de homes. Me ayuda mucho a no perderme de mi base y me da más ganas de visitar spawn sabiendo que puedo volver fácilmente a casa en cualquier momento. Este servidor es increíble, ¡5 estrellas seguro!",
+          "iReallyEnjoyTheNumberOfHomesHavingThat": "Me gusta mucho la cantidad de homes; tener tantos define el servidor para mí. Mi estilo de juego sería muy distinto sin ellos. Cosméticos como /sit son divertidos cuando pasas el rato con amigos, y el color del chat es útil (me gustaría tener más de un color, pero no un arcoíris). Rol de Discord: nada especial que agregar. El precio de Prime es muy bueno (5/5). El salto de Elite a Apex se siente grande; estaría bien tener un rango y precio intermedios entre Elite y Apex. Perdón por cualquier error, el inglés no es mi primer idioma.",
+          "iLove6bVeryMuchAndEnjoyPlayingIt": "Me gusta mucho 6b y disfruto jugarlo; es, por lejos, el mejor servidor anárquico que existe. Jugar con amigos es genial: la movilidad mediante tp y /home fomenta el progreso. Los Hotspots ayudan a que los jugadores lleguen más lejos y fomentan el PvP. Funciones del chat como chatcolor, los globos y /sit hacen que el servidor sea más divertido y permiten sacar capturas y crear contenido interesante. Le doy 5 estrellas a 6b.",
+          "iLikeTheAbilityToHave12HomesBecause": "Me gusta poder tener 12 homes porque me permite teletransportarme a varios stashes y bases, incluido spawn. Aumentarlo a 15 homes mejoraría la experiencia, ya que actualmente tengo alrededor de 12. El cooldown de 300 s (5 min) está bien para transferir objetos entre stashes y bases, aunque me gustaría que fuera un poco más bajo. La actividad del servidor ha aumentado mucho desde que entré en 2023. En general, Prime como rango permanente vale muchísimo la pena; le doy 4/5 estrellas.",
+          "homesAmountMyMostUsefulFeatureICanHave": "Cantidad de homes: es la función que más uso; puedo tener homes para bases y stashes. Aunque la cantidad predeterminada de homes es bastante baja, disfruto la mejora. Visibilidad en el chat: mi nombre tiene un color genial y mi texto es blanco, por lo que se nota mucho más, y eso me gusta. Sobre si el precio valió la pena: 20 USD antes de impuestos es un poco caro; preferiría un nivel más barato (texto blanco, sin prefijo, +3 homes, colores en yunques, sin rol de Discord) por unos 8 USD. 3/5 estrellas.",
+          "theRanksAreGoodMyNameNowPopsIn": "Los rangos están bien: ahora mi nombre resalta en el chat, lo que es genial para llamar la atención. Los cooldowns más bajos cambian mucho la experiencia y tener más homes es muy útil. Al principio dudaba un poco por el precio, pero tenerlo de por vida hace que valga totalmente la pena; no me arrepiento. El mejor rango para comprar es Prime 😱 Le doy 4/5.",
+          "eliteLifetimeRankWasWorthItLifetimeAccessAnd": "El rango Elite de por vida valió la pena: acceso permanente y más barato que la opción mensual. Prime podría incluir un cosmético pequeño, como un globo o /hat, para que no quede tan atrás (entiendo que necesitan ganar dinero). Los cooldowns más bajos están bien, aunque votar ya ofrece un beneficio parecido gratis. Los Hotspots deberían tener límites para que no se coloquen dentro de zonas de 5k x 5k del Nether, Overworld o End y así evitar que los jugadores nuevos escapen demasiado fácilmente. En general, mi compra fue un 5/5.",
+          "myExperienceWithEliteHasBeenVeryGoodSo": "Mi experiencia con Elite ha sido muy buena hasta ahora. Ni siquiera tengo que preocuparme por si me quedan homes, lo que mejora mucho la experiencia dentro del juego. El comando /hotspot es útil para hacer PvP con amigos. Como hay pocos jugadores activos con APEX y Elite ULTRA, los códigos de color en yunques deberían estar disponibles para Elite como cosmético. En general, Elite es un gran rango para jugadores activos y una ganga para ser permanente.",
+          "iStarted6b6tWithoutARankAndLaterReceived": "Empecé en 6b6t sin rango y después recibí varios rangos; Elite está genial. Como dueño de un clan, tener un rango es valioso porque hace que los mensajes sean más visibles. Aprecio el chat exclusivo para rangos en Discord. Los Hotspots son más interesantes ahora que puedo crearlos y el cooldown reducido es una gran ventaja. Una queja: a los rangos más bajos muchas veces les faltan cosas importantes (VIP se sentía parecido a no tener rango). Además, cuando alguien me regaló Prime Ultra de forma anónima tenía acceso al canal de publicidad, pero perdí esos permisos después de obtener Elite.",
+          "theHomesAmountOnEliteOrHigherIsMore": "La cantidad de homes de Elite o rangos superiores es más que suficiente. Cosméticos como /balloon le dan color al servidor. Jugar con amigos mantiene divertido a 6b. Buildermode está genial, aunque aumenta la distancia de renderizado y no la distancia de simulación. Si juegas en 6b durante más de un año, la compra definitivamente vale la pena; le doy 4,5 estrellas.",
+          "eliteRankIsActuallyBetterThanIThoughtWhen": "El rango Elite es mejor de lo que pensaba. Cuando lo compré esperaba solo texto de colores, pero se siente como entrar a un club para gente especial. Jugar con amigos está genial: ping bajo y TPS altos. Los canales de Discord exclusivos para rangos son mucho más activos; es como un club (prueba 🚬-cigar-club-🚬). Mi parte favorita son los cooldowns más bajos: /tpa y /home son mucho mejores que sin rango y te permiten moverte entre bases en minutos. Los colores del chat ayudan a destacar (consejo: los mods de chat personalizados o clientes modificados lo hacen todavía mejor). 5/5 estrellas.",
+          "hotspotCreateYouCanCreateHotspotsWhenNoOther": "/hotspot create: puedes crear Hotspots cuando no haya ningún otro Hotspot activo. ¿Tienes más de 3 homes? Con el rango Elite puedes tener 30 homes, suficientes para todas tus bases. ¿Estás cansado de que nadie te vea? Con Elite puedes tener un color de chat que destaque y más gente te verá. ¿Eres constructor pero la distancia de renderizado es demasiado baja? Usa /buildermode para ver más lejos. ¿Y todo eso y más por solo 49,99? También te recomiendo comprarlo.",
+          "gettingEliteOn6b6tWasAGreatChoiceThe": "Obtener Elite en 6b6t fue una gran elección. Los homes adicionales ayudan mucho cuando tienes varias bases con amigos y /buildermode permite ver tu base completa. Me gustan los comandos /hat y /balloons; son divertidos para pasar el rato. Hotspot fue la principal razón por la que compré Elite porque hago mucho PvP y los Hotspots son perfectos para eso. Destacar en el chat y tener cooldowns reducidos son imprescindibles para los jugadores activos. Los roles de Discord (como #game-suggestions) hacen que la comunidad se sienta incluida. Que el rango sea de por vida significa que no hay pagos recurrentes; los beneficios valen el precio. 5/5 estrellas.",
+          "myExperienceIn6bWithAndWithoutARank": "Mi experiencia en 6b con y sin rango ha sido bastante buena, pero un rango mejora las cosas, principalmente el límite de homes para no tener que borrar algunos, y /hotspot, que permite crear eventos. Cosméticos como los globos y /sit son divertidos, y el color del chat hace que los mensajes destaquen. Le doy 4,5/5 a mi experiencia con rango y recomiendo comprar uno si planeas quedarte a largo plazo.",
+          "iHavePlayedThisServerForThreeYearsFirst": "He jugado en este servidor durante tres años; los primeros 2 años, sin rango. Compré Prime para tener más homes y después Elite para usar Hotspot, tener aún más homes y cooldowns más rápidos. Esta es la única vez que he gastado dinero en un servidor de Minecraft. Valió la pena al 100 %, especialmente por lo divertido que ha sido usar /hotspot. Como extra, /sit es genial y me gusta tener un globo.",
+          "theHomesAmountIsExcellentTheMostUsefulFeature": "La cantidad de homes es excelente; es la función que más uso. Chatcolor está bien para destacar, la visibilidad en el chat es una ventaja y los cooldowns más bajos ayudan (aunque usar comandos muy rápido puede resultar un poco tedioso). Jugar con amigos es divertido y el rol de Discord da más presencia. El precio es razonable, unos 16 USD, y vale la pena. Valoración final: 4 estrellas.",
+          "iThinkThatTheApexLifetimeRankWasWorth": "Creo que valió la pena comprar el rango Apex de por vida. Los 100 homes son útiles para construir y para la cantidad de bases y stashes en los que puedo establecer un home, y cosméticos como /hat, /balloons, /sit y /skin hacen que el servidor sea realmente más divertido. El rol Apex en Discord también es un buen extra por todos los canales y permisos adicionales. Modo constructor, los Hotspots y todas las opciones de color en yunques y chat hacen que se sienta como el paquete de rango completo. 5/5 estrellas de mi parte.",
+          "afterWinningPrimeInAGiveawayIUpgradedTo": "Después de ganar Prime en un sorteo, mejoré a Apex. La función que más uso es el aumento de homes: me ayuda a llevar registro de stashes, bases y ubicaciones. Los cooldowns más bajos de tpa y /home son extremadamente útiles (de 15 minutos a unos 15 segundos). No uso mucho los cosméticos, pero el color del chat me ayuda a destacar frente a jugadores nuevos que piden kits. El rol de Discord es genial para enterarse rápidamente de las novedades. Como juego muy poco, Apex no fue la mejor opción por precio para mí; Elite habría sido mejor. Recomiendo Apex solo a quienes juegan unas 10 horas por semana.",
+          "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t es caos puro y diversión pura. Es el tipo de servidor donde siempre está pasando algo. Desde pelear en Hotspots activos hasta formar equipo con desconocidos que terminan convirtiéndose en amigos, cada sesión trae una historia nueva. Compré el rango Apex de por vida y vale la pena aunque sea solo por apoyar al servidor y mantener el compromiso a largo plazo. La mayor distancia de renderizado y Modo constructor hacen mucho más fácil planificar construcciones a gran escala y disfrutar del paisaje con todo detalle. Construir bases enormes, explorar ruinas y sobrevivir emboscadas con amigos lo ha convertido en una de las experiencias de Minecraft más salvajes que existen. Si te gusta la anarquía sin filtros y una jugabilidad impulsada por la comunidad, 6b6t es el lugar, y Apex es una buena forma de demostrar que vas en serio a largo plazo."
+        },
         "stripe": {
-          "text6b6tShop": "6b6t-shop",
-          "active": "activo"
+          "text6b6tShop": "6b6t-shop"
         }
-      },
-      "stats": {
-        "mysqlClient": {
-          "statsMysql": "Stats MySQL"
-        }
-      },
-      "themeSecurity": {
-        "value1Value2Value3": "{{value1}}:{{value2}}:{{value3}}"
       }
     }
   }

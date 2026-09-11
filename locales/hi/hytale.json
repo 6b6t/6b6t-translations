@@ -1,141 +1,61 @@
 {
   "sections": {
-    "components": {
-      "countdown": {
-        "days": "दिन",
-        "hours": "घंटे",
-        "mins": "मिनट",
-        "secs": "सेकंड"
-      },
-      "hytaleConnectionModal": {
-        "serverConnection": "सर्वर कनेक्शन",
-        "closeModal": "मोडल बंद करें",
-        "text6b6tHytale": "6b6t Hytale",
-        "statusOnline": "स्थिति: ऑनलाइन",
-        "serverAddresses": "सर्वर पते",
-        "clickAnyAddressBelowToCopyUseTheseTo": "कॉपी करने के लिए नीचे दिए गए किसी भी पते पर क्लिक करें। गेम में कनेक्ट करने के लिए इनका उपयोग करें।",
-        "howToJoin": "कैसे जुड़ें",
-        "launchYourHytaleClient": "अपना Hytale क्लाइंट लॉन्च करें",
-        "navigateToMultiplayerGtAddServer": "मल्टीप्लेयर &gt; सर्वर जोड़ें पर नेविगेट करें",
-        "enterOneOfTheAddressesAbove": "उपरोक्त पतों में से एक दर्ज करें",
-        "joinAndEmbraceTheChaos": "शामिल हों और अराजकता को गले लगाएँ",
-        "joinTheDiscordForUpdates": "अपडेट के लिए Discord से जुड़ें"
-      },
-      "hytaleFaq": {
-        "areThereReallyNoRules": "क्या सचमुच कोई नियम नहीं हैं?",
-        "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale सर्वर एक शुद्ध अराजकता सर्वर है। शोक प्रकट करना, छापा मारना और PvP सभी की अनुमति है। Hytale में पहले अराजकता सर्वर के रूप में, हम बिना किसी प्रतिबंध के पूर्ण स्वतंत्रता प्रदान करते हैं।",
-        "whatMakesThisTheFirstAnarchyServer": "इसे पहला अराजकता सर्वर क्या बनाता है?",
-        "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "13 जनवरी, 2026 को Hytale के वैश्विक लॉन्च के कुछ ही मिनट बाद 6b6t लाइव हो गया। हमने Hytale इतिहास में पहला सच्चा अराजकता का माहौल स्थापित किया, एक स्थायी दुनिया का निर्माण किया जो कभी भी रीसेट नहीं होगी।",
-        "willTheMapEverReset": "क्या नक्शा कभी रीसेट होगा?",
-        "theMapOf6b6tHytaleServerWillNeverReset": "6b6t Hytale सर्वर का मानचित्र कभी भी रीसेट नहीं होगा। 6b6t, Hytale में सबसे पुराना अराजकता सर्वर है, जिसे 13 जनवरी, 2026 को शुरू किया गया था। यह दुनिया स्थायी है, आपके निर्माण और इतिहास को हमेशा के लिए संरक्षित करती है।",
-        "isItPayToWin": "क्या यह पे-टू-विन है?",
-        "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "कदापि नहीं। 6b6t एक निःशुल्क अराजकता सर्वर है जो निष्पक्ष खेल पर केंद्रित है। यह सुनिश्चित करना कि कोई पे-2-विन लाभ न हो।",
-        "common": "सामान्य",
-        "queries": "प्रश्नों"
-      },
-      "hytaleFeaturedVideo": {
-        "featuredVideo": "विशेष रुप से प्रदर्शित वीडियो",
-        "fitmcOn": "फिटएमसी चालू",
-        "text6b6tHytale": "6b6t Hytale",
-        "watchTheLatestVideoAbout6b6tFromFitmcThe": "FitMC से 6b6t के बारे में नवीनतम वीडियो देखें। Hytale में सबसे बड़ा और सबसे पुराना अराजकता सर्वर।",
-        "fitmcOn6b6tHytale": "6b6t Hytale पर FitMC",
-        "clickToPlay": "चलाने के लिए क्लिक करें"
-      },
-      "hytaleFooter": {
-        "discord": "Discord",
-        "youtube": "YouTube",
-        "twitter": "Twitter",
-        "reddit": "Reddit",
-        "tiktok": "TikTok",
-        "instagram": "Instagram",
-        "text6b6t": "6b6t",
-        "hytale": "Hytale",
-        "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "चरम अराजकता का अनुभव, Hytale के लिए पुनःकल्पित। कोई नियम नहीं, कोई स्वामी नहीं, अनंत संभावनाएँ।",
-        "serverIp": "सर्वर आईपी",
-        "copyIp": "आईपी ​​कॉपी करें",
-        "links": "लिंक",
-        "home": "घर",
-        "notAffiliatedWithMojangStudiosOrHypixelStudios": "Mojang स्टूडियो या हाइपिक्सल स्टूडियो से संबद्ध नहीं है।",
-        "text6b6tAnarchyAllRightsReserved": "6b6t अराजकता। सर्वाधिकार सुरक्षित।"
-      },
-      "hytaleGallery": {
-        "aCastleDuringTheDay": "दिन के दौरान एक महल",
-        "inventoryFullOfDupedItems": "ठगी गई वस्तुओं से भरी सूची",
-        "oneOfTheFirstHighways": "पहले राजमार्गों में से एक",
-        "highwayBuildersWorkingTogether": "राजमार्ग निर्माता एक साथ काम कर रहे हैं",
-        "text3rdDayOnTheServer": "सर्वर पर तीसरा दिन",
-        "aGlitchedBlock": "एक गड़बड़ ब्लॉक",
-        "spawnInTheFirstWeekOf6b6tHytale": "6b6t Hytale के पहले सप्ताह में अंडे दें",
-        "oneOfTheFirstPeacefulNights": "पहली शांतिपूर्ण रातों में से एक",
-        "aModernHouse": "एक आधुनिक घर",
-        "aFortifiedPlayerBaseRisingAboveTheTerrain": "भू-भाग से ऊपर उठता हुआ एक सुदृढ़ खिलाड़ी आधार",
-        "aSprawlingCityBuiltByTheCommunity": "समुदाय द्वारा निर्मित एक विशाल शहर",
-        "coloredMapart": "रंगीन नक्शा",
-        "aColorfulPixelArtCreationVisibleOnTheMap": "मानचित्र पर दिखाई देने वाली एक रंगीन पिक्सेल कला रचना",
-        "giantTree": "विशाल वृक्ष",
-        "aMassiveTreeToweringOverTheLandscape": "भूदृश्य पर ऊँचा एक विशाल वृक्ष",
-        "aHighwayStretchingEndlesslyIntoTheHorizon": "एक राजमार्ग जो क्षितिज में अंतहीन रूप से फैला हुआ है",
-        "aLavaFilledCraterAtSpawn": "अंडे देने के समय लावा से भरा गड्ढा",
-        "aTallTowerPiercingThroughTheClouds": "बादलों को भेदती हुई एक ऊँची मीनार",
-        "january2026": "जनवरी 2026",
-        "allMedia": "सभी मीडिया",
-        "hytale": "Hytale",
-        "aGlimpseOf": "की एक झलक",
-        "chaos": "अव्यवस्था",
-        "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "उन अनकही कहानियों और परिदृश्यों के साक्षी बनिए जो विजय पाने की प्रतीक्षा कर रहे हैं।"
-      },
-      "hytaleGalleryModal": {
-        "closeModal": "मोडल बंद करें",
-        "featured": "प्रदर्शित"
-      },
-      "hytaleHero": {
-        "text6b6t": "6b6t",
-        "theFirstAnarchyServerInHytale": "Hytale में पहला अराजकता सर्वर",
-        "noRulesNoResetsNoMercyExperience": "कोई नियम नहीं. कोई रीसेट नहीं. कोई दया नहीं. अनुभव",
-        "trueAnarchy": "सच्ची अराजकता",
-        "inHytaleOnThe": "Hytale में",
-        "firstAnarchyServer": "पहला अराजकता सर्वर",
-        "establishedJust": ", बस स्थापित",
-        "minutesAfterTheGameLaunched": "खेल शुरू होने के कुछ मिनट बाद",
-        "chaosReignsInThisOpenWorldWithNoBans": ". बिना किसी प्रतिबंध के इस खुली दुनिया में अराजकता का राज है।",
-        "playersOnline": "खिलाड़ी ऑनलाइन",
-        "capacity": "क्षमता",
-        "liveQuery": "लाइव क्वेरी",
-        "tps": "TPS:",
-        "entities": "संस्थाएँ:",
-        "chunks": "टुकड़े:",
-        "joinDiscord": "Discord से जुड़ें",
-        "playNow": "अब खेलते हैं",
-        "playHytaleTrailer": "Hytale ट्रेलर चलाएं",
-        "hytaleTrailerThumbnail": "Hytale ट्रेलर थंबनेल",
-        "playVideo": "वीडियो चलाएं",
-        "hytaleTrailer": "Hytale ट्रेलर"
-      },
-      "hytaleNav": {
-        "home": "मुखपृष्ठ",
-        "text6b6t": "6b6t",
-        "text6b6t2": "6B6T",
-        "play": "खेलें",
-        "toggleMenu": "मेनू टॉगल करें"
-      },
-      "runeDecorations": {
-        "text6b6tForever": "6b6t हमेशा के लिए",
-        "chaosAwaits": "अराजकता इंतज़ार कर रही है",
-        "joinTheAnarchy": "अराजकता में शामिल हों",
-        "noRulesNoMercy": "कोई नियम नहीं, कोई दया नहीं",
-        "hytale2026": "Hytale 2026"
-      },
-      "serverAge": {
-        "serverAge": "सर्वर आयु",
-        "days": "दिन",
-        "hours": "घंटे",
-        "mins": "मिनट",
-        "secs": "सेकंड",
-        "est": "ईएसटी।",
-        "cet": "CET"
-      }
+    "hytaleConnectionModal": {
+      "serverConnection": "सर्वर कनेक्शन",
+      "closeModal": "मोडल बंद करें",
+      "text6b6tHytale": "6b6t Hytale",
+      "statusOnline": "स्थिति: ऑनलाइन",
+      "serverAddresses": "सर्वर पते",
+      "clickAnyAddressBelowToCopyUseTheseTo": "कॉपी करने के लिए नीचे दिए गए किसी भी पते पर क्लिक करें। गेम में कनेक्ट करने के लिए इनका उपयोग करें।",
+      "howToJoin": "कैसे जुड़ें",
+      "launchYourHytaleClient": "अपना Hytale क्लाइंट लॉन्च करें",
+      "navigateToMultiplayerGtAddServer": "मल्टीप्लेयर &gt; सर्वर जोड़ें पर नेविगेट करें",
+      "enterOneOfTheAddressesAbove": "उपरोक्त पतों में से एक दर्ज करें",
+      "joinAndEmbraceTheChaos": "शामिल हों और अराजकता को गले लगाएँ",
+      "joinTheDiscordForUpdates": "अपडेट के लिए Discord से जुड़ें"
     },
-    "galleryData": {
+    "hytaleFaq": {
+      "areThereReallyNoRules": "क्या सचमुच कोई नियम नहीं हैं?",
+      "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale सर्वर एक शुद्ध अराजकता सर्वर है। शोक प्रकट करना, छापा मारना और PvP सभी की अनुमति है। Hytale में पहले अराजकता सर्वर के रूप में, हम बिना किसी प्रतिबंध के पूर्ण स्वतंत्रता प्रदान करते हैं।",
+      "whatMakesThisTheFirstAnarchyServer": "इसे पहला अराजकता सर्वर क्या बनाता है?",
+      "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "13 जनवरी, 2026 को Hytale के वैश्विक लॉन्च के कुछ ही मिनट बाद 6b6t लाइव हो गया। हमने Hytale इतिहास में पहला सच्चा अराजकता का माहौल स्थापित किया, एक स्थायी दुनिया का निर्माण किया जो कभी भी रीसेट नहीं होगी।",
+      "willTheMapEverReset": "क्या नक्शा कभी रीसेट होगा?",
+      "theMapOf6b6tHytaleServerWillNeverReset": "6b6t Hytale सर्वर का मानचित्र कभी भी रीसेट नहीं होगा। 6b6t, Hytale में सबसे पुराना अराजकता सर्वर है, जिसे 13 जनवरी, 2026 को शुरू किया गया था। यह दुनिया स्थायी है, आपके निर्माण और इतिहास को हमेशा के लिए संरक्षित करती है।",
+      "isItPayToWin": "क्या यह पे-टू-विन है?",
+      "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "कदापि नहीं। 6b6t एक निःशुल्क अराजकता सर्वर है जो निष्पक्ष खेल पर केंद्रित है। यह सुनिश्चित करना कि कोई पे-2-विन लाभ न हो।",
+      "common": "सामान्य",
+      "queries": "प्रश्नों"
+    },
+    "hytaleFeaturedVideo": {
+      "featuredVideo": "विशेष रुप से प्रदर्शित वीडियो",
+      "fitmcOn": "फिटएमसी चालू",
+      "text6b6tHytale": "6b6t Hytale",
+      "watchTheLatestVideoAbout6b6tFromFitmcThe": "FitMC से 6b6t के बारे में नवीनतम वीडियो देखें। Hytale में सबसे बड़ा और सबसे पुराना अराजकता सर्वर।",
+      "fitmcOn6b6tHytale": "6b6t Hytale पर FitMC",
+      "clickToPlay": "चलाने के लिए क्लिक करें"
+    },
+    "hytaleFooter": {
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "reddit": "Reddit",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "text6b6t": "6b6t",
+      "hytale": "Hytale",
+      "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "चरम अराजकता का अनुभव, Hytale के लिए पुनःकल्पित। कोई नियम नहीं, कोई स्वामी नहीं, अनंत संभावनाएँ।",
+      "serverIp": "सर्वर आईपी",
+      "copyIp": "आईपी ​​कॉपी करें",
+      "links": "लिंक",
+      "home": "घर",
+      "notAffiliatedWithMojangStudiosOrHypixelStudios": "Mojang स्टूडियो या हाइपिक्सल स्टूडियो से संबद्ध नहीं है।",
+      "text6b6tAnarchyAllRightsReserved": "6b6t अराजकता। सर्वाधिकार सुरक्षित।"
+    },
+    "hytaleGalleryModal": {
+      "closeModal": "मोडल बंद करें",
+      "featured": "प्रदर्शित"
+    },
+    "hytaleGallery": {
       "aCastleDuringTheDay": "दिन के दौरान एक महल",
       "inventoryFullOfDupedItems": "ठगी गई वस्तुओं से भरी सूची",
       "oneOfTheFirstHighways": "पहले राजमार्गों में से एक",
@@ -154,7 +74,49 @@
       "aHighwayStretchingEndlesslyIntoTheHorizon": "एक राजमार्ग जो क्षितिज में अंतहीन रूप से फैला हुआ है",
       "aLavaFilledCraterAtSpawn": "अंडे देने के समय लावा से भरा गड्ढा",
       "aTallTowerPiercingThroughTheClouds": "बादलों को भेदती हुई एक ऊँची मीनार",
-      "january2026": "जनवरी 2026"
+      "january2026": "जनवरी 2026",
+      "aGlimpseOf": "की एक झलक",
+      "chaos": "अव्यवस्था",
+      "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "उन अनकही कहानियों और परिदृश्यों के साक्षी बनिए जो विजय पाने की प्रतीक्षा कर रहे हैं।"
+    },
+    "hytaleHero": {
+      "text6b6t": "6b6t",
+      "theFirstAnarchyServerInHytale": "Hytale में पहला अराजकता सर्वर",
+      "noRulesNoResetsNoMercyExperience": "कोई नियम नहीं. कोई रीसेट नहीं. कोई दया नहीं. अनुभव",
+      "trueAnarchy": "सच्ची अराजकता",
+      "inHytaleOnThe": "Hytale में",
+      "firstAnarchyServer": "पहला अराजकता सर्वर",
+      "establishedJust": ", बस स्थापित",
+      "minutesAfterTheGameLaunched": "खेल शुरू होने के कुछ मिनट बाद",
+      "chaosReignsInThisOpenWorldWithNoBans": ". बिना किसी प्रतिबंध के इस खुली दुनिया में अराजकता का राज है।",
+      "playersOnline": "खिलाड़ी ऑनलाइन",
+      "capacity": "क्षमता",
+      "liveQuery": "लाइव क्वेरी",
+      "tps": "TPS:",
+      "entities": "संस्थाएँ:",
+      "chunks": "टुकड़े:",
+      "joinDiscord": "Discord से जुड़ें",
+      "playNow": "अब खेलते हैं",
+      "playHytaleTrailer": "Hytale ट्रेलर चलाएं",
+      "hytaleTrailerThumbnail": "Hytale ट्रेलर थंबनेल",
+      "playVideo": "वीडियो चलाएं",
+      "hytaleTrailer": "Hytale ट्रेलर"
+    },
+    "hytaleNav": {
+      "home": "मुखपृष्ठ",
+      "text6b6t": "6b6t",
+      "text6b6t2": "6B6T",
+      "play": "खेलें",
+      "toggleMenu": "मेनू टॉगल करें"
+    },
+    "serverAge": {
+      "serverAge": "सर्वर आयु",
+      "days": "दिन",
+      "hours": "घंटे",
+      "mins": "मिनट",
+      "secs": "सेकंड",
+      "est": "ईएसटी।",
+      "cet": "CET"
     },
     "page": {
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - Hytale में पहला अराजकता सर्वर | Hytale अराजकता",

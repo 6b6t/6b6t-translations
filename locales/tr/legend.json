@@ -2,42 +2,56 @@
   "sections": {
     "shop": {
       "legend": {
-        "components": {
-          "legendComparisonGrid": {
-            "legendPrefix": "Legend Öneki",
-            "text500Homes": "500 Home",
-            "text10s": "10sn",
-            "text3s": "3sn",
-            "included": "Dahil",
-            "text70Balloons": "70 Balon",
-            "text16Colors": "16 Renk",
-            "text12Colors": "12 Renk",
-            "text32Particles": "32 Parçacık",
-            "text32Chunks": "32 chunk",
-            "text120Minutes": "120 dakika",
-            "text6Colors": "6 Renk",
-            "text5000Players": "5000 Oyuncu",
-            "legendDiscordRole": "Legend Discord Rolü",
-            "legend": "Legend",
-            "apex": "Apex",
-            "notIncluded": "Dahil değil",
-            "apex2": "Apex",
-            "legend2": "Legend",
-            "viewValue1": "{{value1}} Görüntüle",
-            "blur": "bulanık",
-            "whatYouGet": "What you get",
-            "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
-            "compareFeatures": "Compare features"
-          },
-          "userSelectForm": {
-            "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-            "redirectingToShop": "Mağazaya yönlendiriliyorsunuz...",
-            "legendRankSelection": "Legend Rank Seçimi",
-            "minecraftUsername": "Minecraft Kullanıcı Adı",
-            "dinnerbone": "Dinnerbone",
-            "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Legend Rank'ını alacak Minecraft hesabının kullanıcı adını girin.",
-            "getLegendRank": "Legend Rank Al"
-          }
+        "legendComparisonGrid": {
+          "legendPrefix": "Legend Öneki",
+          "text500Homes": "500 Home",
+          "text10s": "10sn",
+          "text3s": "3sn",
+          "included": "Dahil",
+          "text70Balloons": "70 Balon",
+          "text16Colors": "16 Renk",
+          "text12Colors": "12 Renk",
+          "text32Particles": "32 Parçacık",
+          "text32Chunks": "32 chunk",
+          "text120Minutes": "120 dakika",
+          "text6Colors": "6 Renk",
+          "text5000Players": "5000 Oyuncu",
+          "legendDiscordRole": "Legend Discord Rolü",
+          "legend": "Legend",
+          "apex": "Apex",
+          "notIncluded": "Dahil değil",
+          "apex2": "Apex",
+          "legend2": "Legend",
+          "viewValue1": "{{value1}} Görüntüle",
+          "whatYouGet": "What you get",
+          "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
+          "compareFeatures": "Compare features"
+        },
+        "legendUserShopMenu": {
+          "chooseYourLegend": "Choose your Legend.",
+          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
+          "legendBilling": "Legend billing",
+          "lifetime": "Ömür Boyu",
+          "subscription": "Abonelik",
+          "eurPayOnce": "EUR · Pay once",
+          "eurRenewsEveryMonth": "EUR · Renews every month",
+          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
+          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
+          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
+          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
+          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
+          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
+          "setYourUsername": "Set your username",
+          "subscribeToLegend": "Subscribe to Legend",
+          "getLegend2Apex": "Get Legend + 2 Apex",
+          "getLifetimeLegend": "Get lifetime Legend",
+          "apexRequired": "Apex Rank gerekli",
+          "legendAlreadyActive": "Legend already active",
+          "checkoutComingSoon": "Checkout coming soon",
+          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
+          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
+          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
+          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         },
         "layout": {
           "text6b6t": "6b6t",
@@ -70,154 +84,7 @@
           "legendValue1": "Legend {{value1}}",
           "text6b6tAnarchyServer": "6b6t Anarşi Sunucusu",
           "skipToMainContent": "Ana içeriğe geç"
-        },
-        "legendUserShopMenu": {
-          "chooseYourLegend": "Choose your Legend.",
-          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
-          "legendBilling": "Legend billing",
-          "lifetime": "Lifetime",
-          "subscription": "Subscription",
-          "eurPayOnce": "EUR · Pay once",
-          "eurRenewsEveryMonth": "EUR · Renews every month",
-          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
-          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
-          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
-          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
-          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
-          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
-          "setYourUsername": "Set your username",
-          "subscribeToLegend": "Subscribe to Legend",
-          "getLegend2Apex": "Get Legend + 2 Apex",
-          "getLifetimeLegend": "Get lifetime Legend",
-          "apexRequired": "Apex required",
-          "legendAlreadyActive": "Legend already active",
-          "checkoutComingSoon": "Checkout coming soon",
-          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
-          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
-          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
-          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         }
-      }
-    },
-    "audioManager": {
-      "pauseBackgroundMusic": "Arka plan müziğini duraklat",
-      "playBackgroundMusic": "Arka plan müziğini çal",
-      "pauseMusic": "Müziği duraklat",
-      "playMusic": "Müziği çal",
-      "pause": "DURAKLAT",
-      "music": "MÜZİK"
-    },
-    "book": {
-      "value1": "{{value1}}..."
-    },
-    "bookDialog": {
-      "viewValue1ImageInFullScreen": "{{value1}} görselini tam ekranda görüntüle",
-      "sacredPowersBenefits": "Kutsal Güçler ve Avantajlar"
-    },
-    "bookModal": {
-      "sacredPowersBenefits": "Kutsal Güçler ve Avantajlar"
-    },
-    "cigarCarousel": {
-      "premiumCigarCommand": "Premium Puro Komutu",
-      "mysticalGlowEffects": "Mistik Parlama Efektleri",
-      "legendaryHotspots": "Efsanevi Hotspot'lar",
-      "builderMode": "İnşaatçı Modu",
-      "customNameColors": "Özel İsim Renkleri",
-      "text500HomesLimit": "500 Home Limiti",
-      "premiumLegendFeatures": "🚬 Premium Legend Özellikleri",
-      "exclusiveFeaturesAvailableOnlyToLegendRankMembersOf": "Yalnızca 6b6t Legend Rank üyelerine özel ayrıcalıklı özellikler",
-      "previousImages": "Önceki görseller",
-      "nextImages": "Sonraki görseller",
-      "viewValue1InFullScreen": "{{value1}} öğesini tam ekranda görüntüle",
-      "carouselLabelValue1Value2": "carousel-label-{{value1}}-{{value2}}"
-    },
-    "data": {
-      "featuresData": {
-        "text500Homes": "500 Home",
-        "text500Homes2": "500 Home",
-        "neverWorryAboutRunningOutSpotsInThe6b6t": "6b6t dünyasında yer sıkıntısı çekmekten asla endişe etmeyin",
-        "utility": "Fayda",
-        "set500HomesWithSethome": "/sethome ile 500 Home ayarlayın",
-        "neverRunOutOfThem": "Onlar hiç tükenmesin",
-        "travelInstantly": "Anında seyahat edin",
-        "builderMode": "İnşaatçı Modu",
-        "seeEverythingAtYourBaseSoYouCanBuild": "Üssünüzdeki her şeyi görün, böylece özgürce inşa edebilir ve etkileyici ekran görüntüleri alabilirsiniz",
-        "building": "İnşaat",
-        "automaticallyEnableWithBuildermodeHome": "/buildermode home ile otomatik etkinleştirin",
-        "increaseViewDistanceTo32": "Görüş mesafesini 32'ye çıkarın",
-        "seeEverything": "Her şeyi görün",
-        "cigars": "Purolar",
-        "cigars2": "Purolar",
-        "theBaddestCoolestMostUniqueCosmeticYouVeEver": "Minecraft'ta gördüğünüz en havalı, en çılgın, en eşsiz kozmetik! Purolar!",
-        "cosmetic": "Kozmetik",
-        "firstMinecraftServerToAddCigars": "Puro ekleyen ilk Minecraft sunucusu",
-        "relaxAndTakeAScreenshotWithThe6b6tOwner": "Rahatlayın ve 6b6t sahibiyle ekran görüntüsü alın",
-        "theCoolestCosmeticEverRunCigar": "Şimdiye kadarki en havalı kozmetik, /cigar çalıştırın",
-        "glow": "Parlama",
-        "glow2": "Parlama",
-        "standOutAtNightAndDuringTheDayBetween": "Gece ve gündüz, binlerce oyuncu arasında öne çıkın; ışık sizsiniz",
-        "withGlowItWonTBeDark": "/glow ile karanlık olmayacak",
-        "youGlowTheSameColorAsYourNamecolor": "/namecolor renginizle aynı renkte parlarsınız",
-        "noLimitsOnUsage": "Kullanımda sınır yok",
-        "hotspot": "Hotspot",
-        "hotspot2": "Hotspot",
-        "createTheMostActiveLocationsOnTheServer": "Sunucudaki en hareketli bölgeleri oluşturun",
-        "social": "Sosyal",
-        "createAHotspotAndHostADestructiveParty": "Bir Hotspot oluşturun ve yıkıcı bir parti düzenleyin",
-        "giveEveryoneAGlowEffectWithHotspotGlow": "/hotspot glow ile herkese parlama efekti verin",
-        "giveEveryoneYourFavoriteBalloonWithHotspotBalloon": "/hotspot balloon ile herkese favori balonunuzu verin",
-        "nameColor": "İsim Rengi",
-        "yourStyleYourColors12ToChooseFrom": "Sizin stiliniz, sizin renkleriniz. Seçebileceğiniz 12 renk",
-        "customization": "Özelleştirme",
-        "changeYourNameColorWithNamecolor": "/namecolor ile isim renginizi değiştirin",
-        "pickFrom12ColorsPreviewItWithTheCommand": "12 renk arasından seçin (komutla önizleyin)",
-        "standOutTogetherWithChatcolor": "/chatcolor ile birlikte öne çıkın"
-      },
-      "pricingData": {
-        "monthlyLegend": "Aylık Legend",
-        "flexibleBillingForTheRareAdventures": "Ender maceralar için esnek faturalandırma",
-        "month": "/ ay",
-        "legendPrefix": "Legend Öneki",
-        "legendDiscordRank": "Legend Discord Rank",
-        "lightUpCigarsInMinecraftWithCigar": "/cigar ile Minecraft'ta puro yakın!",
-        "text500Homes": "500 Home",
-        "text70BalloonsWithBalloons": "/balloons ile 70 balon",
-        "text16ParticlesComingSoon": "16 parçacık efekti (yakında)",
-        "skinHatSit": "/skin & /hat & /sit",
-        "enableGlowWithGlow": "/glow ile parlamayı etkinleştirin",
-        "buildermodeWith32RenderDistance": "32 render mesafesiyle /buildermode",
-        "automaticallyEnableBuilderModeWhenYouTeleportToA": "/buildermode home <home> ile seçtiğiniz bir home'a ışınlandığınızda inşaatçı modunu otomatik olarak etkinleştirin",
-        "accessTo16ChatColorsInChatcolor": "/chatcolor'da 16 sohbet rengine erişim",
-        "accessTo12NameColorsInNamecolor": "/namecolor'da 12 isim rengine erişim",
-        "hotspotCreateWith120MinuteLengthAnd80Minute": "120 dakika süre ve 80 dakika bekleme süresiyle /hotspot create",
-        "changeTheNameOfTheHotspotWithHotspotName": "/hotspot <name> ile Hotspot'un adını değiştirin",
-        "applyAGlowEffectToEveryoneAtYourHotspot": "/hotspot glow ile Hotspot'unuzdaki herkese parlama efekti uygulayın",
-        "applyABalloonToEveryoneAtYourHotspotWith": "/hotspot balloon ile Hotspot'unuzdaki herkese balon uygulayın",
-        "useColorsInAnvilsWithTheSignForExample": "Örslerde & işaretiyle renk kullanın, örneğin: &aMerhaba",
-        "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "Örslerde & işaretiyle altı çizili, üstü çizili ve italik yazı kullanın",
-        "useBoldInAnvils": "Örslerde kalın yazı kullanın",
-        "useFullRgbCodesInAnvilsComingSoon": "Örslerde tam RGB kodları kullanın (yakında)",
-        "text10sTpaCooldown": "10 saniye /tpa bekleme süresi",
-        "itTakes3sInsteadOf15sToTeleportTo": "/tpa kullanarak birine ışınlanmak 15 saniye yerine 3 saniye sürer",
-        "itTakes3sInsteadOf15sForSomeoneTo": "/tpa kullanarak birinin size ışınlanması 15 saniye yerine 3 saniye sürer",
-        "text10sHomeCooldown": "10 saniye /home bekleme süresi",
-        "changeColorOfConnectionMessagesWithConnectionmsgsColor": "/connectionmsgs color ile bağlantı mesajlarının rengini değiştirin",
-        "changeColorOfDeathMessagesWithDeathmsgsColor": "/deathmsgs color ile ölüm mesajlarının rengini değiştirin",
-        "customizeYourStatsPage": "İstatistik sayfanızı özelleştirin",
-        "ignoreUpTo5000Players": "5000 oyuncuya kadar yok sayın",
-        "accessAdvertisingIn6b6tDiscord": "6b6t Discord'da #advertising kanalına erişim",
-        "embedLinksPermissionInGeneralIn6b6tDiscord": "6b6t Discord'da #general kanalında Bağlantıları Göm izni",
-        "attachFilesPermissionInGeneralIn6b6tDiscord": "6b6t Discord'da #general kanalında Dosya Ekle izni",
-        "addReactionsPermissionInGeneralIn6b6tDiscord": "6b6t Discord'da #general kanalında Tepki Ekle izni",
-        "changeNicknamePermissionIn6b6tDiscord": "6b6t Discord'da Takma Adı Değiştir izni",
-        "streamingPermissionIn6b6tDiscord": "6b6t Discord'da Video Yayını izni",
-        "accessTo10RankOnlyChannelsIn6b6tDiscord": "6b6t Discord'da 10'dan fazla rank'a özel kanala erişim",
-        "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "6b6t Discord'da #premium-tickets kanalını kullanarak öncelikli destek",
-        "chooseMonthlyCovenant": "Aylık Anlaşmayı Seç",
-        "threeMonthLegend": "Üç aylık Legend",
-        "longTermPlanningForTheWarriors": "Savaşçılar için uzun vadeli planlama",
-        "save4499": "€44.99 tasarruf edin",
-        "chooseThreeMonthCovenant": "Üç Aylık Anlaşmayı Seç"
       }
     },
     "faq": {
@@ -234,90 +101,6 @@
       "whatCanIDoWithHotspots": "Hotspot'larla neler yapabilirim?",
       "createAHotspotCustomizeItsNameAndGivePlayers": "Create a Hotspot, customize its name, and give players a glow effect and a balloon.",
       "aFewQuestions": "A few questions"
-    },
-    "features": {
-      "libraryHeader": {
-        "theLegendaryLibrary": "EFSANEVİ KÜTÜPHANE",
-        "quotWelcomeToTheExclusiveWorldOfLegendaryPlayers": "&quot;6b6t'deki Efsanevi oyuncuların ayrıcalıklı dünyasına hoş geldiniz. Burada anarşide görülmüş en güçlü özelliklere ve kozmetiklere erişim kazanırsınız. Bu avantajlar sizi öne çıkarır, güçlendirir ve efsanevi kılar.",
-        "donAposTWaitBecomeALegend": "Bekleme. Bir LEGEND ol."
-      },
-      "librarySection": {
-        "quotEachTomeContainsLegendaryPowersClickAnyBook": "&quot;Her cilt, efsanevi güçler barındırır. Sırlarını keşfetmek için herhangi bir kitaba tıklayın.&quot;"
-      },
-      "modernFeaturesSection": {
-        "legendaryFeatures": "Efsanevi Özellikler",
-        "unlockExclusivePowersAndAbilitiesReservedForLegendRank": "Legend Rank sahiplerine özel güçlerin ve yeteneklerin kilidini açın. Her özellik, 6b6t'nin kadim diyarındaki oyun deneyiminizi geliştirmek için özenle tasarlanmıştır."
-      },
-      "mugSection": {
-        "legendaryMug": "EFSANEVİ KUPA",
-        "everyLegendRankPurchaseIncludesThisExclusive6b6tCeramic": "Her Legend Rank satın alımına bu özel 6b6t seramik kupa dahildir. Fiziksel bir ürünle konumunuzu sağlamlaştırın.",
-        "text6b6tLegendMug": "6B6T Legend Kupası",
-        "epicFeatures": "Epik Özellikler",
-        "premiumCeramicConstructionSurvivesTntBlasts": "Premium seramik yapı — TNT patlamalarına dayanır",
-        "qualityGlossyFinish": "Yüksek kaliteli parlak yüzey",
-        "perfect15ozCapacityForHugeCoffee": "Büyük bir kahve için ideal 15 oz kapasite",
-        "dishwasherSafeForEasyCleaningAfterRaids": "Raid'lerden sonra kolay temizlik için bulaşık makinesinde yıkanabilir",
-        "freeWorldwideShipping": "Dünya çapında ücretsiz kargo",
-        "official6b6tAnarchyBranding": "Resmî 6b6t anarşi markası",
-        "includedWithEveryLegendRankPurchase": "Her Legend Rank satın alımına dahildir",
-        "noAdditionalCost": "Ek Ücret Yok"
-      },
-      "pricingCard": {
-        "total": "toplam",
-        "moreFeatures": "daha fazla özellik",
-        "showLessFeatures": "Daha az özellik göster",
-        "loading": "Yükleniyor",
-        "checkingEligibility": "Uygunluk Kontrol Ediliyor...",
-        "loadingYourRankInformation": "Rank bilgileriniz yükleniyor",
-        "alreadyActive": "✦ Zaten Aktif ✦",
-        "youAlreadyHaveLegendRankThankYouForYour": "Zaten Legend Rank'ına sahipsiniz! Desteğiniz için teşekkür ederiz.",
-        "requiresApexRank": "⚠️ Apex Rank Gerektirir",
-        "youNeedToPurchaseTheApexRankFirstTo": "Legend'ın kilidini açmak için önce Apex rank'ını satın almanız gerekir.",
-        "youCurrentlyHaveValue1RankUpgradeToApexTo": "Şu anda {{value1}} rank'ına sahipsiniz. Legend'ın kilidini açmak için Apex'e yükseltin.",
-        "getApexRank": "Apex Rank Al",
-        "setUsernameFirst": "👤 Önce Kullanıcı Adı Belirleyin",
-        "pleaseEnterYourMinecraftUsernameToCheckEligibilityAnd": "Uygunluğunuzu kontrol etmek ve satın almak için lütfen Minecraft kullanıcı adınızı girin."
-      },
-      "pricingSection": {
-        "legendPricingScrolls": "LEGEND FİYAT PARŞÖMENLERİ",
-        "legendaryPricing": "Efsanevi Fiyatlandırma",
-        "selectYourLegendMethod": "Legend Yönteminizi Seçin",
-        "userIcon": "Kullanıcı simgesi",
-        "loggedInAs": "Şu şekilde giriş yapıldı:",
-        "value1": "[{{value1}}]",
-        "change": "Değiştir",
-        "loginIcon": "Giriş simgesi",
-        "setYourMinecraftUsername": "Minecraft Kullanıcı Adınızı Belirleyin",
-        "enterYourUsernameToCheckLegendEligibility": "Legend uygunluğunuzu kontrol etmek için kullanıcı adınızı girin",
-        "legendRankSelection": "Legend Rank Seçimi",
-        "minecraftUsername": "Minecraft Kullanıcı Adı",
-        "enterYourUsername": "Kullanıcı adınızı girin...",
-        "loading": "Yükleniyor",
-        "checkingEligibility": "Uygunluk Kontrol Ediliyor..."
-      },
-      "shopBuyButton": {
-        "creatingCheckoutSession": "Ödeme oturumu oluşturuluyor...",
-        "checkoutSessionCreated": "Ödeme oturumu oluşturuldu!",
-        "selectUsernameFirst": "Önce Kullanıcı Adı Seçin",
-        "selectSubscriptionDuration": "Abonelik Süresini Seçin",
-        "chooseHowLongYouWantToSubscribeForLonger": "Ne kadar süre abone olmak istediğinizi seçin. Daha uzun süreler daha iyi değer sunar!",
-        "close": "Kapat",
-        "giftInformation": "Hediye bilgileri",
-        "enterWhoTheGiftIsFromAndAnOptional": "Hediyenin kimden geldiğini ve isteğe bağlı bir mesaj girin.",
-        "senderUsername": "Gönderenin kullanıcı adı",
-        "messageOptional": "Mesaj (isteğe bağlı)",
-        "cancel": "İptal",
-        "continue": "Devam Et",
-        "isThisAGift": "Bu bir hediye mi?",
-        "ifYouBuyThisAsAGiftYouCan": "Bunu hediye olarak satın alırsanız, kullanıcıya bir hediye mesajı da ekleyebilirsiniz.",
-        "buyForMe": "Kendim için satın al",
-        "buyAsGift": "Hediye olarak satın al"
-      },
-      "statsCodex": {
-        "uniqueFeatures": "Benzersiz Özellikler",
-        "cigarSmoking": "PURO İÇME",
-        "legendaryStatus": "EFSANEVİ STATÜ"
-      }
     },
     "footer": {
       "text6b6t": "6b6t",
@@ -341,9 +124,6 @@
       "text6b6tMinecraftAnarchy": "6b6t Minecraft anarchy",
       "legendRank": "Legend rank"
     },
-    "heroPlayerStatus": {
-      "playersOnlineOn6b6t": "6b6t'de çevrimiçi oyuncular"
-    },
     "legendFooterAboveFaq": {
       "inTheCommunity": "In the community",
       "theCigarLeaderboard": "The cigar leaderboard",
@@ -356,62 +136,21 @@
       "value1Value2": "{{value1}}{{value2}}",
       "leaderboardUnavailableRightNow": "Leaderboard unavailable right now."
     },
-    "legendGallery": {
-      "failedToLoadLegendGalleryImages": "Legend galeri görselleri yüklenemedi",
-      "errorIcon": "Hata simgesi",
-      "theArchivesAreTemporarilyClosed": "Arşivler Geçici Olarak Kapalı",
-      "legendSGallery": "📜 Legend'ın Galerisi",
-      "aSacredCollectionOfMomentsFromTheMostEsteemed": "6b6t'nin en saygın üyelerinden anların kutsal bir derlemesi. Bunlar, anarşi dünyamızı şekillendiren efsanelerdir.",
-      "theChronicleAwaitsItsFirstChapter": "Vakayiname İlk Bölümünü Bekliyor",
-      "noLegendaryMomentsHaveBeenImmortalizedYetJoinThe": "Henüz hiçbir efsanevi an ölümsüzleştirilmedi. Legend saflarına katılın ve adınızı 6b6t tarihinin yıllıklarına kazıyan ilk kişi olun.",
-      "legendRankRequired": "Legend Rank Gerekli",
-      "shareYourMoments": "Anlarınızı Paylaşın",
-      "displaying": "Gösteriliyor",
-      "legendaryArtifact": "efsanevi eser",
-      "fromTheSacredArchives": "kutsal arşivlerden"
-    },
-    "legendLightbox": {
-      "sacredArtifact": "Kutsal Eser #",
-      "value1Value2": "{{value1}}{{value2}}",
-      "of": "/",
-      "closeLightbox": "Lightbox'ı kapat",
-      "previousImage": "Önceki görsel",
-      "nextImage": "Sonraki görsel"
-    },
     "legendMobileMenu": {
       "close": "Kapat",
       "menu": "Menu",
       "features": "Özellikler",
-      "questions": "Questions",
+      "questions": "Sorular",
       "getLegend": "Legend Al"
     },
     "navbar": {
       "legendNavigation": "Legend navigation",
-      "text6b6tHome": "6b6t home",
+      "text6b6tHome": "6b6t ana sayfa",
       "text6b6t": "6b6t",
       "legend": "Legend",
       "features": "Özellikler",
-      "questions": "Questions",
+      "questions": "Sorular",
       "getLegend": "Legend Al"
-    },
-    "premiumFeatureCard": {
-      "viewDetailsAboutValue1": "{{value1}} hakkında ayrıntıları görüntüle",
-      "viewEnlargedImageOfValue1": "{{value1}} öğesinin büyütülmüş görselini görüntüle",
-      "andValue1MoreFeatures": "ve {{value1}} özellik daha",
-      "moreFeatures": "daha fazla özellik"
-    },
-    "ui": {
-      "dialog": {
-        "close": "Kapat"
-      }
-    },
-    "userSelectForm": {
-      "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-      "legendRankSelection": "Legend Rank Seçimi",
-      "minecraftUsername": "Minecraft Kullanıcı Adı",
-      "dinnerbone": "Dinnerbone",
-      "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Legend Rank'ını alacak Minecraft hesabının kullanıcı adını girin.",
-      "getLegendRank": "Legend Rank Al"
     }
   }
 }

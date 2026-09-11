@@ -6,6 +6,26 @@
       "user": "@user",
       "updatesPing": "@Updates Ping"
     },
+    "updatesList": {
+      "edited": "Edited",
+      "postedBy": "Posted by",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
+      "openInDiscord": "Open in Discord",
+      "latestPost": "Latest post",
+      "loading": "Loading...",
+      "loadMoreValue1": "Load more {{value1}}",
+      "newUpdate": "new update",
+      "justAppeared": "just appeared.",
+      "dismiss": "Dismiss",
+      "searchUpdates": "Search updates",
+      "searching": "Searching...",
+      "search": "Search",
+      "clear": "Clear",
+      "showing": "Showing",
+      "searchResults": "search results.",
+      "loadMoreResults": "Load more results",
+      "noUpdatesMatchedYourSearch": "No updates matched your search."
+    },
     "page": {
       "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
       "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
@@ -15,28 +35,8 @@
       "changelog": "Changelog",
       "server": "Server",
       "updates": "Updates",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel."
-    },
-    "updatesList": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord",
-      "couldNotLoadMoreUpdates": "Could not load more updates.",
-      "couldNotSearchUpdates": "Could not search updates.",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchUpdates": "Search updates",
-      "searching": "Searching...",
-      "search": "Search",
-      "clear": "Clear",
-      "showing": "Showing",
-      "searchResult": "search result",
-      "latestPost": "Latest post",
-      "loading": "Loading...",
-      "loadMoreValue1": "Load more {{value1}}",
-      "noUpdatesMatchedYourSearch": "No updates matched your search."
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel.",
+      "loadingUpdates": "Loading updates..."
     }
   }
 }

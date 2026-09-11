@@ -6,6 +6,26 @@
       "user": "@user",
       "updatesPing": "@Updates Ping"
     },
+    "updatesList": {
+      "edited": "Edytowano",
+      "postedBy": "Opublikowano przez",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Ta aktualizacja została opublikowana z załącznikami na Discordzie.",
+      "openInDiscord": "Otwórz na Discordzie",
+      "latestPost": "Najnowszy post",
+      "loading": "Wczytywanie...",
+      "loadMoreValue1": "Wczytaj więcej {{value1}}",
+      "newUpdate": "nowa aktualizacja",
+      "justAppeared": "właśnie się pojawiła.",
+      "dismiss": "Zamknij",
+      "searchUpdates": "Szukaj aktualizacji",
+      "searching": "Wyszukiwanie...",
+      "search": "Szukaj",
+      "clear": "Wyczyść",
+      "showing": "Wyświetlanie",
+      "searchResults": "search results.",
+      "loadMoreResults": "Load more results",
+      "noUpdatesMatchedYourSearch": "Żadne aktualizacje nie pasują do wyszukiwania."
+    },
     "page": {
       "discordUpdatesAreComingHereSoon": "Aktualizacje z Discorda pojawią się tutaj wkrótce",
       "theChangelogPageIsReadyToSyncFromThe": "Strona changelogu jest gotowa do synchronizacji z oficjalnym kanałem aktualizacji na Discordzie. Do tego czasu dołącz do Discorda, aby czytać najnowsze posty.",
@@ -15,28 +35,8 @@
       "changelog": "Changelog",
       "server": "Serwer",
       "updates": "Aktualizacje",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Najnowsze zmiany, poprawki i ogłoszenia z oficjalnego kanału changelogu 6b6t na Discordzie."
-    },
-    "updatesList": {
-      "edited": "Edytowano",
-      "postedBy": "Opublikowano przez",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "Ta aktualizacja została opublikowana z załącznikami na Discordzie.",
-      "openInDiscord": "Otwórz na Discordzie",
-      "couldNotLoadMoreUpdates": "Nie udało się wczytać większej liczby aktualizacji.",
-      "couldNotSearchUpdates": "Nie udało się wyszukać aktualizacji.",
-      "newUpdate": "nowa aktualizacja",
-      "justAppeared": "właśnie się pojawiła.",
-      "dismiss": "Zamknij",
-      "searchUpdates": "Szukaj aktualizacji",
-      "searching": "Wyszukiwanie...",
-      "search": "Szukaj",
-      "clear": "Wyczyść",
-      "showing": "Wyświetlanie",
-      "searchResult": "wynik wyszukiwania",
-      "latestPost": "Najnowszy post",
-      "loading": "Wczytywanie...",
-      "loadMoreValue1": "Wczytaj więcej {{value1}}",
-      "noUpdatesMatchedYourSearch": "Żadne aktualizacje nie pasują do wyszukiwania."
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Najnowsze zmiany, poprawki i ogłoszenia z oficjalnego kanału changelogu 6b6t na Discordzie.",
+      "loadingUpdates": "Loading updates..."
     }
   }
 }

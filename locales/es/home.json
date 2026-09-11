@@ -122,10 +122,12 @@
       }
     },
     "gallery": {
+      "galleryModal": {
+        "featured": "Destacado"
+      },
       "gallery": {
         "builds": "construcciones",
         "events": "eventos",
-        "failedToLoadGallery": "No se pudo cargar la galería",
         "gallery": "Galería",
         "serverScreenshots": "Capturas del servidor",
         "momentsCapturedFromThe6b6tAnarchyServer": "Momentos capturados en el servidor anárquico 6b6t",
@@ -133,9 +135,6 @@
         "noImagesFound": "No se encontraron imágenes",
         "showLess": "Mostrar menos",
         "showAllValue1": "Mostrar todo ({{value1}})"
-      },
-      "galleryModal": {
-        "featured": "Destacado"
       }
     },
     "hero": {
@@ -185,42 +184,6 @@
         "onlinePlayers": "Jugadores conectados",
         "maxPlayers": "Máximo de jugadores",
         "version": "Versión"
-      },
-      "serverConnectionModal": {
-        "text6b6t": "6b6t",
-        "text6b6t2": "6b6t 2",
-        "text6b6t3": "6b6t 3",
-        "copyValue1": "Copiar {{value1}}",
-        "openValue1InMinecraftBedrock": "Abrir {{value1}} en Minecraft Bedrock",
-        "open": "Abrir",
-        "closeConnectionModal": "Cerrar ventana de conexión",
-        "text6b6tLogo": "Logo de 6b6t",
-        "connectTo": "Conectarse a",
-        "javaPlayersConnectInTwoStepsInstallTheOfficial": "Los jugadores de Java se conectan en dos pasos: instala AnarchyMod oficial y luego inicia Minecraft y juega.",
-        "closeModal": "Cerrar ventana",
-        "theAnarchyModIsRequiredForJavaEdition": "AnarchyMod es obligatorio para Java Edition",
-        "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang bloqueó las conexiones estándar a 6b6t. El mod oficial restablece el acceso y añade el servidor automáticamente.",
-        "javaEdition": "Java Edition",
-        "twoStepsThenYouAreIn": "Dos pasos y ya estás dentro",
-        "fabric": "FABRIC ·",
-        "required": "Obligatorio",
-        "downloadTheAnarchyMod": "Descarga AnarchyMod",
-        "getTheLatestOfficialReleaseAndInstallItIn": "Obtén la última versión oficial e instálala en tu perfil de Fabric.",
-        "downloadLatestRelease": "Descargar última versión",
-        "viewSourceCode": "Ver código fuente",
-        "play": "Jugar",
-        "launchMinecraft": "Inicia Minecraft",
-        "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "Inicia tu perfil de Fabric, abre Multijugador y selecciona 6b6t en la lista de servidores.",
-        "serverAddress": "Dirección del servidor",
-        "copied": "Copiado",
-        "copyIp": "Copiar IP",
-        "fallbackAddresses": "Direcciones alternativas",
-        "playingOnBedrock": "¿Juegas en Bedrock?",
-        "noFabricModNeededUseADirectBedrockConnection": "No necesitas un mod de Fabric: utiliza una conexión directa de Bedrock.",
-        "serverOnline": "Servidor en línea",
-        "text2000Players": "/2000 jugadores",
-        "java": "Java",
-        "done": "Listo"
       }
     },
     "home": {
@@ -242,31 +205,7 @@
         "text1194Supported": "Compatible con 1.19.4+"
       }
     },
-    "partners": {
-      "protonBanner": {
-        "vpn": "VPN",
-        "protonVpn": "Proton VPN",
-        "secureInternetAccess": "Acceso seguro a Internet",
-        "mail": "Correo",
-        "protonMail": "Proton Mail",
-        "encryptedEmail": "Correo cifrado",
-        "pass": "Pass",
-        "protonPass": "Proton Pass",
-        "identityProtection": "Protección de identidad",
-        "drive": "Drive",
-        "protonDrive": "Proton Drive",
-        "secureStorage": "Almacenamiento seguro",
-        "text6b6t": "6b6t",
-        "proton": "Proton",
-        "aHistoricPartnership": "Una alianza histórica.",
-        "privacyMeetsAnarchy": "La privacidad se encuentra con la anarquía.",
-        "text6b6tHasOfficiallyPartneredWithProtonToChampionA": "6b6t se ha asociado oficialmente con Proton para promover un Internet seguro y cifrado. Creemos que la privacidad es un derecho fundamental, no un lujo. Protege tu vida digital con las mismas herramientas con sede en Suiza en las que confiamos."
-      }
-    },
     "social": {
-      "featuredVideo": {
-        "join6b6tHytale": "ÚNETE A 6B6T HYTALE"
-      },
       "youTubeShorts": {
         "epic6b6tAnarchyPvpMoments": "Momentos épicos de PvP anárquico en 6b6t",
         "massive6b6tBaseTour": "Tour por una enorme base de 6b6t",

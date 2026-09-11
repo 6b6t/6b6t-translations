@@ -122,10 +122,12 @@
       }
     },
     "gallery": {
+      "galleryModal": {
+        "featured": "प्रदर्शित"
+      },
       "gallery": {
         "builds": "बनाता",
         "events": "घटनाएँ",
-        "failedToLoadGallery": "गैलरी लोड करने में विफल",
         "gallery": "गैलरी",
         "serverScreenshots": "सर्वर स्क्रीनशॉट",
         "momentsCapturedFromThe6b6tAnarchyServer": "6b6t अराजकता सर्वर से कैप्चर किए गए क्षण",
@@ -133,9 +135,6 @@
         "noImagesFound": "कोई चित्र नहीं मिला",
         "showLess": "कम दिखाओ",
         "showAllValue1": "सभी दिखाएँ ({{value1}})"
-      },
-      "galleryModal": {
-        "featured": "प्रदर्शित"
       }
     },
     "hero": {
@@ -185,42 +184,6 @@
         "onlinePlayers": "ऑनलाइन खिलाड़ी",
         "maxPlayers": "अधिकतम खिलाड़ी",
         "version": "संस्करण"
-      },
-      "serverConnectionModal": {
-        "text6b6t": "6b6t",
-        "text6b6t2": "6b6t 2",
-        "text6b6t3": "6b6t 3",
-        "copyValue1": "{{value1}} कॉपी करें",
-        "openValue1InMinecraftBedrock": "Minecraft Bedrock में {{value1}} खोलें",
-        "open": "खुला",
-        "closeConnectionModal": "कनेक्शन मोडल बंद करें",
-        "text6b6tLogo": "6b6t लोगो",
-        "connectTo": "से कनेक्ट",
-        "javaPlayersConnectInTwoStepsInstallTheOfficial": "Java खिलाड़ी दो चरणों में जुड़ते हैं: आधिकारिक एनार्की मॉड इंस्टॉल करें, फिर Minecraft लॉन्च करें और खेलें।",
-        "closeModal": "मोडल बंद करें",
-        "theAnarchyModIsRequiredForJavaEdition": "Java संस्करण के लिए एनार्की मॉड आवश्यक है",
-        "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang ने 6b6t के मानक कनेक्शन को अवरुद्ध कर दिया। आधिकारिक मॉड पहुंच बहाल करता है और सर्वर को स्वचालित रूप से जोड़ता है।",
-        "javaEdition": "Java संस्करण",
-        "twoStepsThenYouAreIn": "दो कदम, फिर आप अंदर हैं",
-        "fabric": "कपड़ा ·",
-        "required": "आवश्यक",
-        "downloadTheAnarchyMod": "अराजकता मॉड डाउनलोड करें",
-        "getTheLatestOfficialReleaseAndInstallItIn": "नवीनतम आधिकारिक रिलीज़ प्राप्त करें और इसे अपने फ़ैब्रिक प्रोफ़ाइल में इंस्टॉल करें।",
-        "downloadLatestRelease": "नवीनतम रिलीज़ डाउनलोड करें",
-        "viewSourceCode": "स्रोत कोड देखें",
-        "play": "खेल",
-        "launchMinecraft": "Minecraft लॉन्च करें",
-        "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "अपना फ़ैब्रिक प्रोफ़ाइल प्रारंभ करें, मल्टीप्लेयर खोलें, और सर्वर सूची से 6b6t चुनें।",
-        "serverAddress": "सर्वर पता",
-        "copied": "कॉपी किया गया",
-        "copyIp": "आईपी ​​कॉपी करें",
-        "fallbackAddresses": "फ़ॉलबैक पते",
-        "playingOnBedrock": "Bedrock पर चल रहा है?",
-        "noFabricModNeededUseADirectBedrockConnection": "किसी फ़ैब्रिक मॉड की आवश्यकता नहीं है—सीधे Bedrock कनेक्शन का उपयोग करें।",
-        "serverOnline": "सर्वर ऑनलाइन",
-        "text2000Players": "/2000 खिलाड़ी",
-        "java": "Java",
-        "done": "हो गया"
       }
     },
     "home": {
@@ -242,31 +205,7 @@
         "text1194Supported": "1.19.4+ समर्थित"
       }
     },
-    "partners": {
-      "protonBanner": {
-        "vpn": "VPN",
-        "protonVpn": "प्रोटोन VPN",
-        "secureInternetAccess": "सुरक्षित इंटरनेट पहुंच",
-        "mail": "मेल",
-        "protonMail": "प्रोटोन मेल",
-        "encryptedEmail": "एन्क्रिप्टेड ईमेल",
-        "pass": "उत्तीर्ण",
-        "protonPass": "प्रोटोन पास",
-        "identityProtection": "पहचान की सुरक्षा",
-        "drive": "गाड़ी चलाना",
-        "protonDrive": "प्रोटोन ड्राइव",
-        "secureStorage": "सुरक्षित भंडारण",
-        "text6b6t": "6b6t",
-        "proton": "प्रोटोन",
-        "aHistoricPartnership": "एक ऐतिहासिक साझेदारी.",
-        "privacyMeetsAnarchy": "गोपनीयता अराजकता से मिलती है।",
-        "text6b6tHasOfficiallyPartneredWithProtonToChampionA": "6b6t ने सुरक्षित और एन्क्रिप्टेड इंटरनेट को चैंपियन बनाने के लिए आधिकारिक तौर पर प्रोटॉन के साथ साझेदारी की है। हमारा मानना ​​है कि निजता एक मौलिक अधिकार है, विलासिता नहीं। अपने डिजिटल जीवन को उन्हीं स्विस-आधारित टूल से सुरक्षित रखें जिन पर हमें भरोसा है।"
-      }
-    },
     "social": {
-      "featuredVideo": {
-        "join6b6tHytale": "6B6T HYTALE से जुड़ें"
-      },
       "youTubeShorts": {
         "epic6b6tAnarchyPvpMoments": "महाकाव्य 6b6t अराजकता PvP क्षण",
         "massive6b6tBaseTour": "विशाल 6b6t बेस टूर",

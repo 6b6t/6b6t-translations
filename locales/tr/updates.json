@@ -6,6 +6,26 @@
       "user": "@user",
       "updatesPing": "@Updates Ping"
     },
+    "updatesList": {
+      "edited": "Düzenlendi",
+      "postedBy": "Gönderen",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
+      "openInDiscord": "Discord'da Aç",
+      "latestPost": "Son gönderi",
+      "loading": "Yükleniyor...",
+      "loadMoreValue1": "Daha fazla {{value1}} yükle",
+      "newUpdate": "yeni güncelleme",
+      "justAppeared": "az önce göründü.",
+      "dismiss": "Kapat",
+      "searchUpdates": "Güncelleme ara",
+      "searching": "Aranıyor...",
+      "search": "Ara",
+      "clear": "Temizle",
+      "showing": "Gösteriliyor",
+      "searchResults": "search results.",
+      "loadMoreResults": "Load more results",
+      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
+    },
     "page": {
       "discordUpdatesAreComingHereSoon": "Discord güncellemeleri yakında burada olacak",
       "theChangelogPageIsReadyToSyncFromThe": "Değişiklik günlüğü sayfası, resmi Discord güncelleme kanalından senkronize olmaya hazır. O zamana kadar en yeni gönderileri okumak için Discord'a katıl.",
@@ -15,28 +35,8 @@
       "changelog": "Değişiklik Günlüğü",
       "server": "Sunucu",
       "updates": "Güncellemeleri",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular."
-    },
-    "updatesList": {
-      "edited": "Düzenlendi",
-      "postedBy": "Gönderen",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
-      "openInDiscord": "Discord'da Aç",
-      "couldNotLoadMoreUpdates": "Daha fazla güncelleme yüklenemedi.",
-      "couldNotSearchUpdates": "Güncellemeler aranamadı.",
-      "newUpdate": "yeni güncelleme",
-      "justAppeared": "az önce göründü.",
-      "dismiss": "Kapat",
-      "searchUpdates": "Güncelleme ara",
-      "searching": "Aranıyor...",
-      "search": "Ara",
-      "clear": "Temizle",
-      "showing": "Gösteriliyor",
-      "searchResult": "arama sonucu",
-      "latestPost": "Son gönderi",
-      "loading": "Yükleniyor...",
-      "loadMoreValue1": "Daha fazla {{value1}} yükle",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular.",
+      "loadingUpdates": "Loading updates..."
     }
   }
 }

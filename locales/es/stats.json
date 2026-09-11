@@ -2,12 +2,6 @@
   "page-name": "Estadísticas",
   "seo-description": "Consulta a nuestros mejores jugadores en diferentes categorías",
   "sections": {
-    "username": {
-      "page": {
-        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} es un jugador de 6b6t.org. Consulta su tiempo de juego, kills, muertes y otras estadísticas en el servidor anárquico de Minecraft 6b6t.",
-        "viewValue1SStatsOn6b6tOrgTheBest": "Consulta las estadísticas de {{value1}} en 6b6t.org. El mejor lugar para ver estadísticas de 6b6t."
-      }
-    },
     "leaderboardStatisticCard": {
       "rank": "Posición",
       "name": "Nombre",
@@ -17,10 +11,6 @@
       "playersRanked": "jugadores clasificados",
       "previousPage": "Página anterior",
       "nextPage": "Página siguiente"
-    },
-    "loading": {
-      "loadingSpinner": "Indicador de carga",
-      "loadingStatistics": "Cargando estadísticas..."
     },
     "playerStatsSearch": {
       "playerStatsSearch": "Buscar estadísticas de jugadores",
@@ -36,6 +26,14 @@
       "underMaintenance": "En mantenimiento",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Esta estadística no está disponible temporalmente. Estamos trabajando para volver a ofrecer los datos más recientes de la clasificación lo antes posible.",
       "loadingStatisticsData": "Cargando datos de estadísticas..."
+    },
+    "username": {
+      "page": {
+        "loading": "Loading…"
+      },
+      "layout": {
+        "loadingPlayerStats": "Loading player stats…"
+      }
     }
   }
 }

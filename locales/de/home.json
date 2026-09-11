@@ -122,10 +122,12 @@
       }
     },
     "gallery": {
+      "galleryModal": {
+        "featured": "Featured"
+      },
       "gallery": {
         "builds": "builds",
         "events": "events",
-        "failedToLoadGallery": "Failed to load gallery",
         "gallery": "Gallery",
         "serverScreenshots": "Server Screenshots",
         "momentsCapturedFromThe6b6tAnarchyServer": "Moments captured from the 6b6t anarchy server",
@@ -133,9 +135,6 @@
         "noImagesFound": "No images found",
         "showLess": "Show less",
         "showAllValue1": "Show all ({{value1}})"
-      },
-      "galleryModal": {
-        "featured": "Featured"
       }
     },
     "hero": {
@@ -185,42 +184,6 @@
         "onlinePlayers": "Online Players",
         "maxPlayers": "Max Players",
         "version": "Version"
-      },
-      "serverConnectionModal": {
-        "text6b6t": "6b6t",
-        "text6b6t2": "6b6t 2",
-        "text6b6t3": "6b6t 3",
-        "copyValue1": "Copy {{value1}}",
-        "openValue1InMinecraftBedrock": "Open {{value1}} in Minecraft Bedrock",
-        "open": "Open",
-        "closeConnectionModal": "Close connection modal",
-        "text6b6tLogo": "6b6t logo",
-        "connectTo": "Connect to",
-        "javaPlayersConnectInTwoStepsInstallTheOfficial": "Java players connect in two steps: install the official Anarchy Mod, then launch Minecraft and play.",
-        "closeModal": "Close modal",
-        "theAnarchyModIsRequiredForJavaEdition": "The Anarchy Mod is required for Java Edition",
-        "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang blocked standard connections to 6b6t. The official mod restores access and adds the server automatically.",
-        "javaEdition": "Java Edition",
-        "twoStepsThenYouAreIn": "Two steps, then you are in",
-        "fabric": "FABRIC ·",
-        "required": "Required",
-        "downloadTheAnarchyMod": "Download the Anarchy Mod",
-        "getTheLatestOfficialReleaseAndInstallItIn": "Get the latest official release and install it in your Fabric profile.",
-        "downloadLatestRelease": "Download latest release",
-        "viewSourceCode": "View source code",
-        "play": "Play",
-        "launchMinecraft": "Launch Minecraft",
-        "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "Start your Fabric profile, open Multiplayer, and select 6b6t from the server list.",
-        "serverAddress": "Server address",
-        "copied": "Copied",
-        "copyIp": "Copy IP",
-        "fallbackAddresses": "Fallback addresses",
-        "playingOnBedrock": "Playing on Bedrock?",
-        "noFabricModNeededUseADirectBedrockConnection": "No Fabric mod needed—use a direct Bedrock connection.",
-        "serverOnline": "Server online",
-        "text2000Players": "/2000 players",
-        "java": "Java",
-        "done": "Done"
       }
     },
     "home": {
@@ -242,31 +205,7 @@
         "text1194Supported": "1.19.4+ Supported"
       }
     },
-    "partners": {
-      "protonBanner": {
-        "vpn": "VPN",
-        "protonVpn": "Proton VPN",
-        "secureInternetAccess": "Secure internet access",
-        "mail": "Mail",
-        "protonMail": "Proton Mail",
-        "encryptedEmail": "Encrypted email",
-        "pass": "Pass",
-        "protonPass": "Proton Pass",
-        "identityProtection": "Identity protection",
-        "drive": "Drive",
-        "protonDrive": "Proton Drive",
-        "secureStorage": "Secure storage",
-        "text6b6t": "6b6t",
-        "proton": "Proton",
-        "aHistoricPartnership": "A Historic Partnership.",
-        "privacyMeetsAnarchy": "Privacy Meets Anarchy.",
-        "text6b6tHasOfficiallyPartneredWithProtonToChampionA": "6b6t has officially partnered with Proton to champion a secure and encrypted internet. We believe privacy is a fundamental right, not a luxury. Protect your digital life with the same Swiss-based tools we trust."
-      }
-    },
     "social": {
-      "featuredVideo": {
-        "join6b6tHytale": "JOIN 6B6T HYTALE"
-      },
       "youTubeShorts": {
         "epic6b6tAnarchyPvpMoments": "Epic 6b6t Anarchy PvP Moments",
         "massive6b6tBaseTour": "Massive 6b6t Base Tour",

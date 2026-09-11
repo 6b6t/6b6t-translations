@@ -21,7 +21,7 @@
       "command": "Komut",
       "description": "Açıklama",
       "example": "Örnek",
-      "rank": "Rank",
+      "rank": "Sıra",
       "value1Value2": "{{value1}}-{{value2}}",
       "fullExample": "Tam örnek:",
       "noCommandsFoundMatchingYourFilters": "Filtrelerine uyan komut bulunamadı.",

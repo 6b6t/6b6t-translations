@@ -2,12 +2,6 @@
   "page-name": "İstatistikler",
   "seo-description": "Farklı kategorilerdeki en iyi oyuncularımızı görün",
   "sections": {
-    "username": {
-      "page": {
-        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}}, 6b6t.org'da bir oyuncudur. Oyun süresi, öldürme, ölüm ve diğer istatistiklerini 6b6t Minecraft anarşi sunucusunda görüntüle.",
-        "viewValue1SStatsOn6b6tOrgTheBest": "{{value1}}'in istatistiklerini 6b6t.org'da görüntüle. 6b6t istatistikleri için en iyi yer."
-      }
-    },
     "leaderboardStatisticCard": {
       "rank": "Sıra",
       "name": "İsim",
@@ -17,10 +11,6 @@
       "playersRanked": "oyuncu sıralandı",
       "previousPage": "Önceki sayfa",
       "nextPage": "Sonraki sayfa"
-    },
-    "loading": {
-      "loadingSpinner": "Yükleniyor animasyonu",
-      "loadingStatistics": "İstatistikler yükleniyor..."
     },
     "playerStatsSearch": {
       "playerStatsSearch": "Oyuncu İstatistik Araması",
@@ -36,6 +26,14 @@
       "underMaintenance": "Bakımda",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Bu istatistik geçici olarak kullanılamıyor. En son liderlik tablosu verilerini en kısa sürede sunmaya çalışıyoruz.",
       "loadingStatisticsData": "İstatistik verileri yükleniyor..."
+    },
+    "username": {
+      "page": {
+        "loading": "Loading…"
+      },
+      "layout": {
+        "loadingPlayerStats": "Loading player stats…"
+      }
     }
   }
 }

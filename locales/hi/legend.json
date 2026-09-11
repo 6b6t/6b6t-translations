@@ -2,42 +2,56 @@
   "sections": {
     "shop": {
       "legend": {
-        "components": {
-          "legendComparisonGrid": {
-            "legendPrefix": "Legend उपसर्ग",
-            "text500Homes": "500 घर",
-            "text10s": "10s",
-            "text3s": "3s",
-            "included": "शामिल",
-            "text70Balloons": "70 गुब्बारे",
-            "text16Colors": "16 रंग",
-            "text12Colors": "12 रंग",
-            "text32Particles": "32 कण",
-            "text32Chunks": "32 टुकड़े",
-            "text120Minutes": "120 मिनट",
-            "text6Colors": "6 रंग",
-            "text5000Players": "5000 खिलाड़ी",
-            "legendDiscordRole": "Legend Discord भूमिका",
-            "legend": "[Legend]",
-            "apex": "[Apex]",
-            "notIncluded": "शामिल नहीं",
-            "apex2": "Apex",
-            "legend2": "Legend",
-            "viewValue1": "{{value1}} देखें",
-            "blur": "कलंक",
-            "whatYouGet": "What you get",
-            "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
-            "compareFeatures": "Compare features"
-          },
-          "userSelectForm": {
-            "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-            "redirectingToShop": "दुकान पर पुनर्निर्देशित किया जा रहा है...",
-            "legendRankSelection": "Legend रैंक चयन",
-            "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
-            "dinnerbone": "डिनरबोन",
-            "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Minecraft खाता उपयोगकर्ता नाम दर्ज करें जिसे Legend रैंक प्राप्त होना चाहिए।",
-            "getLegendRank": "Legend रैंक प्राप्त करें"
-          }
+        "legendComparisonGrid": {
+          "legendPrefix": "Legend उपसर्ग",
+          "text500Homes": "500 घर",
+          "text10s": "10s",
+          "text3s": "3s",
+          "included": "शामिल",
+          "text70Balloons": "70 गुब्बारे",
+          "text16Colors": "16 रंग",
+          "text12Colors": "12 रंग",
+          "text32Particles": "32 कण",
+          "text32Chunks": "32 टुकड़े",
+          "text120Minutes": "120 मिनट",
+          "text6Colors": "6 रंग",
+          "text5000Players": "5000 खिलाड़ी",
+          "legendDiscordRole": "Legend Discord भूमिका",
+          "legend": "[Legend]",
+          "apex": "[Apex]",
+          "notIncluded": "शामिल नहीं",
+          "apex2": "Apex",
+          "legend2": "Legend",
+          "viewValue1": "{{value1}} देखें",
+          "whatYouGet": "What you get",
+          "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
+          "compareFeatures": "Compare features"
+        },
+        "legendUserShopMenu": {
+          "chooseYourLegend": "Choose your Legend.",
+          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
+          "legendBilling": "Legend billing",
+          "lifetime": "जीवनभर",
+          "subscription": "सदस्यता",
+          "eurPayOnce": "EUR · Pay once",
+          "eurRenewsEveryMonth": "EUR · Renews every month",
+          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
+          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
+          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
+          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
+          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
+          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
+          "setYourUsername": "Set your username",
+          "subscribeToLegend": "Subscribe to Legend",
+          "getLegend2Apex": "Get Legend + 2 Apex",
+          "getLifetimeLegend": "Get lifetime Legend",
+          "apexRequired": "Apex आवश्यक है",
+          "legendAlreadyActive": "Legend already active",
+          "checkoutComingSoon": "Checkout coming soon",
+          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
+          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
+          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
+          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         },
         "layout": {
           "text6b6t": "6b6t",
@@ -70,154 +84,7 @@
           "legendValue1": "Legend {{value1}}",
           "text6b6tAnarchyServer": "6b6t अराजकता सर्वर",
           "skipToMainContent": "मुख्य सामग्री पर जाएँ"
-        },
-        "legendUserShopMenu": {
-          "chooseYourLegend": "Choose your Legend.",
-          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
-          "legendBilling": "Legend billing",
-          "lifetime": "Lifetime",
-          "subscription": "Subscription",
-          "eurPayOnce": "EUR · Pay once",
-          "eurRenewsEveryMonth": "EUR · Renews every month",
-          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
-          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
-          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
-          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
-          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
-          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
-          "setYourUsername": "Set your username",
-          "subscribeToLegend": "Subscribe to Legend",
-          "getLegend2Apex": "Get Legend + 2 Apex",
-          "getLifetimeLegend": "Get lifetime Legend",
-          "apexRequired": "Apex required",
-          "legendAlreadyActive": "Legend already active",
-          "checkoutComingSoon": "Checkout coming soon",
-          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
-          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
-          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
-          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         }
-      }
-    },
-    "audioManager": {
-      "pauseBackgroundMusic": "पृष्ठभूमि संगीत रोकें",
-      "playBackgroundMusic": "पृष्ठभूमि संगीत चलायें",
-      "pauseMusic": "संगीत रोकें",
-      "playMusic": "संगीत बजाना",
-      "pause": "रोकें",
-      "music": "संगीत"
-    },
-    "book": {
-      "value1": "{{value1}}..."
-    },
-    "bookDialog": {
-      "viewValue1ImageInFullScreen": "{{value1}} छवि को पूर्ण स्क्रीन में देखें",
-      "sacredPowersBenefits": "पवित्र शक्तियाँ एवं लाभ"
-    },
-    "bookModal": {
-      "sacredPowersBenefits": "पवित्र शक्तियाँ एवं लाभ"
-    },
-    "cigarCarousel": {
-      "premiumCigarCommand": "प्रीमियम सिगार कमांड",
-      "mysticalGlowEffects": "रहस्यमय चमक प्रभाव",
-      "legendaryHotspots": "पौराणिक हॉटस्पॉट",
-      "builderMode": "बिल्डर मोड",
-      "customNameColors": "कस्टम नाम रंग",
-      "text500HomesLimit": "500 घरों की सीमा",
-      "premiumLegendFeatures": "🚬 प्रीमियम Legend विशेषताएं",
-      "exclusiveFeaturesAvailableOnlyToLegendRankMembersOf": "विशेष सुविधाएँ केवल 6b6t के Legend रैंक के सदस्यों के लिए उपलब्ध हैं",
-      "previousImages": "पिछली छवियां",
-      "nextImages": "अगली छवियाँ",
-      "viewValue1InFullScreen": "{{value1}} को पूर्ण स्क्रीन में देखें",
-      "carouselLabelValue1Value2": "हिंडोला-लेबल-{{value1}}-{{value2}}"
-    },
-    "data": {
-      "featuresData": {
-        "text500Homes": "500-homes",
-        "text500Homes2": "500 घर",
-        "neverWorryAboutRunningOutSpotsInThe6b6t": "6b6t दुनिया में स्थान समाप्त होने के बारे में कभी चिंता न करें",
-        "utility": "उपयोगिता",
-        "set500HomesWithSethome": "/sethome के साथ 500 घर सेट करें",
-        "neverRunOutOfThem": "उनसे कभी बाहर न भागें",
-        "travelInstantly": "तुरंत यात्रा करें",
-        "builderMode": "बिल्डर मोड",
-        "seeEverythingAtYourBaseSoYouCanBuild": "अपने आधार पर सब कुछ देखें, ताकि आप स्वतंत्र रूप से निर्माण कर सकें और प्रभावशाली स्क्रीनशॉट ले सकें",
-        "building": "इमारत",
-        "automaticallyEnableWithBuildermodeHome": "/buildermode होम के साथ स्वचालित रूप से सक्षम करें",
-        "increaseViewDistanceTo32": "दृश्य दूरी को 32 तक बढ़ाएँ",
-        "seeEverything": "सब कुछ देखें",
-        "cigars": "सिगार",
-        "cigars2": "सिगार",
-        "theBaddestCoolestMostUniqueCosmeticYouVeEver": "सबसे घटिया, सबसे अनोखा कॉस्मेटिक जो आपने Minecraft में कभी देखा है! सिगार!",
-        "cosmetic": "अंगराग",
-        "firstMinecraftServerToAddCigars": "सिगार जोड़ने वाला पहला Minecraft सर्वर",
-        "relaxAndTakeAScreenshotWithThe6b6tOwner": "आराम करें और 6b6t मालिक के साथ स्क्रीनशॉट लें",
-        "theCoolestCosmeticEverRunCigar": "अब तक का सबसे बढ़िया कॉस्मेटिक, /cigar चलाएं",
-        "glow": "चमकना",
-        "glow2": "चमकना",
-        "standOutAtNightAndDuringTheDayBetween": "रात में और दिन के दौरान, हजारों खिलाड़ियों के बीच, आप रोशनी हैं",
-        "withGlowItWonTBeDark": "/glow के साथ यह अंधेरा नहीं होगा",
-        "youGlowTheSameColorAsYourNamecolor": "आप अपने /namecolor के समान रंग में चमकते हैं",
-        "noLimitsOnUsage": "उपयोग पर कोई सीमा नहीं",
-        "hotspot": "हॉटस्पॉट",
-        "hotspot2": "हॉटस्पॉट",
-        "createTheMostActiveLocationsOnTheServer": "सर्वर पर सर्वाधिक सक्रिय स्थान बनाएँ",
-        "social": "सामाजिक",
-        "createAHotspotAndHostADestructiveParty": "एक हॉटस्पॉट बनाएं और एक विनाशकारी पार्टी की मेजबानी करें",
-        "giveEveryoneAGlowEffectWithHotspotGlow": "/hotspot चमक के साथ सभी को चमक प्रभाव दें",
-        "giveEveryoneYourFavoriteBalloonWithHotspotBalloon": "/hotspot गुब्बारे के साथ सभी को अपना पसंदीदा गुब्बारा दें",
-        "nameColor": "नाम रंग",
-        "yourStyleYourColors12ToChooseFrom": "आपकी शैली, आपके रंग। चुनने के लिए 12",
-        "customization": "अनुकूलन",
-        "changeYourNameColorWithNamecolor": "/namecolor से अपना नाम रंग बदलें",
-        "pickFrom12ColorsPreviewItWithTheCommand": "12 रंगों में से चुनें (कमांड के साथ इसका पूर्वावलोकन करें)",
-        "standOutTogetherWithChatcolor": "/chatcolor के साथ अलग दिखें"
-      },
-      "pricingData": {
-        "monthlyLegend": "मासिक legend",
-        "flexibleBillingForTheRareAdventures": "दुर्लभ साहसिक कार्यों के लिए लचीली बिलिंग",
-        "month": "/ महीना",
-        "legendPrefix": "Legend उपसर्ग",
-        "legendDiscordRank": "Legend Discord रैंक",
-        "lightUpCigarsInMinecraftWithCigar": "/cigar के साथ Minecraft में सिगार जलाएं!",
-        "text500Homes": "500 घर",
-        "text70BalloonsWithBalloons": "/balloons के साथ 70 गुब्बारे",
-        "text16ParticlesComingSoon": "16 कण (जल्द ही आ रहे हैं)",
-        "skinHatSit": "/skin और /hat और /sit",
-        "enableGlowWithGlow": "/glow के साथ चमक सक्षम करें",
-        "buildermodeWith32RenderDistance": "32 रेंडर दूरी के साथ /buildermode",
-        "automaticallyEnableBuilderModeWhenYouTeleportToA": "जब आप /buildermode होम <home> के साथ किसी चुने हुए घर पर टेलीपोर्ट करते हैं तो स्वचालित रूप से बिल्डर मोड सक्षम करें",
-        "accessTo16ChatColorsInChatcolor": "/chatcolor में 16 चैट रंगों तक पहुंच",
-        "accessTo12NameColorsInNamecolor": "/namecolor में 12 नाम रंगों तक पहुंच",
-        "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot 120 मिनट की लंबाई और 80 मिनट के कोल्डाउन के साथ बनाएं",
-        "changeTheNameOfTheHotspotWithHotspotName": "हॉटस्पॉट का नाम /hotspot <name> से बदलें",
-        "applyAGlowEffectToEveryoneAtYourHotspot": "/hotspot चमक के साथ अपने हॉटस्पॉट पर सभी पर चमक प्रभाव लागू करें",
-        "applyABalloonToEveryoneAtYourHotspotWith": "/hotspot गुब्बारे से अपने हॉटस्पॉट पर सभी को गुब्बारा लगाएं",
-        "useColorsInAnvilsWithTheSignForExample": "निहाई में & चिह्न के साथ रंगों का उपयोग करें, उदाहरण के लिए: &aHello",
-        "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "& चिह्न के साथ निहाई में अंडरलाइन, स्ट्राइकथ्रू और इटैलिक का उपयोग करें",
-        "useBoldInAnvils": "निहाई में बोल्ड का प्रयोग करें",
-        "useFullRgbCodesInAnvilsComingSoon": "एनविल्स में पूर्ण RGB कोड का उपयोग करें (जल्द ही आ रहा है)",
-        "text10sTpaCooldown": "10s /tpa कूलडाउन",
-        "itTakes3sInsteadOf15sToTeleportTo": "/tpa का उपयोग करने वाले किसी व्यक्ति को टेलीपोर्ट करने में 15 के बजाय 3 सेकंड लगते हैं",
-        "itTakes3sInsteadOf15sForSomeoneTo": "/tpa का उपयोग करके किसी व्यक्ति को आपको टेलीपोर्ट करने में 15 के बजाय 3 सेकंड लगते हैं",
-        "text10sHomeCooldown": "10s /home कूलडाउन",
-        "changeColorOfConnectionMessagesWithConnectionmsgsColor": "कनेक्शन संदेशों का रंग /connectionmsgs रंग से बदलें",
-        "changeColorOfDeathMessagesWithDeathmsgsColor": "/deathmsgs रंग से मृत्यु संदेशों का रंग बदलें",
-        "customizeYourStatsPage": "अपने सांख्यिकी पृष्ठ को अनुकूलित करें",
-        "ignoreUpTo5000Players": "5000 खिलाड़ियों तक को अनदेखा करें",
-        "accessAdvertisingIn6b6tDiscord": "6b6t Discord में #विज्ञापन तक पहुंचें",
-        "embedLinksPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में लिंक अनुमति एम्बेड करें",
-        "attachFilesPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में फ़ाइलें अनुमति संलग्न करें",
-        "addReactionsPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में प्रतिक्रिया अनुमति जोड़ें",
-        "changeNicknamePermissionIn6b6tDiscord": "6b6t Discord में उपनाम अनुमति बदलें",
-        "streamingPermissionIn6b6tDiscord": "6b6t Discord में स्ट्रीमिंग की अनुमति",
-        "accessTo10RankOnlyChannelsIn6b6tDiscord": "6b6t Discord में केवल 10+ रैंक वाले चैनलों तक पहुंच",
-        "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "6b6t Discord में #प्रीमियम-टिकट चैनल का उपयोग करके प्राथमिकता समर्थन",
-        "chooseMonthlyCovenant": "मासिक अनुबंध चुनें",
-        "threeMonthLegend": "तीन माह legend",
-        "longTermPlanningForTheWarriors": "योद्धाओं के लिए दीर्घकालिक योजना",
-        "save4499": "€44.99 बचाएं",
-        "chooseThreeMonthCovenant": "तीन महीने का अनुबंध चुनें"
       }
     },
     "faq": {
@@ -234,90 +101,6 @@
       "whatCanIDoWithHotspots": "मैं हॉटस्पॉट के साथ क्या कर सकता हूं?",
       "createAHotspotCustomizeItsNameAndGivePlayers": "Create a Hotspot, customize its name, and give players a glow effect and a balloon.",
       "aFewQuestions": "A few questions"
-    },
-    "features": {
-      "libraryHeader": {
-        "theLegendaryLibrary": "पौराणिक पुस्तकालय",
-        "quotWelcomeToTheExclusiveWorldOfLegendaryPlayers": "&quot;6b6t पर दिग्गज खिलाड़ियों की विशेष दुनिया में आपका स्वागत है। यहां आपको अराजकता में अब तक देखी गई सबसे शक्तिशाली सुविधाओं और सौंदर्य प्रसाधनों तक पहुंच मिलती है। ये सुविधाएं आपको विशिष्ट बनाती हैं, ये आपको शक्तिशाली बनाती हैं और ये आपको महान बनाती हैं।",
-        "donAposTWaitBecomeALegend": "इंतज़ार न करें। LEGEND बनें।"
-      },
-      "librarySection": {
-        "quotEachTomeContainsLegendaryPowersClickAnyBook": "&quot;प्रत्येक टोम में पौराणिक शक्तियां शामिल हैं। किसी भी पुस्तक के रहस्य जानने के लिए उस पर क्लिक करें।&quot;"
-      },
-      "modernFeaturesSection": {
-        "legendaryFeatures": "पौराणिक विशेषताएं",
-        "unlockExclusivePowersAndAbilitiesReservedForLegendRank": "Legend रैंक धारकों के लिए आरक्षित विशेष शक्तियों और क्षमताओं को अनलॉक करें। प्रत्येक सुविधा को 6b6t के प्राचीन क्षेत्र पर आपके गेमप्ले अनुभव को बढ़ाने के लिए सावधानीपूर्वक तैयार किया गया है।"
-      },
-      "mugSection": {
-        "legendaryMug": "पौराणिक मग",
-        "everyLegendRankPurchaseIncludesThisExclusive6b6tCeramic": "प्रत्येक Legend रैंक खरीद में यह विशेष 6b6t सिरेमिक मग शामिल है। भौतिक उत्पाद के साथ अपनी स्थिति सुरक्षित करें।",
-        "text6b6tLegendMug": "6B6T Legend मग",
-        "epicFeatures": "महाकाव्य विशेषताएं",
-        "premiumCeramicConstructionSurvivesTntBlasts": "प्रीमियम सिरेमिक बनावट — TNT विस्फोट भी सह लेती है",
-        "qualityGlossyFinish": "उच्च गुणवत्ता वाली चमकदार फिनिश",
-        "perfect15ozCapacityForHugeCoffee": "बड़ी कॉफी के लिए उपयुक्त 15 oz क्षमता",
-        "dishwasherSafeForEasyCleaningAfterRaids": "रेड के बाद आसान सफाई के लिए डिशवॉशर-सुरक्षित",
-        "freeWorldwideShipping": "दुनिया भर में मुफ़्त शिपिंग",
-        "official6b6tAnarchyBranding": "आधिकारिक 6b6t अराजकता ब्रांडिंग",
-        "includedWithEveryLegendRankPurchase": "प्रत्येक Legend रैंक खरीद के साथ शामिल है",
-        "noAdditionalCost": "कोई अतिरिक्त लागत नहीं"
-      },
-      "pricingCard": {
-        "total": "कुल",
-        "moreFeatures": "अधिक सुविधाएँ",
-        "showLessFeatures": "कम सुविधाएँ दिखाएँ",
-        "loading": "लोड हो रहा है",
-        "checkingEligibility": "पात्रता की जाँच की जा रही है...",
-        "loadingYourRankInformation": "आपकी रैंक की जानकारी लोड हो रही है",
-        "alreadyActive": "✦ पहले से ही सक्रिय ✦",
-        "youAlreadyHaveLegendRankThankYouForYour": "आपके पास पहले से ही Legend रैंक है! आपके समर्थन के लिए धन्यवाद।",
-        "requiresApexRank": "⚠️ Apex रैंक की आवश्यकता है",
-        "youNeedToPurchaseTheApexRankFirstTo": "Legend को अनलॉक करने के लिए आपको पहले Apex रैंक खरीदनी होगी।",
-        "youCurrentlyHaveValue1RankUpgradeToApexTo": "वर्तमान में आपके पास {{value1}} रैंक है। Legend को अनलॉक करने के लिए Apex में अपग्रेड करें।",
-        "getApexRank": "Apex रैंक प्राप्त करें",
-        "setUsernameFirst": "👤 सबसे पहले यूजरनेम सेट करें",
-        "pleaseEnterYourMinecraftUsernameToCheckEligibilityAnd": "पात्रता और खरीदारी की जांच करने के लिए कृपया अपना Minecraft उपयोगकर्ता नाम दर्ज करें।"
-      },
-      "pricingSection": {
-        "legendPricingScrolls": "LEGEND मूल्य निर्धारण स्क्रॉल",
-        "legendaryPricing": "पौराणिक मूल्य निर्धारण",
-        "selectYourLegendMethod": "अपनी Legend विधि चुनें",
-        "userIcon": "उपयोगकर्ता चिह्न",
-        "loggedInAs": "के रूप में लॉग इन किया गया",
-        "value1": "[{{value1}}]",
-        "change": "परिवर्तन",
-        "loginIcon": "लॉगिन आइकन",
-        "setYourMinecraftUsername": "अपना Minecraft उपयोगकर्ता नाम सेट करें",
-        "enterYourUsernameToCheckLegendEligibility": "Legend पात्रता जांचने के लिए अपना उपयोगकर्ता नाम दर्ज करें",
-        "legendRankSelection": "Legend रैंक चयन",
-        "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
-        "enterYourUsername": "अपना उपयोगकर्ता नाम दर्ज करें...",
-        "loading": "लोड हो रहा है",
-        "checkingEligibility": "पात्रता की जाँच की जा रही है..."
-      },
-      "shopBuyButton": {
-        "creatingCheckoutSession": "चेकआउट सत्र बनाया जा रहा है...",
-        "checkoutSessionCreated": "चेकआउट सत्र बनाया गया!",
-        "selectUsernameFirst": "सबसे पहले उपयोगकर्ता नाम चुनें",
-        "selectSubscriptionDuration": "सदस्यता अवधि चुनें",
-        "chooseHowLongYouWantToSubscribeForLonger": "चुनें कि आप कितने समय के लिए सदस्यता लेना चाहते हैं। लंबी अवधि बेहतर मूल्य प्रदान करती है!",
-        "close": "बंद करना",
-        "giftInformation": "उपहार की जानकारी",
-        "enterWhoTheGiftIsFromAndAnOptional": "उपहार किसका है और एक वैकल्पिक संदेश दर्ज करें।",
-        "senderUsername": "प्रेषक उपयोक्तानाम",
-        "messageOptional": "संदेश (वैकल्पिक)",
-        "cancel": "रद्द करना",
-        "continue": "जारी रखना",
-        "isThisAGift": "क्या ये एक तोहफा है?",
-        "ifYouBuyThisAsAGiftYouCan": "यदि आप इसे उपहार के रूप में खरीदते हैं, तो आप उपयोगकर्ता को उपहार संदेश भी प्रदान कर सकते हैं।",
-        "buyForMe": "मेरे लिए खरीदो",
-        "buyAsGift": "उपहार के रूप में खरीदें"
-      },
-      "statsCodex": {
-        "uniqueFeatures": "अनन्य विशेषताएं",
-        "cigarSmoking": "सिगार धूम्रपान",
-        "legendaryStatus": "पौराणिक स्थिति"
-      }
     },
     "footer": {
       "text6b6t": "6b6t",
@@ -341,9 +124,6 @@
       "text6b6tMinecraftAnarchy": "6b6t Minecraft anarchy",
       "legendRank": "Legend rank"
     },
-    "heroPlayerStatus": {
-      "playersOnlineOn6b6t": "6b6t पर खिलाड़ी ऑनलाइन"
-    },
     "legendFooterAboveFaq": {
       "inTheCommunity": "In the community",
       "theCigarLeaderboard": "The cigar leaderboard",
@@ -356,62 +136,21 @@
       "value1Value2": "{{value1}}{{value2}}",
       "leaderboardUnavailableRightNow": "Leaderboard unavailable right now."
     },
-    "legendGallery": {
-      "failedToLoadLegendGalleryImages": "legend गैलरी छवियाँ लोड करने में विफल",
-      "errorIcon": "त्रुटि चिह्न",
-      "theArchivesAreTemporarilyClosed": "अभिलेखागार अस्थायी रूप से बंद हैं",
-      "legendSGallery": "📜 Legend की गैलरी",
-      "aSacredCollectionOfMomentsFromTheMostEsteemed": "6b6t के सबसे सम्मानित सदस्यों के क्षणों का एक पवित्र संग्रह। ये वे महापुरूष हैं जिन्होंने हमारी अराजक दुनिया को आकार दिया है।",
-      "theChronicleAwaitsItsFirstChapter": "क्रॉनिकल अपने पहले अध्याय की प्रतीक्षा कर रहा है",
-      "noLegendaryMomentsHaveBeenImmortalizedYetJoinThe": "अभी तक कोई भी महान क्षण अमर नहीं हुआ है। Legend की श्रेणी में शामिल हों और 6b6t इतिहास के इतिहास में अपना नाम अंकित करने वाले पहले व्यक्ति बनें।",
-      "legendRankRequired": "Legend रैंक आवश्यक",
-      "shareYourMoments": "अपने क्षण साझा करें",
-      "displaying": "प्रदर्शित",
-      "legendaryArtifact": "पौराणिक कलाकृति",
-      "fromTheSacredArchives": "पवित्र अभिलेखों से"
-    },
-    "legendLightbox": {
-      "sacredArtifact": "पवित्र कलाकृति #",
-      "value1Value2": "{{value1}}{{value2}}",
-      "of": "का",
-      "closeLightbox": "लाइटबॉक्स बंद करें",
-      "previousImage": "पिछली छवि",
-      "nextImage": "अगली छवि"
-    },
     "legendMobileMenu": {
       "close": "बंद करना",
       "menu": "Menu",
       "features": "विशेषताएँ",
-      "questions": "Questions",
+      "questions": "प्रश्न",
       "getLegend": "Legend प्राप्त करें"
     },
     "navbar": {
       "legendNavigation": "Legend navigation",
-      "text6b6tHome": "6b6t home",
+      "text6b6tHome": "6b6t घर",
       "text6b6t": "6b6t",
       "legend": "Legend",
       "features": "विशेषताएँ",
-      "questions": "Questions",
+      "questions": "प्रश्न",
       "getLegend": "Legend प्राप्त करें"
-    },
-    "premiumFeatureCard": {
-      "viewDetailsAboutValue1": "{{value1}} के बारे में विवरण देखें",
-      "viewEnlargedImageOfValue1": "{{value1}} की बढ़ी हुई छवि देखें",
-      "andValue1MoreFeatures": "और {{value1}} अधिक सुविधाएँ",
-      "moreFeatures": "अधिक सुविधाएँ"
-    },
-    "ui": {
-      "dialog": {
-        "close": "बंद करना"
-      }
-    },
-    "userSelectForm": {
-      "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-      "legendRankSelection": "Legend रैंक चयन",
-      "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
-      "dinnerbone": "डिनरबोन",
-      "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Minecraft खाता उपयोगकर्ता नाम दर्ज करें जिसे Legend रैंक प्राप्त होना चाहिए।",
-      "getLegendRank": "Legend रैंक प्राप्त करें"
     }
   }
 }

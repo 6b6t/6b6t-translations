@@ -2,42 +2,56 @@
   "sections": {
     "shop": {
       "legend": {
-        "components": {
-          "legendComparisonGrid": {
-            "legendPrefix": "Prefix Legend",
-            "text500Homes": "500 domów",
-            "text10s": "10s",
-            "text3s": "3s",
-            "included": "W zestawie",
-            "text70Balloons": "70 balonów",
-            "text16Colors": "16 kolorów",
-            "text12Colors": "12 kolorów",
-            "text32Particles": "32 cząsteczki",
-            "text32Chunks": "32 chunki",
-            "text120Minutes": "120 minut",
-            "text6Colors": "6 kolorów",
-            "text5000Players": "5000 graczy",
-            "legendDiscordRole": "Rola Legend na Discordzie",
-            "legend": "[Legend]",
-            "apex": "[Apex]",
-            "notIncluded": "Nie obejmuje",
-            "apex2": "Apex",
-            "legend2": "Legend",
-            "viewValue1": "Zobacz {{value1}}",
-            "blur": "rozmycie",
-            "whatYouGet": "What you get",
-            "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
-            "compareFeatures": "Compare features"
-          },
-          "userSelectForm": {
-            "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-            "redirectingToShop": "Przekierowywanie do sklepu...",
-            "legendRankSelection": "Wybór rangi Legend",
-            "minecraftUsername": "Nick Minecraft",
-            "dinnerbone": "Dinnerbone",
-            "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Podaj nick konta Minecraft, które ma otrzymać rangę Legend.",
-            "getLegendRank": "Zdobądź rangę Legend"
-          }
+        "legendComparisonGrid": {
+          "legendPrefix": "Prefix Legend",
+          "text500Homes": "500 domów",
+          "text10s": "10s",
+          "text3s": "3s",
+          "included": "W zestawie",
+          "text70Balloons": "70 balonów",
+          "text16Colors": "16 kolorów",
+          "text12Colors": "12 kolorów",
+          "text32Particles": "32 cząsteczki",
+          "text32Chunks": "32 chunki",
+          "text120Minutes": "120 minut",
+          "text6Colors": "6 kolorów",
+          "text5000Players": "5000 graczy",
+          "legendDiscordRole": "Rola Legend na Discordzie",
+          "legend": "[Legend]",
+          "apex": "[Apex]",
+          "notIncluded": "Nie obejmuje",
+          "apex2": "Apex",
+          "legend2": "Legend",
+          "viewValue1": "Zobacz {{value1}}",
+          "whatYouGet": "What you get",
+          "subscriptionAndLifetimePlansIncludeTheSameLegendFeatures": "Subscription and lifetime plans include the same Legend features.",
+          "compareFeatures": "Compare features"
+        },
+        "legendUserShopMenu": {
+          "chooseYourLegend": "Choose your Legend.",
+          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
+          "legendBilling": "Legend billing",
+          "lifetime": "Na zawsze",
+          "subscription": "Subskrypcja",
+          "eurPayOnce": "EUR · Pay once",
+          "eurRenewsEveryMonth": "EUR · Renews every month",
+          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
+          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
+          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
+          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
+          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
+          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
+          "setYourUsername": "Set your username",
+          "subscribeToLegend": "Subscribe to Legend",
+          "getLegend2Apex": "Get Legend + 2 Apex",
+          "getLifetimeLegend": "Get lifetime Legend",
+          "apexRequired": "Wymagany Apex",
+          "legendAlreadyActive": "Legend already active",
+          "checkoutComingSoon": "Checkout coming soon",
+          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
+          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
+          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
+          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         },
         "layout": {
           "text6b6t": "6b6t",
@@ -70,154 +84,7 @@
           "legendValue1": "Legend {{value1}}",
           "text6b6tAnarchyServer": "Serwer anarchy 6b6t",
           "skipToMainContent": "Przejdź do głównej treści"
-        },
-        "legendUserShopMenu": {
-          "chooseYourLegend": "Choose your Legend.",
-          "subscribeOrMakeItYoursForLife": "Subscribe or make it yours for life.",
-          "legendBilling": "Legend billing",
-          "lifetime": "Lifetime",
-          "subscription": "Subscription",
-          "eurPayOnce": "EUR · Pay once",
-          "eurRenewsEveryMonth": "EUR · Renews every month",
-          "eurRenewsEvery3Months": "EUR · Renews every 3 months",
-          "permanentLegendForYourAccountWithEveryFeatureListed": "Permanent Legend for your account, with every feature listed below.",
-          "theLegendRankWithAllOfTheFeaturesFor": "The Legend rank with all of the features for as long as you're subscribed. €14.99 saved per month.",
-          "theLegendRankWithAllOfTheFeaturesFor2": "The Legend rank with all of the features for as long as you're subscribed.",
-          "plusTwoPermanentApexRanksAssignTheRanksOn": "Plus two permanent Apex ranks. Assign the ranks on the account page when you're ready.",
-          "forPlayersWhoJustWantLegendNoAdditionalRanks": "For players who just want Legend. No additional ranks included.",
-          "setYourUsername": "Set your username",
-          "subscribeToLegend": "Subscribe to Legend",
-          "getLegend2Apex": "Get Legend + 2 Apex",
-          "getLifetimeLegend": "Get lifetime Legend",
-          "apexRequired": "Apex required",
-          "legendAlreadyActive": "Legend already active",
-          "checkoutComingSoon": "Checkout coming soon",
-          "apexOwnershipIsRequiredToPurchaseTheLegendRank": "Apex ownership is required to purchase the Legend rank.",
-          "alreadySubscribedBuyingLifetimeDoesNotCancelYourExisting": "Already subscribed? Buying lifetime does not cancel your existing payments.",
-          "manageYourSubscriptionAndGifts": "Manage your subscription and gifts",
-          "unableToLoadThisPlayerSRanksCheckThe": "Unable to load this player's ranks. Check the username and try again."
         }
-      }
-    },
-    "audioManager": {
-      "pauseBackgroundMusic": "Wstrzymaj muzykę w tle",
-      "playBackgroundMusic": "Odtwórz muzykę w tle",
-      "pauseMusic": "Wstrzymaj muzykę",
-      "playMusic": "Odtwórz muzykę",
-      "pause": "PAUZA",
-      "music": "MUZYKA"
-    },
-    "book": {
-      "value1": "{{value1}}..."
-    },
-    "bookDialog": {
-      "viewValue1ImageInFullScreen": "Zobacz obraz {{value1}} na pełnym ekranie",
-      "sacredPowersBenefits": "Święte moce i korzyści"
-    },
-    "bookModal": {
-      "sacredPowersBenefits": "Święte moce i korzyści"
-    },
-    "cigarCarousel": {
-      "premiumCigarCommand": "Premium komenda Cigar",
-      "mysticalGlowEffects": "Mistyczne efekty glow",
-      "legendaryHotspots": "Legendarne hotspoty",
-      "builderMode": "Tryb budowniczego",
-      "customNameColors": "Własne kolory nicku",
-      "text500HomesLimit": "Limit 500 domów",
-      "premiumLegendFeatures": "Premium funkcje Legend",
-      "exclusiveFeaturesAvailableOnlyToLegendRankMembersOf": "Ekskluzywne funkcje dostępne tylko dla członków rangi Legend na 6b6t",
-      "previousImages": "Poprzednie obrazy",
-      "nextImages": "Następne obrazy",
-      "viewValue1InFullScreen": "Zobacz {{value1}} na pełnym ekranie",
-      "carouselLabelValue1Value2": "carousel-label-{{value1}}-{{value2}}"
-    },
-    "data": {
-      "featuresData": {
-        "text500Homes": "500 domów",
-        "text500Homes2": "500 domów",
-        "neverWorryAboutRunningOutSpotsInThe6b6t": "Nigdy nie martw się brakiem miejsc w świecie 6b6t",
-        "utility": "Użyteczność",
-        "set500HomesWithSethome": "Ustaw 500 domów za pomocą /sethome",
-        "neverRunOutOfThem": "Nigdy Ci ich nie zabraknie",
-        "travelInstantly": "Podróżuj natychmiast",
-        "builderMode": "Tryb budowniczego",
-        "seeEverythingAtYourBaseSoYouCanBuild": "Widzisz wszystko w swojej bazie, dzięki czemu możesz budować swobodnie i robić imponujące screenshoty",
-        "building": "Budowanie",
-        "automaticallyEnableWithBuildermodeHome": "Automatycznie włącz za pomocą /buildermode home",
-        "increaseViewDistanceTo32": "Zwiększ zasięg widzenia do 32",
-        "seeEverything": "Widzisz wszystko",
-        "cigars": "Cygara",
-        "cigars2": "Cygara",
-        "theBaddestCoolestMostUniqueCosmeticYouVeEver": "Najbardziej odlotowy, najfajniejszy i najbardziej wyjątkowy kosmetyk, jaki kiedykolwiek widziałeś w Minecraftcie! Cygara!",
-        "cosmetic": "Kosmetyk",
-        "firstMinecraftServerToAddCigars": "Pierwszy serwer Minecraft, który dodał cygara",
-        "relaxAndTakeAScreenshotWithThe6b6tOwner": "Zrelaksuj się i zrób screenshot z właścicielem 6b6t",
-        "theCoolestCosmeticEverRunCigar": "Najfajniejszy kosmetyk ever – użyj /cigar",
-        "glow": "glow",
-        "glow2": "Glow",
-        "standOutAtNightAndDuringTheDayBetween": "Wyróżniaj się nocą i w dzień – wśród tysięcy graczy jesteś światłem",
-        "withGlowItWonTBeDark": "Z /glow nie będzie ciemno",
-        "youGlowTheSameColorAsYourNamecolor": "Świecisz tym samym kolorem co Twój /namecolor",
-        "noLimitsOnUsage": "Bez limitów użycia",
-        "hotspot": "hotspot",
-        "hotspot2": "Hotspot",
-        "createTheMostActiveLocationsOnTheServer": "Twórz najbardziej aktywne miejsca na serwerze",
-        "social": "Społeczne",
-        "createAHotspotAndHostADestructiveParty": "Stwórz hotspot i zorganizuj niszczycielską imprezę",
-        "giveEveryoneAGlowEffectWithHotspotGlow": "Daj wszystkim efekt glow za pomocą /hotspot glow",
-        "giveEveryoneYourFavoriteBalloonWithHotspotBalloon": "Daj wszystkim swój ulubiony balon za pomocą /hotspot balloon",
-        "nameColor": "Kolor nicku",
-        "yourStyleYourColors12ToChooseFrom": "Twój styl, Twoje kolory. 12 do wyboru",
-        "customization": "Personalizacja",
-        "changeYourNameColorWithNamecolor": "Zmień kolor nicku za pomocą /namecolor",
-        "pickFrom12ColorsPreviewItWithTheCommand": "Wybierz spośród 12 kolorów (podgląd w komendzie)",
-        "standOutTogetherWithChatcolor": "Wyróżnij się razem z /chatcolor"
-      },
-      "pricingData": {
-        "monthlyLegend": "Miesięczny Legend",
-        "flexibleBillingForTheRareAdventures": "Elastyczne rozliczenie dla rzadkich przygód",
-        "month": "/ miesiąc",
-        "legendPrefix": "Prefix Legend",
-        "legendDiscordRank": "Ranga Legend na Discordzie",
-        "lightUpCigarsInMinecraftWithCigar": "Zapalaj cygara w Minecraftcie za pomocą /cigar!",
-        "text500Homes": "500 domów",
-        "text70BalloonsWithBalloons": "70 balonów z /balloons",
-        "text16ParticlesComingSoon": "16 cząsteczek (wkrótce)",
-        "skinHatSit": "/skin & /hat & /sit",
-        "enableGlowWithGlow": "Włącz glow za pomocą /glow",
-        "buildermodeWith32RenderDistance": "/buildermode z zasięgiem renderowania 32",
-        "automaticallyEnableBuilderModeWhenYouTeleportToA": "Automatycznie włącz tryb budowniczego przy teleportacji do wybranego domu za pomocą /buildermode home <dom>",
-        "accessTo16ChatColorsInChatcolor": "Dostęp do 16 kolorów czatu w /chatcolor",
-        "accessTo12NameColorsInNamecolor": "Dostęp do 12 kolorów nicku w /namecolor",
-        "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot create z czasem 120 minut i cooldownem 80 minut",
-        "changeTheNameOfTheHotspotWithHotspotName": "Zmień nazwę hotspotu za pomocą /hotspot <nazwa>",
-        "applyAGlowEffectToEveryoneAtYourHotspot": "Nadaj efekt glow wszystkim na Twoim hotspotcie za pomocą /hotspot glow",
-        "applyABalloonToEveryoneAtYourHotspotWith": "Nadaj balon wszystkim na Twoim hotspotcie za pomocą /hotspot balloon",
-        "useColorsInAnvilsWithTheSignForExample": "Używaj kolorów w kowadłach ze znakiem &, np.: &aCześć",
-        "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "Używaj podkreślenia, przekreślenia i kursywy w kowadłach ze znakiem &",
-        "useBoldInAnvils": "Używaj pogrubienia w kowadłach",
-        "useFullRgbCodesInAnvilsComingSoon": "Używaj pełnych kodów RGB w kowadłach (wkrótce)",
-        "text10sTpaCooldown": "10s cooldown /tpa",
-        "itTakes3sInsteadOf15sToTeleportTo": "Teleportacja do kogoś za pomocą /tpa zajmuje 3s zamiast 15s",
-        "itTakes3sInsteadOf15sForSomeoneTo": "Teleportacja kogoś do Ciebie za pomocą /tpa zajmuje 3s zamiast 15s",
-        "text10sHomeCooldown": "10s cooldown /home",
-        "changeColorOfConnectionMessagesWithConnectionmsgsColor": "Zmień kolor wiadomości o połączeniu za pomocą /connectionmsgs color",
-        "changeColorOfDeathMessagesWithDeathmsgsColor": "Zmień kolor wiadomości o śmierci za pomocą /deathmsgs color",
-        "customizeYourStatsPage": "Personalizuj swoją stronę statystyk",
-        "ignoreUpTo5000Players": "Ignoruj do 5000 graczy",
-        "accessAdvertisingIn6b6tDiscord": "Dostęp do #advertising na Discordzie 6b6t",
-        "embedLinksPermissionInGeneralIn6b6tDiscord": "Uprawnienie do osadzania linków w #general na Discordzie 6b6t",
-        "attachFilesPermissionInGeneralIn6b6tDiscord": "Uprawnienie do załączania plików w #general na Discordzie 6b6t",
-        "addReactionsPermissionInGeneralIn6b6tDiscord": "Uprawnienie do dodawania reakcji w #general na Discordzie 6b6t",
-        "changeNicknamePermissionIn6b6tDiscord": "Uprawnienie do zmiany nicku na Discordzie 6b6t",
-        "streamingPermissionIn6b6tDiscord": "Uprawnienie do streamingu na Discordzie 6b6t",
-        "accessTo10RankOnlyChannelsIn6b6tDiscord": "Dostęp do ponad 10 kanałów tylko dla rang na Discordzie 6b6t",
-        "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "Priorytetowe wsparcie przez kanał #premium-tickets na Discordzie 6b6t",
-        "chooseMonthlyCovenant": "Wybierz miesięczny pakt",
-        "threeMonthLegend": "Trzymiesięczny Legend",
-        "longTermPlanningForTheWarriors": "Długoterminowe planowanie dla wojowników",
-        "save4499": "oszczędź 44,99 €",
-        "chooseThreeMonthCovenant": "Wybierz trzymiesięczny pakt"
       }
     },
     "faq": {
@@ -234,90 +101,6 @@
       "whatCanIDoWithHotspots": "Co mogę robić z hotspotami?",
       "createAHotspotCustomizeItsNameAndGivePlayers": "Create a Hotspot, customize its name, and give players a glow effect and a balloon.",
       "aFewQuestions": "A few questions"
-    },
-    "features": {
-      "libraryHeader": {
-        "theLegendaryLibrary": "LEGENDARNA BIBLIOTEKA",
-        "quotWelcomeToTheExclusiveWorldOfLegendaryPlayers": "&quot;Witaj w ekskluzywnym świecie legendarnych graczy na 6b6t. Tutaj otrzymujesz dostęp do najpotężniejszych funkcji i kosmetyków, jakie kiedykolwiek widziano w anarchy. Te korzyści sprawiają, że się wyróżniasz, dają Ci moc i czynią Cię legendarnym.",
-        "donAposTWaitBecomeALegend": "Nie czekaj. Zostań LEGENDĄ."
-      },
-      "librarySection": {
-        "quotEachTomeContainsLegendaryPowersClickAnyBook": "&quot;Każdy tom zawiera legendarne moce. Kliknij dowolną księgę, aby poznać jej sekrety.&quot;"
-      },
-      "modernFeaturesSection": {
-        "legendaryFeatures": "Legendarne funkcje",
-        "unlockExclusivePowersAndAbilitiesReservedForLegendRank": "Odblokuj ekskluzywne moce i możliwości zarezerwowane dla posiadaczy rangi Legend. Każda funkcja została starannie stworzona, by ulepszyć Twoje doświadczenie na starożytnym królestwie 6b6t."
-      },
-      "mugSection": {
-        "legendaryMug": "LEGENDARNY KUBEK",
-        "everyLegendRankPurchaseIncludesThisExclusive6b6tCeramic": "Każdy zakup rangi Legend obejmuje ten ekskluzywny ceramiczny kubek 6b6t. Zabezpiecz swoją pozycję produktem fizycznym.",
-        "text6b6tLegendMug": "Kubek 6B6T Legend",
-        "epicFeatures": "Epickie funkcje",
-        "premiumCeramicConstructionSurvivesTntBlasts": "Ceramika premium — przetrwa wybuchy TNT",
-        "qualityGlossyFinish": "Wysokiej jakości błyszczące wykończenie",
-        "perfect15ozCapacityForHugeCoffee": "Idealna pojemność 15 oz na ogromną kawę",
-        "dishwasherSafeForEasyCleaningAfterRaids": "Można myć w zmywarce — łatwe czyszczenie po raidach",
-        "freeWorldwideShipping": "Darmowa wysyłka na cały świat",
-        "official6b6tAnarchyBranding": "Oficjalne oznaczenia anarchii 6b6t",
-        "includedWithEveryLegendRankPurchase": "W zestawie z każdym zakupem rangi Legend",
-        "noAdditionalCost": "Bez dodatkowych kosztów"
-      },
-      "pricingCard": {
-        "total": "łącznie",
-        "moreFeatures": "więcej funkcji",
-        "showLessFeatures": "Pokaż mniej funkcji",
-        "loading": "Ładowanie",
-        "checkingEligibility": "Sprawdzanie kwalifikowalności...",
-        "loadingYourRankInformation": "Ładowanie informacji o Twojej randze",
-        "alreadyActive": "Już aktywna",
-        "youAlreadyHaveLegendRankThankYouForYour": "Masz już rangę Legend! Dziękujemy za wsparcie.",
-        "requiresApexRank": "Wymaga rangi Apex",
-        "youNeedToPurchaseTheApexRankFirstTo": "Najpierw musisz kupić rangę Apex, aby odblokować Legend.",
-        "youCurrentlyHaveValue1RankUpgradeToApexTo": "Aktualnie masz rangę {{value1}}. Ulepsz do Apex, aby odblokować Legend.",
-        "getApexRank": "Zdobądź rangę Apex",
-        "setUsernameFirst": "Najpierw ustaw nick",
-        "pleaseEnterYourMinecraftUsernameToCheckEligibilityAnd": "Podaj swój nick Minecraft, aby sprawdzić kwalifikowalność i dokonać zakupu."
-      },
-      "pricingSection": {
-        "legendPricingScrolls": "ZWOJE CENOWE LEGEND",
-        "legendaryPricing": "Legendarne ceny",
-        "selectYourLegendMethod": "Wybierz metodę Legend",
-        "userIcon": "Ikona użytkownika",
-        "loggedInAs": "Zalogowany jako",
-        "value1": "[{{value1}}]",
-        "change": "Zmień",
-        "loginIcon": "Ikona logowania",
-        "setYourMinecraftUsername": "Ustaw swój nick Minecraft",
-        "enterYourUsernameToCheckLegendEligibility": "Podaj nick, aby sprawdzić kwalifikowalność do Legend",
-        "legendRankSelection": "Wybór rangi Legend",
-        "minecraftUsername": "Nick Minecraft",
-        "enterYourUsername": "Wpisz swój nick...",
-        "loading": "Ładowanie",
-        "checkingEligibility": "Sprawdzanie kwalifikowalności..."
-      },
-      "shopBuyButton": {
-        "creatingCheckoutSession": "Tworzenie sesji płatności...",
-        "checkoutSessionCreated": "Sesja płatności utworzona!",
-        "selectUsernameFirst": "Najpierw wybierz nick",
-        "selectSubscriptionDuration": "Wybierz okres subskrypcji",
-        "chooseHowLongYouWantToSubscribeForLonger": "Wybierz, jak długo chcesz subskrybować. Dłuższe okresy dają lepszą wartość!",
-        "close": "Zamknij",
-        "giftInformation": "Informacje o prezencie",
-        "enterWhoTheGiftIsFromAndAnOptional": "Podaj, od kogo jest prezent, oraz opcjonalną wiadomość.",
-        "senderUsername": "Nick nadawcy",
-        "messageOptional": "Wiadomość (opcjonalnie)",
-        "cancel": "Anuluj",
-        "continue": "Kontynuuj",
-        "isThisAGift": "Czy to prezent?",
-        "ifYouBuyThisAsAGiftYouCan": "Jeśli kupujesz to jako prezent, możesz też dodać wiadomość dla obdarowanego.",
-        "buyForMe": "Kup dla siebie",
-        "buyAsGift": "Kup jako prezent"
-      },
-      "statsCodex": {
-        "uniqueFeatures": "Unikalne funkcje",
-        "cigarSmoking": "PALENIE CYGAR",
-        "legendaryStatus": "STATUS LEGENDARNY"
-      }
     },
     "footer": {
       "text6b6t": "6b6t",
@@ -341,9 +124,6 @@
       "text6b6tMinecraftAnarchy": "6b6t Minecraft anarchy",
       "legendRank": "Legend rank"
     },
-    "heroPlayerStatus": {
-      "playersOnlineOn6b6t": "Graczy online na 6b6t"
-    },
     "legendFooterAboveFaq": {
       "inTheCommunity": "In the community",
       "theCigarLeaderboard": "The cigar leaderboard",
@@ -356,62 +136,21 @@
       "value1Value2": "{{value1}}{{value2}}",
       "leaderboardUnavailableRightNow": "Leaderboard unavailable right now."
     },
-    "legendGallery": {
-      "failedToLoadLegendGalleryImages": "Nie udało się wczytać obrazów galerii Legend",
-      "errorIcon": "Ikona błędu",
-      "theArchivesAreTemporarilyClosed": "Archiwa są tymczasowo zamknięte",
-      "legendSGallery": "Galeria Legend",
-      "aSacredCollectionOfMomentsFromTheMostEsteemed": "Święta kolekcja momentów od najbardziej szanowanych członków 6b6t. To legendy, które ukształtowały nasz świat anarchy.",
-      "theChronicleAwaitsItsFirstChapter": "Kronika czeka na swój pierwszy rozdział",
-      "noLegendaryMomentsHaveBeenImmortalizedYetJoinThe": "Żadne legendarne momenty nie zostały jeszcze uwiecznione. Dołącz do rang Legend i bądź pierwszym, który wyryje swoje imię w annałach historii 6b6t.",
-      "legendRankRequired": "Wymagana ranga Legend",
-      "shareYourMoments": "Udostępnij swoje momenty",
-      "displaying": "Wyświetlane",
-      "legendaryArtifact": "legendarny artefakt",
-      "fromTheSacredArchives": "ze świętych archiwów"
-    },
-    "legendLightbox": {
-      "sacredArtifact": "Święty artefakt #",
-      "value1Value2": "{{value1}}{{value2}}",
-      "of": "z",
-      "closeLightbox": "Zamknij lightbox",
-      "previousImage": "Poprzedni obraz",
-      "nextImage": "Następny obraz"
-    },
     "legendMobileMenu": {
       "close": "Zamknij",
       "menu": "Menu",
       "features": "Funkcje",
-      "questions": "Questions",
+      "questions": "pytania",
       "getLegend": "Zdobądź Legend"
     },
     "navbar": {
       "legendNavigation": "Legend navigation",
-      "text6b6tHome": "6b6t home",
+      "text6b6tHome": "Strona główna 6b6t",
       "text6b6t": "6b6t",
       "legend": "Legend",
       "features": "Funkcje",
-      "questions": "Questions",
+      "questions": "pytania",
       "getLegend": "Zdobądź Legend"
-    },
-    "premiumFeatureCard": {
-      "viewDetailsAboutValue1": "Zobacz szczegóły o {{value1}}",
-      "viewEnlargedImageOfValue1": "Zobacz powiększony obraz {{value1}}",
-      "andValue1MoreFeatures": "i {{value1}} więcej funkcji",
-      "moreFeatures": "więcej funkcji"
-    },
-    "ui": {
-      "dialog": {
-        "close": "Zamknij"
-      }
-    },
-    "userSelectForm": {
-      "text6b6tShopUsernameFormData": "6b6t_shop_username_form_data",
-      "legendRankSelection": "Wybór rangi Legend",
-      "minecraftUsername": "Nick Minecraft",
-      "dinnerbone": "Dinnerbone",
-      "enterTheMinecraftAccountUsernameThatShouldReceiveThe": "Podaj nick konta Minecraft, które ma otrzymać rangę Legend.",
-      "getLegendRank": "Zdobądź rangę Legend"
     }
   }
 }

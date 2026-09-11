@@ -1,14 +1,29 @@
 {
   "sections": {
+    "root": {
+      "viewport": "viewport",
+      "widthDeviceWidthInitialScale1": "width=device-width, initial-scale=1",
+      "text6b6t": "6b6t"
+    },
     "app": {
-      "actions": {
+      "functions": {
+        "adminOperations": {
+          "addedValue1PointsTotalValue2": "Added {{value1}} points. Total: {{value2}}.",
+          "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
+        },
+        "admin": {
+          "pending": "लंबित"
+        },
         "apexGifts": {
           "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
           "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
         },
         "motd": {
-          "revisionRequested": "पुनरीक्षण_अनुरोध",
           "paidPendingReview": "भुगतान_लंबित_समीक्षा"
+        },
+        "playerStats": {
+          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
+          "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
         },
         "printify": {
           "signInAgainBeforeClaiming": "दावा करने से पहले दोबारा साइन इन करें.",
@@ -20,44 +35,138 @@
         },
         "shopTracking": {
           "unknownError": "अज्ञात त्रुटि"
+        }
+      },
+      "jobs": {
+        "playerHistory": {
+          "playerHistoryRecordedSuccessfully": "Player history recorded successfully"
         },
-        "stripe": {
-          "subscription": "सदस्यता",
-          "payment": "भुगतान",
-          "pay": "वेतन",
-          "whoIsThisGiftFrom": "यह उपहार किसका है?",
-          "custom": "रिवाज़",
-          "text": "मूलपाठ",
-          "giftMessage": "उपहार संदेश",
-          "hosted": "की मेजबानी",
-          "rankForValue1": "{{value1}} के लिए रैंक"
+        "uptime": {
+          "serverUptimeCheckCompleted": "Server uptime check completed"
         }
       },
-      "components": {
-        "langLayout": {
-          "text6b6t": "6b6t",
-          "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "सबसे बड़ा Minecraft अराजकता सर्वर जिसमें कोई नियम और कोई कतार नहीं है। /tpa और /home जैसे आवश्यक कमांड के साथ Java और Bedrock दोनों संस्करणों का समर्थन करता है।",
-          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "बिना किसी नियम, बिना कतार और 2000+ प्लेयर क्षमता वाले सबसे बड़े Minecraft अराजकता सर्वर से जुड़ें। Java और Bedrock दोनों संस्करणों पर /tpa और /home जैसे आवश्यक कमांड के साथ वास्तविक अराजकता का अनुभव करें।",
-          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft अराजकता सर्वर, 6b6t, कोई नियम सर्वर नहीं, मुफ्त Minecraft सर्वर, अराजकता गेमप्ले, Minecraft PvP, उत्तरजीविता सर्वर"
+      "seo": {
+        "manifest": {
+          "text6b6tWebsite": "6b6t वेबसाइट",
+          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
         }
       },
-      "manifest": {
-        "text6b6tWebsite": "6b6t वेबसाइट",
-        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
+      "services": {
+        "adminOperations": {
+          "eventDeliveryIsNotConfigured": "Event delivery is not configured.",
+          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} delivered, {{value2}} scheduled for retry, {{value3}} stopped after repeated failures.",
+          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} accounts processed, {{value2}} memberships removed, {{value3}} failed.",
+          "recordedValue1OfValue2PlayersForTheCurrentHour": "Recorded {{value1}} of {{value2}} players for the current hour.",
+          "serverIsValue1RecordedValue2HoursOfUptime": "Server is {{value1}}. Recorded {{value2}} hours of uptime."
+        },
+        "antispam": {
+          "antispamMessagesValue1": "antispam_messages:{{value1}}"
+        },
+        "legendTheme": {
+          "noThemeFound": "No theme found"
+        },
+        "playerHistory": {
+          "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा",
+          "tooManyDataPointsRequested": "बहुत अधिक डेटा बिंदुओं का अनुरोध किया गया",
+          "failedToFetchPlayerHistory": "खिलाड़ी का इतिहास लाने में विफल",
+          "unknownError": "अज्ञात त्रुटि"
+        },
+        "recovery": {
+          "blockChallenge": {
+            "missingOrInvalidBlockToken": "गुम या अमान्य ब्लॉक टोकन."
+          },
+          "manual": {
+            "captchaVerificationFailed": "कैप्चा सत्यापन विफल रहा",
+            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "पुनर्प्राप्ति सत्र समाप्त या अमान्य है. कृपया पुनर्प्राप्ति पुनः प्रारंभ करें.",
+            "yourRequestWasReceivedIfTheAccountExistsAnd": "आपका अनुरोध प्राप्त हुआ. यदि खाता मौजूद है और दिए गए साक्ष्य को सत्यापित किया जा सकता है, तो समर्थन आपसे संपर्क करेगा।",
+            "manualReviewIsNotAvailableForThisRecoverySession": "इस पुनर्प्राप्ति सत्र के लिए अभी तक मैन्युअल समीक्षा उपलब्ध नहीं है. पहले पुनर्प्राप्ति प्रवाह जारी रखें.",
+            "pending": "लंबित",
+            "aPendingManualReviewTicketAlreadyExistsForThis": "इस खाते के लिए एक लंबित मैन्युअल समीक्षा टिकट पहले से मौजूद है। कृपया समीक्षा की प्रतीक्षा करें.",
+            "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
+            "couldNotNotifyTheAccountOwnerManualTicketWas": "खाता स्वामी को सूचित नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
+            "couldNotLinkTheAccountOwnerNotificationToThis": "खाता-स्वामी अधिसूचना को इस मैन्युअल टिकट से लिंक नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
+            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "मैन्युअल पुनर्प्राप्ति टिकट सफलतापूर्वक सबमिट किया गया. सहायता टीम इसकी समीक्षा करेगी."
+          },
+          "recover": {
+            "ifThisAccountExistsRecoveryOptionsWillBeShown": "यदि यह खाता मौजूद है, तो पुनर्प्राप्ति विकल्प दिखाए जाएंगे।",
+            "verificationAlreadyIssued": "सत्यापन पहले ही जारी किया जा चुका है",
+            "verificationEmailUnavailable": "सत्यापन_ईमेल_अनुपलब्ध",
+            "emailProviderIsNotConfiguredInThisEnvironmentUse": "ईमेल प्रदाता इस परिवेश में कॉन्फ़िगर नहीं किया गया है. स्थानीय परीक्षण के लिए डेवलपमेंटकोड का उपयोग करें।",
+            "captchaVerificationFailed": "कैप्चा सत्यापन विफल रहा",
+            "tooManyRecoveryAttemptsPleaseTryAgainLater": "पुनर्प्राप्ति के बहुत अधिक प्रयास. कृपया बाद में पुन: प्रयास करें।",
+            "recoverySessionExpiredPleaseStartAgain": "पुनर्प्राप्ति सत्र समाप्त हो गया. कृपया पुनः प्रारंभ करें.",
+            "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "स्वचालित सत्यापन उपलब्ध नहीं है. यदि आपको लगता है कि यह खाता आपका स्वामी है तो मैन्युअल समीक्षा अनुरोध सबमिट करें।",
+            "inGameVerificationIsRequiredUseEmailchangeInGame": "इन-गेम सत्यापन आवश्यक है. गेम में /emailchange का उपयोग करें, फिर सत्यापन पूरा करें।",
+            "recoverySessionInvalidOrExpired": "पुनर्प्राप्ति सत्र अमान्य या समाप्त हो गया.",
+            "recoverySessionExpiredPleaseRestart": "पुनर्प्राप्ति सत्र समाप्त हो गया. कृपया पुनः प्रारंभ करें।",
+            "invalidLaneForScoreStep": "स्कोर चरण के लिए अमान्य लेन.",
+            "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "असफल सत्यापन प्रयासों के बाद इस खाते के लिए स्वचालित पुनर्प्राप्ति अस्थायी रूप से लॉक कर दी गई है। मैन्युअल समीक्षा सबमिट करें या बाद में पुनः प्रयास करें।",
+            "publicProofHasAlreadyBeenSubmittedForThisSession": "इस सत्र के लिए सार्वजनिक प्रमाण पहले ही प्रस्तुत किया जा चुका है। अगले चरण के साथ जारी रखें या पुनर्प्राप्ति पुनः आरंभ करें।",
+            "identityScorePassedHoweverDueToAccountSecurityPolicies": "पहचान अंक उत्तीर्ण. हालाँकि, खाता सुरक्षा नीतियों के कारण, मैन्युअल समीक्षा की आवश्यकता होती है।",
+            "identityScorePassedButANewEmailIsRequired": "पहचान स्कोर उत्तीर्ण हुआ, लेकिन स्वचालित पुनर्प्राप्ति जारी रखने के लिए एक नए ईमेल की आवश्यकता है।",
+            "identityScorePassedButWeCouldNotDeliverA": "पहचान स्कोर पास हो गया, लेकिन हम सत्यापन ईमेल नहीं दे सके। मैन्युअल समीक्षा सबमिट करें.",
+            "identityScorePassedEnterTheVerificationCodeSentTo": "पहचान अंक उत्तीर्ण. अपने नए ईमेल पर भेजा गया सत्यापन कोड दर्ज करें।",
+            "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "अंतिम निर्णय लेने से पहले अतिरिक्त निजी विवरण की आवश्यकता होती है।",
+            "ifAnAccountWithThisUsernameExistsAndIs": "यदि इस उपयोगकर्ता नाम वाला कोई खाता मौजूद है और पुनर्प्राप्त करने योग्य है, तो ईमेल निर्देश भेजे जाएंगे।",
+            "publicScoreStepMustBeCompletedFirst": "सार्वजनिक स्कोर चरण पहले पूरा किया जाना चाहिए।",
+            "privateProofHasAlreadyBeenSubmittedForThisSession": "इस सत्र के लिए निजी प्रमाण पहले ही प्रस्तुत किया जा चुका है। मैन्युअल समीक्षा सबमिट करें या पुनर्प्राप्ति पुनः आरंभ करें।",
+            "identityScorePassedButNoNewEmailWasProvided": "पहचान स्कोर उत्तीर्ण हुआ, लेकिन कोई नया ईमेल प्रदान नहीं किया गया। मैन्युअल समीक्षा सबमिट करें.",
+            "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "निजी जाँच के बाद स्वचालित सत्यापन विफल रहा। मैन्युअल समीक्षा टिकट सबमिट करें.",
+            "noPendingEmailVerificationInThisSession": "इस सत्र में कोई भी ईमेल सत्यापन लंबित नहीं है।",
+            "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "अधिकतम सत्यापन प्रयास पहुंच गए. पुनर्प्राप्ति सत्र अमान्य कर दिया गया है. कृपया पुनः प्रारंभ करें.",
+            "verificationCodeExpiredOrIsNoLongerValid": "सत्यापन कोड समाप्त हो गया है या अब मान्य नहीं है।",
+            "invalidVerificationCode": "अवैध सत्यापन संकेत।",
+            "emailVerifiedButTheGameServerEmailAvailabilityCheck": "ईमेल सत्यापित है, लेकिन गेम-सर्वर ईमेल उपलब्धता जांच उपलब्ध नहीं है। मैन्युअल समीक्षा सबमिट करें.",
+            "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "यह ईमेल पता पहले से ही किसी अन्य खाते से संबद्ध है.",
+            "emailVerifiedButTheGameServerEmailUpdateEndpoint": "ईमेल सत्यापित है, लेकिन गेम-सर्वर ईमेल अपडेट एंडपॉइंट कॉन्फ़िगर नहीं किया गया है। मैन्युअल समीक्षा सबमिट करें.",
+            "emailVerifiedYouCanProceedToPasswordReset": "ईमेल सत्यापित. आप पासवर्ड रीसेट करने के लिए आगे बढ़ सकते हैं.",
+            "inGameVerificationIsNotActive": "इन-गेम सत्यापन सक्रिय नहीं है.",
+            "tooManyIncorrectInGameCodesPleaseRestartRecovery": "गेम में बहुत सारे गलत कोड। कृपया पुनर्प्राप्ति पुनः आरंभ करें और एक नए कोड का अनुरोध करें।",
+            "invalidOrExpiredInGameCode": "इन-गेम कोड अमान्य या समाप्त हो चुका है।",
+            "enterTheNewTargetEmailBeforeVerifyingTheIn": "इन-गेम ईमेल-परिवर्तन कोड को सत्यापित करने से पहले नया लक्ष्य ईमेल दर्ज करें।",
+            "inGameCodeVerifiedButWeCouldNotDeliver": "इन-गेम कोड सत्यापित है, लेकिन हम सत्यापन ईमेल नहीं दे सके। मैन्युअल समीक्षा सबमिट करें.",
+            "inGameCodeVerifiedEnterTheVerificationCodeSent": "इन-गेम कोड सत्यापित। अपने नए ईमेल पर भेजा गया सत्यापन कोड दर्ज करें।",
+            "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
+            "theGracePeriodIsStillActivePleaseWaitFor": "अनुग्रह अवधि अभी भी सक्रिय है. कृपया इसके समाप्त होने तक प्रतीक्षा करें.",
+            "theGracePeriodHasElapsedYouMayNowStart": "अनुग्रह अवधि समाप्त हो गई है. अब आप पहचान सत्यापन के लिए आगे बढ़ने के लिए एक नया पुनर्प्राप्ति सत्र शुरू कर सकते हैं।",
+            "couldNotCheckGracePeriodStatus": "अनुग्रह अवधि की स्थिति की जाँच नहीं की जा सकी.",
+            "noActiveGracePeriodChallengeFoundForThisAccount": "इस खाते के लिए कोई सक्रिय अनुग्रह अवधि चुनौती नहीं मिली।",
+            "invalidRecoverySession": "अमान्य पुनर्प्राप्ति सत्र.",
+            "sessionHasNotBeenApprovedForPasswordResetComplete": "पासवर्ड रीसेट के लिए सत्र स्वीकृत नहीं किया गया है. पहले ईमेल सत्यापन पूरा करें.",
+            "passwordResetIsAlreadyBeingProcessedForThisSession": "इस सत्र के लिए पासवर्ड रीसेट पहले से ही संसाधित किया जा रहा है।",
+            "passwordHasBeenResetSuccessfully": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है.",
+            "invalidRecoveryAction": "अमान्य पुनर्प्राप्ति कार्रवाई",
+            "unhandledRecoveryAction": "असंचालित पुनर्प्राप्ति कार्रवाई"
+          },
+          "resetPassword": {
+            "invalidOrMissingResetToken": "अमान्य या अनुपलब्ध रीसेट टोकन.",
+            "passwordMustBeAtLeast8Characters": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए।",
+            "passwordIsTooLong": "पासवर्ड बहुत लंबा है.",
+            "resetLinkHasExpiredOrIsInvalidPleaseContact": "रीसेट लिंक समाप्त हो गया है या अमान्य है. कृपया समर्थन से संपर्क करें.",
+            "passwordHasBeenResetSuccessfullyYouCanNowLog": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है. अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।"
+          }
+        },
+        "serverStatus": {
+          "unknown": "Unknown"
+        },
+        "telegramStart": {
+          "youMustBeLoggedInToLinkTelegram": "टेलीग्राम को लिंक करने के लिए आपको लॉग इन होना होगा।",
+          "telegramLinkingIsNotEnabledForYourAccountYet": "आपके खाते के लिए टेलीग्राम लिंकिंग अभी तक सक्षम नहीं है।",
+          "theLoggedInMinecraftUsernameIsInvalid": "लॉग-इन Minecraft उपयोगकर्ता नाम अमान्य है।",
+          "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. TELEGRAM_BOT_USERNAME गुम है.",
+          "telegramLoginIsNotConfiguredMissingCookieSecretOn": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. सर्वर पर COOKIE_SECRET गुम है।"
+        },
+        "youtubeShorts": {
+          "maxres1280x720": "अधिकतम (1280x720)",
+          "standard640x480": "मानक (640x480)",
+          "youtubeApiNotConfigured": "YouTube API कॉन्फ़िगर नहीं किया गया",
+          "youtubeApiChannelSearchErrorValue1": "YouTube API चैनल खोज त्रुटि: {{value1}}",
+          "text6b6tChannelNotFound": "6b6t चैनल नहीं मिला",
+          "youtubeApiErrorValue1": "YouTube API त्रुटि: {{value1}}",
+          "noVideosFoundForThisChannel": "इस चैनल के लिए कोई वीडियो नहीं मिला",
+          "noYoutubeShortsFoundForThisChannel": "इस चैनल के लिए कोई YouTube शॉर्ट्स नहीं मिला"
+        }
       }
-    },
-    "bottomSocialProof": {
-      "joinThe": "शामिल होना",
-      "community": "समुदाय",
-      "happyCustomers": "खुश ग्राहक",
-      "uniquePlayers": "अनोखे खिलाड़ी",
-      "satisfactionRate": "संतुष्टि दर",
-      "starRatingValue1Of5": "5 की स्टार रेटिंग {{value1}}",
-      "text495AverageRating": "4.9/5 औसत रेटिंग",
-      "shoppingCart": "शॉपिंग कार्ट",
-      "shopNow": "अभी खरीदें",
-      "arrowRight": "दाईं ओर तीर लगाएं",
-      "browseOurExclusiveRanksAndPerks": "हमारे विशेष रैंक और लाभ ब्राउज़ करें"
     },
     "communityEventCountdown": {
       "days": "दिन",
@@ -105,71 +214,8 @@
       "purchaseAnEligibleRankBelowToAddMoreTime": "सभी के लिए डुप इवेंट में अधिक समय जोड़ने के लिए नीचे एक योग्य रैंक खरीदें।",
       "viewRanks": "रैंक देखें"
     },
-    "developmentThemeSwitcher": {
-      "themeIsNowFixedToSnowySiteWide": "थीम अब पूरी साइट पर SNOWY पर तय कर दी गई है",
-      "fixed": "स्थिर"
-    },
-    "gallery": {
-      "gallery": {
-        "errorLoadingGallery": "गैलरी लोड करने में त्रुटि",
-        "retry": "पुन: प्रयास करें",
-        "text6b6tGallery": "6b6t गैलरी",
-        "images": "इमेजिस",
-        "featured": "प्रदर्शित",
-        "latest": "📅 नवीनतम:",
-        "filterOptions": "फ़िल्टर विकल्प",
-        "filters": "फिल्टर",
-        "toggleFilterPanel": "फ़िल्टर पैनल टॉगल करें",
-        "activeFilters": "सक्रिय फ़िल्टर:",
-        "category": "वर्ग:",
-        "featured2": "प्रदर्शित",
-        "showing": "दिखा",
-        "of": "का",
-        "imagesFromThe6b6tCommunity": "6b6t समुदाय से छवियाँ"
-      },
-      "galleryCard": {
-        "imageobject": "ImageObject",
-        "organization": "संगठन",
-        "text6b6tMinecraftServer": "6b6t Minecraft सर्वर",
-        "webpage": "WebPage",
-        "text6b6tGalleryMinecraftServerScreenshots": "6b6t गैलरी - Minecraft सर्वर स्क्रीनशॉट",
-        "clickToViewInLightboxCtrlClickOrMiddle": "लाइटबॉक्स में देखने के लिए क्लिक करें, नए टैब में खोलने के लिए Ctrl+क्लिक करें या मिडिल-क्लिक करें",
-        "value1Value2": "{{value1}} - {{value2}}",
-        "externalLink": "बाहरी लिंक",
-        "featured": "⭐ विशेष रुप से प्रदर्शित",
-        "author": "लेखक"
-      },
-      "galleryFilters": {
-        "categories": "श्रेणियाँ",
-        "all": "सभी",
-        "special": "विशेष",
-        "featuredOnly": "⭐ केवल विशेष रुप से प्रदर्शित",
-        "tags": "टैग",
-        "more": "अधिक",
-        "sortBy": "इसके अनुसार क्रमबद्ध करें",
-        "dateAdded": "तिथि जोड़ी",
-        "dateTaken": "दिनांक लिया गया",
-        "title": "शीर्षक",
-        "featuredFirst": "सबसे पहले प्रदर्शित",
-        "newestFirst": "सबसे पहले नवीनतम",
-        "oldestFirst": "सबसे पुराना पहले",
-        "clearAllFilters": "सभी फ़िल्टर साफ़ करें"
-      },
-      "galleryGrid": {
-        "noImagesAvailable": "कोई छवियाँ उपलब्ध नहीं",
-        "noImagesFound": "कोई चित्र नहीं मिला",
-        "tryAdjustingYourFiltersOrSearchTerms": "अपने फ़िल्टर या खोज शब्द समायोजित करने का प्रयास करें।"
-      },
-      "lightbox": {
-        "closeLightbox": "लाइटबॉक्स बंद करें",
-        "previousImage": "पिछली छवि",
-        "nextImage": "अगली छवि",
-        "value1Value2": "{{value1}}{{value2}}",
-        "of": "का"
-      }
-    },
-    "icons": {
-      "discord": "Discord"
+    "errorPage": {
+      "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
     },
     "layout": {
       "copyButton": {
@@ -216,20 +262,11 @@
         "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. सर्वाधिकार सुरक्षित। • qbasty labs FZE • contact@6b6t.org द्वारा संचालित",
         "xTwitter": "एक्स (Twitter)"
       },
-      "header": {
-        "home": "घर",
-        "blog": "ब्लॉग",
-        "vote": "वोट",
-        "stats": "आँकड़े",
-        "commands": "आदेश",
-        "shop": "दुकान",
-        "discord": "Discord",
-        "join": "जोड़ना",
-        "activeMembers": "सक्रिय सदस्य",
+      "langLayout": {
         "text6b6t": "6b6t",
-        "hytale": "Hytale",
-        "about": "के बारे में",
-        "hytaleAnarchyServer": "Hytale अराजकता सर्वर"
+        "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "सबसे बड़ा Minecraft अराजकता सर्वर जिसमें कोई नियम और कोई कतार नहीं है। /tpa और /home जैसे आवश्यक कमांड के साथ Java और Bedrock दोनों संस्करणों का समर्थन करता है।",
+        "joinTheBiggestMinecraftAnarchyServerWithNoRules": "बिना किसी नियम, बिना कतार और 2000+ प्लेयर क्षमता वाले सबसे बड़े Minecraft अराजकता सर्वर से जुड़ें। Java और Bedrock दोनों संस्करणों पर /tpa और /home जैसे आवश्यक कमांड के साथ वास्तविक अराजकता का अनुभव करें।",
+        "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft अराजकता सर्वर, 6b6t, कोई नियम सर्वर नहीं, मुफ्त Minecraft सर्वर, अराजकता गेमप्ले, Minecraft PvP, उत्तरजीविता सर्वर"
       },
       "languageSwitcher": {
         "language": "भाषा"
@@ -283,6 +320,9 @@
         "ideal": "iDEAL",
         "bancontact": "बैनसंपर्क",
         "eps": "EPS"
+      },
+      "websiteLayout": {
+        "skipToMainContent": "मुख्य सामग्री पर जाएँ"
       }
     },
     "milestoneProgress": {
@@ -294,18 +334,13 @@
       "communityGoalReachedTheDupeEventHasBeenUnlocked": "सामुदायिक लक्ष्य प्राप्त हुआ. डुप्पे इवेंट को अनलॉक कर दिया गया है।",
       "communityGoalReached": "सामुदायिक लक्ष्य प्राप्त हुआ!"
     },
-    "modeToggle": {
-      "currentThemeSnowySiteWide": "वर्तमान विषय: बर्फीला (साइट-व्यापी)",
-      "defaultDisabled": "डिफ़ॉल्ट (अक्षम)",
-      "snowyActiveSiteWide": "बर्फीला (सक्रिय साइट-व्यापी)"
-    },
     "motion": {
       "username": {
         "minecraftPlayerValue1": "Minecraft player: {{value1}}",
         "chooseTheMinecraftAccountReceivingLegend": "Choose the Minecraft account receiving Legend.",
         "changeUsername": "Change username",
         "setUsername": "Set username",
-        "minecraftUsername": "Minecraft username",
+        "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
         "saving": "Saving…",
         "saveUsername": "Save username",
         "loggedInAs": "के रूप में लॉग इन किया गया",
@@ -316,6 +351,10 @@
         "thisWillBeUsedToLinkYourPurchasesTo": "इसका उपयोग आपकी खरीदारी को आपके Minecraft खाते से लिंक करने के लिए किया जाएगा।",
         "loading": "लोड हो रहा है..."
       }
+    },
+    "notFoundPage": {
+      "pageNotFound": "पृष्ठ नहीं मिला",
+      "home": "घर"
     },
     "paymentBrandLogos": {
       "crypto": "क्रिप्टो",
@@ -337,11 +376,7 @@
       "ideal": "iDEAL",
       "bancontact": "बैनसंपर्क",
       "eps": "EPS",
-      "eps2": "ईपीएस",
-      "linkByStripe": "स्ट्राइप द्वारा लिंक",
-      "mobilepay": "MobilePay",
-      "cartesBancaires": "कार्टेस बैंकेयर्स",
-      "cb": "CB"
+      "eps2": "ईपीएस"
     },
     "recentBuyers": {
       "primeEliteUpgrade": "Prime → Elite अपग्रेड",
@@ -402,22 +437,348 @@
       "goToSlideGroupValue1": "स्लाइड समूह {{value1}} पर जाएँ",
       "of": "का"
     },
+    "serverConnectionModal": {
+      "text6b6t": "6b6t",
+      "text6b6t2": "6b6t 2",
+      "text6b6t3": "6b6t 3",
+      "copyValue1": "{{value1}} कॉपी करें",
+      "openValue1InMinecraftBedrock": "Minecraft Bedrock में {{value1}} खोलें",
+      "open": "खुला",
+      "closeConnectionModal": "कनेक्शन मोडल बंद करें",
+      "text6b6tLogo": "6b6t लोगो",
+      "connectTo": "से कनेक्ट",
+      "javaPlayersConnectInTwoStepsInstallTheOfficial": "Java खिलाड़ी दो चरणों में जुड़ते हैं: आधिकारिक एनार्की मॉड इंस्टॉल करें, फिर Minecraft लॉन्च करें और खेलें।",
+      "closeModal": "मोडल बंद करें",
+      "theAnarchyModIsRequiredForJavaEdition": "Java संस्करण के लिए एनार्की मॉड आवश्यक है",
+      "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang ने 6b6t के मानक कनेक्शन को अवरुद्ध कर दिया। आधिकारिक मॉड पहुंच बहाल करता है और सर्वर को स्वचालित रूप से जोड़ता है।",
+      "javaEdition": "Java संस्करण",
+      "twoStepsThenYouAreIn": "दो कदम, फिर आप अंदर हैं",
+      "fabric": "कपड़ा ·",
+      "required": "आवश्यक",
+      "downloadTheAnarchyMod": "अराजकता मॉड डाउनलोड करें",
+      "getTheLatestOfficialReleaseAndInstallItIn": "नवीनतम आधिकारिक रिलीज़ प्राप्त करें और इसे अपने फ़ैब्रिक प्रोफ़ाइल में इंस्टॉल करें।",
+      "downloadLatestRelease": "नवीनतम रिलीज़ डाउनलोड करें",
+      "viewSourceCode": "स्रोत कोड देखें",
+      "play": "खेल",
+      "launchMinecraft": "Minecraft लॉन्च करें",
+      "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "अपना फ़ैब्रिक प्रोफ़ाइल प्रारंभ करें, मल्टीप्लेयर खोलें, और सर्वर सूची से 6b6t चुनें।",
+      "serverAddress": "सर्वर पता",
+      "copied": "कॉपी किया गया",
+      "copyIp": "आईपी ​​कॉपी करें",
+      "fallbackAddresses": "फ़ॉलबैक पते",
+      "playingOnBedrock": "Bedrock पर चल रहा है?",
+      "noFabricModNeededUseADirectBedrockConnection": "किसी फ़ैब्रिक मॉड की आवश्यकता नहीं है—सीधे Bedrock कनेक्शन का उपयोग करें।",
+      "serverOnline": "सर्वर ऑनलाइन",
+      "text2000Players": "/2000 खिलाड़ी",
+      "java": "Java",
+      "done": "हो गया"
+    },
+    "shop": {
+      "featureDefinitions": {
+        "prefix": "उपसर्ग",
+        "homes": "घरों",
+        "skin": "त्वचा",
+        "chatcolors": "चैट कलर्स",
+        "hat": "टोपी",
+        "sit": "बैठना",
+        "invisframe": "invisframe",
+        "balloons": "गुब्बारे",
+        "namecolor": "नामरंग",
+        "particles": "कण",
+        "glow": "चमकना",
+        "cigar": "सिगार",
+        "vpn": "vpn",
+        "builder": "निर्माता",
+        "hotspot": "हॉटस्पॉट",
+        "ignore": "अनदेखा करना",
+        "discord": "discord",
+        "support": "सहायता",
+        "embed": "एम्बेड",
+        "attach": "संलग्न करना",
+        "reaction": "प्रतिक्रिया",
+        "nickname": "उपनाम",
+        "streaming": "स्ट्रीमिंग",
+        "ads": "विज्ञापन",
+        "general": "सामान्य",
+        "general2": "सामान्य",
+        "homesTpa": "होम्स_टीपीए",
+        "homesTpa2": "घर और टीपीए",
+        "cosmetics": "प्रसाधन सामग्री",
+        "cosmetics2": "प्रसाधन सामग्री",
+        "gameplay": "गेमप्ले",
+        "gameplay2": "गेमप्ले",
+        "chat": "बात करना",
+        "chat2": "बात करना",
+        "website": "वेबसाइट",
+        "website2": "वेबसाइट",
+        "discord2": "Discord",
+        "prefix2": "उपसर्ग",
+        "primePrefix": "Prime उपसर्ग",
+        "elitePrefix": "Elite उपसर्ग",
+        "apexPrefix": "Apex उपसर्ग",
+        "primeUltraPrefix": "Prime Ultra उपसर्ग",
+        "eliteUltraPrefix": "Elite Ultra उपसर्ग",
+        "duration": "अवधि",
+        "duration2": "अवधि",
+        "lifetime": "जीवनभर",
+        "homes2": "घरों",
+        "image": "छवि",
+        "homesAmountInterface": "होम्स राशि इंटरफ़ेस",
+        "text12Homes": "12 घर",
+        "text30Homes": "30 घर",
+        "text100Homes": "100 घर",
+        "text18Homes": "18 घर",
+        "text50Homes": "50 घर",
+        "homeCooldown": "/home कूलडाउन",
+        "homeCooldownInterface": "होम कूलडाउन इंटरफ़ेस",
+        "text300s": "300s",
+        "text90s": "90s",
+        "text15s": "15s",
+        "text180s": "180s",
+        "text40s": "40s",
+        "tpaCooldown": "/tpa कूलडाउन",
+        "tpaCooldownInterface": "टीपीए कूलडाउन इंटरफ़ेस",
+        "text420s": "420s",
+        "text120s": "120s",
+        "text30s": "30s",
+        "text70s": "70s",
+        "homeExecutionTime": "/home निष्पादन समय",
+        "homeExecutionTimeDiagram": "/home निष्पादन समय आरेख",
+        "tpaExecutionTime": "/tpa निष्पादन समय",
+        "tpaExecutionTimeDiagram": "/tpa निष्पादन समय आरेख",
+        "skin2": "त्वचा",
+        "skinCommandInterface": "त्वचा कमांड इंटरफ़ेस",
+        "included": "शामिल",
+        "hat2": "टोपी",
+        "hatCommandInterface": "हैट कमांड इंटरफ़ेस",
+        "notIncluded": "शामिल नहीं",
+        "sit2": "बैठना",
+        "sitCommandInterface": "सिट कमांड इंटरफ़ेस",
+        "balloons2": "गुब्बारे",
+        "balloonsCommandInterface": "गुब्बारे कमांड इंटरफ़ेस",
+        "text5Balloons": "5 गुब्बारे",
+        "text40Balloons": "40 गुब्बारे",
+        "text3Balloons": "3 गुब्बारे",
+        "text30Balloons": "30 गुब्बारे",
+        "particles2": "कण",
+        "particlesFeature": "कणों की विशेषता",
+        "cigar2": "सिगार",
+        "glowEffect": "चमक प्रभाव",
+        "glowEffectOnPlayers": "खिलाड़ियों पर चमक का प्रभाव",
+        "chatColor": "रंग चैट करें",
+        "text2Colors": "2 रंग",
+        "text3Colors": "3 रंग",
+        "text8Colors": "8 रंग",
+        "text6Colors": "6 रंग",
+        "nameColor": "नाम रंग",
+        "nameColorSelectionMenu": "नाम रंग चयन मेनू",
+        "turnItemFramesInvisible": "आइटम फ़्रेम को अदृश्य करें",
+        "invisframeCommandInterface": "इनविज़फ़्रेम कमांड इंटरफ़ेस",
+        "editArmorStands": "कवच स्टैंड संपादित करें",
+        "joinWithVpns": "वीपीएन के साथ जुड़ें",
+        "builderMode": "बिल्डर मोड",
+        "text22Chunks": "22 टुकड़े",
+        "text32Chunks": "32 टुकड़े",
+        "text16Chunks": "16 टुकड़े",
+        "text28Chunks": "28 टुकड़े",
+        "automaticBuilderModeHome": "स्वचालित बिल्डर मोड होम",
+        "createHotspots": "हॉटस्पॉट बनाएं",
+        "hotspotCreateInterface": "हॉटस्पॉट इंटरफ़ेस बनाएँ",
+        "maximumHotspotDuration": "अधिकतम हॉटस्पॉट अवधि",
+        "text30Minutes": "30 मिनट",
+        "text90Minutes": "90 मिनट",
+        "text60Minutes": "60 मिनट",
+        "hotspotExecutionTimeYou": "/hotspot निष्पादन समय (आप)",
+        "hotspotExecutionTimeForYou": "आपके लिए हॉटस्पॉट निष्पादन समय",
+        "text3s": "3s",
+        "hotspotExecutionTimeOthers": "हॉटस्पॉट निष्पादन समय (अन्य)",
+        "hotspotExecutionTimeForOthers": "दूसरों के लिए हॉटस्पॉट निष्पादन समय",
+        "text5s": "5s",
+        "hotspotName": "मुख्य जगह का नाम",
+        "hotspotNameFeature": "हॉटस्पॉट नाम सुविधा",
+        "hotspotColors": "हॉटस्पॉट रंग",
+        "text1Color": "1 रंग",
+        "text5Colors": "5 रंग",
+        "hotspotGlow": "हॉटस्पॉट चमक",
+        "hotspotGlowEffectOnPlayers": "खिलाड़ियों पर हॉटस्पॉट चमक का प्रभाव",
+        "hotspotBalloons": "हॉटस्पॉट गुब्बारे",
+        "hotspotBalloonsAbovePlayers": "खिलाड़ियों के ऊपर हॉटस्पॉट गुब्बारे",
+        "colorsInAnvils": "निहाई में रंग",
+        "colorsInAnvilsExample": "निहाई में रंग उदाहरण",
+        "formattingInAnvils": "एनविल्स में फ़ॉर्मेटिंग",
+        "formattingInAnvilsExample": "एविल्स उदाहरण में फ़ॉर्मेटिंग",
+        "boldObfuscatedInAnvils": "आँवले में बोल्ड और अस्पष्ट",
+        "boldAndObfuscatedInAnvilsExample": "निहाई उदाहरण में बोल्ड और अस्पष्ट",
+        "connectionMessageColor": "कनेक्शन संदेश रंग",
+        "deathMessageColor": "मृत्यु संदेश रंग",
+        "ignoreLimit": "सीमा पर ध्यान न दें",
+        "text2000Players": "2000 खिलाड़ी",
+        "text5000Players": "5000 खिलाड़ी",
+        "chatWithoutItem": "बिना आइटम के चैट करें",
+        "communityGoalPoints": "सामुदायिक लक्ष्य बिंदु",
+        "text24Points": "24 अंक",
+        "text100Points": "100 अंक",
+        "text300Points": "300 अंक",
+        "text963Points": "9-63 अंक",
+        "text26175Points": "26-175 अंक",
+        "customizeStats": "आँकड़े अनुकूलित करें",
+        "uniqueStatsPageEffects": "अद्वितीय आँकड़े पृष्ठ प्रभाव",
+        "discordRole": "Discord भूमिका",
+        "primeRole": "Prime भूमिका",
+        "eliteRole": "Elite भूमिका",
+        "apexRole": "Apex भूमिका",
+        "primeUltraRole": "Prime Ultra भूमिका",
+        "eliteUltraRole": "Elite Ultra भूमिका",
+        "prioritySupport": "प्राथमिकता समर्थन",
+        "prioritySupportDiscordChannel": "प्राथमिकता समर्थन Discord चैनल",
+        "rankedChannels": "रैंक किए गए चैनल",
+        "embedLinks": "लिंक एम्बेड करें",
+        "attachFiles": "फ़ाइलों को संलग्न करें",
+        "addReactions": "प्रतिक्रियाएँ जोड़ें",
+        "changeNickname": "उपनाम बदलें",
+        "videoStreaming": "वीडियो स्ट्रीमिंग",
+        "advertiseChannel": "विज्ञापन चैनल",
+        "legendNameColor": "Legend नाम रंग",
+        "thePrefixShownBeforeYourNameInChatAnd": "चैट और टेबललिस्ट में आपके नाम से पहले दिखाया गया उपसर्ग।",
+        "howLongYourRankLastsAfterPurchasePrimeElite": "खरीदारी के बाद आपकी रैंक कितने समय तक रहती है. Prime, Elite और Apex हमेशा के लिए चलते हैं।",
+        "howManyHomesYouCanSetWithSethome": "/sethome से आप कितने घर स्थापित कर सकते हैं",
+        "timeYouMustWaitBetweenHomeSethomeUses": "आपको /home और /sethome उपयोग के बीच समय का इंतजार करना होगा",
+        "timeYouMustWaitBetweenSendingTpaRequests": "/tpa अनुरोध भेजने के बीच आपको समय की प्रतीक्षा करनी होगी",
+        "theAmountOfTimeItTakesForHomeTeleportation": "/home टेलीपोर्टेशन को निष्पादित करने में जितना समय लगता है",
+        "theAmountOfTimeItTakesForYourOr": "आपके या आपके /tpa टेलीपोरेशन को निष्पादित करने में लगने वाला समय",
+        "changeYourSkinWithSkin": "/skin के साथ अपनी त्वचा बदलें",
+        "wearTheItemInYourHandAsAHat": "अपने हाथ में मौजूद वस्तु को /hat वाली टोपी के रूप में पहनें",
+        "sitOnTheBlockYouRsquoReStandingOn": "उस ब्लॉक पर बैठें जिस पर आप /sit के साथ खड़े हैं",
+        "putABalloonInYourHandWithBalloons": "अपने हाथ में /balloons वाला गुब्बारा रखें",
+        "applyParticlesAroundYourselfWithParticles": "/particles के साथ अपने चारों ओर कण लगाएं",
+        "smokeACigarInMinecraftWithCigar": "/cigar के साथ Minecraft में सिगार पीयें",
+        "viewCigarFeature": "सिगार सुविधा देखें",
+        "cigarFeature": "सिगार की सुविधा",
+        "viewSmokingACigar": "सिगार पीना देखें",
+        "smokingACigar": "सिगार पीना",
+        "makeYourselfGlowWithGlowGlowColorMatchesYour": "/glow के साथ खुद को चमकाएं! चमक का रंग आपके नाम के रंग से मेल खाता है",
+        "gray": "स्लेटी",
+        "aqua": "पानी",
+        "green": "हरा",
+        "skyBlue": "आसमानी नीला",
+        "brightGreen": "चमकीला हरा",
+        "malachite": "मैलाकाइट",
+        "gold": "सोना",
+        "white": "सफ़ेद",
+        "blue": "नीला",
+        "red": "लाल",
+        "yellow": "पीला",
+        "lightPurple": "हलका बैंगनी",
+        "darkGreen": "गहरा हरा",
+        "darkAqua": "डार्क एक्वा",
+        "darkRed": "गहरा लाल",
+        "black": "काला",
+        "changeTheColorOfYourChatMessagesWithChatcolor": "/chatcolor के साथ अपने चैट संदेशों का रंग बदलें",
+        "color": "रंग",
+        "prime": "Prime",
+        "elite": "Elite",
+        "apex": "Apex",
+        "legend": "Legend",
+        "value1Value2": "{{value1}}{{value2}}",
+        "primeUltra": "Prime Ultra",
+        "eliteUltra": "Elite Ultra",
+        "changeTheColorOfYourNameInChatWith": "/namecolor के साथ चैट में अपने नाम का रंग बदलें",
+        "turnAnItemFrameInvisibleWithInvisframe": "/invisframe के साथ किसी आइटम फ़्रेम को अदृश्य करें",
+        "editArmorStandsAndTheirPosition": "कवच स्टैंड और उनकी स्थिति संपादित करें",
+        "joinWithAVpnOrProxyVerificationNowRuns": "VPN या प्रॉक्सी के साथ जुड़ें। सत्यापन अब EnderDash के माध्यम से चलता है।",
+        "temporarilyGetUltraHighRenderDistanceWhenBuildingBases": "आधार बनाते समय या /buildermode के साथ स्क्रीनशॉट लेते समय अस्थायी रूप से अल्ट्रा हाई रेंडर दूरी प्राप्त करें",
+        "weHaveProgrammedBuilderModeInAWaySo": "हमने बिल्डर मोड को इस तरह बनाया है कि यह P2W (पे-टू-विन) नहीं है। बहुत दूर जाने पर यह अपने-आप बंद हो जाता है और इस पर कूलडाउन भी लागू होता है।",
+        "before": "पहले",
+        "normalRenderDistanceBeforeEnablingBuilderMode": "बिल्डर मोड सक्षम करने से पहले सामान्य रेंडर दूरी",
+        "enlargeImage": "Enlarge image",
+        "normalRenderDistance": "सामान्य रेंडर दूरी",
+        "after": "बाद",
+        "ultraHighRenderDistanceWithBuilderModeEnabled": "बिल्डर मोड सक्षम होने के साथ अल्ट्रा हाई रेंडर दूरी",
+        "builderModeHighRenderDistance": "बिल्डर मोड उच्च रेंडर दूरी",
+        "automaticallyEnableBuilderModeWhenTeleportingToASelected": "/buildermode होम &lt;name&gt; के साथ चयनित घर पर टेलीपोर्ट करते समय स्वचालित रूप से बिल्डर मोड सक्षम करें",
+        "createTemporaryTeleporationZonesCalledHotspotsToWhichAnyone": "हॉटस्पॉट नामक अस्थायी टेलीपोरेशन जोन बनाएं, जिसमें कोई भी /hotspot क्रिएट के साथ टेलीपोर्ट कर सके",
+        "text30MinDuration30MinCooldown": "30 मिनट की अवधि / 30 मिनट का कूलडाउन",
+        "text60MinDuration45MinCooldown": "60 मिनट की अवधि / 45 मिनट का कूलडाउन",
+        "text90MinDuration60MinCooldown": "90 मिनट की अवधि / 60 मिनट का कूलडाउन",
+        "text120MinDuration90MinCooldown": "120 मिनट की अवधि / 90 मिनट का कूलडाउन",
+        "inTheHotspotCreateCommandYouCanSpecifyThe": "/hotspot क्रिएट कमांड में, आप हॉटस्पॉट की अवधि निर्दिष्ट कर सकते हैं। यदि आप अवधि निर्दिष्ट नहीं करते हैं, तो अधिकतम अवधि का उपयोग किया जाएगा। एक नया हॉटस्पॉट बनाने के बीच का कूलडाउन अवधि से जुड़ा होता है।",
+        "command": "आज्ञा:",
+        "durationAmpCooldown": "अवधि &amp; कूलडाउन",
+        "theAmountOfTimeItTakesForHotspotTeleportation": "/hotspot टेलीपोर्टेशन को निष्पादित करने में जितना समय लगता है",
+        "theAmountOfTimeItTakesForHotspotTeleportation2": "आपके हॉटस्पॉट पर सभी खिलाड़ियों को /hotspot टेलीपोर्टेशन निष्पादित करने में जितना समय लगता है",
+        "setYourHotspotNameWithHotspotName": "अपना हॉटस्पॉट नाम /hotspot नाम से सेट करें",
+        "purple": "बैंगनी",
+        "inTheHotspotCreateCommandYouCanSpecifyThe2": "/hotspot क्रिएट कमांड में, आप बॉसबार का रंग निर्दिष्ट कर सकते हैं।",
+        "setAGlowColorForPlayersWhoTeleportTo": "/hotspot चमक के साथ आपके हॉटस्पॉट पर टेलीपोर्ट करने वाले खिलाड़ियों के लिए चमक रंग सेट करें",
+        "setABalloonForPlayersWhoTeleportToYour": "उन खिलाड़ियों के लिए एक गुब्बारा सेट करें जो /hotspot गुब्बारों के साथ आपके हॉटस्पॉट पर टेलीपोर्ट करते हैं",
+        "useColorCodesInAnvilsForExampleChello": "निहाई में रंग कोड का उपयोग करें, उदाहरण के लिए: &cHello",
+        "useUnderlineStrikethroughAndItalicFormattingForExampleC": "उदाहरण के लिए &c&o&n&n&mओह वाह! का उपयोग करें और रेखांकित करें, स्ट्राइकथ्रू और इटैलिक फ़ॉर्मेटिंग करें!",
+        "useAmpBoldAndObfuscatedForExampleAmpL": "उदाहरण के लिए, बोल्ड और अस्पष्ट &amp; का उपयोग करें: &amp;l&amp;kयह मैट्रिक्स है।",
+        "changeTheColorOfConnectionMessagesThatYouSee": "आपको दिखाई देने वाले कनेक्शन संदेशों का रंग /connectionmsgs रंग से बदलें",
+        "changeTheColorOfDeathMessagesThatYouSee": "आपको दिखाई देने वाले मृत्यु संदेशों का रंग /deathmsgs रंग से बदलें",
+        "theMaximumAmountOfPlayersThatYouCanIgnore": "/ignore के साथ आप खिलाड़ियों की अधिकतम संख्या को अनदेखा कर सकते हैं",
+        "talkInChatWithoutNeedingToHaveAnItem": "अपनी इन्वेंट्री में कोई आइटम रखने की आवश्यकता के बिना चैट में बात करें",
+        "pointsGivenTowardsTheCurrentActiveCommunityGoal": "वर्तमान सक्रिय सामुदायिक लक्ष्य की ओर दिए गए अंक",
+        "customizeYourPersonalStatsPage": "अपने व्यक्तिगत आँकड़े पृष्ठ को अनुकूलित करें",
+        "theAmountOfStatsPageEffectsThatYouCan": "सांख्यिकी पृष्ठ प्रभावों की वह मात्रा जिसका आप उपयोग कर सकते हैं",
+        "theDiscordRoleYouReceiveAfterConnectingDiscord": "Discord कनेक्ट करने के बाद आपको Discord भूमिका प्राप्त होती है",
+        "receiveImmediateSupportThroughDiscord": "Discord के माध्यम से तत्काल सहायता प्राप्त करें",
+        "accessToRankedOnlyChannelsInDiscord": "Discord में केवल रैंक किए गए चैनलों तक पहुंच",
+        "linksGetAnEmbedPreviewInGeneral": "लिंक को #सामान्य में एक एम्बेड पूर्वावलोकन मिलता है",
+        "attachPhotosVideosAndOtherFilesInGeneral": "#सामान्य में फ़ोटो, वीडियो और अन्य फ़ाइलें संलग्न करें",
+        "addReactionsToMessagesInGeneral": "#सामान्य में संदेशों पर प्रतिक्रियाएँ जोड़ें",
+        "changeYourNickname": "अपना उपनाम बदलें",
+        "streamVideoOrScreenshareInAllVoiceChannels": "सभी वॉयस चैनलों में वीडियो स्ट्रीम करें या स्क्रीन शेयर करें",
+        "advertiseYour6b6tProjectDailyInTheAdvertiseChannel": "#advertise चैनल में प्रतिदिन अपने 6b6t प्रोजेक्ट का विज्ञापन करें",
+        "accessToLegendColorToChangeYourDiscordName": "अपने Discord नाम का रंग बदलने के लिए #legend-रंग तक पहुंच"
+      },
+      "imageModal": {
+        "closeModal": "मोडल बंद करें"
+      },
+      "shopBuyButton": {
+        "creatingCheckoutSession": "चेकआउट सत्र बनाया जा रहा है...",
+        "checkoutSessionCreated": "चेकआउट सत्र बनाया गया!",
+        "close": "बंद करना",
+        "isThisAGift": "क्या ये एक तोहफा है?",
+        "ifYouBuyThisAsAGiftYouCan": "यदि आप इसे उपहार के रूप में खरीदते हैं, तो आप उपयोगकर्ता को उपहार संदेश भी प्रदान कर सकते हैं।",
+        "goToBillingPortal": "बिलिंग पोर्टल → पर जाएँ",
+        "theRefundPolicyForGiftedRanksIs14Days": "प्रतिभाशाली रैंकों के लिए धनवापसी नीति 14 दिन है।",
+        "readTheRefundPolicy": "Read the refund policy",
+        "buyForMe": "मेरे लिए खरीदो",
+        "buyAsGift": "उपहार के रूप में खरीदें",
+        "giftInformation": "उपहार सूचना",
+        "enterYourUsernameAndAnOptionalMessageForThe": "अपना उपयोगकर्ता नाम और प्राप्तकर्ता के लिए एक वैकल्पिक संदेश दर्ज करें।",
+        "whoIsThisGiftFrom": "यह उपहार किसका है? *",
+        "yourMinecraftUsername": "आपका Minecraft उपयोगकर्ता नाम",
+        "giftMessageOptional": "उपहार संदेश (वैकल्पिक)",
+        "writeAMessageForTheRecipient": "प्राप्तकर्ता के लिए एक संदेश लिखें...",
+        "cancel": "रद्द करना",
+        "continue": "जारी रखना",
+        "confirmGiftPurchase": "उपहार खरीद की पुष्टि करें",
+        "pleaseReviewTheGiftDetailsBeforeProceeding": "कृपया आगे बढ़ने से पहले उपहार विवरण की समीक्षा करें",
+        "from": "से",
+        "giftArrow": "उपहार तीर",
+        "to": "को",
+        "willReceive": "प्राप्त होगा",
+        "permanentRank": "स्थायी पद",
+        "pleaseVerifyAllDetailsAreCorrect": "⚠️ कृपया सत्यापित करें कि सभी विवरण सही हैं",
+        "goBack": "वापस जाओ",
+        "confirmContinue": "पुष्टि करें और जारी रखें",
+        "choosePaymentMethod": "भुगतान विधि चुनें",
+        "selectHowYouWouldLikeToPayFor": "चुनें कि आप किस प्रकार भुगतान करना चाहेंगे",
+        "payWithTebex": "Pay with Tebex",
+        "tebexComingSoon": "Tebex coming soon",
+        "paypalMore": "PayPal & more",
+        "selectTebexCheckout": "Tebex चेकआउट चुनें",
+        "paypal": "PayPal",
+        "crypto": "क्रिप्टो",
+        "cardOtherMethods": "कार्ड और अन्य तरीके",
+        "selectCardOrAnotherMethod": "कार्ड या अन्य विधि का चयन करें",
+        "allTransactionsAreSecureAndEncrypted": "सभी लेनदेन सुरक्षित और एन्क्रिप्टेड हैं"
+      }
+    },
     "socialIcons": {
       "socialIcon": "सामाजिक चिह्न"
-    },
-    "socialProofSection": {
-      "amazingServerTheApexRankIsAbsolutelyWorthIt": "अद्भुत सर्वर! Apex रैंक बिल्कुल इसके लायक है। समुदाय शानदार है और मुझे कभी भी अंतराल संबंधी किसी समस्या का अनुभव नहीं हुआ। स्टाफ टीम भी बहुत मददगार है!",
-      "unitedStates": "संयुक्त राज्य अमेरिका",
-      "beenPlayingFor6MonthsNowWithEliteRank": "Elite रैंक के साथ अब 6 महीने से खेल रहा हूं। उपकरण और अनुमतियाँ गेम-चेंजिंग हैं। Minecraft के लिए मैंने सबसे अच्छा निवेश किया है!",
-      "canada": "कनाडा",
-      "justUpgradedToLegendRankLastWeekAndWow": "पिछले सप्ताह ही Legend रैंक पर अपग्रेड किया गया और वाह! सुविधाएँ अविश्वसनीय हैं. अकेले प्राथमिकता कतार से मेरा बहुत समय बचता है। 10/10 अनुशंसा करेंगे!",
-      "unitedKingdom": "यूनाइटेड किंगडम",
-      "verifiedCheckmark": "सत्यापित चेकमार्क",
-      "over": "ऊपर",
-      "satisfiedCustomers": "+ संतुष्ट ग्राहक",
-      "realReviewsFrom": "से वास्तविक समीक्षाएँ",
-      "discordMembers": "Discord सदस्य",
-      "verifiedPurchasesFromOurDiscordCommunity": "हमारे Discord समुदाय से सत्यापित खरीदारी"
     },
     "stats": {
       "backgroundRenderer": {
@@ -441,10 +802,8 @@
         "loadingGalleryImages": "गैलरी छवियाँ लोड हो रही हैं..."
       },
       "enhancedThemeControls": {
-        "autoSaveFailed": "स्वतः-सहेजना विफल",
         "colors": "रंग",
         "background": "पृष्ठभूमि",
-        "color": "रंग",
         "enhancedThemeCustomization": "उन्नत थीम अनुकूलन",
         "unsavedChanges": "सहेजे न गए परिवर्तन",
         "saving": "सहेजा जा रहा है...",
@@ -542,35 +901,6 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "आप {{value1}} का संपूर्ण आँकड़ा इतिहास देख सकते हैं, जिसमें खेलने का समय, हत्याएँ, मौतें और बहुत कुछ शामिल है, यहीं उनके 6b6t प्रोफ़ाइल पृष्ठ पर।",
         "frequentlyAskedQuestionsAbout": "के बारे में अक्सर पूछे जाने वाले प्रश्न"
       },
-      "simplifiedThemeControls": {
-        "colors": "रंग",
-        "background": "पृष्ठभूमि",
-        "themeSettings": "थीम सेटिंग्स",
-        "unsavedChanges": "सहेजे न गए परिवर्तन",
-        "saving": "सहेजा जा रहा है...",
-        "saved": "सहेजा गया",
-        "errorSaving": "सहेजने में त्रुटि",
-        "customizeYourIndividualStatsPageWithColorsAndBackgrounds": "अपने व्यक्तिगत सांख्यिकी पृष्ठ को रंगों और पृष्ठभूमियों के साथ अनुकूलित करें",
-        "chooseYourColorTheme": "अपना रंग थीम चुनें",
-        "backgroundSettings": "पृष्ठभूमि सेटिंग्स",
-        "currentBackground": "वर्तमान पृष्ठभूमि",
-        "imageValue1": "छवि: {{value1}}",
-        "noBackgroundSelected": "कोई पृष्ठभूमि चयनित नहीं",
-        "chooseBackground": "पृष्ठभूमि चुनें",
-        "position": "पद",
-        "cover": "ढकना",
-        "center": "केंद्र",
-        "repeat": "दोहराना",
-        "opacity": "अपारदर्शिता:",
-        "blendMode": "ब्लेंड मोड",
-        "overlay": "उपरिशायी",
-        "multiply": "गुणा",
-        "screen": "स्क्रीन",
-        "blurEffect": "धुंधला प्रभाव",
-        "removeBackground": "पृष्ठभूमि निकालें",
-        "resetToDefaults": "डिफ़ॉल्ट पर पुनः सेट करें",
-        "saveChanges": "परिवर्तनों को सुरक्षित करें"
-      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityBadge": "6b6t टेलीग्राम समुदाय बैज",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "टेलीग्राम से जुड़े और वर्तमान में 6b6t समूह के सदस्य हैं"
@@ -618,9 +948,6 @@
       },
       "notification": {
         "dismissNotification": "अधिसूचना ख़ारिज करें"
-      },
-      "sheet": {
-        "close": "बंद करना"
       },
       "sonner": {
         "groupToastTextMutedForeground": "समूह-[.टोस्ट]:पाठ-म्यूट-अग्रभूमि"

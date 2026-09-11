@@ -1,652 +1,129 @@
 {
   "sections": {
     "api": {
-      "admin": {
-        "analytics": {
-          "anarchyMod": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "unauthorized": "अनधिकृत",
-              "internalServerError": "आंतरिक सर्वर त्रुटि"
-            }
-          },
-          "shop": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "unauthorized": "अनधिकृत"
-            }
-          },
-          "transactions": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "unauthorized": "अनधिकृत"
-            }
-          }
-        },
-        "auth": {
-          "login": {
-            "route": {
-              "emailAndPasswordAreRequired": "ईमेल और पासवर्ड आवश्यक है",
-              "internalServerError": "आंतरिक सर्वर त्रुटि"
-            }
-          },
-          "me": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "invalidSession": "अमान्य सत्र",
-              "internalServerError": "आंतरिक सर्वर त्रुटि"
-            }
-          }
-        },
-        "communityEvent": {
-          "route": {
-            "unauthorized": "अनधिकृत",
-            "resetConfirmationDidNotMatch": "रीसेट पुष्टिकरण मेल नहीं खाता",
-            "invalidExtension": "अमान्य एक्सटेंशन",
-            "unknownError": "अज्ञात त्रुटि"
-          }
-        },
-        "milestones": {
-          "route": {
-            "notAuthenticated": "प्रमाणित नहीं",
-            "unauthorized": "अनधिकृत",
-            "pointsAndRewardAreRequired": "अंक और इनाम आवश्यक हैं",
-            "invalidMilestoneIndex": "अमान्य मील का पत्थर सूचकांक",
-            "invalidPointsValue": "अमान्य अंक मान",
-            "failedToProcessAdminAction": "व्यवस्थापक कार्रवाई संसाधित करने में विफल",
-            "unknownError": "अज्ञात त्रुटि",
-            "failedToFetchMilestones": "मील के पत्थर लाने में विफल"
-          }
-        },
-        "motd": {
-          "ads": {
-            "requestId": {
-              "route": {
-                "motdAuditStoreIsUnavailable": "MOTD ऑडिट स्टोर अनुपलब्ध है",
-                "invalidJsonPayload": "अमान्य JSON पेलोड",
-                "motdActionFailed": "MOTD कार्रवाई विफल रही"
-              }
-            },
-            "route": {
-              "motdAdStoreIsUnavailable": "MOTD विज्ञापन स्टोर अनुपलब्ध है"
-            }
-          },
-          "manual": {
-            "route": {
-              "invalidJsonPayload": "अमान्य JSON पेलोड",
-              "motdActionFailed": "MOTD कार्रवाई विफल रही"
-            }
-          }
-        },
-        "printify": {
-          "requests": {
-            "route": {
-              "forbidden": "निषिद्ध",
-              "couldNotLoadRequests": "अनुरोध लोड नहीं किये जा सके",
-              "invalidRequest": "अमान्य अनुरोध",
-              "reviewFailed": "समीक्षा विफल"
-            }
-          }
-        },
-        "recovery": {
-          "gracePeriod": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "invalidSession": "अमान्य सत्र",
-              "onlySuperAdminsCanApproveGracePeriodOverrides": "केवल सुपर एडमिन ही अनुग्रह-अवधि ओवरराइड को मंजूरी दे सकते हैं।",
-              "invalidJsonPayload": "अमान्य JSON पेलोड"
-            }
-          },
-          "lookup": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "invalidSession": "अमान्य सत्र",
-              "unauthorized": "अनधिकृत",
-              "enterAValidMinecraftUsername": "एक वैध Minecraft उपयोगकर्ता नाम दर्ज करें।"
-            }
-          },
-          "submissions": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "invalidSession": "अमान्य सत्र",
-              "unauthorized": "अनधिकृत",
-              "recoverySubmissionLogStoreIsUnavailable": "पुनर्प्राप्ति सबमिशन लॉग स्टोर अनुपलब्ध है",
-              "invalidUsernameFilter": "अमान्य उपयोक्तानाम फ़िल्टर"
-            }
-          },
-          "tickets": {
-            "route": {
-              "notAuthenticated": "प्रमाणित नहीं",
-              "invalidSession": "अमान्य सत्र",
-              "unauthorized": "अनधिकृत",
-              "recoveryTicketStoreIsUnavailable": "रिकवरी टिकट स्टोर अनुपलब्ध है",
-              "invalidJsonPayload": "अमान्य JSON पेलोड",
-              "ticketNotFound": "टिकट नहीं मिला",
-              "ticketHasAlreadyBeenReviewed": "टिकट की समीक्षा पहले ही हो चुकी है.",
-              "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "गेम-सर्वर ईमेल उपलब्धता जांच उपलब्ध नहीं है। टिकट स्वीकृत नहीं हुआ.",
-              "targetEmailIsAlreadyLinkedToAnotherAccount": "लक्ष्य ईमेल पहले से ही दूसरे खाते से लिंक है.",
-              "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "गेम-सर्वर पुनर्प्राप्ति स्नैपशॉट अनुपलब्ध है. टिकट स्वीकृत नहीं हुआ.",
-              "ownerNotificationGracePeriodIsStillActiveWaitFor": "स्वामी अधिसूचना अनुग्रह अवधि अभी भी सक्रिय है. इसके समाप्त होने तक प्रतीक्षा करें या पहले सुपर-एडमिन ग्रेस-पीरियड ओवरराइड का उपयोग करें।",
-              "noAccountOwnerNotificationChallengeExistsForThisVerified": "इस सत्यापित ईमेल खाते के लिए कोई खाता-स्वामी अधिसूचना चुनौती मौजूद नहीं है। टिकट स्वीकृत नहीं हुआ.",
-              "couldNotSendTheManualReviewResultEmailTicket": "मैन्युअल समीक्षा परिणाम ईमेल नहीं भेजा जा सका. टिकट की समीक्षा नहीं की गई.",
-              "couldNotConsumeTheAccountOwnerNotificationPassTicket": "खाता-स्वामी अधिसूचना पास का उपभोग नहीं किया जा सका. टिकट स्वीकृत नहीं हुआ.",
-              "gameServerEmailUpdateFailedTicketWasNotApproved": "गेम-सर्वर ईमेल अपडेट विफल रहा. टिकट स्वीकृत नहीं हुआ."
-            }
-          }
-        }
-      },
-      "analytics": {
-        "transactions": {
-          "route": {
-            "authenticationRequired": "प्रमाणित करना",
-            "insufficientPermissions": "अपर्याप्त अनुमतियाँ",
-            "invalidPagination": "अमान्य पृष्ठांकन",
-            "failedToFetchTransactions": "लेन-देन लाने में विफल"
-          }
-        },
-        "users": {
-          "username": {
-            "transactions": {
-              "route": {
-                "notAuthorized": "अधिकृत नहीं हैं",
-                "invalidLimit": "अमान्य सीमा",
-                "failedToFetchUserTransactions": "उपयोगकर्ता लेनदेन लाने में विफल"
-              }
-            }
-          }
-        }
-      },
-      "antispam": {
-        "logs": {
-          "route": {
-            "selectMuteAsActionMutedAsPlayerCoalesceReason": "कार्रवाई के रूप में 'म्यूट' चुनें, खिलाड़ी के रूप में म्यूट करें, कारण के रूप में COALESCE (कारण, 'कोई कारण नहीं दिया गया') चुनें, टाइमस्टैम्प, समाप्ति_at को समाप्ति के रूप में चुनें, म्यूट से जहां {{value1}} टाइमस्टैंप {{value2}} LIMIT द्वारा ऑर्डर करें? ऑफसेट ?",
-            "antispamMessagesValue1": "एंटीस्पैम_संदेश:{{value1}}",
-            "unknownError": "अज्ञात त्रुटि",
-            "failedToFetchAntispamLogs": "एंटीस्पैम लॉग लाने में विफल"
-          }
-        }
-      },
-      "checkout": {
-        "creem": {
-          "route": {
-            "invalidCheckoutMetadata": "Invalid checkout metadata",
-            "useTheLegendPageToPurchaseAnAccountBound": "Use the Legend page to purchase an account-bound lifetime plan"
-          }
-        }
-      },
-      "cigarLeaderboard": {
-        "route": {
-          "failedToFetchCigarLeaderboardData": "सिगार लीडरबोर्ड डेटा लाने में विफल"
-        }
+      "text": {
+        "notFound": "Not found"
       },
       "commands": {
-        "route": {
-          "failedToFetchCommands": "आदेश लाने में विफल"
-        }
-      },
-      "communityEvent": {
-        "history": {
-          "route": {
-            "tooManyRequests": "बहुत सारे अनुरोध",
-            "communityEventHistoryIsTemporarilyUnavailable": "सामुदायिक घटना इतिहास अस्थायी रूप से अनुपलब्ध है"
-          }
-        },
-        "route": {
-          "tooManyRequests": "बहुत सारे अनुरोध",
-          "communityEventIsTemporarilyUnavailable": "सामुदायिक कार्यक्रम अस्थायी रूप से अनुपलब्ध है"
-        }
-      },
-      "communityPoints": {
-        "history": {
-          "route": {
-            "failedToFetchCompletionHistory": "पूर्णता इतिहास लाने में विफल"
-          }
-        },
-        "route": {
-          "notAuthenticated": "प्रमाणित नहीं",
-          "unauthorized": "अनधिकृत",
-          "invalidRanktypeValue1": "अमान्य रैंक प्रकार: {{value1}}",
-          "addedPointsForRankValue1": "रैंक के लिए जोड़े गए अंक: {{value1}}",
-          "failedToAddPoints": "अंक जोड़ने में विफल",
-          "unknownError": "अज्ञात त्रुटि"
-        }
+        "failedToFetchCommands": "आदेश लाने में विफल"
       },
       "creem": {
-        "route": {
-          "completed": "पुरा होना",
-          "opened": "opened",
-          "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है"
-        }
-      },
-      "dbStatus": {
-        "route": {
-          "thisEndpointIsOnlyAvailableInDevelopment": "यह समापन बिंदु केवल विकास में उपलब्ध है",
-          "legendplayerModelNotAvailable": "लीजेंडप्लेयर मॉडल उपलब्ध नहीं है",
-          "playerData": "प्लेयर_डेटा",
-          "databaseCheckFailed": "डेटाबेस जाँच विफल रही",
-          "unknownError": "अज्ञात त्रुटि"
-        }
+        "completed": "पुरा होना",
+        "opened": "opened",
+        "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
+        "invalidWebhookSignature": "Invalid webhook signature",
+        "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "discord": {
         "motd": {
           "interactions": {
-            "route": {
-              "invalidRequestSignature": "अमान्य अनुरोध हस्ताक्षर",
-              "invalidJsonPayload": "अमान्य JSON पेलोड"
-            }
+            "invalidRequestSignature": "अमान्य अनुरोध हस्ताक्षर",
+            "invalidJsonPayload": "अमान्य JSON पेलोड"
           },
           "review": {
-            "route": {
-              "unauthorized": "अनधिकृत",
-              "invalidJsonPayload": "अमान्य JSON पेलोड",
-              "youDoNotHavePermissionToReviewMotds": "आपके पास एमओटीडी की समीक्षा करने की अनुमति नहीं है।",
-              "approvedMotdRequestValue1": "स्वीकृत MOTD अनुरोध {{value1}}।",
-              "requestedRevisionForMotdRequestValue1": "MOTD अनुरोध {{value1}} के लिए अनुरोधित संशोधन।",
-              "motdReviewActionFailed": "MOTD समीक्षा कार्रवाई विफल रही."
-            }
-          }
-        },
-        "registerRoles": {
-          "route": {
-            "firstJoinDate": "प्रथम सम्मिलित होने की तिथि",
-            "daysMinimumBetweenNowAndFirstJoinDate": "अभी और पहली ज्वाइनिंग तिथि के बीच न्यूनतम दिन",
-            "hoursOfTotalPlaytime": "कुल खेल के घंटे",
-            "hoursMinimumOfTotalPlaytime": "कुल खेल के समय के न्यूनतम घंटे",
-            "hoursPlayedLast30Days": "पिछले 30 दिनों में खेले गए घंटे",
-            "hoursMinimumPlayedInTheLast30Days": "पिछले 30 दिनों में न्यूनतम खेले गए घंटे",
-            "rank": "पद",
-            "matchingRank": "मिलान रैंक",
-            "firstJoinYear": "प्रथम सम्मिलित वर्ष",
-            "yearTheUserFirstJoined": "उपयोगकर्ता के पहली बार शामिल होने का वर्ष"
-          }
-        },
-        "widget": {
-          "route": {
-            "failedToFetchDiscordData": "Discord डेटा लाने में विफल"
+            "unauthorized": "अनधिकृत",
+            "invalidJsonPayload": "अमान्य JSON पेलोड",
+            "youDoNotHavePermissionToReviewMotds": "आपके पास एमओटीडी की समीक्षा करने की अनुमति नहीं है।",
+            "approvedMotdRequestValue1": "स्वीकृत MOTD अनुरोध {{value1}}।",
+            "requestedRevisionForMotdRequestValue1": "MOTD अनुरोध {{value1}} के लिए अनुरोधित संशोधन।",
+            "motdReviewActionFailed": "MOTD समीक्षा कार्रवाई विफल रही."
           }
         }
       },
-      "gallery": {
-        "id": {
-          "route": {
-            "imageIdIsRequired": "छवि आईडी आवश्यक है",
-            "imageNotFound": "छवि नहीं मिली",
-            "failedToFetchImageData": "छवि डेटा लाने में विफल",
-            "unknownError": "अज्ञात त्रुटि"
-          }
-        },
-        "route": {
-          "failedToFetchGalleryData": "गैलरी डेटा लाने में विफल",
-          "unknownError": "अज्ञात त्रुटि"
-        }
-      },
-      "hytale": {
-        "players": {
-          "route": {
-            "unknownError": "अज्ञात त्रुटि"
-          }
-        }
-      },
-      "internal": {
-        "communityEvent": {
-          "deliver": {
-            "route": {
-              "unauthorized": "अनधिकृत",
-              "outboxDeliveryFailed": "आउटबॉक्स डिलीवरी विफल रही"
-            }
-          }
-        }
-      },
-      "legendData": {
-        "route": {
-          "usernameParameterIsRequired": "उपयोगकर्ता नाम पैरामीटर आवश्यक है",
-          "noThemeFound": "कोई थीम नहीं मिली",
-          "internalServerError": "आंतरिक सर्वर त्रुटि"
-        }
-      },
+      "text6b6tOrgMetadataApi": "6b6t.org मेटाडेटा API",
+      "online": "ऑनलाइन",
       "legendSubscribers": {
-        "route": {
-          "active": "सक्रिय",
-          "trialing": "परीक्षण",
-          "pastDue": "पिछला बकाया",
-          "unableToLoadLegendSubscribers": "legend ग्राहकों को लोड करने में असमर्थ",
-          "all": "सभी"
-        }
+        "active": "सक्रिय",
+        "trialing": "परीक्षण",
+        "pastDue": "पिछला बकाया",
+        "unableToLoadLegendSubscribers": "legend ग्राहकों को लोड करने में असमर्थ",
+        "all": "सभी"
       },
       "media": {
-        "path": {
-          "route": {
-            "noFilePathProvided": "कोई फ़ाइल पथ प्रदान नहीं किया गया",
-            "invalidFilePath": "अमान्य फ़ाइल पथ",
-            "fileNotFound": "फ़ाइल प्राप्त नहीं हुई",
-            "notAFile": "फ़ाइल नहीं",
-            "internalServerError": "आंतरिक सर्वर त्रुटि"
-          }
-        }
-      },
-      "migrateRedisLinkToMariadb": {
-        "route": {
-          "migrationAuthorizationRequired": "प्रवासन प्राधिकरण आवश्यक है",
-          "unknownErrorParsingTokens": "टोकन पार्स करने में अज्ञात त्रुटि",
-          "unknownErrorParsingMetadata": "मेटाडेटा पार्स करने में अज्ञात त्रुटि",
-          "unknownErrorStoringMapping": "मैपिंग संग्रहीत करने में अज्ञात त्रुटि",
-          "ok": "ठीक है",
-          "unknownMigrationError": "अज्ञात माइग्रेशन त्रुटि",
-          "error": "गलती",
-          "methodNotAllowed": "विधि अनुमत नहीं",
-          "usePostToTriggerTheMigration": "माइग्रेशन को ट्रिगर करने के लिए POST का उपयोग करें।"
+        "text": {
+          "noFilePathProvided": "कोई फ़ाइल पथ प्रदान नहीं किया गया",
+          "invalidFilePath": "अमान्य फ़ाइल पथ",
+          "fileNotFound": "फ़ाइल प्राप्त नहीं हुई"
         }
       },
       "monitoring": {
-        "discordTest": {
-          "route": {
-            "discordWebhookNotConfigured": "Discord वेबहुक कॉन्फ़िगर नहीं किया गया",
-            "discordWebhookTestSentSuccessfully": "Discord वेबहुक परीक्षण सफलतापूर्वक भेजा गया",
-            "discordWebhookTestFailed": "Discord वेबहुक परीक्षण विफल रहा",
-            "internalServerErrorDuringDiscordTest": "Discord परीक्षण के दौरान आंतरिक सर्वर त्रुटि"
-          }
-        },
         "errorReport": {
-          "resolve": {
-            "route": {
-              "missingRequiredFieldsFingerprintId": "आवश्यक फ़ील्ड गुम हैं: फ़िंगरप्रिंट, आईडी",
-              "errorNotFound": "त्रुटि नहीं मिली",
-              "errorMarkedAsResolved": "त्रुटि को समाधान के रूप में चिह्नित किया गया",
-              "internalServerError": "आंतरिक सर्वर त्रुटि"
-            }
-          },
-          "route": {
-            "reportIsTooLarge": "रिपोर्ट बहुत बड़ी है",
-            "invalidJson": "अमान्य JSON",
-            "invalidErrorReport": "अमान्य त्रुटि रिपोर्ट",
-            "tooManyReports": "बहुत सारी रिपोर्टें",
-            "errorLoggedSuccessfully": "त्रुटि सफलतापूर्वक लॉग की गई",
-            "internalServerError": "आंतरिक सर्वर त्रुटि"
-          }
-        }
-      },
-      "motd": {
-        "cron": {
-          "route": {
-            "motdCronSecretIsNotConfigured": "MOTD_CRON_SECRET कॉन्फ़िगर नहीं किया गया है",
-            "unauthorized": "अनधिकृत"
-          }
-        },
-        "myAds": {
-          "route": {
-            "notAuthenticated": "प्रमाणित नहीं",
-            "motdAdStoreIsUnavailable": "MOTD विज्ञापन स्टोर अनुपलब्ध है",
-            "active": "सक्रिय"
-          }
-        }
-      },
-      "playerEffect": {
-        "uuid": {
-          "missingOrInvalidUuid": "गुम या अमान्य uuid",
-          "noEffectFoundForThisPlayer": "इस प्लेयर के लिए कोई प्रभाव नहीं मिला"
-        }
-      },
-      "playerHistory": {
-        "route": {
-          "schedulerAuthorizationRequired": "शेड्यूलर प्राधिकरण की आवश्यकता है",
-          "playerHistoryRecordedSuccessfully": "खिलाड़ी का इतिहास सफलतापूर्वक दर्ज किया गया",
-          "failedToRecordPlayerHistory": "खिलाड़ी का इतिहास रिकॉर्ड करने में विफल",
-          "unknownError": "अज्ञात त्रुटि",
-          "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा",
-          "tooManyDataPointsRequested": "बहुत अधिक डेटा बिंदुओं का अनुरोध किया गया",
-          "failedToFetchPlayerHistory": "खिलाड़ी का इतिहास लाने में विफल"
-        }
-      },
-      "players": {
-        "route": {
-          "playerListUnavailableFromCommandServiceUsingPublicServer": "कमांड सेवा से खिलाड़ियों की सूची अनुपलब्ध है; सार्वजनिक सर्वर स्थिति गणना का उपयोग करना।",
-          "unknownError": "अज्ञात त्रुटि"
+          "reportIsTooLarge": "रिपोर्ट बहुत बड़ी है",
+          "invalidJson": "अमान्य JSON",
+          "invalidErrorReport": "अमान्य त्रुटि रिपोर्ट",
+          "tooManyReports": "बहुत सारी रिपोर्टें",
+          "errorLoggedSuccessfully": "त्रुटि सफलतापूर्वक लॉग की गई",
+          "internalServerError": "आंतरिक सर्वर त्रुटि"
         }
       },
       "printify": {
         "webhook": {
-          "route": {
-            "payloadTooLarge": "पेलोड बहुत बड़ा है",
-            "invalidSignature": "अमान्य हस्ताक्षर",
-            "invalidJson": "अमान्य JSON",
-            "unexpectedResource": "अप्रत्याशित संसाधन",
-            "delivered": "पहुंचा दिया",
-            "shipped": "लादा गया"
-          }
-        }
-      },
-      "recover": {
-        "blockChallenge": {
-          "route": {
-            "invalidJsonPayload": "अमान्य JSON पेलोड",
-            "missingOrInvalidBlockToken": "गुम या अमान्य ब्लॉक टोकन."
-          }
-        },
-        "manual": {
-          "route": {
-            "invalidJsonPayload": "अमान्य JSON पेलोड",
-            "captchaVerificationFailed": "कैप्चा सत्यापन विफल रहा",
-            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "पुनर्प्राप्ति सत्र समाप्त या अमान्य है. कृपया पुनर्प्राप्ति पुनः प्रारंभ करें.",
-            "yourRequestWasReceivedIfTheAccountExistsAnd": "आपका अनुरोध प्राप्त हुआ. यदि खाता मौजूद है और दिए गए साक्ष्य को सत्यापित किया जा सकता है, तो समर्थन आपसे संपर्क करेगा।",
-            "manualReviewIsNotAvailableForThisRecoverySession": "इस पुनर्प्राप्ति सत्र के लिए अभी तक मैन्युअल समीक्षा उपलब्ध नहीं है. पहले पुनर्प्राप्ति प्रवाह जारी रखें.",
-            "recoveryTicketStoreIsUnavailable": "रिकवरी टिकट स्टोर अनुपलब्ध है",
-            "pending": "लंबित",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "इस खाते के लिए एक लंबित मैन्युअल समीक्षा टिकट पहले से मौजूद है। कृपया समीक्षा की प्रतीक्षा करें.",
-            "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "खाता स्वामी को सूचित नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "खाता-स्वामी अधिसूचना को इस मैन्युअल टिकट से लिंक नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "मैन्युअल पुनर्प्राप्ति टिकट सफलतापूर्वक सबमिट किया गया. सहायता टीम इसकी समीक्षा करेगी."
-          }
-        },
-        "resetPassword": {
-          "route": {
-            "invalidJsonPayload": "अमान्य JSON पेलोड",
-            "invalidOrMissingResetToken": "अमान्य या अनुपलब्ध रीसेट टोकन.",
-            "passwordMustBeAtLeast8Characters": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए।",
-            "passwordIsTooLong": "पासवर्ड बहुत लंबा है.",
-            "resetLinkHasExpiredOrIsInvalidPleaseContact": "रीसेट लिंक समाप्त हो गया है या अमान्य है. कृपया समर्थन से संपर्क करें.",
-            "passwordHasBeenResetSuccessfullyYouCanNowLog": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है. अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।"
-          }
-        },
-        "route": {
-          "ifThisAccountExistsRecoveryOptionsWillBeShown": "यदि यह खाता मौजूद है, तो पुनर्प्राप्ति विकल्प दिखाए जाएंगे।",
-          "verificationAlreadyIssued": "सत्यापन पहले ही जारी किया जा चुका है",
-          "verificationEmailUnavailable": "सत्यापन_ईमेल_अनुपलब्ध",
-          "emailProviderIsNotConfiguredInThisEnvironmentUse": "ईमेल प्रदाता इस परिवेश में कॉन्फ़िगर नहीं किया गया है. स्थानीय परीक्षण के लिए डेवलपमेंटकोड का उपयोग करें।",
-          "captchaVerificationFailed": "कैप्चा सत्यापन विफल रहा",
-          "tooManyRecoveryAttemptsPleaseTryAgainLater": "पुनर्प्राप्ति के बहुत अधिक प्रयास. कृपया बाद में पुन: प्रयास करें।",
-          "rowdatapacket": "RowDataPacket",
-          "recoverySessionExpiredPleaseStartAgain": "पुनर्प्राप्ति सत्र समाप्त हो गया. कृपया पुनः प्रारंभ करें.",
-          "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "स्वचालित सत्यापन उपलब्ध नहीं है. यदि आपको लगता है कि यह खाता आपका स्वामी है तो मैन्युअल समीक्षा अनुरोध सबमिट करें।",
-          "inGameVerificationIsRequiredUseEmailchangeInGame": "इन-गेम सत्यापन आवश्यक है. गेम में /emailchange का उपयोग करें, फिर सत्यापन पूरा करें।",
-          "recoverySessionInvalidOrExpired": "पुनर्प्राप्ति सत्र अमान्य या समाप्त हो गया.",
-          "recoverySessionExpiredPleaseRestart": "पुनर्प्राप्ति सत्र समाप्त हो गया. कृपया पुनः प्रारंभ करें।",
-          "invalidLaneForScoreStep": "स्कोर चरण के लिए अमान्य लेन.",
-          "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "असफल सत्यापन प्रयासों के बाद इस खाते के लिए स्वचालित पुनर्प्राप्ति अस्थायी रूप से लॉक कर दी गई है। मैन्युअल समीक्षा सबमिट करें या बाद में पुनः प्रयास करें।",
-          "publicProofHasAlreadyBeenSubmittedForThisSession": "इस सत्र के लिए सार्वजनिक प्रमाण पहले ही प्रस्तुत किया जा चुका है। अगले चरण के साथ जारी रखें या पुनर्प्राप्ति पुनः आरंभ करें।",
-          "identityScorePassedHoweverDueToAccountSecurityPolicies": "पहचान अंक उत्तीर्ण. हालाँकि, खाता सुरक्षा नीतियों के कारण, मैन्युअल समीक्षा की आवश्यकता होती है।",
-          "identityScorePassedButANewEmailIsRequired": "पहचान स्कोर उत्तीर्ण हुआ, लेकिन स्वचालित पुनर्प्राप्ति जारी रखने के लिए एक नए ईमेल की आवश्यकता है।",
-          "identityScorePassedButWeCouldNotDeliverA": "पहचान स्कोर पास हो गया, लेकिन हम सत्यापन ईमेल नहीं दे सके। मैन्युअल समीक्षा सबमिट करें.",
-          "identityScorePassedEnterTheVerificationCodeSentTo": "पहचान अंक उत्तीर्ण. अपने नए ईमेल पर भेजा गया सत्यापन कोड दर्ज करें।",
-          "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "अंतिम निर्णय लेने से पहले अतिरिक्त निजी विवरण की आवश्यकता होती है।",
-          "ifAnAccountWithThisUsernameExistsAndIs": "यदि इस उपयोगकर्ता नाम वाला कोई खाता मौजूद है और पुनर्प्राप्त करने योग्य है, तो ईमेल निर्देश भेजे जाएंगे।",
-          "publicScoreStepMustBeCompletedFirst": "सार्वजनिक स्कोर चरण पहले पूरा किया जाना चाहिए।",
-          "privateProofHasAlreadyBeenSubmittedForThisSession": "इस सत्र के लिए निजी प्रमाण पहले ही प्रस्तुत किया जा चुका है। मैन्युअल समीक्षा सबमिट करें या पुनर्प्राप्ति पुनः आरंभ करें।",
-          "identityScorePassedButNoNewEmailWasProvided": "पहचान स्कोर उत्तीर्ण हुआ, लेकिन कोई नया ईमेल प्रदान नहीं किया गया। मैन्युअल समीक्षा सबमिट करें.",
-          "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "निजी जाँच के बाद स्वचालित सत्यापन विफल रहा। मैन्युअल समीक्षा टिकट सबमिट करें.",
-          "noPendingEmailVerificationInThisSession": "इस सत्र में कोई भी ईमेल सत्यापन लंबित नहीं है।",
-          "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "अधिकतम सत्यापन प्रयास पहुंच गए. पुनर्प्राप्ति सत्र अमान्य कर दिया गया है. कृपया पुनः प्रारंभ करें.",
-          "verificationCodeExpiredOrIsNoLongerValid": "सत्यापन कोड समाप्त हो गया है या अब मान्य नहीं है।",
-          "invalidVerificationCode": "अवैध सत्यापन संकेत।",
-          "emailVerifiedButTheGameServerEmailAvailabilityCheck": "ईमेल सत्यापित है, लेकिन गेम-सर्वर ईमेल उपलब्धता जांच उपलब्ध नहीं है। मैन्युअल समीक्षा सबमिट करें.",
-          "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "यह ईमेल पता पहले से ही किसी अन्य खाते से संबद्ध है.",
-          "emailVerifiedButTheGameServerEmailUpdateEndpoint": "ईमेल सत्यापित है, लेकिन गेम-सर्वर ईमेल अपडेट एंडपॉइंट कॉन्फ़िगर नहीं किया गया है। मैन्युअल समीक्षा सबमिट करें.",
-          "emailVerifiedYouCanProceedToPasswordReset": "ईमेल सत्यापित. आप पासवर्ड रीसेट करने के लिए आगे बढ़ सकते हैं.",
-          "inGameVerificationIsNotActive": "इन-गेम सत्यापन सक्रिय नहीं है.",
-          "tooManyIncorrectInGameCodesPleaseRestartRecovery": "गेम में बहुत सारे गलत कोड। कृपया पुनर्प्राप्ति पुनः आरंभ करें और एक नए कोड का अनुरोध करें।",
-          "invalidOrExpiredInGameCode": "इन-गेम कोड अमान्य या समाप्त हो चुका है।",
-          "enterTheNewTargetEmailBeforeVerifyingTheIn": "इन-गेम ईमेल-परिवर्तन कोड को सत्यापित करने से पहले नया लक्ष्य ईमेल दर्ज करें।",
-          "inGameCodeVerifiedButWeCouldNotDeliver": "इन-गेम कोड सत्यापित है, लेकिन हम सत्यापन ईमेल नहीं दे सके। मैन्युअल समीक्षा सबमिट करें.",
-          "inGameCodeVerifiedEnterTheVerificationCodeSent": "इन-गेम कोड सत्यापित। अपने नए ईमेल पर भेजा गया सत्यापन कोड दर्ज करें।",
-          "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
-          "theGracePeriodIsStillActivePleaseWaitFor": "अनुग्रह अवधि अभी भी सक्रिय है. कृपया इसके समाप्त होने तक प्रतीक्षा करें.",
-          "theGracePeriodHasElapsedYouMayNowStart": "अनुग्रह अवधि समाप्त हो गई है. अब आप पहचान सत्यापन के लिए आगे बढ़ने के लिए एक नया पुनर्प्राप्ति सत्र शुरू कर सकते हैं।",
-          "couldNotCheckGracePeriodStatus": "अनुग्रह अवधि की स्थिति की जाँच नहीं की जा सकी.",
-          "noActiveGracePeriodChallengeFoundForThisAccount": "इस खाते के लिए कोई सक्रिय अनुग्रह अवधि चुनौती नहीं मिली।",
-          "invalidRecoverySession": "अमान्य पुनर्प्राप्ति सत्र.",
-          "sessionHasNotBeenApprovedForPasswordResetComplete": "पासवर्ड रीसेट के लिए सत्र स्वीकृत नहीं किया गया है. पहले ईमेल सत्यापन पूरा करें.",
-          "passwordResetIsAlreadyBeingProcessedForThisSession": "इस सत्र के लिए पासवर्ड रीसेट पहले से ही संसाधित किया जा रहा है।",
-          "passwordHasBeenResetSuccessfully": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है.",
-          "invalidJsonPayload": "अमान्य JSON पेलोड",
-          "invalidRecoveryAction": "अमान्य पुनर्प्राप्ति कार्रवाई",
-          "unhandledRecoveryAction": "असंचालित पुनर्प्राप्ति कार्रवाई"
-        }
-      },
-      "route": {
-        "text6b6tOrgMetadataApi": "6b6t.org मेटाडेटा API",
-        "online": "ऑनलाइन"
-      },
-      "serverStatus": {
-        "route": {
-          "unknown": "अज्ञात",
-          "error": "गलती",
-          "failedToFetchServerStatus": "सर्वर स्थिति लाने में विफल"
+          "payloadTooLarge": "पेलोड बहुत बड़ा है",
+          "invalidSignature": "अमान्य हस्ताक्षर",
+          "invalidJson": "अमान्य JSON",
+          "unexpectedResource": "अप्रत्याशित संसाधन",
+          "delivered": "पहुंचा दिया",
+          "shipped": "लादा गया"
         }
       },
       "stripe": {
-        "route": {
-          "unknownError": "अज्ञात त्रुटि",
-          "webhookErrorValue1": "वेबहुक त्रुटि: {{value1}}",
-          "alreadyProcessed": "पहले से ही संसाधित",
-          "received": "प्राप्त",
-          "unhandledEventType": "हैंडल न किया गया इवेंट प्रकार",
-          "webhookHandlerFailed": "वेबहुक हैंडलर विफल",
-          "completed": "पुरा होना"
-        }
+        "unknownError": "अज्ञात त्रुटि",
+        "webhookErrorValue1": "वेबहुक त्रुटि: {{value1}}",
+        "alreadyProcessed": "पहले से ही संसाधित",
+        "received": "प्राप्त",
+        "unhandledEventType": "हैंडल न किया गया इवेंट प्रकार",
+        "webhookHandlerFailed": "वेबहुक हैंडलर विफल",
+        "completed": "पुरा होना"
       },
       "tebex": {
-        "route": {
-          "pending": "लंबित",
-          "lost": "खो गया",
-          "payloadTooLarge": "पेलोड बहुत बड़ा है",
-          "missingSignature": "गुम हस्ताक्षर",
-          "invalidSignature": "अमान्य हस्ताक्षर",
-          "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
-          "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
-        },
-        "status": {
-          "route": {
-            "pending": "लंबित"
-          }
-        }
+        "pending": "लंबित",
+        "lost": "खो गया",
+        "payloadTooLarge": "पेलोड बहुत बड़ा है",
+        "missingSignature": "गुम हस्ताक्षर",
+        "invalidSignature": "अमान्य हस्ताक्षर",
+        "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
+        "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "telegram": {
-        "reconcile": {
-          "route": {
-            "missingTelegramReconcileCronSecret": "TELEGRAM_RECONCILE_CRON_SECRET गुम है.",
-            "unauthorized": "अनाधिकृत."
-          }
-        },
-        "start": {
-          "route": {
-            "youMustBeLoggedInToLinkTelegram": "टेलीग्राम को लिंक करने के लिए आपको लॉग इन होना होगा।",
-            "telegramLinkingIsNotEnabledForYourAccountYet": "आपके खाते के लिए टेलीग्राम लिंकिंग अभी तक सक्षम नहीं है।",
-            "theLoggedInMinecraftUsernameIsInvalid": "लॉग-इन Minecraft उपयोगकर्ता नाम अमान्य है।",
-            "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. TELEGRAM_BOT_USERNAME गुम है.",
-            "invalidRequestPayload": "अमान्य अनुरोध पेलोड.",
-            "invalidJsonBody": "अमान्य JSON बॉडी.",
-            "telegramLoginIsNotConfiguredMissingCookieSecretOn": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. सर्वर पर COOKIE_SECRET गुम है।"
-          }
-        },
         "webhook": {
-          "route": {
-            "missingTelegramWebhookSecret": "TELEGRAM_WEBHOOK_SECRET गुम है.",
-            "unauthorizedWebhookRequest": "अनधिकृत वेबहुक अनुरोध.",
-            "missingTelegramChannelId": "TELEGRAM_CHANNEL_ID गुम है.",
-            "invalidJsonPayload": "अमान्य JSON पेलोड.",
-            "failedToRevokeTelegramPerks": "टेलीग्राम अनुलाभों को रद्द करने में विफल.",
-            "failedToRemoveMembershipMapping": "सदस्यता मैपिंग हटाने में विफल.",
-            "failedToUpdateMembershipState": "सदस्यता स्थिति अद्यतन करने में विफल.",
-            "failedToGrantTelegramPerks": "टेलीग्राम फ़ायदे देने में विफल.",
-            "failedToFinalizeTelegramPerksState": "टेलीग्राम अनुलाभों की स्थिति को अंतिम रूप देने में विफल।"
-          }
+          "missingTelegramWebhookSecret": "TELEGRAM_WEBHOOK_SECRET गुम है.",
+          "unauthorizedWebhookRequest": "अनधिकृत वेबहुक अनुरोध.",
+          "missingTelegramChannelId": "TELEGRAM_CHANNEL_ID गुम है.",
+          "invalidJsonPayload": "अमान्य JSON पेलोड.",
+          "failedToRevokeTelegramPerks": "टेलीग्राम अनुलाभों को रद्द करने में विफल.",
+          "failedToRemoveMembershipMapping": "सदस्यता मैपिंग हटाने में विफल.",
+          "failedToUpdateMembershipState": "सदस्यता स्थिति अद्यतन करने में विफल.",
+          "failedToGrantTelegramPerks": "टेलीग्राम फ़ायदे देने में विफल.",
+          "failedToFinalizeTelegramPerksState": "टेलीग्राम अनुलाभों की स्थिति को अंतिम रूप देने में विफल।"
         }
       },
       "uptime": {
-        "route": {
-          "schedulerAuthorizationRequired": "शेड्यूलर प्राधिकरण की आवश्यकता है",
-          "serverUptimeCheckCompleted": "सर्वर अपटाइम जांच पूरी हुई",
-          "failedToCheckServerUptime": "सर्वर अपटाइम जांचने में विफल",
-          "unknownError": "अज्ञात त्रुटि",
-          "serveruptimeModelNotAvailable": "सर्वरअपटाइम मॉडल उपलब्ध नहीं है",
-          "failedToFetchUptimeData": "अपटाइम डेटा लाने में विफल"
-        }
-      },
-      "youtube": {
-        "channel": {
-          "route": {
-            "youtubeApiNotConfigured": "YouTube API कॉन्फ़िगर नहीं किया गया",
-            "youtubeApiChannelSearchErrorValue1": "YouTube API चैनल खोज त्रुटि: {{value1}}",
-            "noChannelsFoundFor6b6t": "6b6t के लिए कोई चैनल नहीं मिला"
-          }
-        },
-        "shorts": {
-          "route": {
-            "maxres1280x720": "अधिकतम (1280x720)",
-            "standard640x480": "मानक (640x480)",
-            "youtubeApiNotConfigured": "YouTube API कॉन्फ़िगर नहीं किया गया",
-            "youtubeApiChannelSearchErrorValue1": "YouTube API चैनल खोज त्रुटि: {{value1}}",
-            "text6b6tChannelNotFound": "6b6t चैनल नहीं मिला",
-            "youtubeApiErrorValue1": "YouTube API त्रुटि: {{value1}}",
-            "noVideosFoundForThisChannel": "इस चैनल के लिए कोई वीडियो नहीं मिला",
-            "noYoutubeShortsFoundForThisChannel": "इस चैनल के लिए कोई YouTube शॉर्ट्स नहीं मिला"
-          }
-        }
+        "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा",
+        "failedToFetchUptimeData": "अपटाइम डेटा लाने में विफल",
+        "unknownError": "अज्ञात त्रुटि"
       }
     },
     "lib": {
       "admin": {
         "auth": {
-          "adminModelNotAvailable": "व्यवस्थापक मॉडल उपलब्ध नहीं है",
           "adminWithThisEmailAlreadyExists": "इस ईमेल वाला व्यवस्थापक पहले से मौजूद है",
           "unknownError": "अज्ञात त्रुटि",
           "invalidCredentials": "अवैध प्रत्यय पत्र",
-          "databaseModelNotAvailable": "डेटाबेस मॉडल उपलब्ध नहीं है",
           "adminSessionNotFound": "व्यवस्थापक सत्र नहीं मिला",
           "adminNotFound": "व्यवस्थापक नहीं मिला"
-        },
-        "monitoringAuth": {
-          "notAuthenticated": "प्रमाणित नहीं",
-          "invalidSession": "अमान्य सत्र",
-          "unauthorized": "अनधिकृत"
-        },
-        "motdAuth": {
-          "notAuthenticated": "प्रमाणित नहीं",
-          "invalidSession": "अमान्य सत्र",
-          "unauthorized": "अनधिकृत"
-        }
-      },
-      "antispam": {
-        "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "एसिंकचैट MySQL"
-        }
-      },
-      "asyncchat": {
-        "mysqlClient": {
-          "asyncchat": "asyncchat",
-          "asyncchatMysql": "एसिंकचैट MySQL"
-        }
-      },
-      "auth": {
-        "enderdashOauth": {
-          "enderdash": "EnderDash"
         }
       },
       "commandService": {
         "commands": {
           "unknownCommandServiceError": "अज्ञात आदेश सेवा त्रुटि"
         }
+      },
+      "communityEventRateLimit": {
+        "tooManyRequests": "बहुत सारे अनुरोध",
+        "communityEventIsTemporarilyUnavailable": "सामुदायिक कार्यक्रम अस्थायी रूप से अनुपलब्ध है"
+      },
+      "communityEventStore": {
+        "active": "सक्रिय"
       },
       "communityEvent": {
         "rank": "पद",
@@ -744,24 +221,10 @@
         }
       },
       "db": {
-        "mysqlPool": {
-          "mysqlValue1": "MySQL:{{value1}}"
-        },
-        "schemas": {
-          "motdAd": {
-            "active": "सक्रिय"
-          },
-          "recoveryTicket": {
-            "pending": "लंबित",
-            "uniquePendingRecoveryTicketPerUsername": "अद्वितीय_लंबित_वसूली_टिकट_प्रति_उपयोगकर्ता नाम"
-          }
-        },
         "shopAnalytics": {
-          "shopsessionModelNotAvailable": "शॉपसेशन मॉडल उपलब्ध नहीं है",
           "sessionUpdateReturnedNull": "सत्र अद्यतन शून्य लौटा",
           "unknownError": "अज्ञात त्रुटि",
           "sessionNotFound": "सत्र नहीं मिला",
-          "transactionModelNotAvailable": "लेन-देन मॉडल उपलब्ध नहीं है",
           "transactionUpdateReturnedNull": "लेन-देन अद्यतन शून्य लौटा",
           "refunded": "वापस कर दी",
           "completed": "पुरा होना",
@@ -785,20 +248,7 @@
         "november52024": "5 नवंबर 2024",
         "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "6b6t गैलरी - सामुदायिक स्क्रीनशॉट और अराजकता सर्वर से क्षण"
       },
-      "hooks": {
-        "useGallery": {
-          "failedToFetchGalleryData": "गैलरी डेटा लाने में विफल",
-          "failedToFetchImageData": "छवि डेटा लाने में विफल"
-        }
-      },
       "link": {
-        "mariadbClient": {
-          "text6b6tLink": "6b6t_link",
-          "linkMysql": "MySQL को लिंक करें"
-        },
-        "redis": {
-          "text6b6tWebsite": "6b6t-website"
-        },
         "telegramMembership": {
           "unknownError": "अज्ञात त्रुटि"
         }
@@ -835,10 +285,9 @@
           "smtpSendFailed": "smtp_send_असफल"
         },
         "manual": {
-          "active": "सक्रिय"
+          "completed": "पुरा होना"
         },
         "minimessage": {
-          "ᴀᴅ": "ᴀᴅ",
           "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "असमर्थित MiniMessage टैग <{{value1}}>. केवल रंग, बोल्ड, इटैलिक, अंडरलाइन और स्ट्राइकथ्रू की अनुमति है।",
           "legacyMinecraftColorCodesAreNotAllowed": "लीगेसी Minecraft रंग कोड की अनुमति नहीं है।"
         },
@@ -852,20 +301,19 @@
         },
         "payments": {
           "duplicateCheckoutCompletedWebhookIgnored": "डुप्लिकेट चेकआउट.पूर्ण वेबहुक को नजरअंदाज कर दिया गया",
+          "refunded": "वापस कर दी",
           "completed": "पुरा होना"
         },
         "queue": {
-          "checkoutStarted": "चेकआउट_प्रारंभ",
           "checkoutExpired": "चेकआउट_समाप्त",
+          "checkoutStarted": "चेकआउट_प्रारंभ",
           "reservationReleasedAfterCheckoutCreationFailed": "चेकआउट निर्माण विफल होने के बाद आरक्षण जारी किया गया",
-          "paidPendingReview": "भुगतान_लंबित_समीक्षा",
           "approvedQueued": "स्वीकृत_कतारबद्ध",
           "revisionRequested": "पुनरीक्षण_अनुरोध",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "भुगतान प्रदाता की ओर से कोई ग्राहक ईमेल उपलब्ध नहीं था",
           "cancelled": "रद्द कर दिया गया",
-          "refundFailed": "रिफंड_असफल",
-          "active": "सक्रिय",
-          "failed": "असफल"
+          "completed": "पुरा होना",
+          "active": "सक्रिय"
         },
         "refunds": {
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem धनवापसी समापन बिंदु कॉन्फ़िगर नहीं किया गया है; Creem में रिफंड जारी करें और वेबहुक से /confirm पुनः प्रयास करें।",
@@ -873,10 +321,12 @@
           "creemRefundRequestFailedWithStatusValue1": "Creem स्थिति {{value1}} के साथ धनवापसी अनुरोध विफल रहा"
         }
       },
+      "playerHistoryInput": {
+        "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा"
+      },
       "printify": {
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "भौतिक उत्पाद पूर्ति अभी तक खुली नहीं है।",
-          "completed": "पुरा होना",
           "delivered": "पहुंचा दिया",
           "unknownError": "अज्ञात त्रुटि",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "भौतिक उत्पाद पूर्ति अस्थायी रूप से अनुपलब्ध है।",
@@ -902,11 +352,6 @@
           "legendRankThreePaid1MonthPeriodsMug": "Legend रैंक (तीन भुगतान वाली 1-महीने की अवधि) - मग"
         }
       },
-      "rankColors": {
-        "text55ffff": "पाठ-[#55एफएफएफएफ]",
-        "textFfff55": "पाठ-[#FFFF55]",
-        "textFfaa00": "पाठ-[#FFAA00]"
-      },
       "recovery": {
         "email": {
           "smtpSendFailed": "smtp_send_असफल",
@@ -922,24 +367,21 @@
           "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "यह पुनर्प्राप्ति प्रयास अवरुद्ध कर दिया गया था क्योंकि खाता अनुग्रह अवधि के दौरान सर्वर में लॉग इन हुआ था।",
           "pending": "लंबित",
           "consumed": "ग्रहण किया हुआ",
-          "expired": "खत्म हो चुका",
           "blocked": "अवरोधित",
           "notApplicable": "लागू नहीं",
           "error": "गलती",
-          "databaseModelUnavailable": "डेटाबेस मॉडल अनुपलब्ध",
-          "theAccountOwnerNotificationPassWasAlreadyConsumedStart": "खाता-स्वामी अधिसूचना पास पहले ही ख़त्म हो चुका था। पुनः पुनर्प्राप्ति प्रारंभ करें.",
-          "passed": "उत्तीर्ण",
           "failedToCreateChallenge": "चुनौती पैदा करने में विफल",
           "smtpSendFailed": "smtp_send_असफल",
+          "expired": "खत्म हो चुका",
           "failedToNotifyTheAccountOwnerByEmail": "खाता स्वामी को ईमेल द्वारा सूचित करने में विफल.",
           "created": "बनाया था",
-          "serviceUnavailable": "सेवा अनुपलब्ध है",
           "invalidOrExpiredBlockToken": "अमान्य या समाप्त ब्लॉक टोकन.",
           "thisRecoveryAttemptWasAlreadyBlocked": "पुनर्प्राप्ति का यह प्रयास पहले ही अवरुद्ध कर दिया गया था.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "इस चुनौती के लिए छूट अवधि पहले ही समाप्त हो चुकी है और इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "यह पुनर्प्राप्ति चुनौती पहले ही समाप्त हो चुकी है और अब इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "यह पुनर्प्राप्ति प्रयास पहले से ही एक सुपर एडमिन द्वारा अनुमोदित किया गया था और इसे अवरुद्ध नहीं किया जा सकता है।",
           "recoveryAttemptHasBeenBlockedSuccessfully": "पुनर्प्राप्ति प्रयास सफलतापूर्वक अवरुद्ध कर दिया गया है.",
+          "passed": "उत्तीर्ण",
           "missing": "गुम",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "खाता-स्वामी अधिसूचना पास पहले ही ख़त्म हो चुका था।",
@@ -948,6 +390,8 @@
           "thisGracePeriodHasAlreadyElapsed": "यह छूट अवधि पहले ही समाप्त हो चुकी है.",
           "thisGracePeriodHasAlreadyBeenConsumed": "यह अनुग्रह अवधि पहले ही समाप्त हो चुकी है।",
           "thisGracePeriodWasAlreadyApprovedByASuper": "यह अनुग्रह अवधि पहले ही एक सुपर एडमिन द्वारा अनुमोदित कर दी गई थी।",
+          "adminApproved": "admin_approved",
+          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
           "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "अनुग्रह अवधि स्वीकृत. अनुरोधकर्ता अब पुनर्प्राप्ति जारी रख सकता है."
         },
         "hcaptcha": {
@@ -955,14 +399,6 @@
           "missingToken": "missing_token",
           "httpValue1": "http_{{value1}}",
           "verificationFailed": "सत्यापन में विफल रहा"
-        },
-        "proofVerification": {
-          "proofTypeDoesNotRequireTransactionVerification": "प्रमाण प्रकार के लिए लेनदेन सत्यापन की आवश्यकता नहीं है।",
-          "transactionStoreIsUnavailableForVerification": "लेनदेन स्टोर सत्यापन के लिए उपलब्ध नहीं है.",
-          "noStripeSessionEmailIdentifierFoundInSubmittedProof": "प्रस्तुत प्रमाण विवरण में कोई Stripe/session/email पहचानकर्ता नहीं मिला।",
-          "noMatchingTransactionWasFoundForTheSubmittedProof": "प्रस्तुत प्रमाण के लिए कोई मिलान लेनदेन नहीं मिला।",
-          "proofMatchedTransactionIdentifiersButNotForTheSame": "प्रमाण लेनदेन पहचानकर्ताओं से मेल खाता है, लेकिन समान Minecraft उपयोगकर्ता नाम के लिए नहीं।",
-          "transactionProofVerifiedByValue1Value2": "{{value1}}.{{value2}} द्वारा सत्यापित लेनदेन प्रमाण"
         },
         "provider": {
           "unavailable": "अनुपलब्ध",
@@ -981,20 +417,27 @@
           "invalidOrExpiredInGameCode": "इन-गेम कोड अमान्य या समाप्त हो चुका है।",
           "inGameVerificationServiceIsUnavailable": "इन-गेम सत्यापन सेवा उपलब्ध नहीं है."
         },
-        "redis": {
+        "sessions": {
           "expired": "खत्म हो चुका",
-          "valid": "वैध",
           "exhausted": "थका हुआ",
+          "valid": "वैध",
           "invalid": "अमान्य"
         }
+      },
+      "requestRateLimit": {
+        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
+        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
       },
       "seoUtil": {
         "text6b6t": "6b6t"
       },
+      "seo": {
+        "description": "description",
+        "keywords": "keywords",
+        "robots": "robots",
+        "googlebot": "googlebot"
+      },
       "shop": {
-        "apexGifts": {
-          "completed": "पुरा होना"
-        },
         "legend": {
           "lifetime": "LIFETIME",
           "lifetime2Apex": "LIFETIME + 2 APEX",
@@ -1003,89 +446,7 @@
         },
         "ranks": {
           "unknownError": "अज्ञात त्रुटि",
-          "primePrefix": "Prime उपसर्ग",
-          "primeDiscordRank": "Prime Discord रैंक",
-          "text12Homes": "12 घर",
-          "ignoreUpTo2000Players": "2000 खिलाड़ियों तक को अनदेखा करें",
-          "lowerTpaHomeCooldowns": "निचला /tpa और /home कूलडाउन",
-          "contact": "संपर्क",
-          "contact6b6tOrg": "contact@6b6t.org",
-          "ifYouHaveAnyQuestions": "यदि आपके कोई प्रश्न हैं तो",
-          "text24PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 24 अंक",
-          "primeUltraPrefix": "Prime Ultra उपसर्ग",
-          "primeUltraDiscordRank": "Prime Ultra Discord रैंक",
-          "text18Homes": "18 घर",
-          "hatSkinSitInvisframe": "/hat और /skin और /sit और /invisframe",
-          "text3BalloonsWithBalloons": "/balloons के साथ 3 गुब्बारे",
-          "uniqueChatColorWithChatcolor": "/chatcolor के साथ अनोखा चैट रंग",
-          "accessToAdvertisingIn6b6tDiscord": "6b6t Discord में #विज्ञापन तक पहुंच",
-          "text9PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 9 अंक",
-          "text30PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 30 अंक",
-          "text63PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 63 अंक",
-          "elitePrefix": "Elite उपसर्ग",
-          "eliteDiscordRank": "Elite Discord रैंक",
-          "text30Homes": "30 घर",
-          "ignoreUpTo5000Players": "5000 खिलाड़ियों तक को अनदेखा करें",
-          "hotspotCreate": "और /hotspot बनाएं",
-          "text5BalloonsWithBalloons": "/balloons के साथ 5 गुब्बारे",
-          "text100PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 100 अंक",
-          "text76PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 76 अंक",
-          "eliteUltraPrefix": "Elite Ultra उपसर्ग",
-          "eliteUltraDiscordRank": "Elite Ultra Discord रैंक",
-          "text50Homes": "50 घर",
-          "hotspotColorToChangeTheBossbarColorIn3": "बॉसबार रंग को 3 रंगों में बदलने के लिए /hotspot रंग",
-          "text30BalloonsWithBalloons": "/balloons के साथ 30 गुब्बारे",
-          "useColorsInAnvils": "निहाई में रंगों का प्रयोग करें",
-          "text26PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 26 अंक",
-          "text95PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 95 अंक",
-          "text175PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 175 अंक",
-          "apexDiscordRank": "Apex Discord रैंक",
-          "text100Homes": "100 घर",
-          "text40BalloonsWithBalloons": "/balloons के साथ 40 गुब्बारे",
-          "skinHatSit": "/skin और /hat और /sit",
-          "buildermodeWith32RenderDistance": "32 रेंडर दूरी के साथ /buildermode",
-          "hotspotCreateWith90MinuteLengthAnd60Minute": "/hotspot 90 मिनट की लंबाई और 60 मिनट के कोल्डाउन के साथ बनाएं",
-          "useColorsInAnvilsWithTheSignForExample": "निहाई में & चिह्न के साथ रंगों का उपयोग करें, उदाहरण के लिए: &aHello",
-          "useUnderlineStrikethroughAndItalicInAnvilsWithThe": "& चिह्न के साथ निहाई में अंडरलाइन, स्ट्राइकथ्रू और इटैलिक का उपयोग करें",
-          "text30sTpaCooldown": "30s /tpa कूलडाउन",
-          "text15sHomeCooldown": "15s /home कूलडाउन",
-          "accessTo5ChatColorsInChatcolor": "/chatcolor में 5 चैट रंगों तक पहुंच",
-          "changeItemNameColorsInAnvils": "निहाई में आइटम का नाम रंग बदलें",
-          "changeColorOfConnectionMessagesWithConnectionmsgsColor": "कनेक्शन संदेशों का रंग /connectionmsgs रंग से बदलें",
-          "changeColorOfDeathMessagesWithDeathmsgsColor": "/deathmsgs रंग से मृत्यु संदेशों का रंग बदलें",
-          "accessToAdvertisingCommunityProjects": "#विज्ञापन और #सामुदायिक-परियोजनाओं तक पहुंच",
-          "embedLinksPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में लिंक अनुमति एम्बेड करें",
-          "attachFilesPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में फ़ाइलें अनुमति संलग्न करें",
-          "addReactionsPermissionInGeneralIn6b6tDiscord": "6b6t Discord में #सामान्य में प्रतिक्रिया अनुमति जोड़ें",
-          "changeNicknamePermissionIn6b6tDiscord": "6b6t Discord में उपनाम अनुमति बदलें",
-          "streamingPermissionIn6b6tDiscord": "6b6t Discord में स्ट्रीमिंग की अनुमति",
-          "accessTo10RankOnlyChannelsIn6b6tDiscord": "6b6t Discord में केवल 10+ रैंक वाले चैनलों तक पहुंच",
-          "prioritySupportUsingPremiumTicketsChannelIn6b6tDiscord": "6b6t Discord में #प्रीमियम-टिकट चैनल का उपयोग करके प्राथमिकता समर्थन",
-          "legendPrefix": "Legend उपसर्ग",
-          "legendDiscordRank": "Legend Discord रैंक",
-          "text500Homes": "500 घर",
-          "text70BalloonsWithBalloons": "/balloons के साथ 70 गुब्बारे",
-          "cigarLightUpCigarsInMinecraft": "/cigar - Minecraft में सिगार जलाएं!",
-          "buildermodeHomeLtHomeGtAutomaticallyEnableBuilderMode": "/buildermode होम &lt;home&gt; - जब आप किसी चुने हुए घर पर टेलीपोर्ट करते हैं तो स्वचालित रूप से बिल्डर मोड सक्षम हो जाता है",
-          "hotspotCreateWith120MinuteLengthAnd80Minute": "/hotspot 120 मिनट की लंबाई और 80 मिनट के कोल्डाउन के साथ बनाएं",
-          "hotspotNameChangeTheNameOfHotspots": "/hotspot नाम - हॉटस्पॉट का नाम बदलें",
-          "hotspotGlowApplyAGlowEffectToEveryoneThat": "/hotspot चमक - आपके हॉटस्पॉट पर टेलीपोर्ट किए गए सभी लोगों पर चमक प्रभाव लागू करें",
-          "hotspotBalloonApplyABalloonToEveryoneThatTeleported": "/hotspot गुब्बारा - आपके हॉटस्पॉट पर टेलीपोर्ट किए गए प्रत्येक व्यक्ति पर एक गुब्बारा लगाएं",
-          "useBoldInAnvilsWithTheSign": "निहाई में & चिह्न के साथ बोल्ड का प्रयोग करें",
-          "text10sTpaCooldown": "10s /tpa कूलडाउन",
-          "text10sHomeCooldown": "10s /home कूलडाउन",
-          "itTakes3sInsteadOf15sToTeleportTo": "/tpa का उपयोग करने वाले किसी व्यक्ति को टेलीपोर्ट करने में 15 के बजाय 3 सेकंड लगते हैं",
-          "itTakes3sInsteadOf15sForSomeoneTo": "/tpa का उपयोग करके किसी व्यक्ति को आपको टेलीपोर्ट करने में 15 के बजाय 3 सेकंड लगते हैं",
-          "accessTo16ChatColorsInChatcolor": "/chatcolor में 16 चैट रंगों तक पहुंच",
-          "accessTo12NameColorsInNamecolor": "/namecolor में 12 नाम रंगों तक पहुंच",
-          "setAGlowColorUsingGlow": "/glow का उपयोग करके चमक रंग सेट करें",
-          "customizableStatisticsWebpageLookUsingDashboard": "डैशबोर्ड का उपयोग करके अनुकूलन योग्य सांख्यिकी वेबपेज लुक",
-          "accessToAdvertising": "#विज्ञापन तक पहुंच",
-          "text50PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 50 अंक",
-          "text150PointsTowardsTheCurrentCommunityGoal": "वर्तमान सामुदायिक लक्ष्य की ओर 150 अंक",
           "legendValue1": "Legend {{value1}}",
-          "permanentLegendRank": "Permanent Legend rank.",
-          "includesTwoPermanentApexRanksToAssignFromYour": "Includes two permanent Apex ranks to assign from your account.",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
@@ -1110,18 +471,31 @@
           "eliteToApexUpgrade": "Elite से Apex अपग्रेड",
           "default": "गलती करना"
         },
+        "reviews": {
+          "text6b6tTheServerThatFinallyConvincedMeThatI": "6b6t.. जिस सर्वर ने आखिरकार मुझे आश्वस्त किया कि मैं लंबे समय तक minecraft खेलता रहूंगा, एक दोस्त की बदौलत मुझे 2023 में Prime रैंक मिली। 5 से अधिक घर होने से मुझे अधिकांश खिलाड़ियों की तुलना में सर्वर के चारों ओर तेजी से घूमने की आजादी मिलती है। prime रैंक की कीमत काफी अच्छी है, खासकर उन लोगों के लिए जो नहीं जानते कि वे हमेशा के लिए खेलना जारी रखना चाहते हैं या नहीं। चैट में दृश्यता अच्छी है, लोगों द्वारा मेरी चैट देखने में सक्षम होने के कारण मैं आसानी से अपनी सामग्री का प्रचार कर सकता हूँ। Prime रैंक के कूलडाउन अभी भी हमेशा के लिए महसूस होते हैं, काश वे थोड़े कम होते। कुल मिलाकर Prime रैंक के साथ 6b6t एक अद्भुत अनुभव है, मैं शायद इसे Elite रैंक से अधिक की अनुशंसा करूंगा, खासकर यदि आप हॉटस्पॉट बनाने की परवाह नहीं करते हैं।",
+          "text6b6tIsAGreatServerILovePlayingIt": "6b6t एक बेहतरीन सर्वर है! मुझे इसे अपने दोस्तों के साथ खेलना और कभी-कभी सर्वर पर अपना समय लाइव-स्ट्रीमिंग करना पसंद है। मैंने हाल ही में सर्वर पर Prime रैंक खरीदी है, और 16 यूरो में यह एक चोरी है! यह वास्तव में मेरे पास घरों की संख्या बढ़ाने में सहायक है, और मुझे वास्तव में यह पसंद है कि यह मेरे चैट संदेशों को कैसे उजागर करता है। घरों की बात करते हुए, मुझे वास्तव में यह पसंद आया कि इस सर्वर में एक होम प्लगइन है। यह वास्तव में मुझे अपने बेस से भटकने से बचाने में मदद करता है, और मुझे स्पॉन देखने के लिए और अधिक इच्छुक बनाता है, यह जानते हुए कि मैं आसानी से किसी भी समय घर लौट सकता हूं। यह सर्वर शानदार है, निश्चित रूप से 5 स्टार!",
+          "iReallyEnjoyTheNumberOfHomesHavingThat": "मैं वास्तव में घरों की संख्या का आनंद लेता हूं - इतने सारे घर होना मेरे लिए सर्वर को परिभाषित करता है; उनके बिना खेल की शैली बहुत अलग होगी। दोस्तों के साथ घूमते समय /sit जैसे सौंदर्य प्रसाधन मज़ेदार होते हैं, और चैट का रंग उपयोगी होता है (मुझे एक से अधिक रंग चाहिए, लेकिन इंद्रधनुष नहीं)। Discord भूमिका: जोड़ने के लिए कुछ खास नहीं। Prime की कीमत बहुत अच्छी है (5/5)। Elite से Apex तक की छलांग बड़ी लगती है; Elite और Apex के बीच एक मध्यवर्ती रैंक/price अच्छा होगा। किसी भी गलती के लिए क्षमा करें, अंग्रेजी मेरी पहली भाषा नहीं है।",
+          "iLove6bVeryMuchAndEnjoyPlayingIt": "मुझे 6b बहुत पसंद है और इसे खेलने में आनंद आता है; यह अब तक का सबसे अच्छा अराजकता सर्वर है। दोस्तों के साथ खेलना अद्भुत है - tp और /home का उपयोग करने से गतिशीलता प्रगति को प्रोत्साहित करती है। हॉटस्पॉट खिलाड़ियों को आगे बढ़ने में मदद करते हैं और PvP को प्रोत्साहित करते हैं। चैटकलर, बैलून और /sit जैसी चैट सुविधाएँ सर्वर को अधिक मज़ेदार बनाती हैं और दिलचस्प स्क्रीनशॉट और सामग्री की अनुमति देती हैं। मैं 6b को 5 स्टार देता हूं।",
+          "iLikeTheAbilityToHave12HomesBecause": "मुझे 12 घर रखने की क्षमता पसंद है क्योंकि यह मुझे स्पॉन सहित कई गुप्त स्थानों और ठिकानों पर टेलीपोर्ट करने की सुविधा देता है; इसे 15 घरों तक बढ़ाने से अनुभव में सुधार होगा क्योंकि मेरे पास पहले से ही लगभग 12 हैं। 300 (5 मीटर) का कूलडाउन स्टैशज़ज़एक्सक्यू0क्यूएक्सजेड के बीच वस्तुओं को स्थानांतरित करने के लिए अच्छा है, हालांकि मैं चाहता हूं कि यह थोड़ा कम हो। 2023 में मेरे शामिल होने के बाद से सर्वर गतिविधि बहुत बढ़ गई है। कुल मिलाकर, स्थायी रैंक के रूप में Prime बेहद लायक है; मैं इसे 4/5 स्टार देता हूं।",
+          "homesAmountMyMostUsefulFeatureICanHave": "घरों की संख्या: मेरी सबसे उपयोगी सुविधा - मेरे पास ठिकानों और छिपाने के स्थानों के लिए घर हो सकते हैं। हालाँकि डिफ़ॉल्ट घरों का स्तर काफी कम है, मैं अपग्रेड का आनंद लेता हूँ। चैट में दृश्यता: मेरे नाम का रंग बहुत अच्छा है और मेरा टेक्स्ट सफ़ेद है, जो कि मुझे पसंद है, और भी अधिक ध्यान देने योग्य है। क्या कीमत इसके लायक थी: कर से पहले $20 थोड़ा अधिक है; मैं लगभग $8 में एक सस्ता स्तर (सफेद पाठ, कोई उपसर्ग नहीं, +3 घर, निहाई में रंग, कोई Discord भूमिका नहीं) पसंद करूंगा। 3/5 स्टार.",
+          "theRanksAreGoodMyNameNowPopsIn": "रैंक अच्छी हैं - मेरा नाम अब चैट में आता है जो ध्यान आकर्षित करने के लिए बहुत अच्छा है। निचले कूल्डाउन गेम चेंजर हैं और अधिक घर अत्यधिक उपयोगी हैं। मैं कीमत के बारे में थोड़ा असमंजस में था लेकिन जीवन भर के लिए इसे प्राप्त करना पूरी तरह से इसके लायक लगता है; कोई पछतावा नहीं। खरीदने के लिए सर्वोत्तम रैंक Prime है 😱 मैं इसे 4/5 रेटिंग दूंगा।",
+          "eliteLifetimeRankWasWorthItLifetimeAccessAnd": "Elite आजीवन रैंक इसके लायक थी - आजीवन पहुंच और मासिक विकल्प से सस्ता। Prime को एक गुब्बारा या /hat जैसा छोटा कॉस्मेटिक मिल सकता है ताकि वे छूट न जाएं (मैं समझता हूं कि आपको पैसे कमाने की जरूरत है)। कम कूलडाउन अच्छा है, लेकिन मतदान पहले से ही मुफ्त में समान लाभ देता है। हॉटस्पॉट सीमित होने चाहिए ताकि नए खिलाड़ियों को आसानी से भागने से रोकने के लिए उन्हें नीदरलैंड, ओवरवर्ल्ड या अंत के 5kx5k क्षेत्रों के अंदर न रखा जाए। कुल मिलाकर मेरी खरीदारी 5/5 थी।",
+          "myExperienceWithEliteHasBeenVeryGoodSo": "Elite के साथ मेरा अनुभव अब तक बहुत अच्छा रहा है। मुझे यह भी सोचने की ज़रूरत नहीं है कि क्या मेरे पास कोई घर बचा है, जो इन-गेम अनुभव को काफी बेहतर बनाता है। /hotspot कमांड दोस्तों के साथ PvP के लिए उपयोगी है। चूँकि सक्रिय APEX और Elite ULTRA प्लेयर कम हैं, कॉस्मेटिक के रूप में Elite के लिए एनविल कलर कोड उपलब्ध होने चाहिए। कुल मिलाकर, Elite सक्रिय खिलाड़ियों के लिए एक बेहतरीन रैंक है और स्थायी रैंक के लिए एक बढ़िया रैंक है।",
+          "iStarted6b6tWithoutARankAndLaterReceived": "मैंने बिना किसी रैंक के 6b6t शुरू किया और बाद में कई रैंक प्राप्त कीं; Elite बढ़िया है. एक कबीले के मालिक के रूप में रैंक का होना मूल्यवान है ताकि संदेश दिखाई दे सकें। मैं Discord पर रैंक की गई चैट की सराहना करता हूं। हॉटस्पॉट अब ठंडे हो गए हैं, इसलिए मैं उन्हें रख सकता हूं, और कम ठंडा होना एक बड़ा प्लस है। एक शिकायत: निम्नतम रैंक अक्सर महत्वपूर्ण चीजों को भूल जाते हैं (वीआईपी को बिना रैंक वाले के समान महसूस होता है)। इसके अलावा, जब किसी ने मुझे गुमनाम रूप से Prime Ultra उपहार में दिया तो मेरे पास विज्ञापन चैनल तक पहुंच थी, लेकिन Elite प्राप्त करने के बाद मैंने उन अनुमतियों को खो दिया।",
+          "theHomesAmountOnEliteOrHigherIsMore": "Elite या उससे अधिक पर घरों की राशि पर्याप्त से अधिक है। /balloon जैसे सौंदर्य प्रसाधन सर्वर को रंग देते हैं। दोस्तों के साथ खेलने से 6b मज़ा बना रहता है। बिल्डरमोड बढ़िया है लेकिन रेंडर दूरी बढ़ाता है, सिमुलेशन दूरी नहीं। यदि आप 6b पर एक वर्ष से अधिक समय तक खेलते हैं, तो खरीदारी निश्चित रूप से इसके लायक है - मैं अपनी रेटिंग 4.5 स्टार देता हूं।",
+          "eliteRankIsActuallyBetterThanIThoughtWhen": "Elite रैंक वास्तव में जितना मैंने सोचा था उससे बेहतर है। जब मैंने इसे खरीदा तो मुझे केवल रंगीन पाठ की उम्मीद थी, लेकिन यह विशेष लोगों के क्लब में प्रवेश करने जैसा लगता है। दोस्तों के साथ खेलना बहुत अच्छा है - कम पिंग और उच्च TPS। Discord रैंक वाले चैनल बहुत अधिक सक्रिय हैं; यह एक क्लब की तरह है (🚬-सिगार-क्लब-🚬 आज़माएं)। मेरी पसंदीदा चीज़ कम कूलडाउन है - /tpa और /home अनरैंक की तुलना में बहुत बेहतर हैं और आपको मिनटों में बेस के बीच जाने की सुविधा देते हैं। चैट रंग आपको अलग दिखने में मदद करते हैं (प्रो टिप: कस्टम चैट मॉड या मॉडेड क्लाइंट इसे और भी बेहतर बनाते हैं)। 5/5 सितारे",
+          "hotspotCreateYouCanCreateHotspotsWhenNoOther": "/hotspot बनाएं: जब कोई अन्य हॉटस्पॉट सक्रिय न हो तो आप हॉटस्पॉट बना सकते हैं। क्या आपके पास 3 से अधिक घर हैं? elite रैंक के साथ आपके पास 30 घर हो सकते हैं जो आपके सभी आधारों के लिए पर्याप्त होंगे। क्या आप थक गये हैं कि कोई आपको नहीं देख रहा है? elite रैंक के साथ आपकी चैट का रंग अलग हो सकता है और अधिक लोग आपको देखेंगे! क्या आप एक बिल्डर हैं लेकिन रेंडर दूरी बहुत कम है? दूर तक देखने के लिए /buildermode का उपयोग करें! और इन सबके लिए और इससे भी अधिक मात्र 49.99 में? मेरा सुझाव है कि आप भी इसे प्राप्त करें।",
+          "gettingEliteOn6b6tWasAGreatChoiceThe": "6b6t पर Elite प्राप्त करना एक बढ़िया विकल्प था। अतिरिक्त घर दोस्तों के साथ कई ठिकानों के लिए बहुत मदद करते हैं और /buildermode आपके पूरे आधार को देखने में मदद करता है। मुझे /hat और /balloons कमांड पसंद हैं - इनके साथ खिलवाड़ करना मजेदार है। मुझे Elite मिलने का मुख्य कारण हॉटस्पॉट था क्योंकि मेरे पास बहुत सारे PvP हैं और हॉटस्पॉट PvP के लिए बिल्कुल उपयुक्त हैं। चैट में अलग दिखना और शांत रहना सक्रिय खिलाड़ियों के लिए जरूरी है। Discord भूमिकाएँ (जैसे #game-suggestions) समुदाय को शामिल होने का एहसास कराती हैं। आजीवन रैंक का अर्थ है कोई आवर्ती भुगतान नहीं - भत्ते कीमत के लायक हैं। 5/5 स्टार.",
+          "myExperienceIn6bWithAndWithoutARank": "रैंक के साथ और उसके बिना 6b में मेरा अनुभव बहुत अच्छा रहा है, लेकिन रैंक चीजों में सुधार करती है - मुख्य रूप से घर की सीमा इसलिए मुझे घरों को हटाने की जरूरत नहीं है, और /hotspot जो आपको इवेंट बनाने की सुविधा देता है। गुब्बारे और /sit जैसे सौंदर्य प्रसाधन मज़ेदार हैं, और चैट का रंग संदेशों को अलग बनाता है। मैं अपने अनुभव को 4.5/5 रैंक देता हूं और यदि आप लंबे समय तक बने रहने की योजना बनाते हैं तो एक रैंक की अनुशंसा करता हूं।",
+          "iHavePlayedThisServerForThreeYearsFirst": "मैंने इस सर्वर को तीन साल तक चलाया है - पहले 2 साल बिना रैंक के। मुझे अधिक घरों के लिए Prime मिला, फिर हॉटस्पॉट और उससे भी अधिक घरों के लिए Elite मिला, और तेज़ कूलडाउन मिला। यह एकमात्र मौका है जब मैंने Minecraft सर्वर पर पैसा खर्च किया है। यह 100% इसके लायक था, विशेष रूप से उस आनंद के लिए जो मैंने /hotspot का उपयोग करके किया था। बोनस /sit आधारित है और मुझे गुब्बारा रखना पसंद है।",
+          "theHomesAmountIsExcellentTheMostUsefulFeature": "घरों की राशि उत्कृष्ट है - मेरे लिए सबसे उपयोगी सुविधा। चैटकलर अलग दिखना अच्छा है, चैट में दृश्यता एक प्लस है, और कम कूलडाउन मदद करते हैं (हालांकि तेजी से कमांड का उपयोग थोड़ा कठिन हो सकता है)। दोस्तों के साथ खेलना मज़ेदार है और Discord भूमिका अधिकार जोड़ती है। कीमत लगभग $16 उचित है और इसके लायक है। अंतिम रेटिंग: 4 स्टार.",
+          "iThinkThatTheApexLifetimeRankWasWorth": "मुझे लगता है कि Apex लाइफटाइम रैंक खरीदने लायक थी। 100 घरों का लाभ निर्माण और आधारों की मात्रा के लिए उपयोगी है/stashes जिसके लिए मैं एक घर स्थापित कर सकता हूं, और /hat, /balloons, /sit, और /skin जैसे सौंदर्य प्रसाधन सर्वर को वास्तव में अधिक मजेदार बनाते हैं। सभी अतिरिक्त चैनलों और अनुमतियों के साथ Apex Discord भूमिका भी एक अच्छा बोनस है। बिल्डर मोड, हॉटस्पॉट और एनविल्स/chat में सभी रंग विकल्प इसे पूर्ण रैंक पैकेज जैसा महसूस कराते हैं। मेरी ओर से 5/5 स्टार.",
+          "afterWinningPrimeInAGiveawayIUpgradedTo": "मुफ़्त में Prime जीतने के बाद मैंने Apex में अपग्रेड किया। मैं जिस सुविधा का सबसे अधिक उपयोग करता हूं वह है बढ़े हुए घर - यह छुपी हुई वस्तुओं, ठिकानों और स्थानों को ट्रैक करने में मदद करता है। टीपीए और /home के लिए कम कूलडाउन बेहद मददगार हैं (15 मिनट से लेकर ~15 सेकंड तक)। मैं सौंदर्य प्रसाधनों का अधिक उपयोग नहीं करता, लेकिन चैट कलर मुझे किट की मांग करने वाले नए खिलाड़ियों से अलग दिखने में मदद करता है। समाचार शीघ्रता से प्राप्त करने के लिए Discord की भूमिका बहुत अच्छी है। चूँकि मैं बहुत कम खेलता हूँ, Apex मेरे लिए सबसे अच्छी कीमत नहीं थी; Elite बेहतर होता. मैं केवल उन खिलाड़ियों को Apex की अनुशंसा करता हूं जो सप्ताह में ~10 घंटे खेलते हैं।",
+          "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t शुद्ध अराजकता है - और शुद्ध मनोरंजन! 6b6t एक प्रकार का सर्वर है जहां हमेशा कुछ न कुछ घटित होता रहता है। सक्रिय हॉटस्पॉट पर लड़ने से लेकर दोस्त बनने वाले अजनबियों के साथ टीम बनाने तक, हर सत्र एक नई कहानी लेकर आता है। मुझे आजीवन Apex रैंक मिली है, और सर्वर का समर्थन करना और लंबे समय तक प्रतिबद्ध रहना इसके लायक है। उच्च रेंडर दूरी और बिल्डर मोड बड़े पैमाने पर निर्माण की योजना बनाना और पूरे विवरण में परिदृश्य का आनंद लेना आसान बनाता है। विशाल ठिकानों का निर्माण, खंडहरों की खोज, और दोस्तों के साथ घात लगाकर बचे रहने ने इसे सबसे शानदार Minecraft अनुभवों में से एक बना दिया है। यदि आप अनफ़िल्टर्ड अराजकता और समुदाय-संचालित गेमप्ले में रुचि रखते हैं, तो 6b6t वह स्थान है - और Apex यह दिखाने का एक ठोस तरीका है कि आप लंबी अवधि के लिए इसमें हैं।"
+        },
         "stripe": {
-          "text6b6tShop": "6b6t-shop",
-          "active": "सक्रिय"
+          "text6b6tShop": "6b6t-shop"
         }
-      },
-      "stats": {
-        "mysqlClient": {
-          "statsMysql": "आँकड़े MySQL"
-        }
-      },
-      "themeSecurity": {
-        "value1Value2Value3": "{{value1}}:{{value2}}:{{value3}}"
       }
     }
   }

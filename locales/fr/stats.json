@@ -1,0 +1,39 @@
+{
+  "page-name": "Statistiques et classements des joueurs",
+  "seo-description": "Explorez les statistiques de 6b6t, recherchez des profils et comparez les classements de temps de jeu, éliminations, déplacements, blocs et bien plus.",
+  "sections": {
+    "leaderboardStatisticCard": {
+      "rank": "Grade",
+      "name": "Nom",
+      "value": "Valeur",
+      "value1Value2": "{{value1}}{{value2}}",
+      "noDataAvailableForThisTimeRange": "Aucune donnée disponible pour cette période",
+      "playersRanked": "joueurs classés",
+      "previousPage": "Page précédente",
+      "nextPage": "Page suivante"
+    },
+    "playerStatsSearch": {
+      "playerStatsSearch": "Recherche de statistiques de joueur",
+      "lookUpAnyPlayer39SStatistics": "Consultez les statistiques de n’importe quel joueur",
+      "enterMinecraftUsername": "Saisissez un pseudo Minecraft…",
+      "search": "Rechercher"
+    },
+    "statsPageContent": {
+      "playerStatistics": "Statistiques des joueurs",
+      "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "Découvrez les meilleurs joueurs de 6b6t dans différentes catégories. Recherchez un joueur ou parcourez les classements ci-dessous.",
+      "statsReset": "Réinitialisation des statistiques :",
+      "statsWereResetOnMay222026DueTo": "Les statistiques ont été réinitialisées le 22 mai 2026 à la suite d’une corruption des données et n’ont pas pu être récupérées.",
+      "underMaintenance": "En maintenance",
+      "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Cette statistique est temporairement indisponible. Nous travaillons à rétablir les dernières données du classement dès que possible.",
+      "loadingStatisticsData": "Chargement des statistiques…"
+    },
+    "username": {
+      "page": {
+        "loading": "Chargement…"
+      },
+      "layout": {
+        "loadingPlayerStats": "Chargement des statistiques du joueur…"
+      }
+    }
+  }
+}

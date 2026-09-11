@@ -1,14 +1,29 @@
 {
   "sections": {
+    "root": {
+      "viewport": "viewport",
+      "widthDeviceWidthInitialScale1": "width=device-width, initial-scale=1",
+      "text6b6t": "6b6t"
+    },
     "app": {
-      "actions": {
+      "functions": {
+        "adminOperations": {
+          "addedValue1PointsTotalValue2": "Added {{value1}} points. Total: {{value2}}.",
+          "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
+        },
+        "admin": {
+          "pending": "Oczekujące"
+        },
         "apexGifts": {
           "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
           "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
         },
         "motd": {
-          "revisionRequested": "revision_requested",
-          "paidPendingReview": "paid_pending_review"
+          "paidPendingReview": "opłacone_do_sprawdzenia"
+        },
+        "playerStats": {
+          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
+          "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
         },
         "printify": {
           "signInAgainBeforeClaiming": "Zaloguj się ponownie przed odebraniem.",
@@ -20,44 +35,138 @@
         },
         "shopTracking": {
           "unknownError": "Nieznany błąd"
+        }
+      },
+      "jobs": {
+        "playerHistory": {
+          "playerHistoryRecordedSuccessfully": "Player history recorded successfully"
         },
-        "stripe": {
-          "subscription": "subscription",
-          "payment": "payment",
-          "pay": "pay",
-          "whoIsThisGiftFrom": "Od kogo jest ten prezent?",
-          "custom": "custom",
-          "text": "text",
-          "giftMessage": "Wiadomość prezentowa",
-          "hosted": "hosted",
-          "rankForValue1": "Ranga dla {{value1}}"
+        "uptime": {
+          "serverUptimeCheckCompleted": "Server uptime check completed"
         }
       },
-      "components": {
-        "langLayout": {
-          "text6b6t": "6b6t",
-          "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Największy serwer anarchii Minecraft bez zasad i bez kolejki. Wspiera edycje Java i Bedrock z podstawowymi komendami takimi jak /tpa i /home.",
-          "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Dołącz do największego serwera anarchii Minecraft bez zasad, bez kolejki i z pojemnością ponad 2000 graczy. Doświadcz prawdziwej anarchii z komendami /tpa i /home na edycjach Java i Bedrock.",
-          "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
+      "seo": {
+        "manifest": {
+          "text6b6tWebsite": "Strona 6b6t",
+          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
         }
       },
-      "manifest": {
-        "text6b6tWebsite": "Strona 6b6t",
-        "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
+      "services": {
+        "adminOperations": {
+          "eventDeliveryIsNotConfigured": "Event delivery is not configured.",
+          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} delivered, {{value2}} scheduled for retry, {{value3}} stopped after repeated failures.",
+          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} accounts processed, {{value2}} memberships removed, {{value3}} failed.",
+          "recordedValue1OfValue2PlayersForTheCurrentHour": "Recorded {{value1}} of {{value2}} players for the current hour.",
+          "serverIsValue1RecordedValue2HoursOfUptime": "Server is {{value1}}. Recorded {{value2}} hours of uptime."
+        },
+        "antispam": {
+          "antispamMessagesValue1": "antispam_messages:{{value1}}"
+        },
+        "legendTheme": {
+          "noThemeFound": "No theme found"
+        },
+        "playerHistory": {
+          "invalidOrExcessiveDateRange": "Nieprawidłowy lub zbyt duży zakres dat",
+          "tooManyDataPointsRequested": "Zażądano zbyt wielu punktów danych",
+          "failedToFetchPlayerHistory": "Nie udało się pobrać historii gracza",
+          "unknownError": "Nieznany błąd"
+        },
+        "recovery": {
+          "blockChallenge": {
+            "missingOrInvalidBlockToken": "Brakujący lub nieprawidłowy token blokady."
+          },
+          "manual": {
+            "captchaVerificationFailed": "Weryfikacja CAPTCHA nie powiodła się",
+            "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "Sesja odzyskiwania wygasła lub jest nieprawidłowa. Uruchom odzyskiwanie ponownie.",
+            "yourRequestWasReceivedIfTheAccountExistsAnd": "Twoje żądanie zostało odebrane. Jeśli konto istnieje, a dostarczone dowody można zweryfikować, skontaktuje się z Tobą pomoc techniczna.",
+            "manualReviewIsNotAvailableForThisRecoverySession": "Ręczna weryfikacja nie jest jeszcze dostępna dla tej sesji odzyskiwania. Najpierw kontynuuj proces odzyskiwania.",
+            "pending": "Oczekujące",
+            "aPendingManualReviewTicketAlreadyExistsForThis": "Dla tego konta istnieje już oczekujące zgłoszenie do ręcznej weryfikacji. Poczekaj na jego rozpatrzenie.",
+            "theAccountOwnerHasBlockedThisRecoveryAttempt": "Właściciel konta zablokował tę próbę odzyskiwania.",
+            "couldNotNotifyTheAccountOwnerManualTicketWas": "Nie udało się powiadomić właściciela konta. Zgłoszenie ręczne nie zostało wysłane.",
+            "couldNotLinkTheAccountOwnerNotificationToThis": "Nie udało się powiązać powiadomienia właściciela konta z tym zgłoszeniem ręcznym. Zgłoszenie ręczne nie zostało wysłane.",
+            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Zgłoszenie do ręcznego odzyskiwania zostało pomyślnie wysłane. Zespół pomocy technicznej je rozpatrzy."
+          },
+          "recover": {
+            "ifThisAccountExistsRecoveryOptionsWillBeShown": "Jeśli to konto istnieje, zostaną wyświetlone opcje odzyskiwania.",
+            "verificationAlreadyIssued": "verification_already_issued",
+            "verificationEmailUnavailable": "verification_email_unavailable",
+            "emailProviderIsNotConfiguredInThisEnvironmentUse": "Dostawca e-mail nie jest skonfigurowany w tym środowisku. Użyj developmentCode do testów lokalnych.",
+            "captchaVerificationFailed": "Weryfikacja CAPTCHA nie powiodła się",
+            "tooManyRecoveryAttemptsPleaseTryAgainLater": "Zbyt wiele prób odzyskiwania. Spróbuj ponownie później.",
+            "recoverySessionExpiredPleaseStartAgain": "Sesja odzyskiwania wygasła. Rozpocznij ponownie.",
+            "automaticVerificationIsUnavailableSubmitAManualReviewRequest": "Automatyczna weryfikacja jest niedostępna. Jeśli uważasz, że jesteś właścicielem tego konta, wyślij prośbę o ręczną weryfikację.",
+            "inGameVerificationIsRequiredUseEmailchangeInGame": "Wymagana jest weryfikacja w grze. Użyj /emailchange w grze, a następnie dokończ weryfikację.",
+            "recoverySessionInvalidOrExpired": "Sesja odzyskiwania jest nieprawidłowa lub wygasła.",
+            "recoverySessionExpiredPleaseRestart": "Sesja odzyskiwania wygasła. Uruchom ponownie.",
+            "invalidLaneForScoreStep": "Nieprawidłowa ścieżka dla etapu oceny.",
+            "automaticRecoveryIsTemporarilyLockedForThisAccountAfter": "Automatyczne odzyskiwanie jest tymczasowo zablokowane dla tego konta po nieudanych próbach weryfikacji. Wyślij prośbę o ręczną weryfikację lub spróbuj ponownie później.",
+            "publicProofHasAlreadyBeenSubmittedForThisSession": "Dowód publiczny został już przesłany dla tej sesji. Przejdź do następnego kroku lub uruchom odzyskiwanie ponownie.",
+            "identityScorePassedHoweverDueToAccountSecurityPolicies": "Wynik weryfikacji tożsamości jest pozytywny. Jednak ze względu na zasady bezpieczeństwa konta wymagana jest ręczna weryfikacja.",
+            "identityScorePassedButANewEmailIsRequired": "Wynik weryfikacji tożsamości jest pozytywny, ale do kontynuowania automatycznego odzyskiwania wymagany jest nowy adres e-mail.",
+            "identityScorePassedButWeCouldNotDeliverA": "Wynik weryfikacji tożsamości jest pozytywny, ale nie udało się dostarczyć wiadomości weryfikacyjnej. Wyślij prośbę o ręczną weryfikację.",
+            "identityScorePassedEnterTheVerificationCodeSentTo": "Wynik weryfikacji tożsamości jest pozytywny. Wpisz kod weryfikacyjny wysłany na nowy adres e-mail.",
+            "additionalPrivateDetailsAreRequiredBeforeAFinalDecision": "Przed podjęciem ostatecznej decyzji wymagane są dodatkowe prywatne dane.",
+            "ifAnAccountWithThisUsernameExistsAndIs": "Jeśli konto o tej nazwie użytkownika istnieje i można je odzyskać, zostaną wysłane instrukcje na adres e-mail.",
+            "publicScoreStepMustBeCompletedFirst": "Najpierw należy ukończyć etap oceny publicznej.",
+            "privateProofHasAlreadyBeenSubmittedForThisSession": "Dowód prywatny został już przesłany dla tej sesji. Wyślij prośbę o ręczną weryfikację lub uruchom odzyskiwanie ponownie.",
+            "identityScorePassedButNoNewEmailWasProvided": "Wynik weryfikacji tożsamości jest pozytywny, ale nie podano nowego adresu e-mail. Wyślij prośbę o ręczną weryfikację.",
+            "automaticVerificationFailedAfterPrivateChecksSubmitAManual": "Automatyczna weryfikacja nie powiodła się po sprawdzeniu danych prywatnych. Wyślij zgłoszenie do ręcznej weryfikacji.",
+            "noPendingEmailVerificationInThisSession": "Brak oczekującej weryfikacji adresu e-mail w tej sesji.",
+            "maximumVerificationAttemptsReachedRecoverySessionHasBeenInvalidated": "Osiągnięto maksymalną liczbę prób weryfikacji. Sesja odzyskiwania została unieważniona. Rozpocznij ponownie.",
+            "verificationCodeExpiredOrIsNoLongerValid": "Kod weryfikacyjny wygasł lub nie jest już ważny.",
+            "invalidVerificationCode": "Nieprawidłowy kod weryfikacyjny.",
+            "emailVerifiedButTheGameServerEmailAvailabilityCheck": "E-mail zweryfikowany, ale sprawdzenie dostępności e-maila na serwerze gry jest niedostępne. Wyślij prośbę o ręczną weryfikację.",
+            "thisEmailAddressIsAlreadyAssociatedWithAnotherAccount": "Ten adres e-mail jest już powiązany z innym kontem.",
+            "emailVerifiedButTheGameServerEmailUpdateEndpoint": "E-mail zweryfikowany, ale endpoint aktualizacji e-maila na serwerze gry nie jest skonfigurowany. Wyślij prośbę o ręczną weryfikację.",
+            "emailVerifiedYouCanProceedToPasswordReset": "Adres e-mail został zweryfikowany. Możesz przejść do resetowania hasła.",
+            "inGameVerificationIsNotActive": "Weryfikacja w grze nie jest aktywna.",
+            "tooManyIncorrectInGameCodesPleaseRestartRecovery": "Zbyt wiele nieprawidłowych kodów w grze. Uruchom odzyskiwanie ponownie i poproś o nowy kod.",
+            "invalidOrExpiredInGameCode": "Nieprawidłowy lub wygasły kod w grze.",
+            "enterTheNewTargetEmailBeforeVerifyingTheIn": "Podaj nowy docelowy e-mail przed weryfikacją kodu zmiany e-maila w grze.",
+            "inGameCodeVerifiedButWeCouldNotDeliver": "Kod w grze zweryfikowany, ale nie udało się dostarczyć e-maila weryfikacyjnego. Wyślij prośbę o ręczną weryfikację.",
+            "inGameCodeVerifiedEnterTheVerificationCodeSent": "Kod w grze zweryfikowany. Wpisz kod weryfikacyjny wysłany na nowy e-mail.",
+            "theAccountOwnerHasBlockedThisRecoveryAttempt": "Właściciel konta zablokował tę próbę odzyskiwania.",
+            "theGracePeriodIsStillActivePleaseWaitFor": "Okres karencji jest nadal aktywny. Poczekaj, aż się zakończy.",
+            "theGracePeriodHasElapsedYouMayNowStart": "Okres karencji minął. Możesz teraz rozpocząć nową sesję odzyskiwania, aby przejść do weryfikacji tożsamości.",
+            "couldNotCheckGracePeriodStatus": "Nie udało się sprawdzić statusu okresu karencji.",
+            "noActiveGracePeriodChallengeFoundForThisAccount": "Nie znaleziono aktywnego wyzwania okresu karencji dla tego konta.",
+            "invalidRecoverySession": "Nieprawidłowa sesja odzyskiwania.",
+            "sessionHasNotBeenApprovedForPasswordResetComplete": "Sesja nie została zatwierdzona do resetowania hasła. Najpierw ukończ weryfikację adresu e-mail.",
+            "passwordResetIsAlreadyBeingProcessedForThisSession": "Resetowanie hasła jest już przetwarzane dla tej sesji.",
+            "passwordHasBeenResetSuccessfully": "Hasło zostało pomyślnie zresetowane.",
+            "invalidRecoveryAction": "Nieprawidłowe działanie odzyskiwania",
+            "unhandledRecoveryAction": "Nieobsługiwane działanie odzyskiwania"
+          },
+          "resetPassword": {
+            "invalidOrMissingResetToken": "Nieprawidłowy lub brakujący token resetowania.",
+            "passwordMustBeAtLeast8Characters": "Hasło musi mieć co najmniej 8 znaków.",
+            "passwordIsTooLong": "Hasło jest zbyt długie.",
+            "resetLinkHasExpiredOrIsInvalidPleaseContact": "Link resetowania wygasł lub jest nieprawidłowy. Skontaktuj się z pomocą techniczną.",
+            "passwordHasBeenResetSuccessfullyYouCanNowLog": "Hasło zostało pomyślnie zresetowane. Możesz teraz zalogować się nowym hasłem."
+          }
+        },
+        "serverStatus": {
+          "unknown": "Unknown"
+        },
+        "telegramStart": {
+          "youMustBeLoggedInToLinkTelegram": "Musisz być zalogowany, aby połączyć Telegram.",
+          "telegramLinkingIsNotEnabledForYourAccountYet": "Łączenie z Telegramem nie jest jeszcze włączone dla Twojego konta.",
+          "theLoggedInMinecraftUsernameIsInvalid": "Zalogowany nick Minecraft jest nieprawidłowy.",
+          "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "Logowanie przez Telegram nie jest skonfigurowane. Brak TELEGRAM_BOT_USERNAME.",
+          "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Logowanie przez Telegram nie jest skonfigurowane. Brak COOKIE_SECRET na serwerze."
+        },
+        "youtubeShorts": {
+          "maxres1280x720": "maxres (1280x720)",
+          "standard640x480": "standard (640x480)",
+          "youtubeApiNotConfigured": "API YouTube nie jest skonfigurowane",
+          "youtubeApiChannelSearchErrorValue1": "YouTube API channel search error: {{value1}}",
+          "text6b6tChannelNotFound": "Nie znaleziono kanału 6b6t",
+          "youtubeApiErrorValue1": "YouTube API error: {{value1}}",
+          "noVideosFoundForThisChannel": "Nie znaleziono filmów na tym kanale",
+          "noYoutubeShortsFoundForThisChannel": "Nie znaleziono YouTube Shorts na tym kanale"
+        }
       }
-    },
-    "bottomSocialProof": {
-      "joinThe": "Dołącz do",
-      "community": "Społeczności",
-      "happyCustomers": "Zadowolonych klientów",
-      "uniquePlayers": "Unikalnych graczy",
-      "satisfactionRate": "Wskaźnik satysfakcji",
-      "starRatingValue1Of5": "Ocena {{value1}} na 5",
-      "text495AverageRating": "Średnia ocena 4,9/5",
-      "shoppingCart": "Koszyk",
-      "shopNow": "Kup teraz",
-      "arrowRight": "Strzałka w prawo",
-      "browseOurExclusiveRanksAndPerks": "Przeglądaj nasze ekskluzywne rangi i dodatki"
     },
     "communityEventCountdown": {
       "days": "Dni",
@@ -105,71 +214,8 @@
       "purchaseAnEligibleRankBelowToAddMoreTime": "Kup kwalifikującą się rangę poniżej, aby dodać więcej czasu do wydarzenia Dupe dla wszystkich.",
       "viewRanks": "Zobacz rangi"
     },
-    "developmentThemeSwitcher": {
-      "themeIsNowFixedToSnowySiteWide": "Motyw jest teraz ustawiony na SNOWY na całej stronie",
-      "fixed": "STAŁY"
-    },
-    "gallery": {
-      "gallery": {
-        "errorLoadingGallery": "Błąd ładowania galerii",
-        "retry": "Spróbuj ponownie",
-        "text6b6tGallery": "Galeria 6b6t",
-        "images": "obrazy",
-        "featured": "wyróżnione",
-        "latest": "📅 Najnowsze:",
-        "filterOptions": "Opcje filtrów",
-        "filters": "Filtry",
-        "toggleFilterPanel": "Przełącz panel filtrów",
-        "activeFilters": "Aktywne filtry:",
-        "category": "Kategoria:",
-        "featured2": "Wyróżnione",
-        "showing": "Wyświetlanie",
-        "of": "z",
-        "imagesFromThe6b6tCommunity": "obrazów ze społeczności 6b6t"
-      },
-      "galleryCard": {
-        "imageobject": "ImageObject",
-        "organization": "Organization",
-        "text6b6tMinecraftServer": "Serwer Minecraft 6b6t",
-        "webpage": "WebPage",
-        "text6b6tGalleryMinecraftServerScreenshots": "Galeria 6b6t – zrzuty ekranu serwera Minecraft",
-        "clickToViewInLightboxCtrlClickOrMiddle": "Kliknij, aby zobaczyć w lightboxie, Ctrl+klik lub środkowy przycisk myszy, aby otworzyć w nowej karcie",
-        "value1Value2": "{{value1}} – {{value2}}",
-        "externalLink": "Link zewnętrzny",
-        "featured": "⭐ Wyróżnione",
-        "author": "Autor"
-      },
-      "galleryFilters": {
-        "categories": "Kategorie",
-        "all": "Wszystkie",
-        "special": "Specjalne",
-        "featuredOnly": "⭐ Tylko wyróżnione",
-        "tags": "Tagi",
-        "more": "więcej",
-        "sortBy": "Sortuj według",
-        "dateAdded": "Data dodania",
-        "dateTaken": "Data wykonania",
-        "title": "Tytuł",
-        "featuredFirst": "Najpierw wyróżnione",
-        "newestFirst": "Najpierw najnowsze",
-        "oldestFirst": "Najpierw najstarsze",
-        "clearAllFilters": "Wyczyść wszystkie filtry"
-      },
-      "galleryGrid": {
-        "noImagesAvailable": "Brak dostępnych obrazów",
-        "noImagesFound": "Nie znaleziono obrazów",
-        "tryAdjustingYourFiltersOrSearchTerms": "Spróbuj zmienić filtry lub wyszukiwane hasła."
-      },
-      "lightbox": {
-        "closeLightbox": "Zamknij lightbox",
-        "previousImage": "Poprzedni obraz",
-        "nextImage": "Następny obraz",
-        "value1Value2": "{{value1}}{{value2}}",
-        "of": "z"
-      }
-    },
-    "icons": {
-      "discord": "Discord"
+    "errorPage": {
+      "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
     },
     "layout": {
       "copyButton": {
@@ -216,20 +262,11 @@
         "text6b6tAllRightsReservedOperatedByQbastyLabsFze": "6b6t. Wszelkie prawa zastrzeżone. • Operowany przez qbasty labs FZE • contact@6b6t.org",
         "xTwitter": "X (Twitter)"
       },
-      "header": {
-        "home": "Strona główna",
-        "blog": "Blog",
-        "vote": "Głosuj",
-        "stats": "Statystyki",
-        "commands": "Komendy",
-        "shop": "Sklep",
-        "discord": "Discord",
-        "join": "Dołącz",
-        "activeMembers": "aktywnych członków",
+      "langLayout": {
         "text6b6t": "6b6t",
-        "hytale": "Hytale",
-        "about": "O nas",
-        "hytaleAnarchyServer": "Serwer anarchii Hytale"
+        "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Największy serwer anarchii Minecraft bez zasad i bez kolejki. Wspiera edycje Java i Bedrock z podstawowymi komendami takimi jak /tpa i /home.",
+        "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Dołącz do największego serwera anarchii Minecraft bez zasad, bez kolejki i z pojemnością ponad 2000 graczy. Doświadcz prawdziwej anarchii z komendami /tpa i /home na edycjach Java i Bedrock.",
+        "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
       },
       "languageSwitcher": {
         "language": "Język"
@@ -283,6 +320,9 @@
         "ideal": "iDEAL",
         "bancontact": "Bancontact",
         "eps": "EPS"
+      },
+      "websiteLayout": {
+        "skipToMainContent": "Przejdź do głównej treści"
       }
     },
     "milestoneProgress": {
@@ -294,18 +334,13 @@
       "communityGoalReachedTheDupeEventHasBeenUnlocked": "Cel społeczności osiągnięty. Wydarzenie Dupe zostało odblokowane.",
       "communityGoalReached": "Cel społeczności osiągnięty!"
     },
-    "modeToggle": {
-      "currentThemeSnowySiteWide": "Aktualny motyw: Śnieżny (cała strona)",
-      "defaultDisabled": "Domyślny (wyłączony)",
-      "snowyActiveSiteWide": "Śnieżny (aktywny na całej stronie)"
-    },
     "motion": {
       "username": {
         "minecraftPlayerValue1": "Minecraft player: {{value1}}",
         "chooseTheMinecraftAccountReceivingLegend": "Choose the Minecraft account receiving Legend.",
         "changeUsername": "Change username",
         "setUsername": "Set username",
-        "minecraftUsername": "Minecraft username",
+        "minecraftUsername": "Nazwa użytkownika Minecraft",
         "saving": "Saving…",
         "saveUsername": "Save username",
         "loggedInAs": "Zalogowany jako",
@@ -316,6 +351,10 @@
         "thisWillBeUsedToLinkYourPurchasesTo": "Będzie używany do powiązania zakupów z Twoim kontem Minecraft.",
         "loading": "Ładowanie..."
       }
+    },
+    "notFoundPage": {
+      "pageNotFound": "nie znaleziono strony",
+      "home": "Strona główna"
     },
     "paymentBrandLogos": {
       "crypto": "Krypto",
@@ -337,11 +376,7 @@
       "ideal": "iDEAL",
       "bancontact": "Bancontact",
       "eps": "EPS",
-      "eps2": "eps",
-      "linkByStripe": "Link by Stripe",
-      "mobilepay": "MobilePay",
-      "cartesBancaires": "Cartes Bancaires",
-      "cb": "CB"
+      "eps2": "eps"
     },
     "recentBuyers": {
       "primeEliteUpgrade": "Ulepszenie Prime → Elite",
@@ -402,22 +437,348 @@
       "goToSlideGroupValue1": "Przejdź do grupy slajdów {{value1}}",
       "of": "z"
     },
+    "serverConnectionModal": {
+      "text6b6t": "6b6t",
+      "text6b6t2": "6b6t 2",
+      "text6b6t3": "6b6t 3",
+      "copyValue1": "Kopiuj {{value1}}",
+      "openValue1InMinecraftBedrock": "Otwórz {{value1}} w Minecraft Bedrock",
+      "open": "Otwórz",
+      "closeConnectionModal": "Zamknij okno połączenia",
+      "text6b6tLogo": "Logo 6b6t",
+      "connectTo": "Połącz z",
+      "javaPlayersConnectInTwoStepsInstallTheOfficial": "Gracze Java łączą się w dwóch krokach: zainstaluj oficjalny Anarchy Mod, a następnie uruchom Minecraft i graj.",
+      "closeModal": "Zamknij modal",
+      "theAnarchyModIsRequiredForJavaEdition": "Anarchy Mod jest wymagany dla Java Edition",
+      "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang zablokował standardowe połączenia z 6b6t. Oficjalny mod przywraca dostęp i automatycznie dodaje serwer.",
+      "javaEdition": "Java Edition",
+      "twoStepsThenYouAreIn": "Dwa kroki i możesz grać",
+      "fabric": "FABRIC ·",
+      "required": "Wymagane",
+      "downloadTheAnarchyMod": "Pobierz Anarchy Mod",
+      "getTheLatestOfficialReleaseAndInstallItIn": "Pobierz najnowsze oficjalne wydanie i zainstaluj je w swoim profilu Fabric.",
+      "downloadLatestRelease": "Pobierz najnowsze wydanie",
+      "viewSourceCode": "Zobacz kod źródłowy",
+      "play": "Graj",
+      "launchMinecraft": "Uruchom Minecraft",
+      "startYourFabricProfileOpenMultiplayerAndSelect6b6t": "Uruchom swój profil Fabric, otwórz tryb wieloosobowy i wybierz 6b6t z listy serwerów.",
+      "serverAddress": "Adres serwera",
+      "copied": "Skopiowano",
+      "copyIp": "Kopiuj IP",
+      "fallbackAddresses": "Alternatywne adresy",
+      "playingOnBedrock": "Grasz na Bedrock?",
+      "noFabricModNeededUseADirectBedrockConnection": "Nie potrzebujesz moda Fabric — użyj bezpośredniego połączenia Bedrock.",
+      "serverOnline": "Serwer online",
+      "text2000Players": "/2000 graczy",
+      "java": "Java",
+      "done": "Gotowe"
+    },
+    "shop": {
+      "featureDefinitions": {
+        "prefix": "prefix",
+        "homes": "domy",
+        "skin": "skin",
+        "chatcolors": "kolory czatu",
+        "hat": "hat",
+        "sit": "sit",
+        "invisframe": "invisframe",
+        "balloons": "balony",
+        "namecolor": "kolor nicku",
+        "particles": "cząsteczki",
+        "glow": "glow",
+        "cigar": "cigar",
+        "vpn": "vpn",
+        "builder": "builder",
+        "hotspot": "hotspot",
+        "ignore": "ignore",
+        "discord": "discord",
+        "support": "wsparcie",
+        "embed": "embed",
+        "attach": "załączniki",
+        "reaction": "reakcje",
+        "nickname": "nick",
+        "streaming": "streaming",
+        "ads": "reklamy",
+        "general": "Ogólne",
+        "general2": "Ogólne",
+        "homesTpa": "Domy i TPA",
+        "homesTpa2": "Domy i TPA",
+        "cosmetics": "Kosmetyki",
+        "cosmetics2": "Kosmetyki",
+        "gameplay": "Rozgrywka",
+        "gameplay2": "Rozgrywka",
+        "chat": "Czat",
+        "chat2": "Czat",
+        "website": "Strona",
+        "website2": "Strona",
+        "discord2": "Discord",
+        "prefix2": "Prefix",
+        "primePrefix": "Prefix Prime",
+        "elitePrefix": "Prefix Elite",
+        "apexPrefix": "Prefix Apex",
+        "primeUltraPrefix": "Prefix Prime Ultra",
+        "eliteUltraPrefix": "Prefix Elite Ultra",
+        "duration": "Czas trwania",
+        "duration2": "Czas trwania",
+        "lifetime": "Na zawsze",
+        "homes2": "Domy",
+        "image": "image",
+        "homesAmountInterface": "Interfejs liczby domów",
+        "text12Homes": "12 domów",
+        "text30Homes": "30 domów",
+        "text100Homes": "100 domów",
+        "text18Homes": "18 domów",
+        "text50Homes": "50 domów",
+        "homeCooldown": "Cooldown /home",
+        "homeCooldownInterface": "Interfejs cooldownu /home",
+        "text300s": "300s",
+        "text90s": "90s",
+        "text15s": "15s",
+        "text180s": "180s",
+        "text40s": "40s",
+        "tpaCooldown": "Cooldown /tpa",
+        "tpaCooldownInterface": "Interfejs cooldownu /tpa",
+        "text420s": "420s",
+        "text120s": "120s",
+        "text30s": "30s",
+        "text70s": "70s",
+        "homeExecutionTime": "Czas wykonania /home",
+        "homeExecutionTimeDiagram": "Schemat czasu wykonania /home",
+        "tpaExecutionTime": "Czas wykonania /tpa",
+        "tpaExecutionTimeDiagram": "Schemat czasu wykonania /tpa",
+        "skin2": "Skin",
+        "skinCommandInterface": "Interfejs komendy /skin",
+        "included": "Zawarte",
+        "hat2": "Hat",
+        "hatCommandInterface": "Interfejs komendy /hat",
+        "notIncluded": "Nie obejmuje",
+        "sit2": "Sit",
+        "sitCommandInterface": "Interfejs komendy /sit",
+        "balloons2": "Balony",
+        "balloonsCommandInterface": "Interfejs komendy /balloons",
+        "text5Balloons": "5 balonów",
+        "text40Balloons": "40 balonów",
+        "text3Balloons": "3 balony",
+        "text30Balloons": "30 balonów",
+        "particles2": "Cząsteczki",
+        "particlesFeature": "Funkcja cząsteczek",
+        "cigar2": "Cigar",
+        "glowEffect": "Efekt glow",
+        "glowEffectOnPlayers": "Efekt glow na graczach",
+        "chatColor": "Kolor czatu",
+        "text2Colors": "2 kolory",
+        "text3Colors": "3 kolory",
+        "text8Colors": "8 kolorów",
+        "text6Colors": "6 kolorów",
+        "nameColor": "Kolor nicku",
+        "nameColorSelectionMenu": "Menu wyboru koloru nicku",
+        "turnItemFramesInvisible": "Niewidzialne ramki na przedmioty",
+        "invisframeCommandInterface": "Interfejs komendy /invisframe",
+        "editArmorStands": "Edycja stojaków na zbroję",
+        "joinWithVpns": "Dołączanie z VPN",
+        "builderMode": "Tryb budowniczego",
+        "text22Chunks": "22 chunki",
+        "text32Chunks": "32 chunki",
+        "text16Chunks": "16 chunków",
+        "text28Chunks": "28 chunków",
+        "automaticBuilderModeHome": "Automatyczny tryb budowniczego przy domu",
+        "createHotspots": "Tworzenie hotspotów",
+        "hotspotCreateInterface": "Interfejs tworzenia hotspotu",
+        "maximumHotspotDuration": "Maksymalny czas trwania hotspotu",
+        "text30Minutes": "30 minut",
+        "text90Minutes": "90 minut",
+        "text60Minutes": "60 minut",
+        "hotspotExecutionTimeYou": "Czas wykonania /hotspot (Ty)",
+        "hotspotExecutionTimeForYou": "Czas wykonania hotspotu dla Ciebie",
+        "text3s": "3s",
+        "hotspotExecutionTimeOthers": "Czas wykonania /hotspot (Inni)",
+        "hotspotExecutionTimeForOthers": "Czas wykonania hotspotu dla innych",
+        "text5s": "5s",
+        "hotspotName": "Nazwa hotspotu",
+        "hotspotNameFeature": "Funkcja nazwy hotspotu",
+        "hotspotColors": "Kolory hotspotu",
+        "text1Color": "1 kolor",
+        "text5Colors": "5 kolorów",
+        "hotspotGlow": "Glow hotspotu",
+        "hotspotGlowEffectOnPlayers": "Efekt glow hotspotu na graczach",
+        "hotspotBalloons": "Balony hotspotu",
+        "hotspotBalloonsAbovePlayers": "Balony hotspotu nad graczami",
+        "colorsInAnvils": "Kolory w kowadłach",
+        "colorsInAnvilsExample": "Przykład kolorów w kowadłach",
+        "formattingInAnvils": "Formatowanie w kowadłach",
+        "formattingInAnvilsExample": "Przykład formatowania w kowadłach",
+        "boldObfuscatedInAnvils": "Pogrubienie i obfuscated w kowadłach",
+        "boldAndObfuscatedInAnvilsExample": "Przykład pogrubienia i obfuscated w kowadłach",
+        "connectionMessageColor": "Kolor wiadomości o połączeniu",
+        "deathMessageColor": "Kolor wiadomości o śmierci",
+        "ignoreLimit": "Limit ignorowania",
+        "text2000Players": "2000 graczy",
+        "text5000Players": "5000 graczy",
+        "chatWithoutItem": "Czat bez przedmiotu",
+        "communityGoalPoints": "Punkty celów społeczności",
+        "text24Points": "24 punkty",
+        "text100Points": "100 punktów",
+        "text300Points": "300 punktów",
+        "text963Points": "9–63 punkty",
+        "text26175Points": "26–175 punktów",
+        "customizeStats": "Personalizacja statystyk",
+        "uniqueStatsPageEffects": "Unikalne efekty strony statystyk",
+        "discordRole": "Rola na Discordzie",
+        "primeRole": "Rola Prime",
+        "eliteRole": "Rola Elite",
+        "apexRole": "Rola Apex",
+        "primeUltraRole": "Rola Prime Ultra",
+        "eliteUltraRole": "Rola Elite Ultra",
+        "prioritySupport": "Priorytetowe wsparcie",
+        "prioritySupportDiscordChannel": "Kanał priorytetowego wsparcia na Discordzie",
+        "rankedChannels": "Kanały dla rang",
+        "embedLinks": "Osadzanie linków",
+        "attachFiles": "Załączanie plików",
+        "addReactions": "Dodawanie reakcji",
+        "changeNickname": "Zmiana nicku",
+        "videoStreaming": "Streaming wideo",
+        "advertiseChannel": "Kanał reklamowy",
+        "legendNameColor": "Kolor nicku Legend",
+        "thePrefixShownBeforeYourNameInChatAnd": "Prefix wyświetlany przed Twoim nickiem na czacie i liście graczy.",
+        "howLongYourRankLastsAfterPurchasePrimeElite": "Jak długo trwa Twoja ranga po zakupie. Prime, Elite i Apex są na zawsze.",
+        "howManyHomesYouCanSetWithSethome": "Ile domów możesz ustawić za pomocą /sethome",
+        "timeYouMustWaitBetweenHomeSethomeUses": "Czas, jaki musisz odczekać między użyciem /home i /sethome",
+        "timeYouMustWaitBetweenSendingTpaRequests": "Czas, jaki musisz odczekać między wysyłaniem próśb /tpa",
+        "theAmountOfTimeItTakesForHomeTeleportation": "Czas, jaki zajmuje wykonanie teleportacji /home",
+        "theAmountOfTimeItTakesForYourOr": "Czas, jaki zajmuje wykonanie teleportacji /tpa (Twojej lub do Ciebie)",
+        "changeYourSkinWithSkin": "Zmień swój skin za pomocą /skin",
+        "wearTheItemInYourHandAsAHat": "Załóż przedmiot z ręki jako kapelusz za pomocą /hat",
+        "sitOnTheBlockYouRsquoReStandingOn": "Usiądź na bloku, na którym stoisz, za pomocą /sit",
+        "putABalloonInYourHandWithBalloons": "Weź balon do ręki za pomocą /balloons",
+        "applyParticlesAroundYourselfWithParticles": "Dodaj cząsteczki wokół siebie za pomocą /particles",
+        "smokeACigarInMinecraftWithCigar": "Zapal cygaro w Minecraftcie za pomocą /cigar",
+        "viewCigarFeature": "Zobacz funkcję Cigar",
+        "cigarFeature": "Funkcja Cigar",
+        "viewSmokingACigar": "Zobacz palenie cygara",
+        "smokingACigar": "Palenie cygara",
+        "makeYourselfGlowWithGlowGlowColorMatchesYour": "Spraw, byś świecił za pomocą /glow! Kolor glow dopasowuje się do koloru Twojego nicku",
+        "gray": "Szary",
+        "aqua": "Akwamaryna",
+        "green": "Zielony",
+        "skyBlue": "Błękitny",
+        "brightGreen": "Jasnozielony",
+        "malachite": "Malachitowy",
+        "gold": "Złoty",
+        "white": "Biały",
+        "blue": "Niebieski",
+        "red": "Czerwony",
+        "yellow": "Żółty",
+        "lightPurple": "Jasnofioletowy",
+        "darkGreen": "Ciemnozielony",
+        "darkAqua": "Ciemna akwamaryna",
+        "darkRed": "Ciemnoczerwony",
+        "black": "Czarny",
+        "changeTheColorOfYourChatMessagesWithChatcolor": "Zmień kolor swoich wiadomości na czacie za pomocą /chatcolor",
+        "color": "Kolor",
+        "prime": "Prime",
+        "elite": "Elite",
+        "apex": "Apex",
+        "legend": "Legend",
+        "value1Value2": "{{value1}}{{value2}}",
+        "primeUltra": "Prime Ultra",
+        "eliteUltra": "Elite Ultra",
+        "changeTheColorOfYourNameInChatWith": "Zmień kolor swojego nicku na czacie za pomocą /namecolor",
+        "turnAnItemFrameInvisibleWithInvisframe": "Uczyń ramkę na przedmioty niewidzialną za pomocą /invisframe",
+        "editArmorStandsAndTheirPosition": "Edytuj stojaki na zbroję i ich pozycję",
+        "joinWithAVpnOrProxyVerificationNowRuns": "Dołącz z VPN lub proxy. Weryfikacja odbywa się teraz przez EnderDash.",
+        "temporarilyGetUltraHighRenderDistanceWhenBuildingBases": "Tymczasowo uzyskaj ultra wysoki zasięg renderowania podczas budowania baz lub robienia screenshotów za pomocą /buildermode",
+        "weHaveProgrammedBuilderModeInAWaySo": "Zaprogramowaliśmy tryb budowniczego tak, by nie był P2W (pay to win). Automatycznie się wyłącza, gdy odejdziesz za daleko, i ma cooldown.",
+        "before": "Przed",
+        "normalRenderDistanceBeforeEnablingBuilderMode": "Normalny zasięg renderowania przed włączeniem trybu budowniczego",
+        "enlargeImage": "Enlarge image",
+        "normalRenderDistance": "Normalny zasięg renderowania",
+        "after": "Po",
+        "ultraHighRenderDistanceWithBuilderModeEnabled": "Ultra wysoki zasięg renderowania przy włączonym trybie budowniczego",
+        "builderModeHighRenderDistance": "Wysoki zasięg renderowania w trybie budowniczego",
+        "automaticallyEnableBuilderModeWhenTeleportingToASelected": "Automatycznie włącz tryb budowniczego przy teleportacji do wybranego domu za pomocą /buildermode home &lt;nazwa&gt;",
+        "createTemporaryTeleporationZonesCalledHotspotsToWhichAnyone": "Twórz tymczasowe strefy teleportacji zwane hotspotami, do których każdy może się przeteleportować za pomocą /hotspot create",
+        "text30MinDuration30MinCooldown": "30 min trwania / 30 min cooldown",
+        "text60MinDuration45MinCooldown": "60 min trwania / 45 min cooldown",
+        "text90MinDuration60MinCooldown": "90 min trwania / 60 min cooldown",
+        "text120MinDuration90MinCooldown": "120 min trwania / 90 min cooldown",
+        "inTheHotspotCreateCommandYouCanSpecifyThe": "W komendzie /hotspot create możesz określić czas trwania hotspotu. Jeśli nie podasz czasu, zostanie użyty maksymalny. Cooldown między tworzeniem nowych hotspotów jest powiązany z czasem trwania.",
+        "command": "Komenda:",
+        "durationAmpCooldown": "Czas trwania i cooldown",
+        "theAmountOfTimeItTakesForHotspotTeleportation": "Czas, jaki zajmuje wykonanie teleportacji /hotspot",
+        "theAmountOfTimeItTakesForHotspotTeleportation2": "Czas, jaki zajmuje wykonanie teleportacji /hotspot wszystkich graczy do Twojego hotspotu",
+        "setYourHotspotNameWithHotspotName": "Ustaw nazwę hotspotu za pomocą /hotspot name",
+        "purple": "Fioletowy",
+        "inTheHotspotCreateCommandYouCanSpecifyThe2": "W komendzie /hotspot create możesz określić kolor paska bossa.",
+        "setAGlowColorForPlayersWhoTeleportTo": "Ustaw kolor glow dla graczy, którzy teleportują się do Twojego hotspotu, za pomocą /hotspot glow",
+        "setABalloonForPlayersWhoTeleportToYour": "Ustaw balon dla graczy, którzy teleportują się do Twojego hotspotu, za pomocą /hotspot balloons",
+        "useColorCodesInAnvilsForExampleChello": "Używaj kodów kolorów & w kowadłach, np.: &cCześć",
+        "useUnderlineStrikethroughAndItalicFormattingForExampleC": "Używaj formatowania podkreślenia, przekreślenia i kursywy, np.: &c&o&n&mO wow!",
+        "useAmpBoldAndObfuscatedForExampleAmpL": "Używaj & pogrubienia i obfuscated, np.: &l&kTo jest Matrix.",
+        "changeTheColorOfConnectionMessagesThatYouSee": "Zmień kolor wiadomości o połączeniu, które widzisz, za pomocą /connectionmsgs color",
+        "changeTheColorOfDeathMessagesThatYouSee": "Zmień kolor wiadomości o śmierci, które widzisz, za pomocą /deathmsgs color",
+        "theMaximumAmountOfPlayersThatYouCanIgnore": "Maksymalna liczba graczy, których możesz zignorować za pomocą /ignore",
+        "talkInChatWithoutNeedingToHaveAnItem": "Pisz na czacie bez konieczności posiadania przedmiotu w ekwipunku",
+        "pointsGivenTowardsTheCurrentActiveCommunityGoal": "Punkty przyznawane do aktualnego aktywnego celu społeczności",
+        "customizeYourPersonalStatsPage": "Personalizuj swoją stronę statystyk",
+        "theAmountOfStatsPageEffectsThatYouCan": "Liczba efektów strony statystyk, z których możesz korzystać",
+        "theDiscordRoleYouReceiveAfterConnectingDiscord": "Rola na Discordzie, którą otrzymujesz po połączeniu konta",
+        "receiveImmediateSupportThroughDiscord": "Otrzymuj natychmiastowe wsparcie przez Discorda",
+        "accessToRankedOnlyChannelsInDiscord": "Dostęp do kanałów tylko dla rang na Discordzie",
+        "linksGetAnEmbedPreviewInGeneral": "Linki otrzymują podgląd embed w #general",
+        "attachPhotosVideosAndOtherFilesInGeneral": "Załączaj zdjęcia, filmy i inne pliki w #general",
+        "addReactionsToMessagesInGeneral": "Dodawaj reakcje do wiadomości w #general",
+        "changeYourNickname": "Zmień swój nick",
+        "streamVideoOrScreenshareInAllVoiceChannels": "Streamuj wideo lub udostępniaj ekran na wszystkich kanałach głosowych",
+        "advertiseYour6b6tProjectDailyInTheAdvertiseChannel": "Reklamuj swój projekt na 6b6t codziennie na kanale #advertise",
+        "accessToLegendColorToChangeYourDiscordName": "Dostęp do #legend-color, aby zmienić kolor nicku na Discordzie"
+      },
+      "imageModal": {
+        "closeModal": "Zamknij modal"
+      },
+      "shopBuyButton": {
+        "creatingCheckoutSession": "Tworzenie sesji płatności...",
+        "checkoutSessionCreated": "Sesja płatności utworzona!",
+        "close": "Zamknij",
+        "isThisAGift": "Czy to prezent?",
+        "ifYouBuyThisAsAGiftYouCan": "Jeśli kupujesz to jako prezent, możesz też dodać wiadomość dla obdarowanego.",
+        "goToBillingPortal": "Przejdź do portalu rozliczeń →",
+        "theRefundPolicyForGiftedRanksIs14Days": "Polityka zwrotów dla podarowanych rang wynosi 14 dni.",
+        "readTheRefundPolicy": "Read the refund policy",
+        "buyForMe": "Kup dla siebie",
+        "buyAsGift": "Kup jako prezent",
+        "giftInformation": "Informacje o prezencie",
+        "enterYourUsernameAndAnOptionalMessageForThe": "Podaj swój nick i opcjonalną wiadomość dla obdarowanego.",
+        "whoIsThisGiftFrom": "Od kogo jest ten prezent? *",
+        "yourMinecraftUsername": "Twój nick Minecraft",
+        "giftMessageOptional": "Wiadomość do prezentu (opcjonalnie)",
+        "writeAMessageForTheRecipient": "Napisz wiadomość dla obdarowanego...",
+        "cancel": "Anuluj",
+        "continue": "Kontynuuj",
+        "confirmGiftPurchase": "Potwierdź zakup prezentu",
+        "pleaseReviewTheGiftDetailsBeforeProceeding": "Sprawdź szczegóły prezentu przed kontynuacją",
+        "from": "Od",
+        "giftArrow": "Strzałka prezentu",
+        "to": "Dla",
+        "willReceive": "otrzyma",
+        "permanentRank": "Rangę dożywotnią",
+        "pleaseVerifyAllDetailsAreCorrect": "⚠️ Upewnij się, że wszystkie dane są poprawne",
+        "goBack": "Wróć",
+        "confirmContinue": "Potwierdź i kontynuuj",
+        "choosePaymentMethod": "Wybierz metodę płatności",
+        "selectHowYouWouldLikeToPayFor": "Wybierz, w jaki sposób chcesz zapłacić za",
+        "payWithTebex": "Pay with Tebex",
+        "tebexComingSoon": "Tebex coming soon",
+        "paypalMore": "PayPal & more",
+        "selectTebexCheckout": "Wybierz płatność Tebex",
+        "paypal": "PayPal",
+        "crypto": "Krypto",
+        "cardOtherMethods": "Karta i inne metody",
+        "selectCardOrAnotherMethod": "Wybierz kartę lub inną metodę",
+        "allTransactionsAreSecureAndEncrypted": "Wszystkie transakcje są bezpieczne i szyfrowane"
+      }
+    },
     "socialIcons": {
       "socialIcon": "Ikona społecznościowa"
-    },
-    "socialProofSection": {
-      "amazingServerTheApexRankIsAbsolutelyWorthIt": "Niesamowity serwer! Ranga Apex zdecydowanie jest warta swojej ceny. Społeczność jest fantastyczna i nigdy nie miałem problemów z lagami. Zespół administracyjny jest bardzo pomocny!",
-      "unitedStates": "Stany Zjednoczone",
-      "beenPlayingFor6MonthsNowWithEliteRank": "Gram już od 6 miesięcy z rangą Elite. Narzędzia i uprawnienia zmieniają grę. Najlepsza inwestycja, jaką zrobiłem w Minecraft!",
-      "canada": "Kanada",
-      "justUpgradedToLegendRankLastWeekAndWow": "Właśnie w zeszłym tygodniu ulepszyłem do rangi Legend i wow! Funkcje są niesamowite. Same priorytetowe kolejki oszczędzają mi tyle czasu. 10/10 polecam!",
-      "unitedKingdom": "Wielka Brytania",
-      "verifiedCheckmark": "Zweryfikowany znacznik",
-      "over": "Ponad",
-      "satisfiedCustomers": "+ zadowolonych klientów",
-      "realReviewsFrom": "Prawdziwe recenzje od",
-      "discordMembers": "członków Discorda",
-      "verifiedPurchasesFromOurDiscordCommunity": "Zweryfikowane zakupy ze społeczności Discord"
     },
     "stats": {
       "backgroundRenderer": {
@@ -441,10 +802,8 @@
         "loadingGalleryImages": "Ładowanie obrazów z galerii..."
       },
       "enhancedThemeControls": {
-        "autoSaveFailed": "Automatyczny zapis nie powiódł się",
         "colors": "Kolory",
         "background": "Tło",
-        "color": "Kolor",
         "enhancedThemeCustomization": "Zaawansowana personalizacja motywu",
         "unsavedChanges": "Niezapisane zmiany",
         "saving": "Zapisywanie...",
@@ -542,35 +901,6 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "Możesz zobaczyć pełną historię statystyk {{value1}}, w tym czas gry, zabójstwa, śmierci i więcej, właśnie tutaj na stronie profilu 6b6t.",
         "frequentlyAskedQuestionsAbout": "Często zadawane pytania o"
       },
-      "simplifiedThemeControls": {
-        "colors": "Kolory",
-        "background": "Tło",
-        "themeSettings": "Ustawienia motywu",
-        "unsavedChanges": "Niezapisane zmiany",
-        "saving": "Zapisywanie...",
-        "saved": "Zapisano",
-        "errorSaving": "Błąd zapisu",
-        "customizeYourIndividualStatsPageWithColorsAndBackgrounds": "Spersonalizuj swoją stronę statystyk kolorami i tłami",
-        "chooseYourColorTheme": "Wybierz motyw kolorystyczny",
-        "backgroundSettings": "Ustawienia tła",
-        "currentBackground": "Aktualne tło",
-        "imageValue1": "Obraz: {{value1}}",
-        "noBackgroundSelected": "Nie wybrano tła",
-        "chooseBackground": "Wybierz tło",
-        "position": "Pozycja",
-        "cover": "Cover",
-        "center": "Wyśrodkuj",
-        "repeat": "Powtórz",
-        "opacity": "Krycie:",
-        "blendMode": "Tryb mieszania",
-        "overlay": "Overlay",
-        "multiply": "Multiply",
-        "screen": "Screen",
-        "blurEffect": "Efekt rozmycia",
-        "removeBackground": "Usuń tło",
-        "resetToDefaults": "Przywróć domyślne",
-        "saveChanges": "Zapisz zmiany"
-      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityBadge": "Odznaka społeczności Telegram 6b6t",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Połączono Telegram i obecnie jest członkiem grupy 6b6t"
@@ -618,9 +948,6 @@
       },
       "notification": {
         "dismissNotification": "Zamknij powiadomienie"
-      },
-      "sheet": {
-        "close": "Zamknij"
       },
       "sonner": {
         "groupToastTextMutedForeground": "group-[.toast]:text-muted-foreground"

@@ -1,13 +1,8 @@
 {
   "sections": {
     "antispamClient": {
-      "failedToFetchLogs": "No se pudieron obtener los registros",
       "loadingModerationLogs": "Cargando registros de moderación...",
-      "unableToLoadLogs": "No se pudieron cargar los registros",
       "tryAgain": "Intentar de nuevo",
-      "noModerationRecordsAvailable": "No hay registros de moderación disponibles",
-      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "¡Buenas noticias! No se han registrado acciones de prevención de spam recientemente. Nuestra comunidad mantiene el chat limpio y respetuoso.",
-      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "Esta página se actualizará automáticamente cuando se produzcan acciones de moderación.",
       "searchPlayer": "Buscar jugador...",
       "newestFirst": "Más recientes primero",
       "oldestFirst": "Más antiguos primero",
@@ -29,15 +24,13 @@
       "value1Value2": "{{value1}}{{value2}}",
       "of": "de"
     },
-    "components": {
-      "muteSystemCard": {
-        "muteSystem": "Sistema de muteo",
-        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t tiene muteos, pero son completamente transparentes y aún puedes decidir ver a los jugadores muteados. Muteamos a los jugadores de acuerdo con las reglas de este sitio web. Si quieres tener la experiencia anárquica completa y deseas ver a los jugadores muteados, usa el comando:",
-        "on": "activado",
-        "or": "o",
-        "off": "desactivado",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "Este sistema de muteo es completamente transparente y compatible con la anarquía."
-      }
+    "muteSystemCard": {
+      "muteSystem": "Sistema de muteo",
+      "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t tiene muteos, pero son completamente transparentes y aún puedes decidir ver a los jugadores muteados. Muteamos a los jugadores de acuerdo con las reglas de este sitio web. Si quieres tener la experiencia anárquica completa y deseas ver a los jugadores muteados, usa el comando:",
+      "on": "activado",
+      "or": "o",
+      "off": "desactivado",
+      "thisMuteSystemIsFullyTransparentAndAnarchy": "Este sistema de muteo es completamente transparente y compatible con la anarquía."
     },
     "page": {
       "antiSpamLogs": "Registros antispam",

@@ -7,6 +7,7 @@ values in one of these folders:
 
 - `locales/de` — German
 - `locales/es` — Spanish
+- `locales/fr` — French
 - `locales/hi` — Hindi
 - `locales/pl` — Polish
 - `locales/ru` — Russian
@@ -40,8 +41,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the complete workflow.
 
 ## Publishing accepted translations
 
-After a translation pull request is reviewed and merged, redeploy the website
-in Dokploy. The website build downloads this repository's latest `main` commit,
-validates every catalog and placeholder, and compiles the accepted translations
-into the deployment. No website sync pull request or Git submodule update is
-required.
+After a translation pull request is reviewed and merged, synchronize the catalogs
+in the website repository with `bun run translations:sync /path/to/6b6t-translations/locales`.
+Verify and commit that change to the website's `main` branch. Its GitHub Actions
+workflow deploys the committed catalogs to Cloudflare, without fetching this
+repository during CI.
+
+Local website builds can still fetch this repository's latest `main` unless
+`SKIP_COMMUNITY_TRANSLATIONS_FETCH=true` is set. The English source must match
+the website exactly. When the website source changes, export it with
+`bun run translations:export-source /path/to/6b6t-translations/locales`, preserve
+any newer translations already in the website, then validate both repositories.
