@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "admin": {
+      "monitoring": {
+        "page": {
+          "recentErrors": "Erreurs récentes",
+          "loadingLatestIssues": "Chargement des derniers problèmes…",
+          "systemStatus": "État du système",
+          "noRecentErrorsDetectedAllSystemsOperational": "Aucune erreur récente détectée — Tous les systèmes sont opérationnels",
+          "allSystemsOperational": "Tous les systèmes sont opérationnels",
+          "shopMonitoringSystemRunningSmoothly": "Le système de surveillance de la boutique fonctionne normalement",
+          "latestIssuesRequiringAttention": "Derniers problèmes nécessitant une intervention (",
+          "total": "au total)",
+          "refresh": "Actualiser",
+          "unknown": "INCONNU",
+          "unknown2": "inconnu",
+          "paymentIssue": "Problème de paiement",
+          "unknownError": "Erreur inconnue",
+          "page": "Page :",
+          "paymentId": "Identifiant du paiement :",
+          "amountAtRisk": "Montant en jeu :",
+          "time": "Heure :",
+          "resolve": "Résoudre",
+          "resolved": "Résolu",
+          "shopErrorMonitoring": "Surveillance des erreurs de la boutique",
+          "realTimeMonitoringAndManagementOfShopErrorsAnd": "Surveillance et gestion en temps réel des erreurs et problèmes de la boutique",
+          "lastUpdated": "Dernière mise à jour :",
+          "backToAdmin": "Retour à l’administration",
+          "refreshAll": "Tout actualiser",
+          "monitoringSystemActive": "Système de surveillance actif",
+          "realTimeErrorTrackingAndNotificationsEnabledAutoRefresh": "Suivi des erreurs et notifications en temps réel activés • Actualisation automatique toutes les 30 secondes",
+          "live": "En direct",
+          "totalErrors": "Nombre total d’erreurs",
+          "last24Hours": "Dernières 24 heures",
+          "criticalIssues": "Problèmes critiques",
+          "requiresImmediateAttention": "Nécessite une intervention immédiate",
+          "value1ActiveIssues": "{{value1}} problèmes actifs",
+          "noCriticalIssues": "Aucun problème critique",
+          "revenueAtRisk": "Chiffre d’affaires en jeu",
+          "fromFailedTransactions": "Transactions échouées",
+          "affectedUsers": "Utilisateurs concernés",
+          "uniqueUsersImpacted": "Utilisateurs uniques concernés"
+        }
+      }
+    },
+    "layout": {
+      "loading": "Chargement…"
+    }
+  }
+}

@@ -2,12 +2,6 @@
   "page-name": "Player Stats & Leaderboards",
   "seo-description": "Explore 6b6t player statistics, search individual profiles, and compare leaderboard rankings for playtime, kills, travel, blocks, and more.",
   "sections": {
-    "username": {
-      "page": {
-        "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
-        "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
-      }
-    },
     "leaderboardStatisticCard": {
       "rank": "Rank",
       "name": "Name",
@@ -17,10 +11,6 @@
       "playersRanked": "players ranked",
       "previousPage": "Previous page",
       "nextPage": "Next page"
-    },
-    "loading": {
-      "loadingSpinner": "Loading spinner",
-      "loadingStatistics": "Loading statistics..."
     },
     "playerStatsSearch": {
       "playerStatsSearch": "Player Stats Search",
@@ -36,6 +26,14 @@
       "underMaintenance": "Under Maintenance",
       "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "This statistic is temporarily unavailable. We're working on bringing you the latest leaderboard data as soon as possible.",
       "loadingStatisticsData": "Loading statistics data..."
+    },
+    "username": {
+      "page": {
+        "loading": "Loading…"
+      },
+      "layout": {
+        "loadingPlayerStats": "Loading player stats…"
+      }
     }
   }
 }

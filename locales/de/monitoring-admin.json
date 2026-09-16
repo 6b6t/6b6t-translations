@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "admin": {
+      "monitoring": {
+        "page": {
+          "recentErrors": "Recent Errors",
+          "loadingLatestIssues": "Loading latest issues...",
+          "systemStatus": "System Status",
+          "noRecentErrorsDetectedAllSystemsOperational": "No recent errors detected - All systems operational",
+          "allSystemsOperational": "All Systems Operational",
+          "shopMonitoringSystemRunningSmoothly": "Shop monitoring system running smoothly",
+          "latestIssuesRequiringAttention": "Latest issues requiring attention (",
+          "total": "total)",
+          "refresh": "Refresh",
+          "unknown": "UNKNOWN",
+          "unknown2": "unknown",
+          "paymentIssue": "Payment Issue",
+          "unknownError": "Unknown error",
+          "page": "Page:",
+          "paymentId": "Payment ID:",
+          "amountAtRisk": "Amount at Risk:",
+          "time": "Time:",
+          "resolve": "Resolve",
+          "resolved": "Resolved",
+          "shopErrorMonitoring": "Shop Error Monitoring",
+          "realTimeMonitoringAndManagementOfShopErrorsAnd": "Real-time monitoring and management of shop errors and issues",
+          "lastUpdated": "Last updated:",
+          "backToAdmin": "Back to Admin",
+          "refreshAll": "Refresh All",
+          "monitoringSystemActive": "Monitoring System Active",
+          "realTimeErrorTrackingAndNotificationsEnabledAutoRefresh": "Real-time error tracking and notifications enabled • Auto-refresh every 30 seconds",
+          "live": "Live",
+          "totalErrors": "Total Errors",
+          "last24Hours": "Last 24 hours",
+          "criticalIssues": "Critical Issues",
+          "requiresImmediateAttention": "Requires immediate attention",
+          "value1ActiveIssues": "{{value1}} active issues",
+          "noCriticalIssues": "No critical issues",
+          "revenueAtRisk": "Revenue at Risk",
+          "fromFailedTransactions": "From failed transactions",
+          "affectedUsers": "Affected Users",
+          "uniqueUsersImpacted": "Unique users impacted"
+        }
+      }
+    },
+    "layout": {
+      "loading": "Loading..."
+    }
+  }
+}

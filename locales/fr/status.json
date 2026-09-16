@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "statusClient": {
+      "text6b6tServerStatus": "ÉTAT DU SERVEUR 6b6t",
+      "realTimeServerInformationAndPlayerStatistics": "Informations du serveur et statistiques des joueurs en temps réel",
+      "lastUpdated": "Dernière mise à jour :",
+      "loading": "Chargement…",
+      "refresh": "Actualiser",
+      "currentPlayers": "Joueurs actuels",
+      "connectionFailed": "Échec de la connexion",
+      "playersOnline": "joueurs en ligne",
+      "online": "En ligne",
+      "offline": "Hors ligne",
+      "serverLimit": "Limite du serveur",
+      "maximumCapacity": "capacité maximale",
+      "capacity": "Capacité",
+      "version": "Version",
+      "minecraftVersion": "version de Minecraft",
+      "serverAddress": "Adresse du serveur",
+      "ping": "Ping",
+      "ms": "ms"
+    }
+  }
+}

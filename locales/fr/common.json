@@ -1,0 +1,19 @@
+{
+  "404": "404 — Page introuvable !",
+  "500": "500 — Erreur interne du serveur !",
+  "seo-description": "6b6t.org est le plus grand serveur Minecraft anarchique. Il propose les commandes /tpa et /home et accueille plus de 200 joueurs en ligne chaque jour. IP : play.6b6t.org",
+  "logo-image-alt": "Logo 6b6t",
+  "copied": "Copié !",
+  "click-to-copy": "Cliquez pour copier !",
+  "404-page-name": "404",
+  "500-page-name": "500",
+  "offline-page-name": "Hors ligne",
+  "reset": "Réinitialiser",
+  "home": "Accueil",
+  "subscription-management": "Gestion des abonnements",
+  "subscription-description": "Gérez vos abonnements au serveur 6b6t, consultez votre historique de facturation et annulez les paiements récurrents depuis notre portail sécurisé.",
+  "manage-subscription": "Gérer l’abonnement",
+  "manage-billing": "Gérer la facturation",
+  "billing-portal-title": "Besoin de gérer votre abonnement ?",
+  "billing-portal-description": "Consultez votre historique de facturation, mettez à jour vos moyens de paiement ou annulez votre abonnement depuis notre portail sécurisé."
+}

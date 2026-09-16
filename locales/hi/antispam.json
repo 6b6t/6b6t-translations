@@ -1,13 +1,8 @@
 {
   "sections": {
     "antispamClient": {
-      "failedToFetchLogs": "लॉग लाने में विफल",
       "loadingModerationLogs": "मॉडरेशन लॉग लोड हो रहा है...",
-      "unableToLoadLogs": "लॉग लोड करने में असमर्थ",
       "tryAgain": "पुनः प्रयास करें",
-      "noModerationRecordsAvailable": "कोई मॉडरेशन रिकॉर्ड उपलब्ध नहीं है",
-      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "अच्छी खबर! हाल ही में कोई स्पैम निवारण कार्रवाई दर्ज नहीं की गई है। हमारा समुदाय चैट को स्वच्छ और सम्मानजनक बनाए रख रहा है।",
-      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "मॉडरेशन कार्रवाई होने पर यह पृष्ठ स्वचालित रूप से अपडेट हो जाएगा.",
       "searchPlayer": "प्लेयर खोजें...",
       "newestFirst": "नवीनतम प्रथम",
       "oldestFirst": "सबसे पुराना पहले",
@@ -29,15 +24,13 @@
       "value1Value2": "{{value1}}{{value2}}",
       "of": "का"
     },
-    "components": {
-      "muteSystemCard": {
-        "muteSystem": "म्यूट सिस्टम",
-        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t में म्यूट हैं, लेकिन वे पूरी तरह से पारदर्शी हैं और आप अभी भी म्यूट किए गए प्लेयर्स को देखने का निर्णय ले सकते हैं। हम इस वेबसाइट के नियमों के अनुसार खिलाड़ियों को म्यूट करते हैं। यदि आप पूर्ण अराजकता का अनुभव लेना चाहते हैं और आप मौन खिलाड़ियों को देखना चाहते हैं, तो कमांड का उपयोग करें:",
-        "on": "पर",
-        "or": "या",
-        "off": "बंद",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "यह मूक व्यवस्था पूर्णतः पारदर्शी एवं अराजक है।"
-      }
+    "muteSystemCard": {
+      "muteSystem": "म्यूट सिस्टम",
+      "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t में म्यूट हैं, लेकिन वे पूरी तरह से पारदर्शी हैं और आप अभी भी म्यूट किए गए प्लेयर्स को देखने का निर्णय ले सकते हैं। हम इस वेबसाइट के नियमों के अनुसार खिलाड़ियों को म्यूट करते हैं। यदि आप पूर्ण अराजकता का अनुभव लेना चाहते हैं और आप मौन खिलाड़ियों को देखना चाहते हैं, तो कमांड का उपयोग करें:",
+      "on": "पर",
+      "or": "या",
+      "off": "बंद",
+      "thisMuteSystemIsFullyTransparentAndAnarchy": "यह मूक व्यवस्था पूर्णतः पारदर्शी एवं अराजक है।"
     },
     "page": {
       "antiSpamLogs": "एंटी-स्पैम लॉग",

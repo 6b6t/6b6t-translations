@@ -1,28 +1,6 @@
 {
   "sections": {
     "statusClient": {
-      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
-      "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
-      "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
-      "lastUpdated": "Son güncelleme:",
-      "loading": "Yükleniyor...",
-      "refresh": "Yenile",
-      "currentPlayers": "Mevcut Oyuncular",
-      "connectionFailed": "Bağlantı Başarısız",
-      "playersOnline": "oyuncu çevrimiçi",
-      "online": "Çevrimiçi",
-      "offline": "Çevrimdışı",
-      "serverLimit": "Sunucu Limiti",
-      "maximumCapacity": "maksimum kapasite",
-      "capacity": "Kapasite",
-      "version": "Sürüm",
-      "minecraftVersion": "minecraft sürümü",
-      "serverAddress": "Sunucu Adresi",
-      "ping": "Ping",
-      "ms": "ms"
-    },
-    "statusPageContent": {
-      "failedToFetchServerStatus": "Sunucu durumu alınamadı",
       "text6b6tServerStatus": "6b6t SUNUCU DURUMU",
       "realTimeServerInformationAndPlayerStatistics": "Gerçek zamanlı sunucu bilgisi ve oyuncu istatistikleri",
       "lastUpdated": "Son güncelleme:",

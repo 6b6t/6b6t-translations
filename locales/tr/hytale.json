@@ -1,141 +1,61 @@
 {
   "sections": {
-    "components": {
-      "countdown": {
-        "days": "GÜN",
-        "hours": "SAAT",
-        "mins": "DK",
-        "secs": "SN"
-      },
-      "hytaleConnectionModal": {
-        "serverConnection": "Sunucu Bağlantısı",
-        "closeModal": "Pencereyi kapat",
-        "text6b6tHytale": "6b6t Hytale",
-        "statusOnline": "Durum: Çevrimiçi",
-        "serverAddresses": "Sunucu Adresleri",
-        "clickAnyAddressBelowToCopyUseTheseTo": "Kopyalamak için aşağıdaki adreslerden birine tıkla. Bunları oyun içinde bağlanmak için kullan.",
-        "howToJoin": "Nasıl Katılınır",
-        "launchYourHytaleClient": "Hytale istemcinizi başlatın",
-        "navigateToMultiplayerGtAddServer": "Çok Oyunculu &gt; Sunucu Ekle bölümüne gidin",
-        "enterOneOfTheAddressesAbove": "Yukarıdaki adreslerden birini girin",
-        "joinAndEmbraceTheChaos": "Katıl ve kaosu kucakla",
-        "joinTheDiscordForUpdates": "Güncellemeler için Discord'a katıl"
-      },
-      "hytaleFaq": {
-        "areThereReallyNoRules": "Gerçekten hiç kural yok mu?",
-        "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale sunucusu tam bir anarşi sunucusudur. Grief yapmak, baskın düzenlemek ve PvP tamamen serbesttir. Hytale'deki ilk anarşi sunucusu olarak, banlanma olmadan mutlak özgürlük sunuyoruz.",
-        "whatMakesThisTheFirstAnarchyServer": "Bunu ilk anarşi sunucusu yapan nedir?",
-        "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t, Hytale'nin 13 Ocak 2026'daki küresel çıkışından yalnızca dakikalar sonra yayına girdi. Hytale tarihindeki ilk gerçek anarşi ortamını kurarak asla sıfırlanmayacak kalıcı bir dünya yarattık.",
-        "willTheMapEverReset": "Harita hiç sıfırlanacak mı?",
-        "theMapOf6b6tHytaleServerWillNeverReset": "6b6t Hytale sunucusunun haritası asla sıfırlanmayacak. 6b6t, 13 Ocak 2026'da başlayan Hytale'deki en eski anarşi sunucusudur. Bu dünya kalıcıdır ve yapılarınızı ile geçmişinizi sonsuza dek korur.",
-        "isItPayToWin": "Pay-to-Win mi?",
-        "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "Kesinlikle hayır. 6b6t, adil oyuna odaklanan ücretsiz bir anarşi sunucusudur. Pay-2-Win avantajı bulunmamasını sağlar.",
-        "common": "Sıkça",
-        "queries": "Sorulanlar"
-      },
-      "hytaleFeaturedVideo": {
-        "featuredVideo": "Öne Çıkan Video",
-        "fitmcOn": "FitMC:",
-        "text6b6tHytale": "6b6t Hytale",
-        "watchTheLatestVideoAbout6b6tFromFitmcThe": "FitMC'nin 6b6t hakkındaki en son videosunu izleyin. Hytale'deki en büyük ve en eski anarşi sunucusu.",
-        "fitmcOn6b6tHytale": "6b6t Hytale'de FitMC",
-        "clickToPlay": "Oynatmak için tıklayın"
-      },
-      "hytaleFooter": {
-        "discord": "Discord",
-        "youtube": "YouTube",
-        "twitter": "Twitter",
-        "reddit": "Reddit",
-        "tiktok": "TikTok",
-        "instagram": "Instagram",
-        "text6b6t": "6b6t",
-        "hytale": "Hytale",
-        "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "Hytale için yeniden tasarlanmış nihai anarşi deneyimi. Kuralsız, efendisiz, sonsuz olasılıklar.",
-        "serverIp": "Sunucu IP",
-        "copyIp": "IP'yi Kopyala",
-        "links": "Bağlantılar",
-        "home": "Ana Sayfa",
-        "notAffiliatedWithMojangStudiosOrHypixelStudios": "Mojang Studios veya Hypixel Studios ile bir bağlantısı yoktur.",
-        "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. Tüm hakları saklıdır."
-      },
-      "hytaleGallery": {
-        "aCastleDuringTheDay": "Gündüz vakti bir kale",
-        "inventoryFullOfDupedItems": "Dupe eşyalarla dolu envanter",
-        "oneOfTheFirstHighways": "İlk otoyollardan biri",
-        "highwayBuildersWorkingTogether": "Birlikte çalışan otoyol inşacıları",
-        "text3rdDayOnTheServer": "Sunucudaki 3. gün",
-        "aGlitchedBlock": "Glitch'li bir blok",
-        "spawnInTheFirstWeekOf6b6tHytale": "6b6t Hytale'nin ilk haftasındaki spawn",
-        "oneOfTheFirstPeacefulNights": "İlk huzurlu gecelerden biri",
-        "aModernHouse": "Modern bir ev",
-        "aFortifiedPlayerBaseRisingAboveTheTerrain": "Arazinin üzerinde yükselen tahkimatlı bir oyuncu üssü",
-        "aSprawlingCityBuiltByTheCommunity": "Topluluk tarafından inşa edilmiş yayılan bir şehir",
-        "coloredMapart": "renkli mapart",
-        "aColorfulPixelArtCreationVisibleOnTheMap": "Haritada görülebilen renkli bir piksel sanatı eseri",
-        "giantTree": "dev ağaç",
-        "aMassiveTreeToweringOverTheLandscape": "Manzaraya yükselen devasa bir ağaç",
-        "aHighwayStretchingEndlesslyIntoTheHorizon": "Ufka doğru sonsuza uzanan bir otoyol",
-        "aLavaFilledCraterAtSpawn": "Spawn'da lav dolu bir krater",
-        "aTallTowerPiercingThroughTheClouds": "Bulutları delen uzun bir kule",
-        "january2026": "Ocak 2026",
-        "allMedia": "Tüm Medya",
-        "hytale": "Hytale",
-        "aGlimpseOf": "Bir Bakış:",
-        "chaos": "Kaos",
-        "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "Fethedilmeyi bekleyen anlatılmamış hikayelere ve manzaralara tanık olun."
-      },
-      "hytaleGalleryModal": {
-        "closeModal": "Pencereyi kapat",
-        "featured": "Öne Çıkan"
-      },
-      "hytaleHero": {
-        "text6b6t": "6b6t",
-        "theFirstAnarchyServerInHytale": "Hytale'deki İlk Anarşi Sunucusu",
-        "noRulesNoResetsNoMercyExperience": "Kural yok. Sıfırlama yok. Merhamet yok. Deneyimle:",
-        "trueAnarchy": "gerçek anarşi",
-        "inHytaleOnThe": ", Hytale'de",
-        "firstAnarchyServer": "ilk anarşi sunucusunda",
-        "establishedJust": ", oyunun çıkışından",
-        "minutesAfterTheGameLaunched": "yalnızca dakikalar sonra kurulmuştur",
-        "chaosReignsInThisOpenWorldWithNoBans": ". Bu açık dünyada ban ve ceza olmadan kaos hüküm sürer.",
-        "playersOnline": "Çevrimiçi Oyuncu",
-        "capacity": "kapasite",
-        "liveQuery": "Canlı Durum",
-        "tps": "TPS:",
-        "entities": "Entityler:",
-        "chunks": "Chunklar:",
-        "joinDiscord": "Discord'a Katıl",
-        "playNow": "Hemen Oyna",
-        "playHytaleTrailer": "Hytale Fragmanını Oynat",
-        "hytaleTrailerThumbnail": "Hytale Fragmanı Küçük Resmi",
-        "playVideo": "Videoyu Oynat",
-        "hytaleTrailer": "Hytale Fragmanı"
-      },
-      "hytaleNav": {
-        "home": "ANA SAYFA",
-        "text6b6t": "6b6t",
-        "text6b6t2": "6B6T",
-        "play": "OYNA",
-        "toggleMenu": "Menüyü aç/kapat"
-      },
-      "runeDecorations": {
-        "text6b6tForever": "6b6t sonsuza dek",
-        "chaosAwaits": "Kaos seni bekliyor",
-        "joinTheAnarchy": "Anarşiye katıl",
-        "noRulesNoMercy": "Kural yok, merhamet yok",
-        "hytale2026": "Hytale 2026"
-      },
-      "serverAge": {
-        "serverAge": "Sunucu Yaşı",
-        "days": "GÜN",
-        "hours": "SAAT",
-        "mins": "DK",
-        "secs": "SN",
-        "est": "Kur.",
-        "cet": "CET"
-      }
+    "hytaleConnectionModal": {
+      "serverConnection": "Sunucu Bağlantısı",
+      "closeModal": "Pencereyi kapat",
+      "text6b6tHytale": "6b6t Hytale",
+      "statusOnline": "Durum: Çevrimiçi",
+      "serverAddresses": "Sunucu Adresleri",
+      "clickAnyAddressBelowToCopyUseTheseTo": "Kopyalamak için aşağıdaki adreslerden birine tıkla. Bunları oyun içinde bağlanmak için kullan.",
+      "howToJoin": "Nasıl Katılınır",
+      "launchYourHytaleClient": "Hytale istemcinizi başlatın",
+      "navigateToMultiplayerGtAddServer": "Çok Oyunculu &gt; Sunucu Ekle bölümüne gidin",
+      "enterOneOfTheAddressesAbove": "Yukarıdaki adreslerden birini girin",
+      "joinAndEmbraceTheChaos": "Katıl ve kaosu kucakla",
+      "joinTheDiscordForUpdates": "Güncellemeler için Discord'a katıl"
     },
-    "galleryData": {
+    "hytaleFaq": {
+      "areThereReallyNoRules": "Gerçekten hiç kural yok mu?",
+      "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "6b6t Hytale sunucusu tam bir anarşi sunucusudur. Grief yapmak, baskın düzenlemek ve PvP tamamen serbesttir. Hytale'deki ilk anarşi sunucusu olarak, banlanma olmadan mutlak özgürlük sunuyoruz.",
+      "whatMakesThisTheFirstAnarchyServer": "Bunu ilk anarşi sunucusu yapan nedir?",
+      "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t, Hytale'nin 13 Ocak 2026'daki küresel çıkışından yalnızca dakikalar sonra yayına girdi. Hytale tarihindeki ilk gerçek anarşi ortamını kurarak asla sıfırlanmayacak kalıcı bir dünya yarattık.",
+      "willTheMapEverReset": "Harita hiç sıfırlanacak mı?",
+      "theMapOf6b6tHytaleServerWillNeverReset": "6b6t Hytale sunucusunun haritası asla sıfırlanmayacak. 6b6t, 13 Ocak 2026'da başlayan Hytale'deki en eski anarşi sunucusudur. Bu dünya kalıcıdır ve yapılarınızı ile geçmişinizi sonsuza dek korur.",
+      "isItPayToWin": "Pay-to-Win mi?",
+      "absolutelyNot6b6tIsAFreeAnarchyServerFocused": "Kesinlikle hayır. 6b6t, adil oyuna odaklanan ücretsiz bir anarşi sunucusudur. Pay-2-Win avantajı bulunmamasını sağlar.",
+      "common": "Sıkça",
+      "queries": "Sorulanlar"
+    },
+    "hytaleFeaturedVideo": {
+      "featuredVideo": "Öne Çıkan Video",
+      "fitmcOn": "FitMC:",
+      "text6b6tHytale": "6b6t Hytale",
+      "watchTheLatestVideoAbout6b6tFromFitmcThe": "FitMC'nin 6b6t hakkındaki en son videosunu izleyin. Hytale'deki en büyük ve en eski anarşi sunucusu.",
+      "fitmcOn6b6tHytale": "6b6t Hytale'de FitMC",
+      "clickToPlay": "Oynatmak için tıklayın"
+    },
+    "hytaleFooter": {
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "twitter": "Twitter",
+      "reddit": "Reddit",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "text6b6t": "6b6t",
+      "hytale": "Hytale",
+      "theUltimateAnarchyExperienceReimaginedForHytaleNoRules": "Hytale için yeniden tasarlanmış nihai anarşi deneyimi. Kuralsız, efendisiz, sonsuz olasılıklar.",
+      "serverIp": "Sunucu IP",
+      "copyIp": "IP'yi Kopyala",
+      "links": "Bağlantılar",
+      "home": "Ana Sayfa",
+      "notAffiliatedWithMojangStudiosOrHypixelStudios": "Mojang Studios veya Hypixel Studios ile bir bağlantısı yoktur.",
+      "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. Tüm hakları saklıdır."
+    },
+    "hytaleGalleryModal": {
+      "closeModal": "Pencereyi kapat",
+      "featured": "Öne Çıkan"
+    },
+    "hytaleGallery": {
       "aCastleDuringTheDay": "Gündüz vakti bir kale",
       "inventoryFullOfDupedItems": "Dupe eşyalarla dolu envanter",
       "oneOfTheFirstHighways": "İlk otoyollardan biri",
@@ -154,7 +74,49 @@
       "aHighwayStretchingEndlesslyIntoTheHorizon": "Ufka doğru sonsuza uzanan bir otoyol",
       "aLavaFilledCraterAtSpawn": "Spawn'da lav dolu bir krater",
       "aTallTowerPiercingThroughTheClouds": "Bulutları delen uzun bir kule",
-      "january2026": "Ocak 2026"
+      "january2026": "Ocak 2026",
+      "aGlimpseOf": "Bir Bakış:",
+      "chaos": "Kaos",
+      "witnessTheUntoldStoriesAndLandscapesWaitingToBe": "Fethedilmeyi bekleyen anlatılmamış hikayelere ve manzaralara tanık olun."
+    },
+    "hytaleHero": {
+      "text6b6t": "6b6t",
+      "theFirstAnarchyServerInHytale": "Hytale'deki İlk Anarşi Sunucusu",
+      "noRulesNoResetsNoMercyExperience": "Kural yok. Sıfırlama yok. Merhamet yok. Deneyimle:",
+      "trueAnarchy": "gerçek anarşi",
+      "inHytaleOnThe": ", Hytale'de",
+      "firstAnarchyServer": "ilk anarşi sunucusunda",
+      "establishedJust": ", oyunun çıkışından",
+      "minutesAfterTheGameLaunched": "yalnızca dakikalar sonra kurulmuştur",
+      "chaosReignsInThisOpenWorldWithNoBans": ". Bu açık dünyada ban ve ceza olmadan kaos hüküm sürer.",
+      "playersOnline": "Çevrimiçi Oyuncu",
+      "capacity": "kapasite",
+      "liveQuery": "Canlı Durum",
+      "tps": "TPS:",
+      "entities": "Entityler:",
+      "chunks": "Chunklar:",
+      "joinDiscord": "Discord'a Katıl",
+      "playNow": "Hemen Oyna",
+      "playHytaleTrailer": "Hytale Fragmanını Oynat",
+      "hytaleTrailerThumbnail": "Hytale Fragmanı Küçük Resmi",
+      "playVideo": "Videoyu Oynat",
+      "hytaleTrailer": "Hytale Fragmanı"
+    },
+    "hytaleNav": {
+      "home": "ANA SAYFA",
+      "text6b6t": "6b6t",
+      "text6b6t2": "6B6T",
+      "play": "OYNA",
+      "toggleMenu": "Menüyü aç/kapat"
+    },
+    "serverAge": {
+      "serverAge": "Sunucu Yaşı",
+      "days": "GÜN",
+      "hours": "SAAT",
+      "mins": "DK",
+      "secs": "SN",
+      "est": "Kur.",
+      "cet": "CET"
     },
     "page": {
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - Hytale'deki İlk Anarşi Sunucusu | Hytale Anarşi",

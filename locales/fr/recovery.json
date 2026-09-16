@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "phaseIndicator": {
+      "start": "Démarrer",
+      "start2": "start",
+      "identity": "Identité",
+      "intent": "intent",
+      "challenge": "challenge",
+      "verify": "Vérifier",
+      "reset": "Réinitialiser",
+      "result": "Résultat",
+      "blocked": "blocked",
+      "success": "réussite"
+    },
+    "recoveryWalkthrough": {
+      "startWithTheAccount": "Commencez par le compte",
+      "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Saisissez d’abord le pseudo. La procédure détermine quelle méthode de récupération est sûre pour ce compte.",
+      "useTheExactInGameUsername": "Utilisez le pseudo exact en jeu.",
+      "completeTheCaptchaOnceBeforeSubmitting": "Complétez le CAPTCHA avant l’envoi.",
+      "ifTheAccountCanStillUseTheNormalEmail": "Si le compte peut encore utiliser la réinitialisation habituelle par e-mail, vous serez redirigé vers celle-ci.",
+      "setTheNewContactEmail": "Définissez le nouvel e-mail de contact",
+      "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "Le nouvel e-mail n’est accepté qu’après validation de l’identité : utilisez une boîte de réception que vous contrôlez.",
+      "useAnEmailYouCanVerifyImmediately": "Utilisez un e-mail que vous pouvez vérifier immédiatement.",
+      "ifYouStillRememberTheOldEmailProvideIt": "Si vous vous souvenez de l’ancien e-mail, indiquez-le lorsqu’il est demandé.",
+      "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Les réponses de sécurité restent génériques pour empêcher les attaquants de savoir quelles informations correspondent.",
+      "prepareProofDetails": "Préparez vos preuves",
+      "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Une preuve solide repose sur des détails de l’historique du compte qu’un autre joueur ne connaîtrait pas.",
+      "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Les résidences enregistrées et les coordonnées sont facultatives si vous ne les avez pas.",
+      "countriesLastLogoutLocationItemNamesAndOldBase": "Les pays, le dernier lieu de déconnexion, les noms d’objets et les détails d’anciennes bases peuvent améliorer le score.",
+      "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "N’indiquez que les détails dont vous vous souvenez réellement ; des suppositions erronées peuvent affaiblir la demande.",
+      "reviewOrReset": "Examen ou réinitialisation",
+      "ifTheAutomaticScoreIsEnoughYouContinueTo": "Si le score automatique est suffisant, vous passez à la vérification. Sinon, un ticket est créé.",
+      "manualReviewTicketsKeepTheProofAttachedForStaff": "Les preuves restent jointes aux tickets d’examen manuel pour l’équipe.",
+      "recoveryIsRateLimitedSoDoNotSpamAttempts": "Les tentatives de récupération sont limitées : ne les multipliez pas inutilement.",
+      "onceApprovedFinishTheEmailCodeStepAndSet": "Après approbation, terminez la vérification par code e-mail et définissez un nouveau mot de passe.",
+      "howRecoveryWorks": "Comment fonctionne la récupération",
+      "walkthroughProgress": "Progression du guide",
+      "goToWalkthroughStepValue1": "Aller à l’étape {{value1}} du guide",
+      "step": "Étape",
+      "value1Value2": "{{value1}}{{value2}}",
+      "of": "sur",
+      "skip": "Passer",
+      "back": "Retour",
+      "startRecovery": "Commencer la récupération",
+      "next": "Suivant"
+    },
+    "steps": {
+      "blockedStep": {
+        "recoveryBlocked": "Récupération bloquée",
+        "theOriginalAccountOwnerHasConfirmedTheyDidNot": "Le propriétaire d’origine du compte a confirmé ne pas avoir lancé cette récupération. Aucune nouvelle tentative de récupération ne peut aboutir pour ce compte.",
+        "returnToStart": "Revenir au début"
+      },
+      "challengeStep": {
+        "securityChallenge": "Vérification de sécurité",
+        "thisAccountIsCurrentlyLinkedToAnEmailAddress": "Ce compte est actuellement associé à une adresse e-mail. Par sécurité, saisissez-la si vous vous en souvenez.",
+        "currentlyConnectedEmailOptional": "E-mail actuellement associé (facultatif)",
+        "oldEmailExampleCom": "ancien-email@example.com",
+        "ifYouDonAposTKnowItLeaveThis": "Si vous ne le connaissez pas, laissez ce champ vide. Vous devrez simplement fournir davantage de preuves à l’étape suivante.",
+        "verifyAccountIdentity": "Vérifier l’identité du compte"
+      },
+      "gracePeriodPendingStep": {
+        "recoveryPendingGracePeriodActive": "Récupération en attente — Délai de grâce actif",
+        "theAccountOwnerHasBeenNotifiedViaEmailIf": "Le propriétaire du compte a été averti par e-mail. S’il ne répond pas dans un délai de",
+        "days": "jours",
+        "youCanProceedWithIdentityVerification": ", vous pourrez poursuivre la vérification d’identité.",
+        "gracePeriodExpires": "Fin du délai de grâce :",
+        "verification": "Vérification",
+        "checking": "Vérification en cours…",
+        "checkStatus": "Vérifier le statut",
+        "returnToStart": "Revenir au début"
+      },
+      "intentStep": {
+        "setNewContactEmail": "Définir le nouvel e-mail de contact",
+        "enterTheEmailThatShouldBeLinkedToThis": "Saisissez l’e-mail à associer à ce compte après la récupération.",
+        "newTargetEmail": "Nouvel e-mail de destination",
+        "required": "(obligatoire)",
+        "nameExampleCom": "nom@example.com",
+        "checked": "Coché",
+        "iCanStillLogDirectlyIntoThe6b6tMinecraft": "Je peux encore me connecter directement au serveur Minecraft 6b6t",
+        "continueRecovery": "Poursuivre la récupération"
+      },
+      "lane1DeadEndStep": {
+        "standardResetRequired": "Réinitialisation standard requise",
+        "automatedRecoveryUnavailable": "Récupération automatique indisponible",
+        "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Votre compte possède déjà un e-mail vérifié correspondant à celui saisi. Utilisez la procédure habituelle « Mot de passe oublié » pour réinitialiser vos identifiants.",
+        "weCannotProcessAnAutomatedRecoveryForThisAccount": "Pour garantir la sécurité de ce compte, nous ne pouvons pas effectuer de récupération automatique avec les informations fournies.",
+        "returnToStart": "Revenir au début"
+      },
+      "lane2aStep": {
+        "inGameRecoveryInstructions": "Instructions de récupération en jeu",
+        "sinceYouCanStillJoinTheServerProveControl": "Puisque vous pouvez encore rejoindre le serveur, prouvez que vous contrôlez le compte depuis le jeu avant de modifier l’e-mail de récupération. Ce code vérifie la demande de changement d’e-mail ; nous confirmerons ensuite le nouvel e-mail.",
+        "join6b6t": "Rejoignez 6b6t",
+        "run": "Exécutez",
+        "copyThe6CharacterRecoveryCodeShownInChat": "Copiez le code de récupération de 6 caractères affiché dans le chat et saisissez-le ci-dessous.",
+        "newTargetEmail": "Nouvel e-mail de destination",
+        "required": "(obligatoire)",
+        "nameExampleCom": "nom@example.com",
+        "inGameRecoveryCode": "Code de récupération en jeu",
+        "abc123": "ABC123",
+        "verifyInGameCode": "Vérifier le code en jeu",
+        "returnToStart": "Revenir au début"
+      },
+      "manualReviewStep": {
+        "manualReview": "Examen manuel",
+        "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "Votre vérification d’identité a parfaitement réussi. Toutefois, ce compte ayant été actif récemment (hors ligne depuis seulement",
+        "aFew": "quelques",
+        "daysOurSecurityPolicyRequiresAnAdminToManually": "jours), notre politique de sécurité exige un examen manuel par un administrateur avant de continuer.",
+        "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "Votre vérification d’identité a réussi. Toutefois, ce compte possédant un grade spécial, un examen manuel est requis par sécurité.",
+        "submitProofOfAccountOwnershipForAdminReviewInclude": "Envoyez des preuves de propriété du compte pour examen par un administrateur : reçus d’achat, identifiants de transaction ou tout élément vous reliant à ce compte.",
+        "contactTargetEmail": "E-mail de contact / destination",
+        "proofType": "Type de preuve",
+        "shopOrderIdInvoice": "Identifiant de commande / facture de la boutique",
+        "bankCardStatement": "Relevé bancaire ou de carte",
+        "other": "Autre",
+        "proofDetails": "Détails des preuves",
+        "provideProofDetailsThatCanBeVerified": "Fournissez des preuves vérifiables.",
+        "attachmentsOptionalOneUrlPathPerLineUpTo": "Pièces jointes (facultatif, une URL ou un chemin par ligne, 3 maximum)",
+        "verification": "Vérification",
+        "submitManualReview": "Envoyer pour examen manuel"
+      },
+      "premiumAccountStep": {
+        "premiumMinecraftAccount": "Compte Minecraft premium",
+        "thisUsernameIsAuthenticatedByMicrosoftMojangSo6b6t": "Ce pseudo est authentifié par Microsoft/Mojang : 6b6t ne peut pas le réinitialiser via la récupération AuthMe. Connectez-vous avec le compte Microsoft propriétaire de ce profil Minecraft pour retrouver l’accès.",
+        "returnToStart": "Revenir au début"
+      },
+      "privateScoreStep": {
+        "privateConnectionDetails": "Informations de connexion privées",
+        "yourPublicProofWasNotEnoughProvidePrivateNetwork": "Vos preuves publiques n’ont pas suffi. Fournissez des informations réseau privées pour améliorer votre score.",
+        "ipAddressIpv4OrIpv6": "Adresse IP (IPv4 ou IPv6)",
+        "city": "Ville",
+        "asnExampleAs1234": "ASN (exemple : AS1234)",
+        "ispProvider": "FAI / Fournisseur",
+        "scorePrivateDetails": "Évaluer les informations privées"
+      },
+      "publicScoreStep": {
+        "overworld": "overworld",
+        "overworld2": "Monde normal",
+        "nether": "nether",
+        "nether2": "Nether",
+        "end": "end",
+        "end2": "End",
+        "unknown": "inconnu",
+        "notSure": "Je ne sais pas",
+        "none": "Aucun",
+        "accountProofRequired": "Preuves du compte requises",
+        "provideDetailsAboutYourAccountToVerifyYourIdentity": "Fournissez des détails sur votre compte pour vérifier votre identité.",
+        "countriesYouPlayFrom": "Pays depuis lesquels vous jouez",
+        "commaSeparated": "(séparés par des virgules)",
+        "eGGermanyNetherlandsUnitedStates": "Par ex. Allemagne, Pays-Bas, États-Unis",
+        "howManySavedHomesDidThisAccountHave": "Combien de résidences ce compte avait-il enregistrées ?",
+        "homeNameProofIsSkippedBecauseThisAccountHad": "La preuve par noms de résidences est ignorée car ce compte n’en avait aucune.",
+        "savedHomeNames": "Noms des résidences enregistrées",
+        "oneRowPerHome": "(une ligne par résidence)",
+        "optional": "(facultatif)",
+        "savedHomeName": "Nom de résidence enregistré",
+        "dimensionForSavedHomeValue1": "Dimension de la résidence {{value1}}",
+        "removeSavedHomeValue1": "Supprimer la résidence {{value1}}",
+        "addHome": "Ajouter une résidence",
+        "howManyCoordinateLocationsCanYouProvide": "Combien de lieux pouvez-vous indiquer par leurs coordonnées ?",
+        "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "La preuve par coordonnées est ignorée car aucun lieu n’a été fourni.",
+        "knownCoordinates": "Coordonnées connues",
+        "oneRowPerLocation": "(une ligne par lieu)",
+        "dimensionForCoordinateValue1": "Dimension des coordonnées {{value1}}",
+        "removeCoordinateValue1": "Supprimer les coordonnées {{value1}}",
+        "addCoordinate": "Ajouter des coordonnées",
+        "approximateCoordinatesAreOkayIfTheyPointNearA": "Les coordonnées approximatives sont acceptées si elles pointent près d’une base, d’une cache ou d’une résidence enregistrée.",
+        "iRememberWhereILastLoggedOut": "Je me souviens de mon dernier lieu de déconnexion",
+        "lastLogoutLocation": "Dernier lieu de déconnexion",
+        "dimensionForLastLogoutLocation": "Dimension du dernier lieu de déconnexion",
+        "thisIsStrongProofIfYouRememberWhereYou": "Il s’agit d’une preuve solide si vous vous souvenez de l’endroit où vous vous êtes déconnecté.",
+        "otherDetails": "Autres détails",
+        "inventoryItemsSwordNamesUnwrittenBookContentsPetNames": "Objets de l’inventaire, noms d’épées, contenu de livres non signés, noms d’animaux…",
+        "submitProofCalculateScore": "Envoyer les preuves et calculer le score"
+      },
+      "resetPasswordStep": {
+        "setNewPassword": "Définir un nouveau mot de passe",
+        "yourIdentityHasBeenVerifiedChooseANewPassword": "Votre identité a été vérifiée. Choisissez un nouveau mot de passe pour votre compte.",
+        "newPassword": "Nouveau mot de passe",
+        "minimum8Characters": "8 caractères minimum",
+        "confirmPassword": "Confirmer le mot de passe",
+        "reEnterYourNewPassword": "Saisissez à nouveau votre nouveau mot de passe",
+        "resetPassword": "Réinitialiser le mot de passe"
+      },
+      "startStep": {
+        "minecraftUsername": "Pseudo Minecraft",
+        "yourminecraftname": "VotrePseudoMinecraft",
+        "verification": "Vérification",
+        "continue": "Continuer"
+      },
+      "successStep": {
+        "recoveryFlowCompletedForThisSession": "La procédure de récupération est terminée pour cette session.",
+        "startNewRecovery": "Commencer une nouvelle récupération"
+      },
+      "verifyEmailCodeStep": {
+        "emailVerification": "Vérification de l’e-mail",
+        "a6DigitCodeHasBeenSentToYour": "Un code à 6 chiffres a été envoyé à votre e-mail. Vérifiez vos courriers indésirables si vous ne le voyez pas.",
+        "emailVerificationCode": "Code de vérification de l’e-mail",
+        "text6DigitCode": "Code à 6 chiffres",
+        "verifyCode": "Vérifier le code"
+      }
+    },
+    "block": {
+      "page": {
+        "error": "erreur",
+        "noBlockTokenProvided": "Aucun jeton de blocage fourni.",
+        "loading": "chargement",
+        "success": "réussite",
+        "recoveryAttemptHasBeenBlockedSuccessfully": "La tentative de récupération a été bloquée avec succès.",
+        "failedToBlockRecoveryAttempt": "Impossible de bloquer la tentative de récupération.",
+        "anErrorOccurredPleaseTryAgainLater": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+        "noBlockTokenProvidedInTheUrl": "Aucun jeton de blocage fourni dans l’URL.",
+        "accountSecurity": "Sécurité du compte",
+        "block": "Bloquer",
+        "recovery": "Récupération",
+        "ifYouDidNotInitiateAnAccountRecoveryClick": "Si vous n’avez pas lancé de récupération de compte, cliquez sur le bouton ci-dessous pour bloquer la tentative et protéger votre compte.",
+        "confirmBlock": "Confirmer le blocage",
+        "blockThisRecoveryAttempt": "Bloquer cette tentative de récupération",
+        "processing": "Traitement en cours…",
+        "accountProtected": "Compte protégé",
+        "thisBlockIsPermanentTheAccountOwnerConfirmedThey": "Ce blocage est permanent. Le propriétaire du compte a confirmé ne pas avoir autorisé cette tentative de récupération."
+      }
+    },
+    "page": {
+      "accountSecurity": "Sécurité du compte",
+      "account": "Compte",
+      "recovery": "Récupération",
+      "completeTheRecoveryFlowToProveAccountOwnershipAnd": "Terminez la procédure pour prouver que le compte vous appartient et rétablir l’accès. Pour des raisons de sécurité, les réponses sont volontairement génériques."
+    },
+    "reset": {
+      "page": {
+        "error": "erreur",
+        "noResetTokenProvidedInTheUrl": "Aucun jeton de réinitialisation fourni dans l’URL.",
+        "loading": "chargement",
+        "success": "réussite",
+        "passwordHasBeenResetSuccessfully": "Le mot de passe a été réinitialisé avec succès.",
+        "idle": "idle",
+        "accountSecurity": "Sécurité du compte",
+        "reset": "Réinitialiser",
+        "password": "Mot de passe",
+        "yourRecoveryRequestWasApprovedSetANewPassword": "Votre demande de récupération a été approuvée. Définissez un nouveau mot de passe pour votre compte ci-dessous.",
+        "newPassword": "Nouveau mot de passe",
+        "passwordResetComplete": "Réinitialisation du mot de passe terminée",
+        "minimum8Characters": "8 caractères minimum",
+        "confirmPassword": "Confirmer le mot de passe",
+        "reEnterYourPassword": "Saisissez à nouveau votre mot de passe",
+        "resetPassword": "Réinitialiser le mot de passe"
+      }
+    }
+  }
+}

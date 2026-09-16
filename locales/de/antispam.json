@@ -1,13 +1,8 @@
 {
   "sections": {
     "antispamClient": {
-      "failedToFetchLogs": "Failed to fetch logs",
       "loadingModerationLogs": "Loading moderation logs...",
-      "unableToLoadLogs": "Unable to Load Logs",
-      "tryAgain": "Try Again",
-      "noModerationRecordsAvailable": "No Moderation Records Available",
-      "greatNewsNoSpamPreventionActionsHaveBeenRecorded": "Great news! No spam prevention actions have been recorded recently. Our community is keeping chat clean and respectful.",
-      "thisPageWillAutomaticallyUpdateWhenModerationActionsOccur": "This page will automatically update when moderation actions occur.",
+      "tryAgain": "Try again",
       "searchPlayer": "Search player...",
       "newestFirst": "Newest First",
       "oldestFirst": "Oldest First",
@@ -29,15 +24,13 @@
       "value1Value2": "{{value1}}{{value2}}",
       "of": "of"
     },
-    "components": {
-      "muteSystemCard": {
-        "muteSystem": "Mute System",
-        "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
-        "on": "on",
-        "or": "or",
-        "off": "off",
-        "thisMuteSystemIsFullyTransparentAndAnarchy": "This mute system is fully transparent and anarchy."
-      }
+    "muteSystemCard": {
+      "muteSystem": "Mute System",
+      "text6b6tHasMutesButTheyReFullyTransparentAnd": "6b6t has mutes, but they're fully transparent and you can still decide to see the muted players. We mute players according to the rules on this website. If you want to have the full anarchy experience and you would like to see the muted players, use the command:",
+      "on": "on",
+      "or": "or",
+      "off": "off",
+      "thisMuteSystemIsFullyTransparentAndAnarchy": "This mute system is fully transparent and anarchy."
     },
     "page": {
       "antiSpamLogs": "Anti-Spam Logs",

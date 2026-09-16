@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "discordMarkdown": {
+      "value1Value2": "{{value1}}{{value2}}",
+      "value1": ":{{value1}}:",
+      "user": "@user",
+      "updatesPing": "@Updates Ping"
+    },
+    "updatesList": {
+      "edited": "Modifié",
+      "postedBy": "Publié par",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Cette mise à jour a été publiée avec des pièces jointes sur Discord.",
+      "openInDiscord": "Ouvrir dans Discord",
+      "latestPost": "Dernière publication",
+      "loading": "Chargement…",
+      "loadMoreValue1": "Charger davantage de {{value1}}",
+      "newUpdate": "nouvelle mise à jour",
+      "justAppeared": "vient d’apparaître.",
+      "dismiss": "Fermer",
+      "searchUpdates": "Rechercher des mises à jour",
+      "searching": "Recherche en cours…",
+      "search": "Rechercher",
+      "clear": "Effacer",
+      "showing": "Affichage de",
+      "searchResults": "résultats de recherche.",
+      "loadMoreResults": "Charger plus de résultats",
+      "noUpdatesMatchedYourSearch": "Aucune mise à jour ne correspond à votre recherche."
+    },
+    "page": {
+      "discordUpdatesAreComingHereSoon": "Les mises à jour Discord seront bientôt disponibles ici",
+      "theChangelogPageIsReadyToSyncFromThe": "La page des mises à jour est prête à se synchroniser avec le salon Discord officiel. En attendant, rejoignez Discord pour lire les dernières publications.",
+      "joinDiscord": "Rejoindre Discord",
+      "text6b6tUpdates": "Mises à jour de 6b6t",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Dernières notes de mise à jour du serveur 6b6t et historique des nouveautés depuis Discord.",
+      "changelog": "Journal des mises à jour",
+      "server": "Serveur",
+      "updates": "Mises à jour",
+      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Derniers changements, correctifs et annonces du salon officiel des mises à jour de 6b6t sur Discord.",
+      "loadingUpdates": "Chargement des mises à jour…"
+    }
+  }
+}
