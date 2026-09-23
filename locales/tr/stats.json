@@ -1,6 +1,6 @@
 {
-  "page-name": "İstatistikler",
-  "seo-description": "Farklı kategorilerdeki en iyi oyuncularımızı görün",
+  "page-name": "Oyuncu İstatistikleri ve Liderlik Tabloları",
+  "seo-description": "6b6t oyuncu istatistiklerini keşfet, oyuncu profillerini ara ve oynama süresi, öldürme, seyahat, blok ve daha fazlası için liderlik tablosu sıralamalarını karşılaştır.",
   "sections": {
     "leaderboardStatisticCard": {
       "rank": "Sıra",
@@ -29,10 +29,10 @@
     },
     "username": {
       "page": {
-        "loading": "Loading…"
+        "loading": "Yükleniyor…"
       },
       "layout": {
-        "loadingPlayerStats": "Loading player stats…"
+        "loadingPlayerStats": "Oyuncu istatistikleri yükleniyor…"
       }
     }
   }

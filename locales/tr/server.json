@@ -2,7 +2,7 @@
   "sections": {
     "api": {
       "text": {
-        "notFound": "Not found"
+        "notFound": "Bulunamadı"
       },
       "commands": {
         "failedToFetchCommands": "Komutlar getirilemedi"
@@ -11,7 +11,7 @@
         "completed": "completed",
         "opened": "opened",
         "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
-        "invalidWebhookSignature": "Invalid webhook signature",
+        "invalidWebhookSignature": "Geçersiz webhook imzası",
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
       "discord": {
@@ -391,7 +391,7 @@
           "thisGracePeriodHasAlreadyBeenConsumed": "Bu bekleme süresi zaten kullanıldı.",
           "thisGracePeriodWasAlreadyApprovedByASuper": "Bu bekleme süresi zaten bir süper yönetici tarafından onaylandı.",
           "adminApproved": "admin_approved",
-          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
+          "thisChallengeChangedRefreshAndTryAgain": "Bu doğrulama değişti. Sayfayı yenileyip tekrar deneyin.",
           "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Bekleme süresi onaylandı. Talep sahibi artık kurtarmaya devam edebilir."
         },
         "hcaptcha": {
@@ -425,8 +425,8 @@
         }
       },
       "requestRateLimit": {
-        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
-        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
+        "tooManyRequestsPleaseTryAgainLater": "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
+        "temporarilyUnavailablePleaseTryAgainLater": "Geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin."
       },
       "seoUtil": {
         "text6b6t": "6b6t"
@@ -439,10 +439,10 @@
       },
       "shop": {
         "legend": {
-          "lifetime": "LIFETIME",
-          "lifetime2Apex": "LIFETIME + 2 APEX",
-          "monthly": "MONTHLY",
-          "text3Months": "3 MONTHS"
+          "lifetime": "ÖMÜR BOYU",
+          "lifetime2Apex": "ÖMÜR BOYU + 2 APEX",
+          "monthly": "AYLIK",
+          "text3Months": "3 AYLIK"
         },
         "ranks": {
           "unknownError": "Bilinmeyen hata",

@@ -1,17 +1,17 @@
 {
   "sections": {
     "apexGiftsPanel": {
-      "yourApexRanks": "Your Apex ranks",
-      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
-      "apexAssignedToValue1": "Apex assigned to {{value1}}.",
-      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Connection interrupted. Retry with the same username; your slot will not be used twice.",
+      "yourApexRanks": "Apex rank'larınız",
+      "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Legend paketiniz iki kalıcı Apex rank'ı içerir. Her birini farklı bir Minecraft oyuncusuna atayın. Kullanıcı adını dikkatle kontrol edin: atamalar devredilemez ve geri alınamaz.",
+      "apexAssignedToValue1": "Apex, {{value1}} oyuncusuna atandı.",
+      "connectionInterruptedRetryWithTheSameUsernameYourSlot": "Bağlantı kesildi. Aynı kullanıcı adıyla tekrar deneyin; hakkınız iki kez kullanılmaz.",
       "apexRank": "Apex rank",
       "value1Value2": "{{value1}}{{value2}}",
       "minecraftUsername": "Minecraft kullanıcı adı",
-      "assignedPermanently": "Assigned permanently",
-      "pleaseWait": "Please wait…",
-      "retryAssignment": "Retry assignment",
-      "assignApexRank": "Assign Apex rank"
+      "assignedPermanently": "Kalıcı olarak atandı",
+      "pleaseWait": "Lütfen bekleyin…",
+      "retryAssignment": "Atamayı tekrar dene",
+      "assignApexRank": "Apex rank'ı ata"
     },
     "discordLinkedNotification": {
       "discordLinked": "Discord Bağlandı"
@@ -77,9 +77,9 @@
     },
     "physicalProductClaimsPanel": {
       "text6b6tMousepad": "6b6t Mouse Pad",
-      "includedWithApexOrAnEligibleApexUpgradeYou": "Included with Apex or an eligible Apex upgrade. You become eligible 14 days after the rank purchase.",
+      "includedWithApexOrAnEligibleApexUpgradeYou": "Apex veya uygun bir Apex yükseltmesiyle birlikte dahildir. Rank satın alımından 14 gün sonra uygun hale gelirsiniz.",
       "text6b6tMug": "6b6t Kupa",
-      "includedWith3MonthLegendOrAfterThreePaid": "3 aylık Legend ile veya üç ödemeli 1 aylık dönemden sonra dahildir.",
+      "includedWith3MonthLegendOrAfterThreePaid": "3 aylık Legend ile veya ödemesi yapılmış üç adet 1 aylık dönemden sonra dahildir. Geçerli rank satın alımından 14 gün sonra uygun hale gelirsiniz.",
       "optional": "İsteğe bağlı",
       "firstname": "firstName",
       "firstName": "Ad",
@@ -109,9 +109,9 @@
       "delivered": "Teslim edildi",
       "notEligible": "Uygun değil",
       "physicalProducts": "Fiziksel ürünler",
-      "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Uygun ürünlerinizi ve teslimatınızı tek bir yerden yönetin. Premium ve cracked hesaplar desteklenir ve her ürün, her Minecraft kimliği için yalnızca bir kez talep edilebilir.",
+      "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Uygun ürünlerinizi ve teslimatınızı tek bir yerden yönetin. Premium ve cracked hesaplar desteklenir ve her ürün, her Minecraft kimliği için yalnızca bir kez talep edilebilir. Geçerli bir rank satın aldıktan sonra, ürününü talep edebilmek için 14 gün beklemeniz gerekir.",
       "productEligibility": "Ürün uygunluğu",
-      "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "No eligible purchase found. Qualifying rank purchases become eligible after 14 days.",
+      "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "Uygun satın alım bulunamadı. Geçerli rank satın alımları 14 gün sonra uygun hale gelir.",
       "destination": "Varış noktası:",
       "postalCodeEndingValue1": "• {{value1}} ile biten posta kodu",
       "trackShipment": "Gönderiyi takip et",
@@ -198,7 +198,7 @@
       "viewMyStats": "İstatistiklerimi Görüntüle",
       "discordLinkedRole": "Discord Bağlı Rolü",
       "linkDiscord": "Discord'u Bağla",
-      "loadingApexGifts": "Loading Apex gifts…",
+      "loadingApexGifts": "Apex hediyeleri yükleniyor…",
       "legendRankLockIcon": "Legend Rank kilit simgesi",
       "legendThemeControls": "Legend Tema Kontrolleri",
       "themeCustomizationIsExclusivelyAvailableTo": "Tema özelleştirme yalnızca",
@@ -207,10 +207,10 @@
       "yourCurrentRank": "Mevcut rank'ınız:",
       "yourRankDataIsNotAvailableOrYouHaven": "Rank verileriniz mevcut değil veya henüz Legend durumuna ulaşmadınız.",
       "getLegendRank": "Legend Rank Al",
-      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again.",
+      "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex hediyeleri geçici olarak kullanılamıyor. Tekrar denemek için lütfen sayfayı yenileyin.",
       "accountManagement": "Hesap Yönetimi",
-      "manageYour6b6tAccountAndLinkedServices": "Manage your 6b6t account and linked services.",
-      "loadingAccountDetails": "Loading account details"
+      "manageYour6b6tAccountAndLinkedServices": "6b6t hesabınızı ve bağlı hizmetlerinizi yönetin.",
+      "loadingAccountDetails": "Hesap bilgileri yükleniyor"
     },
     "layout": {
       "alexprogrammerde": "AlexProgrammerDE",

@@ -1,9 +1,9 @@
 {
-  "page-name": "Mağaza",
+  "page-name": "Minecraft Rank'ları ve Sunucu Mağazası",
   "seo-description": "6b6t Minecraft anarşi sunucusundaki oynanışını geliştirecek özel rank'ları satın al veya hediye et. Yeni komutlar, daha fazla home ve daha az bekleme süresi gibi yükseltmeler edin.",
   "legend": {
     "page-name": "Legend Rank - 6b6t Mağaza",
-    "seo-description": "6b6t'de nihai Legend Rank'ını satın al - en güçlü Minecraft anarşi sunucusu rank. 500 home, anlık ışınlanma, özel kozmetikler ve efsanevi /cigar komutuna sahip ol.",
+    "seo-description": "500 Home, anlık ışınlanma, özel kozmetikler, daha hızlı komutlar ve efsanevi /cigar komutu için 6b6t Legend rank'ını satın alın.",
     "title": "Legend Rank",
     "subtitle": "6b6t'nin en özverili oyuncuları için nihai rank"
   },
@@ -38,8 +38,8 @@
       "text500Homes": "500 Home",
       "text70Balloons": "70 Balon",
       "customGlow": "Özel Parlama",
-      "lifetimeOneTimePayment": "Lifetime · One-time payment",
-      "from99999": "From €999.99",
+      "lifetimeOneTimePayment": "Ömür boyu · Tek seferlik ödeme",
+      "from99999": "€999.99'dan itibaren",
       "viewLegend": "Legend'ı Görüntüle",
       "duration": "Süre",
       "month": "Ay",
@@ -103,7 +103,7 @@
       "apex": "Apex",
       "youWillReceiveThe": "Sohbette ve oyuncu listesinde",
       "prefixInChatAndTablist": "önekini alacaksınız.",
-      "enlargeImage": "Enlarge image",
+      "enlargeImage": "Görseli büyüt",
       "best": "EN İYİ",
       "oneTimePaymentLastsForever": "Tek seferlik ödeme. Sonsuza kadar geçerlidir.",
       "features": "Özellikler",
@@ -166,7 +166,7 @@
       "mo": "ay",
       "text14DayRefundPolicy": "14 Günlük İade Politikası",
       "featuresIncluded": "Dahil Olan Özellikler",
-      "enlargeImage": "Enlarge image",
+      "enlargeImage": "Görseli büyüt",
       "comparingWith": "Şununla karşılaştırılıyor:",
       "viewTheDesktopVersionForASideBySide": "Yan yana karşılaştırma tablosu için masaüstü sürümünü görüntüleyin.",
       "features": "Özellikler",
@@ -184,7 +184,7 @@
       "newPerksFeatures": "Yeni Avantajlar ve Özellikler"
     },
     "page": {
-      "couldNotLoadTheShop": "Could not load the shop.",
+      "couldNotLoadTheShop": "Mağaza yüklenemedi.",
       "tryAgain": "Tekrar dene",
       "enhanceYour": "Deneyimini",
       "experience": "Geliştir",
@@ -438,7 +438,7 @@
         "returnToShop": "Mağazaya dön"
       },
       "page": {
-        "loading": "Loading…"
+        "loading": "Yükleniyor…"
       }
     }
   }
