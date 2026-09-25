@@ -26,7 +26,7 @@
         "lastUpdated": "Son güncelleme:",
         "backToAdmin": "Admin'e Dön",
         "refreshAll": "Tümünü Yenile",
-        "couldNotRefreshMonitoringDataUseRefreshAllTo": "Could not refresh monitoring data. Use Refresh All to try again.",
+        "couldNotRefreshMonitoringDataUseRefreshAllTo": "İzleme verileri yenilenemedi. Tekrar denemek için Tümünü Yenile'yi kullan.",
         "monitoringSystemActive": "İzleme Sistemi Aktif",
         "realTimeErrorTrackingAndNotificationsEnabledAutoRefresh": "Gerçek zamanlı hata takibi ve bildirimler etkin • Her 30 saniyede bir otomatik yenileme",
         "live": "Canlı",
@@ -83,8 +83,8 @@
         },
         "transactions": {
           "page": {
-            "select": "Select",
-            "selectTransactionValue1": "Select transaction {{value1}}",
+            "select": "Seç",
+            "selectTransactionValue1": "{{value1}} işlemini seç",
             "date": "Tarih",
             "username": "Kullanıcı Adı",
             "bundle": "Paket",
@@ -260,36 +260,36 @@
       },
       "operations": {
         "communityPointsForm": {
-          "checkTheAdjustmentDetails": "Check the adjustment details.",
-          "theAdjustmentCouldNotBeCompletedRetryWithThe": "The adjustment could not be completed. Retry with the same details.",
-          "addCommunityPoints": "Add community points",
-          "creditThePointsForOneRankPurchaseThisCan": "Credit the points for one rank purchase. This can complete a community milestone.",
-          "rankPurchase": "Rank purchase",
-          "points": "points",
+          "checkTheAdjustmentDetails": "Düzenleme ayrıntılarını kontrol et.",
+          "theAdjustmentCouldNotBeCompletedRetryWithThe": "Düzenleme tamamlanamadı. Aynı ayrıntılarla tekrar dene.",
+          "addCommunityPoints": "Topluluk puanı ekle",
+          "creditThePointsForOneRankPurchaseThisCan": "Bir rank satın alımının puanlarını tanımla. Bu, bir topluluk kilometre taşını tamamlayabilir.",
+          "rankPurchase": "Rank satın alımı",
+          "points": "puan",
           "reason": "Sebep",
-          "explainWhyThesePointsNeedToBeAdded": "Explain why these points need to be added",
-          "addingPoints": "Adding points…",
-          "addPoints": "Add points"
+          "explainWhyThesePointsNeedToBeAdded": "Bu puanların neden eklenmesi gerektiğini açıkla",
+          "addingPoints": "Puanlar ekleniyor…",
+          "addPoints": "Puan ekle"
         },
         "operationRow": {
-          "running": "Running…",
-          "waitingForTheResult": "Waiting for the result."
+          "running": "Çalışıyor…",
+          "waitingForTheResult": "Sonuç bekleniyor."
         },
         "page": {
-          "communityEventAnnouncements": "Community event announcements",
-          "deliverPendingAnnouncementsThatAreReadyToSendAutomatic": "Deliver pending announcements that are ready to send. Automatic delivery runs every two minutes.",
-          "telegramMemberships": "Telegram memberships",
-          "checkLinkedAccountsAndUpdateTheirPerksAutomaticChecks": "Check linked accounts and update their perks. Automatic checks run every 15 minutes.",
-          "playerHistory": "Player history",
-          "recordTheCurrentPlayerCountThisUpdatesTheCurrent": "Record the current player count. This updates the current hour’s sample. Automatic collection runs hourly.",
-          "serverUptime": "Server uptime",
-          "checkServerAvailabilityAndRecordTheResultAutomaticChecks": "Check server availability and record the result. Automatic checks run every 15 minutes.",
-          "operations": "Operations",
-          "runAScheduledTaskNowOrMakeAManual": "Run a scheduled task now or make a manual points adjustment.",
-          "motdQueue": "MOTD queue",
-          "reviewAdvertisementsAndUseRunQueueOnTheMotd": "Review advertisements and use Run Queue on the MOTD page.",
-          "openMotdQueue": "Open MOTD queue",
-          "yourAccountDoesNotHavePermissionToRunOperations": "Your account does not have permission to run operations."
+          "communityEventAnnouncements": "Topluluk etkinliği duyuruları",
+          "deliverPendingAnnouncementsThatAreReadyToSendAutomatic": "Gönderilmeye hazır bekleyen duyuruları ilet. Otomatik gönderim her iki dakikada bir çalışır.",
+          "telegramMemberships": "Telegram üyelikleri",
+          "checkLinkedAccountsAndUpdateTheirPerksAutomaticChecks": "Bağlı hesapları kontrol et ve ayrıcalıklarını güncelle. Otomatik kontroller her 15 dakikada bir çalışır.",
+          "playerHistory": "Oyuncu geçmişi",
+          "recordTheCurrentPlayerCountThisUpdatesTheCurrent": "Mevcut oyuncu sayısını kaydet. Bu, geçerli saatin örneğini günceller. Otomatik toplama saatte bir çalışır.",
+          "serverUptime": "Sunucu çalışma süresi",
+          "checkServerAvailabilityAndRecordTheResultAutomaticChecks": "Sunucunun erişilebilirliğini kontrol et ve sonucu kaydet. Otomatik kontroller her 15 dakikada bir çalışır.",
+          "operations": "Yönetim İşlemleri",
+          "runAScheduledTaskNowOrMakeAManual": "Zamanlanmış bir görevi şimdi çalıştır veya manuel puan düzenlemesi yap.",
+          "motdQueue": "MOTD sırası",
+          "reviewAdvertisementsAndUseRunQueueOnTheMotd": "Reklamları incele ve MOTD sayfasında Kuyruğu Çalıştır'ı kullan.",
+          "openMotdQueue": "MOTD sırasını aç",
+          "yourAccountDoesNotHavePermissionToRunOperations": "Hesabının yönetim işlemlerini çalıştırma izni yok."
         }
       },
       "recovery": {
@@ -453,7 +453,7 @@
       },
       "layout": {
         "overview": "Genel Bakış",
-        "operations": "Operations",
+        "operations": "Yönetim İşlemleri",
         "shopAnalytics": "Mağaza Analitiği",
         "anarchyModStats": "Anarchy Mod İstatistikleri",
         "transactions": "İşlemler",
@@ -481,14 +481,14 @@
       }
     },
     "adminDataTable": {
-      "select": "Select",
-      "selectValue1": "Select {{value1}}",
-      "view": "View",
-      "loading": "Loading…",
-      "noResultsForTheseFilters": "No results for these filters.",
+      "select": "Seç",
+      "selectValue1": "{{value1}} öğesini seç",
+      "view": "Görüntüle",
+      "loading": "Yükleniyor…",
+      "noResultsForTheseFilters": "Bu filtrelerle sonuç bulunamadı.",
       "page": "Sayfa",
       "value1Value2": "{{value1}}{{value2}}",
-      "results": "results",
+      "results": "sonuç",
       "previous": "Önceki",
       "next": "Sonraki"
     },

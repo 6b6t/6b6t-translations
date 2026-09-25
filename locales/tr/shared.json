@@ -8,22 +8,22 @@
     "app": {
       "functions": {
         "adminOperations": {
-          "addedValue1PointsTotalValue2": "Added {{value1}} points. Total: {{value2}}.",
-          "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
+          "addedValue1PointsTotalValue2": "{{value1}} puan eklendi. Toplam: {{value2}}.",
+          "thisAdjustmentWasAlreadyAppliedTotalValue1": "Bu düzenleme zaten uygulanmış. Toplam: {{value1}}."
         },
         "admin": {
           "pending": "Beklemede"
         },
         "apexGifts": {
-          "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
-          "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
+          "signInToAssignYourApexRanks": "Apex rank'larınızı atamak için giriş yapın.",
+          "couldNotCompleteTheAssignmentIfItWasReserved": "Atama tamamlanamadı. Hakkınız ayrıldıysa aynı kullanıcı adıyla tekrar deneyin. Her hak yalnızca bir kez ve farklı bir oyuncuya atanabilir."
         },
         "motd": {
           "paidPendingReview": "paid_pending_review"
         },
         "playerStats": {
-          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
-          "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
+          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}}, 6b6t.org'da bir oyuncudur. Oyun süresi, öldürme, ölüm ve diğer istatistiklerini 6b6t Minecraft anarşi sunucusunda görüntüle.",
+          "viewValue1SStatsOn6b6tOrgTheBest": "{{value1}}'in istatistiklerini 6b6t.org'da görüntüle. 6b6t istatistikleri için en iyi yer."
         },
         "printify": {
           "signInAgainBeforeClaiming": "Talep etmeden önce tekrar giriş yapın.",
@@ -39,31 +39,31 @@
       },
       "jobs": {
         "playerHistory": {
-          "playerHistoryRecordedSuccessfully": "Player history recorded successfully"
+          "playerHistoryRecordedSuccessfully": "Oyuncu geçmişi başarıyla kaydedildi"
         },
         "uptime": {
-          "serverUptimeCheckCompleted": "Server uptime check completed"
+          "serverUptimeCheckCompleted": "Sunucu çalışma süresi kontrolü tamamlandı"
         }
       },
       "seo": {
         "manifest": {
           "text6b6tWebsite": "6b6t Web Sitesi",
-          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
+          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "6b6t Minecraft anarşi sunucusunun resmi web sitesi."
         }
       },
       "services": {
         "adminOperations": {
-          "eventDeliveryIsNotConfigured": "Event delivery is not configured.",
-          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} delivered, {{value2}} scheduled for retry, {{value3}} stopped after repeated failures.",
-          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} accounts processed, {{value2}} memberships removed, {{value3}} failed.",
-          "recordedValue1OfValue2PlayersForTheCurrentHour": "Recorded {{value1}} of {{value2}} players for the current hour.",
-          "serverIsValue1RecordedValue2HoursOfUptime": "Server is {{value1}}. Recorded {{value2}} hours of uptime."
+          "eventDeliveryIsNotConfigured": "Etkinlik gönderimi yapılandırılmamış.",
+          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} gönderildi, {{value2}} yeniden denenmek üzere planlandı, {{value3}} tekrarlanan hatalar nedeniyle durduruldu.",
+          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} hesap işlendi, {{value2}} üyelik kaldırıldı, {{value3}} başarısız oldu.",
+          "recordedValue1OfValue2PlayersForTheCurrentHour": "Geçerli saat için {{value1}}/{{value2}} oyuncu kaydedildi.",
+          "serverIsValue1RecordedValue2HoursOfUptime": "Sunucu durumu: {{value1}}. {{value2}} saatlik çalışma süresi kaydedildi."
         },
         "antispam": {
           "antispamMessagesValue1": "antispam_messages:{{value1}}"
         },
         "legendTheme": {
-          "noThemeFound": "No theme found"
+          "noThemeFound": "Tema bulunamadı"
         },
         "playerHistory": {
           "invalidOrExcessiveDateRange": "Geçersiz veya aşırı tarih aralığı",
@@ -147,7 +147,7 @@
           }
         },
         "serverStatus": {
-          "unknown": "Unknown"
+          "unknown": "Bilinmiyor"
         },
         "telegramStart": {
           "youMustBeLoggedInToLinkTelegram": "Telegram'ı bağlamak için giriş yapmış olmalısınız.",
@@ -215,7 +215,7 @@
       "viewRanks": "Rank'ları görüntüle"
     },
     "errorPage": {
-      "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
+      "weCouldNotLoadThisPagePleaseTryAgain": "Bu sayfa yüklenemedi. Lütfen tekrar deneyin."
     },
     "layout": {
       "copyButton": {
@@ -336,13 +336,13 @@
     },
     "motion": {
       "username": {
-        "minecraftPlayerValue1": "Minecraft player: {{value1}}",
-        "chooseTheMinecraftAccountReceivingLegend": "Choose the Minecraft account receiving Legend.",
-        "changeUsername": "Change username",
-        "setUsername": "Set username",
+        "minecraftPlayerValue1": "Minecraft oyuncusu: {{value1}}",
+        "chooseTheMinecraftAccountReceivingLegend": "Legend'ı alacak Minecraft hesabını seçin.",
+        "changeUsername": "Kullanıcı adını değiştir",
+        "setUsername": "Kullanıcı adını belirle",
         "minecraftUsername": "Minecraft kullanıcı adı",
-        "saving": "Saving…",
-        "saveUsername": "Save username",
+        "saving": "Kaydediliyor…",
+        "saveUsername": "Kullanıcı adını kaydet",
         "loggedInAs": "Şu şekilde giriş yapıldı:",
         "change": "Değiştir",
         "setYourMinecraftUsername": "Minecraft Kullanıcı Adınızı Belirleyin",
@@ -489,7 +489,7 @@
         "cigar": "cigar",
         "vpn": "vpn",
         "builder": "builder",
-        "hotspot": "hotspot",
+        "hotspot": "Hotspot",
         "ignore": "ignore",
         "discord": "discord",
         "support": "support",
@@ -690,7 +690,7 @@
         "weHaveProgrammedBuilderModeInAWaySo": "İnşa Modu'nu P2W (parayla kazanma) olmayacak şekilde programladık. Çok uzağa hareket ettiğinizde otomatik olarak devre dışı kalır ve bir bekleme süresi vardır.",
         "before": "Önce",
         "normalRenderDistanceBeforeEnablingBuilderMode": "İnşa modu etkinleştirilmeden önce normal render mesafesi",
-        "enlargeImage": "Enlarge image",
+        "enlargeImage": "Görseli büyüt",
         "normalRenderDistance": "Normal render mesafesi",
         "after": "Sonra",
         "ultraHighRenderDistanceWithBuilderModeEnabled": "İnşa modu etkinken ultra yüksek render mesafesi",
@@ -743,7 +743,7 @@
         "ifYouBuyThisAsAGiftYouCan": "Bunu hediye olarak satın alırsanız, kullanıcıya bir hediye mesajı da ekleyebilirsiniz.",
         "goToBillingPortal": "Faturalandırma Portalına Git →",
         "theRefundPolicyForGiftedRanksIs14Days": "Hediye edilen rank'lar için iade politikası 14 gündür.",
-        "readTheRefundPolicy": "Read the refund policy",
+        "readTheRefundPolicy": "İade politikasını okuyun",
         "buyForMe": "Kendim için satın al",
         "buyAsGift": "Hediye olarak satın al",
         "giftInformation": "Hediye Bilgileri",
@@ -766,9 +766,9 @@
         "confirmContinue": "Onayla ve Devam Et",
         "choosePaymentMethod": "Ödeme Yöntemi Seçin",
         "selectHowYouWouldLikeToPayFor": "Şunun için nasıl ödeme yapmak istediğinizi seçin:",
-        "payWithTebex": "Pay with Tebex",
-        "tebexComingSoon": "Tebex coming soon",
-        "paypalMore": "PayPal & more",
+        "payWithTebex": "Tebex ile öde",
+        "tebexComingSoon": "Tebex yakında",
+        "paypalMore": "PayPal ve daha fazlası",
         "selectTebexCheckout": "Tebex ödeme seçeneğini seç",
         "paypal": "PayPal",
         "crypto": "Kripto",
@@ -906,7 +906,7 @@
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Telegram'ı bağladı ve şu anda 6b6t grubunun üyesi"
       },
       "themedStatsRenderer": {
-        "legend": "legend",
+        "legend": "Legend",
         "champion": "champion",
         "hero": "hero",
         "memberSince": "🗓️ Üyelik tarihi:",
