@@ -27,7 +27,6 @@ values in English; do not submit empty strings or machine-generated filler.
 
 **Evidence.** Build and test locally, and paste the evidence (commands run, logs, screenshots) in the PR.
 
-
 ## Writing guidelines
 
 - Keep `6b6t`, Minecraft usernames, commands such as `/tpa`, URLs, and server
@@ -42,3 +41,9 @@ values in English; do not submit empty strings or machine-generated filler.
 Accepted translations must be synchronized into the website repository before
 its GitHub Actions production deployment. Merging here alone does not change
 the running website; see the publishing steps in README.md.
+
+## Review and publication
+
+Use [the translation PR template](.github/PULL_REQUEST_TEMPLATE.md) for language, page, validation, and assistance details.
+For a mistranslation, include the English source and the affected locale/file.
+For player support or security concerns, read [SUPPORT.md](SUPPORT.md).

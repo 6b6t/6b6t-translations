@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+- name: 6b6t community
+  url: https://www.6b6t.org/discord
+  about: Read setup guidance or ask a usage question before opening a development
+    issue.

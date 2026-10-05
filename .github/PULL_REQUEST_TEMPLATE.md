@@ -1,26 +1,19 @@
-<!-- Suggested title: type(scope): one clear change, e.g. feat(NoBedExplosion): cancel bed explosion in end -->
-<!-- PRs that bundle unrelated changes, stack on unmerged PRs, or skip checklist items may be closed without review. Keep it small and reviewable. -->
+## Translation change
 
-## What
+- Language:
+- Files or pages:
+- Reason or related issue:
 
-<!-- 1-2 sentences: what changed and why. If this implements an issue, link it here. -->
+## Validation
 
-Closes #
+<!-- Include the result of npm run check and any review in website context. -->
 
-## Scope
+## Checklist
 
-- [ ] This PR is **one logical change** (a single feature, fix, or plugin). Unrelated changes belong in separate PRs.
-- [ ] Cross-plugin feature grouping (optional): this PR spans several plugins/modules because they implement **one coherent feature**. Name the feature and what each part contributes: <!-- e.g. "PlayerLanguage system: core module adds the API, each plugin consumes it" -->. Remove this line if not applicable.
-- [ ] This PR targets the **default branch** and does not stack on an unmerged PR.
-
-## Design
-
-- [ ] No new shared libraries, cross-plugin systems, or architecture decisions. If it does contain any, they were agreed in an issue **before** this PR: #
-- [ ] Code for org-owned projects is upstreamed first. This PR does not vendor a fork of an org project. Upstream link (if applicable): #
-- [ ] AI-generated or AI-assisted changes are disclosed, with the tool and the approved issue they implement: <!-- e.g. "Codex, implements #123" or "none" -->
-
-## Evidence
-
-- [ ] Commits follow Conventional Commits (`type(scope): description`). CI enforces this.
-- [ ] Built and tested locally with this repo's standard commands. Paste evidence (commands run, logs, screenshots):
-
+- [ ] This is one coherent change and targets the default branch without stacking on an unmerged PR.
+- [ ] I changed text values only and preserved keys, filenames, and placeholders exactly.
+- [ ] I kept usernames, commands, links, server addresses, and the English source meaning unchanged.
+- [ ] I ran `npm run check` successfully.
+- [ ] I disclosed AI assistance and named the tool and approved issue, or stated that none was used.
+- [ ] Any new dependency, API, schema, or architecture change has prior design approval.
+- [ ] Changes to other organization projects go upstream first and are linked here when applicable.
