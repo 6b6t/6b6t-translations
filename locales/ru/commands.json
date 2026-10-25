@@ -1,37 +1,52 @@
 {
-  "page-name": "Minecraft Server Commands",
-  "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
+  "page-name": "6b6t Commands: Full List With Ranks and Examples",
+  "seo-description": "Every 6b6t command in one list: /tpa, /home, /msg, /ignore, /skin and more. Filter by rank and see examples.",
   "sections": {
+    "commandEntry": {
+      "aliases": "Aliases",
+      "example": "Example",
+      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copied": "Copied",
+      "copyExample": "Copy example",
+      "exampleCopied": "Example copied.",
+      "ranks": "Ranks"
+    },
+    "commandRankPrefix": {
+      "free": "Free",
+      "eliteUltra": "Elite Ultra"
+    },
     "commandsList": {
       "bestMatches": "Best matches",
-      "free": "Free",
-      "primeUltra": "Prime Ultra",
-      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
-      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
-      "eliteUltra": "Elite Ultra",
-      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
-      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
-      "commandsList": "COMMANDS LIST",
-      "availableServerCommands": "Available Server Commands",
-      "useTheFiltersToFindTheCommandYouNeed": "Use the filters to find the command you need by category, rank requirement, or command name.",
-      "search": "Search",
-      "searchCommands": "Search commands...",
+      "commands": "Commands",
+      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
+      "searchCommands": "Search commands",
+      "commandAliasOrDescription": "Command, alias or description",
+      "clearCommandSearch": "Clear command search",
       "category": "Category",
-      "rankRequirement": "Rank requirement",
+      "allCategories": "All categories",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
       "command": "Command",
       "description": "Description",
       "example": "Example",
-      "rank": "Rank",
-      "value1Value2": "{{value1}}-{{value2}}",
-      "fullExample": "Full example:",
-      "noCommandsFoundMatchingYourFilters": "No commands found matching your filters.",
-      "premiumCommands": "Premium Commands",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Use the rank filter above to preview commands unlocked by Prime, Prime Ultra, Elite, Elite Ultra, Apex, and Legend.",
-      "viewPremiumRanks": "View Premium Ranks"
+      "ranks": "Ranks",
+      "noCommandsFound": "No commands found",
+      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
+      "resetFilters": "Reset filters",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
+      "compareRanks": "Compare ranks"
+    },
+    "commandsRankFilter": {
+      "rankRequirement": "Rank requirement"
     },
     "page": {
       "text6b6tServerCommands": "6b6t Server Commands",
       "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
     }
+  },
+  "filters": {
+    "allRanks": "All ranks",
+    "auth": "Auth",
+    "homesAndTeleport": "Homes & Teleport",
+    "hotspots": "Hotspots"
   }
 }

@@ -3,35 +3,51 @@
   "seo-description": "6b6t oyuncu istatistiklerini keşfet, oyuncu profillerini ara ve oynama süresi, öldürme, seyahat, blok ve daha fazlası için liderlik tablosu sıralamalarını karşılaştır.",
   "sections": {
     "leaderboardStatisticCard": {
-      "rank": "Sıra",
-      "name": "İsim",
-      "value": "Değer",
-      "value1Value2": "{{value1}}{{value2}}",
-      "noDataAvailableForThisTimeRange": "Bu zaman aralığı için veri bulunmuyor",
-      "playersRanked": "oyuncu sıralandı",
-      "previousPage": "Önceki sayfa",
-      "nextPage": "Sonraki sayfa"
+      "value1Leaderboard": "{{value1}} leaderboard",
+      "allTime": "All time",
+      "player": "Player",
+      "timePlayed": "Time played",
+      "total": "Total",
+      "value1Value2Value3": "{{value1}}{{value2}}{{value3}}",
+      "eliteUltra": "Elite Ultra",
+      "noRecordedStatisticsForThisPeriod": "No recorded statistics for this period.",
+      "value1Value2OfValue3": "{{value1}}–{{value2}} of {{value3}}",
+      "text0Players": "0 players",
+      "previousValue1Players": "Previous {{value1}} players",
+      "nextValue1Players": "Next {{value1}} players"
     },
     "playerStatsSearch": {
-      "playerStatsSearch": "Oyuncu İstatistik Araması",
+      "findAPlayer": "Find a player",
       "lookUpAnyPlayer39SStatistics": "Herhangi bir oyuncunun istatistiklerine bak",
+      "minecraftUsername": "Minecraft username",
       "enterMinecraftUsername": "Minecraft kullanıcı adını gir...",
       "search": "Ara"
     },
     "statsPageContent": {
       "playerStatistics": "Oyuncu İstatistikleri",
-      "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "6b6t'deki çeşitli istatistiklerde en iyi oyuncuları görüntüle. Belirli bir oyuncuyu ara veya aşağıdaki liderlik tablolarına göz at.",
-      "statsReset": "İstatistik sıfırlama:",
-      "statsWereResetOnMay222026DueTo": "İstatistikler, veri bozulması nedeniyle 22 Mayıs 2026'da sıfırlandı ve kurtarılamadı.",
-      "underMaintenance": "Bakımda",
-      "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Bu istatistik geçici olarak kullanılamıyor. En son liderlik tablosu verilerini en kısa sürede sunmaya çalışıyoruz.",
-      "loadingStatisticsData": "İstatistik verileri yükleniyor..."
+      "compareLeaderboardsTimePeriodsAndPlayerProfiles": "Compare leaderboards, time periods, and player profiles.",
+      "playerDirectory": "Player directory",
+      "designPreviewSamplePlayersAndStatistics": "Design preview: sample players and statistics.",
+      "leaderboards": "Leaderboards",
+      "leaderboardTimePeriod": "Leaderboard time period",
+      "allTime": "All time",
+      "statisticCategory": "Statistic category",
+      "aboutRecordedTotals": "About recorded totals",
+      "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
+      "statisticsUnavailable": "Statistics unavailable",
+      "weCouldnTLoadTheLeaderboardsPleaseTryAgain": "We couldn't load the leaderboards. Please try again.",
+      "tryAgain": "Try again",
+      "noStatisticsAreAvailableInThisCategory": "No statistics are available in this category.",
+      "loadingStatistics": "Loading statistics...",
+      "noLeaderboardDataIsAvailableYet": "No leaderboard data is available yet."
     },
     "username": {
       "page": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loading": "Yükleniyor…"
       },
       "layout": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loadingPlayerStats": "Oyuncu istatistikleri yükleniyor…"
       }
     }

@@ -15,15 +15,17 @@
         "webhookProcessingFailed": "Webhook processing failed"
       },
       "discord": {
+        "data": {
+          "unauthorized": "Unauthorized",
+          "invalidResource": "Invalid resource",
+          "dataUnavailable": "Data unavailable"
+        },
         "motd": {
-          "interactions": {
-            "invalidRequestSignature": "Invalid request signature",
-            "invalidJsonPayload": "Invalid JSON payload"
-          },
           "review": {
             "unauthorized": "Unauthorized",
             "invalidJsonPayload": "Invalid JSON payload",
             "youDoNotHavePermissionToReviewMotds": "You do not have permission to review MOTDs.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
             "approvedMotdRequestValue1": "Approved MOTD request {{value1}}.",
             "requestedRevisionForMotdRequestValue1": "Requested revision for MOTD request {{value1}}.",
             "motdReviewActionFailed": "MOTD review action failed."
@@ -38,6 +40,9 @@
         "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "Unable to load legend subscribers",
         "all": "all"
+      },
+      "legendUltraHolders": {
+        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
       },
       "media": {
         "text": {
@@ -105,12 +110,47 @@
     },
     "lib": {
       "admin": {
-        "auth": {
-          "adminWithThisEmailAlreadyExists": "Admin with this email already exists",
-          "unknownError": "Unknown error",
-          "invalidCredentials": "Invalid credentials",
-          "adminSessionNotFound": "Admin session not found",
-          "adminNotFound": "Admin not found"
+        "cloudflareAccess": {
+          "localDevelopment": "Local development"
+        }
+      },
+      "auth": {
+        "accountLinkHistory": {
+          "text6b6tAccountLinkHistoryIp": "6b6t-account-link-history:ip:",
+          "hmac": "HMAC"
+        },
+        "accountSafetyPlugin": {
+          "accountstepup": "accountStepUp",
+          "unauthorized": "Unauthorized",
+          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
+          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
+          "email": "email",
+          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+        },
+        "accountStepUp": {
+          "hmac": "HMAC"
+        },
+        "emailTemplate": {
+          "signInTo6b6t": "Sign in to 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
+          "verifyYour6b6tEmail": "Verify your 6b6t email",
+          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
+          "resetYour6b6tPassword": "Reset your 6b6t password",
+          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
+          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+        },
+        "linkHistoryPlugin": {
+          "linkHistory": "Link history"
+        },
+        "options": {
+          "consent": "consent",
+          "useARealEmailAddress": "Use a real email address."
+        },
+        "socialProviders": {
+          "telegram": "Telegram"
         }
       },
       "commandService": {
@@ -137,11 +177,14 @@
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "Reach the goal by August 14 to unlock a powerful dupe across 6b6t for 72 hours. If the goal lands later, the event moves to the closest following weekend."
       },
+      "communityHistory": {
+        "eventIdsMustBeUnique": "Event IDs must be unique"
+      },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
           "sendAPrivateMessageToAnyOnlinePlayer": "Send a private message to any online player",
-          "turnYourCrackedAccountIntoAPremiumAccount": "Turn your cracked account into a premium account.",
+          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
           "replyR": "/reply, /r",
           "sendAPrivateMessageToTheLastPersonWho": "Send a private message to the last person who sent you a private message",
           "lastL": "/last, /l",
@@ -156,45 +199,68 @@
           "groupchatGc": "/groupchat, /gc",
           "talkPrivatelyInAGroupchatWithMultiplePeople": "Talk privately in a groupchat with multiple people.",
           "toggleViewingTheChat": "Toggle viewing the chat.",
-          "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
+          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
           "turnsPrivateMessagesOnOrOffSoYouCan": "Turns private messages on or off so you can choose whether other players can message you.",
           "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Toggles or customizes particle effects around your player.",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Skips the server lobby and sends you directly into the main world.",
-          "enableOrDisableViewingSpamMessagesInChat": "Enable or disable viewing spam messages in chat.",
+          "togglespamShowspam": "/togglespam, /showspam",
+          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
+          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
+          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
+          "botsChat": "/bots chat",
+          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
+          "botsWhispers": "/bots whispers",
+          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
+          "botsConnections": "/bots connections",
+          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
+          "botsDeaths": "/bots deaths",
+          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
+          "botsAdvancements": "/bots advancements",
+          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
+          "botsTeleports": "/bots teleports",
+          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
+          "botsTab": "/bots tab",
+          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
+          "botsKits": "/bots kits",
+          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
+          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
           "showHideChatMessagesOfPeopleJoiningTheServer": "Show/hide chat messages of people joining the server.",
           "connectionmsgsColor": "/connectionmsgs color",
           "changeTheColorOfConnectionMessagesInYourChat": "Change the color of connection messages in your chat.",
           "showHideChatMessagesOfPeopleDying": "Show/hide chat messages of people dying.",
           "deathmsgsColor": "/deathmsgs color",
           "changeTheColorOfDeathMessagesInYourChat": "Change the color of death messages in your chat.",
-          "createsANewHomeAtYourCurrentLocation": "Creates a new home at your current location.",
+          "advancementsChat": "/advancements chat",
+          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
+          "advancementsToast": "/advancements toast",
+          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
+          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
+          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
           "teleportToAHome": "Teleport to a home.",
-          "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Lists all your homes.",
+          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
           "deletesAHome": "Deletes a home.",
           "cancelsAnActiveTeleportToYourHomeUsefulIf": "Cancels an active teleport to your home (useful if you triggered it by mistake).",
           "renamesOneOfYourSavedHomesToSomethingDifferent": "Renames one of your saved homes to something different.",
           "requestToTeleportToAnotherPlayer": "Request to teleport to another player.",
-          "tptoggleTpt": "/tptoggle, /tpt",
+          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
           "hidesTeleportRequestsFromAllPlayers": "Hides teleport requests from all players.",
           "acceptATpaRequest": "Accept a tpa request.",
           "declineATpaRequest": "Decline a tpa request.",
           "wearAnyItemOnYourHead": "Wear any item on your head.",
-          "invisframeIframe": "/invisframe, /iframe",
           "toggleInvisibilityFrames": "Toggle invisibility frames.",
           "chatcolorCc": "/chatcolor, /cc",
           "changeTheColorOfYourChatMessages": "Change the color of your chat messages.",
           "namecolorNc": "/namecolor, /nc",
           "changeTheColorOfYourUsernameInChat": "Change the color of your username in chat.",
+          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
           "lightUpACigar": "Light up a cigar",
           "giveYourselfAGlowingEffect": "Give yourself a glowing effect.",
-          "teleportToTheGlobalHostspot": "Teleport to the global hostspot.",
+          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
           "hotspotCreate": "/hotspot create",
           "createANewHotspotAtYourCurrentLocation": "Create a new hotspot at your current location.",
           "hotspotColor": "/hotspot color",
           "changeTheColorOfTheHotspot": "Change the color of the hotspot.",
-          "hotspotNotificationsHotspotNotify": "/hotspot notifications, /hotspot notify",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "Change how you view the hotspot notification or disable it",
+          "hotspotNotifications": "/hotspot notifications",
+          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
           "hotspotCancel": "/hotspot cancel",
           "cancelYourHotspot": "Cancel your hotspot",
           "hotspotBalloon": "/hotspot balloon",
@@ -204,17 +270,21 @@
           "hotspotName": "/hotspot name",
           "changeTheNameOfYourHotspot": "Change the name of your hotspot.",
           "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspot": "See information about the current hotspot.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "Increase your view distance temporarily for building.",
+          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
+          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
           "buildermodeHome": "/buildermode home",
           "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Enable buildermode when teleporting to the specified home.",
           "putACosmeticBalloonOnYourHead": "Put a cosmetic balloon on your head.",
           "sitOnAnyBlockToRest": "Sit on any block to rest.",
+          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
           "changeYourInGameSkin": "Change your in-game skin.",
           "letsYouLeaveYourBodyAndFlyAroundIn": "Lets you leave your body and fly around in spectator-like mode to scout the area without moving your actual player.",
+          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "Get a link to the official 6b6t Shop.",
+          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
           "showsTheVoteCountAndInstructionsToVote": "Shows the vote count and instructions to vote.",
+          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
           "getAnInviteToThe6b6tDiscordServer": "Get an invite to the 6b6t Discord Server.",
           "getALinkToThe6b6tWebsite": "Get a link to the 6b6t Website.",
           "getALinkToThisWebpage": "Get a link to this webpage."
@@ -235,6 +305,13 @@
         "unknownError": "Unknown error",
         "discordReturnedValue1ForValue2": "Discord returned {{value1}} for #{{value2}}",
         "unknownDiscordError": "Unknown Discord error"
+      },
+      "email": {
+        "text6b6tAccounts": "6b6t Accounts",
+        "text6b6tRecovery": "6b6t Recovery",
+        "text6b6tBillboard": "6b6t Billboard",
+        "text6b6tMerch": "6b6t Merch",
+        "text6b6tSupport": "6b6t Support"
       },
       "galleryUtil": {
         "recentEpicBuild": "Recent Epic Build",
@@ -275,14 +352,11 @@
           "motd": "MOTD",
           "revisionReason": "Revision reason",
           "approve": "Approve",
-          "requestRevision": "Request Revision",
-          "requestMotdRevision": "Request MOTD Revision",
-          "reason": "Reason",
-          "explainWhatNeedsToBeChanged": "Explain what needs to be changed."
+          "markAsAd": "Mark as AD",
+          "requestRevision": "Request Revision"
         },
         "email": {
-          "smtpNotConfigured": "smtp_not_configured",
-          "smtpSendFailed": "smtp_send_failed"
+          "emailSendFailed": "email_send_failed"
         },
         "manual": {
           "completed": "completed"
@@ -308,6 +382,7 @@
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "Reservation released after checkout creation failed",
+          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "No customer email was available from the payment provider",
@@ -338,7 +413,6 @@
           "networkError": "Network error"
         },
         "email": {
-          "smtpIsNotConfigured": "SMTP is not configured",
           "emailDeliveryFailed": "Email delivery failed"
         },
         "entitlementAnchor": {
@@ -350,13 +424,22 @@
           "eliteToApexUpgradeMousepad": "Elite to Apex upgrade — mousepad",
           "legendRank3MonthsMug": "Legend rank (3 months) — mug",
           "legendRankThreePaid1MonthPeriodsMug": "Legend rank (three paid 1-month periods) — mug"
+        },
+        "notifications": {
+          "merchRequestResubmitted": "Merch request resubmitted",
+          "newMerchRequest": "New merch request",
+          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "player": "Player",
+          "item": "Item",
+          "requestId": "Request ID"
         }
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_failed",
-          "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
-          "smtpNotConfigured": "smtp_not_configured",
+          "emailSendFailed": "email_send_failed",
+          "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
+          "emailNotConfigured": "email_not_configured",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
           "yourAccountRecoveryRequestHasBeenApproved": "Your account recovery request has been approved.",
           "yourAccountRecoveryRequestHasBeenDenied": "Your account recovery request has been denied.",
           "noteValue1": "Note: {{value1}}",
@@ -364,15 +447,16 @@
           "clickTheLinkBelowToSetANewPassword": "Click the link below to set a new password: {{value1}} This link expires in 24 hours."
         },
         "gracePeriod": {
-          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "This recovery attempt was blocked because the account logged into the server during the grace period.",
+          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "This recovery attempt was blocked because the account logged into the server after the owner notification.",
           "pending": "pending",
           "consumed": "consumed",
           "blocked": "blocked",
           "notApplicable": "not_applicable",
+          "expired": "expired",
           "error": "error",
           "failedToCreateChallenge": "Failed to create challenge",
-          "smtpSendFailed": "smtp_send_failed",
-          "expired": "expired",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "emailSendFailed": "email_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "Failed to notify the account owner by email.",
           "created": "created",
           "invalidOrExpiredBlockToken": "Invalid or expired block token.",
@@ -380,10 +464,12 @@
           "theGracePeriodForThisChallengeHasAlreadyExpired": "The grace period for this challenge has already expired and cannot be blocked.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "This recovery challenge has already been consumed and can no longer be blocked.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "This recovery attempt was already approved by a super admin and cannot be blocked.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "Recovery attempt has been blocked successfully.",
           "passed": "passed",
           "missing": "missing",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "The account owner has blocked this recovery attempt.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "The account-owner notification pass was already consumed.",
           "gracePeriodChallengeNotFound": "Grace-period challenge not found.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "This recovery attempt was blocked by the account owner.",
@@ -433,7 +519,6 @@
       },
       "seo": {
         "description": "description",
-        "keywords": "keywords",
         "robots": "robots",
         "googlebot": "googlebot"
       },
@@ -493,8 +578,21 @@
           "afterWinningPrimeInAGiveawayIUpgradedTo": "After winning Prime in a giveaway I upgraded to Apex. The feature I use most is the increased homes — it helps track stashes, bases, and locations. Lower cooldowns for tpa and /home are extremely helpful (from 15 minutes down to ~15 seconds). I don't use cosmetics much, but chat color helps me stand out from new players begging for kits. The Discord role is great for getting news quickly. Because I play so little, Apex wasn't the best price for me; Elite would have been better. I recommend Apex only to players who play ~10 hours a week.",
           "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t is Pure Chaos — and Pure Fun! 6b6t is the kind of server where something is always happening. From fighting at active hotspots to teaming up with strangers who become friends, every session brings a new story. I got the lifetime Apex rank, and it's worth it just to support the server and stay committed long-term. The higher render distance and Builder Mode make it way easier to plan large-scale builds and enjoy the landscape in full detail. Building huge bases, exploring ruins, and surviving ambushes with friends has made it one of the wildest Minecraft experiences out there. If you're into unfiltered anarchy and community-driven gameplay, 6b6t is the place—and Apex is a solid way to show you're in it for the long haul."
         },
+        "shop": {
+          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+        },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
+        }
+      },
+      "stats": {
+        "previewData": {
+          "apex": "apex",
+          "eliteultra": "eliteultra",
+          "primeultra": "primeultra",
+          "elite": "elite",
+          "prime": "prime",
+          "default": "default"
         }
       }
     }

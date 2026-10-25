@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "page": {
+      "join6b6t": "Dołącz do 6b6t",
+      "text6b6tIsAMinecraftAnarchyServerWithNoQueue": "6b6t to serwer anarchii Minecraft bez kolejki. Postępuj zgodnie z instrukcjami dla swojej edycji.",
+      "javaEdition": "Edycja Java",
+      "chooseASupportedMinecraftVersionAndInstallFabricAnd": "Wybierz obsługiwaną wersję Minecraft i zainstaluj Fabric oraz",
+      "anarchymod": "AnarchyMod",
+      "theDownloadPageListsCompatibleVersionsAndInstallationSteps": ". Na stronie pobierania znajdziesz zgodne wersje i instrukcję instalacji.",
+      "startMinecraftWithThatFabricProfile": "Uruchom Minecraft z tym profilem Fabric.",
+      "openMultiplayerAddAServerAndEnter": "Otwórz tryb wieloosobowy, dodaj serwer i wpisz",
+      "mojangBlacklisted6b6tOn15July2026WithoutAnarchymod": "Mojang zablokował 6b6t 15 lipca 2026 r. Bez AnarchyMod edycja Java może pokazywać serwer jako niedostępny, nawet gdy działa.",
+      "bedrockEdition": "Edycja Bedrock",
+      "addAServerWithAddress": "Dodaj serwer z adresem",
+      "andPort": "i port",
+      "signInToYourXboxAccountYouDoNot": ". Zaloguj się na konto Xbox. Nie potrzebujesz moda AnarchyMod dla wersji Java.",
+      "useADeviceThatSupportsAddingCustomServersConsole": "Użyj urządzenia, które obsługuje dodawanie własnych serwerów. Konfiguracja konsoli zależy od platformy.",
+      "crackedAndNonPremiumAccounts": "Konta non-premium",
+      "crackedPlayersAlsoNeedAnarchymodOnJavaCheckThat": "Gracze non-premium również potrzebują AnarchyMod w edycji Java. Sprawdź, czy twój launcher obsługuje zgodną wersję Fabric. Wykonaj instrukcje /register i /login wyświetlane w grze i nie udostępniaj danych logowania.",
+      "forAccountVerificationFollowTheInGameInstructionsIf": "Aby zweryfikować konto, postępuj zgodnie z instrukcjami w grze. Jeśli utracisz dostęp, przeczytaj",
+      "accountRecovery": "informacje o odzyskiwaniu konta",
+      "havingTroubleConnecting": "Masz problemy z połączeniem?",
+      "check": "Sprawdź",
+      "liveServerStatus": "aktualny stan serwera",
+      "read": ", przeczytaj",
+      "connectionHelp": "pomoc dotyczącą połączenia",
+      "orAskInThe": "lub zapytaj na",
+      "officialDiscord": "oficjalnego Discorda"
+    }
+  }
+}

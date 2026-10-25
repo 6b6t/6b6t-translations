@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "page": {
+      "page": {
+        "playerDirectoryPageValue16b6t": "Katalog graczy — strona {{value1}} | 6b6t",
+        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "Przeglądaj profile graczy 6b6t i sprawdzaj ich czas gry w Minecraft, zabójstwa, zgony oraz inne statystyki.",
+        "backToPlayerStatistics": "Wróć do statystyk gracza",
+        "playerDirectory": "Katalog graczy",
+        "browsePlayerProfilesOrderedByUsernamePage": "Przeglądaj profile graczy w kolejności nazw użytkowników. Strona",
+        "of": "z",
+        "playerDirectoryPages": "Strony katalogu graczy"
+      }
+    }
+  }
+}

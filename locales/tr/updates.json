@@ -6,37 +6,55 @@
       "user": "@user",
       "updatesPing": "@Updates Ping"
     },
-    "updatesList": {
+    "updateEntry": {
       "edited": "Düzenlendi",
       "postedBy": "Gönderen",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "Bu güncelleme Discord'da eklerle birlikte paylaşıldı.",
-      "openInDiscord": "Discord'da Aç",
-      "latestPost": "Son gönderi",
-      "loading": "Yükleniyor...",
-      "loadMoreValue1": "Daha fazla {{value1}} yükle",
+      "openInDiscord": "Discord'da Aç"
+    },
+    "updatesList": {
+      "tryingAgain": "Trying again…",
+      "tryAgain": "Try again",
       "newUpdate": "yeni güncelleme",
       "justAppeared": "az önce göründü.",
       "dismiss": "Kapat",
-      "searchUpdates": "Güncelleme ara",
-      "searching": "Aranıyor...",
-      "search": "Ara",
-      "clear": "Temizle",
-      "showing": "Gösteriliyor",
-      "searchResults": "arama sonucu.",
+      "searchingUpdates": "Searching updates…",
+      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
       "loadMoreResults": "Daha fazla sonuç yükle",
-      "noUpdatesMatchedYourSearch": "Aramanla eşleşen güncelleme girdisi bulunamadı."
+      "noUpdatesMatched": "No updates matched “",
+      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
+      "showAllUpdates": "Show all updates"
+    },
+    "updatesSchema": {
+      "text6b6tUpdates": "6b6t Güncellemeleri",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi."
+    },
+    "updatesSearch": {
+      "searchServerUpdates": "Search server updates",
+      "searchUpdates": "Güncelleme ara",
+      "suggestedSearches": "Suggested searches",
+      "searching": "Searching…",
+      "search": "Ara",
+      "clear": "Temizle"
+    },
+    "updatesSection": {
+      "updatesFromValue1": "Updates from {{value1}}",
+      "latestPost": "Son gönderi",
+      "loading": "Loading…",
+      "loadMoreValue1": "Daha fazla {{value1}} yükle"
     },
     "page": {
-      "discordUpdatesAreComingHereSoon": "Discord güncellemeleri yakında burada olacak",
-      "theChangelogPageIsReadyToSyncFromThe": "Değişiklik günlüğü sayfası, resmi Discord güncelleme kanalından senkronize olmaya hazır. O zamana kadar en yeni gönderileri okumak için Discord'a katıl.",
+      "serverUpdates": "Server updates",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
       "joinDiscord": "Discord'a Katıl",
-      "text6b6tUpdates": "6b6t Güncellemeleri",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi.",
-      "changelog": "Değişiklik Günlüğü",
-      "server": "Sunucu",
-      "updates": "Güncellemeler",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Resmi 6b6t Discord değişiklik günlüğü kanalından en son değişiklikler, düzeltmeler ve duyurular.",
-      "loadingUpdates": "Güncellemeler yükleniyor..."
+      "loadingServerUpdates": "Loading server updates…",
+      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
+      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
+      "tryingAgain": "Trying again…",
+      "tryAgain": "Try again",
+      "noUpdatesToShowYet": "No updates to show yet",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
+      "readNewsOnDiscord": "Read news on Discord"
     }
   }
 }

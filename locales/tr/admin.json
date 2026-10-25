@@ -68,6 +68,32 @@
             "noDataCouldBeRetrieved": "Veri alınamadı."
           }
         },
+        "creators": {
+          "page": {
+            "creatorSales": "Creator Sales",
+            "rainRainAndRaincoates": "Rain · RAIN and RAINCOATES",
+            "refresh": "Yenile",
+            "newlyRecordedPurchasesAppearAutomaticallyEvery15SecondsEstimated": "Newly recorded purchases appear automatically every 15 seconds. Estimated commission is 10% after recorded refunds, rounded to the nearest cent. Pending, failed and disputed sales earn no commission. This is not a payout history.",
+            "couldNotLoadCreatorSalesTryRefreshing": "Could not load creator sales. Try refreshing.",
+            "loadingCreatorSales": "Loading creator sales…",
+            "attributedTransactions": "attributed transactions",
+            "date": "Tarih",
+            "creatorCode": "Creator code",
+            "player": "Player",
+            "rank": "Rank",
+            "sale": "Sale",
+            "refund": "Refund",
+            "estimatedCommission10": "Estimated commission (10%)",
+            "status": "Durum",
+            "noCreatorCodePurchasesHaveBeenRecordedYetPreview": "No creator-code purchases have been recorded yet. Preview purchases are not saved.",
+            "notRecorded": "Not recorded",
+            "needsReview": "Needs review",
+            "previous": "Önceki",
+            "page": "Sayfa",
+            "value1Value2": "{{value1}}{{value2}}",
+            "next": "Sonraki"
+          }
+        },
         "shop": {
           "page": {
             "shopAnalytics": "Mağaza Analitiği",
@@ -88,6 +114,7 @@
             "date": "Tarih",
             "username": "Kullanıcı Adı",
             "bundle": "Paket",
+            "creatorCode": "Creator code",
             "amount": "Tutar",
             "status": "Durum",
             "provider": "Sağlayıcı",
@@ -118,20 +145,8 @@
         }
       },
       "communityEvent": {
-        "communityEventExtensionForm": {
+        "communityEventExtensionConfirmation": {
           "theEndTimeMovedToValue1": "Bitiş zamanı {{value1}} olarak değiştirildi.",
-          "extendRemainingTime": "Kalan süreyi uzat",
-          "addTimeToTheStoredEndThisKeepsPurchase": "Kayıtlı bitiş zamanına süre ekle. Bu, satın alma geçmişini, katkıları ve teslimat kayıtlarını değiştirmeden korur.",
-          "enterTheNumberOfSecondsToAdd": "Eklenecek saniye sayısını girin",
-          "secondsToAdd": "Eklenecek saniye",
-          "maximum86400Seconds24Hours": "Maksimum: 86.400 saniye (24 saat).",
-          "reason": "Sebep",
-          "whyIsTheEventBeingExtended": "Etkinlik neden uzatılıyor?",
-          "currentEnd": "Mevcut bitiş",
-          "notConfigured": "Yapılandırılmadı",
-          "resultingEnd": "Sonuç bitiş",
-          "enterSecondsToPreview": "Önizlemek için saniye girin",
-          "reviewExtension": "Uzatmayı incele",
           "confirmCommunityEventExtension": "Topluluk Etkinliği uzatmasını onayla",
           "thisAdds": "Bu, mevcut bitişe",
           "secondsToTheCurrentEndTheResultingEndWill": "saniye ekler. Sonuç bitiş şu olacak:",
@@ -140,6 +155,22 @@
           "cancel": "İptal",
           "extending": "Uzatılıyor…",
           "extendEvent": "Etkinliği uzat"
+        },
+        "communityEventExtensionForm": {
+          "extendRemainingTime": "Kalan süreyi uzat",
+          "addTimeToTheStoredEndThisKeepsPurchase": "Kayıtlı bitiş zamanına süre ekle. Bu, satın alma geçmişini, katkıları ve teslimat kayıtlarını değiştirmeden korur.",
+          "secondsToAdd": "Eklenecek saniye",
+          "maximum86400Seconds24Hours": "Maksimum: 86.400 saniye (24 saat).",
+          "reason": "Sebep",
+          "whyIsTheEventBeingExtended": "Etkinlik neden uzatılıyor?",
+          "currentEnd": "Mevcut bitiş",
+          "notConfigured": "Yapılandırılmadı",
+          "resultingEnd": "Sonuç bitiş",
+          "enterSecondsToPreview": "Önizlemek için saniye girin",
+          "reviewExtension": "Uzatmayı incele"
+        },
+        "communityEventExtensionOptions": {
+          "typeValue1ToContinue": "Type {{value1}} to continue"
         },
         "page": {
           "resetCommunityEvent": "TOPLULUK ETKİNLİĞİNİ SIFIRLA",
@@ -178,7 +209,7 @@
           "loadingFulfillmentRequests": "Teslimat talepleri yükleniyor…",
           "noRequestsYet": "Henüz talep yok.",
           "submitted": "· gönderildi",
-          "minecraftIdentity": "Minecraft kimliği",
+          "minecraftProfile": "Minecraft profile",
           "purchaseEmail": "Satın alma e-postası",
           "paymentReference": "Ödeme referansı",
           "notSupplied": "belirtilmedi",
@@ -200,7 +231,7 @@
         "welcomeToTheAdminPanel": "Admin paneline hoş geldin",
         "loggedInAs": "Giriş yapan kullanıcı:",
         "role": "Rol",
-        "lastLogin": "Son Giriş",
+        "sessionIssued": "Session issued",
         "quickLinks": "Hızlı Bağlantılar",
         "shopAnalytics": "Mağaza Analitiği",
         "viewShopSessionStatisticsAndConversionMetrics": "Mağaza oturum istatistiklerini ve dönüşüm metriklerini görüntüle",
@@ -265,6 +296,7 @@
           "addCommunityPoints": "Topluluk puanı ekle",
           "creditThePointsForOneRankPurchaseThisCan": "Bir rank satın alımının puanlarını tanımla. Bu, bir topluluk kilometre taşını tamamlayabilir.",
           "rankPurchase": "Rank satın alımı",
+          "value1Value2Points": "{{value1}} · {{value2}} points",
           "points": "puan",
           "reason": "Sebep",
           "explainWhyThesePointsNeedToBeAdded": "Bu puanların neden eklenmesi gerektiğini açıkla",
@@ -457,6 +489,7 @@
         "shopAnalytics": "Mağaza Analitiği",
         "anarchyModStats": "Anarchy Mod İstatistikleri",
         "transactions": "İşlemler",
+        "creatorSales": "Creator Sales",
         "fulfillment": "Teslimat",
         "communityEvent": "Topluluk Etkinliği",
         "motdAds": "MOTD Reklamları",
@@ -465,19 +498,7 @@
         "recoveryLogs": "Kurtarma Günlükleri",
         "recoveryResultLogs": "Kurtarma Sonuç Günlükleri",
         "adminPanel": "Admin Paneli",
-        "logout": "Çıkış Yap"
-      }
-    },
-    "login": {
-      "page": {
-        "loginFailed": "Giriş başarısız",
-        "adminLogin": "Admin Girişi",
-        "signInToAccessTheAdminPanel": "Admin paneline erişmek için giriş yap",
-        "email": "E-posta",
-        "adminExampleCom": "admin@example.com",
-        "password": "Şifre",
-        "signingIn": "Giriş yapılıyor...",
-        "signIn": "Giriş Yap"
+        "signOut": "Sign out"
       }
     },
     "adminDataTable": {

@@ -2,28 +2,30 @@
   "sections": {
     "api": {
       "text": {
-        "notFound": "Not found"
+        "notFound": "Nie znaleziono"
       },
       "commands": {
         "failedToFetchCommands": "Nie udało się pobrać komend"
       },
       "creem": {
         "completed": "zakończone",
-        "opened": "opened",
+        "opened": "otwarte",
         "webhookServiceIsNotConfigured": "Usługa webhooków nie jest skonfigurowana",
-        "invalidWebhookSignature": "Invalid webhook signature",
+        "invalidWebhookSignature": "Nieprawidłowy podpis webhooka",
         "webhookProcessingFailed": "Przetwarzanie webhooka nie powiodło się"
       },
       "discord": {
+        "data": {
+          "unauthorized": "Brak autoryzacji",
+          "invalidResource": "Nieprawidłowy zasób",
+          "dataUnavailable": "Dane są niedostępne"
+        },
         "motd": {
-          "interactions": {
-            "invalidRequestSignature": "Nieprawidłowy podpis żądania",
-            "invalidJsonPayload": "Nieprawidłowy ładunek JSON"
-          },
           "review": {
             "unauthorized": "Brak autoryzacji",
             "invalidJsonPayload": "Nieprawidłowy ładunek JSON",
             "youDoNotHavePermissionToReviewMotds": "Nie masz uprawnień do sprawdzania MOTD.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Oznaczono zgłoszenie MOTD {{value1}} jako AD. Nadal wymaga zatwierdzenia.",
             "approvedMotdRequestValue1": "Zatwierdzono zgłoszenie MOTD {{value1}}.",
             "requestedRevisionForMotdRequestValue1": "Poproszono o poprawkę dla zgłoszenia MOTD {{value1}}.",
             "motdReviewActionFailed": "Akcja weryfikacji MOTD nie powiodła się."
@@ -34,10 +36,13 @@
       "online": "online",
       "legendSubscribers": {
         "active": "aktywne",
-        "trialing": "trialing",
+        "trialing": "okres próbny",
         "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "Nie udało się załadować subskrybentów Legend",
         "all": "wszystkie"
+      },
+      "legendUltraHolders": {
+        "unableToLoadLegendUltraHolders": "Nie udało się wczytać posiadaczy Legend Ultra"
       },
       "media": {
         "text": {
@@ -62,7 +67,7 @@
           "invalidSignature": "Nieprawidłowy podpis",
           "invalidJson": "Nieprawidłowy JSON",
           "unexpectedResource": "Nieoczekiwany zasób",
-          "delivered": "delivered",
+          "delivered": "dostarczone",
           "shipped": "wysłane"
         }
       },
@@ -77,7 +82,7 @@
       },
       "tebex": {
         "pending": "Oczekujące",
-        "lost": "lost",
+        "lost": "utracone",
         "payloadTooLarge": "Ładunek jest zbyt duży",
         "missingSignature": "Brak podpisu",
         "invalidSignature": "Nieprawidłowy podpis",
@@ -105,12 +110,47 @@
     },
     "lib": {
       "admin": {
-        "auth": {
-          "adminWithThisEmailAlreadyExists": "Administrator z tym adresem e-mail już istnieje",
-          "unknownError": "Nieznany błąd",
-          "invalidCredentials": "Nieprawidłowe dane logowania",
-          "adminSessionNotFound": "Nie znaleziono sesji administratora",
-          "adminNotFound": "Nie znaleziono administratora"
+        "cloudflareAccess": {
+          "localDevelopment": "Lokalne środowisko programistyczne"
+        }
+      },
+      "auth": {
+        "accountLinkHistory": {
+          "text6b6tAccountLinkHistoryIp": "6b6t-account-link-history:ip:",
+          "hmac": "HMAC"
+        },
+        "accountSafetyPlugin": {
+          "accountstepup": "accountStepUp",
+          "unauthorized": "Brak autoryzacji",
+          "confirmThisChangeWithACodeFirst": "Najpierw potwierdź tę zmianę kodem.",
+          "addAndVerifyAnEmailAddressFirst": "Najpierw dodaj i zweryfikuj adres e-mail.",
+          "email": "e-mail",
+          "passAUseridOrAValueToSearchFor": "Podaj userId lub wartość do wyszukania."
+        },
+        "accountStepUp": {
+          "hmac": "HMAC"
+        },
+        "emailTemplate": {
+          "signInTo6b6t": "Zaloguj się do 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Wpisz ten kod w otwartej przeglądarce, aby zalogować się do {appName} jako {email}.",
+          "verifyYour6b6tEmail": "Zweryfikuj swój adres e-mail na 6b6t",
+          "enterThisCodeInYourOpenBrowserToVerify": "Wpisz ten kod w otwartej przeglądarce, aby zweryfikować {email} na swoim koncie {appName}.",
+          "resetYour6b6tPassword": "Zresetuj hasło do 6b6t",
+          "enterThisCodeInYourOpenBrowserToReset": "Wpisz ten kod w otwartej przeglądarce, aby zresetować hasło dla {email} w {appName}.",
+          "confirmYour6b6tEmailChange": "Potwierdź zmianę adresu e-mail na 6b6t",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Wpisz ten kod w otwartej przeglądarce, aby potwierdzić zmianę adresu e-mail na {email} w {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Potwierdź zmianę na swoim koncie 6b6t",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Ktoś zalogowany na konto {appName} z adresem {email} usuwa powiązane konto, zmienia e-mail, wyłącza uwierzytelnianie dwuskładnikowe lub usuwa konto. Wpisz ten kod tylko wtedy, gdy to Ty. Jeśli to nie Ty, nie udostępniaj kodu i zmień hasło do konta Minecraft."
+        },
+        "linkHistoryPlugin": {
+          "linkHistory": "Historia powiązań"
+        },
+        "options": {
+          "consent": "zgoda",
+          "useARealEmailAddress": "Użyj prawdziwego adresu e-mail."
+        },
+        "socialProviders": {
+          "telegram": "Telegram"
         }
       },
       "commandService": {
@@ -137,11 +177,14 @@
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "Osiągnij cel do 14 sierpnia, aby odblokować potężny dupe na całym 6b6t na 72 godziny. Jeśli cel zostanie osiągnięty później, wydarzenie zostanie przeniesione na najbliższy kolejny weekend."
       },
+      "communityHistory": {
+        "eventIdsMustBeUnique": "Identyfikatory wydarzeń muszą być unikalne"
+      },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
           "sendAPrivateMessageToAnyOnlinePlayer": "Wyślij prywatną wiadomość do dowolnego gracza online",
-          "turnYourCrackedAccountIntoAPremiumAccount": "Zmień swoje konto cracked na konto premium.",
+          "moveYourCrackedAccountToThePremiumAccountWith": "Przenieś swoje konto cracked na konto premium o tej samej nazwie. Działa tylko na serwerze anarchii, nie w lobby.",
           "replyR": "/reply, /r",
           "sendAPrivateMessageToTheLastPersonWho": "Wyślij prywatną wiadomość do ostatniej osoby, która wysłała Ci prywatną wiadomość",
           "lastL": "/last, /l",
@@ -156,45 +199,68 @@
           "groupchatGc": "/groupchat, /gc",
           "talkPrivatelyInAGroupchatWithMultiplePeople": "Rozmawiaj prywatnie z wieloma osobami na czacie grupowym.",
           "toggleViewingTheChat": "Włącz/wyłącz wyświetlanie czatu.",
-          "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
+          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Pokaż/ukryj głowy graczy na czacie, w prywatnych wiadomościach, w wiadomościach o dołączeniu, śmierci i osiągnięciach, w prośbach o teleportację i na paskach hotspotu.",
           "turnsPrivateMessagesOnOrOffSoYouCan": "Włącza lub wyłącza prywatne wiadomości, dzięki czemu możesz zdecydować, czy inni gracze mogą do Ciebie pisać.",
           "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Włącza, wyłącza lub dostosowuje efekty cząsteczkowe wokół gracza.",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Pomija lobby serwera i przenosi Cię bezpośrednio do głównego świata.",
-          "enableOrDisableViewingSpamMessagesInChat": "Włącz lub wyłącz wyświetlanie wiadomości spamowych na czacie.",
+          "togglespamShowspam": "/togglespam, /showspam",
+          "showOrHideSpamMessagesAndMessagesFromMuted": "Pokaż lub ukryj na czacie wiadomości spamowe i wiadomości od wyciszonych graczy.",
+          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Włącz lub wyłącz wyświetlanie wiadomości na czacie od graczy bez rangi.",
+          "seeHowManyPlayersAndBotsAreOnlineAnd": "Sprawdź liczbę graczy i botów online oraz to, które wiadomości botów ukrywasz.",
+          "botsChat": "/bots chat",
+          "showHideChatMessagesFromBots": "Pokaż lub ukryj wiadomości botów na czacie.",
+          "botsWhispers": "/bots whispers",
+          "showHidePrivateMessagesFromBots": "Pokaż lub ukryj prywatne wiadomości od botów.",
+          "botsConnections": "/bots connections",
+          "showHideChatMessagesOfBotsJoiningTheServer": "Pokaż lub ukryj wiadomości o dołączaniu botów do serwera.",
+          "botsDeaths": "/bots deaths",
+          "showHideChatMessagesOfBotsDyingAndThe": "Pokaż/ukryj wiadomości na czacie o śmierci botów oraz nazwę bota, gdy bot zabije gracza.",
+          "botsAdvancements": "/bots advancements",
+          "showHideAdvancementMessagesFromBots": "Pokaż/ukryj wiadomości o osiągnięciach botów.",
+          "botsTeleports": "/bots teleports",
+          "showHideTeleportRequestsFromBots": "Pokaż/ukryj prośby o teleportację od botów.",
+          "botsTab": "/bots tab",
+          "showHideBotsInTheTabList": "Pokaż/ukryj boty na liście graczy (Tab).",
+          "botsKits": "/bots kits",
+          "showHideKitRequestsFromBotsLikeKitPvp": "Pokaż/ukryj prośby botów o kity, np. !kit pvp.",
+          "showHideEverythingFromBotsAtOnceChatPrivate": "Pokaż/ukryj wszystko od botów naraz: czat, prywatne wiadomości, dołączenia, śmierci, osiągnięcia, prośby o teleportację, listę graczy (Tab) i prośby o kity.",
           "showHideChatMessagesOfPeopleJoiningTheServer": "Pokaż/ukryj wiadomości na czacie o osobach dołączających do serwera.",
           "connectionmsgsColor": "/connectionmsgs color",
           "changeTheColorOfConnectionMessagesInYourChat": "Zmień kolor wiadomości o połączeniach na swoim czacie.",
           "showHideChatMessagesOfPeopleDying": "Pokaż/ukryj wiadomości na czacie o śmierci graczy.",
           "deathmsgsColor": "/deathmsgs color",
           "changeTheColorOfDeathMessagesInYourChat": "Zmień kolor wiadomości o śmierci na swoim czacie.",
-          "createsANewHomeAtYourCurrentLocation": "Utwórz nowy home w swojej aktualnej lokalizacji.",
+          "advancementsChat": "/advancements chat",
+          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Wybierz, które wiadomości o postępach mają być widoczne na czacie: wszystkie, własne, innych graczy albo żadne.",
+          "advancementsToast": "/advancements toast",
+          "showOrHideTheAdvancementPopUpForYour": "Pokaż lub ukryj powiadomienia o własnych postępach.",
+          "showTheItemInYourHandInChatOther": "Pokaż na czacie przedmiot, który trzymasz w ręce. Inni gracze mogą najechać na niego kursorem, aby zobaczyć wszystkie szczegóły.",
+          "createsAHomeAtYourCurrentLocationNamesCan": "Tworzy dom w Twojej aktualnej lokalizacji. Nazwa może mieć do 32 znaków. Jeśli masz już dom o tej nazwie, przed zastąpieniem pojawi się pytanie.",
           "teleportToAHome": "Teleportuj się do home.",
-          "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Wyświetla listę wszystkich Twoich home.",
+          "opensTheListOfYourHomesWithYourHome": "Otwiera listę Twoich domów wraz z ich liczbą i limitem.",
           "deletesAHome": "Usuwa home.",
           "cancelsAnActiveTeleportToYourHomeUsefulIf": "Anuluje aktywną teleportację do home (przydatne, jeśli uruchomiłeś ją przez pomyłkę).",
           "renamesOneOfYourSavedHomesToSomethingDifferent": "Zmienia nazwę jednego z zapisanych home na inną.",
           "requestToTeleportToAnotherPlayer": "Poproś o teleportację do innego gracza.",
-          "tptoggleTpt": "/tptoggle, /tpt",
+          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
           "hidesTeleportRequestsFromAllPlayers": "Ukrywa prośby o teleportację od wszystkich graczy.",
           "acceptATpaRequest": "Akceptuje prośbę TPA.",
           "declineATpaRequest": "Odrzuca prośbę TPA.",
           "wearAnyItemOnYourHead": "Załóż dowolny przedmiot na głowę.",
-          "invisframeIframe": "/invisframe, /iframe",
           "toggleInvisibilityFrames": "Włącza/wyłącza niewidzialne ramki.",
           "chatcolorCc": "/chatcolor, /cc",
           "changeTheColorOfYourChatMessages": "Zmień kolor swoich wiadomości na czacie.",
           "namecolorNc": "/namecolor, /nc",
           "changeTheColorOfYourUsernameInChat": "Zmień kolor swojej nazwy użytkownika na czacie.",
+          "chooseWhichRankPrefixYouShowInChatAnd": "Wybierz, który prefiks rangi pokazujesz na czacie i na liście graczy (Tab).",
           "lightUpACigar": "Zapal cygaro",
           "giveYourselfAGlowingEffect": "Nadaj sobie efekt świecenia.",
-          "teleportToTheGlobalHostspot": "Teleportuj się do globalnego hotspotu.",
+          "teleportToTheCurrentHotspot": "Teleportuj się do aktualnego hotspotu.",
           "hotspotCreate": "/hotspot create",
           "createANewHotspotAtYourCurrentLocation": "Utwórz nowy hotspot w swojej aktualnej lokalizacji.",
           "hotspotColor": "/hotspot color",
           "changeTheColorOfTheHotspot": "Zmień kolor hotspotu.",
-          "hotspotNotificationsHotspotNotify": "/hotspot notifications, /hotspot notify",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "Zmień sposób wyświetlania powiadomienia o hotspocie lub je wyłącz",
+          "hotspotNotifications": "/hotspot notifications",
+          "opensAMenuToTurnTheHotspotBossBar": "Otwiera menu, w którym włączysz lub wyłączysz pasek bossa, pasek akcji i wiadomość na czacie o hotspocie. Dodaj off, aby ukryć wszystkie.",
           "hotspotCancel": "/hotspot cancel",
           "cancelYourHotspot": "Anuluj swój hotspot",
           "hotspotBalloon": "/hotspot balloon",
@@ -204,17 +270,21 @@
           "hotspotName": "/hotspot name",
           "changeTheNameOfYourHotspot": "Zmień nazwę swojego hotspotu.",
           "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspot": "Wyświetl informacje o aktualnym hotspocie.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "Tymczasowo zwiększ zasięg renderowania na potrzeby budowania.",
+          "seeInformationAboutTheCurrentHotspotAndWhenYou": "Wyświetl informacje o aktualnym hotspocie i o tym, kiedy możesz utworzyć następny.",
+          "increaseYourViewDistanceForAWhileForBuilding": "Zwiększ na jakiś czas zasięg renderowania na potrzeby budowania. Dostajesz zasięg swojej najwyższej rangi.",
           "buildermodeHome": "/buildermode home",
           "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Włącz buildermode podczas teleportacji do określonego home.",
           "putACosmeticBalloonOnYourHead": "Załóż kosmetyczny balon na głowę.",
           "sitOnAnyBlockToRest": "Usiądź na dowolnym bloku, aby odpocząć.",
+          "lieDownOnAnyBlockToRest": "Połóż się na dowolnym bloku, aby odpocząć.",
           "changeYourInGameSkin": "Zmień swoją skórkę w grze.",
           "letsYouLeaveYourBodyAndFlyAroundIn": "Pozwala opuścić ciało i latać w trybie zbliżonym do spectator, aby rozpoznać teren bez ruszania prawdziwego gracza.",
+          "useItRightAfterTheServerPullsYouBack": "Użyj zaraz po tym, jak serwer Cię cofnie. Zapisuje ostatnią minutę Twojego ruchu, aby administracja mogła ją sprawdzić. Potem wyślij e-mail na contact@6b6t.org.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "Uzyskaj link do oficjalnego sklepu 6b6t.",
+          "giftEliteUltraToAnOnlineElitePlayerOr": "Podaruj Elite Ultra graczowi Elite, który jest online, albo Prime Ultra graczowi Prime. Po 14 dniach możesz to cofnąć komendą /legendgift remove.",
           "showsTheVoteCountAndInstructionsToVote": "Wyświetla liczbę głosów i instrukcje dotyczące głosowania.",
+          "showsTheServerSTpsAndPerformancePlusThe": "Pokazuje TPS i wydajność serwera oraz TPS odczuwany przez Ciebie przez ostatnie 5 sekund, 1 minutę i 5 minut.",
           "getAnInviteToThe6b6tDiscordServer": "Uzyskaj zaproszenie na serwer Discord 6b6t.",
           "getALinkToThe6b6tWebsite": "Uzyskaj link do strony internetowej 6b6t.",
           "getALinkToThisWebpage": "Uzyskaj link do tej strony internetowej."
@@ -228,13 +298,20 @@
           "transactionUpdateReturnedNull": "Aktualizacja transakcji zwróciła wartość null",
           "refunded": "zwrócone",
           "completed": "zakończone",
-          "disputed": "disputed"
+          "disputed": "sporne"
         }
       },
       "discordChangelog": {
         "unknownError": "Nieznany błąd",
         "discordReturnedValue1ForValue2": "Discord zwrócił {{value1}} dla #{{value2}}",
         "unknownDiscordError": "Nieznany błąd Discord"
+      },
+      "email": {
+        "text6b6tAccounts": "Konta 6b6t",
+        "text6b6tRecovery": "Odzyskiwanie konta 6b6t",
+        "text6b6tBillboard": "Tablica reklamowa 6b6t",
+        "text6b6tMerch": "Gadżety 6b6t",
+        "text6b6tSupport": "Pomoc 6b6t"
       },
       "galleryUtil": {
         "recentEpicBuild": "Niedawna epicka budowla",
@@ -270,19 +347,16 @@
           "player": "Gracz",
           "package": "Pakiet",
           "duration": "Czas trwania",
-          "value1H": "{{value1}}h",
+          "value1H": "{{value1}} godz.",
           "amount": "Kwota",
           "motd": "MOTD",
           "revisionReason": "Powód poprawki",
           "approve": "Zatwierdź",
-          "requestRevision": "Poproś o poprawkę",
-          "requestMotdRevision": "Poproś o poprawkę MOTD",
-          "reason": "Powód",
-          "explainWhatNeedsToBeChanged": "Wyjaśnij, co należy zmienić."
+          "markAsAd": "Oznacz jako AD",
+          "requestRevision": "Poproś o poprawkę"
         },
         "email": {
-          "smtpNotConfigured": "smtp_not_configured",
-          "smtpSendFailed": "smtp_send_failed"
+          "emailSendFailed": "email_send_failed"
         },
         "manual": {
           "completed": "zakończone"
@@ -308,10 +382,11 @@
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "Rezerwacja została zwolniona po nieudanym utworzeniu płatności",
+          "markedAsAdInDiscordByValue1": "Oznaczone jako AD na Discordzie przez {{value1}}",
           "approvedQueued": "zatwierdzone_w_kolejce",
           "revisionRequested": "zażądano_ponownego_sprawdzenia",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "Dostawca płatności nie udostępnił adresu e-mail klienta",
-          "cancelled": "cancelled",
+          "cancelled": "anulowane",
           "completed": "zakończone",
           "active": "aktywne"
         },
@@ -327,18 +402,17 @@
       "printify": {
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Realizacja produktów fizycznych nie jest jeszcze dostępna.",
-          "delivered": "delivered",
+          "delivered": "dostarczone",
           "unknownError": "Nieznany błąd",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "Realizacja produktów fizycznych jest tymczasowo niedostępna.",
-          "submitting": "submitting",
-          "reserved": "reserved",
-          "processing": "processing"
+          "submitting": "wysyłanie",
+          "reserved": "zarezerwowane",
+          "processing": "przetwarzanie"
         },
         "client": {
           "networkError": "Błąd sieci"
         },
         "email": {
-          "smtpIsNotConfigured": "SMTP nie jest skonfigurowany",
           "emailDeliveryFailed": "Dostarczenie e-maila nie powiodło się"
         },
         "entitlementAnchor": {
@@ -350,13 +424,22 @@
           "eliteToApexUpgradeMousepad": "Ulepszenie z Elite do Apex — podkładka pod mysz",
           "legendRank3MonthsMug": "Ranga Legend (3 miesiące) — kubek",
           "legendRankThreePaid1MonthPeriodsMug": "Ranga Legend (trzy opłacone okresy po 1 miesiącu) — kubek"
+        },
+        "notifications": {
+          "merchRequestResubmitted": "Zgłoszenie dotyczące gadżetów wysłano ponownie",
+          "newMerchRequest": "Nowe zgłoszenie dotyczące gadżetów",
+          "aMerchRequestIsWaitingForStaffReview": "Zgłoszenie dotyczące gadżetów czeka na sprawdzenie przez obsługę.",
+          "player": "Gracz",
+          "item": "Przedmiot",
+          "requestId": "Identyfikator zgłoszenia"
         }
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_failed",
-          "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
-          "smtpNotConfigured": "smtp_not_configured",
+          "emailSendFailed": "email_send_failed",
+          "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
+          "emailNotConfigured": "email_not_configured",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Twoje żądanie zostało odebrane. Jeśli konto istnieje, a dostarczone dowody można zweryfikować, skontaktuje się z Tobą pomoc techniczna.",
           "yourAccountRecoveryRequestHasBeenApproved": "Twoje żądanie odzyskiwania konta zostało zatwierdzone.",
           "yourAccountRecoveryRequestHasBeenDenied": "Twoje żądanie odzyskiwania konta zostało odrzucone.",
           "noteValue1": "Uwaga: {{value1}}",
@@ -364,26 +447,29 @@
           "clickTheLinkBelowToSetANewPassword": "Kliknij poniższy link, aby ustawić nowe hasło: {{value1}} Link wygasa za 24 godziny."
         },
         "gracePeriod": {
-          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Ta próba odzyskiwania została zablokowana, ponieważ konto zalogowało się na serwerze w okresie karencji.",
+          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Ta próba odzyskiwania została zablokowana, ponieważ konto zalogowało się na serwer po powiadomieniu właściciela.",
           "pending": "Oczekujące",
-          "consumed": "consumed",
+          "consumed": "wykorzystane",
           "blocked": "zablokowane",
           "notApplicable": "not_applicable",
+          "expired": "wygasłe",
           "error": "błąd",
           "failedToCreateChallenge": "Nie udało się utworzyć wyzwania",
-          "smtpSendFailed": "smtp_send_failed",
-          "expired": "expired",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Właściciel konta się zmienił. Rozpocznij odzyskiwanie od nowa, aby powiadomić obecnego właściciela.",
+          "emailSendFailed": "email_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "Nie udało się powiadomić właściciela konta e-mailem.",
-          "created": "created",
+          "created": "utworzone",
           "invalidOrExpiredBlockToken": "Nieprawidłowy lub wygasły token blokady.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Ta próba odzyskiwania została już zablokowana.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "Okres karencji dla tego wyzwania już wygasł i nie można go zablokować.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "To wyzwanie odzyskiwania zostało już wykorzystane i nie można go już zablokować.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Ta próba odzyskiwania została już zatwierdzona przez superadministratora i nie można jej zablokować.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "To wyzwanie zmieniło się podczas blokowania. Odśwież, aby sprawdzić aktualny stan.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "Próba odzyskiwania została pomyślnie zablokowana.",
-          "passed": "passed",
+          "passed": "zaliczone",
           "missing": "brak",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "Właściciel konta zablokował tę próbę odzyskiwania.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "Zweryfikowany adres e-mail konta się zmienił. Odrzuć to zgłoszenie i rozpocznij nowe odzyskiwanie, aby powiadomić obecnego właściciela.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "Przepustka powiadomienia właściciela konta została już wykorzystana.",
           "gracePeriodChallengeNotFound": "Nie znaleziono wyzwania okresu karencji.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Ta próba odzyskiwania została zablokowana przez właściciela konta.",
@@ -391,7 +477,7 @@
           "thisGracePeriodHasAlreadyBeenConsumed": "Ten okres karencji został już wykorzystany.",
           "thisGracePeriodWasAlreadyApprovedByASuper": "Ten okres karencji został już zatwierdzony przez superadministratora.",
           "adminApproved": "admin_approved",
-          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
+          "thisChallengeChangedRefreshAndTryAgain": "To wyzwanie się zmieniło. Odśwież i spróbuj ponownie.",
           "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Okres karencji został zatwierdzony. Osoba żądająca może teraz kontynuować odzyskiwanie."
         },
         "hcaptcha": {
@@ -401,13 +487,13 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
-          "unavailable": "unavailable",
+          "unavailable": "niedostępne",
           "found": "znaleziono",
           "notFound": "not_found",
-          "base": "base",
-          "stash": "stash",
-          "unitedStates": "United States",
-          "california": "California",
+          "base": "baza",
+          "stash": "skrytka",
+          "unitedStates": "Stany Zjednoczone",
+          "california": "Kalifornia",
           "accountEmailUpdateFailed": "Nie udało się zaktualizować adresu e-mail konta.",
           "recoveryEmailUpdateEndpointIsNotConfigured": "Endpoint aktualizacji adresu e-mail odzyskiwania nie jest skonfigurowany",
           "gameServerEmailUpdateFailed": "Aktualizacja e-maila na serwerze gry nie powiodła się.",
@@ -418,22 +504,21 @@
           "inGameVerificationServiceIsUnavailable": "Usługa weryfikacji w grze jest niedostępna."
         },
         "sessions": {
-          "expired": "expired",
-          "exhausted": "exhausted",
-          "valid": "valid",
-          "invalid": "invalid"
+          "expired": "wygasłe",
+          "exhausted": "wyczerpane",
+          "valid": "prawidłowe",
+          "invalid": "nieprawidłowe"
         }
       },
       "requestRateLimit": {
-        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
-        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
+        "tooManyRequestsPleaseTryAgainLater": "Zbyt wiele żądań. Spróbuj ponownie później.",
+        "temporarilyUnavailablePleaseTryAgainLater": "Tymczasowo niedostępne. Spróbuj ponownie później."
       },
       "seoUtil": {
         "text6b6t": "6b6t"
       },
       "seo": {
-        "description": "description",
-        "keywords": "keywords",
+        "description": "opis",
         "robots": "robots",
         "googlebot": "googlebot"
       },
@@ -441,8 +526,8 @@
         "legend": {
           "lifetime": "LIFETIME",
           "lifetime2Apex": "LIFETIME + 2 APEX",
-          "monthly": "MONTHLY",
-          "text3Months": "3 MONTHS"
+          "monthly": "CO MIESIĄC",
+          "text3Months": "3 MIESIĄCE"
         },
         "ranks": {
           "unknownError": "Nieznany błąd",
@@ -493,8 +578,21 @@
           "afterWinningPrimeInAGiveawayIUpgradedTo": "Po wygraniu Prime w giveawayu ulepszyłem do Apex. Funkcja, której używam najczęściej, to zwiększona liczba domów — pomaga śledzić skrytki, bazy i lokalizacje. Niższe cooldowny /tpa i /home są ekstremalnie pomocne (z 15 minut do ~15 sekund). Nie używam dużo kosmetyków, ale kolor czatu pomaga wyróżnić się od nowych graczy proszących o kity. Rola na Discordzie jest super do szybkiego dostawania newsów. Ponieważ gram tak mało, Apex nie był dla mnie najlepszą ceną; Elite byłoby lepsze. Polecam Apex tylko graczom, którzy grają ~10 godzin tygodniowo.",
           "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t to czysty chaos — i czysta zabawa! 6b6t to serwer, na którym zawsze coś się dzieje. Od walk na aktywnych hotspotach po teamowanie z nieznajomymi, którzy stają się przyjaciółmi — każda sesja przynosi nową historię. Wziąłem rangę Apex dożywotnią i jest warta, choćby po to, żeby wspierać serwer i zostać na dłużej. Wyższy zasięg renderowania i Builder Mode znacznie ułatwiają planowanie dużych budów i cieszenie się krajobrazem w pełnej szczegółowości. Budowanie ogromnych baz, eksplorowanie ruin i przetrwanie zasadzek ze znajomymi sprawiło, że to jedno z najdzikszych doświadczeń Minecraft. Jeśli lubisz niefiltrowaną anarchię i gameplay napędzany społecznością, 6b6t jest miejscem — a Apex to solidny sposób, żeby pokazać, że jesteś w tym na dłużej."
         },
+        "shop": {
+          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Nieznany kod twórcy. Sprawdź pisownię lub pozostaw pole puste."
+        },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
+        }
+      },
+      "stats": {
+        "previewData": {
+          "apex": "apex",
+          "eliteultra": "eliteultra",
+          "primeultra": "primeultra",
+          "elite": "elite",
+          "prime": "prime",
+          "default": "domyślny"
         }
       }
     }

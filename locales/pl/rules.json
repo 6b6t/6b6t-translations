@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "page": {
+      "serverRules": "Zasady serwera",
+      "text6b6tIsAnAnarchyServerPlayersCanBuildFight": "6b6t to serwer anarchii. Gracze mogą budować, walczyć, napadać i niszczyć w świecie, który nigdy nie był resetowany. Nie ma kolejki.",
+      "areHacksAndGriefingAllowed": "Czy cheaty i griefing są dozwolone?",
+      "cheatingHackedClientsGriefingAndRaidingAreAllowedUnder": "Cheaty, zmodyfikowane klienty, griefing i napady są dozwolone zgodnie z",
+      "termsOfService": "Regulamin",
+      "technicalProtectionsMayStillLimitSomeClientFeaturesPermission": ". Zabezpieczenia techniczne mogą nadal ograniczać niektóre funkcje klientów. Możliwość używania klienta nie oznacza, że każdy exploit zadziała.",
+      "areDupesAllowed": "Czy duplikowanie przedmiotów jest dozwolone?",
+      "dupingIsPartOfAnarchyGameplayButExploitsMay": "Duplikowanie jest częścią rozgrywki w trybie anarchii, ale błędy mogą być naprawiane. Wydarzenia związane z duplikowaniem i zmiany są ogłaszane przez",
+      "serverUpdates": "aktualizacje serwera",
+      "andThe": "i",
+      "officialDiscord": "oficjalnego Discorda",
+      "oldEventPostsDoNotGuaranteeAMethodStill": ". Stare wpisy o wydarzeniach nie gwarantują, że dana metoda nadal działa.",
+      "whatCanLeadToRemoval": "Co może prowadzić do usunięcia z serwera?",
+      "theTermsOfServiceProhibitDdosAttacksOrAttempts": "Regulamin zabrania ataków DDoS, prób zakłócania połączeń, doxxingu oraz nielegalnych treści dotyczących osób niepełnoletnich. Rozgrywka w trybie anarchii nie znosi tych ograniczeń. Przeczytaj",
+      "fullTerms": "pełny regulamin",
+      "forTheCurrentPolicy": "zawierający aktualne zasady.",
+      "whyCanChatBeMuted": "Dlaczego czat może zostać wyciszony?",
+      "theAntiSpamSystemCanMuteDisruptiveChatAnd": "System antyspamowy może wyciszać uciążliwe wiadomości i reklamy. Przeczytaj",
+      "thePublicMuteLogAndChatRules": "publiczny dziennik wyciszeń i zasady czatu",
+      "forDetailsAndTheAppealProcessUseIgnoreTo": "aby poznać szczegóły i procedurę odwołania. Użyj /ignore, aby ukryć wiadomości danego gracza.",
+      "startPlaying": "Zacznij grać",
+      "read": "Przeczytaj",
+      "javaAndBedrockJoiningInstructions": "instrukcje dołączania dla edycji Java i Bedrock",
+      "browse": ", przejrzyj",
+      "theCommandList": "listę komend",
+      "andExplore": " i poznaj",
+      "serverHistory": "historię serwera"
+    }
+  }
+}

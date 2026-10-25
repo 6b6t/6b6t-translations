@@ -1,33 +1,38 @@
 {
-  "page-name": "Kontakt",
-  "seo-description": "Skontaktuj się z 6b6t.",
+  "page-name": "Kontakt z 6b6t: pomoc przez e-mail i Discord",
+  "seo-description": "Pomoc z kontem, zakupem lub serwerem 6b6t: napisz na contact@6b6t.org lub skorzystaj z oficjalnego Discorda.",
   "sections": {
-    "page": {
-      "contactUs": "Skontaktuj się z nami",
-      "getIn": "Skontaktuj",
-      "touch": "się",
-      "needHelpWeReHereToAssistYouWith": "Potrzebujesz pomocy? Chętnie odpowiemy na wszelkie pytania i pomożemy w rozwiązaniu problemów związanych z 6b6t.",
+    "contactMethods": {
       "email": "E-mail",
+      "contact6b6tOrg": "contact@6b6t.org",
+      "forQuestionsOrConcernsAboutYourAccountPurchasesOr": "W sprawach dotyczących konta, zakupów lub serwera.",
+      "openYourEmailApp": "Otwórz aplikację pocztową.",
+      "composeAnEmailDescribingYourConcern": "Napisz wiadomość e-mail opisującą problem.",
+      "sendItTo": "Wyślij do",
+      "typicalResponseTime": "Typowy czas odpowiedzi:",
+      "within24Hours": "w ciągu 24 godzin",
+      "writeAnEmail": "Napisz e-mail",
       "discord": "Discord",
-      "contactViaEmail": "Kontakt przez e-mail",
-      "sendUsAnEmailAndWeLlGetBack": "Wyślij nam wiadomość e-mail, a odpowiemy w ciągu 24 godzin.",
-      "openYourEmailApp": "Otwórz aplikację email",
-      "composeAnEmailDescribingYourConcern": "Napisz wiadomość, opisując swój problem lub pytanie",
-      "sendTo": "Wyślij na",
-      "responseTimeTypicallyWithin24Hours": "Czas odpowiedzi: zazwyczaj w ciągu 24 godzin",
-      "contactViaDiscord": "Kontakt przez Discord",
-      "createATicketInOur": "Utwórz zgłoszenie na naszym",
-      "discordServer": "serwerze Discord",
-      "forFasterSupport": "aby uzyskać szybszą pomoc.",
-      "joinOurDiscordServer": "Dołącz do naszego serwera Discord",
-      "createATicketIn": "Utwórz zgłoszenie w",
-      "waitForATeamMemberToRespond": "Poczekaj na odpowiedź członka zespołu",
-      "responseTimeTypicallyWithin1Hour": "Czas odpowiedzi: zazwyczaj w ciągu 1 godziny",
-      "discordSupportIs": "Pomoc przez Discord jest",
-      "exclusiveToRankedPlayers": "dostępna wyłącznie dla graczy posiadających rangę",
-      "youMustHaveARankFromThe": ". Musisz posiadać rangę dostępną w",
+      "createASupportTicketInTheOfficial6b6tDiscord": "Utwórz zgłoszenie pomocy na oficjalnym Discordzie 6b6t.",
+      "rankedPlayersOnly": "Tylko gracze z rangą.",
+      "youNeedARankFromThe": "Potrzebujesz rangi z",
       "text6b6tShop": "Sklepie 6b6t",
-      "toCreateATicket": "aby utworzyć zgłoszenie."
+      "toCreateADiscordTicketYouCanAlsoContact": "aby utworzyć zgłoszenie na Discordzie. Możesz też skontaktować się z nami przez e-mail.",
+      "joinTheOfficialDiscordServer": "Dołącz do oficjalnego serwera Discord.",
+      "createATicketIn": "Utwórz zgłoszenie w",
+      "waitForATeamMemberToRespond": "Poczekaj na odpowiedź członka zespołu.",
+      "within1Hour": "w ciągu 1 godziny",
+      "openDiscord": "Otwórz Discord"
+    },
+    "page": {
+      "contact6b6t": "Kontakt z 6b6t",
+      "needHelpWithYourAccountAPurchaseOrThe": "Potrzebujesz pomocy z kontem, zakupem lub serwerem? Skontaktuj się z zespołem przez e-mail lub Discord.",
+      "lookingForAQuickAnswer": "Szukasz szybkiej odpowiedzi?",
+      "theseGuidesCanHelpYouGetBackIntoThe": "Te poradniki pomogą Ci wrócić na serwer.",
+      "supportGuides": "Poradniki pomocy",
+      "connectionIssues": "Problemy z połączeniem",
+      "accountRecovery": "Odzyskiwanie konta",
+      "installAnarchymod": "Zainstaluj AnarchyMod"
     }
   }
 }

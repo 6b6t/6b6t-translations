@@ -15,15 +15,17 @@
         "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "discord": {
+        "data": {
+          "unauthorized": "अनधिकृत",
+          "invalidResource": "Invalid resource",
+          "dataUnavailable": "Data unavailable"
+        },
         "motd": {
-          "interactions": {
-            "invalidRequestSignature": "अमान्य अनुरोध हस्ताक्षर",
-            "invalidJsonPayload": "अमान्य JSON पेलोड"
-          },
           "review": {
             "unauthorized": "अनधिकृत",
             "invalidJsonPayload": "अमान्य JSON पेलोड",
             "youDoNotHavePermissionToReviewMotds": "आपके पास एमओटीडी की समीक्षा करने की अनुमति नहीं है।",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
             "approvedMotdRequestValue1": "स्वीकृत MOTD अनुरोध {{value1}}।",
             "requestedRevisionForMotdRequestValue1": "MOTD अनुरोध {{value1}} के लिए अनुरोधित संशोधन।",
             "motdReviewActionFailed": "MOTD समीक्षा कार्रवाई विफल रही."
@@ -38,6 +40,9 @@
         "pastDue": "पिछला बकाया",
         "unableToLoadLegendSubscribers": "legend ग्राहकों को लोड करने में असमर्थ",
         "all": "सभी"
+      },
+      "legendUltraHolders": {
+        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
       },
       "media": {
         "text": {
@@ -105,12 +110,47 @@
     },
     "lib": {
       "admin": {
-        "auth": {
-          "adminWithThisEmailAlreadyExists": "इस ईमेल वाला व्यवस्थापक पहले से मौजूद है",
-          "unknownError": "अज्ञात त्रुटि",
-          "invalidCredentials": "अवैध प्रत्यय पत्र",
-          "adminSessionNotFound": "व्यवस्थापक सत्र नहीं मिला",
-          "adminNotFound": "व्यवस्थापक नहीं मिला"
+        "cloudflareAccess": {
+          "localDevelopment": "Local development"
+        }
+      },
+      "auth": {
+        "accountLinkHistory": {
+          "text6b6tAccountLinkHistoryIp": "6b6t-account-link-history:ip:",
+          "hmac": "HMAC"
+        },
+        "accountSafetyPlugin": {
+          "accountstepup": "accountStepUp",
+          "unauthorized": "अनधिकृत",
+          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
+          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
+          "email": "email",
+          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+        },
+        "accountStepUp": {
+          "hmac": "HMAC"
+        },
+        "emailTemplate": {
+          "signInTo6b6t": "Sign in to 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
+          "verifyYour6b6tEmail": "Verify your 6b6t email",
+          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
+          "resetYour6b6tPassword": "Reset your 6b6t password",
+          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
+          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+        },
+        "linkHistoryPlugin": {
+          "linkHistory": "Link history"
+        },
+        "options": {
+          "consent": "consent",
+          "useARealEmailAddress": "Use a real email address."
+        },
+        "socialProviders": {
+          "telegram": "Telegram"
         }
       },
       "commandService": {
@@ -137,11 +177,14 @@
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "72 घंटों के लिए 6b6t पर एक शक्तिशाली डुप्लिकेट को अनलॉक करने के लिए 14 अगस्त तक लक्ष्य तक पहुंचें। यदि लक्ष्य बाद में प्राप्त होता है, तो घटना निकटतम अगले सप्ताहांत में चली जाती है।"
       },
+      "communityHistory": {
+        "eventIdsMustBeUnique": "Event IDs must be unique"
+      },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
           "sendAPrivateMessageToAnyOnlinePlayer": "किसी भी ऑनलाइन खिलाड़ी को एक निजी संदेश भेजें",
-          "turnYourCrackedAccountIntoAPremiumAccount": "अपने क्रैक किए गए खाते को प्रीमियम खाते में बदलें।",
+          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
           "replyR": "/reply, /r",
           "sendAPrivateMessageToTheLastPersonWho": "उस अंतिम व्यक्ति को एक निजी संदेश भेजें जिसने आपको निजी संदेश भेजा है",
           "lastL": "/last, /l",
@@ -156,45 +199,68 @@
           "groupchatGc": "/groupchat, /gc",
           "talkPrivatelyInAGroupchatWithMultiplePeople": "कई लोगों के साथ ग्रुपचैट में निजी तौर पर बात करें।",
           "toggleViewingTheChat": "चैट देखने को टॉगल करें.",
-          "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
+          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
           "turnsPrivateMessagesOnOrOffSoYouCan": "निजी संदेशों को चालू या बंद करता है ताकि आप चुन सकें कि अन्य खिलाड़ी आपको संदेश भेज सकते हैं या नहीं।",
           "togglesOrCustomizesParticleEffectsAroundYourPlayer": "आपके प्लेयर के चारों ओर कण प्रभावों को टॉगल या कस्टमाइज़ करता है।",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "सर्वर लॉबी को छोड़ देता है और आपको सीधे मुख्य दुनिया में भेज देता है।",
-          "enableOrDisableViewingSpamMessagesInChat": "चैट में स्पैम संदेशों को देखने को सक्षम या अक्षम करें।",
+          "togglespamShowspam": "/togglespam, /showspam",
+          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
+          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
+          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
+          "botsChat": "/bots chat",
+          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
+          "botsWhispers": "/bots whispers",
+          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
+          "botsConnections": "/bots connections",
+          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
+          "botsDeaths": "/bots deaths",
+          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
+          "botsAdvancements": "/bots advancements",
+          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
+          "botsTeleports": "/bots teleports",
+          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
+          "botsTab": "/bots tab",
+          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
+          "botsKits": "/bots kits",
+          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
+          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
           "showHideChatMessagesOfPeopleJoiningTheServer": "सर्वर में शामिल होने वाले खिलाड़ियों के चैट संदेश दिखाएँ या छिपाएँ।",
           "connectionmsgsColor": "/connectionmsgs रंग",
           "changeTheColorOfConnectionMessagesInYourChat": "अपनी चैट में कनेक्शन संदेशों का रंग बदलें।",
           "showHideChatMessagesOfPeopleDying": "खिलाड़ियों की मृत्यु से संबंधित चैट संदेश दिखाएँ या छिपाएँ।",
           "deathmsgsColor": "/deathmsgs रंग",
           "changeTheColorOfDeathMessagesInYourChat": "अपनी चैट में मृत्यु संदेशों का रंग बदलें।",
-          "createsANewHomeAtYourCurrentLocation": "आपके वर्तमान स्थान पर एक नया घर बनाता है।",
+          "advancementsChat": "/advancements chat",
+          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
+          "advancementsToast": "/advancements toast",
+          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
+          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
+          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
           "teleportToAHome": "किसी घर पर टेलीपोर्ट करें.",
-          "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "आपके सभी घरों की सूची.",
+          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
           "deletesAHome": "एक घर हटा देता है.",
           "cancelsAnActiveTeleportToYourHomeUsefulIf": "आपके घर पर सक्रिय टेलीपोर्ट को रद्द कर देता है (यदि आपने इसे गलती से चालू कर दिया है तो उपयोगी है)।",
           "renamesOneOfYourSavedHomesToSomethingDifferent": "आपके सहेजे गए घरों में से किसी एक का नाम बदलकर कुछ अलग कर देता है।",
           "requestToTeleportToAnotherPlayer": "किसी अन्य खिलाड़ी को टेलीपोर्ट करने का अनुरोध।",
-          "tptoggleTpt": "/tptoggle, /tpt",
+          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
           "hidesTeleportRequestsFromAllPlayers": "सभी खिलाड़ियों से टेलीपोर्ट अनुरोध छुपाता है।",
           "acceptATpaRequest": "टीपीए अनुरोध स्वीकार करें.",
           "declineATpaRequest": "टीपीए अनुरोध अस्वीकार करें.",
           "wearAnyItemOnYourHead": "कोई भी वस्तु सिर पर धारण करें।",
-          "invisframeIframe": "/invisframe, /iframe",
           "toggleInvisibilityFrames": "अदृश्यता फ़्रेम टॉगल करें.",
           "chatcolorCc": "/chatcolor, /cc",
           "changeTheColorOfYourChatMessages": "अपने चैट संदेशों का रंग बदलें.",
           "namecolorNc": "/namecolor, /nc",
           "changeTheColorOfYourUsernameInChat": "चैट में अपने उपयोगकर्ता नाम का रंग बदलें.",
+          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
           "lightUpACigar": "एक सिगार जलाओ",
           "giveYourselfAGlowingEffect": "अपने आप को एक चमकदार प्रभाव दें.",
-          "teleportToTheGlobalHostspot": "वैश्विक होस्टस्पॉट पर टेलीपोर्ट करें।",
+          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
           "hotspotCreate": "/hotspot बनाएं",
           "createANewHotspotAtYourCurrentLocation": "अपने वर्तमान स्थान पर एक नया हॉटस्पॉट बनाएं।",
           "hotspotColor": "/hotspot रंग",
           "changeTheColorOfTheHotspot": "हॉटस्पॉट का रंग बदलें.",
-          "hotspotNotificationsHotspotNotify": "/hotspot सूचनाएं, /hotspot सूचित करें",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "हॉटस्पॉट अधिसूचना देखने का तरीका बदलें या इसे अक्षम करें",
+          "hotspotNotifications": "/hotspot notifications",
+          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
           "hotspotCancel": "/hotspot रद्द करें",
           "cancelYourHotspot": "अपना हॉटस्पॉट रद्द करें",
           "hotspotBalloon": "/hotspot गुब्बारा",
@@ -204,17 +270,21 @@
           "hotspotName": "/hotspot नाम",
           "changeTheNameOfYourHotspot": "अपने हॉटस्पॉट का नाम बदलें.",
           "hotspotInfo": "/hotspot जानकारी",
-          "seeInformationAboutTheCurrentHotspot": "वर्तमान हॉटस्पॉट के बारे में जानकारी देखें.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "भवन निर्माण के लिए अपनी दृश्य दूरी अस्थायी रूप से बढ़ाएँ।",
+          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
+          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
           "buildermodeHome": "/buildermode घर",
           "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "निर्दिष्ट घर पर टेलीपोर्ट करते समय बिल्डरमोड सक्षम करें।",
           "putACosmeticBalloonOnYourHead": "अपने सिर पर एक कॉस्मेटिक गुब्बारा रखें।",
           "sitOnAnyBlockToRest": "आराम करने के लिए किसी भी ब्लॉक पर बैठें।",
+          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
           "changeYourInGameSkin": "अपनी इन-गेम त्वचा बदलें।",
           "letsYouLeaveYourBodyAndFlyAroundIn": "आपको अपने शरीर को छोड़कर अपने वास्तविक खिलाड़ी को हिलाए बिना क्षेत्र का पता लगाने के लिए दर्शक की तरह उड़ने की सुविधा देता है।",
+          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "आधिकारिक 6b6t शॉप का लिंक प्राप्त करें।",
+          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
           "showsTheVoteCountAndInstructionsToVote": "वोटों की गिनती और वोट देने के निर्देश दिखाता है।",
+          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
           "getAnInviteToThe6b6tDiscordServer": "6b6t Discord सर्वर पर आमंत्रण प्राप्त करें।",
           "getALinkToThe6b6tWebsite": "6b6t वेबसाइट का लिंक प्राप्त करें।",
           "getALinkToThisWebpage": "इस वेबपेज का लिंक प्राप्त करें."
@@ -235,6 +305,13 @@
         "unknownError": "अज्ञात त्रुटि",
         "discordReturnedValue1ForValue2": "Discord ने #{{value2}} के लिए {{value1}} लौटाया",
         "unknownDiscordError": "अज्ञात Discord त्रुटि"
+      },
+      "email": {
+        "text6b6tAccounts": "6b6t Accounts",
+        "text6b6tRecovery": "6b6t Recovery",
+        "text6b6tBillboard": "6b6t Billboard",
+        "text6b6tMerch": "6b6t Merch",
+        "text6b6tSupport": "6b6t Support"
       },
       "galleryUtil": {
         "recentEpicBuild": "हालिया महाकाव्य निर्माण",
@@ -275,14 +352,11 @@
           "motd": "MOTD",
           "revisionReason": "संशोधन का कारण",
           "approve": "मंज़ूरी देना",
-          "requestRevision": "संशोधन का अनुरोध करें",
-          "requestMotdRevision": "MOTD संशोधन का अनुरोध करें",
-          "reason": "कारण",
-          "explainWhatNeedsToBeChanged": "बताएं कि क्या बदलाव की जरूरत है."
+          "markAsAd": "Mark as AD",
+          "requestRevision": "संशोधन का अनुरोध करें"
         },
         "email": {
-          "smtpNotConfigured": "smtp_not_configured",
-          "smtpSendFailed": "smtp_send_असफल"
+          "emailSendFailed": "email_send_failed"
         },
         "manual": {
           "completed": "पुरा होना"
@@ -308,6 +382,7 @@
           "checkoutExpired": "चेकआउट_समाप्त",
           "checkoutStarted": "चेकआउट_प्रारंभ",
           "reservationReleasedAfterCheckoutCreationFailed": "चेकआउट निर्माण विफल होने के बाद आरक्षण जारी किया गया",
+          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
           "approvedQueued": "स्वीकृत_कतारबद्ध",
           "revisionRequested": "पुनरीक्षण_अनुरोध",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "भुगतान प्रदाता की ओर से कोई ग्राहक ईमेल उपलब्ध नहीं था",
@@ -338,7 +413,6 @@
           "networkError": "नेटवर्क त्रुटि"
         },
         "email": {
-          "smtpIsNotConfigured": "एसएमटीपी कॉन्फ़िगर नहीं है",
           "emailDeliveryFailed": "ईमेल वितरण विफल रहा"
         },
         "entitlementAnchor": {
@@ -350,13 +424,22 @@
           "eliteToApexUpgradeMousepad": "Elite से Apex अपग्रेड - माउसपैड",
           "legendRank3MonthsMug": "Legend रैंक (3 महीने) - मग",
           "legendRankThreePaid1MonthPeriodsMug": "Legend रैंक (तीन भुगतान वाली 1-महीने की अवधि) - मग"
+        },
+        "notifications": {
+          "merchRequestResubmitted": "Merch request resubmitted",
+          "newMerchRequest": "New merch request",
+          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "player": "खिलाड़ी",
+          "item": "Item",
+          "requestId": "Request ID"
         }
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_असफल",
-          "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
-          "smtpNotConfigured": "smtp_not_configured",
+          "emailSendFailed": "email_send_failed",
+          "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
+          "emailNotConfigured": "email_not_configured",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
           "yourAccountRecoveryRequestHasBeenApproved": "आपका खाता पुनर्प्राप्ति अनुरोध स्वीकृत हो गया है.",
           "yourAccountRecoveryRequestHasBeenDenied": "आपका खाता पुनर्प्राप्ति अनुरोध अस्वीकार कर दिया गया है.",
           "noteValue1": "नोट: {{value1}}",
@@ -369,10 +452,11 @@
           "consumed": "ग्रहण किया हुआ",
           "blocked": "अवरोधित",
           "notApplicable": "लागू नहीं",
+          "expired": "खत्म हो चुका",
           "error": "गलती",
           "failedToCreateChallenge": "चुनौती पैदा करने में विफल",
-          "smtpSendFailed": "smtp_send_असफल",
-          "expired": "खत्म हो चुका",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "emailSendFailed": "email_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "खाता स्वामी को ईमेल द्वारा सूचित करने में विफल.",
           "created": "बनाया था",
           "invalidOrExpiredBlockToken": "अमान्य या समाप्त ब्लॉक टोकन.",
@@ -380,10 +464,12 @@
           "theGracePeriodForThisChallengeHasAlreadyExpired": "इस चुनौती के लिए छूट अवधि पहले ही समाप्त हो चुकी है और इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "यह पुनर्प्राप्ति चुनौती पहले ही समाप्त हो चुकी है और अब इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "यह पुनर्प्राप्ति प्रयास पहले से ही एक सुपर एडमिन द्वारा अनुमोदित किया गया था और इसे अवरुद्ध नहीं किया जा सकता है।",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "पुनर्प्राप्ति प्रयास सफलतापूर्वक अवरुद्ध कर दिया गया है.",
           "passed": "उत्तीर्ण",
           "missing": "गुम",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "खाता-स्वामी अधिसूचना पास पहले ही ख़त्म हो चुका था।",
           "gracePeriodChallengeNotFound": "अनुग्रह-अवधि चुनौती नहीं मिली.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "इस पुनर्प्राप्ति प्रयास को खाता स्वामी द्वारा अवरुद्ध कर दिया गया था।",
@@ -433,7 +519,6 @@
       },
       "seo": {
         "description": "description",
-        "keywords": "keywords",
         "robots": "robots",
         "googlebot": "googlebot"
       },
@@ -493,8 +578,21 @@
           "afterWinningPrimeInAGiveawayIUpgradedTo": "मुफ़्त में Prime जीतने के बाद मैंने Apex में अपग्रेड किया। मैं जिस सुविधा का सबसे अधिक उपयोग करता हूं वह है बढ़े हुए घर - यह छुपी हुई वस्तुओं, ठिकानों और स्थानों को ट्रैक करने में मदद करता है। टीपीए और /home के लिए कम कूलडाउन बेहद मददगार हैं (15 मिनट से लेकर ~15 सेकंड तक)। मैं सौंदर्य प्रसाधनों का अधिक उपयोग नहीं करता, लेकिन चैट कलर मुझे किट की मांग करने वाले नए खिलाड़ियों से अलग दिखने में मदद करता है। समाचार शीघ्रता से प्राप्त करने के लिए Discord की भूमिका बहुत अच्छी है। चूँकि मैं बहुत कम खेलता हूँ, Apex मेरे लिए सबसे अच्छी कीमत नहीं थी; Elite बेहतर होता. मैं केवल उन खिलाड़ियों को Apex की अनुशंसा करता हूं जो सप्ताह में ~10 घंटे खेलते हैं।",
           "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t शुद्ध अराजकता है - और शुद्ध मनोरंजन! 6b6t एक प्रकार का सर्वर है जहां हमेशा कुछ न कुछ घटित होता रहता है। सक्रिय हॉटस्पॉट पर लड़ने से लेकर दोस्त बनने वाले अजनबियों के साथ टीम बनाने तक, हर सत्र एक नई कहानी लेकर आता है। मुझे आजीवन Apex रैंक मिली है, और सर्वर का समर्थन करना और लंबे समय तक प्रतिबद्ध रहना इसके लायक है। उच्च रेंडर दूरी और बिल्डर मोड बड़े पैमाने पर निर्माण की योजना बनाना और पूरे विवरण में परिदृश्य का आनंद लेना आसान बनाता है। विशाल ठिकानों का निर्माण, खंडहरों की खोज, और दोस्तों के साथ घात लगाकर बचे रहने ने इसे सबसे शानदार Minecraft अनुभवों में से एक बना दिया है। यदि आप अनफ़िल्टर्ड अराजकता और समुदाय-संचालित गेमप्ले में रुचि रखते हैं, तो 6b6t वह स्थान है - और Apex यह दिखाने का एक ठोस तरीका है कि आप लंबी अवधि के लिए इसमें हैं।"
         },
+        "shop": {
+          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+        },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
+        }
+      },
+      "stats": {
+        "previewData": {
+          "apex": "apex",
+          "eliteultra": "eliteultra",
+          "primeultra": "primeultra",
+          "elite": "elite",
+          "prime": "prime",
+          "default": "गलती करना"
         }
       }
     }

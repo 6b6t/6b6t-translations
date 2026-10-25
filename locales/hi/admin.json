@@ -68,6 +68,32 @@
             "noDataCouldBeRetrieved": "कोई डेटा पुनर्प्राप्त नहीं किया जा सका."
           }
         },
+        "creators": {
+          "page": {
+            "creatorSales": "Creator Sales",
+            "rainRainAndRaincoates": "Rain · RAIN and RAINCOATES",
+            "refresh": "ताज़ा करना",
+            "newlyRecordedPurchasesAppearAutomaticallyEvery15SecondsEstimated": "Newly recorded purchases appear automatically every 15 seconds. Estimated commission is 10% after recorded refunds, rounded to the nearest cent. Pending, failed and disputed sales earn no commission. This is not a payout history.",
+            "couldNotLoadCreatorSalesTryRefreshing": "Could not load creator sales. Try refreshing.",
+            "loadingCreatorSales": "Loading creator sales…",
+            "attributedTransactions": "attributed transactions",
+            "date": "तारीख",
+            "creatorCode": "Creator code",
+            "player": "Player",
+            "rank": "Rank",
+            "sale": "Sale",
+            "refund": "Refund",
+            "estimatedCommission10": "Estimated commission (10%)",
+            "status": "स्थिति",
+            "noCreatorCodePurchasesHaveBeenRecordedYetPreview": "No creator-code purchases have been recorded yet. Preview purchases are not saved.",
+            "notRecorded": "Not recorded",
+            "needsReview": "Needs review",
+            "previous": "पहले का",
+            "page": "पेज",
+            "value1Value2": "{{value1}}{{value2}}",
+            "next": "अगला"
+          }
+        },
         "shop": {
           "page": {
             "shopAnalytics": "शॉप एनालिटिक्स",
@@ -88,6 +114,7 @@
             "date": "तारीख",
             "username": "उपयोगकर्ता नाम",
             "bundle": "बंडल",
+            "creatorCode": "Creator code",
             "amount": "मात्रा",
             "status": "स्थिति",
             "provider": "प्रदाता",
@@ -118,20 +145,8 @@
         }
       },
       "communityEvent": {
-        "communityEventExtensionForm": {
+        "communityEventExtensionConfirmation": {
           "theEndTimeMovedToValue1": "समाप्ति समय {{value1}} पर चला गया।",
-          "extendRemainingTime": "शेष समय बढ़ाएँ",
-          "addTimeToTheStoredEndThisKeepsPurchase": "संग्रहीत अंत में समय जोड़ें. यह खरीदारी इतिहास, योगदान और डिलीवरी रिकॉर्ड को अपरिवर्तित रखता है।",
-          "enterTheNumberOfSecondsToAdd": "जोड़ने के लिए सेकंड की संख्या दर्ज करें",
-          "secondsToAdd": "जोड़ने के लिए सेकंड",
-          "maximum86400Seconds24Hours": "अधिकतम: 86,400 सेकंड (24 घंटे)।",
-          "reason": "कारण",
-          "whyIsTheEventBeingExtended": "आयोजन को क्यों बढ़ाया जा रहा है?",
-          "currentEnd": "वर्तमान अंत",
-          "notConfigured": "कॉन्फ़िगर नहीं किया गया",
-          "resultingEnd": "परिणामी अंत",
-          "enterSecondsToPreview": "पूर्वावलोकन करने के लिए सेकंड दर्ज करें",
-          "reviewExtension": "समीक्षा विस्तार",
           "confirmCommunityEventExtension": "सामुदायिक ईवेंट एक्सटेंशन की पुष्टि करें",
           "thisAdds": "यह जोड़ता है",
           "secondsToTheCurrentEndTheResultingEndWill": "वर्तमान अंत तक सेकंड। परिणामी अंत होगा",
@@ -140,6 +155,22 @@
           "cancel": "रद्द करना",
           "extending": "विस्तार...",
           "extendEvent": "इवेंट बढ़ाएँ"
+        },
+        "communityEventExtensionForm": {
+          "extendRemainingTime": "शेष समय बढ़ाएँ",
+          "addTimeToTheStoredEndThisKeepsPurchase": "संग्रहीत अंत में समय जोड़ें. यह खरीदारी इतिहास, योगदान और डिलीवरी रिकॉर्ड को अपरिवर्तित रखता है।",
+          "secondsToAdd": "जोड़ने के लिए सेकंड",
+          "maximum86400Seconds24Hours": "अधिकतम: 86,400 सेकंड (24 घंटे)।",
+          "reason": "कारण",
+          "whyIsTheEventBeingExtended": "आयोजन को क्यों बढ़ाया जा रहा है?",
+          "currentEnd": "वर्तमान अंत",
+          "notConfigured": "कॉन्फ़िगर नहीं किया गया",
+          "resultingEnd": "परिणामी अंत",
+          "enterSecondsToPreview": "पूर्वावलोकन करने के लिए सेकंड दर्ज करें",
+          "reviewExtension": "समीक्षा विस्तार"
+        },
+        "communityEventExtensionOptions": {
+          "typeValue1ToContinue": "Type {{value1}} to continue"
         },
         "page": {
           "resetCommunityEvent": "सामुदायिक ईवेंट रीसेट करें",
@@ -178,7 +209,7 @@
           "loadingFulfillmentRequests": "पूर्ति अनुरोध लोड हो रहे हैं...",
           "noRequestsYet": "अभी तक कोई अनुरोध नहीं.",
           "submitted": "· प्रस्तुत किया गया",
-          "minecraftIdentity": "Minecraft पहचान",
+          "minecraftProfile": "Minecraft profile",
           "purchaseEmail": "ईमेल खरीदें",
           "paymentReference": "भुगतान संदर्भ",
           "notSupplied": "आपूर्ति नहीं हुई",
@@ -200,7 +231,7 @@
         "welcomeToTheAdminPanel": "एडमिन पैनल में आपका स्वागत है",
         "loggedInAs": "के रूप में लॉग इन किया गया",
         "role": "भूमिका",
-        "lastLogin": "आखरी लॉगइन",
+        "sessionIssued": "Session issued",
         "quickLinks": "त्वरित सम्पक",
         "shopAnalytics": "शॉप एनालिटिक्स",
         "viewShopSessionStatisticsAndConversionMetrics": "दुकान सत्र आँकड़े और रूपांतरण मेट्रिक्स देखें",
@@ -265,6 +296,7 @@
           "addCommunityPoints": "Add community points",
           "creditThePointsForOneRankPurchaseThisCan": "Credit the points for one rank purchase. This can complete a community milestone.",
           "rankPurchase": "Rank purchase",
+          "value1Value2Points": "{{value1}} · {{value2}} points",
           "points": "points",
           "reason": "कारण",
           "explainWhyThesePointsNeedToBeAdded": "Explain why these points need to be added",
@@ -457,6 +489,7 @@
         "shopAnalytics": "शॉप एनालिटिक्स",
         "anarchyModStats": "अराजकता मॉड आँकड़े",
         "transactions": "लेनदेन",
+        "creatorSales": "Creator Sales",
         "fulfillment": "पूर्ति",
         "communityEvent": "सामुदायिक आयोजन",
         "motdAds": "MOTD विज्ञापन",
@@ -465,19 +498,7 @@
         "recoveryLogs": "पुनर्प्राप्ति लॉग",
         "recoveryResultLogs": "पुनर्प्राप्ति परिणाम लॉग",
         "adminPanel": "व्यवस्थापक पैनल",
-        "logout": "लॉग आउट"
-      }
-    },
-    "login": {
-      "page": {
-        "loginFailed": "लॉगिन विफल",
-        "adminLogin": "व्यवस्थापक लॉगिन",
-        "signInToAccessTheAdminPanel": "व्यवस्थापक पैनल तक पहुँचने के लिए साइन इन करें",
-        "email": "ईमेल",
-        "adminExampleCom": "admin@example.com",
-        "password": "पासवर्ड",
-        "signingIn": "इन कर रहे हैं...",
-        "signIn": "दाखिल करना"
+        "signOut": "Sign out"
       }
     },
     "adminDataTable": {

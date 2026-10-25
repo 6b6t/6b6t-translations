@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "page": {
+      "page": {
+        "playerDirectoryPageValue16b6t": "Player directory — page {{value1}} | 6b6t",
+        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "Browse 6b6t player profiles and view their Minecraft playtime, kills, deaths and other statistics.",
+        "backToPlayerStatistics": "Back to player statistics",
+        "playerDirectory": "Player directory",
+        "browsePlayerProfilesOrderedByUsernamePage": "Browse player profiles, ordered by username. Page",
+        "of": "of",
+        "playerDirectoryPages": "Player directory pages"
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "sections": {
     "phaseIndicator": {
-      "start": "Start",
-      "start2": "start",
+      "start": "Początek",
+      "start2": "początek",
       "identity": "Tożsamość",
       "intent": "zamiar",
       "challenge": "weryfikacja",
@@ -10,39 +10,42 @@
       "reset": "Resetowanie",
       "result": "Wynik",
       "blocked": "zablokowane",
-      "success": "sukces"
+      "success": "sukces",
+      "recoveryProgress": "Postęp odzyskiwania"
+    },
+    "recoverForm": {
+      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} Odczekaj {{value2}} min, a następnie {{value3}}próbuj ponownie.",
+      "networkErrorPleaseTryAgain": "Błąd sieci. Spróbuj ponownie.",
+      "enterYourUsernameToCheckGracePeriodStatus": "Wpisz nazwę użytkownika, aby sprawdzić stan okresu oczekiwania.",
+      "accountRecoveryForm": "Formularz odzyskiwania konta",
+      "startWithYourUsername": "Zacznij od nazwy użytkownika",
+      "enterTheAccountYouWantToRecover": "Wpisz konto, które chcesz odzyskać."
+    },
+    "recoveryFlowStore": {
+      "start": "początek"
     },
     "recoveryWalkthrough": {
-      "startWithTheAccount": "Zacznij od konta",
+      "findYourAccount": "Znajdź swoje konto",
       "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Najpierw wprowadź nazwę użytkownika. System sprawdzi, która ścieżka odzyskiwania jest bezpieczna dla tego konta.",
-      "useTheExactInGameUsername": "Use the exact in-game username.",
-      "completeTheCaptchaOnceBeforeSubmitting": "Complete the captcha once before submitting.",
-      "ifTheAccountCanStillUseTheNormalEmail": "If the account can still use the normal email reset path, recovery will redirect there.",
-      "setTheNewContactEmail": "Ustaw nowy adres kontaktowy",
+      "useTheExactInGameUsername": "Użyj dokładnej nazwy użytkownika z gry.",
+      "completeTheCaptchaOnceBeforeSubmitting": "Rozwiąż CAPTCHA przed wysłaniem.",
+      "ifTheAccountCanStillUseTheNormalEmail": "Jeśli konto nadal może korzystać ze standardowego resetowania przez e-mail, nastąpi przekierowanie do tej opcji.",
+      "chooseAContactEmail": "Wybierz kontaktowy adres e-mail",
       "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "Nowy adres e-mail zostanie zaakceptowany dopiero po pomyślnym przejściu weryfikacji tożsamości, dlatego użyj skrzynki, do której masz dostęp.",
-      "useAnEmailYouCanVerifyImmediately": "Use an email you can verify immediately.",
-      "ifYouStillRememberTheOldEmailProvideIt": "If you still remember the old email, provide it when asked.",
-      "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Security responses stay generic so attackers cannot learn what matched.",
-      "prepareProofDetails": "Przygotuj szczegóły potwierdzające własność konta",
+      "useAnEmailYouCanVerifyImmediately": "Użyj adresu e-mail, który możesz od razu zweryfikować.",
+      "ifYouStillRememberTheOldEmailProvideIt": "Jeśli pamiętasz poprzedni adres e-mail, podaj go, gdy zostaniesz o to poproszony.",
+      "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Ze względów bezpieczeństwa odpowiedzi są ogólne, aby uniemożliwić ustalenie, które dane się zgadzały.",
+      "prepareOwnershipDetails": "Przygotuj informacje potwierdzające własność",
       "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Mocnym dowodem są konkretne informacje z historii konta, których nie znałby inny gracz.",
-      "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Saved homes and coordinate locations are optional when you do not have them.",
-      "countriesLastLogoutLocationItemNamesAndOldBase": "Countries, last logout location, item names, and old base details can help the score.",
-      "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Only submit details you actually remember; wrong guesses can weaken the request.",
-      "reviewOrReset": "Weryfikacja lub reset",
+      "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Zapisane domy i współrzędne lokalizacji są opcjonalne, jeśli ich nie masz.",
+      "countriesLastLogoutLocationItemNamesAndOldBase": "Kraje, miejsce ostatniego wylogowania, nazwy przedmiotów i dane starej bazy mogą pomóc w ocenie.",
+      "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Podawaj tylko szczegóły, które rzeczywiście pamiętasz. Błędne przypuszczenia mogą osłabić wniosek.",
+      "verificationAndReview": "Weryfikacja i sprawdzenie",
       "ifTheAutomaticScoreIsEnoughYouContinueTo": "Jeśli wynik automatycznej weryfikacji jest wystarczający, przejdziesz do weryfikacji. W przeciwnym razie zostanie utworzone zgłoszenie.",
-      "manualReviewTicketsKeepTheProofAttachedForStaff": "Manual review tickets keep the proof attached for staff.",
-      "recoveryIsRateLimitedSoDoNotSpamAttempts": "Recovery is rate limited, so do not spam attempts.",
-      "onceApprovedFinishTheEmailCodeStepAndSet": "Once approved, finish the email code step and set a new password.",
-      "howRecoveryWorks": "Jak działa odzyskiwanie",
-      "walkthroughProgress": "Postęp odzyskiwania",
-      "goToWalkthroughStepValue1": "Przejdź do kroku {{value1}}",
-      "step": "Krok",
-      "value1Value2": "{{value1}}{{value2}}",
-      "of": "z",
-      "skip": "Pomiń",
-      "back": "Wstecz",
-      "startRecovery": "Start Recovery",
-      "next": "Następna"
+      "manualReviewTicketsKeepTheProofAttachedForStaff": "Zgłoszenia do ręcznej weryfikacji zachowują załączone dowody dla zespołu.",
+      "recoveryIsRateLimitedSoDoNotSpamAttempts": "Liczba prób odzyskiwania jest ograniczona, więc nie wysyłaj ich wielokrotnie.",
+      "onceApprovedFinishTheEmailCodeStepAndSet": "Po zatwierdzeniu wpisz kod z e-maila i ustaw nowe hasło.",
+      "recoveryGuide": "Instrukcja odzyskiwania"
     },
     "steps": {
       "blockedStep": {
@@ -59,14 +62,14 @@
         "verifyAccountIdentity": "Zweryfikuj tożsamość konta"
       },
       "gracePeriodPendingStep": {
-        "recoveryPendingGracePeriodActive": "Recovery Pending - Grace Period Active",
+        "recoveryPendingGracePeriodActive": "Odzyskiwanie w toku — aktywny okres oczekiwania",
         "theAccountOwnerHasBeenNotifiedViaEmailIf": "Właściciel konta został powiadomiony e-mailem. Jeśli nie odpowie w ciągu",
         "days": "dni",
         "youCanProceedWithIdentityVerification": ", możesz kontynuować weryfikację tożsamości.",
-        "gracePeriodExpires": "Grace period expires:",
+        "gracePeriodExpires": "Okres oczekiwania kończy się:",
         "verification": "Weryfikacja",
-        "checking": "Checking...",
-        "checkStatus": "Check Status",
+        "checking": "Sprawdzanie...",
+        "checkStatus": "Sprawdź stan",
         "returnToStart": "Wróć do początku"
       },
       "intentStep": {
@@ -74,36 +77,36 @@
         "enterTheEmailThatShouldBeLinkedToThis": "Wprowadź adres e-mail, który po odzyskaniu ma zostać powiązany z tym kontem.",
         "newTargetEmail": "Nowy docelowy adres e-mail",
         "required": "(wymagane)",
-        "nameExampleCom": "nazwa@example.com",
+        "nameExampleCom": "name@example.com",
         "checked": "Sprawdzono",
         "iCanStillLogDirectlyIntoThe6b6tMinecraft": "Nadal mogę bezpośrednio zalogować się na serwer Minecraft 6b6t",
         "continueRecovery": "Kontynuuj odzyskiwanie"
       },
       "lane1DeadEndStep": {
-        "standardResetRequired": "Standard Reset Required",
-        "automatedRecoveryUnavailable": "Automated Recovery Unavailable",
-        "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Your account already has a verified email matching the one you entered. Please use the standard 'Forgot Password' flow to reset your credentials.",
-        "weCannotProcessAnAutomatedRecoveryForThisAccount": "We cannot process an automated recovery for this account with the provided information to ensure its security.",
+        "standardResetRequired": "Wymagany standardowy reset",
+        "automatedRecoveryUnavailable": "Automatyczne odzyskiwanie niedostępne",
+        "yourAccountAlreadyHasAVerifiedEmailMatchingThe": "Twoje konto ma już zweryfikowany adres e-mail zgodny z podanym. Skorzystaj ze standardowej opcji „Nie pamiętam hasła”, aby zresetować dane logowania.",
+        "weCannotProcessAnAutomatedRecoveryForThisAccount": "Ze względów bezpieczeństwa nie możemy automatycznie odzyskać tego konta na podstawie podanych informacji.",
         "returnToStart": "Wróć do początku"
       },
       "lane2aStep": {
-        "inGameRecoveryInstructions": "In-Game Recovery Instructions",
-        "sinceYouCanStillJoinTheServerProveControl": "Since you can still join the server, prove control of the account from in-game before changing the recovery email. This code verifies the email-change request, then we will confirm the new email.",
+        "inGameRecoveryInstructions": "Instrukcje odzyskiwania w grze",
+        "sinceYouCanStillJoinTheServerProveControl": "Ponieważ nadal możesz dołączyć do serwera, potwierdź dostęp do konta w grze przed zmianą adresu odzyskiwania. Ten kod weryfikuje prośbę o zmianę adresu, a następnie potwierdzimy nowy adres e-mail.",
         "join6b6t": "Dołącz do 6b6t",
         "run": "Uruchom",
-        "copyThe6CharacterRecoveryCodeShownInChat": "Copy the 6-character recovery code shown in chat and enter it below.",
+        "copyThe6CharacterRecoveryCodeShownInChat": "Skopiuj 6-znakowy kod odzyskiwania z czatu i wpisz go poniżej.",
         "newTargetEmail": "Nowy docelowy adres e-mail",
         "required": "(wymagane)",
-        "nameExampleCom": "nazwa@example.com",
-        "inGameRecoveryCode": "In-Game Recovery Code",
+        "nameExampleCom": "name@example.com",
+        "inGameRecoveryCode": "Kod odzyskiwania z gry",
         "abc123": "ABC123",
-        "verifyInGameCode": "Verify In-Game Code",
+        "verifyInGameCode": "Zweryfikuj kod z gry",
         "returnToStart": "Wróć do początku"
       },
       "manualReviewStep": {
         "manualReview": "Weryfikacja ręczna",
         "yourIdentityVerificationPassedPerfectlyHoweverBecauseThisAccount": "Weryfikacja Twojej tożsamości przebiegła pomyślnie. Jednak ponieważ to konto było ostatnio aktywne (nieaktywne tylko przez",
-        "aFew": "a few",
+        "aFew": "kilka",
         "daysOurSecurityPolicyRequiresAnAdminToManually": "dni), nasza polityka bezpieczeństwa wymaga ręcznego sprawdzenia tego odzyskiwania przez administratora.",
         "yourIdentityVerificationPassedHoweverBecauseThisAccountHolds": "Weryfikacja Twojej tożsamości przebiegła pomyślnie. Jednak ponieważ to konto posiada specjalną rangę, ze względów bezpieczeństwa wymagana jest ręczna weryfikacja.",
         "submitProofOfAccountOwnershipForAdminReviewInclude": "Prześlij dowód własności konta do sprawdzenia przez administratora. Dołącz potwierdzenia zakupów, identyfikatory transakcji lub inne dowody łączące Cię z tym kontem.",
@@ -133,13 +136,13 @@
         "scorePrivateDetails": "Wyślij prywatne dane"
       },
       "publicScoreStep": {
-        "overworld": "overworld",
-        "overworld2": "Overworld",
+        "overworld": "świat podstawowy",
+        "overworld2": "Świat podstawowy",
         "nether": "nether",
         "nether2": "Nether",
-        "end": "end",
+        "end": "koniec",
         "end2": "End",
-        "unknown": "unknown",
+        "unknown": "nieznane",
         "notSure": "Nie wiem",
         "none": "Brak",
         "accountProofRequired": "Wymagane potwierdzenie własności konta",
@@ -148,9 +151,9 @@
         "commaSeparated": "(oddzielone przecinkami)",
         "eGGermanyNetherlandsUnitedStates": "np. Niemcy, Holandia, Stany Zjednoczone",
         "howManySavedHomesDidThisAccountHave": "Ile zapisanych domów miało to konto?",
-        "homeNameProofIsSkippedBecauseThisAccountHad": "Home-name proof is skipped because this account had no saved homes.",
+        "homeNameProofIsSkippedBecauseThisAccountHad": "Weryfikacja nazw domów jest pomijana, ponieważ konto nie miało zapisanych domów.",
         "savedHomeNames": "Nazwy zapisanych domów",
-        "oneRowPerHome": "(one row per home)",
+        "oneRowPerHome": "(jeden wiersz na dom)",
         "optional": "(opcjonalnie)",
         "savedHomeName": "Nazwa zapisanego domu",
         "dimensionForSavedHomeValue1": "Wymiar dla zapisanego domu {{value1}}",
@@ -159,7 +162,7 @@
         "howManyCoordinateLocationsCanYouProvide": "Ile lokalizacji współrzędnych możesz podać?",
         "coordinateProofIsSkippedBecauseNoCoordinateLocationsWere": "Potwierdzenie na podstawie współrzędnych jest pomijane, ponieważ nie podano żadnych lokalizacji.",
         "knownCoordinates": "Znane współrzędne",
-        "oneRowPerLocation": "(one row per location)",
+        "oneRowPerLocation": "(jeden wiersz na lokalizację)",
         "dimensionForCoordinateValue1": "Wymiar dla współrzędnych {{value1}}",
         "removeCoordinateValue1": "Usuń współrzędne {{value1}}",
         "addCoordinate": "Dodaj współrzędne",
@@ -178,14 +181,15 @@
         "newPassword": "Nowe hasło",
         "minimum8Characters": "Minimum 8 znaków",
         "confirmPassword": "Potwierdź hasło",
-        "reEnterYourNewPassword": "Re-enter your new password",
+        "reEnterYourNewPassword": "Wpisz ponownie nowe hasło",
         "resetPassword": "Zresetuj hasło"
       },
       "startStep": {
         "minecraftUsername": "Nazwa użytkownika Minecraft",
-        "yourminecraftname": "YourMinecraftName",
+        "yourminecraftname": "TwojaNazwaMinecraft",
+        "useTheInGameNameYouUseToJoin": "Użyj nazwy z gry, którą posługujesz się przy dołączaniu do 6b6t.",
         "verification": "Weryfikacja",
-        "continue": "Kontynuuj"
+        "continueRecovery": "Kontynuuj odzyskiwanie"
       },
       "successStep": {
         "recoveryFlowCompletedForThisSession": "Proces odzyskiwania został zakończony w tej sesji.",
@@ -193,7 +197,7 @@
       },
       "verifyEmailCodeStep": {
         "emailVerification": "Weryfikacja e-mail",
-        "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don't see it.",
+        "a6DigitCodeHasBeenSentToYour": "Na twój adres e-mail wysłano 6-cyfrowy kod. Jeśli go nie widzisz, sprawdź folder spam.",
         "emailVerificationCode": "Kod weryfikacyjny e-mail",
         "text6DigitCode": "Kod 6-cyfrowy",
         "verifyCode": "Zweryfikuj kod"
@@ -206,10 +210,9 @@
         "loading": "ładowanie",
         "success": "sukces",
         "recoveryAttemptHasBeenBlockedSuccessfully": "Próba odzyskiwania została pomyślnie zablokowana.",
-        "failedToBlockRecoveryAttempt": "Failed to block recovery attempt.",
+        "failedToBlockRecoveryAttempt": "Nie udało się zablokować próby odzyskiwania.",
         "anErrorOccurredPleaseTryAgainLater": "Wystąpił błąd. Spróbuj ponownie później.",
         "noBlockTokenProvidedInTheUrl": "W adresie URL nie podano tokenu blokady.",
-        "accountSecurity": "Bezpieczeństwo konta",
         "block": "Blokada",
         "recovery": "Odzyskiwanie",
         "ifYouDidNotInitiateAnAccountRecoveryClick": "Jeśli nie rozpocząłeś procesu odzyskiwania konta, kliknij poniższy przycisk, aby zablokować tę próbę i zabezpieczyć swoje konto.",
@@ -221,10 +224,11 @@
       }
     },
     "page": {
-      "accountSecurity": "Bezpieczeństwo konta",
-      "account": "Konto",
-      "recovery": "Odzyskiwanie",
-      "completeTheRecoveryFlowToProveAccountOwnershipAnd": "Ukończ proces odzyskiwania, aby potwierdzić własność konta i odzyskać dostęp. Ze względów bezpieczeństwa odpowiedzi są celowo ogólne."
+      "accountRecovery": "Odzyskiwanie konta",
+      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "Potwierdź własność swojego konta 6b6t i odzyskaj dostęp. Zacznij od nazwy użytkownika Minecraft.",
+      "beforeYouStart": "Zanim zaczniesz",
+      "haveYourExactInGameUsernameReadyUseAn": "Przygotuj dokładną nazwę użytkownika z gry. Gdy proces odzyskiwania poprosi o e-mail, podaj adres skrzynki, do której masz dostęp.",
+      "forYourSecurityResponsesStayGenericSoTheyDo": "Dla Twojego bezpieczeństwa odpowiedzi pozostają ogólne, aby nie ujawniać, które dane konta pasowały."
     },
     "reset": {
       "page": {
@@ -234,17 +238,18 @@
         "success": "sukces",
         "passwordHasBeenResetSuccessfully": "Hasło zostało pomyślnie zresetowane.",
         "idle": "bezczynny",
-        "accountSecurity": "Bezpieczeństwo konta",
         "reset": "Resetowanie",
         "password": "Hasło",
-        "yourRecoveryRequestWasApprovedSetANewPassword": "Twoje zgłoszenie odzyskania konta zostało zatwierdzone. Ustaw poniżej nowe hasło do swojego konta.",
+        "useYourSecureRecoveryLinkToChooseANew": "Użyj bezpiecznego linku odzyskiwania, aby ustawić nowe hasło do konta.",
         "newPassword": "Nowe hasło",
         "passwordResetComplete": "Resetowanie hasła zakończone",
         "minimum8Characters": "Minimum 8 znaków",
         "confirmPassword": "Potwierdź hasło",
-        "reEnterYourPassword": "Re-enter your password",
+        "reEnterYourPassword": "Wpisz ponownie hasło",
         "resetPassword": "Zresetuj hasło"
       }
     }
-  }
+  },
+  "page-name": "Odzyskaj swoje konto 6b6t",
+  "seo-description": "Odzyskaj dostęp do swojego konta non-premium lub Bedrock na 6b6t. Potwierdź własność, jeśli utracono adres e-mail, lub użyj /email recover w grze."
 }

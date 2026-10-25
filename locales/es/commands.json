@@ -2,36 +2,51 @@
   "page-name": "Comandos",
   "seo-description": "Conoce los comandos esenciales de 6b6t, incluidos /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg y más.",
   "sections": {
+    "commandEntry": {
+      "aliases": "Aliases",
+      "example": "Ejemplo",
+      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copied": "Copied",
+      "copyExample": "Copy example",
+      "exampleCopied": "Example copied.",
+      "ranks": "Ranks"
+    },
+    "commandRankPrefix": {
+      "free": "Gratis",
+      "eliteUltra": "Elite Ultra"
+    },
     "commandsList": {
       "bestMatches": "Mejores coincidencias",
-      "free": "Gratis",
-      "primeUltra": "Prime Ultra",
-      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
-      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
-      "eliteUltra": "Elite Ultra",
-      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
-      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
-      "commandsList": "LISTA DE COMANDOS",
-      "availableServerCommands": "Comandos disponibles del servidor",
-      "useTheFiltersToFindTheCommandYouNeed": "Usa los filtros para encontrar el comando que necesitas por categoría, rango requerido o nombre del comando.",
-      "search": "Buscar",
+      "commands": "Commands",
+      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Buscar comandos...",
+      "commandAliasOrDescription": "Command, alias or description",
+      "clearCommandSearch": "Clear command search",
       "category": "Categoría",
-      "rankRequirement": "Rango requerido",
+      "allCategories": "All categories",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
       "command": "Comando",
       "description": "Descripción",
       "example": "Ejemplo",
-      "rank": "Rango",
-      "value1Value2": "{{value1}}-{{value2}}",
-      "fullExample": "Ejemplo completo:",
-      "noCommandsFoundMatchingYourFilters": "No se encontraron comandos que coincidan con tus filtros.",
-      "premiumCommands": "Comandos premium",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Usa el filtro de rango de arriba para ver los comandos desbloqueados por Prime, Prime Ultra, Elite, Elite Ultra, Apex y Legend.",
-      "viewPremiumRanks": "Ver rangos premium"
+      "ranks": "Ranks",
+      "noCommandsFound": "No commands found",
+      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
+      "resetFilters": "Reset filters",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
+      "compareRanks": "Compare ranks"
+    },
+    "commandsRankFilter": {
+      "rankRequirement": "Rango requerido"
     },
     "page": {
       "text6b6tServerCommands": "Comandos del servidor 6b6t",
       "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Lista completa de comandos disponibles en el servidor anárquico de Minecraft 6b6t"
     }
+  },
+  "filters": {
+    "allRanks": "All ranks",
+    "auth": "Auth",
+    "homesAndTeleport": "Homes & Teleport",
+    "hotspots": "Hotspots"
   }
 }

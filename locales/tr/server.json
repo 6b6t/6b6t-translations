@@ -15,15 +15,17 @@
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
       "discord": {
+        "data": {
+          "unauthorized": "Yetkisiz erişim",
+          "invalidResource": "Invalid resource",
+          "dataUnavailable": "Data unavailable"
+        },
         "motd": {
-          "interactions": {
-            "invalidRequestSignature": "Geçersiz istek imzası",
-            "invalidJsonPayload": "Geçersiz JSON verisi"
-          },
           "review": {
             "unauthorized": "Yetkisiz erişim",
             "invalidJsonPayload": "Geçersiz JSON verisi",
             "youDoNotHavePermissionToReviewMotds": "MOTD'leri inceleme izniniz yok.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
             "approvedMotdRequestValue1": "MOTD talebi {{value1}} onaylandı.",
             "requestedRevisionForMotdRequestValue1": "MOTD talebi {{value1}} için revizyon istendi.",
             "motdReviewActionFailed": "MOTD inceleme işlemi başarısız oldu."
@@ -38,6 +40,9 @@
         "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "Legend aboneleri yüklenemedi",
         "all": "tümü"
+      },
+      "legendUltraHolders": {
+        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
       },
       "media": {
         "text": {
@@ -105,12 +110,47 @@
     },
     "lib": {
       "admin": {
-        "auth": {
-          "adminWithThisEmailAlreadyExists": "Bu e-postaya sahip bir yönetici zaten mevcut",
-          "unknownError": "Bilinmeyen hata",
-          "invalidCredentials": "Geçersiz kimlik bilgileri",
-          "adminSessionNotFound": "Yönetici oturumu bulunamadı",
-          "adminNotFound": "Yönetici bulunamadı"
+        "cloudflareAccess": {
+          "localDevelopment": "Local development"
+        }
+      },
+      "auth": {
+        "accountLinkHistory": {
+          "text6b6tAccountLinkHistoryIp": "6b6t-account-link-history:ip:",
+          "hmac": "HMAC"
+        },
+        "accountSafetyPlugin": {
+          "accountstepup": "accountStepUp",
+          "unauthorized": "Yetkisiz erişim",
+          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
+          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
+          "email": "email",
+          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+        },
+        "accountStepUp": {
+          "hmac": "HMAC"
+        },
+        "emailTemplate": {
+          "signInTo6b6t": "Sign in to 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
+          "verifyYour6b6tEmail": "Verify your 6b6t email",
+          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
+          "resetYour6b6tPassword": "Reset your 6b6t password",
+          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
+          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+        },
+        "linkHistoryPlugin": {
+          "linkHistory": "Link history"
+        },
+        "options": {
+          "consent": "consent",
+          "useARealEmailAddress": "Use a real email address."
+        },
+        "socialProviders": {
+          "telegram": "Telegram"
         }
       },
       "commandService": {
@@ -137,11 +177,14 @@
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "6b6t genelinde 72 saat boyunca güçlü bir dupe açmak için 14 Ağustos'a kadar hedefe ulaşın. Hedefe daha geç ulaşılırsa etkinlik en yakın sonraki hafta sonuna ertelenir."
       },
+      "communityHistory": {
+        "eventIdsMustBeUnique": "Event IDs must be unique"
+      },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
           "sendAPrivateMessageToAnyOnlinePlayer": "Çevrimiçi herhangi bir oyuncuya özel mesaj gönder",
-          "turnYourCrackedAccountIntoAPremiumAccount": "Cracked hesabınızı premium hesaba dönüştürün.",
+          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
           "replyR": "/reply, /r",
           "sendAPrivateMessageToTheLastPersonWho": "Size en son özel mesaj gönderen kişiye özel mesaj gönder",
           "lastL": "/last, /l",
@@ -156,45 +199,68 @@
           "groupchatGc": "/groupchat, /gc",
           "talkPrivatelyInAGroupchatWithMultiplePeople": "Birden fazla kişiyle özel bir grup sohbetinde konuşun.",
           "toggleViewingTheChat": "Sohbeti görüntülemeyi aç/kapat.",
-          "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
+          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
           "turnsPrivateMessagesOnOrOffSoYouCan": "Diğer oyuncuların size mesaj gönderip gönderemeyeceğini seçebilmeniz için özel mesajları açar veya kapatır.",
           "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Oyuncunuzun etrafındaki parçacık efektlerini açar/kapatır veya özelleştirir.",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Sunucu lobisini atlayıp sizi doğrudan ana dünyaya gönderir.",
-          "enableOrDisableViewingSpamMessagesInChat": "Sohbette spam mesajlarını görüntülemeyi etkinleştirin veya devre dışı bırakın.",
+          "togglespamShowspam": "/togglespam, /showspam",
+          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
+          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
+          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
+          "botsChat": "/bots chat",
+          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
+          "botsWhispers": "/bots whispers",
+          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
+          "botsConnections": "/bots connections",
+          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
+          "botsDeaths": "/bots deaths",
+          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
+          "botsAdvancements": "/bots advancements",
+          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
+          "botsTeleports": "/bots teleports",
+          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
+          "botsTab": "/bots tab",
+          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
+          "botsKits": "/bots kits",
+          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
+          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
           "showHideChatMessagesOfPeopleJoiningTheServer": "Sunucuya katılan kişilerin sohbet mesajlarını göster/gizle.",
           "connectionmsgsColor": "/connectionmsgs color",
           "changeTheColorOfConnectionMessagesInYourChat": "Sohbetinizdeki bağlantı mesajlarının rengini değiştirin.",
           "showHideChatMessagesOfPeopleDying": "Ölen kişilerin sohbet mesajlarını göster/gizle.",
           "deathmsgsColor": "/deathmsgs color",
           "changeTheColorOfDeathMessagesInYourChat": "Sohbetinizdeki ölüm mesajlarının rengini değiştirin.",
-          "createsANewHomeAtYourCurrentLocation": "Mevcut konumunuzda yeni bir home oluşturur.",
+          "advancementsChat": "/advancements chat",
+          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
+          "advancementsToast": "/advancements toast",
+          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
+          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
+          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
           "teleportToAHome": "Bir home'a ışınlanın.",
-          "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Tüm home'larınızı listeler.",
+          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
           "deletesAHome": "Bir home'u siler.",
           "cancelsAnActiveTeleportToYourHomeUsefulIf": "Home'unuza olan aktif bir ışınlanmayı iptal eder (yanlışlıkla tetiklediyseniz kullanışlıdır).",
           "renamesOneOfYourSavedHomesToSomethingDifferent": "Kayıtlı home'larınızdan birinin adını değiştirir.",
           "requestToTeleportToAnotherPlayer": "Başka bir oyuncuya ışınlanma isteği gönderin.",
-          "tptoggleTpt": "/tptoggle, /tpt",
+          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
           "hidesTeleportRequestsFromAllPlayers": "Işınlanma isteklerini tüm oyuncular için kapatır.",
           "acceptATpaRequest": "Bir tpa isteğini kabul et.",
           "declineATpaRequest": "Bir tpa isteğini reddet.",
           "wearAnyItemOnYourHead": "Başınıza herhangi bir eşya giyin.",
-          "invisframeIframe": "/invisframe, /iframe",
           "toggleInvisibilityFrames": "Görünmez çerçeveleri aç/kapat.",
           "chatcolorCc": "/chatcolor, /cc",
           "changeTheColorOfYourChatMessages": "Sohbet mesajlarınızın rengini değiştirin.",
           "namecolorNc": "/namecolor, /nc",
           "changeTheColorOfYourUsernameInChat": "Sohbette kullanıcı adınızın rengini değiştirin.",
+          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
           "lightUpACigar": "Bir puro yakın",
           "giveYourselfAGlowingEffect": "Kendinize parlama efekti verin.",
-          "teleportToTheGlobalHostspot": "Küresel hotspot'a ışınlanın.",
+          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
           "hotspotCreate": "/hotspot create",
           "createANewHotspotAtYourCurrentLocation": "Mevcut konumunuzda yeni bir hotspot oluşturun.",
           "hotspotColor": "/hotspot color",
           "changeTheColorOfTheHotspot": "Hotspot'un rengini değiştirin.",
-          "hotspotNotificationsHotspotNotify": "/hotspot notifications, /hotspot notify",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "Hotspot bildirimini nasıl görüntülediğinizi değiştirin veya devre dışı bırakın",
+          "hotspotNotifications": "/hotspot notifications",
+          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
           "hotspotCancel": "/hotspot cancel",
           "cancelYourHotspot": "Hotspot'unuzu iptal edin",
           "hotspotBalloon": "/hotspot balloon",
@@ -204,17 +270,21 @@
           "hotspotName": "/hotspot name",
           "changeTheNameOfYourHotspot": "Hotspot'unuzun adını değiştirin.",
           "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspot": "Mevcut hotspot hakkında bilgi görün.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "İnşaat için görüş mesafenizi geçici olarak artırın.",
+          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
+          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
           "buildermodeHome": "/buildermode home",
           "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Belirtilen home'a ışınlandığınızda buildermode'u etkinleştirin.",
           "putACosmeticBalloonOnYourHead": "Başınıza kozmetik bir balon koyun.",
           "sitOnAnyBlockToRest": "Dinlenmek için herhangi bir bloğa oturun.",
+          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
           "changeYourInGameSkin": "Oyun içi skininizi değiştirin.",
           "letsYouLeaveYourBodyAndFlyAroundIn": "Gerçek oyuncunu hareket ettirmeden bölgeyi keşfetmek için bedenini bırakıp izleyici benzeri modda uçmanı sağlar.",
+          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "Resmi 6b6t Mağazasına bağlantı alın.",
+          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
           "showsTheVoteCountAndInstructionsToVote": "Oy sayısını ve oy verme talimatlarını gösterir.",
+          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
           "getAnInviteToThe6b6tDiscordServer": "6b6t Discord Sunucusuna davet alın.",
           "getALinkToThe6b6tWebsite": "6b6t Web Sitesine bağlantı alın.",
           "getALinkToThisWebpage": "Bu web sayfasına bağlantı alın."
@@ -235,6 +305,13 @@
         "unknownError": "Bilinmeyen hata",
         "discordReturnedValue1ForValue2": "Discord, #{{value2}} için {{value1}} döndürdü",
         "unknownDiscordError": "Bilinmeyen Discord hatası"
+      },
+      "email": {
+        "text6b6tAccounts": "6b6t Accounts",
+        "text6b6tRecovery": "6b6t Recovery",
+        "text6b6tBillboard": "6b6t Billboard",
+        "text6b6tMerch": "6b6t Merch",
+        "text6b6tSupport": "6b6t Support"
       },
       "galleryUtil": {
         "recentEpicBuild": "Son Muhteşem Yapı",
@@ -275,14 +352,11 @@
           "motd": "MOTD",
           "revisionReason": "Revizyon nedeni",
           "approve": "Onayla",
-          "requestRevision": "Revizyon İste",
-          "requestMotdRevision": "MOTD Revizyonu İste",
-          "reason": "Neden",
-          "explainWhatNeedsToBeChanged": "Neyin değiştirilmesi gerektiğini açıklayın."
+          "markAsAd": "Mark as AD",
+          "requestRevision": "Revizyon İste"
         },
         "email": {
-          "smtpNotConfigured": "smtp_not_configured",
-          "smtpSendFailed": "smtp_send_failed"
+          "emailSendFailed": "email_send_failed"
         },
         "manual": {
           "completed": "completed"
@@ -308,6 +382,7 @@
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "Ödeme oluşturma başarısız olduktan sonra rezervasyon serbest bırakıldı",
+          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "Ödeme sağlayıcısından müşteri e-postası alınamadı",
@@ -338,7 +413,6 @@
           "networkError": "Ağ hatası"
         },
         "email": {
-          "smtpIsNotConfigured": "SMTP yapılandırılmamış",
           "emailDeliveryFailed": "E-posta gönderimi başarısız oldu"
         },
         "entitlementAnchor": {
@@ -350,13 +424,22 @@
           "eliteToApexUpgradeMousepad": "Elite'ten Apex'e yükseltme — mouse pad",
           "legendRank3MonthsMug": "Legend Rank (3 ay) — kupa",
           "legendRankThreePaid1MonthPeriodsMug": "Legend Rank (üç ödemeli 1 aylık dönem) — kupa"
+        },
+        "notifications": {
+          "merchRequestResubmitted": "Merch request resubmitted",
+          "newMerchRequest": "New merch request",
+          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "player": "Oyuncu",
+          "item": "Item",
+          "requestId": "Request ID"
         }
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_failed",
-          "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
-          "smtpNotConfigured": "smtp_not_configured",
+          "emailSendFailed": "email_send_failed",
+          "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
+          "emailNotConfigured": "email_not_configured",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
           "yourAccountRecoveryRequestHasBeenApproved": "Hesap kurtarma talebiniz onaylandı.",
           "yourAccountRecoveryRequestHasBeenDenied": "Hesap kurtarma talebiniz reddedildi.",
           "noteValue1": "Not: {{value1}}",
@@ -369,10 +452,11 @@
           "consumed": "consumed",
           "blocked": "blocked",
           "notApplicable": "not_applicable",
+          "expired": "expired",
           "error": "error",
           "failedToCreateChallenge": "Doğrulama oluşturulamadı",
-          "smtpSendFailed": "smtp_send_failed",
-          "expired": "expired",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "emailSendFailed": "email_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "Hesap sahibine e-posta ile bildirim gönderilemedi.",
           "created": "created",
           "invalidOrExpiredBlockToken": "Geçersiz veya süresi dolmuş engelleme belirteci.",
@@ -380,10 +464,12 @@
           "theGracePeriodForThisChallengeHasAlreadyExpired": "Bu doğrulama için bekleme süresi zaten sona erdi ve engellenemez.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Bu kurtarma doğrulaması zaten kullanıldı ve artık engellenemez.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Bu kurtarma girişimi zaten bir süper yönetici tarafından onaylandı ve engellenemez.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "Kurtarma girişimi başarıyla engellendi.",
           "passed": "passed",
           "missing": "eksik",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "Hesap sahibi bildirim izni zaten kullanılmış.",
           "gracePeriodChallengeNotFound": "Ek süre sorgusu bulunamadı.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Bu kurtarma girişimi hesap sahibi tarafından engellendi.",
@@ -433,7 +519,6 @@
       },
       "seo": {
         "description": "description",
-        "keywords": "keywords",
         "robots": "robots",
         "googlebot": "googlebot"
       },
@@ -493,8 +578,21 @@
           "afterWinningPrimeInAGiveawayIUpgradedTo": "Bir çekilişte Prime kazandıktan sonra Apex'e yükselttim. En çok kullandığım özellik artırılmış Home sayısı — stok noktalarını, üsleri ve konumları takip etmeye yardımcı oluyor. tpa ve /home için daha düşük bekleme süreleri son derece faydalı (15 dakikadan ~15 saniyeye). Kozmetikleri pek kullanmıyorum, ama sohbet rengi kit dilenen yeni oyunculardan öne çıkmama yardımcı oluyor. Discord rolü haberleri hızlıca almak için harika. Çok az oynadığım için Apex benim için en iyi fiyat değildi; Elite daha iyi olurdu. Apex'i sadece haftada ~10 saat oynayan oyunculara tavsiye ederim.",
           "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t Saf Kaos — ve Saf Eğlence! 6b6t, her zaman bir şeylerin olduğu türden bir sunucu. Aktif Hotspot'larda savaşmaktan arkadaş olan yabancılarla takım kurmaya kadar, her oturum yeni bir hikaye getiriyor. Ömür boyu Apex rank aldım ve sadece sunucuyu desteklemek ve uzun vadede bağlı kalmak için bile değer. Daha yüksek render mesafesi ve İnşa Modu, büyük ölçekli yapılar planlamayı ve manzaranın tadını tüm detaylarıyla çıkarmayı çok daha kolay hale getiriyor. Devasa üsler inşa etmek, kalıntıları keşfetmek ve arkadaşlarla pusulardan sağ çıkmak, bunu dışarıdaki en çılgın Minecraft deneyimlerinden biri haline getirdi. Filtrelenmemiş anarşi ve topluluk odaklı oynanışla ilgileniyorsan, 6b6t tam yeri—ve Apex, uzun vadede burada olduğunu göstermenin sağlam bir yolu."
         },
+        "shop": {
+          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+        },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
+        }
+      },
+      "stats": {
+        "previewData": {
+          "apex": "apex",
+          "eliteultra": "eliteultra",
+          "primeultra": "primeultra",
+          "elite": "elite",
+          "prime": "prime",
+          "default": "varsayılan"
         }
       }
     }

@@ -15,15 +15,17 @@
         "webhookProcessingFailed": "Falló el procesamiento del webhook"
       },
       "discord": {
+        "data": {
+          "unauthorized": "No autorizado",
+          "invalidResource": "Invalid resource",
+          "dataUnavailable": "Data unavailable"
+        },
         "motd": {
-          "interactions": {
-            "invalidRequestSignature": "Firma de solicitud no válida",
-            "invalidJsonPayload": "Datos JSON no válidos"
-          },
           "review": {
             "unauthorized": "No autorizado",
             "invalidJsonPayload": "Datos JSON no válidos",
             "youDoNotHavePermissionToReviewMotds": "No tienes permiso para revisar MOTD.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
             "approvedMotdRequestValue1": "Solicitud MOTD {{value1}} aprobada.",
             "requestedRevisionForMotdRequestValue1": "Se solicitó una revisión para la solicitud MOTD {{value1}}.",
             "motdReviewActionFailed": "La acción de revisión del MOTD falló."
@@ -38,6 +40,9 @@
         "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "No se pudieron cargar los suscriptores de Legend",
         "all": "todos"
+      },
+      "legendUltraHolders": {
+        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
       },
       "media": {
         "text": {
@@ -105,12 +110,47 @@
     },
     "lib": {
       "admin": {
-        "auth": {
-          "adminWithThisEmailAlreadyExists": "Ya existe un administrador con este correo electrónico",
-          "unknownError": "Error desconocido",
-          "invalidCredentials": "Credenciales no válidas",
-          "adminSessionNotFound": "No se encontró la sesión del administrador",
-          "adminNotFound": "Administrador no encontrado"
+        "cloudflareAccess": {
+          "localDevelopment": "Local development"
+        }
+      },
+      "auth": {
+        "accountLinkHistory": {
+          "text6b6tAccountLinkHistoryIp": "6b6t-account-link-history:ip:",
+          "hmac": "HMAC"
+        },
+        "accountSafetyPlugin": {
+          "accountstepup": "accountStepUp",
+          "unauthorized": "No autorizado",
+          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
+          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
+          "email": "email",
+          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+        },
+        "accountStepUp": {
+          "hmac": "HMAC"
+        },
+        "emailTemplate": {
+          "signInTo6b6t": "Sign in to 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
+          "verifyYour6b6tEmail": "Verify your 6b6t email",
+          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
+          "resetYour6b6tPassword": "Reset your 6b6t password",
+          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
+          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+        },
+        "linkHistoryPlugin": {
+          "linkHistory": "Link history"
+        },
+        "options": {
+          "consent": "consent",
+          "useARealEmailAddress": "Use a real email address."
+        },
+        "socialProviders": {
+          "telegram": "Telegram"
         }
       },
       "commandService": {
@@ -137,11 +177,14 @@
       "communityGoal": {
         "reachTheGoalByAugust14ToUnlockA": "Alcanza la meta antes del 14 de agosto para desbloquear un poderoso dupe en todo 6b6t durante 72 horas. Si la meta se alcanza más tarde, el evento se trasladará al fin de semana siguiente más cercano."
       },
+      "communityHistory": {
+        "eventIdsMustBeUnique": "Event IDs must be unique"
+      },
       "data": {
         "serverCommands": {
           "msgWhisperW": "/msg, /whisper, /w",
           "sendAPrivateMessageToAnyOnlinePlayer": "Envía un mensaje privado a cualquier jugador conectado",
-          "turnYourCrackedAccountIntoAPremiumAccount": "Convierte tu cuenta cracked en una cuenta premium.",
+          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
           "replyR": "/reply, /r",
           "sendAPrivateMessageToTheLastPersonWho": "Envía un mensaje privado a la última persona que te envió un mensaje privado",
           "lastL": "/last, /l",
@@ -156,45 +199,68 @@
           "groupchatGc": "/groupchat, /gc",
           "talkPrivatelyInAGroupchatWithMultiplePeople": "Habla en privado con varias personas mediante un chat grupal.",
           "toggleViewingTheChat": "Activa o desactiva la visualización del chat.",
-          "togglepmsTogglewhispers": "/togglepms, /togglewhispers",
+          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
           "turnsPrivateMessagesOnOrOffSoYouCan": "Activa o desactiva los mensajes privados para que puedas elegir si otros jugadores pueden enviarte mensajes.",
           "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Activa, desactiva o personaliza los efectos de partículas alrededor de tu jugador.",
-          "skipsTheServerLobbyAndSendsYouDirectlyInto": "Omite el lobby del servidor y te envía directamente al mundo principal.",
-          "enableOrDisableViewingSpamMessagesInChat": "Activa o desactiva la visualización de mensajes de spam en el chat.",
+          "togglespamShowspam": "/togglespam, /showspam",
+          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
+          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
+          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
+          "botsChat": "/bots chat",
+          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
+          "botsWhispers": "/bots whispers",
+          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
+          "botsConnections": "/bots connections",
+          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
+          "botsDeaths": "/bots deaths",
+          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
+          "botsAdvancements": "/bots advancements",
+          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
+          "botsTeleports": "/bots teleports",
+          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
+          "botsTab": "/bots tab",
+          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
+          "botsKits": "/bots kits",
+          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
+          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
           "showHideChatMessagesOfPeopleJoiningTheServer": "Muestra u oculta los mensajes del chat cuando los jugadores entran al servidor.",
           "connectionmsgsColor": "/connectionmsgs color",
           "changeTheColorOfConnectionMessagesInYourChat": "Cambia el color de los mensajes de conexión en tu chat.",
           "showHideChatMessagesOfPeopleDying": "Muestra u oculta los mensajes del chat cuando mueren jugadores.",
           "deathmsgsColor": "/deathmsgs color",
           "changeTheColorOfDeathMessagesInYourChat": "Cambia el color de los mensajes de muerte en tu chat.",
-          "createsANewHomeAtYourCurrentLocation": "Crea un nuevo home en tu ubicación actual.",
+          "advancementsChat": "/advancements chat",
+          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
+          "advancementsToast": "/advancements toast",
+          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
+          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
+          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
           "teleportToAHome": "Teletranspórtate a un home.",
-          "homesHomelist": "/homes, /homelist",
-          "listsAllYourHomes": "Muestra todos tus homes.",
+          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
           "deletesAHome": "Elimina un home.",
           "cancelsAnActiveTeleportToYourHomeUsefulIf": "Cancela un teletransporte activo hacia tu home (útil si lo activaste por error).",
           "renamesOneOfYourSavedHomesToSomethingDifferent": "Cambia el nombre de uno de tus homes guardados.",
           "requestToTeleportToAnotherPlayer": "Solicita teletransportarte hacia otro jugador.",
-          "tptoggleTpt": "/tptoggle, /tpt",
+          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
           "hidesTeleportRequestsFromAllPlayers": "Oculta las solicitudes de teletransporte de todos los jugadores.",
           "acceptATpaRequest": "Acepta una solicitud de /tpa.",
           "declineATpaRequest": "Rechaza una solicitud de /tpa.",
           "wearAnyItemOnYourHead": "Ponte cualquier objeto en la cabeza.",
-          "invisframeIframe": "/invisframe, /iframe",
           "toggleInvisibilityFrames": "Activa o desactiva los marcos invisibles.",
           "chatcolorCc": "/chatcolor, /cc",
           "changeTheColorOfYourChatMessages": "Cambia el color de tus mensajes en el chat.",
           "namecolorNc": "/namecolor, /nc",
           "changeTheColorOfYourUsernameInChat": "Cambia el color de tu nombre de usuario en el chat.",
+          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
           "lightUpACigar": "Enciende un cigarro",
           "giveYourselfAGlowingEffect": "Aplícate un efecto de brillo.",
-          "teleportToTheGlobalHostspot": "Teletranspórtate al Hotspot global.",
+          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
           "hotspotCreate": "/hotspot create",
           "createANewHotspotAtYourCurrentLocation": "Crea un nuevo Hotspot en tu ubicación actual.",
           "hotspotColor": "/hotspot color",
           "changeTheColorOfTheHotspot": "Cambia el color del Hotspot.",
-          "hotspotNotificationsHotspotNotify": "/hotspot notifications, /hotspot notify",
-          "changeHowYouViewTheHotspotNotificationOrDisable": "Cambia cómo ves la notificación del Hotspot o desactívala",
+          "hotspotNotifications": "/hotspot notifications",
+          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
           "hotspotCancel": "/hotspot cancel",
           "cancelYourHotspot": "Cancela tu Hotspot",
           "hotspotBalloon": "/hotspot balloon",
@@ -204,17 +270,21 @@
           "hotspotName": "/hotspot name",
           "changeTheNameOfYourHotspot": "Cambia el nombre de tu Hotspot.",
           "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspot": "Consulta información sobre el Hotspot actual.",
-          "increaseYourViewDistanceTemporarilyForBuilding": "Aumenta temporalmente tu distancia de renderizado para construir.",
+          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
+          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
           "buildermodeHome": "/buildermode home",
           "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Activa buildermode cuando te teletransportes al home especificado.",
           "putACosmeticBalloonOnYourHead": "Ponte un globo cosmético sobre la cabeza.",
           "sitOnAnyBlockToRest": "Siéntate en cualquier bloque para descansar.",
+          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
           "changeYourInGameSkin": "Cambia tu skin dentro del juego.",
           "letsYouLeaveYourBodyAndFlyAroundIn": "Te permite salir de tu cuerpo y volar en un modo similar al espectador para explorar la zona sin mover a tu jugador real.",
+          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
           "shopBuy": "/shop, /buy",
           "getALinkToTheOfficial6b6tShop": "Obtén un enlace a la tienda oficial de 6b6t.",
+          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
           "showsTheVoteCountAndInstructionsToVote": "Muestra tu cantidad de votos y las instrucciones para votar.",
+          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
           "getAnInviteToThe6b6tDiscordServer": "Obtén una invitación al servidor de Discord de 6b6t.",
           "getALinkToThe6b6tWebsite": "Obtén un enlace al sitio web de 6b6t.",
           "getALinkToThisWebpage": "Obtén un enlace a esta página web."
@@ -235,6 +305,13 @@
         "unknownError": "Error desconocido",
         "discordReturnedValue1ForValue2": "Discord devolvió {{value1}} para #{{value2}}",
         "unknownDiscordError": "Error desconocido de Discord"
+      },
+      "email": {
+        "text6b6tAccounts": "6b6t Accounts",
+        "text6b6tRecovery": "6b6t Recovery",
+        "text6b6tBillboard": "6b6t Billboard",
+        "text6b6tMerch": "6b6t Merch",
+        "text6b6tSupport": "6b6t Support"
       },
       "galleryUtil": {
         "recentEpicBuild": "Construcción épica reciente",
@@ -275,14 +352,11 @@
           "motd": "MOTD",
           "revisionReason": "Motivo de la revisión",
           "approve": "Aprobar",
-          "requestRevision": "Solicitar revisión",
-          "requestMotdRevision": "Solicitar revisión del MOTD",
-          "reason": "Motivo",
-          "explainWhatNeedsToBeChanged": "Explica qué debe cambiarse."
+          "markAsAd": "Mark as AD",
+          "requestRevision": "Solicitar revisión"
         },
         "email": {
-          "smtpNotConfigured": "smtp_not_configured",
-          "smtpSendFailed": "smtp_send_failed"
+          "emailSendFailed": "email_send_failed"
         },
         "manual": {
           "completed": "completado"
@@ -308,6 +382,7 @@
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "La reserva fue liberada después de que fallara la creación del proceso de pago",
+          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
           "approvedQueued": "aprobado_en_cola",
           "revisionRequested": "revisión_solicitada",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "El proveedor de pagos no proporcionó ningún correo electrónico del cliente",
@@ -338,7 +413,6 @@
           "networkError": "Error de red"
         },
         "email": {
-          "smtpIsNotConfigured": "SMTP no está configurado",
           "emailDeliveryFailed": "Falló el envío del correo electrónico"
         },
         "entitlementAnchor": {
@@ -350,13 +424,22 @@
           "eliteToApexUpgradeMousepad": "Mejora de Elite a Apex — mousepad",
           "legendRank3MonthsMug": "Rango Legend (3 meses) — taza",
           "legendRankThreePaid1MonthPeriodsMug": "Rango Legend (tres períodos pagados de 1 mes) — taza"
+        },
+        "notifications": {
+          "merchRequestResubmitted": "Merch request resubmitted",
+          "newMerchRequest": "New merch request",
+          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "player": "Jugador",
+          "item": "Item",
+          "requestId": "Request ID"
         }
       },
       "recovery": {
         "email": {
-          "smtpSendFailed": "smtp_send_failed",
-          "smtpNotConfiguredDevMode": "smtp_not_configured_dev_mode",
-          "smtpNotConfigured": "smtp_not_configured",
+          "emailSendFailed": "email_send_failed",
+          "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
+          "emailNotConfigured": "email_not_configured",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
           "yourAccountRecoveryRequestHasBeenApproved": "Tu solicitud de recuperación de cuenta fue aprobada.",
           "yourAccountRecoveryRequestHasBeenDenied": "Tu solicitud de recuperación de cuenta fue rechazada.",
           "noteValue1": "Nota: {{value1}}",
@@ -369,10 +452,11 @@
           "consumed": "utilizado",
           "blocked": "bloqueado",
           "notApplicable": "not_applicable",
+          "expired": "expirado",
           "error": "error",
           "failedToCreateChallenge": "No se pudo crear la verificación",
-          "smtpSendFailed": "smtp_send_failed",
-          "expired": "expirado",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "emailSendFailed": "email_send_failed",
           "failedToNotifyTheAccountOwnerByEmail": "No se pudo notificar por correo electrónico al propietario de la cuenta.",
           "created": "creado",
           "invalidOrExpiredBlockToken": "Token de bloqueo no válido o expirado.",
@@ -380,10 +464,12 @@
           "theGracePeriodForThisChallengeHasAlreadyExpired": "El período de gracia de esta verificación ya expiró y no puede bloquearse.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Esta verificación de recuperación ya fue utilizada y ya no puede bloquearse.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Este intento de recuperación ya fue aprobado por un superadministrador y no puede bloquearse.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "El intento de recuperación fue bloqueado correctamente.",
           "passed": "aprobado",
           "missing": "ausente",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "El propietario de la cuenta bloqueó este intento de recuperación.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "La autorización de notificación al propietario de la cuenta ya fue utilizada.",
           "gracePeriodChallengeNotFound": "No se encontró la verificación del período de gracia.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Este intento de recuperación fue bloqueado por el propietario de la cuenta.",
@@ -433,7 +519,6 @@
       },
       "seo": {
         "description": "description",
-        "keywords": "keywords",
         "robots": "robots",
         "googlebot": "googlebot"
       },
@@ -493,8 +578,21 @@
           "afterWinningPrimeInAGiveawayIUpgradedTo": "Después de ganar Prime en un sorteo, mejoré a Apex. La función que más uso es el aumento de homes: me ayuda a llevar registro de stashes, bases y ubicaciones. Los cooldowns más bajos de tpa y /home son extremadamente útiles (de 15 minutos a unos 15 segundos). No uso mucho los cosméticos, pero el color del chat me ayuda a destacar frente a jugadores nuevos que piden kits. El rol de Discord es genial para enterarse rápidamente de las novedades. Como juego muy poco, Apex no fue la mejor opción por precio para mí; Elite habría sido mejor. Recomiendo Apex solo a quienes juegan unas 10 horas por semana.",
           "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t es caos puro y diversión pura. Es el tipo de servidor donde siempre está pasando algo. Desde pelear en Hotspots activos hasta formar equipo con desconocidos que terminan convirtiéndose en amigos, cada sesión trae una historia nueva. Compré el rango Apex de por vida y vale la pena aunque sea solo por apoyar al servidor y mantener el compromiso a largo plazo. La mayor distancia de renderizado y Modo constructor hacen mucho más fácil planificar construcciones a gran escala y disfrutar del paisaje con todo detalle. Construir bases enormes, explorar ruinas y sobrevivir emboscadas con amigos lo ha convertido en una de las experiencias de Minecraft más salvajes que existen. Si te gusta la anarquía sin filtros y una jugabilidad impulsada por la comunidad, 6b6t es el lugar, y Apex es una buena forma de demostrar que vas en serio a largo plazo."
         },
+        "shop": {
+          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+        },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
+        }
+      },
+      "stats": {
+        "previewData": {
+          "apex": "apex",
+          "eliteultra": "eliteultra",
+          "primeultra": "primeultra",
+          "elite": "elite",
+          "prime": "prime",
+          "default": "predeterminado"
         }
       }
     }

@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "page": {
+      "connectionHelp": "Pomoc z połączeniem",
+      "ifMinecraftSays6b6tIsOfflineOrTheIp": "Jeśli Minecraft pokazuje 6b6t jako niedostępny lub adres IP nie działa, zacznij od tych kroków.",
+      "javaShowsOffline": "Edycja Java pokazuje serwer jako niedostępny",
+      "mojangBlacklisted6b6tOn15July2026Install": "Mojang zablokował 6b6t 15 lipca 2026 r. Zainstaluj",
+      "anarchymod": "AnarchyMod",
+      "andStartTheMatchingFabricProfileUseAMinecraft": "i uruchom odpowiedni profil Fabric. Użyj wersji Minecraft wymienionej na stronie pobierania.",
+      "theMainJavaAddressIs": "Główny adres dla edycji Java to",
+      "alternativeAddressesAre": ". Alternatywne adresy to",
+      "and": "i",
+      "theyDoNotReplaceTheNeedForAnarchymod": ". Nie zastępują one wymaganego moda AnarchyMod.",
+      "bedrockCannotConnect": "Bedrock nie może się połączyć",
+      "use": "Użyj",
+      "port": ", port",
+      "andSignInToYourXboxAccountDoNot": " i zaloguj się na swoje konto Xbox. Nie używaj starych adresów bedrock.6b6t.org ani bedrock2.6b6t.org.",
+      "accountVerificationOrLoginProblems": "Problemy z weryfikacją konta lub logowaniem",
+      "followTheVerificationInstructionsShownInGameNeverShare": "Postępuj zgodnie z instrukcjami weryfikacji wyświetlanymi w grze. Nigdy nie udostępniaj hasła innemu graczowi. Jeśli utracisz dostęp do konta, skorzystaj z",
+      "theRecoveryPage": "formularza odzyskiwania konta",
+      "checkForAnOutage": "Sprawdź, czy wystąpiła awaria",
+      "view": "Wyświetl",
+      "currentServerStatus": "aktualny stan serwera",
+      "recentUpdates": "ostatnie aktualizacje",
+      "ifYouStillCannotJoinTell": ". Jeśli nadal nie możesz dołączyć, poinformuj",
+      "discordSupport": "pomoc na Discordzie",
+      "yourMinecraftEditionVersionAndErrorMessageKeepPasswords": "swoją edycję Minecraft, wersję i komunikat błędu. Nie udostępniaj haseł ani kodów do konta.",
+      "forTheCompleteSetupRead": "Pełne instrukcje konfiguracji znajdziesz w poradniku",
+      "howToJoin6b6t": "jak dołączyć do 6b6t"
+    }
+  }
+}

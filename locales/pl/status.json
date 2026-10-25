@@ -1,24 +1,32 @@
 {
   "sections": {
     "statusClient": {
-      "text6b6tServerStatus": "STATUS SERWERA 6B6T",
-      "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
-      "lastUpdated": "Ostatnia aktualizacja:",
-      "loading": "Ładowanie...",
-      "refresh": "Odśwież",
-      "currentPlayers": "Aktualni gracze",
-      "connectionFailed": "Połączenie nieudane",
-      "playersOnline": "graczy online",
-      "online": "Online",
-      "offline": "Offline",
-      "serverLimit": "Limit serwera",
-      "maximumCapacity": "maksymalna pojemność",
-      "capacity": "Pojemność",
-      "version": "Wersja",
-      "minecraftVersion": "wersja Minecraft",
-      "serverAddress": "Adres serwera",
-      "ping": "Ping",
-      "ms": "ms"
+      "serverStatus": "Status serwera",
+      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Aktualna dostępność, liczba graczy i dane połączenia z 6b6t.",
+      "lastCheckedValue1": "Ostatnio sprawdzono {{value1}}",
+      "checkingServerStatus": "Sprawdzanie statusu serwera...",
+      "refreshing": "Odświeżanie...",
+      "refreshStatus": "Odśwież status",
+      "weCouldnTRefreshTheServerStatusTryAgain": "Nie udało się odświeżyć statusu serwera. Spróbuj ponownie za chwilę.",
+      "showingTheLastReceivedInformation": "Wyświetlane są ostatnio otrzymane informacje.",
+      "serverInformation": "Informacje o serwerze",
+      "checkingAvailability": "Sprawdzanie dostępności",
+      "statusUnavailable": "Status jest niedostępny",
+      "text6b6tIsOnline": "6b6t jest online",
+      "text6b6tIsOffline": "6b6t jest offline",
+      "playersOnline": "Gracze online",
+      "checking": "Sprawdzanie...",
+      "playerCapacity": "Limit graczy",
+      "minecraftVersion": "Wersja Minecraft",
+      "autoRefresh": "Automatyczne odświeżanie",
+      "text30Seconds": "30 sekund"
+    },
+    "page": {
+      "onlineButCannotJoin": "Serwer działa, ale nie możesz dołączyć?",
+      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang zablokował 6b6t 15 lipca 2026 r. Gracze edycji Java potrzebują AnarchyMod, nawet gdy serwer działa. Gracze Bedrock łączą się z br.6b6t.org na porcie 19132.",
+      "joiningInstructions": "Instrukcje dołączania",
+      "downloadAnarchymod": "Pobierz AnarchyMod",
+      "connectionHelp": "Pomoc z połączeniem"
     }
   }
 }

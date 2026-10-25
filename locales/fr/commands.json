@@ -2,36 +2,51 @@
   "page-name": "Commandes du serveur Minecraft",
   "seo-description": "Découvrez les commandes essentielles de 6b6t, notamment /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg et bien d’autres.",
   "sections": {
+    "commandEntry": {
+      "aliases": "Aliases",
+      "example": "Exemple",
+      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copied": "Copied",
+      "copyExample": "Copy example",
+      "exampleCopied": "Example copied.",
+      "ranks": "Ranks"
+    },
+    "commandRankPrefix": {
+      "free": "Gratuit",
+      "eliteUltra": "Elite Ultra"
+    },
     "commandsList": {
       "bestMatches": "Meilleures correspondances",
-      "free": "Gratuit",
-      "primeUltra": "Prime Ultra",
-      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
-      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
-      "eliteUltra": "Elite Ultra",
-      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
-      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
-      "commandsList": "LISTE DES COMMANDES",
-      "availableServerCommands": "Commandes disponibles sur le serveur",
-      "useTheFiltersToFindTheCommandYouNeed": "Utilisez les filtres pour trouver une commande par catégorie, grade requis ou nom.",
-      "search": "Rechercher",
+      "commands": "Commands",
+      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Rechercher une commande…",
+      "commandAliasOrDescription": "Command, alias or description",
+      "clearCommandSearch": "Clear command search",
       "category": "Catégorie",
-      "rankRequirement": "Grade requis",
+      "allCategories": "All categories",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
       "command": "Commande",
       "description": "Description",
       "example": "Exemple",
-      "rank": "Grade",
-      "value1Value2": "{{value1}}-{{value2}}",
-      "fullExample": "Exemple complet :",
-      "noCommandsFoundMatchingYourFilters": "Aucune commande ne correspond à vos filtres.",
-      "premiumCommands": "Commandes premium",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Utilisez le filtre de grade ci-dessus pour voir les commandes débloquées par Prime, Prime Ultra, Elite, Elite Ultra, Apex et Legend.",
-      "viewPremiumRanks": "Voir les grades premium"
+      "ranks": "Ranks",
+      "noCommandsFound": "No commands found",
+      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
+      "resetFilters": "Reset filters",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
+      "compareRanks": "Compare ranks"
+    },
+    "commandsRankFilter": {
+      "rankRequirement": "Grade requis"
     },
     "page": {
       "text6b6tServerCommands": "Commandes du serveur 6b6t",
       "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Liste complète des commandes disponibles sur le serveur Minecraft anarchique 6b6t"
     }
+  },
+  "filters": {
+    "allRanks": "All ranks",
+    "auth": "Auth",
+    "homesAndTeleport": "Homes & Teleport",
+    "hotspots": "Hotspots"
   }
 }

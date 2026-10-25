@@ -1,24 +1,32 @@
 {
   "sections": {
     "statusClient": {
-      "text6b6tServerStatus": "ESTADO DEL SERVIDOR 6b6t",
-      "realTimeServerInformationAndPlayerStatistics": "Información del servidor y estadísticas de jugadores en tiempo real",
-      "lastUpdated": "Última actualización:",
-      "loading": "Cargando...",
-      "refresh": "Actualizar",
-      "currentPlayers": "Jugadores actuales",
-      "connectionFailed": "Falló la conexión",
+      "serverStatus": "Server status",
+      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Current availability, player count and connection details for 6b6t.",
+      "lastCheckedValue1": "Last checked {{value1}}",
+      "checkingServerStatus": "Checking server status...",
+      "refreshing": "Refreshing...",
+      "refreshStatus": "Refresh status",
+      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "showingTheLastReceivedInformation": "Showing the last received information.",
+      "serverInformation": "Server information",
+      "checkingAvailability": "Checking availability",
+      "statusUnavailable": "Status unavailable",
+      "text6b6tIsOnline": "6b6t is online",
+      "text6b6tIsOffline": "6b6t is offline",
       "playersOnline": "jugadores conectados",
-      "online": "En línea",
-      "offline": "Desconectado",
-      "serverLimit": "Límite del servidor",
-      "maximumCapacity": "capacidad máxima",
-      "capacity": "Capacidad",
-      "version": "Versión",
+      "checking": "Checking...",
+      "playerCapacity": "Player capacity",
       "minecraftVersion": "versión de Minecraft",
-      "serverAddress": "Dirección del servidor",
-      "ping": "Ping",
-      "ms": "ms"
+      "autoRefresh": "Auto refresh",
+      "text30Seconds": "30 seconds"
+    },
+    "page": {
+      "onlineButCannotJoin": "Online but cannot join?",
+      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
+      "joiningInstructions": "Joining instructions",
+      "downloadAnarchymod": "Download AnarchyMod",
+      "connectionHelp": "Connection help"
     }
   }
 }
