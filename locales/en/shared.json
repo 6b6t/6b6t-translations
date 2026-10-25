@@ -12,6 +12,7 @@
           "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
         },
         "admin": {
+          "all": "all",
           "pending": "pending"
         },
         "apexGifts": {
@@ -79,13 +80,8 @@
             "captchaVerificationFailed": "Captcha verification failed",
             "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "Recovery session expired or invalid. Please restart recovery.",
             "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
-            "manualReviewIsNotAvailableForThisRecoverySession": "Manual review is not available for this recovery session yet. Continue the recovery flow first.",
             "pending": "pending",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "A pending manual review ticket already exists for this account. Please wait for review.",
-            "theAccountOwnerHasBlockedThisRecoveryAttempt": "The account owner has blocked this recovery attempt.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "Could not notify the account owner. Manual ticket was not submitted.",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "Could not link the account-owner notification to this manual ticket. Manual ticket was not submitted.",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Manual recovery ticket submitted successfully. The support team will review it."
+            "ownerNotificationIsTemporarilyUnavailable": "Owner notification is temporarily unavailable."
           },
           "recover": {
             "ifThisAccountExistsRecoveryOptionsWillBeShown": "If this account exists, recovery options will be shown.",
@@ -146,15 +142,11 @@
             "passwordHasBeenResetSuccessfullyYouCanNowLog": "Password has been reset successfully. You can now log in with your new password."
           }
         },
+        "reviewRecoveryTicket": {
+          "emailSendFailed": "email_send_failed"
+        },
         "serverStatus": {
           "unknown": "Unknown"
-        },
-        "telegramStart": {
-          "youMustBeLoggedInToLinkTelegram": "You must be logged in to link Telegram.",
-          "telegramLinkingIsNotEnabledForYourAccountYet": "Telegram linking is not enabled for your account yet.",
-          "theLoggedInMinecraftUsernameIsInvalid": "The logged-in Minecraft username is invalid.",
-          "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "Telegram login is not configured. Missing TELEGRAM_BOT_USERNAME.",
-          "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Telegram login is not configured. Missing COOKIE_SECRET on server."
         },
         "youtubeShorts": {
           "maxres1280x720": "maxres (1280x720)",
@@ -166,6 +158,129 @@
           "noVideosFoundForThisChannel": "No videos found for this channel",
           "noYoutubeShortsFoundForThisChannel": "No YouTube Shorts found for this channel"
         }
+      }
+    },
+    "auth": {
+      "additionalField": {
+        "noItemsFound": "No items found."
+      },
+      "admin": {
+        "adminUsers": {
+          "email": "email",
+          "name": "name",
+          "contains": "contains",
+          "startsWith": "starts_with",
+          "endsWith": "ends_with",
+          "all": "all",
+          "active": "active",
+          "banned": "banned",
+          "value1Value2": "{{value1}}:{{value2}}"
+        },
+        "linkHistoryTab": {
+          "appendOnlyRecordOfAccountLinksUseItAs": "Append-only record of account links. Use it as evidence for lost-account requests; rows marked backfill describe links that existed when the history started.",
+          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Find accounts by Minecraft UUID, Discord ID, Telegram ID or email",
+          "thisAccount": "This account",
+          "noLinkHistoryYet": "No link history yet.",
+          "when": "When",
+          "change": "Change",
+          "value": "Value",
+          "signedInWith": "Signed in with",
+          "websiteAccount": "Website account",
+          "backfill": "backfill",
+          "by": "by",
+          "ip": "ip"
+        }
+      },
+      "authCaptcha": {
+        "captchaVerification": "CAPTCHA verification"
+      },
+      "authForm": {
+        "unableToSubmitThisFormTryAgain": "Unable to submit this form. Try again."
+      },
+      "dash": {
+        "activity": {
+          "all": "all"
+        }
+      },
+      "emailOtp": {
+        "changeEmailOtp": {
+          "email": "email",
+          "currentcode": "currentCode",
+          "newcode": "newCode"
+        }
+      },
+      "minecraftAccounts": {
+        "gameProfile": "Game profile",
+        "couldNotLoadYourAccounts": "Could not load your accounts.",
+        "tryAgain": "Try again"
+      },
+      "minecraftIdentityActions": {
+        "linkAnotherProfile": "Link another profile",
+        "linkAGameProfile": "Link a game profile",
+        "manageProfiles": "Manage profiles"
+      },
+      "minecraftIdentityPicker": {
+        "couldNotLoadYourGameProfiles": "Could not load your game profiles."
+      },
+      "minecraftIdentitySelect": {
+        "gameProfile": "Game profile",
+        "chooseAGameProfile": "Choose a game profile"
+      },
+      "oauthProvider": {
+        "authorizedApplication": {
+          "value1Value2": "{{value1}} {{value2}}"
+        },
+        "oauthClients": {
+          "web": "web",
+          "native": "native",
+          "openidProfileEmail": "openid profile email"
+        }
+      },
+      "requiredEmailForm": {
+        "yourEmailIsNotVerifiedYetOpenTheLink": "Your email is not verified yet. Open the link in your inbox, then try again.",
+        "enterAValidEmailAddressYouCanAccess": "Enter a valid email address you can access.",
+        "couldNotCompleteTheRequestPleaseTryAgain": "Could not complete the request. Please try again.",
+        "linkYourEmailToContinue": "Link your email to continue",
+        "verifyAnEmailAddressToUseYour6b6tWebsite": "Verify an email address to use your 6b6t website account. This gives you a way to sign in and recover access if you need it.",
+        "emailAddress": "Email address",
+        "check": "Check",
+        "forAVerificationLinkIfItDoesNotArrive": "for a verification link. If it does not arrive, check your spam folder or try a different email address.",
+        "sendAgainInValue1S": "Send again in {{value1}}s",
+        "sendAnotherLink": "Send another link",
+        "sendVerificationLink": "Send verification link",
+        "signOut": "Sign out",
+        "iVeVerifiedMyEmail": "I’ve verified my email"
+      },
+      "settings": {
+        "security": {
+          "activeSession": {
+            "unknownBrowser": "Unknown Browser",
+            "value1": ", {{value1}}"
+          },
+          "changePassword": {
+            "addAVerifiedEmailIn": "Add a verified email in",
+            "accountSettings": "account settings",
+            "beforeSettingAPassword": "before setting a password."
+          }
+        }
+      },
+      "stepUp": {
+        "stepUpDialog": {
+          "confirmItIsYou": "Confirm it is you",
+          "weSentA6DigitCodeToTheEmail": "We sent a 6-digit code to the email address on your account. It works for 10 minutes and only once.",
+          "enterThe6DigitCodeFromYourAuthenticatorApp": "Enter the 6-digit code from your authenticator app.",
+          "confirmationCode": "Confirmation code",
+          "sendANewCode": "Send a new code",
+          "useMyAuthenticatorApp": "Use my authenticator app",
+          "useAnEmailCode": "Use an email code",
+          "confirm": "Confirm"
+        }
+      },
+      "websiteAuthProvider": {
+        "minecraft": "Minecraft",
+        "discord": "Discord",
+        "google": "Google",
+        "telegram": "Telegram"
       }
     },
     "communityEventCountdown": {
@@ -184,9 +299,6 @@
       "finalizing": "Finalizing",
       "ended": "Ended",
       "live": "Live",
-      "theDupeEventHasEnded": "The Dupe Event has ended.",
-      "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "Thanks for participating and making the event unforgettable. Keep your loot safe—the anarchy continues on 6b6t.",
-      "keepPlaying": "Keep playing",
       "dupeEvent": "Dupe Event",
       "viewEvent": "View event",
       "manyPowerfulDupesAreEnabledOn6b6t": "Many powerful dupes are enabled on 6b6t.",
@@ -218,6 +330,15 @@
       "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
     },
     "layout": {
+      "accountMenu": {
+        "accountNavigation": "Account navigation",
+        "account": "Account",
+        "loadingAccount": "Loading account",
+        "profile": "Profile",
+        "settings": "Settings",
+        "signOut": "Sign out",
+        "signIn": "Sign in"
+      },
       "copyButton": {
         "copied": "Copied!",
         "copy": "Copy"
@@ -234,6 +355,18 @@
         "about": "About",
         "about6b6t": "About 6b6t",
         "votingRewards": "Voting rewards",
+        "informationAbout2b2tQueue": "Information about 2b2t queue",
+        "join6b6t": "Join 6b6t",
+        "connectionHelp": "Connection help",
+        "rulesAndGameplay": "Rules and gameplay",
+        "history": "History",
+        "hytale": "Hytale",
+        "legendRank": "Legend rank",
+        "antiSpamLogs": "Anti-spam logs",
+        "newsletter": "Newsletter",
+        "accountRecovery": "Account recovery",
+        "blog": "Blog",
+        "anarchyServerGuide": "Anarchy server guide",
         "contact": "Contact",
         "termsOfService": "Terms of Service",
         "privacyPolicy": "Privacy Policy",
@@ -241,15 +374,17 @@
         "server": "Server",
         "shop": "Shop",
         "vote": "Vote",
+        "anarchymod": "AnarchyMod",
         "commands": "Commands",
         "stats": "Stats",
+        "playerDirectory": "Player directory",
         "updates": "Updates",
         "status": "Status",
         "mostUsefulCommands": "Most useful commands",
         "text6b6tMinecraftServerLogo": "6b6t Minecraft Server Logo",
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
-        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t is a survival Minecraft anarchy server with no rules, no punishments and no queue. Players can do whatever they want in a world supporting up to 2000 players simultaneously and use commands such as /tpa and /home.",
+        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft anarchy since 2022. Java: play.6b6t.org with AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
         "serverAddress": "Server Address:",
         "teleportToAPlayer": "Teleport to a player",
         "teleportToYourHome": "Teleport to your home",
@@ -284,7 +419,7 @@
         "stats": "Stats",
         "commands": "Commands",
         "shop": "Shop",
-        "account": "Account",
+        "anarchymod": "AnarchyMod",
         "hytale": "Hytale",
         "updates": "Updates",
         "history": "History",
@@ -350,6 +485,38 @@
         "dinnerbone": "Dinnerbone",
         "thisWillBeUsedToLinkYourPurchasesTo": "This will be used to link your purchases to your Minecraft account.",
         "loading": "Loading..."
+      }
+    },
+    "newsletter": {
+      "newsletterEmailSignup": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "email": "Email",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click."
+      },
+      "newsletterPromptContent": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang blacklisted 6b6t. Then they took down our GitHub. Email is the only thing they can't take.",
+        "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
+        "serverUpdates": "Server updates",
+        "events": "Events",
+        "weSendItToYourAccountEmail": "We send it to your account email:",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
+        "noThanks": "No thanks",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
+      },
+      "newsletterSignup": {
+        "emailNewsletter": "Email newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again. Unsubscribe with one click.",
+        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Could not load your newsletter preference. Please refresh the page.",
+        "youJoinedThe6b6tNewsletter": "You joined the 6b6t newsletter.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
       }
     },
     "notFoundPage": {
@@ -439,7 +606,6 @@
     },
     "serverConnectionModal": {
       "text6b6t": "6b6t",
-      "text6b6t2": "6b6t 2",
       "text6b6t3": "6b6t 3",
       "copyValue1": "Copy {{value1}}",
       "openValue1InMinecraftBedrock": "Open {{value1}} in Minecraft Bedrock",
@@ -474,6 +640,25 @@
       "done": "Done"
     },
     "shop": {
+      "checkoutGiftFields": {
+        "nameOnTheGiftBook": "Name on the gift book",
+        "shownToTheRecipientInASignedInGame": "Shown to the recipient in a signed in-game book. This is separate from your billing name.",
+        "editYourPersonalMessage": "Edit your personal message",
+        "addAPersonalMessageOptional": "Add a personal message (optional)",
+        "giftBookMessage": "Gift book message",
+        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 characters. Included in the gift book."
+      },
+      "checkoutPaymentOptions": {
+        "payWith": "Pay with",
+        "cardAndWallets": "Card and wallets",
+        "cardAmpWallets": "Card &amp; wallets",
+        "paypalCryptoAndMore": "PayPal, crypto and more",
+        "paypalCryptoAmpMore": "PayPal, crypto &amp; more"
+      },
+      "creatorCodeField": {
+        "creatorCodeOptional": "Creator code (optional)",
+        "supportACreatorWithYourPurchaseYourPriceStays": "Support a creator with your purchase. Your price stays the same."
+      },
       "featureDefinitions": {
         "prefix": "prefix",
         "homes": "homes",
@@ -481,6 +666,7 @@
         "chatcolors": "chatcolors",
         "hat": "hat",
         "sit": "sit",
+        "lay": "lay",
         "invisframe": "invisframe",
         "balloons": "balloons",
         "namecolor": "namecolor",
@@ -518,6 +704,9 @@
         "apexPrefix": "Apex Prefix",
         "primeUltraPrefix": "Prime Ultra Prefix",
         "eliteUltraPrefix": "Elite Ultra Prefix",
+        "prefixStyle": "Prefix Style",
+        "notIncluded": "Not included",
+        "included": "Included",
         "duration": "duration",
         "duration2": "Duration",
         "lifetime": "Lifetime",
@@ -548,18 +737,18 @@
         "tpaExecutionTimeDiagram": "/tpa execution time diagram",
         "skin2": "Skin",
         "skinCommandInterface": "Skin command interface",
-        "included": "Included",
         "hat2": "Hat",
         "hatCommandInterface": "Hat command interface",
-        "notIncluded": "Not included",
         "sit2": "Sit",
         "sitCommandInterface": "Sit command interface",
+        "lay2": "Lay",
         "balloons2": "Balloons",
         "balloonsCommandInterface": "Balloons command interface",
         "text5Balloons": "5 Balloons",
-        "text40Balloons": "40 Balloons",
+        "text50Balloons": "50 Balloons",
         "text3Balloons": "3 Balloons",
-        "text30Balloons": "30 Balloons",
+        "text35Balloons": "35 Balloons",
+        "skinBalloon": "Skin Balloon",
         "particles2": "Particles",
         "particlesFeature": "Particles feature",
         "cigar2": "Cigar",
@@ -576,6 +765,7 @@
         "invisframeCommandInterface": "Invisframe command interface",
         "editArmorStands": "Edit Armor Stands",
         "joinWithVpns": "Join with VPNs",
+        "skipBotChecks": "Skip Bot Checks",
         "builderMode": "Builder Mode",
         "text22Chunks": "22 chunks",
         "text32Chunks": "32 chunks",
@@ -640,6 +830,7 @@
         "advertiseChannel": "Advertise Channel",
         "legendNameColor": "Legend Name Color",
         "thePrefixShownBeforeYourNameInChatAnd": "The prefix shown before your name in chat and tablist.",
+        "pickHowYourPrefixLooksWithPrefixAShort": "Pick how your prefix looks with /prefix: a short version (like APX) or a lower rank&apos;s prefix",
         "howLongYourRankLastsAfterPurchasePrimeElite": "How long your rank lasts after purchase. Prime, Elite and Apex last forever.",
         "howManyHomesYouCanSetWithSethome": "How many homes you can set with /sethome",
         "timeYouMustWaitBetweenHomeSethomeUses": "Time you must wait between /home & /sethome uses",
@@ -649,7 +840,9 @@
         "changeYourSkinWithSkin": "Change your skin with /skin",
         "wearTheItemInYourHandAsAHat": "Wear the item in your hand as a hat with /hat",
         "sitOnTheBlockYouRsquoReStandingOn": "Sit on the block you&rsquo;re standing on with /sit",
+        "lieDownOnTheBlockYouAposReStanding": "Lie down on the block you&apos;re standing on with /lay",
         "putABalloonInYourHandWithBalloons": "Put a balloon in your hand with /balloons",
+        "aBalloonWithYourOwnSkinInBalloons": "A balloon with your own skin in /balloons",
         "applyParticlesAroundYourselfWithParticles": "Apply particles around yourself with /particles",
         "smokeACigarInMinecraftWithCigar": "Smoke a cigar in Minecraft with /cigar",
         "viewCigarFeature": "View Cigar feature",
@@ -657,22 +850,22 @@
         "viewSmokingACigar": "View Smoking a cigar",
         "smokingACigar": "Smoking a cigar",
         "makeYourselfGlowWithGlowGlowColorMatchesYour": "Make yourself glow with /glow! Glow color matches your name color",
+        "white": "White",
         "gray": "Gray",
         "aqua": "Aqua",
         "green": "Green",
+        "classicGold": "Classic Gold",
         "skyBlue": "Sky Blue",
         "brightGreen": "Bright Green",
         "malachite": "Malachite",
+        "purple": "Purple",
+        "neonOrchid": "Neon Orchid",
+        "lavenderMist": "Lavender Mist",
         "gold": "Gold",
-        "white": "White",
-        "blue": "Blue",
-        "red": "Red",
-        "yellow": "Yellow",
-        "lightPurple": "Light Purple",
-        "darkGreen": "Dark Green",
-        "darkAqua": "Dark Aqua",
-        "darkRed": "Dark Red",
-        "black": "Black",
+        "midasGlow": "Midas Glow",
+        "sunlitGold": "Sunlit Gold",
+        "maximumRed": "Maximum Red",
+        "redSalsa": "Red Salsa",
         "changeTheColorOfYourChatMessagesWithChatcolor": "Change the color of your chat messages with /chatcolor",
         "color": "Color",
         "prime": "Prime",
@@ -685,7 +878,8 @@
         "changeTheColorOfYourNameInChatWith": "Change the color of your name in chat with /namecolor",
         "turnAnItemFrameInvisibleWithInvisframe": "Turn an item frame invisible with /invisframe",
         "editArmorStandsAndTheirPosition": "Edit armor stands and their position",
-        "joinWithAVpnOrProxyVerificationNowRuns": "Join with a VPN or proxy. Verification now runs through EnderDash.",
+        "joinWithAVpnOrProxyWithoutTheExtra": "Join with a VPN or proxy without the extra verification.",
+        "noCaptchaNoChatLimitForNewPlayersAnd": "No captcha, no chat limit for new players and no extra login checks",
         "temporarilyGetUltraHighRenderDistanceWhenBuildingBases": "Temporarily get ultra high render distance when building bases or taking screenshots with /buildermode",
         "weHaveProgrammedBuilderModeInAWaySo": "We have programmed Builder Mode in a way so it isn&apos;t P2W (pay to win). It automatically disables after you move too far and there&apos;s a cooldown.",
         "before": "Before",
@@ -700,14 +894,16 @@
         "text30MinDuration30MinCooldown": "30 min duration / 30 min cooldown",
         "text60MinDuration45MinCooldown": "60 min duration / 45 min cooldown",
         "text90MinDuration60MinCooldown": "90 min duration / 60 min cooldown",
-        "text120MinDuration90MinCooldown": "120 min duration / 90 min cooldown",
+        "text120MinDuration80MinCooldown": "120 min duration / 80 min cooldown",
         "inTheHotspotCreateCommandYouCanSpecifyThe": "In the /hotspot create command, you can specify the duration of the Hotspot. If you don't specify the duration, the maximum duration will be used. The cooldown between creating a new Hotspot is connected to the duration.",
         "command": "Command:",
         "durationAmpCooldown": "Duration &amp; Cooldown",
         "theAmountOfTimeItTakesForHotspotTeleportation": "The amount of time it takes for /hotspot teleportation to execute",
         "theAmountOfTimeItTakesForHotspotTeleportation2": "The amount of time it takes for /hotspot teleportation to execute of all players to your Hotspot",
         "setYourHotspotNameWithHotspotName": "Set your Hotspot name with /hotspot name",
-        "purple": "Purple",
+        "blue": "Blue",
+        "red": "Red",
+        "yellow": "Yellow",
         "inTheHotspotCreateCommandYouCanSpecifyThe2": "In the /hotspot create command, you can specify the color of the bossbar.",
         "setAGlowColorForPlayersWhoTeleportTo": "Set a glow color for players who teleport to your Hotspot with /hotspot glow",
         "setABalloonForPlayersWhoTeleportToYour": "Set a balloon for players who teleport to your Hotspot with /hotspot balloons",
@@ -729,52 +925,39 @@
         "addReactionsToMessagesInGeneral": "Add reactions to messages in #general",
         "changeYourNickname": "Change your nickname",
         "streamVideoOrScreenshareInAllVoiceChannels": "Stream video or screenshare in all voice channels",
-        "advertiseYour6b6tProjectDailyInTheAdvertiseChannel": "Advertise your 6b6t project daily in the #advertise channel",
+        "advertiseYour6b6tProjectDailyInTheAdvertisingChannel": "Advertise your 6b6t project daily in the #advertising channel",
         "accessToLegendColorToChangeYourDiscordName": "Access to #legend-color to change your Discord name color"
       },
       "imageModal": {
         "closeModal": "Close modal"
       },
       "shopBuyButton": {
-        "creatingCheckoutSession": "Creating checkout session...",
-        "checkoutSessionCreated": "Checkout session created!",
-        "close": "Close",
-        "isThisAGift": "Is this a gift?",
-        "ifYouBuyThisAsAGiftYouCan": "If you buy this as a gift, you can also provide a gift message to the user.",
-        "goToBillingPortal": "Go to Billing Portal →",
-        "theRefundPolicyForGiftedRanksIs14Days": "The refund policy for gifted ranks is 14 days.",
-        "readTheRefundPolicy": "Read the refund policy",
-        "buyForMe": "Buy for me",
-        "buyAsGift": "Buy as gift",
-        "giftInformation": "Gift Information",
-        "enterYourUsernameAndAnOptionalMessageForThe": "Enter your username and an optional message for the recipient.",
-        "whoIsThisGiftFrom": "Who is this gift from? *",
-        "yourMinecraftUsername": "Your Minecraft username",
-        "giftMessageOptional": "Gift Message (optional)",
-        "writeAMessageForTheRecipient": "Write a message for the recipient...",
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "confirmGiftPurchase": "Confirm Gift Purchase",
-        "pleaseReviewTheGiftDetailsBeforeProceeding": "Please review the gift details before proceeding",
-        "from": "From",
-        "giftArrow": "Gift arrow",
-        "to": "To",
-        "willReceive": "will receive",
-        "permanentRank": "Permanent Rank",
-        "pleaseVerifyAllDetailsAreCorrect": "⚠️ Please verify all details are correct",
-        "goBack": "Go Back",
-        "confirmContinue": "Confirm & Continue",
-        "choosePaymentMethod": "Choose Payment Method",
-        "selectHowYouWouldLikeToPayFor": "Select how you would like to pay for",
-        "payWithTebex": "Pay with Tebex",
-        "tebexComingSoon": "Tebex coming soon",
-        "paypalMore": "PayPal & more",
-        "selectTebexCheckout": "Select Tebex checkout",
-        "paypal": "PayPal",
-        "crypto": "Crypto",
-        "cardOtherMethods": "Card & Other Methods",
-        "selectCardOrAnotherMethod": "Select card or another method",
-        "allTransactionsAreSecureAndEncrypted": "All transactions are secure and encrypted"
+        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Could not open checkout. Your details have been kept. Please try again.",
+        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} has an active {{value2}} subscription. Its perks will no longer apply after this upgrade. The existing subscription is not canceled automatically; its payer must cancel it to avoid further charges.",
+        "thisRankCannotBeGifted": "This rank cannot be gifted",
+        "giftToValue1": "Gift to {{value1}}"
+      },
+      "shopCheckoutPanel": {
+        "giftARank": "Gift a rank",
+        "reviewYourPurchase": "Review your purchase",
+        "checkThePlayerAndPurchaseDetailsBeforePayment": "Check the player and purchase details before payment.",
+        "whoIsThisPurchaseFor": "Who is this purchase for?",
+        "forMyself": "For myself",
+        "sendAGift": "Send a gift",
+        "giftRecipient": "Gift recipient",
+        "minecraftPlayer": "Minecraft player",
+        "changeRecipient": "Change recipient",
+        "youPayTheRenewalsTheRecipientReceivesThePerks": "You pay the renewals. The recipient receives the perks. Manage cancellation using the billing portal link in your payment receipt email.",
+        "manageCancellationUsingTheBillingPortalLinkInYour": "Manage cancellation using the billing portal link in your payment receipt email.",
+        "youPayValue1ReceivesValue2AndASignedIn": "You pay. {{value1}} receives {{value2}} and a signed in-game book.",
+        "thisPurchaseGoesToValue1": "This purchase goes to {{value1}}.",
+        "haveACreatorCode": "Have a creator code?",
+        "checkYourCreatorCodeOrRemoveItToContinue": "Check your creator code, or remove it to continue.",
+        "openingSecureCheckout": "Opening secure checkout…",
+        "continueToPaymentValue1": "Continue to payment · {{value1}}",
+        "backToRanks": "Back to ranks",
+        "refundPolicy": "Refund policy",
+        "paymentDetailsAreEnteredOnThePaymentProviderS": "Payment details are entered on the payment provider's secure checkout. Eligible purchases have a 14-day refund window."
       }
     },
     "socialIcons": {
@@ -820,9 +1003,13 @@
         "text30OpacityCoverMode": "30% opacity • Cover mode"
       },
       "giftBadgeDisplay": {
-        "text2025ChristmasLobbyChallengeBadge": "2025 Christmas Lobby Challenge Badge",
-        "text2025NewYearGiftEventBadge": "2025 New Year Gift Event Badge",
+        "text2025ChristmasLobbyChallengeIcon": "2025 Christmas Lobby Challenge Icon",
+        "text2025NewYearGiftEventIcon": "2025 New Year Gift Event Icon",
         "completedThe2025ChristmasLobbyChallenge": "Completed the 2025 Christmas Lobby Challenge"
+      },
+      "halloween2026BadgeDisplay": {
+        "foundAll310HeadsInThe6b6tLobbyDuring": "Found all 310 heads in the 6b6t lobby during Halloween 2026",
+        "text2026HalloweenLobbyHeadHuntIcon": "2026 Halloween Lobby Head Hunt Icon"
       },
       "legendThemeProvider": {
         "golden": "Golden",
@@ -869,8 +1056,29 @@
         "aurora": "Aurora",
         "snowy": "Snowy"
       },
+      "playerProfileContent": {
+        "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
+        "loadingPlayerTheme": "Loading player theme…",
+        "backToLeaderboards": "Back to leaderboards",
+        "memberSince": "Member since",
+        "playTime": "play_time",
+        "kills": "kills",
+        "deaths": "deaths",
+        "allTime": "all time",
+        "recordedStatistics": "Recorded statistics",
+        "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
+        "sStatisticsForTheLast7Days30Days": "'s statistics for the last 7 days, 30 days, and all time.",
+        "statistic": "Statistic",
+        "text7Days": "7 days",
+        "text30Days": "30 days",
+        "allTime2": "All time",
+        "noRecordedStatistics": "No recorded statistics",
+        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
+        "aboutRecordedTotals": "About recorded totals",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete."
+      },
       "playerBadgeDisplay": {
-        "text2025HalloweenChallengeBadge": "2025 Halloween Challenge Badge",
+        "text2025HalloweenChallengeIcon": "2025 Halloween Challenge Icon",
         "completedThe2025HalloweenLobbyChallenge": "Completed the 2025 Halloween Lobby Challenge"
       },
       "playerEffectDisplay": {
@@ -902,17 +1110,18 @@
         "frequentlyAskedQuestionsAbout": "Frequently Asked Questions about"
       },
       "telegramBadgeDisplay": {
-        "text6b6tTelegramCommunityBadge": "6b6t Telegram Community Badge",
+        "text6b6tTelegramCommunityIcon": "6b6t Telegram Community Icon",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Linked Telegram and currently a member of the 6b6t group"
       },
       "themedStatsRenderer": {
         "legend": "legend",
         "champion": "champion",
         "hero": "hero",
+        "playerStats": "Player stats",
         "memberSince": "🗓️ Member since",
         "returnToLeaderboards": "Return to Leaderboards",
         "statsReset": "Stats reset",
-        "statsWereResetOnMay222026DueTo": "Stats were reset on May 22, 2026 due to data corruption and could not be recovered. The stats shown below begin from that date.",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
         "isAPlayerOfThe6b6tAnarchyMinecraftServer": "is a player of the 6b6t Anarchy Minecraft server. They have been a member since",
         "stat": "Stat",
         "noStatsAvailable": "No Stats Available",
@@ -927,7 +1136,7 @@
       },
       "treeBadgeDisplay": {
         "foundAllOfThe24ChristmasTreesDuring2025": "Found all of the 24 Christmas trees during 2025 Christmas Event",
-        "text2025ChristmasEventBadge": "2025 Christmas Event Badge"
+        "text2025ChristmasEventIcon": "2025 Christmas Event Icon"
       }
     },
     "ui": {
@@ -949,8 +1158,8 @@
       "notification": {
         "dismissNotification": "Dismiss notification"
       },
-      "sonner": {
-        "groupToastTextMutedForeground": "group-[.toast]:text-muted-foreground"
+      "spinner": {
+        "loading": "Loading"
       }
     },
     "monitoring": {

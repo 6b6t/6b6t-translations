@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "page": {
+      "text6b6tNewsletter": "6b6t newsletter",
+      "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
+      "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
+      "serverUpdates": "Server updates",
+      "events": "Events",
+      "newsletterSignup": "Newsletter signup",
+      "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
+      "loadingAccount": "Loading account",
+      "couldNotLoadYourAccountPleaseTryAgain": "Could not load your account. Please try again.",
+      "tryAgain": "Try again",
+      "signInVerifyYourEmailAddressAndLinkA": "Sign in, verify your email address, and link a game profile to join the newsletter.",
+      "signInToJoin": "Sign in to join",
+      "verifyYourEmailAddressToJoinTheNewsletter": "Verify your email address to join the newsletter.",
+      "weSendItToYourVerifiedAccountEmail": "We send it to your verified account email:",
+      "checkingLinkedProfiles": "Checking linked profiles",
+      "couldNotCheckYourLinkedProfilesPleaseTryAgain": "Could not check your linked profiles. Please try again.",
+      "yourSessionChangedRefreshThePageAndSignIn": "Your session changed. Refresh the page and sign in again.",
+      "linkAtLeastOneGameProfileBeforeJoiningThe": "Link at least one game profile before joining the newsletter.",
+      "discordIsOptionalYouCanAlso": "Discord is optional. You can also",
+      "linkDiscordInAccountSettings": "link Discord in account settings"
+    }
+  },
+  "page-name": "6b6t Newsletter: Connection News and Server Updates",
+  "seo-description": "Join the 6b6t newsletter for connection news, server updates and events. Stay informed if a server address changes."
+}

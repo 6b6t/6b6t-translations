@@ -68,6 +68,32 @@
             "noDataCouldBeRetrieved": "No se pudieron obtener datos."
           }
         },
+        "creators": {
+          "page": {
+            "creatorSales": "Creator Sales",
+            "rainRainAndRaincoates": "Rain · RAIN and RAINCOATES",
+            "refresh": "Actualizar",
+            "newlyRecordedPurchasesAppearAutomaticallyEvery15SecondsEstimated": "Newly recorded purchases appear automatically every 15 seconds. Estimated commission is 10% after recorded refunds, rounded to the nearest cent. Pending, failed and disputed sales earn no commission. This is not a payout history.",
+            "couldNotLoadCreatorSalesTryRefreshing": "Could not load creator sales. Try refreshing.",
+            "loadingCreatorSales": "Loading creator sales…",
+            "attributedTransactions": "attributed transactions",
+            "date": "Fecha",
+            "creatorCode": "Creator code",
+            "player": "Player",
+            "rank": "Rank",
+            "sale": "Sale",
+            "refund": "Refund",
+            "estimatedCommission10": "Estimated commission (10%)",
+            "status": "Estado",
+            "noCreatorCodePurchasesHaveBeenRecordedYetPreview": "No creator-code purchases have been recorded yet. Preview purchases are not saved.",
+            "notRecorded": "Not recorded",
+            "needsReview": "Needs review",
+            "previous": "Anterior",
+            "page": "Página",
+            "value1Value2": "{{value1}}{{value2}}",
+            "next": "Siguiente"
+          }
+        },
         "shop": {
           "page": {
             "shopAnalytics": "Analítica de la tienda",
@@ -88,6 +114,7 @@
             "date": "Fecha",
             "username": "Nombre de usuario",
             "bundle": "Paquete",
+            "creatorCode": "Creator code",
             "amount": "Importe",
             "status": "Estado",
             "provider": "Proveedor",
@@ -118,20 +145,8 @@
         }
       },
       "communityEvent": {
-        "communityEventExtensionForm": {
+        "communityEventExtensionConfirmation": {
           "theEndTimeMovedToValue1": "La hora de finalización cambió a {{value1}}.",
-          "extendRemainingTime": "Extender tiempo restante",
-          "addTimeToTheStoredEndThisKeepsPurchase": "Añade tiempo a la hora de finalización guardada. Esto no modifica el historial de compras, las contribuciones ni los registros de entrega.",
-          "enterTheNumberOfSecondsToAdd": "Introduce el número de segundos que se añadirán",
-          "secondsToAdd": "Segundos que se añadirán",
-          "maximum86400Seconds24Hours": "Máximo: 86.400 segundos (24 horas).",
-          "reason": "Motivo",
-          "whyIsTheEventBeingExtended": "¿Por qué se está extendiendo el evento?",
-          "currentEnd": "Finalización actual",
-          "notConfigured": "No configurado",
-          "resultingEnd": "Nueva finalización",
-          "enterSecondsToPreview": "Introduce los segundos para previsualizar",
-          "reviewExtension": "Revisar extensión",
           "confirmCommunityEventExtension": "Confirmar extensión del evento comunitario",
           "thisAdds": "Esto añade",
           "secondsToTheCurrentEndTheResultingEndWill": "segundos a la hora de finalización actual. La nueva hora de finalización será",
@@ -140,6 +155,22 @@
           "cancel": "Cancelar",
           "extending": "Extendiendo…",
           "extendEvent": "Extender evento"
+        },
+        "communityEventExtensionForm": {
+          "extendRemainingTime": "Extender tiempo restante",
+          "addTimeToTheStoredEndThisKeepsPurchase": "Añade tiempo a la hora de finalización guardada. Esto no modifica el historial de compras, las contribuciones ni los registros de entrega.",
+          "secondsToAdd": "Segundos que se añadirán",
+          "maximum86400Seconds24Hours": "Máximo: 86.400 segundos (24 horas).",
+          "reason": "Motivo",
+          "whyIsTheEventBeingExtended": "¿Por qué se está extendiendo el evento?",
+          "currentEnd": "Finalización actual",
+          "notConfigured": "No configurado",
+          "resultingEnd": "Nueva finalización",
+          "enterSecondsToPreview": "Introduce los segundos para previsualizar",
+          "reviewExtension": "Revisar extensión"
+        },
+        "communityEventExtensionOptions": {
+          "typeValue1ToContinue": "Type {{value1}} to continue"
         },
         "page": {
           "resetCommunityEvent": "RESTABLECER EVENTO COMUNITARIO",
@@ -178,7 +209,7 @@
           "loadingFulfillmentRequests": "Cargando solicitudes de despacho…",
           "noRequestsYet": "Aún no hay solicitudes.",
           "submitted": "· enviado",
-          "minecraftIdentity": "Identidad de Minecraft",
+          "minecraftProfile": "Minecraft profile",
           "purchaseEmail": "Correo de compra",
           "paymentReference": "Referencia de pago",
           "notSupplied": "no proporcionado",
@@ -200,7 +231,7 @@
         "welcomeToTheAdminPanel": "Bienvenido al panel de administración",
         "loggedInAs": "Sesión iniciada como",
         "role": "Rol",
-        "lastLogin": "Último inicio de sesión",
+        "sessionIssued": "Session issued",
         "quickLinks": "Accesos rápidos",
         "shopAnalytics": "Analítica de la tienda",
         "viewShopSessionStatisticsAndConversionMetrics": "Consulta las estadísticas de sesiones de la tienda y las métricas de conversión",
@@ -265,6 +296,7 @@
           "addCommunityPoints": "Add community points",
           "creditThePointsForOneRankPurchaseThisCan": "Credit the points for one rank purchase. This can complete a community milestone.",
           "rankPurchase": "Rank purchase",
+          "value1Value2Points": "{{value1}} · {{value2}} points",
           "points": "points",
           "reason": "Motivo",
           "explainWhyThesePointsNeedToBeAdded": "Explain why these points need to be added",
@@ -457,6 +489,7 @@
         "shopAnalytics": "Analítica de la tienda",
         "anarchyModStats": "Estadísticas de AnarchyMod",
         "transactions": "Transacciones",
+        "creatorSales": "Creator Sales",
         "fulfillment": "Despacho",
         "communityEvent": "Evento comunitario",
         "motdAds": "Anuncios MOTD",
@@ -465,19 +498,7 @@
         "recoveryLogs": "Registros de recuperación",
         "recoveryResultLogs": "Registros de resultados de recuperación",
         "adminPanel": "Panel de administración",
-        "logout": "Cerrar sesión"
-      }
-    },
-    "login": {
-      "page": {
-        "loginFailed": "Error al iniciar sesión",
-        "adminLogin": "Inicio de sesión de administrador",
-        "signInToAccessTheAdminPanel": "Inicia sesión para acceder al panel de administración",
-        "email": "Correo electrónico",
-        "adminExampleCom": "admin@example.com",
-        "password": "Contraseña",
-        "signingIn": "Iniciando sesión...",
-        "signIn": "Iniciar sesión"
+        "signOut": "Sign out"
       }
     },
     "adminDataTable": {

@@ -6,37 +6,55 @@
       "user": "@user",
       "updatesPing": "@Updates Ping"
     },
-    "updatesList": {
+    "updateEntry": {
       "edited": "Edited",
       "postedBy": "Posted by",
       "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord",
-      "latestPost": "Latest post",
-      "loading": "Loading...",
-      "loadMoreValue1": "Load more {{value1}}",
+      "openInDiscord": "Open in Discord"
+    },
+    "updatesList": {
+      "tryingAgain": "Trying again…",
+      "tryAgain": "Try again",
       "newUpdate": "new update",
       "justAppeared": "just appeared.",
       "dismiss": "Dismiss",
-      "searchUpdates": "Search updates",
-      "searching": "Searching...",
-      "search": "Search",
-      "clear": "Clear",
-      "showing": "Showing",
-      "searchResults": "search results.",
+      "searchingUpdates": "Searching updates…",
+      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
       "loadMoreResults": "Load more results",
-      "noUpdatesMatchedYourSearch": "No updates matched your search."
+      "noUpdatesMatched": "No updates matched “",
+      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
+      "showAllUpdates": "Show all updates"
+    },
+    "updatesSchema": {
+      "text6b6tUpdates": "6b6t Updates",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord."
+    },
+    "updatesSearch": {
+      "searchServerUpdates": "Search server updates",
+      "searchUpdates": "Search updates",
+      "suggestedSearches": "Suggested searches",
+      "searching": "Searching…",
+      "search": "Search",
+      "clear": "Clear"
+    },
+    "updatesSection": {
+      "updatesFromValue1": "Updates from {{value1}}",
+      "latestPost": "Latest post",
+      "loading": "Loading…",
+      "loadMoreValue1": "Load more {{value1}}"
     },
     "page": {
-      "discordUpdatesAreComingHereSoon": "Discord updates are coming here soon",
-      "theChangelogPageIsReadyToSyncFromThe": "The changelog page is ready to sync from the official Discord update channel. Until then, join Discord to read the newest posts.",
+      "serverUpdates": "Server updates",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
       "joinDiscord": "Join Discord",
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord.",
-      "changelog": "Changelog",
-      "server": "Server",
-      "updates": "Updates",
-      "latestChangesFixesAndAnnouncementsFromTheOfficial6b6t": "Latest changes, fixes, and announcements from the official 6b6t Discord changelog channel.",
-      "loadingUpdates": "Loading updates..."
+      "loadingServerUpdates": "Loading server updates…",
+      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
+      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
+      "tryingAgain": "Trying again…",
+      "tryAgain": "Try again",
+      "noUpdatesToShowYet": "No updates to show yet",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
+      "readNewsOnDiscord": "Read news on Discord"
     }
   }
 }

@@ -2,36 +2,51 @@
   "page-name": "Minecraft Sunucu Komutları",
   "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg ve daha fazlası dahil olmak üzere temel 6b6t komutları hakkında bilgi edinin.",
   "sections": {
+    "commandEntry": {
+      "aliases": "Aliases",
+      "example": "Örnek",
+      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copied": "Copied",
+      "copyExample": "Copy example",
+      "exampleCopied": "Example copied.",
+      "ranks": "Ranks"
+    },
+    "commandRankPrefix": {
+      "free": "Free",
+      "eliteUltra": "Elite Ultra"
+    },
     "commandsList": {
       "bestMatches": "En iyi eşleşmeler",
-      "free": "Free",
-      "primeUltra": "Prime Ultra",
-      "border55ffffBg55ffffTextBlack": "border-[#55FFFF] bg-[#55FFFF] text-black",
-      "borderFfff55BgFfff55TextBlack": "border-[#FFFF55] bg-[#FFFF55] text-black",
-      "eliteUltra": "Elite Ultra",
-      "borderFfaa00BgFfaa00TextBlack": "border-[#FFAA00] bg-[#FFAA00] text-black",
-      "borderFfd700BgFfd700TextBlack": "border-[#FFD700] bg-[#FFD700] text-black",
-      "commandsList": "KOMUT LİSTESİ",
-      "availableServerCommands": "Kullanılabilir Sunucu Komutları",
-      "useTheFiltersToFindTheCommandYouNeed": "İhtiyacın olan komutu kategoriye, rank gereksinimine veya komut adına göre bulmak için filtreleri kullan.",
-      "search": "Ara",
+      "commands": "Commands",
+      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Komut ara...",
+      "commandAliasOrDescription": "Command, alias or description",
+      "clearCommandSearch": "Clear command search",
       "category": "Kategori",
-      "rankRequirement": "Rank gereksinimi",
+      "allCategories": "All categories",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
       "command": "Komut",
       "description": "Açıklama",
       "example": "Örnek",
-      "rank": "Sıra",
-      "value1Value2": "{{value1}}-{{value2}}",
-      "fullExample": "Tam örnek:",
-      "noCommandsFoundMatchingYourFilters": "Filtrelerine uyan komut bulunamadı.",
-      "premiumCommands": "Premium Komutlar",
-      "useTheRankFilterAboveToPreviewCommandsUnlocked": "Prime, Prime Ultra, Elite, Elite Ultra, Apex ve Legend ile açılan komutları önizlemek için yukarıdaki rank filtresini kullan.",
-      "viewPremiumRanks": "Premium Rank'ları Görüntüle"
+      "ranks": "Ranks",
+      "noCommandsFound": "No commands found",
+      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
+      "resetFilters": "Reset filters",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
+      "compareRanks": "Compare ranks"
+    },
+    "commandsRankFilter": {
+      "rankRequirement": "Rank gereksinimi"
     },
     "page": {
       "text6b6tServerCommands": "6b6t Sunucu Komutları",
       "completeListOfCommandsAvailableOnThe6b6tMinecraft": "6b6t Minecraft anarşi sunucusunda kullanılabilir komutların tam listesi"
     }
+  },
+  "filters": {
+    "allRanks": "All ranks",
+    "auth": "Auth",
+    "homesAndTeleport": "Homes & Teleport",
+    "hotspots": "Hotspots"
   }
 }

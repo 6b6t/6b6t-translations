@@ -10,39 +10,42 @@
       "reset": "Reset",
       "result": "Result",
       "blocked": "blocked",
-      "success": "success"
+      "success": "success",
+      "recoveryProgress": "Recovery progress"
+    },
+    "recoverForm": {
+      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} Please wait {{value2}} minute{{value3}} before trying again.",
+      "networkErrorPleaseTryAgain": "Network error. Please try again.",
+      "enterYourUsernameToCheckGracePeriodStatus": "Enter your username to check grace period status.",
+      "accountRecoveryForm": "Account recovery form",
+      "startWithYourUsername": "Start with your username",
+      "enterTheAccountYouWantToRecover": "Enter the account you want to recover."
+    },
+    "recoveryFlowStore": {
+      "start": "start"
     },
     "recoveryWalkthrough": {
-      "startWithTheAccount": "Start With The Account",
+      "findYourAccount": "Find your account",
       "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Enter the username first. The flow checks which recovery path is safe for that account.",
       "useTheExactInGameUsername": "Use the exact in-game username.",
       "completeTheCaptchaOnceBeforeSubmitting": "Complete the captcha once before submitting.",
       "ifTheAccountCanStillUseTheNormalEmail": "If the account can still use the normal email reset path, recovery will redirect there.",
-      "setTheNewContactEmail": "Set The New Contact Email",
+      "chooseAContactEmail": "Choose a contact email",
       "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "The new email is only accepted after identity checks pass, so use an inbox you control.",
       "useAnEmailYouCanVerifyImmediately": "Use an email you can verify immediately.",
       "ifYouStillRememberTheOldEmailProvideIt": "If you still remember the old email, provide it when asked.",
       "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Security responses stay generic so attackers cannot learn what matched.",
-      "prepareProofDetails": "Prepare Proof Details",
+      "prepareOwnershipDetails": "Prepare ownership details",
       "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Strong proof is specific account history that another player would not know.",
       "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Saved homes and coordinate locations are optional when you do not have them.",
       "countriesLastLogoutLocationItemNamesAndOldBase": "Countries, last logout location, item names, and old base details can help the score.",
       "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Only submit details you actually remember; wrong guesses can weaken the request.",
-      "reviewOrReset": "Review Or Reset",
+      "verificationAndReview": "Verification and review",
       "ifTheAutomaticScoreIsEnoughYouContinueTo": "If the automatic score is enough, you continue to verification. Otherwise a ticket is created.",
       "manualReviewTicketsKeepTheProofAttachedForStaff": "Manual review tickets keep the proof attached for staff.",
       "recoveryIsRateLimitedSoDoNotSpamAttempts": "Recovery is rate limited, so do not spam attempts.",
       "onceApprovedFinishTheEmailCodeStepAndSet": "Once approved, finish the email code step and set a new password.",
-      "howRecoveryWorks": "How recovery works",
-      "walkthroughProgress": "Walkthrough progress",
-      "goToWalkthroughStepValue1": "Go to walkthrough step {{value1}}",
-      "step": "Step",
-      "value1Value2": "{{value1}}{{value2}}",
-      "of": "of",
-      "skip": "Skip",
-      "back": "Back",
-      "startRecovery": "Start Recovery",
-      "next": "Next"
+      "recoveryGuide": "Recovery guide"
     },
     "steps": {
       "blockedStep": {
@@ -182,10 +185,11 @@
         "resetPassword": "Reset Password"
       },
       "startStep": {
-        "minecraftUsername": "Minecraft Username",
+        "minecraftUsername": "Minecraft username",
         "yourminecraftname": "YourMinecraftName",
+        "useTheInGameNameYouUseToJoin": "Use the in-game name you use to join 6b6t.",
         "verification": "Verification",
-        "continue": "Continue"
+        "continueRecovery": "Continue recovery"
       },
       "successStep": {
         "recoveryFlowCompletedForThisSession": "Recovery flow completed for this session.",
@@ -209,7 +213,6 @@
         "failedToBlockRecoveryAttempt": "Failed to block recovery attempt.",
         "anErrorOccurredPleaseTryAgainLater": "An error occurred. Please try again later.",
         "noBlockTokenProvidedInTheUrl": "No block token provided in the URL.",
-        "accountSecurity": "Account Security",
         "block": "Block",
         "recovery": "Recovery",
         "ifYouDidNotInitiateAnAccountRecoveryClick": "If you did not initiate an account recovery, click the button below to block the attempt and protect your account.",
@@ -221,10 +224,11 @@
       }
     },
     "page": {
-      "accountSecurity": "Account Security",
-      "account": "Account",
-      "recovery": "Recovery",
-      "completeTheRecoveryFlowToProveAccountOwnershipAnd": "Complete the recovery flow to prove account ownership and restore access. For security reasons, responses are intentionally generic."
+      "accountRecovery": "Account recovery",
+      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "Prove ownership of your 6b6t account and restore access. Start with your Minecraft username.",
+      "beforeYouStart": "Before you start",
+      "haveYourExactInGameUsernameReadyUseAn": "Have your exact in-game username ready. Use an email inbox you can access when the recovery flow asks for one.",
+      "forYourSecurityResponsesStayGenericSoTheyDo": "For your security, responses stay generic so they do not reveal which account details matched."
     },
     "reset": {
       "page": {
@@ -234,10 +238,9 @@
         "success": "success",
         "passwordHasBeenResetSuccessfully": "Password has been reset successfully.",
         "idle": "idle",
-        "accountSecurity": "Account Security",
         "reset": "Reset",
         "password": "Password",
-        "yourRecoveryRequestWasApprovedSetANewPassword": "Your recovery request was approved. Set a new password for your account below.",
+        "useYourSecureRecoveryLinkToChooseANew": "Use your secure recovery link to choose a new password for your account.",
         "newPassword": "New Password",
         "passwordResetComplete": "Password Reset Complete",
         "minimum8Characters": "Minimum 8 characters",
@@ -246,5 +249,7 @@
         "resetPassword": "Reset Password"
       }
     }
-  }
+  },
+  "page-name": "Recover Your 6b6t Account",
+  "seo-description": "Recover access to your cracked or Bedrock 6b6t account. Prove ownership if you lost your email, or use /email recover in-game."
 }

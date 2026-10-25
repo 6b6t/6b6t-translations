@@ -3,35 +3,51 @@
   "seo-description": "विभिन्न श्रेणियों में हमारे शीर्ष खिलाड़ियों को देखें",
   "sections": {
     "leaderboardStatisticCard": {
-      "rank": "पद",
-      "name": "नाम",
-      "value": "कीमत",
-      "value1Value2": "{{value1}}{{value2}}",
-      "noDataAvailableForThisTimeRange": "इस समय सीमा के लिए कोई डेटा उपलब्ध नहीं है",
-      "playersRanked": "खिलाड़ियों को स्थान दिया गया",
-      "previousPage": "पिछला पृष्ठ",
-      "nextPage": "अगला पृष्ठ"
+      "value1Leaderboard": "{{value1}} leaderboard",
+      "allTime": "All time",
+      "player": "Player",
+      "timePlayed": "Time played",
+      "total": "Total",
+      "value1Value2Value3": "{{value1}}{{value2}}{{value3}}",
+      "eliteUltra": "Elite Ultra",
+      "noRecordedStatisticsForThisPeriod": "No recorded statistics for this period.",
+      "value1Value2OfValue3": "{{value1}}–{{value2}} of {{value3}}",
+      "text0Players": "0 players",
+      "previousValue1Players": "Previous {{value1}} players",
+      "nextValue1Players": "Next {{value1}} players"
     },
     "playerStatsSearch": {
-      "playerStatsSearch": "खिलाड़ी आँकड़े खोजें",
+      "findAPlayer": "Find a player",
       "lookUpAnyPlayer39SStatistics": "किसी भी खिलाड़ी के आँकड़े देखें",
+      "minecraftUsername": "Minecraft username",
       "enterMinecraftUsername": "Minecraft उपयोगकर्ता नाम दर्ज करें...",
       "search": "खोज"
     },
     "statsPageContent": {
       "playerStatistics": "खिलाड़ी सांख्यिकी",
-      "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "विभिन्न आँकड़ों में 6b6t पर शीर्ष खिलाड़ियों को देखें। किसी विशिष्ट खिलाड़ी को खोजें या नीचे लीडरबोर्ड ब्राउज़ करें।",
-      "statsReset": "आँकड़े रीसेट:",
-      "statsWereResetOnMay222026DueTo": "डेटा भ्रष्टाचार के कारण 22 मई, 2026 को आँकड़े रीसेट कर दिए गए और उन्हें पुनर्प्राप्त नहीं किया जा सका।",
-      "underMaintenance": "रखरखाव जारी",
-      "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "यह आँकड़ा अस्थायी रूप से अनुपलब्ध है. हम यथाशीघ्र आपके लिए नवीनतम लीडरबोर्ड डेटा लाने पर काम कर रहे हैं।",
-      "loadingStatisticsData": "सांख्यिकी डेटा लोड हो रहा है..."
+      "compareLeaderboardsTimePeriodsAndPlayerProfiles": "Compare leaderboards, time periods, and player profiles.",
+      "playerDirectory": "Player directory",
+      "designPreviewSamplePlayersAndStatistics": "Design preview: sample players and statistics.",
+      "leaderboards": "Leaderboards",
+      "leaderboardTimePeriod": "Leaderboard time period",
+      "allTime": "All time",
+      "statisticCategory": "Statistic category",
+      "aboutRecordedTotals": "About recorded totals",
+      "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
+      "statisticsUnavailable": "Statistics unavailable",
+      "weCouldnTLoadTheLeaderboardsPleaseTryAgain": "We couldn't load the leaderboards. Please try again.",
+      "tryAgain": "Try again",
+      "noStatisticsAreAvailableInThisCategory": "No statistics are available in this category.",
+      "loadingStatistics": "Loading statistics...",
+      "noLeaderboardDataIsAvailableYet": "No leaderboard data is available yet."
     },
     "username": {
       "page": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loading": "Loading…"
       },
       "layout": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loadingPlayerStats": "Loading player stats…"
       }
     }

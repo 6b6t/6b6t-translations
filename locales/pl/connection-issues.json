@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "page": {
+      "connectionHelp": "Connection help",
+      "ifMinecraftSays6b6tIsOfflineOrTheIp": "If Minecraft says 6b6t is offline or the IP is not working, start with these checks.",
+      "javaShowsOffline": "Java shows offline",
+      "mojangBlacklisted6b6tOn15July2026Install": "Mojang blacklisted 6b6t on 15 July 2026. Install",
+      "anarchymod": "AnarchyMod",
+      "andStartTheMatchingFabricProfileUseAMinecraft": "and start the matching Fabric profile. Use a Minecraft version listed on the download page.",
+      "theMainJavaAddressIs": "The main Java address is",
+      "alternativeAddressesAre": ". Alternative addresses are",
+      "and": "and",
+      "theyDoNotReplaceTheNeedForAnarchymod": ". They do not replace the need for AnarchyMod.",
+      "bedrockCannotConnect": "Bedrock cannot connect",
+      "use": "Use",
+      "port": ", port",
+      "andSignInToYourXboxAccountDoNot": ", and sign in to your Xbox account. Do not use the old bedrock.6b6t.org address or bedrock2.6b6t.org.",
+      "accountVerificationOrLoginProblems": "Account verification or login problems",
+      "followTheVerificationInstructionsShownInGameNeverShare": "Follow the verification instructions shown in-game. Never share your password with another player. If you lost access to your account, use",
+      "theRecoveryPage": "the recovery page",
+      "checkForAnOutage": "Check for an outage",
+      "view": "View",
+      "currentServerStatus": "current server status",
+      "recentUpdates": "recent updates",
+      "ifYouStillCannotJoinTell": ". If you still cannot join, tell",
+      "discordSupport": "Discord support",
+      "yourMinecraftEditionVersionAndErrorMessageKeepPasswords": "your Minecraft edition, version and error message. Keep passwords and account codes private.",
+      "forTheCompleteSetupRead": "For the complete setup, read",
+      "howToJoin6b6t": "how to join 6b6t"
+    }
+  }
+}

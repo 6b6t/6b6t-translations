@@ -12,6 +12,7 @@
           "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
         },
         "admin": {
+          "all": "all",
           "pending": "लंबित"
         },
         "apexGifts": {
@@ -79,13 +80,8 @@
             "captchaVerificationFailed": "कैप्चा सत्यापन विफल रहा",
             "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "पुनर्प्राप्ति सत्र समाप्त या अमान्य है. कृपया पुनर्प्राप्ति पुनः प्रारंभ करें.",
             "yourRequestWasReceivedIfTheAccountExistsAnd": "आपका अनुरोध प्राप्त हुआ. यदि खाता मौजूद है और दिए गए साक्ष्य को सत्यापित किया जा सकता है, तो समर्थन आपसे संपर्क करेगा।",
-            "manualReviewIsNotAvailableForThisRecoverySession": "इस पुनर्प्राप्ति सत्र के लिए अभी तक मैन्युअल समीक्षा उपलब्ध नहीं है. पहले पुनर्प्राप्ति प्रवाह जारी रखें.",
             "pending": "लंबित",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "इस खाते के लिए एक लंबित मैन्युअल समीक्षा टिकट पहले से मौजूद है। कृपया समीक्षा की प्रतीक्षा करें.",
-            "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "खाता स्वामी को सूचित नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "खाता-स्वामी अधिसूचना को इस मैन्युअल टिकट से लिंक नहीं किया जा सका. मैनुअल टिकट जमा नहीं किया गया।",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "मैन्युअल पुनर्प्राप्ति टिकट सफलतापूर्वक सबमिट किया गया. सहायता टीम इसकी समीक्षा करेगी."
+            "ownerNotificationIsTemporarilyUnavailable": "Owner notification is temporarily unavailable."
           },
           "recover": {
             "ifThisAccountExistsRecoveryOptionsWillBeShown": "यदि यह खाता मौजूद है, तो पुनर्प्राप्ति विकल्प दिखाए जाएंगे।",
@@ -146,15 +142,11 @@
             "passwordHasBeenResetSuccessfullyYouCanNowLog": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है. अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।"
           }
         },
+        "reviewRecoveryTicket": {
+          "emailSendFailed": "email_send_failed"
+        },
         "serverStatus": {
           "unknown": "Unknown"
-        },
-        "telegramStart": {
-          "youMustBeLoggedInToLinkTelegram": "टेलीग्राम को लिंक करने के लिए आपको लॉग इन होना होगा।",
-          "telegramLinkingIsNotEnabledForYourAccountYet": "आपके खाते के लिए टेलीग्राम लिंकिंग अभी तक सक्षम नहीं है।",
-          "theLoggedInMinecraftUsernameIsInvalid": "लॉग-इन Minecraft उपयोगकर्ता नाम अमान्य है।",
-          "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. TELEGRAM_BOT_USERNAME गुम है.",
-          "telegramLoginIsNotConfiguredMissingCookieSecretOn": "टेलीग्राम लॉगिन कॉन्फ़िगर नहीं है. सर्वर पर COOKIE_SECRET गुम है।"
         },
         "youtubeShorts": {
           "maxres1280x720": "अधिकतम (1280x720)",
@@ -166,6 +158,129 @@
           "noVideosFoundForThisChannel": "इस चैनल के लिए कोई वीडियो नहीं मिला",
           "noYoutubeShortsFoundForThisChannel": "इस चैनल के लिए कोई YouTube शॉर्ट्स नहीं मिला"
         }
+      }
+    },
+    "auth": {
+      "additionalField": {
+        "noItemsFound": "No items found."
+      },
+      "admin": {
+        "adminUsers": {
+          "email": "email",
+          "name": "name",
+          "contains": "contains",
+          "startsWith": "starts_with",
+          "endsWith": "ends_with",
+          "all": "all",
+          "active": "active",
+          "banned": "banned",
+          "value1Value2": "{{value1}}:{{value2}}"
+        },
+        "linkHistoryTab": {
+          "appendOnlyRecordOfAccountLinksUseItAs": "Append-only record of account links. Use it as evidence for lost-account requests; rows marked backfill describe links that existed when the history started.",
+          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Find accounts by Minecraft UUID, Discord ID, Telegram ID or email",
+          "thisAccount": "This account",
+          "noLinkHistoryYet": "No link history yet.",
+          "when": "When",
+          "change": "परिवर्तन",
+          "value": "Value",
+          "signedInWith": "Signed in with",
+          "websiteAccount": "Website account",
+          "backfill": "backfill",
+          "by": "by",
+          "ip": "ip"
+        }
+      },
+      "authCaptcha": {
+        "captchaVerification": "CAPTCHA verification"
+      },
+      "authForm": {
+        "unableToSubmitThisFormTryAgain": "Unable to submit this form. Try again."
+      },
+      "dash": {
+        "activity": {
+          "all": "all"
+        }
+      },
+      "emailOtp": {
+        "changeEmailOtp": {
+          "email": "email",
+          "currentcode": "currentCode",
+          "newcode": "newCode"
+        }
+      },
+      "minecraftAccounts": {
+        "gameProfile": "Game profile",
+        "couldNotLoadYourAccounts": "Could not load your accounts.",
+        "tryAgain": "Try again"
+      },
+      "minecraftIdentityActions": {
+        "linkAnotherProfile": "Link another profile",
+        "linkAGameProfile": "Link a game profile",
+        "manageProfiles": "Manage profiles"
+      },
+      "minecraftIdentityPicker": {
+        "couldNotLoadYourGameProfiles": "Could not load your game profiles."
+      },
+      "minecraftIdentitySelect": {
+        "gameProfile": "Game profile",
+        "chooseAGameProfile": "Choose a game profile"
+      },
+      "oauthProvider": {
+        "authorizedApplication": {
+          "value1Value2": "{{value1}} {{value2}}"
+        },
+        "oauthClients": {
+          "web": "web",
+          "native": "native",
+          "openidProfileEmail": "openid profile email"
+        }
+      },
+      "requiredEmailForm": {
+        "yourEmailIsNotVerifiedYetOpenTheLink": "Your email is not verified yet. Open the link in your inbox, then try again.",
+        "enterAValidEmailAddressYouCanAccess": "Enter a valid email address you can access.",
+        "couldNotCompleteTheRequestPleaseTryAgain": "Could not complete the request. Please try again.",
+        "linkYourEmailToContinue": "Link your email to continue",
+        "verifyAnEmailAddressToUseYour6b6tWebsite": "Verify an email address to use your 6b6t website account. This gives you a way to sign in and recover access if you need it.",
+        "emailAddress": "Email address",
+        "check": "Check",
+        "forAVerificationLinkIfItDoesNotArrive": "for a verification link. If it does not arrive, check your spam folder or try a different email address.",
+        "sendAgainInValue1S": "Send again in {{value1}}s",
+        "sendAnotherLink": "Send another link",
+        "sendVerificationLink": "Send verification link",
+        "signOut": "Sign out",
+        "iVeVerifiedMyEmail": "I’ve verified my email"
+      },
+      "settings": {
+        "security": {
+          "activeSession": {
+            "unknownBrowser": "Unknown Browser",
+            "value1": ", {{value1}}"
+          },
+          "changePassword": {
+            "addAVerifiedEmailIn": "Add a verified email in",
+            "accountSettings": "account settings",
+            "beforeSettingAPassword": "before setting a password."
+          }
+        }
+      },
+      "stepUp": {
+        "stepUpDialog": {
+          "confirmItIsYou": "Confirm it is you",
+          "weSentA6DigitCodeToTheEmail": "We sent a 6-digit code to the email address on your account. It works for 10 minutes and only once.",
+          "enterThe6DigitCodeFromYourAuthenticatorApp": "Enter the 6-digit code from your authenticator app.",
+          "confirmationCode": "Confirmation code",
+          "sendANewCode": "Send a new code",
+          "useMyAuthenticatorApp": "Use my authenticator app",
+          "useAnEmailCode": "Use an email code",
+          "confirm": "Confirm"
+        }
+      },
+      "websiteAuthProvider": {
+        "minecraft": "Minecraft",
+        "discord": "Discord",
+        "google": "Google",
+        "telegram": "टेलीग्राम"
       }
     },
     "communityEventCountdown": {
@@ -184,9 +299,6 @@
       "finalizing": "अंतिम रूप दिया जा",
       "ended": "समाप्त",
       "live": "रहना",
-      "theDupeEventHasEnded": "डुप्पे इवेंट ख़त्म हो गया है.",
-      "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "कार्यक्रम में भाग लेने और इसे अविस्मरणीय बनाने के लिए धन्यवाद। अपनी लूट को सुरक्षित रखें—6b6t पर अराजकता जारी है।",
-      "keepPlaying": "खेलत रहो",
       "dupeEvent": "नकल घटना",
       "viewEvent": "घटना देखें",
       "manyPowerfulDupesAreEnabledOn6b6t": "6b6t पर कई शक्तिशाली डुप्लिकेट सक्षम हैं।",
@@ -218,6 +330,15 @@
       "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
     },
     "layout": {
+      "accountMenu": {
+        "accountNavigation": "Account navigation",
+        "account": "खाता",
+        "loadingAccount": "Loading account",
+        "profile": "Profile",
+        "settings": "Settings",
+        "signOut": "Sign out",
+        "signIn": "Sign in"
+      },
       "copyButton": {
         "copied": "नकल की गई!",
         "copy": "प्रतिलिपि"
@@ -234,6 +355,18 @@
         "about": "के बारे में",
         "about6b6t": "6b6t के बारे में",
         "votingRewards": "मतदान पुरस्कार",
+        "informationAbout2b2tQueue": "Information about 2b2t queue",
+        "join6b6t": "Join 6b6t",
+        "connectionHelp": "Connection help",
+        "rulesAndGameplay": "Rules and gameplay",
+        "history": "इतिहास",
+        "hytale": "Hytale",
+        "legendRank": "Legend rank",
+        "antiSpamLogs": "Anti-spam logs",
+        "newsletter": "Newsletter",
+        "accountRecovery": "Account recovery",
+        "blog": "ब्लॉग",
+        "anarchyServerGuide": "Anarchy server guide",
         "contact": "संपर्क",
         "termsOfService": "सेवा की शर्तें",
         "privacyPolicy": "गोपनीयता नीति",
@@ -241,15 +374,17 @@
         "server": "सर्वर",
         "shop": "दुकान",
         "vote": "वोट",
+        "anarchymod": "AnarchyMod",
         "commands": "आदेश",
         "stats": "आँकड़े",
+        "playerDirectory": "Player directory",
         "updates": "अपडेट",
         "status": "स्थिति",
         "mostUsefulCommands": "सर्वाधिक उपयोगी आदेश",
         "text6b6tMinecraftServerLogo": "6b6t Minecraft सर्वर लोगो",
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
-        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t एक उत्तरजीविता Minecraft अराजकता सर्वर है जिसमें कोई नियम, कोई दंड और कोई कतार नहीं है। खिलाड़ी एक साथ 2000 खिलाड़ियों को सपोर्ट करने वाली दुनिया में जो चाहें कर सकते हैं और /tpa और /home जैसे कमांड का उपयोग कर सकते हैं।",
+        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft anarchy since 2022. Java: play.6b6t.org with AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
         "serverAddress": "सर्वर पता:",
         "teleportToAPlayer": "किसी खिलाड़ी को टेलीपोर्ट करें",
         "teleportToYourHome": "अपने घर पर टेलीपोर्ट करें",
@@ -284,7 +419,7 @@
         "stats": "आँकड़े",
         "commands": "आदेश",
         "shop": "दुकान",
-        "account": "खाता",
+        "anarchymod": "AnarchyMod",
         "hytale": "Hytale",
         "updates": "अपडेट",
         "history": "इतिहास",
@@ -350,6 +485,38 @@
         "dinnerbone": "डिनरबोन",
         "thisWillBeUsedToLinkYourPurchasesTo": "इसका उपयोग आपकी खरीदारी को आपके Minecraft खाते से लिंक करने के लिए किया जाएगा।",
         "loading": "लोड हो रहा है..."
+      }
+    },
+    "newsletter": {
+      "newsletterEmailSignup": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "email": "Email",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click."
+      },
+      "newsletterPromptContent": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang blacklisted 6b6t. Then they took down our GitHub. Email is the only thing they can't take.",
+        "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
+        "serverUpdates": "Server updates",
+        "events": "Events",
+        "weSendItToYourAccountEmail": "We send it to your account email:",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
+        "noThanks": "No thanks",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
+      },
+      "newsletterSignup": {
+        "emailNewsletter": "Email newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again. Unsubscribe with one click.",
+        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Could not load your newsletter preference. Please refresh the page.",
+        "youJoinedThe6b6tNewsletter": "You joined the 6b6t newsletter.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
       }
     },
     "notFoundPage": {
@@ -439,7 +606,6 @@
     },
     "serverConnectionModal": {
       "text6b6t": "6b6t",
-      "text6b6t2": "6b6t 2",
       "text6b6t3": "6b6t 3",
       "copyValue1": "{{value1}} कॉपी करें",
       "openValue1InMinecraftBedrock": "Minecraft Bedrock में {{value1}} खोलें",
@@ -474,6 +640,25 @@
       "done": "हो गया"
     },
     "shop": {
+      "checkoutGiftFields": {
+        "nameOnTheGiftBook": "Name on the gift book",
+        "shownToTheRecipientInASignedInGame": "Shown to the recipient in a signed in-game book. This is separate from your billing name.",
+        "editYourPersonalMessage": "Edit your personal message",
+        "addAPersonalMessageOptional": "Add a personal message (optional)",
+        "giftBookMessage": "Gift book message",
+        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 characters. Included in the gift book."
+      },
+      "checkoutPaymentOptions": {
+        "payWith": "Pay with",
+        "cardAndWallets": "Card and wallets",
+        "cardAmpWallets": "Card &amp; wallets",
+        "paypalCryptoAndMore": "PayPal, crypto and more",
+        "paypalCryptoAmpMore": "PayPal, crypto &amp; more"
+      },
+      "creatorCodeField": {
+        "creatorCodeOptional": "Creator code (optional)",
+        "supportACreatorWithYourPurchaseYourPriceStays": "Support a creator with your purchase. Your price stays the same."
+      },
       "featureDefinitions": {
         "prefix": "उपसर्ग",
         "homes": "घरों",
@@ -481,6 +666,7 @@
         "chatcolors": "चैट कलर्स",
         "hat": "टोपी",
         "sit": "बैठना",
+        "lay": "lay",
         "invisframe": "invisframe",
         "balloons": "गुब्बारे",
         "namecolor": "नामरंग",
@@ -518,6 +704,9 @@
         "apexPrefix": "Apex उपसर्ग",
         "primeUltraPrefix": "Prime Ultra उपसर्ग",
         "eliteUltraPrefix": "Elite Ultra उपसर्ग",
+        "prefixStyle": "Prefix Style",
+        "notIncluded": "शामिल नहीं",
+        "included": "शामिल",
         "duration": "अवधि",
         "duration2": "अवधि",
         "lifetime": "जीवनभर",
@@ -548,18 +737,18 @@
         "tpaExecutionTimeDiagram": "/tpa निष्पादन समय आरेख",
         "skin2": "त्वचा",
         "skinCommandInterface": "त्वचा कमांड इंटरफ़ेस",
-        "included": "शामिल",
         "hat2": "टोपी",
         "hatCommandInterface": "हैट कमांड इंटरफ़ेस",
-        "notIncluded": "शामिल नहीं",
         "sit2": "बैठना",
         "sitCommandInterface": "सिट कमांड इंटरफ़ेस",
+        "lay2": "Lay",
         "balloons2": "गुब्बारे",
         "balloonsCommandInterface": "गुब्बारे कमांड इंटरफ़ेस",
         "text5Balloons": "5 गुब्बारे",
-        "text40Balloons": "40 गुब्बारे",
+        "text50Balloons": "50 Balloons",
         "text3Balloons": "3 गुब्बारे",
-        "text30Balloons": "30 गुब्बारे",
+        "text35Balloons": "35 Balloons",
+        "skinBalloon": "Skin Balloon",
         "particles2": "कण",
         "particlesFeature": "कणों की विशेषता",
         "cigar2": "सिगार",
@@ -576,6 +765,7 @@
         "invisframeCommandInterface": "इनविज़फ़्रेम कमांड इंटरफ़ेस",
         "editArmorStands": "कवच स्टैंड संपादित करें",
         "joinWithVpns": "वीपीएन के साथ जुड़ें",
+        "skipBotChecks": "Skip Bot Checks",
         "builderMode": "बिल्डर मोड",
         "text22Chunks": "22 टुकड़े",
         "text32Chunks": "32 टुकड़े",
@@ -640,6 +830,7 @@
         "advertiseChannel": "विज्ञापन चैनल",
         "legendNameColor": "Legend नाम रंग",
         "thePrefixShownBeforeYourNameInChatAnd": "चैट और टेबललिस्ट में आपके नाम से पहले दिखाया गया उपसर्ग।",
+        "pickHowYourPrefixLooksWithPrefixAShort": "Pick how your prefix looks with /prefix: a short version (like APX) or a lower rank&apos;s prefix",
         "howLongYourRankLastsAfterPurchasePrimeElite": "खरीदारी के बाद आपकी रैंक कितने समय तक रहती है. Prime, Elite और Apex हमेशा के लिए चलते हैं।",
         "howManyHomesYouCanSetWithSethome": "/sethome से आप कितने घर स्थापित कर सकते हैं",
         "timeYouMustWaitBetweenHomeSethomeUses": "आपको /home और /sethome उपयोग के बीच समय का इंतजार करना होगा",
@@ -649,7 +840,9 @@
         "changeYourSkinWithSkin": "/skin के साथ अपनी त्वचा बदलें",
         "wearTheItemInYourHandAsAHat": "अपने हाथ में मौजूद वस्तु को /hat वाली टोपी के रूप में पहनें",
         "sitOnTheBlockYouRsquoReStandingOn": "उस ब्लॉक पर बैठें जिस पर आप /sit के साथ खड़े हैं",
+        "lieDownOnTheBlockYouAposReStanding": "Lie down on the block you&apos;re standing on with /lay",
         "putABalloonInYourHandWithBalloons": "अपने हाथ में /balloons वाला गुब्बारा रखें",
+        "aBalloonWithYourOwnSkinInBalloons": "A balloon with your own skin in /balloons",
         "applyParticlesAroundYourselfWithParticles": "/particles के साथ अपने चारों ओर कण लगाएं",
         "smokeACigarInMinecraftWithCigar": "/cigar के साथ Minecraft में सिगार पीयें",
         "viewCigarFeature": "सिगार सुविधा देखें",
@@ -657,22 +850,22 @@
         "viewSmokingACigar": "सिगार पीना देखें",
         "smokingACigar": "सिगार पीना",
         "makeYourselfGlowWithGlowGlowColorMatchesYour": "/glow के साथ खुद को चमकाएं! चमक का रंग आपके नाम के रंग से मेल खाता है",
+        "white": "सफ़ेद",
         "gray": "स्लेटी",
         "aqua": "पानी",
         "green": "हरा",
+        "classicGold": "Classic Gold",
         "skyBlue": "आसमानी नीला",
         "brightGreen": "चमकीला हरा",
         "malachite": "मैलाकाइट",
+        "purple": "बैंगनी",
+        "neonOrchid": "Neon Orchid",
+        "lavenderMist": "Lavender Mist",
         "gold": "सोना",
-        "white": "सफ़ेद",
-        "blue": "नीला",
-        "red": "लाल",
-        "yellow": "पीला",
-        "lightPurple": "हलका बैंगनी",
-        "darkGreen": "गहरा हरा",
-        "darkAqua": "डार्क एक्वा",
-        "darkRed": "गहरा लाल",
-        "black": "काला",
+        "midasGlow": "Midas Glow",
+        "sunlitGold": "Sunlit Gold",
+        "maximumRed": "Maximum Red",
+        "redSalsa": "Red Salsa",
         "changeTheColorOfYourChatMessagesWithChatcolor": "/chatcolor के साथ अपने चैट संदेशों का रंग बदलें",
         "color": "रंग",
         "prime": "Prime",
@@ -685,7 +878,8 @@
         "changeTheColorOfYourNameInChatWith": "/namecolor के साथ चैट में अपने नाम का रंग बदलें",
         "turnAnItemFrameInvisibleWithInvisframe": "/invisframe के साथ किसी आइटम फ़्रेम को अदृश्य करें",
         "editArmorStandsAndTheirPosition": "कवच स्टैंड और उनकी स्थिति संपादित करें",
-        "joinWithAVpnOrProxyVerificationNowRuns": "VPN या प्रॉक्सी के साथ जुड़ें। सत्यापन अब EnderDash के माध्यम से चलता है।",
+        "joinWithAVpnOrProxyWithoutTheExtra": "Join with a VPN or proxy without the extra verification.",
+        "noCaptchaNoChatLimitForNewPlayersAnd": "No captcha, no chat limit for new players and no extra login checks",
         "temporarilyGetUltraHighRenderDistanceWhenBuildingBases": "आधार बनाते समय या /buildermode के साथ स्क्रीनशॉट लेते समय अस्थायी रूप से अल्ट्रा हाई रेंडर दूरी प्राप्त करें",
         "weHaveProgrammedBuilderModeInAWaySo": "हमने बिल्डर मोड को इस तरह बनाया है कि यह P2W (पे-टू-विन) नहीं है। बहुत दूर जाने पर यह अपने-आप बंद हो जाता है और इस पर कूलडाउन भी लागू होता है।",
         "before": "पहले",
@@ -700,14 +894,16 @@
         "text30MinDuration30MinCooldown": "30 मिनट की अवधि / 30 मिनट का कूलडाउन",
         "text60MinDuration45MinCooldown": "60 मिनट की अवधि / 45 मिनट का कूलडाउन",
         "text90MinDuration60MinCooldown": "90 मिनट की अवधि / 60 मिनट का कूलडाउन",
-        "text120MinDuration90MinCooldown": "120 मिनट की अवधि / 90 मिनट का कूलडाउन",
+        "text120MinDuration80MinCooldown": "120 min duration / 80 min cooldown",
         "inTheHotspotCreateCommandYouCanSpecifyThe": "/hotspot क्रिएट कमांड में, आप हॉटस्पॉट की अवधि निर्दिष्ट कर सकते हैं। यदि आप अवधि निर्दिष्ट नहीं करते हैं, तो अधिकतम अवधि का उपयोग किया जाएगा। एक नया हॉटस्पॉट बनाने के बीच का कूलडाउन अवधि से जुड़ा होता है।",
         "command": "आज्ञा:",
         "durationAmpCooldown": "अवधि &amp; कूलडाउन",
         "theAmountOfTimeItTakesForHotspotTeleportation": "/hotspot टेलीपोर्टेशन को निष्पादित करने में जितना समय लगता है",
         "theAmountOfTimeItTakesForHotspotTeleportation2": "आपके हॉटस्पॉट पर सभी खिलाड़ियों को /hotspot टेलीपोर्टेशन निष्पादित करने में जितना समय लगता है",
         "setYourHotspotNameWithHotspotName": "अपना हॉटस्पॉट नाम /hotspot नाम से सेट करें",
-        "purple": "बैंगनी",
+        "blue": "नीला",
+        "red": "लाल",
+        "yellow": "पीला",
         "inTheHotspotCreateCommandYouCanSpecifyThe2": "/hotspot क्रिएट कमांड में, आप बॉसबार का रंग निर्दिष्ट कर सकते हैं।",
         "setAGlowColorForPlayersWhoTeleportTo": "/hotspot चमक के साथ आपके हॉटस्पॉट पर टेलीपोर्ट करने वाले खिलाड़ियों के लिए चमक रंग सेट करें",
         "setABalloonForPlayersWhoTeleportToYour": "उन खिलाड़ियों के लिए एक गुब्बारा सेट करें जो /hotspot गुब्बारों के साथ आपके हॉटस्पॉट पर टेलीपोर्ट करते हैं",
@@ -729,52 +925,39 @@
         "addReactionsToMessagesInGeneral": "#सामान्य में संदेशों पर प्रतिक्रियाएँ जोड़ें",
         "changeYourNickname": "अपना उपनाम बदलें",
         "streamVideoOrScreenshareInAllVoiceChannels": "सभी वॉयस चैनलों में वीडियो स्ट्रीम करें या स्क्रीन शेयर करें",
-        "advertiseYour6b6tProjectDailyInTheAdvertiseChannel": "#advertise चैनल में प्रतिदिन अपने 6b6t प्रोजेक्ट का विज्ञापन करें",
+        "advertiseYour6b6tProjectDailyInTheAdvertisingChannel": "Advertise your 6b6t project daily in the #advertising channel",
         "accessToLegendColorToChangeYourDiscordName": "अपने Discord नाम का रंग बदलने के लिए #legend-रंग तक पहुंच"
       },
       "imageModal": {
         "closeModal": "मोडल बंद करें"
       },
       "shopBuyButton": {
-        "creatingCheckoutSession": "चेकआउट सत्र बनाया जा रहा है...",
-        "checkoutSessionCreated": "चेकआउट सत्र बनाया गया!",
-        "close": "बंद करना",
-        "isThisAGift": "क्या ये एक तोहफा है?",
-        "ifYouBuyThisAsAGiftYouCan": "यदि आप इसे उपहार के रूप में खरीदते हैं, तो आप उपयोगकर्ता को उपहार संदेश भी प्रदान कर सकते हैं।",
-        "goToBillingPortal": "बिलिंग पोर्टल → पर जाएँ",
-        "theRefundPolicyForGiftedRanksIs14Days": "प्रतिभाशाली रैंकों के लिए धनवापसी नीति 14 दिन है।",
-        "readTheRefundPolicy": "Read the refund policy",
-        "buyForMe": "मेरे लिए खरीदो",
-        "buyAsGift": "उपहार के रूप में खरीदें",
-        "giftInformation": "उपहार सूचना",
-        "enterYourUsernameAndAnOptionalMessageForThe": "अपना उपयोगकर्ता नाम और प्राप्तकर्ता के लिए एक वैकल्पिक संदेश दर्ज करें।",
-        "whoIsThisGiftFrom": "यह उपहार किसका है? *",
-        "yourMinecraftUsername": "आपका Minecraft उपयोगकर्ता नाम",
-        "giftMessageOptional": "उपहार संदेश (वैकल्पिक)",
-        "writeAMessageForTheRecipient": "प्राप्तकर्ता के लिए एक संदेश लिखें...",
-        "cancel": "रद्द करना",
-        "continue": "जारी रखना",
-        "confirmGiftPurchase": "उपहार खरीद की पुष्टि करें",
-        "pleaseReviewTheGiftDetailsBeforeProceeding": "कृपया आगे बढ़ने से पहले उपहार विवरण की समीक्षा करें",
-        "from": "से",
-        "giftArrow": "उपहार तीर",
-        "to": "को",
-        "willReceive": "प्राप्त होगा",
-        "permanentRank": "स्थायी पद",
-        "pleaseVerifyAllDetailsAreCorrect": "⚠️ कृपया सत्यापित करें कि सभी विवरण सही हैं",
-        "goBack": "वापस जाओ",
-        "confirmContinue": "पुष्टि करें और जारी रखें",
-        "choosePaymentMethod": "भुगतान विधि चुनें",
-        "selectHowYouWouldLikeToPayFor": "चुनें कि आप किस प्रकार भुगतान करना चाहेंगे",
-        "payWithTebex": "Pay with Tebex",
-        "tebexComingSoon": "Tebex coming soon",
-        "paypalMore": "PayPal & more",
-        "selectTebexCheckout": "Tebex चेकआउट चुनें",
-        "paypal": "PayPal",
-        "crypto": "क्रिप्टो",
-        "cardOtherMethods": "कार्ड और अन्य तरीके",
-        "selectCardOrAnotherMethod": "कार्ड या अन्य विधि का चयन करें",
-        "allTransactionsAreSecureAndEncrypted": "सभी लेनदेन सुरक्षित और एन्क्रिप्टेड हैं"
+        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Could not open checkout. Your details have been kept. Please try again.",
+        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} has an active {{value2}} subscription. Its perks will no longer apply after this upgrade. The existing subscription is not canceled automatically; its payer must cancel it to avoid further charges.",
+        "thisRankCannotBeGifted": "This rank cannot be gifted",
+        "giftToValue1": "Gift to {{value1}}"
+      },
+      "shopCheckoutPanel": {
+        "giftARank": "Gift a rank",
+        "reviewYourPurchase": "Review your purchase",
+        "checkThePlayerAndPurchaseDetailsBeforePayment": "Check the player and purchase details before payment.",
+        "whoIsThisPurchaseFor": "Who is this purchase for?",
+        "forMyself": "For myself",
+        "sendAGift": "Send a gift",
+        "giftRecipient": "Gift recipient",
+        "minecraftPlayer": "Minecraft player",
+        "changeRecipient": "Change recipient",
+        "youPayTheRenewalsTheRecipientReceivesThePerks": "You pay the renewals. The recipient receives the perks. Manage cancellation using the billing portal link in your payment receipt email.",
+        "manageCancellationUsingTheBillingPortalLinkInYour": "Manage cancellation using the billing portal link in your payment receipt email.",
+        "youPayValue1ReceivesValue2AndASignedIn": "You pay. {{value1}} receives {{value2}} and a signed in-game book.",
+        "thisPurchaseGoesToValue1": "This purchase goes to {{value1}}.",
+        "haveACreatorCode": "Have a creator code?",
+        "checkYourCreatorCodeOrRemoveItToContinue": "Check your creator code, or remove it to continue.",
+        "openingSecureCheckout": "Opening secure checkout…",
+        "continueToPaymentValue1": "Continue to payment · {{value1}}",
+        "backToRanks": "Back to ranks",
+        "refundPolicy": "Refund policy",
+        "paymentDetailsAreEnteredOnThePaymentProviderS": "Payment details are entered on the payment provider's secure checkout. Eligible purchases have a 14-day refund window."
       }
     },
     "socialIcons": {
@@ -820,9 +1003,13 @@
         "text30OpacityCoverMode": "30% अपारदर्शिता • कवर मोड"
       },
       "giftBadgeDisplay": {
-        "text2025ChristmasLobbyChallengeBadge": "2025 क्रिसमस लॉबी चैलेंज बैज",
-        "text2025NewYearGiftEventBadge": "2025 नए साल का उपहार कार्यक्रम बैज",
+        "text2025ChristmasLobbyChallengeIcon": "2025 Christmas Lobby Challenge Icon",
+        "text2025NewYearGiftEventIcon": "2025 New Year Gift Event Icon",
         "completedThe2025ChristmasLobbyChallenge": "2025 क्रिसमस लॉबी चैलेंज पूरा किया"
+      },
+      "halloween2026BadgeDisplay": {
+        "foundAll310HeadsInThe6b6tLobbyDuring": "Found all 310 heads in the 6b6t lobby during Halloween 2026",
+        "text2026HalloweenLobbyHeadHuntIcon": "2026 Halloween Lobby Head Hunt Icon"
       },
       "legendThemeProvider": {
         "golden": "सुनहरा",
@@ -869,8 +1056,29 @@
         "aurora": "अरोड़ा",
         "snowy": "हिमाच्छन्न"
       },
+      "playerProfileContent": {
+        "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
+        "loadingPlayerTheme": "Loading player theme…",
+        "backToLeaderboards": "Back to leaderboards",
+        "memberSince": "Member since",
+        "playTime": "play_time",
+        "kills": "kills",
+        "deaths": "deaths",
+        "allTime": "all time",
+        "recordedStatistics": "Recorded statistics",
+        "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
+        "sStatisticsForTheLast7Days30Days": "'s statistics for the last 7 days, 30 days, and all time.",
+        "statistic": "Statistic",
+        "text7Days": "7 days",
+        "text30Days": "30 days",
+        "allTime2": "All time",
+        "noRecordedStatistics": "No recorded statistics",
+        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
+        "aboutRecordedTotals": "About recorded totals",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete."
+      },
       "playerBadgeDisplay": {
-        "text2025HalloweenChallengeBadge": "2025 हैलोवीन चैलेंज बैज",
+        "text2025HalloweenChallengeIcon": "2025 Halloween Challenge Icon",
         "completedThe2025HalloweenLobbyChallenge": "2025 हैलोवीन लॉबी चैलेंज पूरा किया"
       },
       "playerEffectDisplay": {
@@ -902,17 +1110,18 @@
         "frequentlyAskedQuestionsAbout": "के बारे में अक्सर पूछे जाने वाले प्रश्न"
       },
       "telegramBadgeDisplay": {
-        "text6b6tTelegramCommunityBadge": "6b6t टेलीग्राम समुदाय बैज",
+        "text6b6tTelegramCommunityIcon": "6b6t Telegram Community Icon",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "टेलीग्राम से जुड़े और वर्तमान में 6b6t समूह के सदस्य हैं"
       },
       "themedStatsRenderer": {
         "legend": "legend",
         "champion": "चैंपियन",
         "hero": "नायक",
+        "playerStats": "Player stats",
         "memberSince": "🗓️से सदस्य",
         "returnToLeaderboards": "लीडरबोर्ड पर लौटें",
         "statsReset": "आँकड़े रीसेट",
-        "statsWereResetOnMay222026DueTo": "डेटा भ्रष्टाचार के कारण 22 मई, 2026 को आँकड़े रीसेट कर दिए गए और उन्हें पुनर्प्राप्त नहीं किया जा सका। नीचे दिखाए गए आँकड़े उस तारीख से शुरू होते हैं।",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
         "isAPlayerOfThe6b6tAnarchyMinecraftServer": "6b6t एनार्की Minecraft सर्वर का एक प्लेयर है। वे तब से सदस्य हैं",
         "stat": "स्टेट",
         "noStatsAvailable": "कोई आँकड़े उपलब्ध नहीं",
@@ -927,7 +1136,7 @@
       },
       "treeBadgeDisplay": {
         "foundAllOfThe24ChristmasTreesDuring2025": "2025 क्रिसमस कार्यक्रम के दौरान सभी 24 क्रिसमस पेड़ मिले",
-        "text2025ChristmasEventBadge": "2025 क्रिसमस इवेंट बैज"
+        "text2025ChristmasEventIcon": "2025 Christmas Event Icon"
       }
     },
     "ui": {
@@ -949,8 +1158,8 @@
       "notification": {
         "dismissNotification": "अधिसूचना ख़ारिज करें"
       },
-      "sonner": {
-        "groupToastTextMutedForeground": "समूह-[.टोस्ट]:पाठ-म्यूट-अग्रभूमि"
+      "spinner": {
+        "loading": "Loading"
       }
     },
     "monitoring": {

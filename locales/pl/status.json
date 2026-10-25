@@ -1,24 +1,32 @@
 {
   "sections": {
     "statusClient": {
-      "text6b6tServerStatus": "STATUS SERWERA 6B6T",
-      "realTimeServerInformationAndPlayerStatistics": "Informacje o serwerze i statystyki graczy w czasie rzeczywistym",
-      "lastUpdated": "Ostatnia aktualizacja:",
-      "loading": "Ładowanie...",
-      "refresh": "Odśwież",
-      "currentPlayers": "Aktualni gracze",
-      "connectionFailed": "Połączenie nieudane",
-      "playersOnline": "graczy online",
-      "online": "Online",
-      "offline": "Offline",
-      "serverLimit": "Limit serwera",
-      "maximumCapacity": "maksymalna pojemność",
-      "capacity": "Pojemność",
-      "version": "Wersja",
-      "minecraftVersion": "wersja Minecraft",
-      "serverAddress": "Adres serwera",
-      "ping": "Ping",
-      "ms": "ms"
+      "serverStatus": "Server status",
+      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Current availability, player count and connection details for 6b6t.",
+      "lastCheckedValue1": "Last checked {{value1}}",
+      "checkingServerStatus": "Checking server status...",
+      "refreshing": "Refreshing...",
+      "refreshStatus": "Refresh status",
+      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "showingTheLastReceivedInformation": "Showing the last received information.",
+      "serverInformation": "Server information",
+      "checkingAvailability": "Checking availability",
+      "statusUnavailable": "Status unavailable",
+      "text6b6tIsOnline": "6b6t is online",
+      "text6b6tIsOffline": "6b6t is offline",
+      "playersOnline": "Players online",
+      "checking": "Checking...",
+      "playerCapacity": "Player capacity",
+      "minecraftVersion": "Minecraft version",
+      "autoRefresh": "Auto refresh",
+      "text30Seconds": "30 seconds"
+    },
+    "page": {
+      "onlineButCannotJoin": "Online but cannot join?",
+      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
+      "joiningInstructions": "Joining instructions",
+      "downloadAnarchymod": "Download AnarchyMod",
+      "connectionHelp": "Connection help"
     }
   }
 }

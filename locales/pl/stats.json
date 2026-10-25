@@ -1,37 +1,53 @@
 {
-  "page-name": "Statystyki",
-  "seo-description": "Zobacz najlepszych graczy w różnych kategoriach",
+  "page-name": "6b6t Stats: Player Lookup and Leaderboards",
+  "seo-description": "Look up a 6b6t player by name: playtime, kills, deaths and more. Browse the leaderboards and player profiles.",
   "sections": {
     "leaderboardStatisticCard": {
-      "rank": "Pozycja",
-      "name": "Nazwa",
-      "value": "Wartość",
-      "value1Value2": "{{value1}}{{value2}}",
-      "noDataAvailableForThisTimeRange": "Brak danych dla tego zakresu czasu",
-      "playersRanked": "graczy w rankingu",
-      "previousPage": "Poprzednia strona",
-      "nextPage": "Następna strona"
+      "value1Leaderboard": "{{value1}} leaderboard",
+      "allTime": "All time",
+      "player": "Player",
+      "timePlayed": "Time played",
+      "total": "Total",
+      "value1Value2Value3": "{{value1}}{{value2}}{{value3}}",
+      "eliteUltra": "Elite Ultra",
+      "noRecordedStatisticsForThisPeriod": "No recorded statistics for this period.",
+      "value1Value2OfValue3": "{{value1}}–{{value2}} of {{value3}}",
+      "text0Players": "0 players",
+      "previousValue1Players": "Previous {{value1}} players",
+      "nextValue1Players": "Next {{value1}} players"
     },
     "playerStatsSearch": {
-      "playerStatsSearch": "Wyszukiwanie statystyk gracza",
-      "lookUpAnyPlayer39SStatistics": "Sprawdź statystyki dowolnego gracza",
-      "enterMinecraftUsername": "Wpisz nick Minecraft...",
-      "search": "Szukaj"
+      "findAPlayer": "Find a player",
+      "lookUpAnyPlayer39SStatistics": "Look up any player&#39;s statistics",
+      "minecraftUsername": "Minecraft username",
+      "enterMinecraftUsername": "Enter Minecraft username...",
+      "search": "Search"
     },
     "statsPageContent": {
-      "playerStatistics": "Statystyki graczy",
-      "viewTheTopPlayersOn6b6tAcrossVariousStatistics": "Zobacz najlepszych graczy na 6b6t w różnych kategoriach statystyk. Wyszukaj konkretnego gracza lub przeglądaj rankingi poniżej.",
-      "statsReset": "Reset statystyk:",
-      "statsWereResetOnMay222026DueTo": "Statystyki zostały zresetowane 22 maja 2026 z powodu uszkodzenia danych i nie udało się ich odzyskać.",
-      "underMaintenance": "Przerwa techniczna",
-      "thisStatisticIsTemporarilyUnavailableWeReWorkingOn": "Ta statystyka jest tymczasowo niedostępna. Pracujemy nad przywróceniem najnowszych danych rankingowych tak szybko, jak to możliwe.",
-      "loadingStatisticsData": "Ładowanie danych statystyk..."
+      "playerStatistics": "Player statistics",
+      "compareLeaderboardsTimePeriodsAndPlayerProfiles": "Compare leaderboards, time periods, and player profiles.",
+      "playerDirectory": "Player directory",
+      "designPreviewSamplePlayersAndStatistics": "Design preview: sample players and statistics.",
+      "leaderboards": "Leaderboards",
+      "leaderboardTimePeriod": "Leaderboard time period",
+      "allTime": "All time",
+      "statisticCategory": "Statistic category",
+      "aboutRecordedTotals": "About recorded totals",
+      "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
+      "statisticsUnavailable": "Statistics unavailable",
+      "weCouldnTLoadTheLeaderboardsPleaseTryAgain": "We couldn't load the leaderboards. Please try again.",
+      "tryAgain": "Try again",
+      "noStatisticsAreAvailableInThisCategory": "No statistics are available in this category.",
+      "loadingStatistics": "Loading statistics...",
+      "noLeaderboardDataIsAvailableYet": "No leaderboard data is available yet."
     },
     "username": {
       "page": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loading": "Loading…"
       },
       "layout": {
+        "value1SampleStats6b6t": "{{value1}} - Sample stats | 6b6t",
         "loadingPlayerStats": "Loading player stats…"
       }
     }

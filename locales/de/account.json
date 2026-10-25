@@ -1,5 +1,22 @@
 {
   "sections": {
+    "accountProfilePanel": {
+      "gameProfile": "Game profile",
+      "playerAvatar": "Player avatar",
+      "value1Rank": "{{value1}} rank",
+      "text6b6tPlayer": "6b6t player",
+      "viewMyStats": "View my stats",
+      "linkedAccounts": "Linked accounts",
+      "chooseYourGameProfileAndManageItsSocialConnections": "Choose your game profile and manage its social connections.",
+      "subscriptionsBilling": "Subscriptions & billing",
+      "manageRecurringPaymentsAndViewYourBillingHistory": "Manage recurring payments and view your billing history.",
+      "openTheCreemBillingPortalToManageOrCancel": "Open the Creem billing portal to manage or cancel your 6b6t subscriptions.",
+      "noCreemSubscriptionIsLinkedToThisAccountYet": "No Creem subscription is linked to this account yet. Purchases made while signed in are linked automatically. For an existing subscription, use the secure portal link in your Creem receipt email.",
+      "theBillingPortalIsTemporarilyUnavailableTryAgainOr": "The billing portal is temporarily unavailable. Try again or use the portal link in your Creem receipt email.",
+      "manageSubscription": "Manage subscription",
+      "purchasedBeforeTheCreemMigration": "Purchased before the Creem migration?",
+      "openTheLegacyStripePortal": "Open the legacy Stripe portal"
+    },
     "apexGiftsPanel": {
       "yourApexRanks": "Your Apex ranks",
       "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
@@ -13,19 +30,23 @@
       "retryAssignment": "Retry assignment",
       "assignApexRank": "Assign Apex rank"
     },
-    "discordLinkedNotification": {
-      "discordLinked": "Discord Linked"
-    },
     "logOutButton": {
       "logOutIcon": "Log out icon",
       "logOut": "Log Out"
     },
     "loginForm": {
-      "couldNotStartLoginPleaseTryAgain": "Could not start login. Please try again.",
-      "loginToYourAccount": "Login to Your Account",
-      "useEnderdashToVerifyYourMinecraftAccountAndContinue": "Use EnderDash to verify your Minecraft account and continue to your 6b6t account.",
-      "openingLogin": "Opening login...",
-      "login": "Login"
+      "signInToYourAccount": "Sign in to your account",
+      "useMinecraftEmailOrAPasskeyToAccessYour": "Use Minecraft, email or a passkey to access your profiles and purchases.",
+      "signInOrCreateAnAccount": "Sign in or create an account",
+      "lostAccessToYourGameAccount": "Lost access to your game account?",
+      "recoverYourAccount": "Recover your account",
+      "manageYour6b6tAccount": "Manage your 6b6t account",
+      "gameSocialProfiles": "Game & social profiles",
+      "switchMinecraftProfilesAndManageDiscordAndTelegramConnections": "Switch Minecraft profiles and manage Discord and Telegram connections.",
+      "subscriptionsPurchases": "Subscriptions & purchases",
+      "accessBillingApexGiftsEligiblePhysicalProductsAndMotd": "Access billing, Apex gifts, eligible physical products and MOTD ads.",
+      "legendCustomization": "Legend customization",
+      "manageYourPlayerProfileThemeWithALegendRank": "Manage your player profile theme with a Legend rank."
     },
     "motdAdPanel": {
       "checkoutReserved": "Checkout reserved",
@@ -109,7 +130,7 @@
       "delivered": "Delivered",
       "notEligible": "Not eligible",
       "physicalProducts": "Physical products",
-      "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Manage eligible products and delivery from one place. Premium and cracked accounts are supported, and each product can only be claimed once per Minecraft identity. After purchasing a qualifying rank, you must wait 14 days before becoming eligible to claim its product.",
+      "manageEligibleProductsAndDeliveryFromOnePlacePremium": "Manage eligible products and delivery from one place. Premium and cracked accounts are supported, and each product can only be claimed once per Minecraft profile. After purchasing a qualifying rank, you must wait 14 days before becoming eligible to claim its product.",
       "productEligibility": "Product eligibility",
       "noEligiblePurchaseFoundQualifyingRankPurchasesBecomeEligible": "No eligible purchase found. Qualifying rank purchases become eligible after 14 days.",
       "destination": "Destination:",
@@ -144,62 +165,74 @@
       "tellUsWhatYouBoughtAndWhenForThree": "Tell us what you bought and when. For three monthly Legend payments, include all known dates or references.",
       "deliveryDetails": "Delivery details",
       "encryptedAndUsedOnlyIfAnAdminApproves": "Encrypted and used only if an admin approves.",
-      "iConfirmThePurchaseAndDeliveryDetailsAreAccurate": "I confirm the purchase and delivery details are accurate. I understand this is a one-time request and approval is manual.",
-      "noFulfillmentOrderIsCreatedUntilApproval": "No fulfillment order is created until approval.",
+      "iConfirmThe": "I confirm the",
+      "gift": "gift",
+      "purchase": "purchase",
+      "andDeliveryDetailsAreAccurateIUnderstandThisIs": "and delivery details are accurate. I understand this is a one-time request and approval is manual.",
+      "weLlReviewYourEligibilityBeforeShippingYourMerch": "We’ll review your eligibility before shipping your merch.",
       "submitting": "Submitting…",
-      "submitForReview": "Submit for review"
+      "submitForReview": "Submit for review",
+      "didYouPurchaseThisRankOrReceiveItAs": "Did you purchase this rank or receive it as a gift?",
+      "chooseAnOptionToContinueYourMerchClaim": "Choose an option to continue your merch claim.",
+      "iReceivedItAsAGift": "I received it as a gift",
+      "iPurchasedIt": "I purchased it",
+      "enterYourShippingDetailsNoPurchaseEmailOrReceipt": "Enter your shipping details. No purchase email or receipt needed.",
+      "provideYourPurchaseDetails": "Provide your purchase details."
     },
-    "telegramLinkButton": {
-      "howToLinkTelegram": "How to link Telegram",
-      "joinThe6b6tTelegramGroup": "Join the 6b6t Telegram group.",
-      "clickContinueWithTelegramOnThisPage": "Click Continue With Telegram on this page.",
-      "finishLoginInTheTelegramPopupWidget": "Finish login in the Telegram popup widget.",
-      "telegramConnected": "Telegram Connected",
-      "connectedWithValue1": "Connected with @{{value1}}",
-      "connectedWithTelegramIdValue1": "Connected with Telegram ID {{value1}}",
-      "membershipStatus": "Membership status:",
-      "lastChecked": "Last checked:",
-      "telegramLinkedSuccessfully": "Telegram linked successfully.",
-      "telegramCouldNotVerifyGroupMembershipJoinTheGroup": "Telegram could not verify group membership. Join the group first, then click Continue With Telegram again.",
-      "step1Join6b6tTelegramGroup": "Step 1: Join 6b6t Telegram Group",
-      "afterYouJoinComeBackHereAndClick": "After you join, come back here and click",
-      "continueWithTelegram": "Continue With Telegram",
-      "toVerify": "to verify.",
-      "telegramVerificationFailedPleaseTryAgain": "Telegram verification failed. Please try again.",
-      "preparingTelegramLogin": "Preparing Telegram Login...",
-      "step2ContinueWithTelegram": "Step 2: Continue With Telegram",
-      "step3ClickTheTelegramButtonBelowToComplete": "Step 3: click the Telegram button below to complete linking."
+    "socialProfileSelectors": {
+      "discord": "Discord",
+      "telegram": "Telegram",
+      "couldNotLoadYourConnectedAccounts": "Could not load your connected accounts.",
+      "tryAgain": "Try again",
+      "joinThe": "Join the",
+      "text6b6tTelegramGroup": "6b6t Telegram group",
+      "toReceiveTwoExtraHomesAndAStatsPage": "to receive two extra homes and a stats page icon.",
+      "eachConnectedAccountCanBeUsedByOneGame": "Each connected account can be used by one game profile. Applying it here moves it from its previous profile.",
+      "manageConnectedAccounts": "Manage connected accounts",
+      "none": "none",
+      "none2": "None",
+      "legacy": "legacy",
+      "value1ExistingLink": "{{value1}} (existing link)",
+      "chooseAnAccount": "Choose an account",
+      "existingLink": "(existing link)",
+      "applying": "Applying…",
+      "apply": "Apply",
+      "connecting": "Connecting…",
+      "connectDiscord": "Connect Discord",
+      "connectTelegram": "Connect Telegram",
+      "linkedTo": "Linked to",
+      "clickApplyToSaveYourNewSelection": "Click Apply to save your new selection.",
+      "notLinkedYetClickApplyToMove": "Not linked yet. Click Apply to move",
+      "fromYourOtherGameProfileToThisOne": "from your other game profile to this one.",
+      "notLinkedYetClickApplyToLink": "Not linked yet. Click Apply to link",
+      "toThisGameProfile": "to this game profile.",
+      "notLinkedYetChooseAnAccountThenClickApply": "Not linked yet. Choose an account, then click Apply.",
+      "notLinkedYetConnectYour": "Not linked yet. Connect your",
+      "accountThenClickApply": "account, then click Apply.",
+      "yourExistingLinkStillWorksConnectThisAccountOnce": "Your existing link still works. Connect this account once to add it to your website account and select it for other profiles."
     },
     "themeEffectsOverlay": {
       "themePreview": "Theme Preview:",
       "thisIsHowYourThemeWillLook": "This is how your theme will look!"
     },
+    "admin": {
+      "users": {
+        "websiteUsers6b6t": "Website users | 6b6t",
+        "robots": "robots",
+        "noindex": "noindex",
+        "websiteUsers": "Website users",
+        "backToAccountSettings": "Back to account settings"
+      }
+    },
     "page": {
-      "playerAvatar": "Player avatar",
-      "text6b6tPlayer": "6b6t Player",
-      "discordLogo": "Discord Logo",
-      "discordIntegration": "Discord Integration",
-      "onlyOneDiscordAccountCanBeLinkedToA": "Only one Discord account can be linked to a Minecraft account at a time. Linking a new Discord account will unlink the previous one.",
-      "currentlyLinkedTo": "Currently linked to:",
-      "telegramIntegrationIcon": "Telegram integration icon",
-      "telegramIntegration": "Telegram Integration",
-      "linkYourTelegramIn2StepsJoinThe6b6t": "Link your Telegram in 2 steps: join the 6b6t Telegram group, then click Continue With Telegram. You get 2+ homes and a special badge on your",
-      "statsPage": "stats page",
-      "subscriptionManagementIcon": "Subscription management icon",
-      "subscriptionManagement": "Subscription Management",
-      "manageYour6b6tServerSubscriptionsViewBillingHistoryAnd": "Manage your 6b6t server subscriptions, view billing history, and cancel recurring payments through the Creem billing portal.",
-      "noCreemSubscriptionIsLinkedToThisAccountYet": "No Creem subscription is linked to this account yet. New subscriptions purchased while signed in are linked automatically. For an existing subscription, use the secure portal link in your Creem receipt email.",
-      "theBillingPortalIsTemporarilyUnavailablePleaseTryAgain": "The billing portal is temporarily unavailable. Please try again or use the portal link in your Creem receipt email.",
-      "externalLinkIcon": "External link icon",
-      "manageSubscription": "Manage Subscription",
-      "haveASubscriptionFromBeforeTheCreemMigration": "Have a subscription from before the Creem migration?",
-      "openTheLegacyStripePortal": "Open the legacy Stripe portal",
-      "viewStatisticsIcon": "View statistics icon",
-      "viewMyStats": "View My Stats",
-      "discordLinkedRole": "Discord Linked Role",
-      "linkDiscord": "Link Discord",
+      "loadingAccountDetails": "Loading account details",
+      "accountDetailsUnavailable": "Account details unavailable",
+      "weCouldnTLoadYourAccountTryAgainOr": "We couldn't load your account. Try again, or contact us if the problem continues.",
+      "tryAgain": "Try again",
+      "contactSupport": "Contact support",
+      "chooseYourGameProfile": "Choose your game profile",
+      "linkOrSelectAMinecraftProfileToManageIts": "Link or select a Minecraft profile to manage its ranks and services.",
       "loadingApexGifts": "Loading Apex gifts…",
-      "legendRankLockIcon": "Legend rank lock icon",
       "legendThemeControls": "Legend Theme Controls",
       "themeCustomizationIsExclusivelyAvailableTo": "Theme customization is exclusively available to",
       "legend": "Legend",
@@ -208,9 +241,8 @@
       "yourRankDataIsNotAvailableOrYouHaven": "Your rank data is not available or you haven&apos;t achieved Legend status yet.",
       "getLegendRank": "Get Legend Rank",
       "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again.",
-      "accountManagement": "Account Management",
-      "manageYour6b6tAccountAndLinkedServices": "Manage your 6b6t account and linked services.",
-      "loadingAccountDetails": "Loading account details"
+      "yourAccount": "Your account",
+      "manageYour6b6tAccountAndLinkedServices": "Manage your 6b6t account and linked services."
     },
     "layout": {
       "alexprogrammerde": "AlexProgrammerDE",
@@ -222,6 +254,13 @@
       "yes": "yes",
       "no": "no",
       "default": "default"
+    },
+    "settings": {
+      "path": {
+        "accountSettings": "Account settings",
+        "backToMinecraftAccounts": "Back to Minecraft accounts",
+        "manageUsers": "Manage users"
+      }
     }
   }
 }

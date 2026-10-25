@@ -1,8 +1,8 @@
 {
   "sections": {
     "notFound": {
-      "pageNotFound": "nie znaleziono strony",
-      "home": "Strona Główna"
+      "pageNotFound": "Page not found",
+      "home": "Home"
     }
   }
 }

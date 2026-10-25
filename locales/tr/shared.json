@@ -12,6 +12,7 @@
           "thisAdjustmentWasAlreadyAppliedTotalValue1": "Bu düzenleme zaten uygulanmış. Toplam: {{value1}}."
         },
         "admin": {
+          "all": "all",
           "pending": "Beklemede"
         },
         "apexGifts": {
@@ -79,13 +80,8 @@
             "captchaVerificationFailed": "Captcha doğrulaması başarısız oldu",
             "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "Kurtarma oturumunun süresi doldu veya geçersiz. Lütfen kurtarmayı yeniden başlatın.",
             "yourRequestWasReceivedIfTheAccountExistsAnd": "Talebiniz alındı. Hesap mevcutsa ve sağlanan kanıt doğrulanabilirse destek ekibi sizinle iletişime geçecektir.",
-            "manualReviewIsNotAvailableForThisRecoverySession": "Bu kurtarma oturumu için manuel inceleme henüz kullanılamıyor. Önce kurtarma akışına devam edin.",
             "pending": "Beklemede",
-            "aPendingManualReviewTicketAlreadyExistsForThis": "Bu hesap için bekleyen bir manuel inceleme bileti zaten mevcut. Lütfen incelemeyi bekleyin.",
-            "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
-            "couldNotNotifyTheAccountOwnerManualTicketWas": "Hesap sahibine bildirim gönderilemedi. Manuel talep gönderilmedi.",
-            "couldNotLinkTheAccountOwnerNotificationToThis": "Hesap sahibi bildirimi bu manuel talebe bağlanamadı. Manuel talep gönderilmedi.",
-            "manualRecoveryTicketSubmittedSuccessfullyTheSupportTeamWill": "Manuel kurtarma bileti başarıyla gönderildi. Destek ekibi inceleyecektir."
+            "ownerNotificationIsTemporarilyUnavailable": "Owner notification is temporarily unavailable."
           },
           "recover": {
             "ifThisAccountExistsRecoveryOptionsWillBeShown": "Bu hesap mevcutsa, kurtarma seçenekleri gösterilecektir.",
@@ -146,15 +142,11 @@
             "passwordHasBeenResetSuccessfullyYouCanNowLog": "Şifre başarıyla sıfırlandı. Artık yeni şifrenizle giriş yapabilirsiniz."
           }
         },
+        "reviewRecoveryTicket": {
+          "emailSendFailed": "email_send_failed"
+        },
         "serverStatus": {
           "unknown": "Bilinmiyor"
-        },
-        "telegramStart": {
-          "youMustBeLoggedInToLinkTelegram": "Telegram'ı bağlamak için giriş yapmış olmalısınız.",
-          "telegramLinkingIsNotEnabledForYourAccountYet": "Telegram bağlama hesabınız için henüz etkin değil.",
-          "theLoggedInMinecraftUsernameIsInvalid": "Giriş yapılan Minecraft kullanıcı adı geçersiz.",
-          "telegramLoginIsNotConfiguredMissingTelegramBotUsername": "Telegram girişi yapılandırılmamış. TELEGRAM_BOT_USERNAME eksik.",
-          "telegramLoginIsNotConfiguredMissingCookieSecretOn": "Telegram girişi yapılandırılmamış. Sunucuda COOKIE_SECRET eksik."
         },
         "youtubeShorts": {
           "maxres1280x720": "maxres (1280x720)",
@@ -166,6 +158,129 @@
           "noVideosFoundForThisChannel": "Bu kanal için video bulunamadı",
           "noYoutubeShortsFoundForThisChannel": "Bu kanal için YouTube Shorts bulunamadı"
         }
+      }
+    },
+    "auth": {
+      "additionalField": {
+        "noItemsFound": "No items found."
+      },
+      "admin": {
+        "adminUsers": {
+          "email": "email",
+          "name": "name",
+          "contains": "contains",
+          "startsWith": "starts_with",
+          "endsWith": "ends_with",
+          "all": "all",
+          "active": "active",
+          "banned": "banned",
+          "value1Value2": "{{value1}}:{{value2}}"
+        },
+        "linkHistoryTab": {
+          "appendOnlyRecordOfAccountLinksUseItAs": "Append-only record of account links. Use it as evidence for lost-account requests; rows marked backfill describe links that existed when the history started.",
+          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Find accounts by Minecraft UUID, Discord ID, Telegram ID or email",
+          "thisAccount": "This account",
+          "noLinkHistoryYet": "No link history yet.",
+          "when": "When",
+          "change": "Değiştir",
+          "value": "Value",
+          "signedInWith": "Signed in with",
+          "websiteAccount": "Website account",
+          "backfill": "backfill",
+          "by": "by",
+          "ip": "ip"
+        }
+      },
+      "authCaptcha": {
+        "captchaVerification": "CAPTCHA verification"
+      },
+      "authForm": {
+        "unableToSubmitThisFormTryAgain": "Unable to submit this form. Try again."
+      },
+      "dash": {
+        "activity": {
+          "all": "all"
+        }
+      },
+      "emailOtp": {
+        "changeEmailOtp": {
+          "email": "email",
+          "currentcode": "currentCode",
+          "newcode": "newCode"
+        }
+      },
+      "minecraftAccounts": {
+        "gameProfile": "Game profile",
+        "couldNotLoadYourAccounts": "Could not load your accounts.",
+        "tryAgain": "Try again"
+      },
+      "minecraftIdentityActions": {
+        "linkAnotherProfile": "Link another profile",
+        "linkAGameProfile": "Link a game profile",
+        "manageProfiles": "Manage profiles"
+      },
+      "minecraftIdentityPicker": {
+        "couldNotLoadYourGameProfiles": "Could not load your game profiles."
+      },
+      "minecraftIdentitySelect": {
+        "gameProfile": "Game profile",
+        "chooseAGameProfile": "Choose a game profile"
+      },
+      "oauthProvider": {
+        "authorizedApplication": {
+          "value1Value2": "{{value1}} {{value2}}"
+        },
+        "oauthClients": {
+          "web": "web",
+          "native": "native",
+          "openidProfileEmail": "openid profile email"
+        }
+      },
+      "requiredEmailForm": {
+        "yourEmailIsNotVerifiedYetOpenTheLink": "Your email is not verified yet. Open the link in your inbox, then try again.",
+        "enterAValidEmailAddressYouCanAccess": "Enter a valid email address you can access.",
+        "couldNotCompleteTheRequestPleaseTryAgain": "Could not complete the request. Please try again.",
+        "linkYourEmailToContinue": "Link your email to continue",
+        "verifyAnEmailAddressToUseYour6b6tWebsite": "Verify an email address to use your 6b6t website account. This gives you a way to sign in and recover access if you need it.",
+        "emailAddress": "Email address",
+        "check": "Check",
+        "forAVerificationLinkIfItDoesNotArrive": "for a verification link. If it does not arrive, check your spam folder or try a different email address.",
+        "sendAgainInValue1S": "Send again in {{value1}}s",
+        "sendAnotherLink": "Send another link",
+        "sendVerificationLink": "Send verification link",
+        "signOut": "Sign out",
+        "iVeVerifiedMyEmail": "I’ve verified my email"
+      },
+      "settings": {
+        "security": {
+          "activeSession": {
+            "unknownBrowser": "Unknown Browser",
+            "value1": ", {{value1}}"
+          },
+          "changePassword": {
+            "addAVerifiedEmailIn": "Add a verified email in",
+            "accountSettings": "account settings",
+            "beforeSettingAPassword": "before setting a password."
+          }
+        }
+      },
+      "stepUp": {
+        "stepUpDialog": {
+          "confirmItIsYou": "Confirm it is you",
+          "weSentA6DigitCodeToTheEmail": "We sent a 6-digit code to the email address on your account. It works for 10 minutes and only once.",
+          "enterThe6DigitCodeFromYourAuthenticatorApp": "Enter the 6-digit code from your authenticator app.",
+          "confirmationCode": "Confirmation code",
+          "sendANewCode": "Send a new code",
+          "useMyAuthenticatorApp": "Use my authenticator app",
+          "useAnEmailCode": "Use an email code",
+          "confirm": "Confirm"
+        }
+      },
+      "websiteAuthProvider": {
+        "minecraft": "Minecraft",
+        "discord": "Discord",
+        "google": "Google",
+        "telegram": "Telegram"
       }
     },
     "communityEventCountdown": {
@@ -184,9 +299,6 @@
       "finalizing": "Sonlandırılıyor",
       "ended": "Sona erdi",
       "live": "Canlı",
-      "theDupeEventHasEnded": "Dupe Etkinliği sona erdi.",
-      "thanksForParticipatingAndMakingTheEventUnforgettableKeep": "Etkinliğe katıldığınız ve onu unutulmaz kıldığınız için teşekkürler. Ganimetinizi güvende tutun—anarşi 6b6t'de devam ediyor.",
-      "keepPlaying": "Oynamaya devam et",
       "dupeEvent": "Dupe Etkinliği",
       "viewEvent": "Etkinliği görüntüle",
       "manyPowerfulDupesAreEnabledOn6b6t": "6b6t'de birçok güçlü dupe etkinleştirildi.",
@@ -218,6 +330,15 @@
       "weCouldNotLoadThisPagePleaseTryAgain": "Bu sayfa yüklenemedi. Lütfen tekrar deneyin."
     },
     "layout": {
+      "accountMenu": {
+        "accountNavigation": "Account navigation",
+        "account": "Hesap",
+        "loadingAccount": "Loading account",
+        "profile": "Profile",
+        "settings": "Settings",
+        "signOut": "Sign out",
+        "signIn": "Sign in"
+      },
       "copyButton": {
         "copied": "Kopyalandı!",
         "copy": "Kopyala"
@@ -234,6 +355,18 @@
         "about": "Hakkında",
         "about6b6t": "6b6t Hakkında",
         "votingRewards": "Oy verme ödülleri",
+        "informationAbout2b2tQueue": "Information about 2b2t queue",
+        "join6b6t": "Join 6b6t",
+        "connectionHelp": "Connection help",
+        "rulesAndGameplay": "Rules and gameplay",
+        "history": "Tarih",
+        "hytale": "Hytale",
+        "legendRank": "Legend rank",
+        "antiSpamLogs": "Anti-spam logs",
+        "newsletter": "Newsletter",
+        "accountRecovery": "Account recovery",
+        "blog": "Blog",
+        "anarchyServerGuide": "Anarchy server guide",
         "contact": "İletişim",
         "termsOfService": "Kullanım Şartları",
         "privacyPolicy": "Gizlilik Politikası",
@@ -241,15 +374,17 @@
         "server": "Sunucu",
         "shop": "Mağaza",
         "vote": "Oy Ver",
+        "anarchymod": "AnarchyMod",
         "commands": "Komutlar",
         "stats": "İstatistikler",
+        "playerDirectory": "Player directory",
         "updates": "Güncellemeler",
         "status": "Durum",
         "mostUsefulCommands": "En kullanışlı komutlar",
         "text6b6tMinecraftServerLogo": "6b6t Minecraft Sunucusu Logosu",
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
-        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t, kuralsız, cezasız ve sırasız bir survival Minecraft anarşi sunucusudur. Oyuncular, aynı anda 2000 oyuncuyu destekleyen bir dünyada istedikleri her şeyi yapabilir ve /tpa ve /home gibi komutları kullanabilirler.",
+        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft anarchy since 2022. Java: play.6b6t.org with AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
         "serverAddress": "Sunucu Adresi:",
         "teleportToAPlayer": "Bir oyuncuya ışınlan",
         "teleportToYourHome": "Home'una ışınlan",
@@ -284,7 +419,7 @@
         "stats": "İstatistikler",
         "commands": "Komutlar",
         "shop": "Mağaza",
-        "account": "Hesap",
+        "anarchymod": "AnarchyMod",
         "hytale": "Hytale",
         "updates": "Güncellemeler",
         "history": "Tarih",
@@ -350,6 +485,38 @@
         "dinnerbone": "Dinnerbone",
         "thisWillBeUsedToLinkYourPurchasesTo": "Bu, satın alımlarınızı Minecraft hesabınızla ilişkilendirmek için kullanılacaktır.",
         "loading": "Yükleniyor..."
+      }
+    },
+    "newsletter": {
+      "newsletterEmailSignup": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "email": "Email",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click."
+      },
+      "newsletterPromptContent": {
+        "text6b6tNewsletter": "6b6t newsletter",
+        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang blacklisted 6b6t. Then they took down our GitHub. Email is the only thing they can't take.",
+        "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
+        "serverUpdates": "Server updates",
+        "events": "Events",
+        "weSendItToYourAccountEmail": "We send it to your account email:",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
+        "noThanks": "No thanks",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
+      },
+      "newsletterSignup": {
+        "emailNewsletter": "Email newsletter",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again. Unsubscribe with one click.",
+        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Could not load your newsletter preference. Please refresh the page.",
+        "youJoinedThe6b6tNewsletter": "You joined the 6b6t newsletter.",
+        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "joining": "Joining…",
+        "joinNewsletter": "Join newsletter"
       }
     },
     "notFoundPage": {
@@ -439,7 +606,6 @@
     },
     "serverConnectionModal": {
       "text6b6t": "6b6t",
-      "text6b6t2": "6b6t 2",
       "text6b6t3": "6b6t 3",
       "copyValue1": "{{value1}} Kopyala",
       "openValue1InMinecraftBedrock": "{{value1}}'i Minecraft Bedrock'ta Aç",
@@ -474,6 +640,25 @@
       "done": "Tamam"
     },
     "shop": {
+      "checkoutGiftFields": {
+        "nameOnTheGiftBook": "Name on the gift book",
+        "shownToTheRecipientInASignedInGame": "Shown to the recipient in a signed in-game book. This is separate from your billing name.",
+        "editYourPersonalMessage": "Edit your personal message",
+        "addAPersonalMessageOptional": "Add a personal message (optional)",
+        "giftBookMessage": "Gift book message",
+        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 characters. Included in the gift book."
+      },
+      "checkoutPaymentOptions": {
+        "payWith": "Pay with",
+        "cardAndWallets": "Card and wallets",
+        "cardAmpWallets": "Card &amp; wallets",
+        "paypalCryptoAndMore": "PayPal, crypto and more",
+        "paypalCryptoAmpMore": "PayPal, crypto &amp; more"
+      },
+      "creatorCodeField": {
+        "creatorCodeOptional": "Creator code (optional)",
+        "supportACreatorWithYourPurchaseYourPriceStays": "Support a creator with your purchase. Your price stays the same."
+      },
       "featureDefinitions": {
         "prefix": "Önek",
         "homes": "Homelar",
@@ -481,6 +666,7 @@
         "chatcolors": "chatcolors",
         "hat": "hat",
         "sit": "sit",
+        "lay": "lay",
         "invisframe": "invisframe",
         "balloons": "Balonlar",
         "namecolor": "namecolor",
@@ -518,6 +704,9 @@
         "apexPrefix": "Apex Öneki",
         "primeUltraPrefix": "Prime Ultra Öneki",
         "eliteUltraPrefix": "Elite Ultra Öneki",
+        "prefixStyle": "Prefix Style",
+        "notIncluded": "Dahil değil",
+        "included": "Dahil",
         "duration": "Süre",
         "duration2": "Süre",
         "lifetime": "Ömür Boyu",
@@ -548,18 +737,18 @@
         "tpaExecutionTimeDiagram": "/tpa çalışma süresi diyagramı",
         "skin2": "Skin",
         "skinCommandInterface": "Skin komutu arayüzü",
-        "included": "Dahil",
         "hat2": "Şapka",
         "hatCommandInterface": "Şapka komutu arayüzü",
-        "notIncluded": "Dahil değil",
         "sit2": "Oturma",
         "sitCommandInterface": "Oturma komutu arayüzü",
+        "lay2": "Lay",
         "balloons2": "Balonlar",
         "balloonsCommandInterface": "Balon komutu arayüzü",
         "text5Balloons": "5 Balon",
-        "text40Balloons": "40 Balon",
+        "text50Balloons": "50 Balloons",
         "text3Balloons": "3 Balon",
-        "text30Balloons": "30 Balon",
+        "text35Balloons": "35 Balloons",
+        "skinBalloon": "Skin Balloon",
         "particles2": "Parçacıklar",
         "particlesFeature": "Parçacıklar özelliği",
         "cigar2": "Puro",
@@ -576,6 +765,7 @@
         "invisframeCommandInterface": "Invisframe komutu arayüzü",
         "editArmorStands": "Zırh Standlarını Düzenle",
         "joinWithVpns": "VPN ile Katıl",
+        "skipBotChecks": "Skip Bot Checks",
         "builderMode": "İnşa Modu",
         "text22Chunks": "22 chunk",
         "text32Chunks": "32 chunk",
@@ -640,6 +830,7 @@
         "advertiseChannel": "Reklam Kanalı",
         "legendNameColor": "Legend İsim Rengi",
         "thePrefixShownBeforeYourNameInChatAnd": "Sohbette ve oyuncu listesinde isminizden önce gösterilen önek.",
+        "pickHowYourPrefixLooksWithPrefixAShort": "Pick how your prefix looks with /prefix: a short version (like APX) or a lower rank&apos;s prefix",
         "howLongYourRankLastsAfterPurchasePrimeElite": "Rank'ınızın satın alma sonrası ne kadar süreceği. Prime, Elite ve Apex sonsuza kadar geçerlidir.",
         "howManyHomesYouCanSetWithSethome": "/sethome ile kaç home ayarlayabileceğiniz",
         "timeYouMustWaitBetweenHomeSethomeUses": "/home ve /sethome kullanımları arasında beklemeniz gereken süre",
@@ -649,7 +840,9 @@
         "changeYourSkinWithSkin": "/skin ile skininizi değiştirin",
         "wearTheItemInYourHandAsAHat": "/hat ile elinizdeki eşyayı şapka olarak takın",
         "sitOnTheBlockYouRsquoReStandingOn": "/sit ile üzerinde durduğunuz bloğa oturun",
+        "lieDownOnTheBlockYouAposReStanding": "Lie down on the block you&apos;re standing on with /lay",
         "putABalloonInYourHandWithBalloons": "/balloons ile elinize bir balon alın",
+        "aBalloonWithYourOwnSkinInBalloons": "A balloon with your own skin in /balloons",
         "applyParticlesAroundYourselfWithParticles": "/particles ile etrafınıza parçacık efekti uygulayın",
         "smokeACigarInMinecraftWithCigar": "/cigar ile Minecraft'ta puro için",
         "viewCigarFeature": "Puro özelliğini görüntüle",
@@ -657,22 +850,22 @@
         "viewSmokingACigar": "Puro içmeyi görüntüle",
         "smokingACigar": "Puro içmek",
         "makeYourselfGlowWithGlowGlowColorMatchesYour": "/glow ile parlayın! Parlama rengi isim renginizle eşleşir",
+        "white": "Beyaz",
         "gray": "Gri",
         "aqua": "Camgöbeği",
         "green": "Yeşil",
+        "classicGold": "Classic Gold",
         "skyBlue": "Gök Mavisi",
         "brightGreen": "Parlak Yeşil",
         "malachite": "Malakit",
+        "purple": "Mor",
+        "neonOrchid": "Neon Orchid",
+        "lavenderMist": "Lavender Mist",
         "gold": "Altın",
-        "white": "Beyaz",
-        "blue": "Mavi",
-        "red": "Kırmızı",
-        "yellow": "Sarı",
-        "lightPurple": "Açık Mor",
-        "darkGreen": "Koyu Yeşil",
-        "darkAqua": "Koyu Camgöbeği",
-        "darkRed": "Koyu Kırmızı",
-        "black": "Siyah",
+        "midasGlow": "Midas Glow",
+        "sunlitGold": "Sunlit Gold",
+        "maximumRed": "Maximum Red",
+        "redSalsa": "Red Salsa",
         "changeTheColorOfYourChatMessagesWithChatcolor": "/chatcolor ile sohbet mesajlarınızın rengini değiştirin",
         "color": "Renk",
         "prime": "Prime",
@@ -685,7 +878,8 @@
         "changeTheColorOfYourNameInChatWith": "/namecolor ile sohbetteki isminizin rengini değiştirin",
         "turnAnItemFrameInvisibleWithInvisframe": "/invisframe ile bir eşya çerçevesini görünmez yapın",
         "editArmorStandsAndTheirPosition": "Zırh askılarını ve konumlarını düzenleyin",
-        "joinWithAVpnOrProxyVerificationNowRuns": "VPN veya proxy ile katılın. Doğrulama artık EnderDash üzerinden çalışıyor.",
+        "joinWithAVpnOrProxyWithoutTheExtra": "Join with a VPN or proxy without the extra verification.",
+        "noCaptchaNoChatLimitForNewPlayersAnd": "No captcha, no chat limit for new players and no extra login checks",
         "temporarilyGetUltraHighRenderDistanceWhenBuildingBases": "/buildermode ile üs inşa ederken veya ekran görüntüsü alırken geçici olarak ultra yüksek render mesafesine sahip olun",
         "weHaveProgrammedBuilderModeInAWaySo": "İnşa Modu'nu P2W (parayla kazanma) olmayacak şekilde programladık. Çok uzağa hareket ettiğinizde otomatik olarak devre dışı kalır ve bir bekleme süresi vardır.",
         "before": "Önce",
@@ -700,14 +894,16 @@
         "text30MinDuration30MinCooldown": "30 dk süre / 30 dk bekleme süresi",
         "text60MinDuration45MinCooldown": "60 dk süre / 45 dk bekleme süresi",
         "text90MinDuration60MinCooldown": "90 dk süre / 60 dk bekleme süresi",
-        "text120MinDuration90MinCooldown": "120 dk süre / 90 dk bekleme süresi",
+        "text120MinDuration80MinCooldown": "120 min duration / 80 min cooldown",
         "inTheHotspotCreateCommandYouCanSpecifyThe": "/hotspot create komutunda Hotspot'un süresini belirtebilirsiniz. Süreyi belirtmezseniz, maksimum süre kullanılır. Yeni bir Hotspot oluşturma arasındaki bekleme süresi, süreyle bağlantılıdır.",
         "command": "Komut:",
         "durationAmpCooldown": "Süre &amp; Bekleme Süresi",
         "theAmountOfTimeItTakesForHotspotTeleportation": "/hotspot ışınlanmasının gerçekleşmesi için geçen süre",
         "theAmountOfTimeItTakesForHotspotTeleportation2": "Tüm oyuncuların Hotspot'unuza /hotspot ışınlanmasının gerçekleşmesi için geçen süre",
         "setYourHotspotNameWithHotspotName": "/hotspot name ile Hotspot adınızı ayarlayın",
-        "purple": "Mor",
+        "blue": "Mavi",
+        "red": "Kırmızı",
+        "yellow": "Sarı",
         "inTheHotspotCreateCommandYouCanSpecifyThe2": "/hotspot create komutunda bossbar'ın rengini belirtebilirsiniz.",
         "setAGlowColorForPlayersWhoTeleportTo": "/hotspot glow ile Hotspot'unuza ışınlanan oyuncular için bir parlama rengi ayarlayın",
         "setABalloonForPlayersWhoTeleportToYour": "/hotspot balloons ile Hotspot'unuza ışınlanan oyuncular için bir balon ayarlayın",
@@ -729,52 +925,39 @@
         "addReactionsToMessagesInGeneral": "#general kanalındaki mesajlara tepki ekleyin",
         "changeYourNickname": "Takma adınızı değiştirin",
         "streamVideoOrScreenshareInAllVoiceChannels": "Tüm ses kanallarında video veya ekran paylaşımı yapın",
-        "advertiseYour6b6tProjectDailyInTheAdvertiseChannel": "#advertise kanalında 6b6t projenizi günlük olarak tanıtın",
+        "advertiseYour6b6tProjectDailyInTheAdvertisingChannel": "Advertise your 6b6t project daily in the #advertising channel",
         "accessToLegendColorToChangeYourDiscordName": "Discord isim rengini değiştirmek için #legend-color'a erişim"
       },
       "imageModal": {
         "closeModal": "Pencereyi kapat"
       },
       "shopBuyButton": {
-        "creatingCheckoutSession": "Ödeme oturumu oluşturuluyor...",
-        "checkoutSessionCreated": "Ödeme oturumu oluşturuldu!",
-        "close": "Kapat",
-        "isThisAGift": "Bu bir hediye mi?",
-        "ifYouBuyThisAsAGiftYouCan": "Bunu hediye olarak satın alırsanız, kullanıcıya bir hediye mesajı da ekleyebilirsiniz.",
-        "goToBillingPortal": "Faturalandırma Portalına Git →",
-        "theRefundPolicyForGiftedRanksIs14Days": "Hediye edilen rank'lar için iade politikası 14 gündür.",
-        "readTheRefundPolicy": "İade politikasını okuyun",
-        "buyForMe": "Kendim için satın al",
-        "buyAsGift": "Hediye olarak satın al",
-        "giftInformation": "Hediye Bilgileri",
-        "enterYourUsernameAndAnOptionalMessageForThe": "Kullanıcı adınızı ve alıcı için isteğe bağlı bir mesaj girin.",
-        "whoIsThisGiftFrom": "Bu hediye kimden? *",
-        "yourMinecraftUsername": "Minecraft kullanıcı adınız",
-        "giftMessageOptional": "Hediye Mesajı (isteğe bağlı)",
-        "writeAMessageForTheRecipient": "Alıcı için bir mesaj yazın...",
-        "cancel": "İptal",
-        "continue": "Devam Et",
-        "confirmGiftPurchase": "Hediye Satın Alımını Onayla",
-        "pleaseReviewTheGiftDetailsBeforeProceeding": "Devam etmeden önce lütfen hediye bilgilerini gözden geçirin",
-        "from": "Kimden",
-        "giftArrow": "Hediye oku",
-        "to": "Kime",
-        "willReceive": "alacak",
-        "permanentRank": "Kalıcı Rank",
-        "pleaseVerifyAllDetailsAreCorrect": "⚠️ Lütfen tüm bilgilerin doğru olduğunu kontrol edin",
-        "goBack": "Geri Dön",
-        "confirmContinue": "Onayla ve Devam Et",
-        "choosePaymentMethod": "Ödeme Yöntemi Seçin",
-        "selectHowYouWouldLikeToPayFor": "Şunun için nasıl ödeme yapmak istediğinizi seçin:",
-        "payWithTebex": "Tebex ile öde",
-        "tebexComingSoon": "Tebex yakında",
-        "paypalMore": "PayPal ve daha fazlası",
-        "selectTebexCheckout": "Tebex ödeme seçeneğini seç",
-        "paypal": "PayPal",
-        "crypto": "Kripto",
-        "cardOtherMethods": "Kart ve Diğer Yöntemler",
-        "selectCardOrAnotherMethod": "Kart veya başka bir yöntem seç",
-        "allTransactionsAreSecureAndEncrypted": "Tüm işlemler güvenli ve şifrelidir"
+        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Could not open checkout. Your details have been kept. Please try again.",
+        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} has an active {{value2}} subscription. Its perks will no longer apply after this upgrade. The existing subscription is not canceled automatically; its payer must cancel it to avoid further charges.",
+        "thisRankCannotBeGifted": "This rank cannot be gifted",
+        "giftToValue1": "Gift to {{value1}}"
+      },
+      "shopCheckoutPanel": {
+        "giftARank": "Gift a rank",
+        "reviewYourPurchase": "Review your purchase",
+        "checkThePlayerAndPurchaseDetailsBeforePayment": "Check the player and purchase details before payment.",
+        "whoIsThisPurchaseFor": "Who is this purchase for?",
+        "forMyself": "For myself",
+        "sendAGift": "Send a gift",
+        "giftRecipient": "Gift recipient",
+        "minecraftPlayer": "Minecraft player",
+        "changeRecipient": "Change recipient",
+        "youPayTheRenewalsTheRecipientReceivesThePerks": "You pay the renewals. The recipient receives the perks. Manage cancellation using the billing portal link in your payment receipt email.",
+        "manageCancellationUsingTheBillingPortalLinkInYour": "Manage cancellation using the billing portal link in your payment receipt email.",
+        "youPayValue1ReceivesValue2AndASignedIn": "You pay. {{value1}} receives {{value2}} and a signed in-game book.",
+        "thisPurchaseGoesToValue1": "This purchase goes to {{value1}}.",
+        "haveACreatorCode": "Have a creator code?",
+        "checkYourCreatorCodeOrRemoveItToContinue": "Check your creator code, or remove it to continue.",
+        "openingSecureCheckout": "Opening secure checkout…",
+        "continueToPaymentValue1": "Continue to payment · {{value1}}",
+        "backToRanks": "Back to ranks",
+        "refundPolicy": "Refund policy",
+        "paymentDetailsAreEnteredOnThePaymentProviderS": "Payment details are entered on the payment provider's secure checkout. Eligible purchases have a 14-day refund window."
       }
     },
     "socialIcons": {
@@ -820,9 +1003,13 @@
         "text30OpacityCoverMode": "%30 opaklık • Kapla modu"
       },
       "giftBadgeDisplay": {
-        "text2025ChristmasLobbyChallengeBadge": "2025 Noel Lobi Meydan Okuması Rozeti",
-        "text2025NewYearGiftEventBadge": "2025 Yeni Yıl Hediye Etkinliği Rozeti",
+        "text2025ChristmasLobbyChallengeIcon": "2025 Christmas Lobby Challenge Icon",
+        "text2025NewYearGiftEventIcon": "2025 New Year Gift Event Icon",
         "completedThe2025ChristmasLobbyChallenge": "2025 Noel Lobi Meydan Okumasını Tamamladı"
+      },
+      "halloween2026BadgeDisplay": {
+        "foundAll310HeadsInThe6b6tLobbyDuring": "Found all 310 heads in the 6b6t lobby during Halloween 2026",
+        "text2026HalloweenLobbyHeadHuntIcon": "2026 Halloween Lobby Head Hunt Icon"
       },
       "legendThemeProvider": {
         "golden": "Altın",
@@ -869,8 +1056,29 @@
         "aurora": "Aurora",
         "snowy": "Karlı"
       },
+      "playerProfileContent": {
+        "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
+        "loadingPlayerTheme": "Loading player theme…",
+        "backToLeaderboards": "Back to leaderboards",
+        "memberSince": "Member since",
+        "playTime": "play_time",
+        "kills": "kills",
+        "deaths": "deaths",
+        "allTime": "all time",
+        "recordedStatistics": "Recorded statistics",
+        "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
+        "sStatisticsForTheLast7Days30Days": "'s statistics for the last 7 days, 30 days, and all time.",
+        "statistic": "Statistic",
+        "text7Days": "7 days",
+        "text30Days": "30 days",
+        "allTime2": "All time",
+        "noRecordedStatistics": "No recorded statistics",
+        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
+        "aboutRecordedTotals": "About recorded totals",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete."
+      },
       "playerBadgeDisplay": {
-        "text2025HalloweenChallengeBadge": "2025 Cadılar Bayramı Meydan Okuması Rozeti",
+        "text2025HalloweenChallengeIcon": "2025 Halloween Challenge Icon",
         "completedThe2025HalloweenLobbyChallenge": "2025 Cadılar Bayramı Lobi Meydan Okumasını Tamamladı"
       },
       "playerEffectDisplay": {
@@ -902,17 +1110,18 @@
         "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:"
       },
       "telegramBadgeDisplay": {
-        "text6b6tTelegramCommunityBadge": "6b6t Telegram Topluluğu Rozeti",
+        "text6b6tTelegramCommunityIcon": "6b6t Telegram Community Icon",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Telegram'ı bağladı ve şu anda 6b6t grubunun üyesi"
       },
       "themedStatsRenderer": {
         "legend": "Legend",
         "champion": "champion",
         "hero": "hero",
+        "playerStats": "Player stats",
         "memberSince": "🗓️ Üyelik tarihi:",
         "returnToLeaderboards": "Liderlik Tablolarına Dön",
         "statsReset": "İstatistikler sıfırlandı",
-        "statsWereResetOnMay222026DueTo": "İstatistikler, veri bozulması nedeniyle 22 Mayıs 2026 tarihinde sıfırlandı ve kurtarılamadı. Aşağıda gösterilen istatistikler bu tarihten itibaren başlamaktadır.",
+        "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
         "isAPlayerOfThe6b6tAnarchyMinecraftServer": "6b6t Anarşi Minecraft sunucusunun bir oyuncusudur. Şu tarihten beri üyedir:",
         "stat": "İstatistik",
         "noStatsAvailable": "İstatistik Bulunmuyor",
@@ -927,7 +1136,7 @@
       },
       "treeBadgeDisplay": {
         "foundAllOfThe24ChristmasTreesDuring2025": "2025 Noel Etkinliği sırasında 24 Noel ağacının tamamını buldu",
-        "text2025ChristmasEventBadge": "2025 Noel Etkinliği Rozeti"
+        "text2025ChristmasEventIcon": "2025 Christmas Event Icon"
       }
     },
     "ui": {
@@ -949,8 +1158,8 @@
       "notification": {
         "dismissNotification": "Bildirimi kapat"
       },
-      "sonner": {
-        "groupToastTextMutedForeground": "group-[.toast]:text-muted-foreground"
+      "spinner": {
+        "loading": "Loading"
       }
     },
     "monitoring": {

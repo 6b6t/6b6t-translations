@@ -68,6 +68,32 @@
             "noDataCouldBeRetrieved": "No data could be retrieved."
           }
         },
+        "creators": {
+          "page": {
+            "creatorSales": "Creator Sales",
+            "rainRainAndRaincoates": "Rain · RAIN and RAINCOATES",
+            "refresh": "Refresh",
+            "newlyRecordedPurchasesAppearAutomaticallyEvery15SecondsEstimated": "Newly recorded purchases appear automatically every 15 seconds. Estimated commission is 10% after recorded refunds, rounded to the nearest cent. Pending, failed and disputed sales earn no commission. This is not a payout history.",
+            "couldNotLoadCreatorSalesTryRefreshing": "Could not load creator sales. Try refreshing.",
+            "loadingCreatorSales": "Loading creator sales…",
+            "attributedTransactions": "attributed transactions",
+            "date": "Date",
+            "creatorCode": "Creator code",
+            "player": "Player",
+            "rank": "Rank",
+            "sale": "Sale",
+            "refund": "Refund",
+            "estimatedCommission10": "Estimated commission (10%)",
+            "status": "Status",
+            "noCreatorCodePurchasesHaveBeenRecordedYetPreview": "No creator-code purchases have been recorded yet. Preview purchases are not saved.",
+            "notRecorded": "Not recorded",
+            "needsReview": "Needs review",
+            "previous": "Previous",
+            "page": "Page",
+            "value1Value2": "{{value1}}{{value2}}",
+            "next": "Next"
+          }
+        },
         "shop": {
           "page": {
             "shopAnalytics": "Shop Analytics",
@@ -88,6 +114,7 @@
             "date": "Date",
             "username": "Username",
             "bundle": "Bundle",
+            "creatorCode": "Creator code",
             "amount": "Amount",
             "status": "Status",
             "provider": "Provider",
@@ -118,20 +145,8 @@
         }
       },
       "communityEvent": {
-        "communityEventExtensionForm": {
+        "communityEventExtensionConfirmation": {
           "theEndTimeMovedToValue1": "The end time moved to {{value1}}.",
-          "extendRemainingTime": "Extend remaining time",
-          "addTimeToTheStoredEndThisKeepsPurchase": "Add time to the stored end. This keeps purchase history, contributions, and delivery records unchanged.",
-          "enterTheNumberOfSecondsToAdd": "Enter the number of seconds to add",
-          "secondsToAdd": "Seconds to add",
-          "maximum86400Seconds24Hours": "Maximum: 86,400 seconds (24 hours).",
-          "reason": "Reason",
-          "whyIsTheEventBeingExtended": "Why is the event being extended?",
-          "currentEnd": "Current end",
-          "notConfigured": "Not configured",
-          "resultingEnd": "Resulting end",
-          "enterSecondsToPreview": "Enter seconds to preview",
-          "reviewExtension": "Review extension",
           "confirmCommunityEventExtension": "Confirm Community Event extension",
           "thisAdds": "This adds",
           "secondsToTheCurrentEndTheResultingEndWill": "seconds to the current end. The resulting end will be",
@@ -140,6 +155,22 @@
           "cancel": "Cancel",
           "extending": "Extending…",
           "extendEvent": "Extend event"
+        },
+        "communityEventExtensionForm": {
+          "extendRemainingTime": "Extend remaining time",
+          "addTimeToTheStoredEndThisKeepsPurchase": "Add time to the stored end. This keeps purchase history, contributions, and delivery records unchanged.",
+          "secondsToAdd": "Seconds to add",
+          "maximum86400Seconds24Hours": "Maximum: 86,400 seconds (24 hours).",
+          "reason": "Reason",
+          "whyIsTheEventBeingExtended": "Why is the event being extended?",
+          "currentEnd": "Current end",
+          "notConfigured": "Not configured",
+          "resultingEnd": "Resulting end",
+          "enterSecondsToPreview": "Enter seconds to preview",
+          "reviewExtension": "Review extension"
+        },
+        "communityEventExtensionOptions": {
+          "typeValue1ToContinue": "Type {{value1}} to continue"
         },
         "page": {
           "resetCommunityEvent": "RESET COMMUNITY EVENT",
@@ -178,7 +209,7 @@
           "loadingFulfillmentRequests": "Loading fulfillment requests…",
           "noRequestsYet": "No requests yet.",
           "submitted": "· submitted",
-          "minecraftIdentity": "Minecraft identity",
+          "minecraftProfile": "Minecraft profile",
           "purchaseEmail": "Purchase email",
           "paymentReference": "Payment reference",
           "notSupplied": "not supplied",
@@ -200,7 +231,7 @@
         "welcomeToTheAdminPanel": "Welcome to the admin panel",
         "loggedInAs": "Logged in as",
         "role": "Role",
-        "lastLogin": "Last Login",
+        "sessionIssued": "Session issued",
         "quickLinks": "Quick Links",
         "shopAnalytics": "Shop Analytics",
         "viewShopSessionStatisticsAndConversionMetrics": "View shop session statistics and conversion metrics",
@@ -265,6 +296,7 @@
           "addCommunityPoints": "Add community points",
           "creditThePointsForOneRankPurchaseThisCan": "Credit the points for one rank purchase. This can complete a community milestone.",
           "rankPurchase": "Rank purchase",
+          "value1Value2Points": "{{value1}} · {{value2}} points",
           "points": "points",
           "reason": "Reason",
           "explainWhyThesePointsNeedToBeAdded": "Explain why these points need to be added",
@@ -457,6 +489,7 @@
         "shopAnalytics": "Shop Analytics",
         "anarchyModStats": "Anarchy Mod Stats",
         "transactions": "Transactions",
+        "creatorSales": "Creator Sales",
         "fulfillment": "Fulfillment",
         "communityEvent": "Community Event",
         "motdAds": "MOTD Ads",
@@ -465,19 +498,7 @@
         "recoveryLogs": "Recovery Logs",
         "recoveryResultLogs": "Recovery Result Logs",
         "adminPanel": "Admin Panel",
-        "logout": "Logout"
-      }
-    },
-    "login": {
-      "page": {
-        "loginFailed": "Login failed",
-        "adminLogin": "Admin Login",
-        "signInToAccessTheAdminPanel": "Sign in to access the admin panel",
-        "email": "Email",
-        "adminExampleCom": "admin@example.com",
-        "password": "Password",
-        "signingIn": "Signing in...",
-        "signIn": "Sign In"
+        "signOut": "Sign out"
       }
     },
     "adminDataTable": {

@@ -1,13 +1,8 @@
 {
   "sections": {
-    "text6b6tTeam": "Zespół 6b6t",
-    "text6b6t": "6b6t",
-    "crackedAnarchy": "cracked anarchy",
-    "text2b2tAlternative": "2b2t alternative",
-    "anarchyMinecraftServer": "anarchy minecraft server",
-    "anarchyServerLike2b2t": "anarchy server like 2b2t",
-    "yes": "tak",
-    "no": "nie",
-    "default": "domyślny"
+    "text6b6tTeam": "6b6t Team",
+    "yes": "yes",
+    "no": "no",
+    "default": "default"
   }
 }

@@ -1,5 +1,22 @@
 {
   "sections": {
+    "accountProfilePanel": {
+      "gameProfile": "Game profile",
+      "playerAvatar": "खिलाड़ी अवतार",
+      "value1Rank": "{{value1}} rank",
+      "text6b6tPlayer": "6b6t player",
+      "viewMyStats": "View my stats",
+      "linkedAccounts": "Linked accounts",
+      "chooseYourGameProfileAndManageItsSocialConnections": "Choose your game profile and manage its social connections.",
+      "subscriptionsBilling": "Subscriptions & billing",
+      "manageRecurringPaymentsAndViewYourBillingHistory": "Manage recurring payments and view your billing history.",
+      "openTheCreemBillingPortalToManageOrCancel": "Open the Creem billing portal to manage or cancel your 6b6t subscriptions.",
+      "noCreemSubscriptionIsLinkedToThisAccountYet": "No Creem subscription is linked to this account yet. Purchases made while signed in are linked automatically. For an existing subscription, use the secure portal link in your Creem receipt email.",
+      "theBillingPortalIsTemporarilyUnavailableTryAgainOr": "The billing portal is temporarily unavailable. Try again or use the portal link in your Creem receipt email.",
+      "manageSubscription": "Manage subscription",
+      "purchasedBeforeTheCreemMigration": "Purchased before the Creem migration?",
+      "openTheLegacyStripePortal": "लीगेसी स्ट्राइप पोर्टल खोलें"
+    },
     "apexGiftsPanel": {
       "yourApexRanks": "Your Apex ranks",
       "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Your Legend bundle includes two permanent Apex ranks. Assign each to a different Minecraft player. Check the exact username: assignments cannot be transferred or undone.",
@@ -13,19 +30,23 @@
       "retryAssignment": "Retry assignment",
       "assignApexRank": "Assign Apex rank"
     },
-    "discordLinkedNotification": {
-      "discordLinked": "Discord लिंक किया गया"
-    },
     "logOutButton": {
       "logOutIcon": "लॉग आउट आइकन",
       "logOut": "लॉग आउट"
     },
     "loginForm": {
-      "couldNotStartLoginPleaseTryAgain": "लॉगिन प्रारंभ नहीं हो सका. कृपया पुन: प्रयास करें।",
-      "loginToYourAccount": "अपने अकाउंट में लॉग इन करें",
-      "useEnderdashToVerifyYourMinecraftAccountAndContinue": "अपने Minecraft खाते को सत्यापित करने और अपने 6b6t खाते को जारी रखने के लिए EnderDash का उपयोग करें।",
-      "openingLogin": "लॉगिन खुल रहा है...",
-      "login": "लॉग इन करें"
+      "signInToYourAccount": "Sign in to your account",
+      "useMinecraftEmailOrAPasskeyToAccessYour": "Use Minecraft, email or a passkey to access your profiles and purchases.",
+      "signInOrCreateAnAccount": "Sign in or create an account",
+      "lostAccessToYourGameAccount": "Lost access to your game account?",
+      "recoverYourAccount": "Recover your account",
+      "manageYour6b6tAccount": "Manage your 6b6t account",
+      "gameSocialProfiles": "Game & social profiles",
+      "switchMinecraftProfilesAndManageDiscordAndTelegramConnections": "Switch Minecraft profiles and manage Discord and Telegram connections.",
+      "subscriptionsPurchases": "Subscriptions & purchases",
+      "accessBillingApexGiftsEligiblePhysicalProductsAndMotd": "Access billing, Apex gifts, eligible physical products and MOTD ads.",
+      "legendCustomization": "Legend customization",
+      "manageYourPlayerProfileThemeWithALegendRank": "Manage your player profile theme with a Legend rank."
     },
     "motdAdPanel": {
       "checkoutReserved": "चेकआउट आरक्षित",
@@ -144,62 +165,74 @@
       "tellUsWhatYouBoughtAndWhenForThree": "हमें बताएं कि आपने क्या खरीदा और कब खरीदा। तीन मासिक Legend भुगतानों के लिए, सभी ज्ञात तिथियाँ या संदर्भ शामिल करें।",
       "deliveryDetails": "वितरण विवरण",
       "encryptedAndUsedOnlyIfAnAdminApproves": "एन्क्रिप्ट किया गया है और इसका उपयोग केवल तभी किया जाता है जब कोई व्यवस्थापक स्वीकृत करता है।",
-      "iConfirmThePurchaseAndDeliveryDetailsAreAccurate": "मैं पुष्टि करता हूं कि खरीदारी और डिलीवरी विवरण सटीक हैं। मैं समझता हूं कि यह एक बार का अनुरोध है और अनुमोदन मैन्युअल है।",
-      "noFulfillmentOrderIsCreatedUntilApproval": "अनुमोदन तक कोई पूर्ति आदेश नहीं बनाया जाता है।",
+      "iConfirmThe": "I confirm the",
+      "gift": "gift",
+      "purchase": "purchase",
+      "andDeliveryDetailsAreAccurateIUnderstandThisIs": "and delivery details are accurate. I understand this is a one-time request and approval is manual.",
+      "weLlReviewYourEligibilityBeforeShippingYourMerch": "We’ll review your eligibility before shipping your merch.",
       "submitting": "सबमिट किया जा रहा है...",
-      "submitForReview": "समीक्षा हेतु सबमिट करें"
+      "submitForReview": "समीक्षा हेतु सबमिट करें",
+      "didYouPurchaseThisRankOrReceiveItAs": "Did you purchase this rank or receive it as a gift?",
+      "chooseAnOptionToContinueYourMerchClaim": "Choose an option to continue your merch claim.",
+      "iReceivedItAsAGift": "I received it as a gift",
+      "iPurchasedIt": "I purchased it",
+      "enterYourShippingDetailsNoPurchaseEmailOrReceipt": "Enter your shipping details. No purchase email or receipt needed.",
+      "provideYourPurchaseDetails": "Provide your purchase details."
     },
-    "telegramLinkButton": {
-      "howToLinkTelegram": "टेलीग्राम को कैसे लिंक करें",
-      "joinThe6b6tTelegramGroup": "6b6t टेलीग्राम समूह में शामिल हों।",
-      "clickContinueWithTelegramOnThisPage": "इस पेज पर टेलीग्राम के साथ जारी रखें पर क्लिक करें।",
-      "finishLoginInTheTelegramPopupWidget": "टेलीग्राम पॉपअप विजेट में लॉगिन समाप्त करें।",
-      "telegramConnected": "टेलीग्राम कनेक्टेड",
-      "connectedWithValue1": "@{{value1}} से जुड़ा",
-      "connectedWithTelegramIdValue1": "टेलीग्राम आईडी {{value1}} से जुड़ा",
-      "membershipStatus": "सदस्यता स्थिति:",
-      "lastChecked": "अंतिम बार जाँच की गई:",
-      "telegramLinkedSuccessfully": "टेलीग्राम सफलतापूर्वक लिंक हो गया.",
-      "telegramCouldNotVerifyGroupMembershipJoinTheGroup": "टेलीग्राम समूह सदस्यता सत्यापित नहीं कर सका. पहले समूह में शामिल हों, फिर दोबारा टेलीग्राम के साथ जारी रखें पर क्लिक करें।",
-      "step1Join6b6tTelegramGroup": "चरण 1: 6b6t टेलीग्राम समूह में शामिल हों",
-      "afterYouJoinComeBackHereAndClick": "शामिल होने के बाद, यहां वापस आएं और क्लिक करें",
-      "continueWithTelegram": "टेलीग्राम के साथ जारी रखें",
-      "toVerify": "सत्यापित करना।",
-      "telegramVerificationFailedPleaseTryAgain": "टेलीग्राम सत्यापन विफल रहा. कृपया पुन: प्रयास करें।",
-      "preparingTelegramLogin": "टेलीग्राम लॉगिन तैयार किया जा रहा है...",
-      "step2ContinueWithTelegram": "चरण 2: टेलीग्राम के साथ जारी रखें",
-      "step3ClickTheTelegramButtonBelowToComplete": "चरण 3: लिंकिंग पूरी करने के लिए नीचे दिए गए टेलीग्राम बटन पर क्लिक करें।"
+    "socialProfileSelectors": {
+      "discord": "Discord",
+      "telegram": "Telegram",
+      "couldNotLoadYourConnectedAccounts": "Could not load your connected accounts.",
+      "tryAgain": "Try again",
+      "joinThe": "Join the",
+      "text6b6tTelegramGroup": "6b6t Telegram group",
+      "toReceiveTwoExtraHomesAndAStatsPage": "to receive two extra homes and a stats page icon.",
+      "eachConnectedAccountCanBeUsedByOneGame": "Each connected account can be used by one game profile. Applying it here moves it from its previous profile.",
+      "manageConnectedAccounts": "Manage connected accounts",
+      "none": "none",
+      "none2": "None",
+      "legacy": "legacy",
+      "value1ExistingLink": "{{value1}} (existing link)",
+      "chooseAnAccount": "Choose an account",
+      "existingLink": "(existing link)",
+      "applying": "Applying…",
+      "apply": "Apply",
+      "connecting": "Connecting…",
+      "connectDiscord": "Connect Discord",
+      "connectTelegram": "Connect Telegram",
+      "linkedTo": "Linked to",
+      "clickApplyToSaveYourNewSelection": "Click Apply to save your new selection.",
+      "notLinkedYetClickApplyToMove": "Not linked yet. Click Apply to move",
+      "fromYourOtherGameProfileToThisOne": "from your other game profile to this one.",
+      "notLinkedYetClickApplyToLink": "Not linked yet. Click Apply to link",
+      "toThisGameProfile": "to this game profile.",
+      "notLinkedYetChooseAnAccountThenClickApply": "Not linked yet. Choose an account, then click Apply.",
+      "notLinkedYetConnectYour": "Not linked yet. Connect your",
+      "accountThenClickApply": "account, then click Apply.",
+      "yourExistingLinkStillWorksConnectThisAccountOnce": "Your existing link still works. Connect this account once to add it to your website account and select it for other profiles."
     },
     "themeEffectsOverlay": {
       "themePreview": "थीम पूर्वावलोकन:",
       "thisIsHowYourThemeWillLook": "आपकी थीम इस तरह दिखेगी!"
     },
+    "admin": {
+      "users": {
+        "websiteUsers6b6t": "Website users | 6b6t",
+        "robots": "robots",
+        "noindex": "noindex",
+        "websiteUsers": "Website users",
+        "backToAccountSettings": "Back to account settings"
+      }
+    },
     "page": {
-      "playerAvatar": "खिलाड़ी अवतार",
-      "text6b6tPlayer": "6b6t प्लेयर",
-      "discordLogo": "Discord लोगो",
-      "discordIntegration": "Discord एकीकरण",
-      "onlyOneDiscordAccountCanBeLinkedToA": "एक समय में केवल एक Discord खाते को Minecraft खाते से जोड़ा जा सकता है। एक नया Discord खाता लिंक करने से पिछला खाता अनलिंक हो जाएगा।",
-      "currentlyLinkedTo": "वर्तमान में इससे जुड़ा हुआ है:",
-      "telegramIntegrationIcon": "टेलीग्राम एकीकरण आइकन",
-      "telegramIntegration": "टेलीग्राम एकीकरण",
-      "linkYourTelegramIn2StepsJoinThe6b6t": "अपने टेलीग्राम को 2 चरणों में लिंक करें: 6b6t टेलीग्राम समूह में शामिल हों, फिर टेलीग्राम के साथ जारी रखें पर क्लिक करें। आपको 2+ घर और एक विशेष बैज मिलता है",
-      "statsPage": "सांख्यिकी पृष्ठ",
-      "subscriptionManagementIcon": "सदस्यता प्रबंधन चिह्न",
-      "subscriptionManagement": "सदस्यता प्रबंधन",
-      "manageYour6b6tServerSubscriptionsViewBillingHistoryAnd": "अपने 6b6t सर्वर सब्सक्रिप्शन प्रबंधित करें, बिलिंग इतिहास देखें और Creem बिलिंग पोर्टल के माध्यम से आवर्ती भुगतान रद्द करें।",
-      "noCreemSubscriptionIsLinkedToThisAccountYet": "इस खाते से अभी तक कोई Creem सदस्यता लिंक नहीं है। साइन इन करते समय खरीदी गई नई सदस्यताएँ स्वचालित रूप से लिंक हो जाती हैं। मौजूदा सदस्यता के लिए, अपने Creem रसीद ईमेल में सुरक्षित पोर्टल लिंक का उपयोग करें।",
-      "theBillingPortalIsTemporarilyUnavailablePleaseTryAgain": "बिलिंग पोर्टल अस्थायी रूप से अनुपलब्ध है. कृपया पुनः प्रयास करें या अपने Creem रसीद ईमेल में पोर्टल लिंक का उपयोग करें।",
-      "externalLinkIcon": "बाहरी लिंक आइकन",
-      "manageSubscription": "सदस्यता प्रबंधित करें",
-      "haveASubscriptionFromBeforeTheCreemMigration": "क्या आपके पास Creem माइग्रेशन से पहले की सदस्यता है?",
-      "openTheLegacyStripePortal": "लीगेसी स्ट्राइप पोर्टल खोलें",
-      "viewStatisticsIcon": "सांख्यिकी आइकन देखें",
-      "viewMyStats": "मेरे आँकड़े देखें",
-      "discordLinkedRole": "Discord लिंक्ड भूमिका",
-      "linkDiscord": "लिंक Discord",
+      "loadingAccountDetails": "Loading account details",
+      "accountDetailsUnavailable": "Account details unavailable",
+      "weCouldnTLoadYourAccountTryAgainOr": "We couldn't load your account. Try again, or contact us if the problem continues.",
+      "tryAgain": "Try again",
+      "contactSupport": "Contact support",
+      "chooseYourGameProfile": "Choose your game profile",
+      "linkOrSelectAMinecraftProfileToManageIts": "Link or select a Minecraft profile to manage its ranks and services.",
       "loadingApexGifts": "Loading Apex gifts…",
-      "legendRankLockIcon": "Legend रैंक लॉक आइकन",
       "legendThemeControls": "Legend थीम नियंत्रण",
       "themeCustomizationIsExclusivelyAvailableTo": "थीम अनुकूलन विशेष रूप से उपलब्ध है",
       "legend": "Legend",
@@ -208,9 +241,8 @@
       "yourRankDataIsNotAvailableOrYouHaven": "आपका रैंक डेटा उपलब्ध नहीं है या आपने अभी तक Legend दर्जा प्राप्त नहीं किया है।",
       "getLegendRank": "Legend रैंक प्राप्त करें",
       "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex gifts are temporarily unavailable. Please reload to try again.",
-      "accountManagement": "खाता प्रबंधन",
-      "manageYour6b6tAccountAndLinkedServices": "Manage your 6b6t account and linked services.",
-      "loadingAccountDetails": "Loading account details"
+      "yourAccount": "Your account",
+      "manageYour6b6tAccountAndLinkedServices": "Manage your 6b6t account and linked services."
     },
     "layout": {
       "alexprogrammerde": "AlexProgrammerDE",
@@ -222,6 +254,13 @@
       "yes": "हाँ",
       "no": "नहीं",
       "default": "गलती करना"
+    },
+    "settings": {
+      "path": {
+        "accountSettings": "Account settings",
+        "backToMinecraftAccounts": "Back to Minecraft accounts",
+        "manageUsers": "Manage users"
+      }
     }
   }
 }

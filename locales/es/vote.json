@@ -7,5 +7,75 @@
   "__text": [
     "Votar por 6b6t nos ayuda a subir en las listas de servidores y permite que nuevos jugadores encuentren nuestro servidor.",
     "Cada vez que votas, recibes recompensas por ayudar a que 6b6t crezca y sea más grande y mejor que nunca."
-  ]
+  ],
+  "sections": {
+    "voteData": {
+      "minecraftBuzz": "Minecraft Buzz",
+      "minecraftMp": "Minecraft MP",
+      "mclike": "MCLike",
+      "topMinecraftServers": "Top Minecraft Servers",
+      "planetMinecraft": "Planet Minecraft",
+      "firstDayOfVoting": "First day of voting",
+      "text3HomesSethome": "3 homes (/sethome)",
+      "threeDaysOfVoting": "Three days of voting",
+      "accessToSkinCommand": "Access to /skin command",
+      "text300sHomeCooldown": "300s /home cooldown",
+      "text420sTpaCooldown": "420s /tpa cooldown",
+      "oneWeekOfVoting": "One week of voting",
+      "text4HomesSethome": "4 homes (/sethome)",
+      "text90sHomeCooldown": "90s /home cooldown",
+      "text120sTpaCooldown": "120s /tpa cooldown",
+      "oneMonthOfVoting": "One month of voting",
+      "accessToSitCommand": "Access to /sit command",
+      "text5HomesSethome": "5 homes (/sethome)",
+      "text15sHomeCooldown": "15s /home cooldown",
+      "text30sTpaCooldown": "30s /tpa cooldown",
+      "text90DaysOfVoting": "90 days of voting",
+      "whiteUsername": "White username"
+    },
+    "voteGuide": {
+      "copied": "copied",
+      "error": "error",
+      "makeEveryVoteCount": "Make every vote count",
+      "eachVoteHelpsNewPlayersDiscover6b6tAndEarns": "Each vote helps new players discover 6b6t and earns you in-game perks.",
+      "openAVotingSiteAndFollowItsInstructions": "Open a voting site and follow its instructions.",
+      "voteOnAllSevenSitesYouCanVoteDaily": "Vote on all seven sites. You can vote daily on each one.",
+      "checkYourVoteTotalOn6b6tWithTheCommand": "Check your vote total on 6b6t with the command below.",
+      "copyVoteCommand": "Copy vote command",
+      "copied2": "Copied",
+      "copy": "Copy",
+      "couldNotCopySelectVoteAndCopyItManually": "Could not copy. Select /vote and copy it manually.",
+      "commandCopied": "Command copied.",
+      "runThisCommandInMinecraftToSeeYourCurrent": "Run this command in Minecraft to see your current count.",
+      "seeVotingRewards": "See voting rewards"
+    },
+    "voteRewards": {
+      "yourVotes": "Your votes.",
+      "yourRewards": "Your rewards.",
+      "unlockMoreHomesCommandAccessAndShorterTeleportCooldowns": "Unlock more homes, command access and shorter teleport cooldowns as your total grows.",
+      "dayEstimatesAssumeYouVoteOnAllSevenSites": "Day estimates assume you vote on all seven sites each day.",
+      "exploreRanks": "Explore ranks",
+      "votes": "votes",
+      "youStartWithOneHomeWithASecondAvailable": "You start with one home, with a second available while wearing netherite armor. Voting unlocks up to five homes.",
+      "onceUnlockedUse": "Once unlocked, use",
+      "toChangeYourSkin": "to change your skin."
+    },
+    "voteSites": {
+      "votingSites": "Voting sites",
+      "eachLinkOpensAVotingSiteInANew": "Each link opens a voting site in a new tab.",
+      "voteOnValue1OpensInANewTab": "Vote on {{value1}} (opens in a new tab)",
+      "dailyVoting": "Daily voting",
+      "vote": "Vote",
+      "sevenVotesADayAddsUpTo49Votes": "Seven votes a day adds up to 49 votes a week."
+    },
+    "page": {
+      "voteFor6b6t": "Vota por 6b6t",
+      "helpNewPlayersDiscoverTheServerEarnFreeHomes": "Help new players discover the server. Earn free homes, command access and shorter cooldowns by voting daily.",
+      "viewRewards": "View rewards",
+      "twoMoreHomes": "Two more homes.",
+      "installTheOfficialAnarchymodForTwoAdditionalHomesThey": "Install the official AnarchyMod for two additional homes. They stack with homes from voting and ranks.",
+      "theFabricModAlsoAdds6b6tToYourMultiplayer": "The Fabric mod also adds 6b6t to your multiplayer server list automatically.",
+      "installAnarchymod": "Install AnarchyMod"
+    }
+  }
 }

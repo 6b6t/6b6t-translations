@@ -1,5 +1,22 @@
 {
   "sections": {
+    "accountProfilePanel": {
+      "gameProfile": "Game profile",
+      "playerAvatar": "Oyuncu avatarı",
+      "value1Rank": "{{value1}} rank",
+      "text6b6tPlayer": "6b6t player",
+      "viewMyStats": "View my stats",
+      "linkedAccounts": "Linked accounts",
+      "chooseYourGameProfileAndManageItsSocialConnections": "Choose your game profile and manage its social connections.",
+      "subscriptionsBilling": "Subscriptions & billing",
+      "manageRecurringPaymentsAndViewYourBillingHistory": "Manage recurring payments and view your billing history.",
+      "openTheCreemBillingPortalToManageOrCancel": "Open the Creem billing portal to manage or cancel your 6b6t subscriptions.",
+      "noCreemSubscriptionIsLinkedToThisAccountYet": "No Creem subscription is linked to this account yet. Purchases made while signed in are linked automatically. For an existing subscription, use the secure portal link in your Creem receipt email.",
+      "theBillingPortalIsTemporarilyUnavailableTryAgainOr": "The billing portal is temporarily unavailable. Try again or use the portal link in your Creem receipt email.",
+      "manageSubscription": "Manage subscription",
+      "purchasedBeforeTheCreemMigration": "Purchased before the Creem migration?",
+      "openTheLegacyStripePortal": "Eski Stripe portalını aç"
+    },
     "apexGiftsPanel": {
       "yourApexRanks": "Apex rank'larınız",
       "yourLegendBundleIncludesTwoPermanentApexRanksAssign": "Legend paketiniz iki kalıcı Apex rank'ı içerir. Her birini farklı bir Minecraft oyuncusuna atayın. Kullanıcı adını dikkatle kontrol edin: atamalar devredilemez ve geri alınamaz.",
@@ -13,19 +30,23 @@
       "retryAssignment": "Atamayı tekrar dene",
       "assignApexRank": "Apex rank'ı ata"
     },
-    "discordLinkedNotification": {
-      "discordLinked": "Discord Bağlandı"
-    },
     "logOutButton": {
       "logOutIcon": "Çıkış simgesi",
       "logOut": "Çıkış Yap"
     },
     "loginForm": {
-      "couldNotStartLoginPleaseTryAgain": "Giriş başlatılamadı. Lütfen tekrar deneyin.",
-      "loginToYourAccount": "Hesabınıza Giriş Yapın",
-      "useEnderdashToVerifyYourMinecraftAccountAndContinue": "Minecraft hesabınızı doğrulamak ve 6b6t hesabınıza geçmek için EnderDash'i kullanın.",
-      "openingLogin": "Giriş açılıyor...",
-      "login": "Giriş Yap"
+      "signInToYourAccount": "Sign in to your account",
+      "useMinecraftEmailOrAPasskeyToAccessYour": "Use Minecraft, email or a passkey to access your profiles and purchases.",
+      "signInOrCreateAnAccount": "Sign in or create an account",
+      "lostAccessToYourGameAccount": "Lost access to your game account?",
+      "recoverYourAccount": "Recover your account",
+      "manageYour6b6tAccount": "Manage your 6b6t account",
+      "gameSocialProfiles": "Game & social profiles",
+      "switchMinecraftProfilesAndManageDiscordAndTelegramConnections": "Switch Minecraft profiles and manage Discord and Telegram connections.",
+      "subscriptionsPurchases": "Subscriptions & purchases",
+      "accessBillingApexGiftsEligiblePhysicalProductsAndMotd": "Access billing, Apex gifts, eligible physical products and MOTD ads.",
+      "legendCustomization": "Legend customization",
+      "manageYourPlayerProfileThemeWithALegendRank": "Manage your player profile theme with a Legend rank."
     },
     "motdAdPanel": {
       "checkoutReserved": "Ödeme rezerve edildi",
@@ -144,62 +165,74 @@
       "tellUsWhatYouBoughtAndWhenForThree": "Ne satın aldığınızı ve ne zaman satın aldığınızı bize bildirin. Üç aylık Legend ödemeleri için bilinen tüm tarihleri veya referansları ekleyin.",
       "deliveryDetails": "Teslimat detayları",
       "encryptedAndUsedOnlyIfAnAdminApproves": "Şifrelenir ve yalnızca bir yönetici onaylarsa kullanılır.",
-      "iConfirmThePurchaseAndDeliveryDetailsAreAccurate": "Satın alma ve teslimat bilgilerinin doğru olduğunu onaylıyorum. Bunun tek seferlik bir talep olduğunu ve onayın manuel olarak yapıldığını anlıyorum.",
-      "noFulfillmentOrderIsCreatedUntilApproval": "Onaylanana kadar herhangi bir sevkiyat siparişi oluşturulmaz.",
+      "iConfirmThe": "I confirm the",
+      "gift": "gift",
+      "purchase": "purchase",
+      "andDeliveryDetailsAreAccurateIUnderstandThisIs": "and delivery details are accurate. I understand this is a one-time request and approval is manual.",
+      "weLlReviewYourEligibilityBeforeShippingYourMerch": "We’ll review your eligibility before shipping your merch.",
       "submitting": "Gönderiliyor…",
-      "submitForReview": "İnceleme İçin Gönder"
+      "submitForReview": "İnceleme İçin Gönder",
+      "didYouPurchaseThisRankOrReceiveItAs": "Did you purchase this rank or receive it as a gift?",
+      "chooseAnOptionToContinueYourMerchClaim": "Choose an option to continue your merch claim.",
+      "iReceivedItAsAGift": "I received it as a gift",
+      "iPurchasedIt": "I purchased it",
+      "enterYourShippingDetailsNoPurchaseEmailOrReceipt": "Enter your shipping details. No purchase email or receipt needed.",
+      "provideYourPurchaseDetails": "Provide your purchase details."
     },
-    "telegramLinkButton": {
-      "howToLinkTelegram": "Telegram nasıl bağlanır",
-      "joinThe6b6tTelegramGroup": "6b6t Telegram grubuna katılın.",
-      "clickContinueWithTelegramOnThisPage": "Bu sayfada Telegram İle Devam Et'e tıklayın.",
-      "finishLoginInTheTelegramPopupWidget": "Telegram açılır pencere widget'ında girişi tamamlayın.",
-      "telegramConnected": "Telegram Bağlandı",
-      "connectedWithValue1": "@{{value1}} ile bağlandı",
-      "connectedWithTelegramIdValue1": "{{value1}} Telegram ID'si ile bağlandı",
-      "membershipStatus": "Üyelik durumu:",
-      "lastChecked": "Son kontrol:",
-      "telegramLinkedSuccessfully": "Telegram başarıyla bağlandı.",
-      "telegramCouldNotVerifyGroupMembershipJoinTheGroup": "Telegram grup üyeliğini doğrulayamadı. Önce gruba katılın, ardından Telegram İle Devam Et'e tekrar tıklayın.",
-      "step1Join6b6tTelegramGroup": "Adım 1: 6b6t Telegram Grubuna Katılın",
-      "afterYouJoinComeBackHereAndClick": "Katıldıktan sonra buraya geri dönün ve doğrulamak için",
-      "continueWithTelegram": "Telegram İle Devam Et",
-      "toVerify": "'e tıklayın.",
-      "telegramVerificationFailedPleaseTryAgain": "Telegram doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
-      "preparingTelegramLogin": "Telegram Girişi Hazırlanıyor...",
-      "step2ContinueWithTelegram": "Adım 2: Telegram İle Devam Et",
-      "step3ClickTheTelegramButtonBelowToComplete": "Adım 3: bağlantıyı tamamlamak için aşağıdaki Telegram düğmesine tıklayın."
+    "socialProfileSelectors": {
+      "discord": "Discord",
+      "telegram": "Telegram",
+      "couldNotLoadYourConnectedAccounts": "Could not load your connected accounts.",
+      "tryAgain": "Try again",
+      "joinThe": "Join the",
+      "text6b6tTelegramGroup": "6b6t Telegram group",
+      "toReceiveTwoExtraHomesAndAStatsPage": "to receive two extra homes and a stats page icon.",
+      "eachConnectedAccountCanBeUsedByOneGame": "Each connected account can be used by one game profile. Applying it here moves it from its previous profile.",
+      "manageConnectedAccounts": "Manage connected accounts",
+      "none": "none",
+      "none2": "None",
+      "legacy": "legacy",
+      "value1ExistingLink": "{{value1}} (existing link)",
+      "chooseAnAccount": "Choose an account",
+      "existingLink": "(existing link)",
+      "applying": "Applying…",
+      "apply": "Apply",
+      "connecting": "Connecting…",
+      "connectDiscord": "Connect Discord",
+      "connectTelegram": "Connect Telegram",
+      "linkedTo": "Linked to",
+      "clickApplyToSaveYourNewSelection": "Click Apply to save your new selection.",
+      "notLinkedYetClickApplyToMove": "Not linked yet. Click Apply to move",
+      "fromYourOtherGameProfileToThisOne": "from your other game profile to this one.",
+      "notLinkedYetClickApplyToLink": "Not linked yet. Click Apply to link",
+      "toThisGameProfile": "to this game profile.",
+      "notLinkedYetChooseAnAccountThenClickApply": "Not linked yet. Choose an account, then click Apply.",
+      "notLinkedYetConnectYour": "Not linked yet. Connect your",
+      "accountThenClickApply": "account, then click Apply.",
+      "yourExistingLinkStillWorksConnectThisAccountOnce": "Your existing link still works. Connect this account once to add it to your website account and select it for other profiles."
     },
     "themeEffectsOverlay": {
       "themePreview": "Tema Önizlemesi:",
       "thisIsHowYourThemeWillLook": "Temanız böyle görünecek!"
     },
+    "admin": {
+      "users": {
+        "websiteUsers6b6t": "Website users | 6b6t",
+        "robots": "robots",
+        "noindex": "noindex",
+        "websiteUsers": "Website users",
+        "backToAccountSettings": "Back to account settings"
+      }
+    },
     "page": {
-      "playerAvatar": "Oyuncu avatarı",
-      "text6b6tPlayer": "6b6t Oyuncusu",
-      "discordLogo": "Discord Logosu",
-      "discordIntegration": "Discord Entegrasyonu",
-      "onlyOneDiscordAccountCanBeLinkedToA": "Bir Minecraft hesabına aynı anda yalnızca bir Discord hesabı bağlanabilir. Yeni bir Discord hesabı bağlamak öncekinin bağlantısını kaldırır.",
-      "currentlyLinkedTo": "Şu anda bağlı:",
-      "telegramIntegrationIcon": "Telegram entegrasyonu simgesi",
-      "telegramIntegration": "Telegram Entegrasyonu",
-      "linkYourTelegramIn2StepsJoinThe6b6t": "Telegram'ınızı 2 adımda bağlayın: 6b6t Telegram grubuna katılın, ardından Telegram İle Devam Et'e tıklayın. 2+ Home ve özel bir rozet kazanacağınız yer:",
-      "statsPage": "istatistik sayfası",
-      "subscriptionManagementIcon": "Abonelik yönetimi simgesi",
-      "subscriptionManagement": "Abonelik Yönetimi",
-      "manageYour6b6tServerSubscriptionsViewBillingHistoryAnd": "6b6t sunucu aboneliklerinizi yönetin, fatura geçmişinizi görüntüleyin ve Creem faturalandırma portalı üzerinden tekrarlayan ödemeleri iptal edin.",
-      "noCreemSubscriptionIsLinkedToThisAccountYet": "Bu hesaba henüz bağlı bir Creem aboneliği yok. Giriş yapılmışken satın alınan yeni abonelikler otomatik olarak bağlanır. Mevcut bir abonelik için Creem makbuz e-postanızdaki güvenli portal bağlantısını kullanın.",
-      "theBillingPortalIsTemporarilyUnavailablePleaseTryAgain": "Faturalandırma portalı geçici olarak kullanılamıyor. Lütfen tekrar deneyin veya Creem makbuz e-postanızdaki portal bağlantısını kullanın.",
-      "externalLinkIcon": "Harici bağlantı simgesi",
-      "manageSubscription": "Aboneliği Yönet",
-      "haveASubscriptionFromBeforeTheCreemMigration": "Creem'e geçiş öncesinden bir aboneliğiniz mi var?",
-      "openTheLegacyStripePortal": "Eski Stripe portalını aç",
-      "viewStatisticsIcon": "İstatistikleri görüntüle simgesi",
-      "viewMyStats": "İstatistiklerimi Görüntüle",
-      "discordLinkedRole": "Discord Bağlı Rolü",
-      "linkDiscord": "Discord'u Bağla",
+      "loadingAccountDetails": "Hesap bilgileri yükleniyor",
+      "accountDetailsUnavailable": "Account details unavailable",
+      "weCouldnTLoadYourAccountTryAgainOr": "We couldn't load your account. Try again, or contact us if the problem continues.",
+      "tryAgain": "Try again",
+      "contactSupport": "Contact support",
+      "chooseYourGameProfile": "Choose your game profile",
+      "linkOrSelectAMinecraftProfileToManageIts": "Link or select a Minecraft profile to manage its ranks and services.",
       "loadingApexGifts": "Apex hediyeleri yükleniyor…",
-      "legendRankLockIcon": "Legend Rank kilit simgesi",
       "legendThemeControls": "Legend Tema Kontrolleri",
       "themeCustomizationIsExclusivelyAvailableTo": "Tema özelleştirme yalnızca",
       "legend": "Legend",
@@ -208,9 +241,8 @@
       "yourRankDataIsNotAvailableOrYouHaven": "Rank verileriniz mevcut değil veya henüz Legend durumuna ulaşmadınız.",
       "getLegendRank": "Legend Rank Al",
       "apexGiftsAreTemporarilyUnavailablePleaseReloadToTry": "Apex hediyeleri geçici olarak kullanılamıyor. Tekrar denemek için lütfen sayfayı yenileyin.",
-      "accountManagement": "Hesap Yönetimi",
-      "manageYour6b6tAccountAndLinkedServices": "6b6t hesabınızı ve bağlı hizmetlerinizi yönetin.",
-      "loadingAccountDetails": "Hesap bilgileri yükleniyor"
+      "yourAccount": "Your account",
+      "manageYour6b6tAccountAndLinkedServices": "6b6t hesabınızı ve bağlı hizmetlerinizi yönetin."
     },
     "layout": {
       "alexprogrammerde": "AlexProgrammerDE",
@@ -222,6 +254,13 @@
       "yes": "evet",
       "no": "hayır",
       "default": "varsayılan"
+    },
+    "settings": {
+      "path": {
+        "accountSettings": "Account settings",
+        "backToMinecraftAccounts": "Back to Minecraft accounts",
+        "manageUsers": "Manage users"
+      }
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "page": {
+      "join6b6t": "Join 6b6t",
+      "text6b6tIsAMinecraftAnarchyServerWithNoQueue": "6b6t is a Minecraft anarchy server with no queue. Follow the instructions for your edition.",
+      "javaEdition": "Java Edition",
+      "chooseASupportedMinecraftVersionAndInstallFabricAnd": "Choose a supported Minecraft version and install Fabric and",
+      "anarchymod": "AnarchyMod",
+      "theDownloadPageListsCompatibleVersionsAndInstallationSteps": ". The download page lists compatible versions and installation steps.",
+      "startMinecraftWithThatFabricProfile": "Start Minecraft with that Fabric profile.",
+      "openMultiplayerAddAServerAndEnter": "Open Multiplayer, add a server and enter",
+      "mojangBlacklisted6b6tOn15July2026WithoutAnarchymod": "Mojang blacklisted 6b6t on 15 July 2026. Without AnarchyMod, Java can show the server as offline even when it is running.",
+      "bedrockEdition": "Bedrock Edition",
+      "addAServerWithAddress": "Add a server with address",
+      "andPort": "and port",
+      "signInToYourXboxAccountYouDoNot": ". Sign in to your Xbox account. You do not need the Java AnarchyMod.",
+      "useADeviceThatSupportsAddingCustomServersConsole": "Use a device that supports adding custom servers. Console setup differs by platform.",
+      "crackedAndNonPremiumAccounts": "Cracked and non-premium accounts",
+      "crackedPlayersAlsoNeedAnarchymodOnJavaCheckThat": "Cracked players also need AnarchyMod on Java. Check that your launcher supports the compatible Fabric version. Follow the in-game /register and /login prompts and keep your account credentials private.",
+      "forAccountVerificationFollowTheInGameInstructionsIf": "For account verification, follow the in-game instructions. If you lose access, read",
+      "accountRecovery": "account recovery",
+      "havingTroubleConnecting": "Having trouble connecting?",
+      "check": "Check",
+      "liveServerStatus": "live server status",
+      "read": ", read",
+      "connectionHelp": "connection help",
+      "orAskInThe": "or ask in the",
+      "officialDiscord": "official Discord"
+    }
+  }
+}
