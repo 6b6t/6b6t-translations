@@ -7,54 +7,54 @@
       "updatesPing": "@Updates Ping"
     },
     "updateEntry": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord"
+      "edited": "Edytowano",
+      "postedBy": "Opublikowano przez",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Ta aktualizacja została opublikowana z załącznikami na Discordzie.",
+      "openInDiscord": "Otwórz na Discordzie"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
-      "loadMoreResults": "Load more results",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "tryingAgain": "Ponawianie próby…",
+      "tryAgain": "Spróbuj ponownie",
+      "newUpdate": "nowa aktualizacja",
+      "justAppeared": "właśnie się pojawiła.",
+      "dismiss": "Zamknij",
+      "searchingUpdates": "Wyszukiwanie aktualizacji…",
+      "showingValue1SearchValue2": "Wyświetlane wyniki wyszukiwania: {{value1}} {{value2}}.",
+      "loadMoreResults": "Wczytaj więcej wyników",
+      "noUpdatesMatched": "Nie znaleziono aktualizacji pasujących do „",
+      "tryADifferentTermOrClearYourSearch": "”. Spróbuj innego hasła lub wyczyść wyszukiwanie.",
+      "showAllUpdates": "Pokaż wszystkie aktualizacje"
     },
     "updatesSchema": {
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord."
+      "text6b6tUpdates": "Aktualizacje 6b6t",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Najnowsze posty changelogu serwera 6b6t i historia aktualizacji z Discorda."
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
-      "searchUpdates": "Search updates",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
-      "search": "Search",
-      "clear": "Clear"
+      "searchServerUpdates": "Szukaj aktualizacji serwera",
+      "searchUpdates": "Szukaj aktualizacji",
+      "suggestedSearches": "Proponowane wyszukiwania",
+      "searching": "Wyszukiwanie…",
+      "search": "Szukaj",
+      "clear": "Wyczyść"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
-      "latestPost": "Latest post",
-      "loading": "Loading…",
-      "loadMoreValue1": "Load more {{value1}}"
+      "updatesFromValue1": "Aktualizacje od {{value1}}",
+      "latestPost": "Najnowszy post",
+      "loading": "Wczytywanie…",
+      "loadMoreValue1": "Wczytaj więcej {{value1}}"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
-      "joinDiscord": "Join Discord",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "serverUpdates": "Aktualizacje serwera",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Zmiany, poprawki i ogłoszenia z oficjalnego Discorda 6b6t. Najnowsze wpisy są na początku.",
+      "joinDiscord": "Dołącz do Discorda",
+      "loadingServerUpdates": "Wczytywanie aktualizacji serwera…",
+      "updatesAreTemporarilyUnavailable": "Aktualizacje są tymczasowo niedostępne",
+      "tryAgainOrReadTheLatestPostsInThe": "Spróbuj ponownie lub przeczytaj najnowsze wpisy na oficjalnym Discordzie.",
+      "tryingAgain": "Ponawianie próby…",
+      "tryAgain": "Spróbuj ponownie",
+      "noUpdatesToShowYet": "Nie ma jeszcze aktualizacji do wyświetlenia",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Czytaj najnowsze wiadomości z serwera na oficjalnym Discordzie. Wpisy pojawią się tutaj, gdy będą dostępne.",
+      "readNewsOnDiscord": "Czytaj wiadomości na Discordzie"
     }
   }
 }

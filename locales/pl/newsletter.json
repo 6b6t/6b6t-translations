@@ -1,28 +1,28 @@
 {
   "sections": {
     "page": {
-      "text6b6tNewsletter": "6b6t newsletter",
-      "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
-      "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
-      "serverUpdates": "Server updates",
-      "events": "Events",
-      "newsletterSignup": "Newsletter signup",
-      "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
-      "loadingAccount": "Loading account",
-      "couldNotLoadYourAccountPleaseTryAgain": "Could not load your account. Please try again.",
-      "tryAgain": "Try again",
-      "signInVerifyYourEmailAddressAndLinkA": "Sign in, verify your email address, and link a game profile to join the newsletter.",
-      "signInToJoin": "Sign in to join",
-      "verifyYourEmailAddressToJoinTheNewsletter": "Verify your email address to join the newsletter.",
-      "weSendItToYourVerifiedAccountEmail": "We send it to your verified account email:",
-      "checkingLinkedProfiles": "Checking linked profiles",
-      "couldNotCheckYourLinkedProfilesPleaseTryAgain": "Could not check your linked profiles. Please try again.",
-      "yourSessionChangedRefreshThePageAndSignIn": "Your session changed. Refresh the page and sign in again.",
-      "linkAtLeastOneGameProfileBeforeJoiningThe": "Link at least one game profile before joining the newsletter.",
-      "discordIsOptionalYouCanAlso": "Discord is optional. You can also",
-      "linkDiscordInAccountSettings": "link Discord in account settings"
+      "text6b6tNewsletter": "Newsletter 6b6t",
+      "getServerUpdatesEventsAndWaysToKeepPlaying": "Otrzymuj informacje o aktualizacjach, wydarzeniach i sposobach dalszej gry, jeśli 6b6t zostanie ponownie zablokowane.",
+      "howToKeepPlayingWhenTheyTryAgain": "Jak grać dalej przy kolejnej próbie blokady",
+      "serverUpdates": "Aktualizacje serwera",
+      "events": "Wydarzenia",
+      "newsletterSignup": "Zapis do newslettera",
+      "onlyIfYouJoinUnsubscribeWithOneClick": "Tylko po zapisaniu się. Zrezygnujesz jednym kliknięciem.",
+      "loadingAccount": "Wczytywanie konta",
+      "couldNotLoadYourAccountPleaseTryAgain": "Nie udało się wczytać konta. Spróbuj ponownie.",
+      "tryAgain": "Spróbuj ponownie",
+      "signInVerifyYourEmailAddressAndLinkA": "Zaloguj się, zweryfikuj adres e-mail i połącz profil gry, aby dołączyć do newslettera.",
+      "signInToJoin": "Zaloguj się, aby dołączyć",
+      "verifyYourEmailAddressToJoinTheNewsletter": "Zweryfikuj adres e-mail, aby dołączyć do newslettera.",
+      "weSendItToYourVerifiedAccountEmail": "Wysyłamy go na zweryfikowany adres e-mail konta:",
+      "checkingLinkedProfiles": "Sprawdzanie połączonych profili",
+      "couldNotCheckYourLinkedProfilesPleaseTryAgain": "Nie udało się sprawdzić połączonych profili. Spróbuj ponownie.",
+      "yourSessionChangedRefreshThePageAndSignIn": "Twoja sesja się zmieniła. Odśwież stronę i zaloguj się ponownie.",
+      "linkAtLeastOneGameProfileBeforeJoiningThe": "Połącz co najmniej jeden profil gry, zanim dołączysz do newslettera.",
+      "discordIsOptionalYouCanAlso": "Discord jest opcjonalny. Możesz również",
+      "linkDiscordInAccountSettings": "połączyć Discord w ustawieniach konta"
     }
   },
-  "page-name": "6b6t Newsletter: Connection News and Server Updates",
-  "seo-description": "Join the 6b6t newsletter for connection news, server updates and events. Stay informed if a server address changes."
+  "page-name": "Newsletter 6b6t: informacje o połączeniu i aktualizacjach serwera",
+  "seo-description": "Dołącz do newslettera 6b6t, aby otrzymywać informacje o połączeniu, aktualizacjach i wydarzeniach. Dowiedz się o zmianach adresu serwera."
 }

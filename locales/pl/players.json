@@ -2,13 +2,13 @@
   "sections": {
     "page": {
       "page": {
-        "playerDirectoryPageValue16b6t": "Player directory — page {{value1}} | 6b6t",
-        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "Browse 6b6t player profiles and view their Minecraft playtime, kills, deaths and other statistics.",
-        "backToPlayerStatistics": "Back to player statistics",
-        "playerDirectory": "Player directory",
-        "browsePlayerProfilesOrderedByUsernamePage": "Browse player profiles, ordered by username. Page",
-        "of": "of",
-        "playerDirectoryPages": "Player directory pages"
+        "playerDirectoryPageValue16b6t": "Katalog graczy — strona {{value1}} | 6b6t",
+        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "Przeglądaj profile graczy 6b6t i sprawdzaj ich czas gry w Minecraft, zabójstwa, zgony oraz inne statystyki.",
+        "backToPlayerStatistics": "Wróć do statystyk gracza",
+        "playerDirectory": "Katalog graczy",
+        "browsePlayerProfilesOrderedByUsernamePage": "Przeglądaj profile graczy w kolejności nazw użytkowników. Strona",
+        "of": "z",
+        "playerDirectoryPages": "Strony katalogu graczy"
       }
     }
   }

@@ -1,52 +1,52 @@
 {
-  "page-name": "6b6t Commands: Full List With Ranks and Examples",
-  "seo-description": "Every 6b6t command in one list: /tpa, /home, /msg, /ignore, /skin and more. Filter by rank and see examples.",
+  "page-name": "Komendy 6b6t: pełna lista, rangi i przykłady",
+  "seo-description": "Wszystkie komendy 6b6t w jednym miejscu: /tpa, /home, /msg, /ignore, /skin i inne. Filtruj według rangi i sprawdzaj przykłady.",
   "sections": {
     "commandEntry": {
-      "aliases": "Aliases",
-      "example": "Example",
-      "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
-      "copyExample": "Copy example",
-      "exampleCopied": "Example copied.",
-      "ranks": "Ranks"
+      "aliases": "Aliasy",
+      "example": "Przykład",
+      "copyExampleForValue1": "Skopiuj przykład dla {{value1}}",
+      "copied": "Skopiowano",
+      "copyExample": "Skopiuj przykład",
+      "exampleCopied": "Skopiowano przykład.",
+      "ranks": "Rangi"
     },
     "commandRankPrefix": {
-      "free": "Free",
+      "free": "Darmowe",
       "eliteUltra": "Elite Ultra"
     },
     "commandsList": {
-      "bestMatches": "Best matches",
-      "commands": "Commands",
-      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
-      "searchCommands": "Search commands",
-      "commandAliasOrDescription": "Command, alias or description",
-      "clearCommandSearch": "Clear command search",
-      "category": "Category",
-      "allCategories": "All categories",
-      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
-      "command": "Command",
-      "description": "Description",
-      "example": "Example",
-      "ranks": "Ranks",
-      "noCommandsFound": "No commands found",
-      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
-      "resetFilters": "Reset filters",
-      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
-      "compareRanks": "Compare ranks"
+      "bestMatches": "Najlepsze dopasowania",
+      "commands": "Komendy",
+      "theInGameCommandReferenceFor6b6t": "Zestawienie komend dostępnych w grze na 6b6t.",
+      "searchCommands": "Szukaj komend...",
+      "commandAliasOrDescription": "Komenda, alias lub opis",
+      "clearCommandSearch": "Wyczyść wyszukiwanie komend",
+      "category": "Kategoria",
+      "allCategories": "Wszystkie kategorie",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "Komendy 6b6t, opisy, przykłady użycia i wymagane rangi",
+      "command": "Komenda",
+      "description": "Opis",
+      "example": "Przykład",
+      "ranks": "Rangi",
+      "noCommandsFound": "Nie znaleziono komend",
+      "tryAnotherSearchCategoryOrRank": "Spróbuj innego wyszukiwania, kategorii lub rangi.",
+      "resetFilters": "Zresetuj filtry",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Przykłady można edytować: zastąp nazwy graczy i wartości własnymi.",
+      "compareRanks": "Porównaj rangi"
     },
     "commandsRankFilter": {
-      "rankRequirement": "Rank requirement"
+      "rankRequirement": "Wymagana ranga"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Server Commands",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+      "text6b6tServerCommands": "Komendy serwera 6b6t",
+      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Pełna lista komend dostępnych na anarchistycznym serwerze Minecraft 6b6t"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "Wszystkie rangi",
+    "auth": "Logowanie",
+    "homesAndTeleport": "Domy i teleportacja",
+    "hotspots": "Hotspoty"
   }
 }
