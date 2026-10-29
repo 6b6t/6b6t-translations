@@ -1,5 +1,5 @@
 {
-  "page-name": "Głosuj na 6b6t: darmowe domy i krótsze odnowienia",
+  "page-name": "Głosuj na 6b6t: darmowe domy i krótsze czasy odnowienia",
   "seo-description": "Głosuj na 6b6t, aby zdobyć darmowe domy, /skin, /sit i krótsze odnowienia teleportacji. Zobacz listy serwerów i nagrody.",
   "vote-link": "Link do głosowania {{number}}",
   "title": "Głosuj na 6b6t",
@@ -55,7 +55,7 @@
       "unlockMoreHomesCommandAccessAndShorterTeleportCooldowns": "Wraz ze wzrostem liczby głosów odblokowujesz więcej domów, komendy i krótsze czasy odnowienia teleportacji.",
       "dayEstimatesAssumeYouVoteOnAllSevenSites": "Szacowana liczba dni zakłada codzienne głosowanie na wszystkich siedmiu stronach.",
       "exploreRanks": "Poznaj rangi",
-      "votes": "głosy",
+      "votes": "głosów",
       "youStartWithOneHomeWithASecondAvailable": "Zaczynasz z jednym domem, a drugi jest dostępny podczas noszenia netherytowej zbroi. Głosowanie odblokowuje do pięciu domów.",
       "onceUnlockedUse": "Po odblokowaniu użyj",
       "toChangeYourSkin": "aby zmienić skórkę."
