@@ -52,3 +52,39 @@ Local website builds can still fetch this repository's latest `main` unless
 the website exactly. When the website source changes, export it with
 `bun run translations:export-source /path/to/6b6t-translations/locales`, preserve
 any newer translations already in the website, then validate both repositories.
+
+## Local Git checks
+
+Install [Lefthook](https://lefthook.dev/installation/) 1.13.6 or newer and Python 3.10 or newer.
+Run this command once in each clone or linked worktree:
+
+```bash
+lefthook install
+```
+
+The commit hook checks staged whitespace without changing files or staging content.
+Before a push, the hook reads Git's exact ref updates and selects checks from the changed paths, including deleted files.
+New refs and unavailable remote baselines check the complete tree.
+Check out the commit that you push. Commit or stash tracked and untracked changes first so that checks use the pushed code.
+Deletion-only pushes do not run code checks. Hook regression tests run for every push with changed files.
+Documentation-only changes do not compile the application. CI remains enabled.
+
+Install Node.js and npm.
+Locale, validator, and package changes run `npm run check` for all locales.
+The validator checks key structure, value types, empty translations, array lengths, and placeholders.
+The hook does not seed, rewrite, or stage translations.
+
+Preview all local checks and their selected paths:
+
+```bash
+python3 scripts/check-push.py --all --dry-run --verbose
+```
+
+Run all checks against the current working tree before committing:
+
+```bash
+python3 scripts/check-push.py --all
+```
+
+The `--all` command checks working files directly. It does not require a clean tree.
+Normal Git pushes require a clean tree and reject a ref that points to another commit.
