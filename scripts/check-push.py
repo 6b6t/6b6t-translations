@@ -12,7 +12,17 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 RULES = [
-    (["locales/*", "scripts/*.mjs", "package.json"], [(".", ["npm", "run", "check"])])
+    (
+        [
+            "locales/*",
+            "scripts/*.mjs",
+            "package.json",
+            "package-lock.json",
+            ".oxlintrc.json",
+            ".oxfmtrc.json",
+        ],
+        [(".", ["npm", "run", "check"])],
+    )
 ]
 
 

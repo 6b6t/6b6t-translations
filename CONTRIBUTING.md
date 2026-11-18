@@ -5,7 +5,7 @@
 3. Edit only the text values. Keep JSON keys and file names unchanged.
 4. Preserve placeholders exactly, including braces: `{{days}}` or
    `{{value1}}`. Placeholders may be moved to match natural word order.
-5. Run `npm run check` with Node.js 24 or newer.
+5. Run `npm ci` and `npm run check` with Node.js 24 or newer.
 6. Open a pull request and name the language and page you translated.
 
 You may translate one file or even a small group of strings. Leave unfinished

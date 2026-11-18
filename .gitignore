@@ -5,3 +5,6 @@
 
 # Python hook test caches
 __pycache__/
+
+# Dependencies
+node_modules/
