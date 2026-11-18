@@ -15,18 +15,14 @@ function valueKind(value) {
 
 function placeholders(value) {
   if (typeof value !== "string") return [];
-  return [...value.matchAll(PLACEHOLDER_PATTERN)]
-    .map((match) => match[1])
-    .sort();
+  return [...value.matchAll(PLACEHOLDER_PATTERN)].map((match) => match[1]).toSorted();
 }
 
 function compareValues(source, translated, location, errors) {
   const sourceKind = valueKind(source);
   const translatedKind = valueKind(translated);
   if (sourceKind !== translatedKind) {
-    errors.push(
-      `${location}: expected ${sourceKind}, received ${translatedKind}`,
-    );
+    errors.push(`${location}: expected ${sourceKind}, received ${translatedKind}`);
     return;
   }
 
@@ -52,19 +48,14 @@ function compareValues(source, translated, location, errors) {
       return;
     }
     for (let index = 0; index < source.length; index += 1) {
-      compareValues(
-        source[index],
-        translated[index],
-        `${location}[${index}]`,
-        errors,
-      );
+      compareValues(source[index], translated[index], `${location}[${index}]`, errors);
     }
     return;
   }
 
   if (sourceKind === "object") {
-    const sourceKeys = Object.keys(source).sort();
-    const translatedKeys = Object.keys(translated).sort();
+    const sourceKeys = Object.keys(source).toSorted();
+    const translatedKeys = Object.keys(translated).toSorted();
     for (const key of sourceKeys) {
       if (!(key in translated)) errors.push(`${location}.${key}: missing key`);
     }
@@ -75,12 +66,7 @@ function compareValues(source, translated, location, errors) {
     }
     for (const key of sourceKeys) {
       if (key in translated) {
-        compareValues(
-          source[key],
-          translated[key],
-          `${location}.${key}`,
-          errors,
-        );
+        compareValues(source[key], translated[key], `${location}.${key}`, errors);
       }
     }
   }
@@ -90,7 +76,7 @@ async function jsonFiles(directory) {
   return (await readdir(directory, { withFileTypes: true }))
     .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
     .map((entry) => entry.name)
-    .sort();
+    .toSorted();
 }
 
 async function readJson(file, errors) {
@@ -165,8 +151,6 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     for (const error of errors) console.error(`- ${error}`);
     process.exitCode = 1;
   } else {
-    console.log(
-      `Translation catalogs are valid for ${ALL_LOCALES.join(", ")}.`,
-    );
+    console.log(`Translation catalogs are valid for ${ALL_LOCALES.join(", ")}.`);
   }
 }

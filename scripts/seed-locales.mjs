@@ -5,9 +5,7 @@ import path from "node:path";
 const TARGET_LOCALES = ["de", "es", "fr", "hi", "pl", "ru", "tr"];
 const root = path.resolve("locales");
 const englishDirectory = path.join(root, "en");
-const files = (await readdir(englishDirectory)).filter((file) =>
-  file.endsWith(".json"),
-);
+const files = (await readdir(englishDirectory)).filter((file) => file.endsWith(".json"));
 
 for (const locale of TARGET_LOCALES) {
   const localeDirectory = path.join(root, locale);
