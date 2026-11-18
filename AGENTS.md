@@ -54,6 +54,14 @@ Keep the existing requirements for deployment authorization, dry runs, and verif
 - A successful build, local test, deployment request, or planned future merge does not satisfy this requirement.
 - For repositories with a different default branch name, apply the same requirement to that primary branch.
 
+## Effect scripts
+
+- `scripts/translations.ts` holds the catalog logic as Effect programs. `scripts/validate-translations.ts` and `scripts/seed-locales.ts` are thin entry points.
+- File access goes through the `CatalogFiles` service. `nodeCatalogFilesLayer` implements it with `node:fs/promises`. Provide another layer to run the programs without a disk.
+- Failures are typed `Data.TaggedError` classes (`CatalogDirectoryError`, `CatalogReadError`, `CatalogJsonError`, `CatalogWriteError`). The validator turns them into report lines. Output goes through `Console`.
+- Each entry point runs its program once with `Effect.runPromise` and the Node layer.
+- `npm ci` runs `prepare`, which patches Oxlint with the Effect rules. Oxlint also type-checks the scripts with `tsconfig.json`.
+
 ## Contribution boundaries
 
 ### ✅ Always

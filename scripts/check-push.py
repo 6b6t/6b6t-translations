@@ -15,7 +15,8 @@ RULES = [
     (
         [
             "locales/*",
-            "scripts/*.mjs",
+            "scripts/*.ts",
+            "tsconfig.json",
             "package.json",
             "package-lock.json",
             ".oxlintrc.json",

@@ -69,10 +69,11 @@ Check out the commit that you push. Commit or stash tracked and untracked change
 Deletion-only pushes do not run code checks. Hook regression tests run for every push with changed files.
 Documentation-only changes do not compile the application. CI remains enabled.
 
-Install Node.js and npm, then run `npm ci`.
+Install Node.js 24 or newer and npm, then run `npm ci`.
 Locale, validator, and package changes run `npm run check` for all locales.
 The validator checks key structure, value types, empty translations, array lengths, and placeholders.
-The same command then runs Oxlint and checks formatting with Oxfmt. Run `npm run format` to fix formatting.
+The validator and seed scripts are TypeScript files in `scripts/`. Node.js runs them directly.
+The same command then runs Oxlint, which also type-checks the scripts, and checks formatting with Oxfmt. Run `npm run format` to fix formatting.
 The hook does not seed, rewrite, or stage translations.
 
 Preview all local checks and their selected paths:

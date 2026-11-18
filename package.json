@@ -3,13 +3,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node scripts/validate-translations.mjs locales && npm run lint && npm run format:check",
-    "seed": "node scripts/seed-locales.mjs",
+    "check": "node scripts/validate-translations.ts locales && npm run lint && npm run format:check",
+    "seed": "node scripts/seed-locales.ts",
     "lint": "oxlint",
     "format": "oxfmt",
-    "format:check": "oxfmt --check"
+    "format:check": "oxfmt --check",
+    "prepare": "effect-tsgo patch --no-typescript --oxlint"
+  },
+  "dependencies": {
+    "effect": "4.1.4"
   },
   "devDependencies": {
+    "@effect/tsgo": "0.70.0",
+    "@types/node": "24.19.2",
     "oxfmt": "0.79.0",
     "oxlint": "1.94.0",
     "oxlint-tsgolint": "7.0.2007"
