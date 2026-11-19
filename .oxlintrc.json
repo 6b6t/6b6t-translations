@@ -2,14 +2,22 @@
   "$schema": "./node_modules/@effect/tsgo/oxlint-schema.json",
   "extends": ["./node_modules/@effect/tsgo/oxlint-presets/strict.json"],
   "plugins": ["typescript", "unicorn", "oxc", "import", "promise", "node", "effecttsgo"],
-  "categories": { "correctness": "error", "suspicious": "error", "perf": "error" },
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "error",
+    "pedantic": "error"
+  },
   "options": {
     "typeAware": true,
     "typeCheck": true,
     "denyWarnings": true,
     "reportUnusedDisableDirectives": "error"
   },
-  "env": { "builtin": true, "node": true },
+  "env": {
+    "builtin": true,
+    "node": true
+  },
   "ignorePatterns": [],
   "rules": {
     "typescript/restrict-plus-operands": "error",
@@ -72,7 +80,20 @@
     "typescript/no-unnecessary-condition": "error",
     "typescript/prefer-nullish-coalescing": "error",
     "typescript/require-await": "error",
-    "typescript/no-non-null-assertion": "error"
+    "typescript/no-non-null-assertion": "error",
+    "typescript/prefer-readonly-parameter-types": "off",
+    "eslint/max-lines": "off",
+    "eslint/max-lines-per-function": "off",
+    "eslint/max-depth": "off",
+    "eslint/max-nested-callbacks": "off",
+    "eslint/max-classes-per-file": "off",
+    "import/max-dependencies": "off",
+    "eslint/no-inline-comments": "off",
+    "eslint/no-warning-comments": "off",
+    "eslint/no-negated-condition": "off",
+    "unicorn/no-negated-condition": "off",
+    "eslint/require-await": "off",
+    "typescript/strict-boolean-expressions": "off"
   },
   "overrides": [
     {

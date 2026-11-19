@@ -2,12 +2,12 @@ import { constants } from "node:fs";
 import { copyFile, mkdir, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { Console, Context, Data, Effect, Layer, Predicate, Result } from "effect";
+import { Console, Context, Data, Effect, Layer, Option, Predicate, Result } from "effect";
 
 export const SOURCE_LOCALE = "en";
 export const TRANSLATED_LOCALES = ["de", "es", "fr", "hi", "pl", "ru", "tr"] as const;
 export const ALL_LOCALES = [SOURCE_LOCALE, ...TRANSLATED_LOCALES] as const;
-const PLACEHOLDER_PATTERN = /{{\s*([A-Za-z0-9_.-]+)\s*}}/g;
+const PLACEHOLDER_PATTERN = /\{\{\s*([A-Za-z0-9_.-]+)\s*\}\}/gu;
 
 function hasErrorCode(cause: unknown, code: string): boolean {
   return Predicate.hasProperty(cause, "code") && cause.code === code;
@@ -245,24 +245,25 @@ export const validateTranslations = Effect.fn("Translations.validate")(function*
   // A missing namespace is already reported above. Do not report it again as unreadable.
   const readOrRecord = (file: string) =>
     readCatalog(file).pipe(
+      Effect.asSome,
       Effect.catch((error) =>
         Effect.sync(() => {
           if (!(error instanceof CatalogReadError && hasErrorCode(error.cause, "ENOENT"))) {
             errors.push(error.message);
           }
-          return undefined;
+          return Option.none();
         }),
       ),
     );
 
   for (const file of sourceFiles) {
     const source = yield* readOrRecord(path.join(root, SOURCE_LOCALE, file));
-    if (source === undefined) continue;
+    if (Option.isNone(source)) continue;
 
     for (const locale of TRANSLATED_LOCALES) {
       const translated = yield* readOrRecord(path.join(root, locale, file));
-      if (translated !== undefined) {
-        compareValues(source, translated, `${locale}/${file}`, errors);
+      if (Option.isSome(translated)) {
+        compareValues(source.value, translated.value, `${locale}/${file}`, errors);
       }
     }
   }
