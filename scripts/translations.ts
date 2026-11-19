@@ -1,3 +1,4 @@
+// oxlint-disable effecttsgo/node-builtin-import -- This module supplies the native catalog filesystem adapter and preserves platform path semantics.
 import { constants } from "node:fs";
 import { copyFile, mkdir, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
@@ -8,6 +9,8 @@ export const SOURCE_LOCALE = "en";
 export const TRANSLATED_LOCALES = ["de", "es", "fr", "hi", "pl", "ru", "tr"] as const;
 export const ALL_LOCALES = [SOURCE_LOCALE, ...TRANSLATED_LOCALES] as const;
 const PLACEHOLDER_PATTERN = /\{\{\s*([A-Za-z0-9_.-]+)\s*\}\}/gu;
+
+const encodePlaceholders = Schema.encodeSync(Schema.fromJsonString(Schema.Array(Schema.String)));
 
 function hasErrorCode(cause: unknown, code: string): boolean {
   return Predicate.hasProperty(cause, "code") && cause.code === code;
@@ -89,13 +92,13 @@ export class CatalogFiles extends Context.Service<
       target: string,
     ) => Effect.Effect<void, CatalogWriteError>;
   }
->()("translations/CatalogFiles") {}
+>()("6b6t-translations/scripts/translations/CatalogFiles") {}
 
 export const nodeCatalogFilesLayer = Layer.succeed(CatalogFiles, {
   readDirectory: (directory) =>
     Effect.tryPromise({
       try: async () => readdir(directory, { withFileTypes: true }),
-      catch: (cause) => new CatalogDirectoryError({ path: directory, cause }),
+      catch: (cause) => CatalogDirectoryError.make({ path: directory, cause }),
     }).pipe(
       Effect.map((entries) =>
         entries.map((entry) => ({ name: entry.name, isFile: entry.isFile() })),
@@ -104,14 +107,14 @@ export const nodeCatalogFilesLayer = Layer.succeed(CatalogFiles, {
   readText: (file) =>
     Effect.tryPromise({
       try: async () => readFile(file, "utf8"),
-      catch: (cause) => new CatalogReadError({ path: file, cause }),
+      catch: (cause) => CatalogReadError.make({ path: file, cause }),
     }),
   makeDirectory: (directory) =>
     Effect.tryPromise({
       try: async () => {
         await mkdir(directory, { recursive: true });
       },
-      catch: (cause) => new CatalogWriteError({ path: directory, cause }),
+      catch: (cause) => CatalogWriteError.make({ path: directory, cause }),
     }),
   copyFileIfMissing: (source, target) =>
     Effect.tryPromise({
@@ -122,7 +125,7 @@ export const nodeCatalogFilesLayer = Layer.succeed(CatalogFiles, {
           if (!hasErrorCode(error, "EEXIST")) throw error;
         }
       },
-      catch: (cause) => new CatalogWriteError({ path: target, cause }),
+      catch: (cause) => CatalogWriteError.make({ path: target, cause }),
     }),
 });
 
@@ -158,7 +161,7 @@ function compareValues(
     const translatedPlaceholders = placeholders(translated);
     if (sourcePlaceholders.join("|") !== translatedPlaceholders.join("|")) {
       errors.push(
-        `${location}: placeholders must remain ${JSON.stringify(sourcePlaceholders)}, received ${JSON.stringify(translatedPlaceholders)}`,
+        `${location}: placeholders must remain ${encodePlaceholders(sourcePlaceholders)}, received ${encodePlaceholders(translatedPlaceholders)}`,
       );
     }
     return;
@@ -215,7 +218,7 @@ export const readCatalog = Effect.fn("Translations.readCatalog")(function* (file
   const files = yield* CatalogFiles;
   const text = yield* files.readText(file);
   return yield* decodeCatalog(text).pipe(
-    Effect.mapError((cause) => new CatalogJsonError({ path: file, cause })),
+    Effect.mapError((cause) => CatalogJsonError.make({ path: file, cause })),
   );
 });
 
