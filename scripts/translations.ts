@@ -64,7 +64,7 @@ export class CatalogFiles extends Context.Service<
   {
     readonly readDirectory: (
       directory: string,
-    ) => Effect.Effect<ReadonlyArray<DirectoryEntry>, CatalogDirectoryError>;
+    ) => Effect.Effect<readonly DirectoryEntry[], CatalogDirectoryError>;
     readonly readText: (file: string) => Effect.Effect<string, CatalogReadError>;
     readonly makeDirectory: (directory: string) => Effect.Effect<void, CatalogWriteError>;
     /** Copies a file only when the target does not exist yet. */
