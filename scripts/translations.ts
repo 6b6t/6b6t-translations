@@ -2,7 +2,7 @@ import { constants } from "node:fs";
 import { copyFile, mkdir, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 
-import { Console, Context, Data, Effect, Layer, Option, Predicate, Result } from "effect";
+import { Console, Context, Effect, Layer, Option, Predicate, Result, Schema } from "effect";
 
 export const SOURCE_LOCALE = "en";
 export const TRANSLATED_LOCALES = ["de", "es", "fr", "hi", "pl", "ru", "tr"] as const;
@@ -17,37 +17,53 @@ function causeMessage(cause: unknown): string {
   return cause instanceof Error ? cause.message : String(cause);
 }
 
-export class CatalogDirectoryError extends Data.TaggedError("CatalogDirectoryError")<{
-  readonly path: string;
-  readonly cause: unknown;
-}> {
+// oxlint-disable-next-line unicorn/throw-new-error -- Schema.TaggedError returns the base class constructor.
+export class CatalogDirectoryError extends Schema.TaggedError<
+  CatalogDirectoryError,
+  { readonly brand: unique symbol }
+>()("CatalogDirectoryError", {
+  path: Schema.String,
+  cause: Schema.Unknown,
+}) {
   override get message() {
     return `${this.path}: directory is unavailable (${causeMessage(this.cause)})`;
   }
 }
 
-export class CatalogReadError extends Data.TaggedError("CatalogReadError")<{
-  readonly path: string;
-  readonly cause: unknown;
-}> {
+// oxlint-disable-next-line unicorn/throw-new-error -- Schema.TaggedError returns the base class constructor.
+export class CatalogReadError extends Schema.TaggedError<
+  CatalogReadError,
+  { readonly brand: unique symbol }
+>()("CatalogReadError", {
+  path: Schema.String,
+  cause: Schema.Unknown,
+}) {
   override get message() {
     return `${this.path}: file is unreadable (${causeMessage(this.cause)})`;
   }
 }
 
-export class CatalogJsonError extends Data.TaggedError("CatalogJsonError")<{
-  readonly path: string;
-  readonly cause: unknown;
-}> {
+// oxlint-disable-next-line unicorn/throw-new-error -- Schema.TaggedError returns the base class constructor.
+export class CatalogJsonError extends Schema.TaggedError<
+  CatalogJsonError,
+  { readonly brand: unique symbol }
+>()("CatalogJsonError", {
+  path: Schema.String,
+  cause: Schema.Unknown,
+}) {
   override get message() {
     return `${this.path}: invalid JSON (${causeMessage(this.cause)})`;
   }
 }
 
-export class CatalogWriteError extends Data.TaggedError("CatalogWriteError")<{
-  readonly path: string;
-  readonly cause: unknown;
-}> {
+// oxlint-disable-next-line unicorn/throw-new-error -- Schema.TaggedError returns the base class constructor.
+export class CatalogWriteError extends Schema.TaggedError<
+  CatalogWriteError,
+  { readonly brand: unique symbol }
+>()("CatalogWriteError", {
+  path: Schema.String,
+  cause: Schema.Unknown,
+}) {
   override get message() {
     return `${this.path}: could not write catalog (${causeMessage(this.cause)})`;
   }
@@ -192,14 +208,15 @@ export const jsonFiles = Effect.fn("Translations.jsonFiles")(function* (director
     .toSorted();
 });
 
+const decodeCatalog = Schema.decodeUnknownEffect(Schema.fromJsonString(Schema.Unknown));
+
 /** Reads and parses one catalog file. */
 export const readCatalog = Effect.fn("Translations.readCatalog")(function* (file: string) {
   const files = yield* CatalogFiles;
   const text = yield* files.readText(file);
-  return yield* Effect.try({
-    try: (): unknown => JSON.parse(text),
-    catch: (cause) => new CatalogJsonError({ path: file, cause }),
-  });
+  return yield* decodeCatalog(text).pipe(
+    Effect.mapError((cause) => new CatalogJsonError({ path: file, cause })),
+  );
 });
 
 /**
