@@ -11,7 +11,7 @@
     "prepare": "effect-tsgo patch --no-typescript --oxlint"
   },
   "dependencies": {
-    "effect": "4.1.4"
+    "effect": "4.1.5"
   },
   "devDependencies": {
     "@effect/tsgo": "0.70.0",
