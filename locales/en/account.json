@@ -30,6 +30,19 @@
       "retryAssignment": "Retry assignment",
       "assignApexRank": "Assign Apex rank"
     },
+    "hytaleAccountsPanel": {
+      "hytaleAccounts": "Hytale accounts",
+      "manageYourHytaleLinksToDiscordNoMinecraftAccount": "Manage your Hytale links to Discord. No Minecraft account is required.",
+      "loadingYourConnection": "Loading your connection…",
+      "hytaleConnectionsAreUnavailablePleaseTryAgainShortly": "Hytale connections are unavailable. Please try again shortly.",
+      "tryAgain": "Try again",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "verifyYourEmailAddressToManageHytaleConnections": "Verify your email address to manage Hytale connections.",
+      "toLinkAHytaleAccountRunLinkOnThe": "To link a Hytale account, run /link on the Hytale server and open your private linking URL.",
+      "newHytaleLinksAreTemporarilyPausedYouCanStill": "New Hytale links are temporarily paused. You can still manage existing connections.",
+      "continueToDiscordLinking": "Continue to Discord linking",
+      "manageHytaleLinking": "Manage Hytale linking"
+    },
     "logOutButton": {
       "logOutIcon": "Log out icon",
       "logOut": "Log Out"
@@ -42,7 +55,7 @@
       "recoverYourAccount": "Recover your account",
       "manageYour6b6tAccount": "Manage your 6b6t account",
       "gameSocialProfiles": "Game & social profiles",
-      "switchMinecraftProfilesAndManageDiscordAndTelegramConnections": "Switch Minecraft profiles and manage Discord and Telegram connections.",
+      "manageMinecraftProfilesHytaleLinksAndDiscordAndTelegram": "Manage Minecraft profiles, Hytale links, and Discord and Telegram connections.",
       "subscriptionsPurchases": "Subscriptions & purchases",
       "accessBillingApexGiftsEligiblePhysicalProductsAndMotd": "Access billing, Apex gifts, eligible physical products and MOTD ads.",
       "legendCustomization": "Legend customization",
@@ -227,11 +240,11 @@
     "page": {
       "loadingAccountDetails": "Loading account details",
       "accountDetailsUnavailable": "Account details unavailable",
-      "weCouldnTLoadYourAccountTryAgainOr": "We couldn't load your account. Try again, or contact us if the problem continues.",
+      "weCouldnAposTLoadYourAccountTryAgain": "We couldn&apos;t load your account. Try again, or contact us if the problem continues.",
       "tryAgain": "Try again",
       "contactSupport": "Contact support",
-      "chooseYourGameProfile": "Choose your game profile",
-      "linkOrSelectAMinecraftProfileToManageIts": "Link or select a Minecraft profile to manage its ranks and services.",
+      "minecraftProfiles": "Minecraft profiles",
+      "linkAMinecraftProfileToManageItsRanksAnd": "Link a Minecraft profile to manage its ranks and services.",
       "loadingApexGifts": "Loading Apex gifts…",
       "legendThemeControls": "Legend Theme Controls",
       "themeCustomizationIsExclusivelyAvailableTo": "Theme customization is exclusively available to",

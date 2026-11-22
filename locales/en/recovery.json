@@ -197,7 +197,7 @@
       },
       "verifyEmailCodeStep": {
         "emailVerification": "Email Verification",
-        "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don't see it.",
+        "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don&apos;t see it.",
         "emailVerificationCode": "Email Verification Code",
         "text6DigitCode": "6-digit code",
         "verifyCode": "Verify Code"
@@ -250,6 +250,6 @@
       }
     }
   },
-  "page-name": "Recover Your 6b6t Account",
-  "seo-description": "Recover access to your cracked or Bedrock 6b6t account. Prove ownership if you lost your email, or use /email recover in-game."
+  "page-name": "6b6t Account Recovery: Restore Account Access",
+  "seo-description": "Request help recovering your 6b6t account when you cannot access the original email. Review the recovery steps and submit your account details."
 }

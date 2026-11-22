@@ -14,7 +14,7 @@
     },
     "updatesList": {
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "पुनः प्रयास करें",
       "newUpdate": "नई अपडेट",
       "justAppeared": "अभी प्रकट हुआ.",
       "dismiss": "नकार देना",
@@ -51,10 +51,12 @@
       "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
       "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "पुनः प्रयास करें",
       "noUpdatesToShowYet": "No updates to show yet",
       "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
       "readNewsOnDiscord": "Read news on Discord"
     }
-  }
+  },
+  "page-name": "6b6t चेंजलॉग: सर्वर अपडेट और सुधार",
+  "seo-description": "6b6t का नया चेंजलॉग पढ़ें: नई सुविधाएँ, सुधार और आधिकारिक Discord पर आई सर्वर की खबरें, सबसे नई जानकारी सबसे ऊपर, पुरानी उसके बाद।"
 }

@@ -30,6 +30,19 @@
       "retryAssignment": "Ponów przypisanie",
       "assignApexRank": "Przypisz rangę Apex"
     },
+    "hytaleAccountsPanel": {
+      "hytaleAccounts": "Konta Hytale",
+      "manageYourHytaleLinksToDiscordNoMinecraftAccount": "Zarządzaj połączeniami Hytale z Discordem. Konto Minecraft nie jest wymagane.",
+      "loadingYourConnection": "Loading your connection…",
+      "hytaleConnectionsAreUnavailablePleaseTryAgainShortly": "Hytale connections are unavailable. Please try again shortly.",
+      "tryAgain": "Spróbuj ponownie",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "verifyYourEmailAddressToManageHytaleConnections": "Zweryfikuj adres e-mail, aby zarządzać połączeniami Hytale.",
+      "toLinkAHytaleAccountRunLinkOnThe": "Aby połączyć konto Hytale, użyj /link na serwerze Hytale i otwórz swój prywatny adres URL łączenia.",
+      "newHytaleLinksAreTemporarilyPausedYouCanStill": "Nowe połączenia Hytale są tymczasowo wstrzymane. Nadal możesz zarządzać istniejącymi połączeniami.",
+      "continueToDiscordLinking": "Continue to Discord linking",
+      "manageHytaleLinking": "Zarządzaj połączeniami Hytale"
+    },
     "logOutButton": {
       "logOutIcon": "Ikona wylogowania",
       "logOut": "Wyloguj się"
@@ -42,7 +55,7 @@
       "recoverYourAccount": "Odzyskaj swoje konto",
       "manageYour6b6tAccount": "Zarządzaj swoim kontem 6b6t",
       "gameSocialProfiles": "Profile gry i konta społecznościowe",
-      "switchMinecraftProfilesAndManageDiscordAndTelegramConnections": "Przełączaj profile Minecraft i zarządzaj powiązaniami Discorda i Telegrama.",
+      "manageMinecraftProfilesHytaleLinksAndDiscordAndTelegram": "Zarządzaj profilami Minecraft, połączeniami Hytale oraz połączeniami Discord i Telegram.",
       "subscriptionsPurchases": "Subskrypcje i zakupy",
       "accessBillingApexGiftsEligiblePhysicalProductsAndMotd": "Zarządzaj płatnościami, prezentami Apex, przysługującymi produktami fizycznymi i reklamami MOTD.",
       "legendCustomization": "Personalizacja Legend",
@@ -227,11 +240,11 @@
     "page": {
       "loadingAccountDetails": "Wczytywanie danych konta",
       "accountDetailsUnavailable": "Dane konta są niedostępne",
-      "weCouldnTLoadYourAccountTryAgainOr": "Nie udało się wczytać Twojego konta. Spróbuj ponownie lub skontaktuj się z nami, jeśli problem nie ustąpi.",
+      "weCouldnAposTLoadYourAccountTryAgain": "Nie udało się wczytać Twojego konta. Spróbuj ponownie lub skontaktuj się z nami, jeśli problem nie ustąpi.",
       "tryAgain": "Spróbuj ponownie",
       "contactSupport": "Skontaktuj się z pomocą",
-      "chooseYourGameProfile": "Wybierz swój profil gry",
-      "linkOrSelectAMinecraftProfileToManageIts": "Połącz lub wybierz profil Minecraft, aby zarządzać jego rangami i usługami.",
+      "minecraftProfiles": "Profile Minecraft",
+      "linkAMinecraftProfileToManageItsRanksAnd": "Połącz profil Minecraft, aby zarządzać jego rangami i usługami.",
       "loadingApexGifts": "Wczytywanie prezentów Apex…",
       "legendThemeControls": "Sterowanie motywami Legend",
       "themeCustomizationIsExclusivelyAvailableTo": "Personalizacja motywów jest dostępna wyłącznie dla",

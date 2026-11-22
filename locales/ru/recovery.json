@@ -185,7 +185,7 @@
         "resetPassword": "Reset Password"
       },
       "startStep": {
-        "minecraftUsername": "Minecraft username",
+        "minecraftUsername": "Minecraft Username",
         "yourminecraftname": "YourMinecraftName",
         "useTheInGameNameYouUseToJoin": "Use the in-game name you use to join 6b6t.",
         "verification": "Verification",
@@ -197,7 +197,7 @@
       },
       "verifyEmailCodeStep": {
         "emailVerification": "Email Verification",
-        "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don't see it.",
+        "a6DigitCodeHasBeenSentToYour": "A 6-digit code has been sent to your email. Check your spam folder if you don&apos;t see it.",
         "emailVerificationCode": "Email Verification Code",
         "text6DigitCode": "6-digit code",
         "verifyCode": "Verify Code"
@@ -250,6 +250,6 @@
       }
     }
   },
-  "page-name": "Recover Your 6b6t Account",
-  "seo-description": "Recover access to your cracked or Bedrock 6b6t account. Prove ownership if you lost your email, or use /email recover in-game."
+  "page-name": "Восстановление аккаунта 6b6t: верните доступ",
+  "seo-description": "Запросите помощь, если у вас нет доступа к исходной почте аккаунта 6b6t. Изучите шаги восстановления и отправьте данные аккаунта."
 }

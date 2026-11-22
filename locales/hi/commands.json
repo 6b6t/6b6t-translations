@@ -1,12 +1,12 @@
 {
-  "page-name": "आदेश",
+  "page-name": "6b6t Minecraft कमांड और उपयोग के उदाहरण",
   "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg और अधिक सहित आवश्यक 6b6t कमांड के बारे में जानें।",
   "sections": {
     "commandEntry": {
       "aliases": "Aliases",
       "example": "उदाहरण",
       "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
+      "copied": "कॉपी किया गया",
       "copyExample": "Copy example",
       "exampleCopied": "Example copied.",
       "ranks": "Ranks"
@@ -17,7 +17,7 @@
     },
     "commandsList": {
       "bestMatches": "सर्वश्रेष्ठ मैच",
-      "commands": "Commands",
+      "commands": "आदेश",
       "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "आदेश खोजें...",
       "commandAliasOrDescription": "Command, alias or description",
@@ -39,14 +39,16 @@
       "rankRequirement": "रैंक की आवश्यकता"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t सर्वर कमांड",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "6b6t Minecraft अराजकता सर्वर पर उपलब्ध आदेशों की पूरी सूची"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "6b6t सर्वर कमांड"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "सभी रैंक",
+    "auth": "प्रमाणीकरण",
+    "homesAndTeleport": "होम और टेलीपोर्ट",
+    "hotspots": "हॉटस्पॉट",
+    "groupChat": "Group chat"
   }
 }

@@ -7,7 +7,7 @@
       "checkingServerStatus": "Checking server status...",
       "refreshing": "Refreshing...",
       "refreshStatus": "Refresh status",
-      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
       "showingTheLastReceivedInformation": "Showing the last received information.",
       "serverInformation": "Server information",
       "checkingAvailability": "Checking availability",
@@ -28,5 +28,8 @@
       "downloadAnarchymod": "Download AnarchyMod",
       "connectionHelp": "Connection help"
     }
-  }
+  },
+  "page-name": "Is 6b6t Down? Live Server Status and Player Count",
+  "seo-description": "Check 6b6t server status, current player count and version. Java looks offline? Install AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
+  "share-image-alt": "6b6t server status"
 }

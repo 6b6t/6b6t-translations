@@ -1,12 +1,29 @@
 {
   "sections": {
-    "layout": {
-      "text6b6tBlogNewsUpdates": "Blog de 6b6t - Noticias y novedades",
-      "readTheLatestNewsUpdatesAndAnnouncementsFrom6b6t": "Lee las últimas noticias, novedades y anuncios del servidor de Minecraft 6b6t."
+    "blogPostContent": {
+      "youtubeVideo": "YouTube video"
+    },
+    "blogSchema": {
+      "text6b6t": "6b6t"
+    },
+    "slug": {
+      "page": {
+        "allPosts": "All posts"
+      }
     },
     "page": {
-      "text6b6tBlogNewsUpdates": "Blog de 6b6t - Noticias y novedades",
-      "readTheLatestNewsUpdatesAndAnnouncementsFrom6b6t": "Lee las últimas noticias, novedades y anuncios del servidor de Minecraft 6b6t."
+      "text6b6tBlog": "6b6t blog",
+      "blog": "Blog",
+      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "News, guides and stories from the 6b6t anarchy server.",
+      "blogPages": "Blog pages",
+      "newerPosts": "Newer posts",
+      "page": "Página",
+      "of": "de",
+      "olderPosts": "Older posts",
+      "theBlogIsTemporarilyUnavailable": "The blog is temporarily unavailable",
+      "reloadThePageToTryAgain": "Reload the page to try again.",
+      "noPostsOnThisPage": "No posts on this page",
+      "goToTheNewestPosts": "Go to the newest posts"
     }
   }
 }

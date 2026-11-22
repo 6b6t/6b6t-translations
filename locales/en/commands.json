@@ -39,14 +39,16 @@
       "rankRequirement": "Rank requirement"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Server Commands",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "6b6t Server Commands"
     }
   },
   "filters": {
     "allRanks": "All ranks",
     "auth": "Auth",
     "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "hotspots": "Hotspots",
+    "groupChat": "Group chat"
   }
 }

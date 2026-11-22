@@ -48,6 +48,7 @@
       "copyIp": "Copy IP",
       "links": "Links",
       "home": "Home",
+      "manageDiscordConnection": "Manage Discord connection",
       "notAffiliatedWithMojangStudiosOrHypixelStudios": "Not affiliated with Mojang Studios or Hypixel Studios.",
       "text6b6tAnarchyAllRightsReserved": "6b6t Anarchy. All rights reserved."
     },
@@ -81,7 +82,7 @@
     },
     "hytaleHero": {
       "text6b6tHytale": "6b6t Hytale",
-      "theFirstAnarchyServerInHytale": "The first anarchy server in Hytale.",
+      "theFirstAnarchyServerInHytale": "The First Anarchy Server in Hytale",
       "noRulesNoResetsNoMercyExperience": "No rules. No resets. No mercy. Experience",
       "trueAnarchy": "true anarchy",
       "inHytaleOnThe": "in Hytale on the",
@@ -101,6 +102,11 @@
       "playVideo": "Play Video",
       "hytaleTrailer": "Hytale Trailer"
     },
+    "hytaleLinkingShell": {
+      "hytale": "Hytale",
+      "text6b6t": "6b6t",
+      "backToHytale": "Back to Hytale"
+    },
     "hytaleNav": {
       "home": "HOME",
       "text6b6t": "6b6t",
@@ -117,12 +123,41 @@
       "est": "Est.",
       "cet": "CET"
     },
+    "connections": {
+      "hytaleDiscordConnection6b6t": "Hytale Discord connection | 6b6t",
+      "robots": "robots",
+      "noindexNofollow": "noindex, nofollow",
+      "connectHytaleToDiscord": "Connect Hytale to Discord",
+      "linkYourHytaleAccountToGetTheLinkedRole": "Link your Hytale account to get the Linked role and access screenshot channels. No Minecraft account is required.",
+      "tryAgain": "Try again",
+      "loadingYourConnection": "Loading your connection…",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "signInWithDiscordOrSignInToYour": "Sign in with Discord, or sign in to your existing website account and connect Discord.",
+      "signInToContinue": "Sign in to continue",
+      "verifyYourEmailAddressToContinueYourPrivateLinking": "Verify your email address to continue. Your private linking request stays available until it expires.",
+      "discordAccounts": "Discord accounts",
+      "yourDiscordAccount": "Your Discord account",
+      "chooseTheDiscordAccountToLink": "Choose the Discord account to link",
+      "selectAnAccount": "Select an account",
+      "noDiscordAccountIsConnectedToThisWebsiteAccount": "No Discord account is connected to this website account yet.",
+      "connecting": "Connecting…",
+      "connectAnotherDiscordAccount": "Connect another Discord account",
+      "confirmHytaleLink": "Confirm Hytale link",
+      "link": "Link",
+      "hytaleId": "Hytale ID:",
+      "confirmThatThisIsYourHytalePlayerAndThe": "Confirm that this is your Hytale player and the selected Discord account is the one you want to use.",
+      "ifThisRequestExpiresRunLinkOnTheHytale": "If this request expires, run /link on the Hytale server again.",
+      "linking": "Linking…",
+      "confirmHytaleAndDiscordLink": "Confirm Hytale and Discord link",
+      "newLinkingIsPausedExistingConnectionsRemainAvailableBelow": "New linking is paused. Existing connections remain available below.",
+      "linkAHytalePlayer": "Link a Hytale player",
+      "run": "Run",
+      "onTheHytaleServerAndOpenThePrivateUrl": "on the Hytale server and open the private URL it gives you. An old, expired, or used request cannot link another account.",
+      "keepThisPageBookmarkedToManageYourHytaleConnection": "Keep this page bookmarked to manage your Hytale connection. Minecraft profiles and ranks are managed separately."
+    },
     "page": {
-      "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - First Anarchy Server in Hytale | Hytale Anarchy",
-      "joinTheFirstAndOldestAnarchyServerInHytale": "Join the first and oldest anarchy server in Hytale. No rules, no bans, no resets. The original Hytale anarchy server. Free to play, connect at hytale.6b6t.org",
       "text6b6tHytaleAnarchyServer": "6b6t - Hytale Anarchy Server",
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchyServer": "6b6t - First Anarchy Server in Hytale | Hytale Anarchy Server",
-      "theFirstAnarchyServerInHytaleNoRulesPure": "The first anarchy server in Hytale. No rules, pure chaos. Free to play!",
       "join6b6tTheFirstAnarchyServerInHytaleLaunched": "Join 6b6t, the first anarchy server in Hytale, launched mere minutes after the game's release. Experience true freedom with no rules, no resets, pure chaos.",
       "text6b6t": "6b6t",
       "theFirstAndOldestAnarchyServerInHytaleLike": "The first and oldest anarchy server in Hytale. Like 2b2t for Hytale - no rules, no resets, pure chaos. The original Hytale anarchy server. Free to play with no pay-to-win mechanics.",
@@ -141,5 +176,8 @@
       "oneOfTheFirstPeacefulNights": "One of the first peaceful nights",
       "aModernHouse": "A modern house"
     }
-  }
+  },
+  "page-name": "6b6t: Erster Hytale-Anarchie-Server ohne Regeln",
+  "seo-description": "Spiel auf 6b6t, dem ersten Hytale-Anarchie-Server. Kostenlos, ohne Regeln, Bans oder Resets, in einer dauerhaften Welt: hytale.6b6t.org.",
+  "share-image-alt": "6b6t Hytale-Anarchie-Server"
 }

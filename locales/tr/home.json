@@ -1,6 +1,6 @@
 {
-  "page-name": "Minecraft'ın En Büyük Anarşi Sunucusu",
-  "seo-description": "6b6t, kuralsız, sırasız ve tam 1.8-1.21.x desteğine sahip en büyük Minecraft anarşi sunucusudur. /tpa, /home ve daha fazlasıyla kaos dolu bir dünyada milyonlarca oyuncuya katıl. IP: play.6b6t.org",
+  "page-name": "6b6t Minecraft Anarşi Sunucusu: IP ve Nasıl Girilir",
+  "seo-description": "Kural yok. Sıra yok. Java'da AnarchyMod ile play.6b6t.org, Bedrock'ta br.6b6t.org ve port 19132 ile 6b6t'ye gir. 2022'den beri aynı dünya.",
   "server-statistics": "Sunucu İstatistikleri",
   "about-us": "Hakkımızda",
   "tell-me-more": "Daha Fazla Bilgi",
@@ -21,111 +21,13 @@
   "youtube-shorts-visit-channel": "Kanalımızı Ziyaret Et",
   "youtube-shorts-error": "YouTube içeriği yüklenemedi. Lütfen daha sonra tekrar deneyin.",
   "sections": {
-    "changelog": {
-      "latestUpdates": {
-        "latestChangelog": "Son Değişiklik Günlüğü",
-        "recent": "Son",
-        "serverUpdates": "sunucu güncellemeleri",
-        "viewAllUpdates": "Tüm güncellemeleri görüntüle",
-        "latestPost": "Son gönderi",
-        "latest": "Son",
-        "openValue1": "{{value1}} Aç",
-        "discordUpdatesAreComingHereSoon": "Discord güncellemeleri yakında burada olacak",
-        "onceTheDiscordChannelIsReachableTheNewestChangelog": "Discord kanalına erişim sağlandığında, en yeni değişiklik günlüğü gönderileri burada otomatik olarak görünecektir.",
-        "joinDiscord": "Discord'a Katıl"
-      }
-    },
     "faq": {
       "faq": {
-        "whatIs6b6t": "6b6t nedir?",
-        "text6b6tIsAMinecraftAnarchyServerWithNoQueue": "6b6t is a Minecraft anarchy server with no queue and a world that has never reset. Players can build, fight, raid and explore, with commands such as /tpa and /home.",
-        "howDoIJoin6b6t": "How do I join 6b6t?",
-        "onJavaInstallAnarchymodAndConnectTo": "On Java, install AnarchyMod and connect to",
-        "onBedrockUse": ". On Bedrock, use",
-        "port": ", port",
-        "readThe": ". Read the",
-        "javaAndBedrockJoiningInstructions": "Java and Bedrock joining instructions",
-        "whyDoes6b6tLookOfflineInJavaEdition": "Why does 6b6t look offline in Java Edition?",
-        "mojangBlacklistedTheServerOn15July2026Java": "Mojang blacklisted the server on 15 July 2026. Java players need",
-        "anarchymod": "AnarchyMod",
-        "toConnectCheck": "to connect. Check",
-        "liveServerStatus": "live server status",
-        "and": "ve",
-        "connectionHelp": "connection help",
-        "whatMinecraftVersionShouldIUse": "What Minecraft version should I use?",
-        "useAJavaVersionSupportedByTheCurrentAnarchymod": "Use a Java version supported by the current AnarchyMod release. The",
-        "downloadPage": "download page",
-        "listsCompatibleVersionsBedrockPlayersConnectWithoutTheJava": "lists compatible versions. Bedrock players connect without the Java mod.",
-        "is6b6tA2b2tAlternative": "6b6t bir 2b2t alternatifi mi?",
-        "yes6b6tOffersAnarchyGameplayWithoutAQueueWith": "Yes. 6b6t offers anarchy gameplay without a queue, with teleportation commands and support for Java and Bedrock. It is an independent server with its own world and community.",
-        "howManyPlayersAreOn6b6t": "How many players are on 6b6t?",
-        "theCountChangesThroughoutTheDaySee": "The count changes throughout the day. See",
-        "theCurrentPlayerCount": "the current player count",
-        "theServerReached1155SimultaneousPlayersOn14": ". The server reached 1,155 simultaneous players on 14 August 2026.",
-        "areHacksGriefingAndDupesAllowed": "Are hacks, griefing and dupes allowed?",
-        "anarchyGameplayAllowsHackedClientsGriefingAndRaidingTechnical": "Anarchy gameplay allows hacked clients, griefing and raiding. Technical protections can limit cheats and dupes can be patched. See",
-        "gameplayRulesAndLimits": "gameplay rules and limits",
-        "chatMuteInformation": "chat mute information",
-        "whatCommandsDoes6b6tHave": "6b6t'de hangi komutlar var?",
-        "useTpaToRequestATeleportAndHomeTo": "Use /tpa to request a teleport and /home to return to a saved home. The",
-        "fullCommandList": "full command list",
-        "includesRankRequirementsAndExamples": "includes rank requirements and examples.",
-        "votingRewards": "Voting rewards",
-        "includeExtraHomesAndShorterCooldowns": "include extra homes and shorter cooldowns.",
-        "howOldIs6b6t": "6b6t kaç yaşında?",
-        "text6b6tLaunchedOn16January2022Read": "6b6t launched on 16 January 2022. Read",
-        "theServerHistory": "the server history",
-        "forMilestonesAndCommunityStoriesOver": "for milestones and community stories. Over",
-        "uniquePlayersHaveJoined": "unique players have joined.",
-        "whereCanIReadServerUpdates": "Where can I read server updates?",
-        "readThe2": "Read the",
-        "serverChangelog": "server changelog",
-        "visitThe": ", visit the",
-        "text6b6tBlog": "6b6t blog",
-        "orJoinThe": ", or join the",
-        "officialDiscord": "official Discord",
         "frequentlyAskedQuestions": "Frequently Asked Questions",
         "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
         "stillHaveQuestions": "Hâlâ sorun mu var?",
         "joinOurDiscord": "Discord'umuza katıl",
         "forHelp": "for help."
-      }
-    },
-    "features": {
-      "gameplayFeaturesTabs": {
-        "featureHighlights": "Öne Çıkan Özellikler"
-      },
-      "serverFeatures": {
-        "everlasting": "Sonsuza Dek",
-        "text6b6tStartedManyYearsAgoAndTheAdminsAre": "6b6t yıllar önce kuruldu ve yöneticiler onu sonsuza dek çevrimiçi tutmaya kararlı.",
-        "text16thJanuary": "16 Ocak",
-        "universalAccess": "Evrensel Erişim",
-        "playOnJavaEditionBedrockEditionOrWithCracked": "Java Edition, Bedrock Edition ile veya cracked hesaplarla oyna - herkes 6b6t'de hoş karşılanır.",
-        "global": "Global",
-        "playerBase": "Oyuncu Kitlesi",
-        "activeAdmins": "Aktif Yöneticiler",
-        "theOfficial6b6tDiscordProvidesFrequentUpdatesAndOpen": "Resmi 6b6t Discord'u sık güncellemeler ve açık tartışma imkânı sunar.",
-        "discordMembers": "Discord Üyeleri",
-        "essentialCommands": "Temel Komutlar",
-        "enjoyConvenientAccessToEssentialCommandsLikeTpaAnd": "Anarşi oynanışını korurken /tpa ve /home gibi temel komutlara kolay erişimin keyfini çıkar.",
-        "tpaTeleportToOtherPlayersWhoAreOnline": "/tpa - Çevrimiçi olan diğer oyunculara ışınlan",
-        "homeSetupMultipleHomesToVisitAnytime": "/home - İstediğin zaman gidebileceğin birden fazla Home kur",
-        "hotspotJoinLargeEventsOrganizedByPlayersThatLast": "/hotspot - Oyuncular tarafından düzenlenen ve sadece birkaç saat süren büyük etkinliklere katıl",
-        "latestMinecraftVersion": "En Son Minecraft Sürümü",
-        "weStayUpToDateWithTheNewestMinecraft": "En yeni Minecraft sürümleriyle güncel kalıyor ve sık sık heyecan verici yeni özellikler ekliyoruz.",
-        "regularMinecraftVersionUpdatesCurrentlyValue1": "Düzenli Minecraft sürüm güncellemeleri, şu anda {{value1}}",
-        "builderAndPvpCompetitionsHostedByThe6b6tAdmins": "6b6t yöneticileri tarafından yılda birkaç kez düzenlenen İnşa ve PvP yarışmaları",
-        "newCommandsAndFrequentBugFixes": "Yeni komutlar ve sık hata düzeltmeleri",
-        "nonP2wCosmetics": "P2W Olmayan Kozmetikler",
-        "coloredChatUsernamePrefixAndNametagToRankOwners": "Rank sahiplerine renkli sohbet, kullanıcı adı, önek ve isim etiketi. Seni takip eden kozmetik bir balon oluşturan /balloons komutu. /buildermode ile çok uzağa gitmeden render mesafeni geçici olarak artır",
-        "coloredChatNames": "Renkli sohbet isimleri",
-        "customPrefixes": "Özel önekler",
-        "visualEffectsCosmetics": "Görsel efektler ve kozmetikler",
-        "serverFeatures": "SUNUCU ÖZELLİKLERİ",
-        "whyPlayOn": "Neden oynamalısın:",
-        "text6b6t": "6b6t",
-        "text6b6tOffersAUniqueMinecraftAnarchyServerExperienceWith": "6b6t, kurallar ve sıra olmamasına rağmen /tpa ve /home komutlarıyla eşsiz bir Minecraft anarşi sunucusu deneyimi sunar.",
-        "gameplayFeatures": "Oynanış Özellikleri"
       }
     },
     "gallery": {
@@ -193,30 +95,8 @@
         "version": "Sürüm"
       }
     },
-    "home": {
-      "anarchyModBanner": {
-        "officialAddon": "RESMİ EKLENTİ",
-        "fabricLoader": "Fabric Loader",
-        "fabricMod": "Fabric Mod",
-        "introducing6b6tSOfficialAnarchyMod": "6b6t'nin Resmi Anarchy Mod'unu Tanıtıyoruz",
-        "takeYourAnarchyExperienceToTheNextLevelWith": "Hafif, açık kaynaklı Fabric modumuzla anarşi deneyimini bir üst seviyeye taşı. Ekstra Home hakkı, Mojang yasaklarına karşı bağlantı güvenliği ve oyun açılışında otomatik sunucu listesi entegrasyonu gibi anlık taktiksel avantajlar elde et.",
-        "downloadForFabric": "Fabric için indir",
-        "viewSource": "Kaynağı Görüntüle",
-        "benefits": "Avantajlar",
-        "unlockExtraHomes": "Ekstra Home Hakkı Al",
-        "instantlyAdds2MoreStackableHomesToYourAvailable": "Mevcut home noktalarına anında 2 kullanılabilir home daha ekler.",
-        "antiBlacklistProtection": "Kara Liste Karşıtı Koruma",
-        "builtInEvasionEnsuresYouCanConnectEvenIf": "Yerleşik atlatma özelliği, Mojang IP'yi engellese bile bağlanabilmeni sağlar.",
-        "instantServerAccess": "Anında Sunucu Erişimi",
-        "automaticallyAddsThe6b6tServerIntoYourMultiplayerMenu": "6b6t sunucusunu çok oyunculu menüne otomatik olarak ekler.",
-        "text1194Supported": "1.19.4+ Destekleniyor"
-      }
-    },
     "social": {
       "youTubeShorts": {
-        "epic6b6tAnarchyPvpMoments": "Epik 6b6t Anarşi PvP Anları",
-        "massive6b6tBaseTour": "Devasa 6b6t Üs Turu",
-        "text6b6tServerHighlights": "6b6t Sunucu Öne Çıkanları",
         "failedToLoadYoutubeShorts": "YouTube Shorts yüklenemedi",
         "youtubePlayButton": "YouTube Oynat Düğmesi"
       }
@@ -229,15 +109,15 @@
         "failedToLoadData": "Veri yüklenemedi",
         "playerActivity": "Oyuncu Aktivitesi",
         "current": "Güncel",
-        "activePlayers": "Aktif oyuncu",
-        "serverOffline": "Sunucu çevrimdışı",
+        "activePlayers": "aktif oyuncu",
+        "serverOffline": "sunucu çevrimdışı",
         "value1Average": "{{value1}} Ortalama",
-        "avgPlayers": "Ortalama Oyuncu",
-        "value1Peak": "{{value1}} En Fazla",
-        "peakPlayers": "En fazla oyuncu",
+        "avgPlayers": "ort. oyuncu",
+        "value1Peak": "{{value1}} Zirve",
+        "peakPlayers": "Zirve Oyuncu",
         "trackTheServerAposSPlayerCountOverThe": "Sunucunun son 7 gündeki oyuncu sayısını takip et ve topluluğun en aktif olduğu zamanları gör.",
-        "averagePlayers": "Ortalama oyuncu",
-        "peakPlayers2": "En Fazla Oyuncu"
+        "averagePlayers": "Ortalama Oyuncu",
+        "peakPlayers2": "Zirve Oyuncu"
       }
     },
     "page": {

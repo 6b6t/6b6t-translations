@@ -11,6 +11,7 @@
         "completed": "पुरा होना",
         "opened": "opened",
         "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "invalidWebhookSignature": "Invalid webhook signature",
         "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
@@ -30,14 +31,17 @@
             "requestedRevisionForMotdRequestValue1": "MOTD अनुरोध {{value1}} के लिए अनुरोधित संशोधन।",
             "motdReviewActionFailed": "MOTD समीक्षा कार्रवाई विफल रही."
           }
+        },
+        "newsletter": {
+          "unauthorized": "unauthorized",
+          "invalidEmail": "invalid_email",
+          "rateLimited": "rate_limited",
+          "unavailable": "अनुपलब्ध"
         }
       },
       "text6b6tOrgMetadataApi": "6b6t.org मेटाडेटा API",
       "online": "ऑनलाइन",
       "legendSubscribers": {
-        "active": "सक्रिय",
-        "trialing": "परीक्षण",
-        "pastDue": "पिछला बकाया",
         "unableToLoadLegendSubscribers": "legend ग्राहकों को लोड करने में असमर्थ",
         "all": "सभी"
       },
@@ -48,7 +52,8 @@
         "text": {
           "noFilePathProvided": "कोई फ़ाइल पथ प्रदान नहीं किया गया",
           "invalidFilePath": "अमान्य फ़ाइल पथ",
-          "fileNotFound": "फ़ाइल प्राप्त नहीं हुई"
+          "fileNotFound": "फ़ाइल प्राप्त नहीं हुई",
+          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
         }
       },
       "monitoring": {
@@ -72,21 +77,25 @@
         }
       },
       "stripe": {
+        "nonProductionPaymentEvent": "Non-production payment event",
         "unknownError": "अज्ञात त्रुटि",
         "webhookErrorValue1": "वेबहुक त्रुटि: {{value1}}",
-        "alreadyProcessed": "पहले से ही संसाधित",
         "received": "प्राप्त",
+        "alreadyProcessed": "पहले से ही संसाधित",
         "unhandledEventType": "हैंडल न किया गया इवेंट प्रकार",
         "webhookHandlerFailed": "वेबहुक हैंडलर विफल",
-        "completed": "पुरा होना"
+        "completed": "पुरा होना",
+        "opened": "opened",
+        "lost": "खो गया",
+        "pending": "लंबित"
       },
       "tebex": {
         "pending": "लंबित",
-        "lost": "खो गया",
         "payloadTooLarge": "पेलोड बहुत बड़ा है",
         "missingSignature": "गुम हस्ताक्षर",
         "invalidSignature": "अमान्य हस्ताक्षर",
         "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "telegram": {
@@ -106,13 +115,21 @@
         "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा",
         "failedToFetchUptimeData": "अपटाइम डेटा लाने में विफल",
         "unknownError": "अज्ञात त्रुटि"
+      },
+      "voteLookup": {
+        "playerVoteLookupIsNotAvailableYet": "वोट खोज अभी उपलब्ध नहीं है।",
+        "enterAValidMinecraftName": "मान्य Minecraft नाम डालें।"
       }
     },
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development"
+          "localDevelopment": "Local development",
+          "invalidEmailAddress": "Invalid email address"
         }
+      },
+      "adminTableSearch": {
+        "invalidNumber": "Invalid number"
       },
       "auth": {
         "accountLinkHistory": {
@@ -150,13 +167,37 @@
           "useARealEmailAddress": "Use a real email address."
         },
         "socialProviders": {
-          "telegram": "Telegram"
+          "telegram": "टेलीग्राम"
+        }
+      },
+      "blogContent": {
+        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+      },
+      "broadcast": {
+        "playerHash": {
+          "hmac": "HMAC",
+          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
         }
       },
       "commandService": {
-        "commands": {
+        "outbox": {
+          "unsupportedCommandRecipient": "Unsupported command recipient",
+          "invalidCommand": "Invalid command",
+          "delivered": "पहुंचा दिया",
+          "completed": "पुरा होना",
+          "deliveryFailed": "Delivery failed",
+          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
+          "rankLookupFailed": "Rank lookup failed"
+        },
+        "reversals": {
+          "skipped": "skipped"
+        },
+        "transport": {
           "unknownCommandServiceError": "अज्ञात आदेश सेवा त्रुटि"
         }
+      },
+      "communityEventAdminSchema": {
+        "anExtensionReasonIsRequired": "An extension reason is required"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "बहुत सारे अनुरोध",
@@ -178,116 +219,57 @@
         "reachTheGoalByAugust14ToUnlockA": "72 घंटों के लिए 6b6t पर एक शक्तिशाली डुप्लिकेट को अनलॉक करने के लिए 14 अगस्त तक लक्ष्य तक पहुंचें। यदि लक्ष्य बाद में प्राप्त होता है, तो घटना निकटतम अगले सप्ताहांत में चली जाती है।"
       },
       "communityHistory": {
-        "eventIdsMustBeUnique": "Event IDs must be unique"
+        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
+        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
       },
-      "data": {
-        "serverCommands": {
-          "msgWhisperW": "/msg, /whisper, /w",
-          "sendAPrivateMessageToAnyOnlinePlayer": "किसी भी ऑनलाइन खिलाड़ी को एक निजी संदेश भेजें",
-          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
-          "replyR": "/reply, /r",
-          "sendAPrivateMessageToTheLastPersonWho": "उस अंतिम व्यक्ति को एक निजी संदेश भेजें जिसने आपको निजी संदेश भेजा है",
-          "lastL": "/last, /l",
-          "sendAPrivateMessageToTheLastPersonYou": "जिस अंतिम व्यक्ति को आपने संदेश भेजा था उसे एक निजी संदेश भेजें।",
-          "killSuicide": "/kill, /suicide",
-          "killsYouInGameIfYouAreAlive": "यदि आप जीवित हैं तो आपको खेल में ही मार डालेगा।",
-          "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "किसी अन्य खिलाड़ी को स्थायी रूप से अनदेखा करें/blocks। (चैट में उनके संदेश छुपाता है)",
-          "getAListOfEveryoneWhoYouIgnored": "उन सभी की सूची प्राप्त करें जिन्हें आपने अनदेखा किया।",
-          "ignorelistClear": "/ignorelist स्पष्ट",
-          "unignoreAllPlayers": "सभी खिलाड़ियों को अनदेखा करें.",
-          "showHideMessagesThatYouGetIntoPvpMode": "PvP मोड में जाने से संबंधित संदेश दिखाएँ या छिपाएँ।",
-          "groupchatGc": "/groupchat, /gc",
-          "talkPrivatelyInAGroupchatWithMultiplePeople": "कई लोगों के साथ ग्रुपचैट में निजी तौर पर बात करें।",
-          "toggleViewingTheChat": "चैट देखने को टॉगल करें.",
-          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
-          "turnsPrivateMessagesOnOrOffSoYouCan": "निजी संदेशों को चालू या बंद करता है ताकि आप चुन सकें कि अन्य खिलाड़ी आपको संदेश भेज सकते हैं या नहीं।",
-          "togglesOrCustomizesParticleEffectsAroundYourPlayer": "आपके प्लेयर के चारों ओर कण प्रभावों को टॉगल या कस्टमाइज़ करता है।",
-          "togglespamShowspam": "/togglespam, /showspam",
-          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
-          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
-          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
-          "botsChat": "/bots chat",
-          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
-          "botsWhispers": "/bots whispers",
-          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
-          "botsConnections": "/bots connections",
-          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
-          "botsDeaths": "/bots deaths",
-          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
-          "botsAdvancements": "/bots advancements",
-          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
-          "botsTeleports": "/bots teleports",
-          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
-          "botsTab": "/bots tab",
-          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
-          "botsKits": "/bots kits",
-          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
-          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
-          "showHideChatMessagesOfPeopleJoiningTheServer": "सर्वर में शामिल होने वाले खिलाड़ियों के चैट संदेश दिखाएँ या छिपाएँ।",
-          "connectionmsgsColor": "/connectionmsgs रंग",
-          "changeTheColorOfConnectionMessagesInYourChat": "अपनी चैट में कनेक्शन संदेशों का रंग बदलें।",
-          "showHideChatMessagesOfPeopleDying": "खिलाड़ियों की मृत्यु से संबंधित चैट संदेश दिखाएँ या छिपाएँ।",
-          "deathmsgsColor": "/deathmsgs रंग",
-          "changeTheColorOfDeathMessagesInYourChat": "अपनी चैट में मृत्यु संदेशों का रंग बदलें।",
-          "advancementsChat": "/advancements chat",
-          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
-          "advancementsToast": "/advancements toast",
-          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
-          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
-          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
-          "teleportToAHome": "किसी घर पर टेलीपोर्ट करें.",
-          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
-          "deletesAHome": "एक घर हटा देता है.",
-          "cancelsAnActiveTeleportToYourHomeUsefulIf": "आपके घर पर सक्रिय टेलीपोर्ट को रद्द कर देता है (यदि आपने इसे गलती से चालू कर दिया है तो उपयोगी है)।",
-          "renamesOneOfYourSavedHomesToSomethingDifferent": "आपके सहेजे गए घरों में से किसी एक का नाम बदलकर कुछ अलग कर देता है।",
-          "requestToTeleportToAnotherPlayer": "किसी अन्य खिलाड़ी को टेलीपोर्ट करने का अनुरोध।",
-          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
-          "hidesTeleportRequestsFromAllPlayers": "सभी खिलाड़ियों से टेलीपोर्ट अनुरोध छुपाता है।",
-          "acceptATpaRequest": "टीपीए अनुरोध स्वीकार करें.",
-          "declineATpaRequest": "टीपीए अनुरोध अस्वीकार करें.",
-          "wearAnyItemOnYourHead": "कोई भी वस्तु सिर पर धारण करें।",
-          "toggleInvisibilityFrames": "अदृश्यता फ़्रेम टॉगल करें.",
-          "chatcolorCc": "/chatcolor, /cc",
-          "changeTheColorOfYourChatMessages": "अपने चैट संदेशों का रंग बदलें.",
-          "namecolorNc": "/namecolor, /nc",
-          "changeTheColorOfYourUsernameInChat": "चैट में अपने उपयोगकर्ता नाम का रंग बदलें.",
-          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
-          "lightUpACigar": "एक सिगार जलाओ",
-          "giveYourselfAGlowingEffect": "अपने आप को एक चमकदार प्रभाव दें.",
-          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
-          "hotspotCreate": "/hotspot बनाएं",
-          "createANewHotspotAtYourCurrentLocation": "अपने वर्तमान स्थान पर एक नया हॉटस्पॉट बनाएं।",
-          "hotspotColor": "/hotspot रंग",
-          "changeTheColorOfTheHotspot": "हॉटस्पॉट का रंग बदलें.",
-          "hotspotNotifications": "/hotspot notifications",
-          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
-          "hotspotCancel": "/hotspot रद्द करें",
-          "cancelYourHotspot": "अपना हॉटस्पॉट रद्द करें",
-          "hotspotBalloon": "/hotspot गुब्बारा",
-          "giveABalloonToEveryoneAtYourHotspot": "अपने हॉटस्पॉट पर सभी को एक गुब्बारा दें।",
-          "hotspotGlow": "/hotspot चमक",
-          "giveAGlowToEveryoneAtYourHotspot": "अपने हॉटस्पॉट पर सभी को चमक प्रदान करें।",
-          "hotspotName": "/hotspot नाम",
-          "changeTheNameOfYourHotspot": "अपने हॉटस्पॉट का नाम बदलें.",
-          "hotspotInfo": "/hotspot जानकारी",
-          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
-          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
-          "buildermodeHome": "/buildermode घर",
-          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "निर्दिष्ट घर पर टेलीपोर्ट करते समय बिल्डरमोड सक्षम करें।",
-          "putACosmeticBalloonOnYourHead": "अपने सिर पर एक कॉस्मेटिक गुब्बारा रखें।",
-          "sitOnAnyBlockToRest": "आराम करने के लिए किसी भी ब्लॉक पर बैठें।",
-          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
-          "changeYourInGameSkin": "अपनी इन-गेम त्वचा बदलें।",
-          "letsYouLeaveYourBodyAndFlyAroundIn": "आपको अपने शरीर को छोड़कर अपने वास्तविक खिलाड़ी को हिलाए बिना क्षेत्र का पता लगाने के लिए दर्शक की तरह उड़ने की सुविधा देता है।",
-          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
-          "shopBuy": "/shop, /buy",
-          "getALinkToTheOfficial6b6tShop": "आधिकारिक 6b6t शॉप का लिंक प्राप्त करें।",
-          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
-          "showsTheVoteCountAndInstructionsToVote": "वोटों की गिनती और वोट देने के निर्देश दिखाता है।",
-          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
-          "getAnInviteToThe6b6tDiscordServer": "6b6t Discord सर्वर पर आमंत्रण प्राप्त करें।",
-          "getALinkToThe6b6tWebsite": "6b6t वेबसाइट का लिंक प्राप्त करें।",
-          "getALinkToThisWebpage": "इस वेबपेज का लिंक प्राप्त करें."
+      "creator": {
+        "creemRenewal": {
+          "unknownError": "अज्ञात त्रुटि"
+        },
+        "dailyReport": {
+          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "unknown": "अज्ञात",
+          "failed": "असफल",
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
+          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+        },
+        "job": {
+          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "unknownError": "अज्ञात त्रुटि"
+        },
+        "store": {
+          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
+          "creatorAttributionWasNotStored": "Creator attribution was not stored",
+          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
+          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
+          "attributionNotFound": "Attribution not found",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
+          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
+          "chooseAnExistingCreator": "Choose an existing creator",
+          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
+          "creatorIsInactive": "Creator is inactive",
+          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
+          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+        }
+      },
+      "creem": {
+        "checkout": {
+          "checkoutOperationFailed": "Checkout operation failed",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY कॉन्फ़िगर नहीं है",
+          "originHeaderNotFound": "Origin header not found",
+          "bundleNotFound": "Bundle not found",
+          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
+          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
+          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
+          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
+          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
         }
       },
       "db": {
@@ -306,6 +288,17 @@
         "discordReturnedValue1ForValue2": "Discord ने #{{value2}} के लिए {{value1}} लौटाया",
         "unknownDiscordError": "अज्ञात Discord त्रुटि"
       },
+      "discordEmbed": {
+        "viewPage": "View page"
+      },
+      "effectRuntime": {
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
+        "paymentProviderRequestFailed": "Payment provider request failed",
+        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
+        "paymentProviderResponseFailed": "Payment provider response failed",
+        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
+        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+      },
       "email": {
         "text6b6tAccounts": "6b6t Accounts",
         "text6b6tRecovery": "6b6t Recovery",
@@ -313,19 +306,14 @@
         "text6b6tMerch": "6b6t Merch",
         "text6b6tSupport": "6b6t Support"
       },
-      "galleryUtil": {
-        "recentEpicBuild": "हालिया महाकाव्य निर्माण",
-        "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "नवंबर 2024 में निर्मित एक शानदार संरचना, जो हमारे खिलाड़ियों की रचनात्मकता को प्रदर्शित करती है।",
-        "november122024": "12 नवंबर 2024",
-        "morningAdventures": "सुबह का रोमांच",
-        "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "सुबह-सुबह की खोज से छुपे हुए खज़ानों और परिदृश्यों का पता चलता है।",
-        "september292024": "29 सितंबर 2024",
-        "legendGalleryFeature": "Legend गैलरी फ़ीचर",
-        "aFeaturedLegendThemedScreenshotShowcasingPremiumPlayerContent": "प्रीमियम प्लेयर सामग्री प्रदर्शित करने वाला एक विशेष legend-थीम वाला स्क्रीनशॉट।",
-        "november52024": "5 नवंबर 2024",
-        "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "6b6t गैलरी - सामुदायिक स्क्रीनशॉट और अराजकता सर्वर से क्षण"
-      },
       "link": {
+        "discord": {
+          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
+          "noPlayerInfoFoundForUser": "No player info found for user.",
+          "noDiscordIdFoundForUser": "No Discord ID found for user.",
+          "noTokensFoundForUser": "No tokens found for user."
+        },
         "telegramMembership": {
           "unknownError": "अज्ञात त्रुटि"
         }
@@ -394,23 +382,46 @@
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem धनवापसी समापन बिंदु कॉन्फ़िगर नहीं किया गया है; Creem में रिफंड जारी करें और वेबहुक से /confirm पुनः प्रयास करें।",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY कॉन्फ़िगर नहीं है",
           "creemRefundRequestFailedWithStatusValue1": "Creem स्थिति {{value1}} के साथ धनवापसी अनुरोध विफल रहा"
+        },
+        "validation": {
+          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
+          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
-      "playerHistoryInput": {
-        "invalidOrExcessiveDateRange": "अमान्य या अत्यधिक दिनांक सीमा"
-      },
       "printify": {
+        "claimValidation": {
+          "invalidEmailAddress": "Invalid email address",
+          "useATwoLetterCountryCode": "Use a two-letter country code",
+          "invalidDate": "Invalid date",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+        },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "भौतिक उत्पाद पूर्ति अभी तक खुली नहीं है।",
           "delivered": "पहुंचा दिया",
           "unknownError": "अज्ञात त्रुटि",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "भौतिक उत्पाद पूर्ति अस्थायी रूप से अनुपलब्ध है।",
           "submitting": "प्रस्तुत करने",
+          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
+          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
           "reserved": "आरक्षित",
-          "processing": "प्रसंस्करण"
-        },
-        "client": {
-          "networkError": "नेटवर्क त्रुटि"
+          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
+          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
+          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
+          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
+          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
+          "requestNotFound": "Request not found.",
+          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
+          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
+          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
+          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "processing": "प्रसंस्करण",
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
+          "historicalRequestChangedDuringReview": "Historical request changed during review"
         },
         "email": {
           "emailDeliveryFailed": "ईमेल वितरण विफल रहा"
@@ -439,7 +450,7 @@
           "emailSendFailed": "email_send_failed",
           "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
           "emailNotConfigured": "email_not_configured",
-          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "आपका अनुरोध प्राप्त हुआ. यदि खाता मौजूद है और दिए गए साक्ष्य को सत्यापित किया जा सकता है, तो समर्थन आपसे संपर्क करेगा।",
           "yourAccountRecoveryRequestHasBeenApproved": "आपका खाता पुनर्प्राप्ति अनुरोध स्वीकृत हो गया है.",
           "yourAccountRecoveryRequestHasBeenDenied": "आपका खाता पुनर्प्राप्ति अनुरोध अस्वीकार कर दिया गया है.",
           "noteValue1": "नोट: {{value1}}",
@@ -457,7 +468,9 @@
           "failedToCreateChallenge": "चुनौती पैदा करने में विफल",
           "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
           "emailSendFailed": "email_send_failed",
-          "failedToNotifyTheAccountOwnerByEmail": "खाता स्वामी को ईमेल द्वारा सूचित करने में विफल.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
           "created": "बनाया था",
           "invalidOrExpiredBlockToken": "अमान्य या समाप्त ब्लॉक टोकन.",
           "thisRecoveryAttemptWasAlreadyBlocked": "पुनर्प्राप्ति का यह प्रयास पहले ही अवरुद्ध कर दिया गया था.",
@@ -487,8 +500,10 @@
           "verificationFailed": "सत्यापन में विफल रहा"
         },
         "provider": {
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
           "unavailable": "अनुपलब्ध",
           "found": "मिला",
+          "invalidEmailAddress": "Invalid email address",
           "notFound": "नहीं मिला",
           "base": "आधार",
           "stash": "छिपाने की जगह",
@@ -508,6 +523,13 @@
           "exhausted": "थका हुआ",
           "valid": "वैध",
           "invalid": "अमान्य"
+        },
+        "validation": {
+          "invalidRecoverySessionToken": "Invalid recovery session token",
+          "enterAValidEmailAddress": "Enter a valid email address",
+          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
+          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
       "requestRateLimit": {
@@ -523,15 +545,49 @@
         "googlebot": "googlebot"
       },
       "shop": {
+        "legendCreditProviders": {
+          "review": "review",
+          "disputed": "विवादित",
+          "refunded": "वापस कर दी",
+          "paid": "paid"
+        },
+        "legendCreditStore": {
+          "pending": "लंबित"
+        },
+        "legendUpgradeCheckout": {
+          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+        },
         "legend": {
-          "lifetime": "LIFETIME",
-          "lifetime2Apex": "LIFETIME + 2 APEX",
+          "legendUltra": "LEGEND ULTRA",
+          "legendUltra2Apex": "LEGEND ULTRA + 2 APEX",
           "monthly": "MONTHLY",
           "text3Months": "3 MONTHS"
         },
+        "observability": {
+          "alarms": {
+            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
+            "value1In1h": "{{value1}} in 1h",
+            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
+            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
+            "pendingFor15m": "pending for >15m",
+            "value1In30m": "{{value1}} in 30m",
+            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
+            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
+            "conditionCleared": "condition cleared"
+          },
+          "record": {
+            "declined": "declined",
+            "refunded": "वापस कर दी",
+            "disputed": "विवादित",
+            "paid": "paid"
+          }
+        },
         "ranks": {
           "unknownError": "अज्ञात त्रुटि",
-          "legendValue1": "Legend {{value1}}",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
@@ -553,39 +609,27 @@
           "eliteUltra6Months": "Elite Ultra (6 महीने)",
           "primeToEliteUpgrade": "Prime से Elite अपग्रेड",
           "primeToApexUpgrade": "Prime से Apex अपग्रेड",
-          "eliteToApexUpgrade": "Elite से Apex अपग्रेड",
-          "default": "गलती करना"
-        },
-        "reviews": {
-          "text6b6tTheServerThatFinallyConvincedMeThatI": "6b6t.. जिस सर्वर ने आखिरकार मुझे आश्वस्त किया कि मैं लंबे समय तक minecraft खेलता रहूंगा, एक दोस्त की बदौलत मुझे 2023 में Prime रैंक मिली। 5 से अधिक घर होने से मुझे अधिकांश खिलाड़ियों की तुलना में सर्वर के चारों ओर तेजी से घूमने की आजादी मिलती है। prime रैंक की कीमत काफी अच्छी है, खासकर उन लोगों के लिए जो नहीं जानते कि वे हमेशा के लिए खेलना जारी रखना चाहते हैं या नहीं। चैट में दृश्यता अच्छी है, लोगों द्वारा मेरी चैट देखने में सक्षम होने के कारण मैं आसानी से अपनी सामग्री का प्रचार कर सकता हूँ। Prime रैंक के कूलडाउन अभी भी हमेशा के लिए महसूस होते हैं, काश वे थोड़े कम होते। कुल मिलाकर Prime रैंक के साथ 6b6t एक अद्भुत अनुभव है, मैं शायद इसे Elite रैंक से अधिक की अनुशंसा करूंगा, खासकर यदि आप हॉटस्पॉट बनाने की परवाह नहीं करते हैं।",
-          "text6b6tIsAGreatServerILovePlayingIt": "6b6t एक बेहतरीन सर्वर है! मुझे इसे अपने दोस्तों के साथ खेलना और कभी-कभी सर्वर पर अपना समय लाइव-स्ट्रीमिंग करना पसंद है। मैंने हाल ही में सर्वर पर Prime रैंक खरीदी है, और 16 यूरो में यह एक चोरी है! यह वास्तव में मेरे पास घरों की संख्या बढ़ाने में सहायक है, और मुझे वास्तव में यह पसंद है कि यह मेरे चैट संदेशों को कैसे उजागर करता है। घरों की बात करते हुए, मुझे वास्तव में यह पसंद आया कि इस सर्वर में एक होम प्लगइन है। यह वास्तव में मुझे अपने बेस से भटकने से बचाने में मदद करता है, और मुझे स्पॉन देखने के लिए और अधिक इच्छुक बनाता है, यह जानते हुए कि मैं आसानी से किसी भी समय घर लौट सकता हूं। यह सर्वर शानदार है, निश्चित रूप से 5 स्टार!",
-          "iReallyEnjoyTheNumberOfHomesHavingThat": "मैं वास्तव में घरों की संख्या का आनंद लेता हूं - इतने सारे घर होना मेरे लिए सर्वर को परिभाषित करता है; उनके बिना खेल की शैली बहुत अलग होगी। दोस्तों के साथ घूमते समय /sit जैसे सौंदर्य प्रसाधन मज़ेदार होते हैं, और चैट का रंग उपयोगी होता है (मुझे एक से अधिक रंग चाहिए, लेकिन इंद्रधनुष नहीं)। Discord भूमिका: जोड़ने के लिए कुछ खास नहीं। Prime की कीमत बहुत अच्छी है (5/5)। Elite से Apex तक की छलांग बड़ी लगती है; Elite और Apex के बीच एक मध्यवर्ती रैंक/price अच्छा होगा। किसी भी गलती के लिए क्षमा करें, अंग्रेजी मेरी पहली भाषा नहीं है।",
-          "iLove6bVeryMuchAndEnjoyPlayingIt": "मुझे 6b बहुत पसंद है और इसे खेलने में आनंद आता है; यह अब तक का सबसे अच्छा अराजकता सर्वर है। दोस्तों के साथ खेलना अद्भुत है - tp और /home का उपयोग करने से गतिशीलता प्रगति को प्रोत्साहित करती है। हॉटस्पॉट खिलाड़ियों को आगे बढ़ने में मदद करते हैं और PvP को प्रोत्साहित करते हैं। चैटकलर, बैलून और /sit जैसी चैट सुविधाएँ सर्वर को अधिक मज़ेदार बनाती हैं और दिलचस्प स्क्रीनशॉट और सामग्री की अनुमति देती हैं। मैं 6b को 5 स्टार देता हूं।",
-          "iLikeTheAbilityToHave12HomesBecause": "मुझे 12 घर रखने की क्षमता पसंद है क्योंकि यह मुझे स्पॉन सहित कई गुप्त स्थानों और ठिकानों पर टेलीपोर्ट करने की सुविधा देता है; इसे 15 घरों तक बढ़ाने से अनुभव में सुधार होगा क्योंकि मेरे पास पहले से ही लगभग 12 हैं। 300 (5 मीटर) का कूलडाउन स्टैशज़ज़एक्सक्यू0क्यूएक्सजेड के बीच वस्तुओं को स्थानांतरित करने के लिए अच्छा है, हालांकि मैं चाहता हूं कि यह थोड़ा कम हो। 2023 में मेरे शामिल होने के बाद से सर्वर गतिविधि बहुत बढ़ गई है। कुल मिलाकर, स्थायी रैंक के रूप में Prime बेहद लायक है; मैं इसे 4/5 स्टार देता हूं।",
-          "homesAmountMyMostUsefulFeatureICanHave": "घरों की संख्या: मेरी सबसे उपयोगी सुविधा - मेरे पास ठिकानों और छिपाने के स्थानों के लिए घर हो सकते हैं। हालाँकि डिफ़ॉल्ट घरों का स्तर काफी कम है, मैं अपग्रेड का आनंद लेता हूँ। चैट में दृश्यता: मेरे नाम का रंग बहुत अच्छा है और मेरा टेक्स्ट सफ़ेद है, जो कि मुझे पसंद है, और भी अधिक ध्यान देने योग्य है। क्या कीमत इसके लायक थी: कर से पहले $20 थोड़ा अधिक है; मैं लगभग $8 में एक सस्ता स्तर (सफेद पाठ, कोई उपसर्ग नहीं, +3 घर, निहाई में रंग, कोई Discord भूमिका नहीं) पसंद करूंगा। 3/5 स्टार.",
-          "theRanksAreGoodMyNameNowPopsIn": "रैंक अच्छी हैं - मेरा नाम अब चैट में आता है जो ध्यान आकर्षित करने के लिए बहुत अच्छा है। निचले कूल्डाउन गेम चेंजर हैं और अधिक घर अत्यधिक उपयोगी हैं। मैं कीमत के बारे में थोड़ा असमंजस में था लेकिन जीवन भर के लिए इसे प्राप्त करना पूरी तरह से इसके लायक लगता है; कोई पछतावा नहीं। खरीदने के लिए सर्वोत्तम रैंक Prime है 😱 मैं इसे 4/5 रेटिंग दूंगा।",
-          "eliteLifetimeRankWasWorthItLifetimeAccessAnd": "Elite आजीवन रैंक इसके लायक थी - आजीवन पहुंच और मासिक विकल्प से सस्ता। Prime को एक गुब्बारा या /hat जैसा छोटा कॉस्मेटिक मिल सकता है ताकि वे छूट न जाएं (मैं समझता हूं कि आपको पैसे कमाने की जरूरत है)। कम कूलडाउन अच्छा है, लेकिन मतदान पहले से ही मुफ्त में समान लाभ देता है। हॉटस्पॉट सीमित होने चाहिए ताकि नए खिलाड़ियों को आसानी से भागने से रोकने के लिए उन्हें नीदरलैंड, ओवरवर्ल्ड या अंत के 5kx5k क्षेत्रों के अंदर न रखा जाए। कुल मिलाकर मेरी खरीदारी 5/5 थी।",
-          "myExperienceWithEliteHasBeenVeryGoodSo": "Elite के साथ मेरा अनुभव अब तक बहुत अच्छा रहा है। मुझे यह भी सोचने की ज़रूरत नहीं है कि क्या मेरे पास कोई घर बचा है, जो इन-गेम अनुभव को काफी बेहतर बनाता है। /hotspot कमांड दोस्तों के साथ PvP के लिए उपयोगी है। चूँकि सक्रिय APEX और Elite ULTRA प्लेयर कम हैं, कॉस्मेटिक के रूप में Elite के लिए एनविल कलर कोड उपलब्ध होने चाहिए। कुल मिलाकर, Elite सक्रिय खिलाड़ियों के लिए एक बेहतरीन रैंक है और स्थायी रैंक के लिए एक बढ़िया रैंक है।",
-          "iStarted6b6tWithoutARankAndLaterReceived": "मैंने बिना किसी रैंक के 6b6t शुरू किया और बाद में कई रैंक प्राप्त कीं; Elite बढ़िया है. एक कबीले के मालिक के रूप में रैंक का होना मूल्यवान है ताकि संदेश दिखाई दे सकें। मैं Discord पर रैंक की गई चैट की सराहना करता हूं। हॉटस्पॉट अब ठंडे हो गए हैं, इसलिए मैं उन्हें रख सकता हूं, और कम ठंडा होना एक बड़ा प्लस है। एक शिकायत: निम्नतम रैंक अक्सर महत्वपूर्ण चीजों को भूल जाते हैं (वीआईपी को बिना रैंक वाले के समान महसूस होता है)। इसके अलावा, जब किसी ने मुझे गुमनाम रूप से Prime Ultra उपहार में दिया तो मेरे पास विज्ञापन चैनल तक पहुंच थी, लेकिन Elite प्राप्त करने के बाद मैंने उन अनुमतियों को खो दिया।",
-          "theHomesAmountOnEliteOrHigherIsMore": "Elite या उससे अधिक पर घरों की राशि पर्याप्त से अधिक है। /balloon जैसे सौंदर्य प्रसाधन सर्वर को रंग देते हैं। दोस्तों के साथ खेलने से 6b मज़ा बना रहता है। बिल्डरमोड बढ़िया है लेकिन रेंडर दूरी बढ़ाता है, सिमुलेशन दूरी नहीं। यदि आप 6b पर एक वर्ष से अधिक समय तक खेलते हैं, तो खरीदारी निश्चित रूप से इसके लायक है - मैं अपनी रेटिंग 4.5 स्टार देता हूं।",
-          "eliteRankIsActuallyBetterThanIThoughtWhen": "Elite रैंक वास्तव में जितना मैंने सोचा था उससे बेहतर है। जब मैंने इसे खरीदा तो मुझे केवल रंगीन पाठ की उम्मीद थी, लेकिन यह विशेष लोगों के क्लब में प्रवेश करने जैसा लगता है। दोस्तों के साथ खेलना बहुत अच्छा है - कम पिंग और उच्च TPS। Discord रैंक वाले चैनल बहुत अधिक सक्रिय हैं; यह एक क्लब की तरह है (🚬-सिगार-क्लब-🚬 आज़माएं)। मेरी पसंदीदा चीज़ कम कूलडाउन है - /tpa और /home अनरैंक की तुलना में बहुत बेहतर हैं और आपको मिनटों में बेस के बीच जाने की सुविधा देते हैं। चैट रंग आपको अलग दिखने में मदद करते हैं (प्रो टिप: कस्टम चैट मॉड या मॉडेड क्लाइंट इसे और भी बेहतर बनाते हैं)। 5/5 सितारे",
-          "hotspotCreateYouCanCreateHotspotsWhenNoOther": "/hotspot बनाएं: जब कोई अन्य हॉटस्पॉट सक्रिय न हो तो आप हॉटस्पॉट बना सकते हैं। क्या आपके पास 3 से अधिक घर हैं? elite रैंक के साथ आपके पास 30 घर हो सकते हैं जो आपके सभी आधारों के लिए पर्याप्त होंगे। क्या आप थक गये हैं कि कोई आपको नहीं देख रहा है? elite रैंक के साथ आपकी चैट का रंग अलग हो सकता है और अधिक लोग आपको देखेंगे! क्या आप एक बिल्डर हैं लेकिन रेंडर दूरी बहुत कम है? दूर तक देखने के लिए /buildermode का उपयोग करें! और इन सबके लिए और इससे भी अधिक मात्र 49.99 में? मेरा सुझाव है कि आप भी इसे प्राप्त करें।",
-          "gettingEliteOn6b6tWasAGreatChoiceThe": "6b6t पर Elite प्राप्त करना एक बढ़िया विकल्प था। अतिरिक्त घर दोस्तों के साथ कई ठिकानों के लिए बहुत मदद करते हैं और /buildermode आपके पूरे आधार को देखने में मदद करता है। मुझे /hat और /balloons कमांड पसंद हैं - इनके साथ खिलवाड़ करना मजेदार है। मुझे Elite मिलने का मुख्य कारण हॉटस्पॉट था क्योंकि मेरे पास बहुत सारे PvP हैं और हॉटस्पॉट PvP के लिए बिल्कुल उपयुक्त हैं। चैट में अलग दिखना और शांत रहना सक्रिय खिलाड़ियों के लिए जरूरी है। Discord भूमिकाएँ (जैसे #game-suggestions) समुदाय को शामिल होने का एहसास कराती हैं। आजीवन रैंक का अर्थ है कोई आवर्ती भुगतान नहीं - भत्ते कीमत के लायक हैं। 5/5 स्टार.",
-          "myExperienceIn6bWithAndWithoutARank": "रैंक के साथ और उसके बिना 6b में मेरा अनुभव बहुत अच्छा रहा है, लेकिन रैंक चीजों में सुधार करती है - मुख्य रूप से घर की सीमा इसलिए मुझे घरों को हटाने की जरूरत नहीं है, और /hotspot जो आपको इवेंट बनाने की सुविधा देता है। गुब्बारे और /sit जैसे सौंदर्य प्रसाधन मज़ेदार हैं, और चैट का रंग संदेशों को अलग बनाता है। मैं अपने अनुभव को 4.5/5 रैंक देता हूं और यदि आप लंबे समय तक बने रहने की योजना बनाते हैं तो एक रैंक की अनुशंसा करता हूं।",
-          "iHavePlayedThisServerForThreeYearsFirst": "मैंने इस सर्वर को तीन साल तक चलाया है - पहले 2 साल बिना रैंक के। मुझे अधिक घरों के लिए Prime मिला, फिर हॉटस्पॉट और उससे भी अधिक घरों के लिए Elite मिला, और तेज़ कूलडाउन मिला। यह एकमात्र मौका है जब मैंने Minecraft सर्वर पर पैसा खर्च किया है। यह 100% इसके लायक था, विशेष रूप से उस आनंद के लिए जो मैंने /hotspot का उपयोग करके किया था। बोनस /sit आधारित है और मुझे गुब्बारा रखना पसंद है।",
-          "theHomesAmountIsExcellentTheMostUsefulFeature": "घरों की राशि उत्कृष्ट है - मेरे लिए सबसे उपयोगी सुविधा। चैटकलर अलग दिखना अच्छा है, चैट में दृश्यता एक प्लस है, और कम कूलडाउन मदद करते हैं (हालांकि तेजी से कमांड का उपयोग थोड़ा कठिन हो सकता है)। दोस्तों के साथ खेलना मज़ेदार है और Discord भूमिका अधिकार जोड़ती है। कीमत लगभग $16 उचित है और इसके लायक है। अंतिम रेटिंग: 4 स्टार.",
-          "iThinkThatTheApexLifetimeRankWasWorth": "मुझे लगता है कि Apex लाइफटाइम रैंक खरीदने लायक थी। 100 घरों का लाभ निर्माण और आधारों की मात्रा के लिए उपयोगी है/stashes जिसके लिए मैं एक घर स्थापित कर सकता हूं, और /hat, /balloons, /sit, और /skin जैसे सौंदर्य प्रसाधन सर्वर को वास्तव में अधिक मजेदार बनाते हैं। सभी अतिरिक्त चैनलों और अनुमतियों के साथ Apex Discord भूमिका भी एक अच्छा बोनस है। बिल्डर मोड, हॉटस्पॉट और एनविल्स/chat में सभी रंग विकल्प इसे पूर्ण रैंक पैकेज जैसा महसूस कराते हैं। मेरी ओर से 5/5 स्टार.",
-          "afterWinningPrimeInAGiveawayIUpgradedTo": "मुफ़्त में Prime जीतने के बाद मैंने Apex में अपग्रेड किया। मैं जिस सुविधा का सबसे अधिक उपयोग करता हूं वह है बढ़े हुए घर - यह छुपी हुई वस्तुओं, ठिकानों और स्थानों को ट्रैक करने में मदद करता है। टीपीए और /home के लिए कम कूलडाउन बेहद मददगार हैं (15 मिनट से लेकर ~15 सेकंड तक)। मैं सौंदर्य प्रसाधनों का अधिक उपयोग नहीं करता, लेकिन चैट कलर मुझे किट की मांग करने वाले नए खिलाड़ियों से अलग दिखने में मदद करता है। समाचार शीघ्रता से प्राप्त करने के लिए Discord की भूमिका बहुत अच्छी है। चूँकि मैं बहुत कम खेलता हूँ, Apex मेरे लिए सबसे अच्छी कीमत नहीं थी; Elite बेहतर होता. मैं केवल उन खिलाड़ियों को Apex की अनुशंसा करता हूं जो सप्ताह में ~10 घंटे खेलते हैं।",
-          "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t शुद्ध अराजकता है - और शुद्ध मनोरंजन! 6b6t एक प्रकार का सर्वर है जहां हमेशा कुछ न कुछ घटित होता रहता है। सक्रिय हॉटस्पॉट पर लड़ने से लेकर दोस्त बनने वाले अजनबियों के साथ टीम बनाने तक, हर सत्र एक नई कहानी लेकर आता है। मुझे आजीवन Apex रैंक मिली है, और सर्वर का समर्थन करना और लंबे समय तक प्रतिबद्ध रहना इसके लायक है। उच्च रेंडर दूरी और बिल्डर मोड बड़े पैमाने पर निर्माण की योजना बनाना और पूरे विवरण में परिदृश्य का आनंद लेना आसान बनाता है। विशाल ठिकानों का निर्माण, खंडहरों की खोज, और दोस्तों के साथ घात लगाकर बचे रहने ने इसे सबसे शानदार Minecraft अनुभवों में से एक बना दिया है। यदि आप अनफ़िल्टर्ड अराजकता और समुदाय-संचालित गेमप्ले में रुचि रखते हैं, तो 6b6t वह स्थान है - और Apex यह दिखाने का एक ठोस तरीका है कि आप लंबी अवधि के लिए इसमें हैं।"
+          "eliteToApexUpgrade": "Elite से Apex अपग्रेड"
         },
         "shop": {
-          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
+          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
+          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
+          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
+          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
+          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
         }
       },
       "stats": {
+        "playerDiscordEmbed": {
+          "viewStats": "View stats",
+          "leaderboards": "Leaderboards"
+        },
         "previewData": {
           "apex": "apex",
           "eliteultra": "eliteultra",
@@ -593,6 +637,17 @@
           "elite": "elite",
           "prime": "prime",
           "default": "गलती करना"
+        }
+      },
+      "tebex": {
+        "client": {
+          "invalidNumber": "Invalid number"
+        },
+        "config": {
+          "invalidNumber": "Invalid number"
+        },
+        "intent": {
+          "expectedAGameAccountUuid": "Expected a game account UUID"
         }
       }
     }
