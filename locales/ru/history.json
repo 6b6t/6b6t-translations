@@ -1,11 +1,11 @@
 {
-  "page-name": "6b6t History: Server Milestones Since 2022",
-  "seo-description": "Explore 6b6t history since January 2022: community builds, server records, updates and events on a world that has never reset.",
+  "page-name": "История 6b6t: события и сообщество",
+  "seo-description": "Explore the history of 6b6t from its January 2022 launch through the milestones, community projects, and events that shaped its anarchy world.",
   "hero-title": "The History of 6b6t",
   "hero-subtitle": " A Journey through Time And Chaos",
   "hero-description": "From the first block ever placed in the world, to the massive clans and projects that unite thousands of players together. Discover how 6b6t became the biggest anarchy server in the world.",
   "timeline-title": "Our Unique Journey",
-  "timeline-subtitle": "Every great player has a story worth telling",
+  "timeline-subtitle": "Every great player has a story worth teling",
   "founding-era": "The Founding Era",
   "founding-year": "2022",
   "founding-title": "The Birth of Anarchy",
@@ -35,7 +35,7 @@
       "storyTags": "Story tags",
       "openImageValue1": "Open image: {{value1}}",
       "readTheFullStory": "Read the full story",
-      "value1VideoValue2": "{{value1}} - video {{value2}}",
+      "value1VideoValue2": "{{value1}} — video {{value2}}",
       "watchOnYoutube": "Watch on YouTube",
       "sources": "Sources"
     },
@@ -54,8 +54,8 @@
       "scarxNeontonightTajinlawAndTheDevelopersBehindTheServer": "ScarX, NeonTonight, Tajinlaw and the developers behind the server’s features helped 6b6t grow to hundreds of players online without a queue.",
       "players": "Players",
       "clansLikeLaggangColonizadores555AndThmHaveUnited": "Clans like LagGang, Colonizadores, 555 and THM have united hundreds of players to leave their mark on the server and challenge what is possible.",
-      "joinTheAdventure": "Join the adventure",
-      "readOurBlog": "Read our blog"
+      "joinTheAdventure": "Join the Adventure",
+      "readOurBlog": "Read our Blog"
     },
     "historyTimeline": {
       "milestonesBuildsUpdatesAndEventsOpenAStoryFor": "Milestones, builds, updates and events. Open a story for more details, images and videos.",
@@ -65,6 +65,7 @@
       "jumpToYear": "Jump to year",
       "story": "story",
       "stories": "stories",
+      "noStoriesToShow": "No stories to show.",
       "noStoriesMatchTheseTagsChooseAnotherTagOr": "No stories match these tags. Choose another tag or show all stories.",
       "theStoryContinuesWhatWillYouDoNext": "The story continues. What will you do next?"
     },
@@ -75,10 +76,14 @@
       "text6b6t": "6b6t",
       "organization": "Organization",
       "minecraftAnarchyServerEstablishedInJanuary2022": "Minecraft anarchy server established in January 2022",
+      "article": "Article",
+      "value1Article": "{{value1}}#article",
       "breadcrumblist": "BreadcrumbList",
       "listitem": "ListItem",
       "home": "Home",
-      "specialThanks": "Special thanks",
+      "historyIsTemporarilyUnavailable": "History is temporarily unavailable.",
+      "loadingServerHistory": "Loading server history…",
+      "specialThanks": "Special Thanks",
       "thisPageWasMadePossibleThanksTo": "This page was made possible thanks to",
       "text6b6tTimes": "6b6t Times",
       "whoHelpedGatherTheHistoricalInformationAndResearchDocumenting": ", who helped gather the historical information and research documenting our server’s journey."

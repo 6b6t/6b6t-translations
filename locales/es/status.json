@@ -7,7 +7,7 @@
       "checkingServerStatus": "Checking server status...",
       "refreshing": "Refreshing...",
       "refreshStatus": "Refresh status",
-      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
       "showingTheLastReceivedInformation": "Showing the last received information.",
       "serverInformation": "Server information",
       "checkingAvailability": "Checking availability",
@@ -15,7 +15,7 @@
       "text6b6tIsOnline": "6b6t is online",
       "text6b6tIsOffline": "6b6t is offline",
       "playersOnline": "jugadores conectados",
-      "checking": "Checking...",
+      "checking": "Comprobando...",
       "playerCapacity": "Player capacity",
       "minecraftVersion": "versión de Minecraft",
       "autoRefresh": "Auto refresh",
@@ -25,8 +25,11 @@
       "onlineButCannotJoin": "Online but cannot join?",
       "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
       "joiningInstructions": "Joining instructions",
-      "downloadAnarchymod": "Download AnarchyMod",
+      "downloadAnarchymod": "Descargar AnarchyMod",
       "connectionHelp": "Connection help"
     }
-  }
+  },
+  "page-name": "¿6b6t está caído? Estado y jugadores en vivo",
+  "seo-description": "Consulta el estado, los jugadores y la versión de 6b6t. ¿Java aparece offline? Instala AnarchyMod. Bedrock: br.6b6t.org, puerto 19132.",
+  "share-image-alt": "Estado del servidor 6b6t"
 }

@@ -1,6 +1,6 @@
 {
-  "page-name": "El servidor anárquico más grande de Minecraft",
-  "seo-description": "6b6t es el servidor anárquico más grande de Minecraft, sin reglas, sin cola y con soporte completo para las versiones 1.8-1.21.x. Únete a millones de jugadores en un mundo de caos con /tpa, /home y más. IP: play.6b6t.org",
+  "page-name": "6b6t: servidor anárquico de Minecraft. IP y cómo entrar",
+  "seo-description": "Sin reglas. Sin cola. Entra a 6b6t desde Java con AnarchyMod (play.6b6t.org) o desde Bedrock (br.6b6t.org, puerto 19132). El mismo mundo desde 2022.",
   "server-statistics": "Estadísticas del servidor",
   "about-us": "Sobre nosotros",
   "tell-me-more": "Saber más",
@@ -21,111 +21,13 @@
   "youtube-shorts-visit-channel": "Visita nuestro canal",
   "youtube-shorts-error": "No se pudo cargar el contenido de YouTube. Inténtalo de nuevo más tarde.",
   "sections": {
-    "changelog": {
-      "latestUpdates": {
-        "latestChangelog": "Último registro de cambios",
-        "recent": "Recientes",
-        "serverUpdates": "actualizaciones del servidor",
-        "viewAllUpdates": "Ver todas las actualizaciones",
-        "latestPost": "Última publicación",
-        "latest": "Último",
-        "openValue1": "Abrir {{value1}}",
-        "discordUpdatesAreComingHereSoon": "Las actualizaciones de Discord llegarán aquí pronto",
-        "onceTheDiscordChannelIsReachableTheNewestChangelog": "Cuando el canal de Discord esté disponible, las publicaciones más recientes del registro de cambios aparecerán aquí automáticamente.",
-        "joinDiscord": "Únete a Discord"
-      }
-    },
     "faq": {
       "faq": {
-        "whatIs6b6t": "¿Qué es 6b6t?",
-        "text6b6tIsAMinecraftAnarchyServerWithNoQueue": "6b6t is a Minecraft anarchy server with no queue and a world that has never reset. Players can build, fight, raid and explore, with commands such as /tpa and /home.",
-        "howDoIJoin6b6t": "How do I join 6b6t?",
-        "onJavaInstallAnarchymodAndConnectTo": "On Java, install AnarchyMod and connect to",
-        "onBedrockUse": ". On Bedrock, use",
-        "port": ", port",
-        "readThe": ". Read the",
-        "javaAndBedrockJoiningInstructions": "Java and Bedrock joining instructions",
-        "whyDoes6b6tLookOfflineInJavaEdition": "Why does 6b6t look offline in Java Edition?",
-        "mojangBlacklistedTheServerOn15July2026Java": "Mojang blacklisted the server on 15 July 2026. Java players need",
-        "anarchymod": "AnarchyMod",
-        "toConnectCheck": "to connect. Check",
-        "liveServerStatus": "live server status",
-        "and": "y",
-        "connectionHelp": "connection help",
-        "whatMinecraftVersionShouldIUse": "What Minecraft version should I use?",
-        "useAJavaVersionSupportedByTheCurrentAnarchymod": "Use a Java version supported by the current AnarchyMod release. The",
-        "downloadPage": "download page",
-        "listsCompatibleVersionsBedrockPlayersConnectWithoutTheJava": "lists compatible versions. Bedrock players connect without the Java mod.",
-        "is6b6tA2b2tAlternative": "¿6b6t es una alternativa a 2b2t?",
-        "yes6b6tOffersAnarchyGameplayWithoutAQueueWith": "Yes. 6b6t offers anarchy gameplay without a queue, with teleportation commands and support for Java and Bedrock. It is an independent server with its own world and community.",
-        "howManyPlayersAreOn6b6t": "How many players are on 6b6t?",
-        "theCountChangesThroughoutTheDaySee": "The count changes throughout the day. See",
-        "theCurrentPlayerCount": "the current player count",
-        "theServerReached1155SimultaneousPlayersOn14": ". The server reached 1,155 simultaneous players on 14 August 2026.",
-        "areHacksGriefingAndDupesAllowed": "Are hacks, griefing and dupes allowed?",
-        "anarchyGameplayAllowsHackedClientsGriefingAndRaidingTechnical": "Anarchy gameplay allows hacked clients, griefing and raiding. Technical protections can limit cheats and dupes can be patched. See",
-        "gameplayRulesAndLimits": "gameplay rules and limits",
-        "chatMuteInformation": "chat mute information",
-        "whatCommandsDoes6b6tHave": "¿Qué comandos tiene 6b6t?",
-        "useTpaToRequestATeleportAndHomeTo": "Use /tpa to request a teleport and /home to return to a saved home. The",
-        "fullCommandList": "full command list",
-        "includesRankRequirementsAndExamples": "includes rank requirements and examples.",
-        "votingRewards": "Voting rewards",
-        "includeExtraHomesAndShorterCooldowns": "include extra homes and shorter cooldowns.",
-        "howOldIs6b6t": "¿Cuántos años tiene 6b6t?",
-        "text6b6tLaunchedOn16January2022Read": "6b6t launched on 16 January 2022. Read",
-        "theServerHistory": "the server history",
-        "forMilestonesAndCommunityStoriesOver": "for milestones and community stories. Over",
-        "uniquePlayersHaveJoined": "unique players have joined.",
-        "whereCanIReadServerUpdates": "Where can I read server updates?",
-        "readThe2": "Read the",
-        "serverChangelog": "server changelog",
-        "visitThe": ", visit the",
-        "text6b6tBlog": "6b6t blog",
-        "orJoinThe": ", or join the",
-        "officialDiscord": "official Discord",
         "frequentlyAskedQuestions": "Frequently Asked Questions",
         "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
         "stillHaveQuestions": "¿Aún tienes preguntas?",
         "joinOurDiscord": "Únete a nuestro Discord",
         "forHelp": "for help."
-      }
-    },
-    "features": {
-      "gameplayFeaturesTabs": {
-        "featureHighlights": "Características destacadas"
-      },
-      "serverFeatures": {
-        "everlasting": "Para siempre",
-        "text6b6tStartedManyYearsAgoAndTheAdminsAre": "6b6t comenzó hace muchos años y los administradores están comprometidos a mantenerlo en línea para siempre.",
-        "text16thJanuary": "16 de enero",
-        "universalAccess": "Acceso universal",
-        "playOnJavaEditionBedrockEditionOrWithCracked": "Juega en Java Edition, Bedrock Edition o con cuentas cracked: todos son bienvenidos en 6b6t.",
-        "global": "Global",
-        "playerBase": "Comunidad de jugadores",
-        "activeAdmins": "Administradores activos",
-        "theOfficial6b6tDiscordProvidesFrequentUpdatesAndOpen": "El Discord oficial de 6b6t ofrece actualizaciones frecuentes y un espacio abierto para conversar.",
-        "discordMembers": "Miembros de Discord",
-        "essentialCommands": "Comandos esenciales",
-        "enjoyConvenientAccessToEssentialCommandsLikeTpaAnd": "Disfruta de acceso a comandos esenciales como /tpa y /home sin dejar de lado la experiencia anárquica.",
-        "tpaTeleportToOtherPlayersWhoAreOnline": "/tpa - Teletranspórtate a otros jugadores que estén conectados",
-        "homeSetupMultipleHomesToVisitAnytime": "/home - Configura varios homes para visitarlos cuando quieras",
-        "hotspotJoinLargeEventsOrganizedByPlayersThatLast": "/hotspot - Únete a grandes eventos organizados por jugadores que duran solo unas horas",
-        "latestMinecraftVersion": "Última versión de Minecraft",
-        "weStayUpToDateWithTheNewestMinecraft": "Nos mantenemos al día con las versiones más recientes de Minecraft y añadimos nuevas funciones con frecuencia.",
-        "regularMinecraftVersionUpdatesCurrentlyValue1": "Actualizaciones regulares de la versión de Minecraft, actualmente {{value1}}",
-        "builderAndPvpCompetitionsHostedByThe6b6tAdmins": "Competencias de construcción y PvP organizadas por los administradores de 6b6t varias veces al año",
-        "newCommandsAndFrequentBugFixes": "Nuevos comandos y correcciones frecuentes de errores",
-        "nonP2wCosmetics": "Cosméticos no P2W",
-        "coloredChatUsernamePrefixAndNametagToRankOwners": "Chat, nombre de usuario, prefijo y nametag de colores para jugadores con rango. El comando /balloons genera un globo cosmético que te sigue. Aumenta temporalmente la distancia de renderizado con /buildermode sin tener que alejarte demasiado.",
-        "coloredChatNames": "Nombres de colores en el chat",
-        "customPrefixes": "Prefijos personalizados",
-        "visualEffectsCosmetics": "Efectos visuales y cosméticos",
-        "serverFeatures": "CARACTERÍSTICAS DEL SERVIDOR",
-        "whyPlayOn": "Por qué jugar en",
-        "text6b6t": "6b6t",
-        "text6b6tOffersAUniqueMinecraftAnarchyServerExperienceWith": "6b6t ofrece una experiencia única como servidor anárquico de Minecraft, con comandos como /tpa y /home, pero sin reglas ni cola.",
-        "gameplayFeatures": "Características de juego"
       }
     },
     "gallery": {
@@ -193,30 +95,8 @@
         "version": "Versión"
       }
     },
-    "home": {
-      "anarchyModBanner": {
-        "officialAddon": "ADDON OFICIAL",
-        "fabricLoader": "Fabric Loader",
-        "fabricMod": "Mod de Fabric",
-        "introducing6b6tSOfficialAnarchyMod": "Presentamos AnarchyMod, el mod oficial de 6b6t",
-        "takeYourAnarchyExperienceToTheNextLevelWith": "Lleva tu experiencia anárquica al siguiente nivel con nuestro ligero mod de Fabric de código abierto. Obtén ventajas inmediatas como homes adicionales, protección de conexión frente a los bloqueos de Mojang e integración automática del servidor en la lista de servidores al iniciar el juego.",
-        "downloadForFabric": "Descargar para Fabric",
-        "viewSource": "Ver código fuente",
-        "benefits": "Beneficios",
-        "unlockExtraHomes": "Desbloquea homes adicionales",
-        "instantlyAdds2MoreStackableHomesToYourAvailable": "Añade al instante 2 homes adicionales acumulables a los que ya tienes disponibles.",
-        "antiBlacklistProtection": "Protección contra la lista negra",
-        "builtInEvasionEnsuresYouCanConnectEvenIf": "El sistema de evasión integrado garantiza que puedas conectarte incluso si Mojang bloquea la IP.",
-        "instantServerAccess": "Acceso instantáneo al servidor",
-        "automaticallyAddsThe6b6tServerIntoYourMultiplayerMenu": "Añade automáticamente el servidor 6b6t a tu menú multijugador.",
-        "text1194Supported": "Compatible con 1.19.4+"
-      }
-    },
     "social": {
       "youTubeShorts": {
-        "epic6b6tAnarchyPvpMoments": "Momentos épicos de PvP anárquico en 6b6t",
-        "massive6b6tBaseTour": "Tour por una enorme base de 6b6t",
-        "text6b6tServerHighlights": "Momentos destacados de 6b6t",
         "failedToLoadYoutubeShorts": "No se pudieron cargar los YouTube Shorts",
         "youtubePlayButton": "Botón de reproducción de YouTube"
       }

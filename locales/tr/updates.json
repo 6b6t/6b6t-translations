@@ -14,7 +14,7 @@
     },
     "updatesList": {
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Tekrar dene",
       "newUpdate": "yeni güncelleme",
       "justAppeared": "az önce göründü.",
       "dismiss": "Kapat",
@@ -51,10 +51,12 @@
       "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
       "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Tekrar dene",
       "noUpdatesToShowYet": "No updates to show yet",
       "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
       "readNewsOnDiscord": "Read news on Discord"
     }
-  }
+  },
+  "page-name": "6b6t Güncellemeleri: Değişiklikler ve Düzeltmeler",
+  "seo-description": "En yeni 6b6t değişiklik günlüğünü oku: yeni özellikler, düzeltmeler ve resmi Discord’daki sunucu haberleri, en yeniden eskiye doğru sıralı."
 }

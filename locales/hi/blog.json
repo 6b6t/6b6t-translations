@@ -1,12 +1,29 @@
 {
   "sections": {
-    "layout": {
-      "text6b6tBlogNewsUpdates": "6b6t ब्लॉग - समाचार एवं अपडेट",
-      "readTheLatestNewsUpdatesAndAnnouncementsFrom6b6t": "6b6t Minecraft सर्वर से नवीनतम समाचार, अपडेट और घोषणाएँ पढ़ें।"
+    "blogPostContent": {
+      "youtubeVideo": "YouTube video"
+    },
+    "blogSchema": {
+      "text6b6t": "6b6t"
+    },
+    "slug": {
+      "page": {
+        "allPosts": "All posts"
+      }
     },
     "page": {
-      "text6b6tBlogNewsUpdates": "6b6t ब्लॉग - समाचार एवं अपडेट",
-      "readTheLatestNewsUpdatesAndAnnouncementsFrom6b6t": "6b6t Minecraft सर्वर से नवीनतम समाचार, अपडेट और घोषणाएँ पढ़ें।"
+      "text6b6tBlog": "6b6t blog",
+      "blog": "ब्लॉग",
+      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "News, guides and stories from the 6b6t anarchy server.",
+      "blogPages": "Blog pages",
+      "newerPosts": "Newer posts",
+      "page": "पेज",
+      "of": "का",
+      "olderPosts": "Older posts",
+      "theBlogIsTemporarilyUnavailable": "The blog is temporarily unavailable",
+      "reloadThePageToTryAgain": "Reload the page to try again.",
+      "noPostsOnThisPage": "No posts on this page",
+      "goToTheNewestPosts": "Go to the newest posts"
     }
   }
 }

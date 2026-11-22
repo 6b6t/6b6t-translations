@@ -7,7 +7,7 @@
       "checkingServerStatus": "Checking server status...",
       "refreshing": "Refreshing...",
       "refreshStatus": "Refresh status",
-      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
       "showingTheLastReceivedInformation": "Showing the last received information.",
       "serverInformation": "Server information",
       "checkingAvailability": "Checking availability",
@@ -15,7 +15,7 @@
       "text6b6tIsOnline": "6b6t is online",
       "text6b6tIsOffline": "6b6t is offline",
       "playersOnline": "खिलाड़ी ऑनलाइन",
-      "checking": "Checking...",
+      "checking": "जाँच हो रही है...",
       "playerCapacity": "Player capacity",
       "minecraftVersion": "minecraft संस्करण",
       "autoRefresh": "Auto refresh",
@@ -25,8 +25,11 @@
       "onlineButCannotJoin": "Online but cannot join?",
       "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
       "joiningInstructions": "Joining instructions",
-      "downloadAnarchymod": "Download AnarchyMod",
+      "downloadAnarchymod": "AnarchyMod डाउनलोड करें",
       "connectionHelp": "Connection help"
     }
-  }
+  },
+  "page-name": "क्या 6b6t डाउन है? लाइव स्थिति और खिलाड़ी संख्या",
+  "seo-description": "6b6t सर्वर स्थिति, खिलाड़ी संख्या और वर्शन देखें। Java ऑफलाइन दिखे? AnarchyMod इंस्टॉल करें। Bedrock: br.6b6t.org, पोर्ट 19132।",
+  "share-image-alt": "6b6t सर्वर की स्थिति"
 }

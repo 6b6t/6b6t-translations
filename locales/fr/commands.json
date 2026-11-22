@@ -6,7 +6,7 @@
       "aliases": "Aliases",
       "example": "Exemple",
       "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
+      "copied": "Copié",
       "copyExample": "Copy example",
       "exampleCopied": "Example copied.",
       "ranks": "Ranks"
@@ -17,7 +17,7 @@
     },
     "commandsList": {
       "bestMatches": "Meilleures correspondances",
-      "commands": "Commands",
+      "commands": "Commandes",
       "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Rechercher une commande…",
       "commandAliasOrDescription": "Command, alias or description",
@@ -39,14 +39,16 @@
       "rankRequirement": "Grade requis"
     },
     "page": {
-      "text6b6tServerCommands": "Commandes du serveur 6b6t",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Liste complète des commandes disponibles sur le serveur Minecraft anarchique 6b6t"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "Commandes du serveur 6b6t"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "Tous les grades",
+    "auth": "Authentification",
+    "homesAndTeleport": "Résidences et téléportation",
+    "hotspots": "Hotspots",
+    "groupChat": "Group chat"
   }
 }

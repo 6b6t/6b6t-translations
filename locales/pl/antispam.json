@@ -63,7 +63,7 @@
       "allowedWithLimits": "Dozwolone z ograniczeniami",
       "youCanAdvertiseThe6b6tWebsiteDiscordServersAnd": "Możesz reklamować stronę 6b6t, serwery Discord i projekty raz na pięć minut.",
       "theLimitAppliesToWhatYouAdvertiseAcrossAll": "Limit dotyczy tego, co reklamujesz, na wszystkich kontach. Kilka kont promujących ten sam projekt lub serwer Discord współdzieli limit jednej reklamy co pięć minut.",
-      "wantToHideAPlayerSMessages": "Chcesz ukryć wiadomości gracza?",
+      "wantToHideAPlayerAposSMessages": "Chcesz ukryć wiadomości gracza?",
       "ifTheyAreNotBreakingARuleYouCan": "Jeśli nie łamią zasad, nadal możesz użyć"
     },
     "antispamTable": {
@@ -97,5 +97,7 @@
       "appealsAreHandledExclusivelyThroughThe": "Odwołania są rozpatrywane wyłącznie przez",
       "appealForm": "formularza odwołania"
     }
-  }
+  },
+  "page-name": "Mute na 6b6t: publiczny rejestr antyspamowy",
+  "seo-description": "Zobacz publiczny rejestr mute na czacie 6b6t, zasady antyspamowe i możliwości odwołania. Sprawdź, jak działa system antyspamowy serwera."
 }

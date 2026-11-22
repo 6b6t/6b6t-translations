@@ -7,7 +7,7 @@
       "checkingServerStatus": "Sprawdzanie statusu serwera...",
       "refreshing": "Odświeżanie...",
       "refreshStatus": "Odśwież status",
-      "weCouldnTRefreshTheServerStatusTryAgain": "Nie udało się odświeżyć statusu serwera. Spróbuj ponownie za chwilę.",
+      "weCouldnAposTRefreshTheServerStatusTry": "Nie udało się odświeżyć statusu serwera. Spróbuj ponownie za chwilę.",
       "showingTheLastReceivedInformation": "Wyświetlane są ostatnio otrzymane informacje.",
       "serverInformation": "Informacje o serwerze",
       "checkingAvailability": "Sprawdzanie dostępności",
@@ -28,5 +28,8 @@
       "downloadAnarchymod": "Pobierz AnarchyMod",
       "connectionHelp": "Pomoc z połączeniem"
     }
-  }
+  },
+  "page-name": "Czy 6b6t nie działa? Status i liczba graczy",
+  "seo-description": "Sprawdź status serwera 6b6t, aktualną liczbę graczy i wersję. Java offline? Zainstaluj AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
+  "share-image-alt": "Status serwera 6b6t"
 }

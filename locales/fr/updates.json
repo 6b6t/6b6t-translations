@@ -14,7 +14,7 @@
     },
     "updatesList": {
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Réessayer",
       "newUpdate": "nouvelle mise à jour",
       "justAppeared": "vient d’apparaître.",
       "dismiss": "Fermer",
@@ -40,7 +40,7 @@
     "updatesSection": {
       "updatesFromValue1": "Updates from {{value1}}",
       "latestPost": "Dernière publication",
-      "loading": "Loading…",
+      "loading": "Chargement…",
       "loadMoreValue1": "Charger davantage de {{value1}}"
     },
     "page": {
@@ -51,10 +51,12 @@
       "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
       "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Réessayer",
       "noUpdatesToShowYet": "No updates to show yet",
       "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
       "readNewsOnDiscord": "Read news on Discord"
     }
-  }
+  },
+  "page-name": "Mises à jour 6b6t : journal des changements",
+  "seo-description": "Lisez les dernières nouveautés de 6b6t : fonctions, correctifs et actualités du serveur publiés sur le Discord officiel, du plus récent au plus ancien."
 }

@@ -4,7 +4,7 @@
       "sampleData": "Sample data",
       "fictionalPlayersAndMessagesForThisDesignPreviewThese": "Fictional players and messages for this design preview. These are not real moderation actions.",
       "searchByPlayer": "Search by player",
-      "minecraftUsername": "Minecraft username",
+      "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
       "clearPlayerSearch": "Clear player search",
       "order": "Order",
       "newestFirst": "नवीनतम प्रथम",
@@ -23,9 +23,9 @@
       "clearSearch": "Clear search"
     },
     "antispamLog": {
-      "permanent": "Permanent",
+      "permanent": "स्थायी",
       "expired": "Expired",
-      "active": "Active",
+      "active": "सक्रिय",
       "hidden": "छिपा हुआ",
       "expiresInValue1": "Expires in {{value1}}",
       "noExpiry": "No expiry",
@@ -63,7 +63,7 @@
       "allowedWithLimits": "Allowed, with limits",
       "youCanAdvertiseThe6b6tWebsiteDiscordServersAnd": "You can advertise the 6b6t website, Discord servers and projects once every five minutes.",
       "theLimitAppliesToWhatYouAdvertiseAcrossAll": "The limit applies to what you advertise, across all accounts. Several accounts promoting the same project or Discord server share one ad every five minutes.",
-      "wantToHideAPlayerSMessages": "Want to hide a player's messages?",
+      "wantToHideAPlayerAposSMessages": "Want to hide a player&apos;s messages?",
       "ifTheyAreNotBreakingARuleYouCan": "If they are not breaking a rule, you can still use"
     },
     "antispamTable": {
@@ -93,9 +93,11 @@
       "publicModerationLogs": "सार्वजनिक मॉडरेशन लॉग",
       "searchByPlayerOrOpenAnEntryToSee": "Search by player or open an entry to see the messages recorded before a mute.",
       "whatIsKeptPrivate": "What is kept private?",
-      "moderatorsAreNotShownForMutesIssuedForDoxxing": "Moderators are not shown. For mutes issued for Doxxing or Illegal content related to children, the player's name and messages are also hidden.",
+      "moderatorsAreNotShownForMutesIssuedForDoxxing": "Moderators are not shown. For mutes issued for Doxxing or Illegal content related to children, the player&apos;s name and messages are also hidden.",
       "appealsAreHandledExclusivelyThroughThe": "Appeals are handled exclusively through the",
       "appealForm": "appeal form"
     }
-  }
+  },
+  "page-name": "6b6t म्यूट: सार्वजनिक एंटी-स्पैम लॉग",
+  "seo-description": "6b6t के सार्वजनिक चैट म्यूट लॉग, स्पैम रोकने के नियम और अपील के विकल्प देखें। जानें कि सर्वर का एंटी-स्पैम सिस्टम कैसे काम करता है।"
 }

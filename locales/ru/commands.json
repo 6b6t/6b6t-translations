@@ -1,6 +1,6 @@
 {
-  "page-name": "6b6t Commands: Full List With Ranks and Examples",
-  "seo-description": "Every 6b6t command in one list: /tpa, /home, /msg, /ignore, /skin and more. Filter by rank and see examples.",
+  "page-name": "Minecraft Server Commands",
+  "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
   "sections": {
     "commandEntry": {
       "aliases": "Aliases",
@@ -19,7 +19,7 @@
       "bestMatches": "Best matches",
       "commands": "Commands",
       "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
-      "searchCommands": "Search commands",
+      "searchCommands": "Search commands...",
       "commandAliasOrDescription": "Command, alias or description",
       "clearCommandSearch": "Clear command search",
       "category": "Category",
@@ -39,14 +39,16 @@
       "rankRequirement": "Rank requirement"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Server Commands",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Complete list of commands available on the 6b6t Minecraft anarchy server"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "6b6t Server Commands"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "Все ранги",
+    "auth": "Авторизация",
+    "homesAndTeleport": "Дома и телепортация",
+    "hotspots": "Хотспоты",
+    "groupChat": "Group chat"
   }
 }

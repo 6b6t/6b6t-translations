@@ -1,6 +1,6 @@
 {
-  "page-name": "İletişim",
-  "seo-description": "Minecraft sunucu desteği, hesap yardımı, mağaza soruları, iş teklifleri veya topluluk desteği için 6b6t ekibiyle iletişime geç.",
+  "page-name": "6b6t ekibiyle iletişim ve sunucu desteği",
+  "seo-description": "Hesabın, satın alımların veya Minecraft sunucusuna bağlantı hakkında yardım almak için 6b6t ekibine e-posta ya da Discord üzerinden ulaş.",
   "sections": {
     "contactMethods": {
       "email": "E-posta",
@@ -16,7 +16,7 @@
       "createASupportTicketInTheOfficial6b6tDiscord": "Create a support ticket in the official 6b6t Discord.",
       "rankedPlayersOnly": "Ranked players only.",
       "youNeedARankFromThe": "You need a rank from the",
-      "text6b6tShop": "6b6t Mağazası'ndan",
+      "text6b6tShop": "6b6t Mağazası",
       "toCreateADiscordTicketYouCanAlsoContact": "to create a Discord ticket. You can also contact us by email.",
       "joinTheOfficialDiscordServer": "Join the official Discord server.",
       "createATicketIn": "Bir talep oluştur:",

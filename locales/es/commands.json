@@ -1,12 +1,12 @@
 {
-  "page-name": "Comandos",
+  "page-name": "Comandos de Minecraft: guía de 6b6t",
   "seo-description": "Conoce los comandos esenciales de 6b6t, incluidos /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg y más.",
   "sections": {
     "commandEntry": {
       "aliases": "Aliases",
       "example": "Ejemplo",
       "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
+      "copied": "Copiado",
       "copyExample": "Copy example",
       "exampleCopied": "Example copied.",
       "ranks": "Ranks"
@@ -17,7 +17,7 @@
     },
     "commandsList": {
       "bestMatches": "Mejores coincidencias",
-      "commands": "Commands",
+      "commands": "Comandos",
       "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Buscar comandos...",
       "commandAliasOrDescription": "Command, alias or description",
@@ -39,14 +39,16 @@
       "rankRequirement": "Rango requerido"
     },
     "page": {
-      "text6b6tServerCommands": "Comandos del servidor 6b6t",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "Lista completa de comandos disponibles en el servidor anárquico de Minecraft 6b6t"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "Comandos del servidor 6b6t"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "Todos los rangos",
+    "auth": "Autenticación",
+    "homesAndTeleport": "Hogares y teletransporte",
+    "hotspots": "Hotspots",
+    "groupChat": "Group chat"
   }
 }

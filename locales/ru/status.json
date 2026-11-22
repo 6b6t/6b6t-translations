@@ -7,17 +7,17 @@
       "checkingServerStatus": "Checking server status...",
       "refreshing": "Refreshing...",
       "refreshStatus": "Refresh status",
-      "weCouldnTRefreshTheServerStatusTryAgain": "We couldn't refresh the server status. Try again in a moment.",
+      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
       "showingTheLastReceivedInformation": "Showing the last received information.",
       "serverInformation": "Server information",
       "checkingAvailability": "Checking availability",
       "statusUnavailable": "Status unavailable",
       "text6b6tIsOnline": "6b6t is online",
       "text6b6tIsOffline": "6b6t is offline",
-      "playersOnline": "Players online",
+      "playersOnline": "players online",
       "checking": "Checking...",
       "playerCapacity": "Player capacity",
-      "minecraftVersion": "Minecraft version",
+      "minecraftVersion": "minecraft version",
       "autoRefresh": "Auto refresh",
       "text30Seconds": "30 seconds"
     },
@@ -28,5 +28,8 @@
       "downloadAnarchymod": "Download AnarchyMod",
       "connectionHelp": "Connection help"
     }
-  }
+  },
+  "page-name": "6b6t не работает? Статус сервера и онлайн игроков",
+  "seo-description": "Проверьте статус сервера 6b6t, текущий онлайн и версию. Java показывает офлайн? Установите AnarchyMod. Bedrock: br.6b6t.org, порт 19132.",
+  "share-image-alt": "Статус сервера 6b6t"
 }

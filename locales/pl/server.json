@@ -11,6 +11,7 @@
         "completed": "zakończone",
         "opened": "otwarte",
         "webhookServiceIsNotConfigured": "Usługa webhooków nie jest skonfigurowana",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "invalidWebhookSignature": "Nieprawidłowy podpis webhooka",
         "webhookProcessingFailed": "Przetwarzanie webhooka nie powiodło się"
       },
@@ -30,14 +31,17 @@
             "requestedRevisionForMotdRequestValue1": "Poproszono o poprawkę dla zgłoszenia MOTD {{value1}}.",
             "motdReviewActionFailed": "Akcja weryfikacji MOTD nie powiodła się."
           }
+        },
+        "newsletter": {
+          "unauthorized": "unauthorized",
+          "invalidEmail": "invalid_email",
+          "rateLimited": "rate_limited",
+          "unavailable": "niedostępne"
         }
       },
       "text6b6tOrgMetadataApi": "API metadanych 6b6t.org",
       "online": "online",
       "legendSubscribers": {
-        "active": "aktywne",
-        "trialing": "okres próbny",
-        "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "Nie udało się załadować subskrybentów Legend",
         "all": "wszystkie"
       },
@@ -48,7 +52,8 @@
         "text": {
           "noFilePathProvided": "Nie podano ścieżki pliku",
           "invalidFilePath": "Nieprawidłowa ścieżka pliku",
-          "fileNotFound": "Nie znaleziono pliku"
+          "fileNotFound": "Nie znaleziono pliku",
+          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
         }
       },
       "monitoring": {
@@ -72,21 +77,25 @@
         }
       },
       "stripe": {
+        "nonProductionPaymentEvent": "Non-production payment event",
         "unknownError": "Nieznany błąd",
         "webhookErrorValue1": "Błąd webhooka: {{value1}}",
-        "alreadyProcessed": "Już przetworzono",
         "received": "Odebrano",
+        "alreadyProcessed": "Już przetworzono",
         "unhandledEventType": "Nieobsługiwany typ zdarzenia",
         "webhookHandlerFailed": "Obsługa webhooka nie powiodła się",
-        "completed": "zakończone"
+        "completed": "zakończone",
+        "opened": "otwarte",
+        "lost": "utracone",
+        "pending": "Oczekujące"
       },
       "tebex": {
         "pending": "Oczekujące",
-        "lost": "utracone",
         "payloadTooLarge": "Ładunek jest zbyt duży",
         "missingSignature": "Brak podpisu",
         "invalidSignature": "Nieprawidłowy podpis",
         "webhookServiceIsNotConfigured": "Usługa webhooków nie jest skonfigurowana",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "webhookProcessingFailed": "Przetwarzanie webhooka nie powiodło się"
       },
       "telegram": {
@@ -106,13 +115,21 @@
         "invalidOrExcessiveDateRange": "Nieprawidłowy lub zbyt duży zakres dat",
         "failedToFetchUptimeData": "Nie udało się pobrać danych o czasie działania",
         "unknownError": "Nieznany błąd"
+      },
+      "voteLookup": {
+        "playerVoteLookupIsNotAvailableYet": "Wyszukiwanie głosów nie jest jeszcze dostępne.",
+        "enterAValidMinecraftName": "Wpisz prawidłową nazwę z Minecrafta."
       }
     },
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Lokalne środowisko programistyczne"
+          "localDevelopment": "Lokalne środowisko programistyczne",
+          "invalidEmailAddress": "Invalid email address"
         }
+      },
+      "adminTableSearch": {
+        "invalidNumber": "Invalid number"
       },
       "auth": {
         "accountLinkHistory": {
@@ -153,10 +170,34 @@
           "telegram": "Telegram"
         }
       },
+      "blogContent": {
+        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+      },
+      "broadcast": {
+        "playerHash": {
+          "hmac": "HMAC",
+          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+        }
+      },
       "commandService": {
-        "commands": {
+        "outbox": {
+          "unsupportedCommandRecipient": "Unsupported command recipient",
+          "invalidCommand": "Invalid command",
+          "delivered": "dostarczone",
+          "completed": "zakończone",
+          "deliveryFailed": "Delivery failed",
+          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
+          "rankLookupFailed": "Rank lookup failed"
+        },
+        "reversals": {
+          "skipped": "skipped"
+        },
+        "transport": {
           "unknownCommandServiceError": "Nieznany błąd usługi komend"
         }
+      },
+      "communityEventAdminSchema": {
+        "anExtensionReasonIsRequired": "An extension reason is required"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "Zbyt wiele żądań",
@@ -178,116 +219,57 @@
         "reachTheGoalByAugust14ToUnlockA": "Osiągnij cel do 14 sierpnia, aby odblokować potężny dupe na całym 6b6t na 72 godziny. Jeśli cel zostanie osiągnięty później, wydarzenie zostanie przeniesione na najbliższy kolejny weekend."
       },
       "communityHistory": {
-        "eventIdsMustBeUnique": "Identyfikatory wydarzeń muszą być unikalne"
+        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
+        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
       },
-      "data": {
-        "serverCommands": {
-          "msgWhisperW": "/msg, /whisper, /w",
-          "sendAPrivateMessageToAnyOnlinePlayer": "Wyślij prywatną wiadomość do dowolnego gracza online",
-          "moveYourCrackedAccountToThePremiumAccountWith": "Przenieś swoje konto cracked na konto premium o tej samej nazwie. Działa tylko na serwerze anarchii, nie w lobby.",
-          "replyR": "/reply, /r",
-          "sendAPrivateMessageToTheLastPersonWho": "Wyślij prywatną wiadomość do ostatniej osoby, która wysłała Ci prywatną wiadomość",
-          "lastL": "/last, /l",
-          "sendAPrivateMessageToTheLastPersonYou": "Wyślij prywatną wiadomość do ostatniej osoby, do której wysłałeś wiadomość.",
-          "killSuicide": "/kill, /suicide",
-          "killsYouInGameIfYouAreAlive": "Zabija Cię w grze, jeśli żyjesz.",
-          "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "Ignoruje/blokuje innego gracza na stałe. (Ukrywa jego wiadomości na czacie)",
-          "getAListOfEveryoneWhoYouIgnored": "Wyświetl listę wszystkich graczy, których ignorujesz.",
-          "ignorelistClear": "/ignorelist clear",
-          "unignoreAllPlayers": "Przestań ignorować wszystkich graczy.",
-          "showHideMessagesThatYouGetIntoPvpMode": "Pokaż/ukryj wiadomości informujące o wejściu w tryb PvP.",
-          "groupchatGc": "/groupchat, /gc",
-          "talkPrivatelyInAGroupchatWithMultiplePeople": "Rozmawiaj prywatnie z wieloma osobami na czacie grupowym.",
-          "toggleViewingTheChat": "Włącz/wyłącz wyświetlanie czatu.",
-          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Pokaż/ukryj głowy graczy na czacie, w prywatnych wiadomościach, w wiadomościach o dołączeniu, śmierci i osiągnięciach, w prośbach o teleportację i na paskach hotspotu.",
-          "turnsPrivateMessagesOnOrOffSoYouCan": "Włącza lub wyłącza prywatne wiadomości, dzięki czemu możesz zdecydować, czy inni gracze mogą do Ciebie pisać.",
-          "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Włącza, wyłącza lub dostosowuje efekty cząsteczkowe wokół gracza.",
-          "togglespamShowspam": "/togglespam, /showspam",
-          "showOrHideSpamMessagesAndMessagesFromMuted": "Pokaż lub ukryj na czacie wiadomości spamowe i wiadomości od wyciszonych graczy.",
-          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Włącz lub wyłącz wyświetlanie wiadomości na czacie od graczy bez rangi.",
-          "seeHowManyPlayersAndBotsAreOnlineAnd": "Sprawdź liczbę graczy i botów online oraz to, które wiadomości botów ukrywasz.",
-          "botsChat": "/bots chat",
-          "showHideChatMessagesFromBots": "Pokaż lub ukryj wiadomości botów na czacie.",
-          "botsWhispers": "/bots whispers",
-          "showHidePrivateMessagesFromBots": "Pokaż lub ukryj prywatne wiadomości od botów.",
-          "botsConnections": "/bots connections",
-          "showHideChatMessagesOfBotsJoiningTheServer": "Pokaż lub ukryj wiadomości o dołączaniu botów do serwera.",
-          "botsDeaths": "/bots deaths",
-          "showHideChatMessagesOfBotsDyingAndThe": "Pokaż/ukryj wiadomości na czacie o śmierci botów oraz nazwę bota, gdy bot zabije gracza.",
-          "botsAdvancements": "/bots advancements",
-          "showHideAdvancementMessagesFromBots": "Pokaż/ukryj wiadomości o osiągnięciach botów.",
-          "botsTeleports": "/bots teleports",
-          "showHideTeleportRequestsFromBots": "Pokaż/ukryj prośby o teleportację od botów.",
-          "botsTab": "/bots tab",
-          "showHideBotsInTheTabList": "Pokaż/ukryj boty na liście graczy (Tab).",
-          "botsKits": "/bots kits",
-          "showHideKitRequestsFromBotsLikeKitPvp": "Pokaż/ukryj prośby botów o kity, np. !kit pvp.",
-          "showHideEverythingFromBotsAtOnceChatPrivate": "Pokaż/ukryj wszystko od botów naraz: czat, prywatne wiadomości, dołączenia, śmierci, osiągnięcia, prośby o teleportację, listę graczy (Tab) i prośby o kity.",
-          "showHideChatMessagesOfPeopleJoiningTheServer": "Pokaż/ukryj wiadomości na czacie o osobach dołączających do serwera.",
-          "connectionmsgsColor": "/connectionmsgs color",
-          "changeTheColorOfConnectionMessagesInYourChat": "Zmień kolor wiadomości o połączeniach na swoim czacie.",
-          "showHideChatMessagesOfPeopleDying": "Pokaż/ukryj wiadomości na czacie o śmierci graczy.",
-          "deathmsgsColor": "/deathmsgs color",
-          "changeTheColorOfDeathMessagesInYourChat": "Zmień kolor wiadomości o śmierci na swoim czacie.",
-          "advancementsChat": "/advancements chat",
-          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Wybierz, które wiadomości o postępach mają być widoczne na czacie: wszystkie, własne, innych graczy albo żadne.",
-          "advancementsToast": "/advancements toast",
-          "showOrHideTheAdvancementPopUpForYour": "Pokaż lub ukryj powiadomienia o własnych postępach.",
-          "showTheItemInYourHandInChatOther": "Pokaż na czacie przedmiot, który trzymasz w ręce. Inni gracze mogą najechać na niego kursorem, aby zobaczyć wszystkie szczegóły.",
-          "createsAHomeAtYourCurrentLocationNamesCan": "Tworzy dom w Twojej aktualnej lokalizacji. Nazwa może mieć do 32 znaków. Jeśli masz już dom o tej nazwie, przed zastąpieniem pojawi się pytanie.",
-          "teleportToAHome": "Teleportuj się do home.",
-          "opensTheListOfYourHomesWithYourHome": "Otwiera listę Twoich domów wraz z ich liczbą i limitem.",
-          "deletesAHome": "Usuwa home.",
-          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Anuluje aktywną teleportację do home (przydatne, jeśli uruchomiłeś ją przez pomyłkę).",
-          "renamesOneOfYourSavedHomesToSomethingDifferent": "Zmienia nazwę jednego z zapisanych home na inną.",
-          "requestToTeleportToAnotherPlayer": "Poproś o teleportację do innego gracza.",
-          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
-          "hidesTeleportRequestsFromAllPlayers": "Ukrywa prośby o teleportację od wszystkich graczy.",
-          "acceptATpaRequest": "Akceptuje prośbę TPA.",
-          "declineATpaRequest": "Odrzuca prośbę TPA.",
-          "wearAnyItemOnYourHead": "Załóż dowolny przedmiot na głowę.",
-          "toggleInvisibilityFrames": "Włącza/wyłącza niewidzialne ramki.",
-          "chatcolorCc": "/chatcolor, /cc",
-          "changeTheColorOfYourChatMessages": "Zmień kolor swoich wiadomości na czacie.",
-          "namecolorNc": "/namecolor, /nc",
-          "changeTheColorOfYourUsernameInChat": "Zmień kolor swojej nazwy użytkownika na czacie.",
-          "chooseWhichRankPrefixYouShowInChatAnd": "Wybierz, który prefiks rangi pokazujesz na czacie i na liście graczy (Tab).",
-          "lightUpACigar": "Zapal cygaro",
-          "giveYourselfAGlowingEffect": "Nadaj sobie efekt świecenia.",
-          "teleportToTheCurrentHotspot": "Teleportuj się do aktualnego hotspotu.",
-          "hotspotCreate": "/hotspot create",
-          "createANewHotspotAtYourCurrentLocation": "Utwórz nowy hotspot w swojej aktualnej lokalizacji.",
-          "hotspotColor": "/hotspot color",
-          "changeTheColorOfTheHotspot": "Zmień kolor hotspotu.",
-          "hotspotNotifications": "/hotspot notifications",
-          "opensAMenuToTurnTheHotspotBossBar": "Otwiera menu, w którym włączysz lub wyłączysz pasek bossa, pasek akcji i wiadomość na czacie o hotspocie. Dodaj off, aby ukryć wszystkie.",
-          "hotspotCancel": "/hotspot cancel",
-          "cancelYourHotspot": "Anuluj swój hotspot",
-          "hotspotBalloon": "/hotspot balloon",
-          "giveABalloonToEveryoneAtYourHotspot": "Daj balon wszystkim osobom znajdującym się przy Twoim hotspocie.",
-          "hotspotGlow": "/hotspot glow",
-          "giveAGlowToEveryoneAtYourHotspot": "Nadaj poświatę wszystkim osobom znajdującym się przy Twoim hotspocie.",
-          "hotspotName": "/hotspot name",
-          "changeTheNameOfYourHotspot": "Zmień nazwę swojego hotspotu.",
-          "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspotAndWhenYou": "Wyświetl informacje o aktualnym hotspocie i o tym, kiedy możesz utworzyć następny.",
-          "increaseYourViewDistanceForAWhileForBuilding": "Zwiększ na jakiś czas zasięg renderowania na potrzeby budowania. Dostajesz zasięg swojej najwyższej rangi.",
-          "buildermodeHome": "/buildermode home",
-          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Włącz buildermode podczas teleportacji do określonego home.",
-          "putACosmeticBalloonOnYourHead": "Załóż kosmetyczny balon na głowę.",
-          "sitOnAnyBlockToRest": "Usiądź na dowolnym bloku, aby odpocząć.",
-          "lieDownOnAnyBlockToRest": "Połóż się na dowolnym bloku, aby odpocząć.",
-          "changeYourInGameSkin": "Zmień swoją skórkę w grze.",
-          "letsYouLeaveYourBodyAndFlyAroundIn": "Pozwala opuścić ciało i latać w trybie zbliżonym do spectator, aby rozpoznać teren bez ruszania prawdziwego gracza.",
-          "useItRightAfterTheServerPullsYouBack": "Użyj zaraz po tym, jak serwer Cię cofnie. Zapisuje ostatnią minutę Twojego ruchu, aby administracja mogła ją sprawdzić. Potem wyślij e-mail na contact@6b6t.org.",
-          "shopBuy": "/shop, /buy",
-          "getALinkToTheOfficial6b6tShop": "Uzyskaj link do oficjalnego sklepu 6b6t.",
-          "giftEliteUltraToAnOnlineElitePlayerOr": "Podaruj Elite Ultra graczowi Elite, który jest online, albo Prime Ultra graczowi Prime. Po 14 dniach możesz to cofnąć komendą /legendgift remove.",
-          "showsTheVoteCountAndInstructionsToVote": "Wyświetla liczbę głosów i instrukcje dotyczące głosowania.",
-          "showsTheServerSTpsAndPerformancePlusThe": "Pokazuje TPS i wydajność serwera oraz TPS odczuwany przez Ciebie przez ostatnie 5 sekund, 1 minutę i 5 minut.",
-          "getAnInviteToThe6b6tDiscordServer": "Uzyskaj zaproszenie na serwer Discord 6b6t.",
-          "getALinkToThe6b6tWebsite": "Uzyskaj link do strony internetowej 6b6t.",
-          "getALinkToThisWebpage": "Uzyskaj link do tej strony internetowej."
+      "creator": {
+        "creemRenewal": {
+          "unknownError": "Nieznany błąd"
+        },
+        "dailyReport": {
+          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "unknown": "nieznane",
+          "failed": "nieudane",
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
+          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+        },
+        "job": {
+          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "unknownError": "Nieznany błąd"
+        },
+        "store": {
+          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
+          "creatorAttributionWasNotStored": "Creator attribution was not stored",
+          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
+          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
+          "attributionNotFound": "Attribution not found",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
+          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
+          "chooseAnExistingCreator": "Choose an existing creator",
+          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
+          "creatorIsInactive": "Creator is inactive",
+          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
+          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+        }
+      },
+      "creem": {
+        "checkout": {
+          "checkoutOperationFailed": "Checkout operation failed",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY nie jest skonfigurowany",
+          "originHeaderNotFound": "Origin header not found",
+          "bundleNotFound": "Bundle not found",
+          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
+          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
+          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
+          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
+          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
         }
       },
       "db": {
@@ -306,6 +288,17 @@
         "discordReturnedValue1ForValue2": "Discord zwrócił {{value1}} dla #{{value2}}",
         "unknownDiscordError": "Nieznany błąd Discord"
       },
+      "discordEmbed": {
+        "viewPage": "View page"
+      },
+      "effectRuntime": {
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
+        "paymentProviderRequestFailed": "Payment provider request failed",
+        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
+        "paymentProviderResponseFailed": "Payment provider response failed",
+        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
+        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+      },
       "email": {
         "text6b6tAccounts": "Konta 6b6t",
         "text6b6tRecovery": "Odzyskiwanie konta 6b6t",
@@ -313,19 +306,14 @@
         "text6b6tMerch": "Gadżety 6b6t",
         "text6b6tSupport": "Pomoc 6b6t"
       },
-      "galleryUtil": {
-        "recentEpicBuild": "Niedawna epicka budowla",
-        "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "Wspaniała konstrukcja zbudowana w listopadzie 2024 roku, ukazująca kreatywność naszych graczy.",
-        "november122024": "12 listopada 2024",
-        "morningAdventures": "Poranne przygody",
-        "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "Wczesnoporanna eksploracja odkrywająca ukryte skarby i krajobrazy.",
-        "september292024": "29 września 2024",
-        "legendGalleryFeature": "Wyróżniona budowla w galerii Legend",
-        "aFeaturedLegendThemedScreenshotShowcasingPremiumPlayerContent": "Wyróżniony zrzut ekranu w motywie Legend prezentujący treści premium graczy.",
-        "november52024": "5 listopada 2024",
-        "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "Galeria 6b6t – zrzuty ekranu społeczności i momenty z serwera anarchy"
-      },
       "link": {
+        "discord": {
+          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
+          "noPlayerInfoFoundForUser": "No player info found for user.",
+          "noDiscordIdFoundForUser": "No Discord ID found for user.",
+          "noTokensFoundForUser": "No tokens found for user."
+        },
         "telegramMembership": {
           "unknownError": "Nieznany błąd"
         }
@@ -394,23 +382,46 @@
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Endpoint zwrotów Creem nie jest skonfigurowany; wykonaj zwrot w Creem i ponów próbę/potwierdź go za pomocą webhooka.",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY nie jest skonfigurowany",
           "creemRefundRequestFailedWithStatusValue1": "Żądanie zwrotu Creem nie powiodło się ze statusem {{value1}}"
+        },
+        "validation": {
+          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
+          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
-      "playerHistoryInput": {
-        "invalidOrExcessiveDateRange": "Nieprawidłowy lub zbyt duży zakres dat"
-      },
       "printify": {
+        "claimValidation": {
+          "invalidEmailAddress": "Invalid email address",
+          "useATwoLetterCountryCode": "Use a two-letter country code",
+          "invalidDate": "Invalid date",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+        },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Realizacja produktów fizycznych nie jest jeszcze dostępna.",
           "delivered": "dostarczone",
           "unknownError": "Nieznany błąd",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "Realizacja produktów fizycznych jest tymczasowo niedostępna.",
           "submitting": "wysyłanie",
+          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
+          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
           "reserved": "zarezerwowane",
-          "processing": "przetwarzanie"
-        },
-        "client": {
-          "networkError": "Błąd sieci"
+          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
+          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
+          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
+          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
+          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
+          "requestNotFound": "Request not found.",
+          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
+          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
+          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
+          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "processing": "przetwarzanie",
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
+          "historicalRequestChangedDuringReview": "Historical request changed during review"
         },
         "email": {
           "emailDeliveryFailed": "Dostarczenie e-maila nie powiodło się"
@@ -457,7 +468,9 @@
           "failedToCreateChallenge": "Nie udało się utworzyć wyzwania",
           "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Właściciel konta się zmienił. Rozpocznij odzyskiwanie od nowa, aby powiadomić obecnego właściciela.",
           "emailSendFailed": "email_send_failed",
-          "failedToNotifyTheAccountOwnerByEmail": "Nie udało się powiadomić właściciela konta e-mailem.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
           "created": "utworzone",
           "invalidOrExpiredBlockToken": "Nieprawidłowy lub wygasły token blokady.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Ta próba odzyskiwania została już zablokowana.",
@@ -487,8 +500,10 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
           "unavailable": "niedostępne",
           "found": "znaleziono",
+          "invalidEmailAddress": "Invalid email address",
           "notFound": "not_found",
           "base": "baza",
           "stash": "skrytka",
@@ -508,6 +523,13 @@
           "exhausted": "wyczerpane",
           "valid": "prawidłowe",
           "invalid": "nieprawidłowe"
+        },
+        "validation": {
+          "invalidRecoverySessionToken": "Invalid recovery session token",
+          "enterAValidEmailAddress": "Enter a valid email address",
+          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
+          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
       "requestRateLimit": {
@@ -523,15 +545,49 @@
         "googlebot": "googlebot"
       },
       "shop": {
+        "legendCreditProviders": {
+          "review": "review",
+          "disputed": "sporne",
+          "refunded": "zwrócone",
+          "paid": "paid"
+        },
+        "legendCreditStore": {
+          "pending": "Oczekujące"
+        },
+        "legendUpgradeCheckout": {
+          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+        },
         "legend": {
-          "lifetime": "LIFETIME",
-          "lifetime2Apex": "LIFETIME + 2 APEX",
+          "legendUltra": "LEGEND ULTRA",
+          "legendUltra2Apex": "LEGEND ULTRA + 2 APEX",
           "monthly": "CO MIESIĄC",
           "text3Months": "3 MIESIĄCE"
         },
+        "observability": {
+          "alarms": {
+            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
+            "value1In1h": "{{value1}} in 1h",
+            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
+            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
+            "pendingFor15m": "pending for >15m",
+            "value1In30m": "{{value1}} in 30m",
+            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
+            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
+            "conditionCleared": "condition cleared"
+          },
+          "record": {
+            "declined": "declined",
+            "refunded": "zwrócone",
+            "disputed": "sporne",
+            "paid": "paid"
+          }
+        },
         "ranks": {
           "unknownError": "Nieznany błąd",
-          "legendValue1": "Legend {{value1}}",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
@@ -553,39 +609,27 @@
           "eliteUltra6Months": "Elite Ultra (6 miesięcy)",
           "primeToEliteUpgrade": "Ulepszenie z Prime do Elite",
           "primeToApexUpgrade": "Ulepszenie z Prime do Apex",
-          "eliteToApexUpgrade": "Ulepszenie z Elite do Apex",
-          "default": "domyślny"
-        },
-        "reviews": {
-          "text6b6tTheServerThatFinallyConvincedMeThatI": "6b6t.. serwer, który w końcu przekonał mnie, że będę grał w Minecrafta przez długi czas. Dostałem rangę Prime w 2023 dzięki znajomemu. Posiadanie więcej niż 5 domów daje mi swobodę poruszania się po serwerze dużo szybciej niż większości graczy. Cena rangi Prime jest całkiem dobra, zwłaszcza dla osób, które nie wiedzą, czy chcą grać na zawsze. Widoczność na czacie jest fajna – łatwo promuję swoje rzeczy, bo ludzie widzą moje wiadomości. Cooldowny rangi Prime nadal wydają się wieczne, chciałbym, żeby były trochę krótsze. Ogólnie 6b6t z rangą Prime to świetne doświadczenie, prawdopodobnie poleciłbym je bardziej niż Elite, zwłaszcza jeśli nie zależy Ci na tworzeniu hotspotów.",
-          "text6b6tIsAGreatServerILovePlayingIt": "6b6t to świetny serwer! Uwielbiam grać z przyjaciółmi i czasem streamować na żywo. Niedawno kupiłem rangę Prime i za 16 euro to prawdziwa okazja! Naprawdę pomaga zwiększyć liczbę domów, a podkreślenie wiadomości na czacie bardzo mi się podoba. A propos domów – bardzo lubię, że serwer ma plugin domów. Dzięki temu nie gubię się w bazie i chętniej odwiedzam spawn, wiedząc, że w każdej chwili mogę wrócić do domu. Ten serwer jest goated, na pewno 5 gwiazdek!",
-          "iReallyEnjoyTheNumberOfHomesHavingThat": "Naprawdę lubię liczbę domów — tyle domów definiuje dla mnie serwer; styl gry byłby zupełnie inny bez nich. Kosmetyki typu /sit są fajne, gdy siedzisz ze znajomymi, a kolor czatu jest przydatny (chciałbym więcej niż jeden kolor, ale nie tęczy). Rola na Discordzie: nic szczególnego do dodania. Cena Prime jest bardzo dobra (5/5). Skok z Elite do Apex wydaje się duży; przydałaby się ranga/cena pośrednia między Elite a Apex. Przepraszam za ewentualne błędy, angielski nie jest moim ojczystym językiem.",
-          "iLove6bVeryMuchAndEnjoyPlayingIt": "Bardzo kocham 6b i lubię na nim grać; to zdecydowanie najlepszy serwer anarchy. Gra ze znajomymi jest wspaniała — mobilność dzięki tp i /home zachęca do postępów. Hotspoty pomagają graczom wychodzić dalej i zachęcają do PvP. Funkcje czatu jak chatcolor, balony i /sit sprawiają, że serwer jest bardziej zabawny i pozwalają na ciekawe screenshoty oraz content. Daję 6b 5 gwiazdek.",
-          "iLikeTheAbilityToHave12HomesBecause": "Lubię możliwość posiadania 12 domów, bo mogę się teleportować do wielu skrytek i baz, w tym spawnu; zwiększenie do 15 domów poprawiłoby doświadczenie, bo już mam około 12. Cooldown 300s (5m) jest fajny do przenoszenia przedmiotów między skrytkami/bazami, choć chciałbym, żeby był trochę krótszy. Aktywność na serwerze bardzo wzrosła od czasu, gdy dołączyłem w 2023. Ogólnie Prime jako ranga dożywotnia jest ekstremalnie warta swojej ceny; daję 4/5 gwiazdek.",
-          "homesAmountMyMostUsefulFeatureICanHave": "Liczba domów: moja najbardziej przydatna funkcja — mogę mieć domy na bazy i skrytki. Chociaż domyślny poziom domów jest dość niski, lubię ulepszenie. Widoczność na czacie: mój nick ma świetny kolor, a tekst jest biały, dużo bardziej zauważalny, co mi się podoba. Czy cena była warta: 20$ przed podatkami jest trochę drogo; wolałbym tańszy tier (biały tekst, bez prefixu, +3 domy, kolory w kowadłach, bez roli Discord) za około 8$. 3/5 gwiazdek.",
-          "theRanksAreGoodMyNameNowPopsIn": "Rangi są dobre — mój nick teraz wyróżnia się na czacie, co jest świetne do zauważenia. Niższe cooldowny to game changer, a więcej domów jest super przydatne. Trochę się wahałem przy cenie, ale dostanie tego na zawsze wydaje się całkowicie warte; zero żalu. Najlepsza ranga do kupienia to Prime 😱 Oceniam na 4/5.",
-          "eliteLifetimeRankWasWorthItLifetimeAccessAnd": "Ranga Elite dożywotnia była warta — dostęp na zawsze i taniej niż opcja miesięczna. Prime mogłoby dostać mały kosmetyk jak jeden balon lub /hat, żeby nie zostawać w tyle (rozumiem, że trzeba zarabiać). Mniejsze cooldowny są fajne, ale głosowanie i tak daje podobną korzyść za darmo. Hotspoty powinny być ograniczone, żeby nie stawiać ich w strefach 5kx5k Netheru, Overworldu ani Endu, żeby nowi gracze nie uciekali za łatwo. Ogólnie mój zakup to 5/5.",
-          "myExperienceWithEliteHasBeenVeryGoodSo": "Moje doświadczenie z Elite jak dotąd jest bardzo dobre. Nawet nie muszę myśleć, czy zostały mi jakieś domy, co bardzo poprawia doświadczenie w grze. Komenda /hotspot jest przydatna do PvP ze znajomymi. Ponieważ aktywnych graczy APEX i Elite ULTRA jest mało, kody kolorów w kowadłach powinny być dostępne dla Elite jako kosmetyk. Ogólnie Elite to świetna ranga dla aktywnych graczy i okazja jako ranga permanentna.",
-          "iStarted6b6tWithoutARankAndLaterReceived": "Zaczynałem 6b6t bez rangi, a później dostałem kilka rang; Elite jest świetne. Jako właściciel klanu warto mieć rangę, żeby wiadomości były widoczne. Doceniam ranked chat na Discordzie. Hotspoty są fajniejsze, teraz gdy mogę je stawiać, a obniżony cooldown to ogromny plus. Jedna skarga: najniższe rangi często omijają kluczowe rzeczy (VIP czuł się podobnie do unranked). Poza tym, gdy ktoś anonimowo podarował mi Prime Ultra, miałem dostęp do kanału advertising, ale straciłem te uprawnienia po zdobyciu Elite.",
-          "theHomesAmountOnEliteOrHigherIsMore": "Liczba domów na Elite lub wyżej jest więcej niż wystarczająca. Kosmetyki typu /balloon dodają koloru serwerowi. Gra ze znajomymi utrzymuje 6b zabawnym. Buildermode jest świetny, ale zwiększa render distance, nie simulation distance. Jeśli grasz na 6b dłużej niż rok, zakup zdecydowanie się opłaca — oceniam na 4.5 gwiazdki.",
-          "eliteRankIsActuallyBetterThanIThoughtWhen": "Ranga Elite jest naprawdę lepsza, niż myślałem. Gdy ją kupowałem, spodziewałem się tylko kolorowego tekstu, a czuję się jakby wchodziłem do klubu dla wyjątkowych osób. Gra ze znajomymi jest super — niski ping i wysoki TPS. Ranked kanały na Discordzie są dużo bardziej aktywne; to jak klub (spróbuj 🚬-cigar-club-🚬). Moja ulubiona rzecz to niższe cooldowny — /tpa i /home są dużo lepsze niż unranked i pozwalają przenosić się między bazami w minutach. Kolory czatu pomagają się wyróżnić (pro tip: custom chat mody lub modded clienty robią to jeszcze lepiej). 5/5 gwiazdek",
-          "hotspotCreateYouCanCreateHotspotsWhenNoOther": "/hotspot create: możesz tworzyć hotspoty, gdy nie ma innych aktywnych. Masz więcej niż 3 domy? Z rangą Elite możesz mieć 30 domów, co wystarczy na wszystkie Twoje bazy. Nudzi Cię, że nikt Cię nie widzi? Z rangą Elite masz kolor czatu, który się wyróżnia i więcej osób Cię zauważy! Jesteś budowniczym, a zasięg renderowania jest za niski? Użyj /buildermode, żeby widzieć dalej! I to wszystko i więcej za tylko 49,99? Polecam kupić.",
-          "gettingEliteOn6b6tWasAGreatChoiceThe": "Zdobycie Elite na 6b6t było świetnym wyborem. Dodatkowe domy bardzo pomagają przy wielu bazach ze znajomymi, a /buildermode pomaga zobaczyć całą bazę. Lubię komendy /hat i /balloons — są fajne do zabawy. Hotspot był głównym powodem, dla którego wziąłem Elite, bo dużo PvPuję, a hotspoty są idealne do PvP. Wyróżnianie się na czacie i obniżone cooldowny to must-have dla aktywnych graczy. Role na Discordzie (np. #game-suggestions) sprawiają, że społeczność czuje się włączona. Ranga dożywotnia oznacza brak cyklicznych płatności — korzyści są warte ceny. 5/5 gwiazdek.",
-          "myExperienceIn6bWithAndWithoutARank": "Moje doświadczenie na 6b z rangą i bez było całkiem dobre, ale ranga poprawia rzeczy — głównie limit domów, żebym nie musiał ich usuwać, oraz /hotspot, który pozwala organizować eventy. Kosmetyki jak balony i /sit są fajne, a kolor czatu sprawia, że wiadomości się wyróżniają. Oceniam swoje doświadczenie z rangą na 4.5/5 i polecam rangę, jeśli planujesz zostać na dłużej.",
-          "iHavePlayedThisServerForThreeYearsFirst": "Gram na tym serwerze od trzech lat — pierwsze 2 lata bez rangi. Wziąłem Prime dla większej liczby domów, potem Elite dla hotspotu i jeszcze większej liczby domów oraz szybszych cooldownów. To jedyny raz, kiedy wydałem pieniądze na serwer Minecraft. Było to warte 100%, zwłaszcza ze względu na zabawę z /hotspot. Bonus /sit jest based i lubię mieć balon.",
-          "theHomesAmountIsExcellentTheMostUsefulFeature": "Liczba domów jest doskonała — najbardziej przydatna funkcja dla mnie. Chatcolor jest fajny, żeby się wyróżnić, widoczność na czacie to plus, a niższe cooldowny pomagają (choć szybkie używanie komend bywa trochę męczące). Gra ze znajomymi jest zabawna, a rola na Discordzie dodaje autorytetu. Cena jest rozsądna, około 16$, i warta. Ostateczna ocena: 4 gwiazdki.",
-          "iThinkThatTheApexLifetimeRankWasWorth": "Uważam, że ranga Apex dożywotnia była warta zakupu. Perk 100 domów jest przydatny do budowania i liczby baz/skrytek, na które mogę ustawić home, a kosmetyki jak /hat, /balloons, /sit i /skin sprawiają, że serwer jest naprawdę bardziej zabawny. Rola Apex na Discordzie to miły bonus z dodatkowymi kanałami i uprawnieniami. Builder mode, hotspoty i wszystkie opcje kolorów w kowadłach/czacie sprawiają, że czuje się jak pełny pakiet rangi. 5/5 gwiazdek ode mnie.",
-          "afterWinningPrimeInAGiveawayIUpgradedTo": "Po wygraniu Prime w giveawayu ulepszyłem do Apex. Funkcja, której używam najczęściej, to zwiększona liczba domów — pomaga śledzić skrytki, bazy i lokalizacje. Niższe cooldowny /tpa i /home są ekstremalnie pomocne (z 15 minut do ~15 sekund). Nie używam dużo kosmetyków, ale kolor czatu pomaga wyróżnić się od nowych graczy proszących o kity. Rola na Discordzie jest super do szybkiego dostawania newsów. Ponieważ gram tak mało, Apex nie był dla mnie najlepszą ceną; Elite byłoby lepsze. Polecam Apex tylko graczom, którzy grają ~10 godzin tygodniowo.",
-          "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t to czysty chaos — i czysta zabawa! 6b6t to serwer, na którym zawsze coś się dzieje. Od walk na aktywnych hotspotach po teamowanie z nieznajomymi, którzy stają się przyjaciółmi — każda sesja przynosi nową historię. Wziąłem rangę Apex dożywotnią i jest warta, choćby po to, żeby wspierać serwer i zostać na dłużej. Wyższy zasięg renderowania i Builder Mode znacznie ułatwiają planowanie dużych budów i cieszenie się krajobrazem w pełnej szczegółowości. Budowanie ogromnych baz, eksplorowanie ruin i przetrwanie zasadzek ze znajomymi sprawiło, że to jedno z najdzikszych doświadczeń Minecraft. Jeśli lubisz niefiltrowaną anarchię i gameplay napędzany społecznością, 6b6t jest miejscem — a Apex to solidny sposób, żeby pokazać, że jesteś w tym na dłużej."
+          "eliteToApexUpgrade": "Ulepszenie z Elite do Apex"
         },
         "shop": {
-          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Nieznany kod twórcy. Sprawdź pisownię lub pozostaw pole puste."
+          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
+          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
+          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
+          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
+          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
+          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
         }
       },
       "stats": {
+        "playerDiscordEmbed": {
+          "viewStats": "View stats",
+          "leaderboards": "Rankingi"
+        },
         "previewData": {
           "apex": "apex",
           "eliteultra": "eliteultra",
@@ -593,6 +637,17 @@
           "elite": "elite",
           "prime": "prime",
           "default": "domyślny"
+        }
+      },
+      "tebex": {
+        "client": {
+          "invalidNumber": "Invalid number"
+        },
+        "config": {
+          "invalidNumber": "Invalid number"
+        },
+        "intent": {
+          "expectedAGameAccountUuid": "Expected a game account UUID"
         }
       }
     }

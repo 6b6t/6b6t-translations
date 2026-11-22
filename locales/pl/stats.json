@@ -32,14 +32,19 @@
       "leaderboardTimePeriod": "Okres rankingu",
       "allTime": "Cały okres",
       "statisticCategory": "Kategoria statystyk",
-      "aboutRecordedTotals": "Informacje o zapisanych sumach",
-      "someStatisticsWereLostDueToDataCorruptionOn": "Część statystyk została utracona wskutek uszkodzenia danych 22 maja 2026 r. Zapisane wyniki mogą być niepełne.",
+      "aboutTheseStats": "About these stats",
+      "theStatsResetOnMay222026WasDeliberate": "Reset statystyk z 22 maja 2026 roku był celowy. Rankingi wszech czasów pokazują graczy aktywnych od tego dnia.",
+      "statsUpdateAboutEveryHour7DaysAnd30": "Stats update about every hour. 7 days and 30 days cover the last 7 or 30 UTC calendar days, including today so far.",
+      "accountsThat6b6tMarkedAsPlayerMadeBotsAre": "Accounts that 6b6t marked as player-made bots are labeled as likely bots.",
       "statisticsUnavailable": "Statystyki są niedostępne",
-      "weCouldnTLoadTheLeaderboardsPleaseTryAgain": "Nie udało się wczytać rankingów. Spróbuj ponownie.",
+      "weCouldnAposTLoadTheLeaderboardsPleaseTry": "Nie udało się wczytać rankingów. Spróbuj ponownie.",
       "tryAgain": "Spróbuj ponownie",
-      "noStatisticsAreAvailableInThisCategory": "Brak statystyk w tej kategorii.",
       "loadingStatistics": "Wczytywanie statystyk...",
+      "noStatisticsAreAvailableInThisCategory": "Brak statystyk w tej kategorii.",
       "noLeaderboardDataIsAvailableYet": "Dane rankingów nie są jeszcze dostępne."
+    },
+    "statsSchema": {
+      "text6b6tPlayerLeaderboards": "6b6t player leaderboards"
     },
     "username": {
       "page": {

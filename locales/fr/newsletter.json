@@ -10,7 +10,7 @@
       "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
       "loadingAccount": "Loading account",
       "couldNotLoadYourAccountPleaseTryAgain": "Could not load your account. Please try again.",
-      "tryAgain": "Try again",
+      "tryAgain": "Réessayer",
       "signInVerifyYourEmailAddressAndLinkA": "Sign in, verify your email address, and link a game profile to join the newsletter.",
       "signInToJoin": "Sign in to join",
       "verifyYourEmailAddressToJoinTheNewsletter": "Verify your email address to join the newsletter.",
@@ -23,6 +23,6 @@
       "linkDiscordInAccountSettings": "link Discord in account settings"
     }
   },
-  "page-name": "6b6t Newsletter: Connection News and Server Updates",
-  "seo-description": "Join the 6b6t newsletter for connection news, server updates and events. Stay informed if a server address changes."
+  "page-name": "Newsletter 6b6t : actus et événements",
+  "seo-description": "Recevez les actualités du serveur, les événements et des conseils de connexion 6b6t sur votre e-mail vérifié. Désabonnez-vous à tout moment."
 }

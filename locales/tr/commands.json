@@ -1,12 +1,12 @@
 {
-  "page-name": "Minecraft Sunucu Komutları",
+  "page-name": "6b6t Minecraft komutları ve örnekleri",
   "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg ve daha fazlası dahil olmak üzere temel 6b6t komutları hakkında bilgi edinin.",
   "sections": {
     "commandEntry": {
       "aliases": "Aliases",
       "example": "Örnek",
       "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
+      "copied": "Kopyalandı",
       "copyExample": "Copy example",
       "exampleCopied": "Example copied.",
       "ranks": "Ranks"
@@ -17,7 +17,7 @@
     },
     "commandsList": {
       "bestMatches": "En iyi eşleşmeler",
-      "commands": "Commands",
+      "commands": "Komutlar",
       "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
       "searchCommands": "Komut ara...",
       "commandAliasOrDescription": "Command, alias or description",
@@ -39,14 +39,16 @@
       "rankRequirement": "Rank gereksinimi"
     },
     "page": {
-      "text6b6tServerCommands": "6b6t Sunucu Komutları",
-      "completeListOfCommandsAvailableOnThe6b6tMinecraft": "6b6t Minecraft anarşi sunucusunda kullanılabilir komutların tam listesi"
+      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
+      "loadingCommands": "Loading commands…",
+      "text6b6tServerCommands": "6b6t Sunucu Komutları"
     }
   },
   "filters": {
-    "allRanks": "All ranks",
-    "auth": "Auth",
-    "homesAndTeleport": "Homes & Teleport",
-    "hotspots": "Hotspots"
+    "allRanks": "Tüm rank'lar",
+    "auth": "Kimlik doğrulama",
+    "homesAndTeleport": "Evler ve ışınlanma",
+    "hotspots": "Hotspot'lar",
+    "groupChat": "Group chat"
   }
 }

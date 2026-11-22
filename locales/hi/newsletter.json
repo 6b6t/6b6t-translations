@@ -10,7 +10,7 @@
       "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
       "loadingAccount": "Loading account",
       "couldNotLoadYourAccountPleaseTryAgain": "Could not load your account. Please try again.",
-      "tryAgain": "Try again",
+      "tryAgain": "पुनः प्रयास करें",
       "signInVerifyYourEmailAddressAndLinkA": "Sign in, verify your email address, and link a game profile to join the newsletter.",
       "signInToJoin": "Sign in to join",
       "verifyYourEmailAddressToJoinTheNewsletter": "Verify your email address to join the newsletter.",
@@ -23,6 +23,6 @@
       "linkDiscordInAccountSettings": "link Discord in account settings"
     }
   },
-  "page-name": "6b6t Newsletter: Connection News and Server Updates",
-  "seo-description": "Join the 6b6t newsletter for connection news, server updates and events. Stay informed if a server address changes."
+  "page-name": "6b6t न्यूज़लेटर: सर्वर अपडेट और इवेंट",
+  "seo-description": "6b6t न्यूज़लेटर की सदस्यता लें: सर्वर अपडेट, इवेंट और कनेक्शन से जुड़े सुझाव आपके सत्यापित ईमेल पर। आप कभी भी सदस्यता रद्द कर सकते हैं।"
 }

@@ -32,14 +32,19 @@
       "leaderboardTimePeriod": "Leaderboard time period",
       "allTime": "All time",
       "statisticCategory": "Statistic category",
-      "aboutRecordedTotals": "About recorded totals",
-      "someStatisticsWereLostDueToDataCorruptionOn": "Some statistics were lost due to data corruption on May 22, 2026. Recorded totals may be incomplete.",
+      "aboutTheseStats": "About these stats",
+      "theStatsResetOnMay222026WasDeliberate": "The stats reset on May 22, 2026 was deliberate. All-time boards show players active since then.",
+      "statsUpdateAboutEveryHour7DaysAnd30": "Stats update about every hour. 7 days and 30 days cover the last 7 or 30 UTC calendar days, including today so far.",
+      "accountsThat6b6tMarkedAsPlayerMadeBotsAre": "Accounts that 6b6t marked as player-made bots are labeled as likely bots.",
       "statisticsUnavailable": "Statistics unavailable",
-      "weCouldnTLoadTheLeaderboardsPleaseTryAgain": "We couldn't load the leaderboards. Please try again.",
+      "weCouldnAposTLoadTheLeaderboardsPleaseTry": "We couldn&apos;t load the leaderboards. Please try again.",
       "tryAgain": "Try again",
-      "noStatisticsAreAvailableInThisCategory": "No statistics are available in this category.",
       "loadingStatistics": "Loading statistics...",
+      "noStatisticsAreAvailableInThisCategory": "No statistics are available in this category.",
       "noLeaderboardDataIsAvailableYet": "No leaderboard data is available yet."
+    },
+    "statsSchema": {
+      "text6b6tPlayerLeaderboards": "6b6t player leaderboards"
     },
     "username": {
       "page": {

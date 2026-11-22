@@ -48,6 +48,7 @@
       "copyIp": "आईपी ​​कॉपी करें",
       "links": "लिंक",
       "home": "घर",
+      "manageDiscordConnection": "Manage Discord connection",
       "notAffiliatedWithMojangStudiosOrHypixelStudios": "Mojang स्टूडियो या हाइपिक्सल स्टूडियो से संबद्ध नहीं है।",
       "text6b6tAnarchyAllRightsReserved": "6b6t अराजकता। सर्वाधिकार सुरक्षित।"
     },
@@ -101,6 +102,11 @@
       "playVideo": "वीडियो चलाएं",
       "hytaleTrailer": "Hytale ट्रेलर"
     },
+    "hytaleLinkingShell": {
+      "hytale": "Hytale",
+      "text6b6t": "6b6t",
+      "backToHytale": "Back to Hytale"
+    },
     "hytaleNav": {
       "home": "मुखपृष्ठ",
       "text6b6t": "6b6t",
@@ -117,12 +123,41 @@
       "est": "ईएसटी।",
       "cet": "CET"
     },
+    "connections": {
+      "hytaleDiscordConnection6b6t": "Hytale Discord connection | 6b6t",
+      "robots": "robots",
+      "noindexNofollow": "noindex, nofollow",
+      "connectHytaleToDiscord": "Connect Hytale to Discord",
+      "linkYourHytaleAccountToGetTheLinkedRole": "Link your Hytale account to get the Linked role and access screenshot channels. No Minecraft account is required.",
+      "tryAgain": "पुनः प्रयास करें",
+      "loadingYourConnection": "Loading your connection…",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "signInWithDiscordOrSignInToYour": "Sign in with Discord, or sign in to your existing website account and connect Discord.",
+      "signInToContinue": "Sign in to continue",
+      "verifyYourEmailAddressToContinueYourPrivateLinking": "Verify your email address to continue. Your private linking request stays available until it expires.",
+      "discordAccounts": "Discord accounts",
+      "yourDiscordAccount": "Your Discord account",
+      "chooseTheDiscordAccountToLink": "Choose the Discord account to link",
+      "selectAnAccount": "Select an account",
+      "noDiscordAccountIsConnectedToThisWebsiteAccount": "No Discord account is connected to this website account yet.",
+      "connecting": "Connecting…",
+      "connectAnotherDiscordAccount": "Connect another Discord account",
+      "confirmHytaleLink": "Confirm Hytale link",
+      "link": "Link",
+      "hytaleId": "Hytale ID:",
+      "confirmThatThisIsYourHytalePlayerAndThe": "Confirm that this is your Hytale player and the selected Discord account is the one you want to use.",
+      "ifThisRequestExpiresRunLinkOnTheHytale": "If this request expires, run /link on the Hytale server again.",
+      "linking": "Linking…",
+      "confirmHytaleAndDiscordLink": "Confirm Hytale and Discord link",
+      "newLinkingIsPausedExistingConnectionsRemainAvailableBelow": "New linking is paused. Existing connections remain available below.",
+      "linkAHytalePlayer": "Link a Hytale player",
+      "run": "दौड़ना",
+      "onTheHytaleServerAndOpenThePrivateUrl": "on the Hytale server and open the private URL it gives you. An old, expired, or used request cannot link another account.",
+      "keepThisPageBookmarkedToManageYourHytaleConnection": "Keep this page bookmarked to manage your Hytale connection. Minecraft profiles and ranks are managed separately."
+    },
     "page": {
-      "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - Hytale में पहला अराजकता सर्वर | Hytale अराजकता",
-      "joinTheFirstAndOldestAnarchyServerInHytale": "Hytale में पहले और सबसे पुराने अराजकता सर्वर से जुड़ें। कोई नियम नहीं, कोई प्रतिबंध नहीं, कोई रीसेट नहीं। मूल Hytale अराजकता सर्वर। खेलने के लिए नि:शुल्क, hytale.6b6t.org पर जुड़ें",
       "text6b6tHytaleAnarchyServer": "6b6t - Hytale अराजकता सर्वर",
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchyServer": "6b6t - Hytale में पहला अराजकता सर्वर | Hytale अराजकता सर्वर",
-      "theFirstAnarchyServerInHytaleNoRulesPure": "Hytale में पहला अराजकता सर्वर। कोई नियम नहीं, शुद्ध अराजकता। खेलने के लिए स्वतंत्र!",
       "join6b6tTheFirstAnarchyServerInHytaleLaunched": "6b6t से जुड़ें, Hytale में पहला अराजकता सर्वर, गेम के रिलीज़ होने के कुछ ही मिनट बाद लॉन्च किया गया। बिना किसी नियम, बिना किसी रीसेट, शुद्ध अराजकता के सच्ची स्वतंत्रता का अनुभव करें।",
       "text6b6t": "6b6t",
       "theFirstAndOldestAnarchyServerInHytaleLike": "Hytale में पहला और सबसे पुराना अराजकता सर्वर। Hytale के लिए 2b2t की तरह - कोई नियम नहीं, कोई रीसेट नहीं, शुद्ध अराजकता। मूल Hytale अराजकता सर्वर। बिना किसी भुगतान-जीत यांत्रिकी के खेलने के लिए नि:शुल्क।",
@@ -141,5 +176,8 @@
       "oneOfTheFirstPeacefulNights": "पहली शांतिपूर्ण रातों में से एक",
       "aModernHouse": "एक आधुनिक घर"
     }
-  }
+  },
+  "page-name": "6b6t: पहला Hytale अनार्की सर्वर, कोई नियम नहीं",
+  "seo-description": "पहले Hytale अनार्की सर्वर 6b6t से जुड़ें। मुफ़्त में खेलें, न कोई नियम, न बैन, न रीसेट, और एक स्थायी दुनिया। सर्वर पता: hytale.6b6t.org।",
+  "share-image-alt": "6b6t Hytale अराजकता सर्वर"
 }

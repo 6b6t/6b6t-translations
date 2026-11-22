@@ -1,5 +1,5 @@
 {
-  "page-name": "Notre histoire",
+  "page-name": "Histoire de 6b6t : étapes et communauté",
   "seo-description": "Découvrez l’histoire de 6b6t, de son lancement en janvier 2022 aux étapes marquantes, projets communautaires et événements qui ont façonné son monde anarchique.",
   "hero-title": "L’histoire de 6b6t",
   "hero-subtitle": " Un voyage à travers le temps et le chaos",
@@ -35,7 +35,7 @@
       "storyTags": "Story tags",
       "openImageValue1": "Open image: {{value1}}",
       "readTheFullStory": "Read the full story",
-      "value1VideoValue2": "{{value1}} - video {{value2}}",
+      "value1VideoValue2": "{{value1}} — video {{value2}}",
       "watchOnYoutube": "Watch on YouTube",
       "sources": "Sources"
     },
@@ -65,6 +65,7 @@
       "jumpToYear": "Jump to year",
       "story": "story",
       "stories": "stories",
+      "noStoriesToShow": "No stories to show.",
       "noStoriesMatchTheseTagsChooseAnotherTagOr": "No stories match these tags. Choose another tag or show all stories.",
       "theStoryContinuesWhatWillYouDoNext": "The story continues. What will you do next?"
     },
@@ -75,9 +76,13 @@
       "text6b6t": "6b6t",
       "organization": "Organization",
       "minecraftAnarchyServerEstablishedInJanuary2022": "Serveur Minecraft anarchique créé en janvier 2022",
+      "article": "Article",
+      "value1Article": "{{value1}}#article",
       "breadcrumblist": "BreadcrumbList",
       "listitem": "ListItem",
       "home": "Accueil",
+      "historyIsTemporarilyUnavailable": "History is temporarily unavailable.",
+      "loadingServerHistory": "Loading server history…",
       "specialThanks": "Remerciements spéciaux",
       "thisPageWasMadePossibleThanksTo": "Cette page a pu voir le jour grâce à",
       "text6b6tTimes": "6b6t Times",

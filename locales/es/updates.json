@@ -14,7 +14,7 @@
     },
     "updatesList": {
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Intentar de nuevo",
       "newUpdate": "nueva actualización",
       "justAppeared": "acaba de aparecer.",
       "dismiss": "Cerrar",
@@ -51,10 +51,12 @@
       "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
       "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
       "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
+      "tryAgain": "Intentar de nuevo",
       "noUpdatesToShowYet": "No updates to show yet",
       "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
       "readNewsOnDiscord": "Read news on Discord"
     }
-  }
+  },
+  "page-name": "Cambios en 6b6t: novedades y arreglos del servidor",
+  "seo-description": "Lee el registro de cambios de 6b6t: funciones nuevas, arreglos y noticias del servidor del Discord oficial, de lo más reciente a lo más antiguo."
 }

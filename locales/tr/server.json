@@ -11,6 +11,7 @@
         "completed": "completed",
         "opened": "opened",
         "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "invalidWebhookSignature": "Geçersiz webhook imzası",
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
@@ -30,14 +31,17 @@
             "requestedRevisionForMotdRequestValue1": "MOTD talebi {{value1}} için revizyon istendi.",
             "motdReviewActionFailed": "MOTD inceleme işlemi başarısız oldu."
           }
+        },
+        "newsletter": {
+          "unauthorized": "unauthorized",
+          "invalidEmail": "invalid_email",
+          "rateLimited": "rate_limited",
+          "unavailable": "unavailable"
         }
       },
       "text6b6tOrgMetadataApi": "6b6t.org Metadata API",
       "online": "online",
       "legendSubscribers": {
-        "active": "active",
-        "trialing": "trialing",
-        "pastDue": "past_due",
         "unableToLoadLegendSubscribers": "Legend aboneleri yüklenemedi",
         "all": "tümü"
       },
@@ -48,7 +52,8 @@
         "text": {
           "noFilePathProvided": "Dosya yolu sağlanmadı",
           "invalidFilePath": "Geçersiz dosya yolu",
-          "fileNotFound": "Dosya bulunamadı"
+          "fileNotFound": "Dosya bulunamadı",
+          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
         }
       },
       "monitoring": {
@@ -72,21 +77,25 @@
         }
       },
       "stripe": {
+        "nonProductionPaymentEvent": "Non-production payment event",
         "unknownError": "Bilinmeyen hata",
         "webhookErrorValue1": "Webhook Hatası: {{value1}}",
-        "alreadyProcessed": "Zaten işlendi",
         "received": "Alındı",
+        "alreadyProcessed": "Zaten işlendi",
         "unhandledEventType": "İşlenmeyen etkinlik türü",
         "webhookHandlerFailed": "Webhook işleyicisi başarısız oldu",
-        "completed": "completed"
+        "completed": "completed",
+        "opened": "opened",
+        "lost": "lost",
+        "pending": "Beklemede"
       },
       "tebex": {
         "pending": "Beklemede",
-        "lost": "lost",
         "payloadTooLarge": "Veri yükü çok büyük",
         "missingSignature": "Eksik imza",
         "invalidSignature": "Geçersiz imza",
         "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
+        "nonProductionPaymentEvent": "Non-production payment event",
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
       "telegram": {
@@ -106,13 +115,21 @@
         "invalidOrExcessiveDateRange": "Geçersiz veya aşırı tarih aralığı",
         "failedToFetchUptimeData": "Çalışma süresi verileri getirilemedi",
         "unknownError": "Bilinmeyen hata"
+      },
+      "voteLookup": {
+        "playerVoteLookupIsNotAvailableYet": "Oy araması henüz kullanılamıyor.",
+        "enterAValidMinecraftName": "Geçerli bir Minecraft adı gir."
       }
     },
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development"
+          "localDevelopment": "Local development",
+          "invalidEmailAddress": "Invalid email address"
         }
+      },
+      "adminTableSearch": {
+        "invalidNumber": "Invalid number"
       },
       "auth": {
         "accountLinkHistory": {
@@ -153,10 +170,34 @@
           "telegram": "Telegram"
         }
       },
+      "blogContent": {
+        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+      },
+      "broadcast": {
+        "playerHash": {
+          "hmac": "HMAC",
+          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+        }
+      },
       "commandService": {
-        "commands": {
+        "outbox": {
+          "unsupportedCommandRecipient": "Unsupported command recipient",
+          "invalidCommand": "Invalid command",
+          "delivered": "delivered",
+          "completed": "completed",
+          "deliveryFailed": "Delivery failed",
+          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
+          "rankLookupFailed": "Rank lookup failed"
+        },
+        "reversals": {
+          "skipped": "skipped"
+        },
+        "transport": {
           "unknownCommandServiceError": "Bilinmeyen komut servisi hatası"
         }
+      },
+      "communityEventAdminSchema": {
+        "anExtensionReasonIsRequired": "An extension reason is required"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "Çok fazla istek",
@@ -178,116 +219,57 @@
         "reachTheGoalByAugust14ToUnlockA": "6b6t genelinde 72 saat boyunca güçlü bir dupe açmak için 14 Ağustos'a kadar hedefe ulaşın. Hedefe daha geç ulaşılırsa etkinlik en yakın sonraki hafta sonuna ertelenir."
       },
       "communityHistory": {
-        "eventIdsMustBeUnique": "Event IDs must be unique"
+        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
+        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
       },
-      "data": {
-        "serverCommands": {
-          "msgWhisperW": "/msg, /whisper, /w",
-          "sendAPrivateMessageToAnyOnlinePlayer": "Çevrimiçi herhangi bir oyuncuya özel mesaj gönder",
-          "moveYourCrackedAccountToThePremiumAccountWith": "Move your cracked account to the premium account with the same name. Works only on the anarchy server, not in the lobby.",
-          "replyR": "/reply, /r",
-          "sendAPrivateMessageToTheLastPersonWho": "Size en son özel mesaj gönderen kişiye özel mesaj gönder",
-          "lastL": "/last, /l",
-          "sendAPrivateMessageToTheLastPersonYou": "En son mesaj gönderdiğiniz kişiye özel mesaj gönder.",
-          "killSuicide": "/kill, /suicide",
-          "killsYouInGameIfYouAreAlive": "Hayattaysan seni oyun içinde öldürür.",
-          "ignoresBlocksAnotherPlayerPermanentlyHidesTheirMessagesIn": "Başka bir oyuncuyu kalıcı olarak yok sayar/engeller. (Sohbetteki mesajlarını gizler)",
-          "getAListOfEveryoneWhoYouIgnored": "Yok saydığınız herkesin listesini alın.",
-          "ignorelistClear": "/ignorelist clear",
-          "unignoreAllPlayers": "Tüm oyuncuların yok sayılmasını kaldır.",
-          "showHideMessagesThatYouGetIntoPvpMode": "PvP moduna girdiğinizde aldığınız mesajları göster/gizle.",
-          "groupchatGc": "/groupchat, /gc",
-          "talkPrivatelyInAGroupchatWithMultiplePeople": "Birden fazla kişiyle özel bir grup sohbetinde konuşun.",
-          "toggleViewingTheChat": "Sohbeti görüntülemeyi aç/kapat.",
-          "showHidePlayerHeadsInChatPrivateMessagesJoin": "Show/hide player heads in chat, private messages, join, death and advancement messages, teleport requests and Hotspot bars.",
-          "turnsPrivateMessagesOnOrOffSoYouCan": "Diğer oyuncuların size mesaj gönderip gönderemeyeceğini seçebilmeniz için özel mesajları açar veya kapatır.",
-          "togglesOrCustomizesParticleEffectsAroundYourPlayer": "Oyuncunuzun etrafındaki parçacık efektlerini açar/kapatır veya özelleştirir.",
-          "togglespamShowspam": "/togglespam, /showspam",
-          "showOrHideSpamMessagesAndMessagesFromMuted": "Show or hide spam messages and messages from muted players in chat.",
-          "enableOrDisableViewingChatMessagesFromPlayersWithout": "Enable or disable viewing chat messages from players without a rank.",
-          "seeHowManyPlayersAndBotsAreOnlineAnd": "See how many players and bots are online and which bot messages you hide.",
-          "botsChat": "/bots chat",
-          "showHideChatMessagesFromBots": "Show/hide chat messages from bots.",
-          "botsWhispers": "/bots whispers",
-          "showHidePrivateMessagesFromBots": "Show/hide private messages from bots.",
-          "botsConnections": "/bots connections",
-          "showHideChatMessagesOfBotsJoiningTheServer": "Show/hide chat messages of bots joining the server.",
-          "botsDeaths": "/bots deaths",
-          "showHideChatMessagesOfBotsDyingAndThe": "Show/hide chat messages of bots dying, and the bot's name when a bot kills a player.",
-          "botsAdvancements": "/bots advancements",
-          "showHideAdvancementMessagesFromBots": "Show/hide advancement messages from bots.",
-          "botsTeleports": "/bots teleports",
-          "showHideTeleportRequestsFromBots": "Show/hide teleport requests from bots.",
-          "botsTab": "/bots tab",
-          "showHideBotsInTheTabList": "Show/hide bots in the tab list.",
-          "botsKits": "/bots kits",
-          "showHideKitRequestsFromBotsLikeKitPvp": "Show/hide kit requests from bots, like !kit pvp.",
-          "showHideEverythingFromBotsAtOnceChatPrivate": "Show/hide everything from bots at once: chat, private messages, joins, deaths, advancements, teleport requests, the tab list and kit requests.",
-          "showHideChatMessagesOfPeopleJoiningTheServer": "Sunucuya katılan kişilerin sohbet mesajlarını göster/gizle.",
-          "connectionmsgsColor": "/connectionmsgs color",
-          "changeTheColorOfConnectionMessagesInYourChat": "Sohbetinizdeki bağlantı mesajlarının rengini değiştirin.",
-          "showHideChatMessagesOfPeopleDying": "Ölen kişilerin sohbet mesajlarını göster/gizle.",
-          "deathmsgsColor": "/deathmsgs color",
-          "changeTheColorOfDeathMessagesInYourChat": "Sohbetinizdeki ölüm mesajlarının rengini değiştirin.",
-          "advancementsChat": "/advancements chat",
-          "chooseWhichAdvancementMessagesYouSeeInChatAll": "Choose which advancement messages you see in chat: all, personal (only your own), others (only other players') or none.",
-          "advancementsToast": "/advancements toast",
-          "showOrHideTheAdvancementPopUpForYour": "Show or hide the advancement pop-up for your own advancements.",
-          "showTheItemInYourHandInChatOther": "Show the item in your hand in chat. Other players can hover over it to see all its details.",
-          "createsAHomeAtYourCurrentLocationNamesCan": "Creates a home at your current location. Names can be up to 32 characters. If you already have a home with that name, it asks before replacing it.",
-          "teleportToAHome": "Bir home'a ışınlanın.",
-          "opensTheListOfYourHomesWithYourHome": "Opens the list of your homes with your home count and limit.",
-          "deletesAHome": "Bir home'u siler.",
-          "cancelsAnActiveTeleportToYourHomeUsefulIf": "Home'unuza olan aktif bir ışınlanmayı iptal eder (yanlışlıkla tetiklediyseniz kullanışlıdır).",
-          "renamesOneOfYourSavedHomesToSomethingDifferent": "Kayıtlı home'larınızdan birinin adını değiştirir.",
-          "requestToTeleportToAnotherPlayer": "Başka bir oyuncuya ışınlanma isteği gönderin.",
-          "toggletpaTptoggleTpt": "/toggletpa, /tptoggle, /tpt",
-          "hidesTeleportRequestsFromAllPlayers": "Işınlanma isteklerini tüm oyuncular için kapatır.",
-          "acceptATpaRequest": "Bir tpa isteğini kabul et.",
-          "declineATpaRequest": "Bir tpa isteğini reddet.",
-          "wearAnyItemOnYourHead": "Başınıza herhangi bir eşya giyin.",
-          "toggleInvisibilityFrames": "Görünmez çerçeveleri aç/kapat.",
-          "chatcolorCc": "/chatcolor, /cc",
-          "changeTheColorOfYourChatMessages": "Sohbet mesajlarınızın rengini değiştirin.",
-          "namecolorNc": "/namecolor, /nc",
-          "changeTheColorOfYourUsernameInChat": "Sohbette kullanıcı adınızın rengini değiştirin.",
-          "chooseWhichRankPrefixYouShowInChatAnd": "Choose which rank prefix you show in chat and in the tab list.",
-          "lightUpACigar": "Bir puro yakın",
-          "giveYourselfAGlowingEffect": "Kendinize parlama efekti verin.",
-          "teleportToTheCurrentHotspot": "Teleport to the current Hotspot.",
-          "hotspotCreate": "/hotspot create",
-          "createANewHotspotAtYourCurrentLocation": "Mevcut konumunuzda yeni bir hotspot oluşturun.",
-          "hotspotColor": "/hotspot color",
-          "changeTheColorOfTheHotspot": "Hotspot'un rengini değiştirin.",
-          "hotspotNotifications": "/hotspot notifications",
-          "opensAMenuToTurnTheHotspotBossBar": "Opens a menu to turn the Hotspot boss bar, action bar and chat message on or off. Add off to hide them all.",
-          "hotspotCancel": "/hotspot cancel",
-          "cancelYourHotspot": "Hotspot'unuzu iptal edin",
-          "hotspotBalloon": "/hotspot balloon",
-          "giveABalloonToEveryoneAtYourHotspot": "Hotspot'unuzdaki herkese balon verin.",
-          "hotspotGlow": "/hotspot glow",
-          "giveAGlowToEveryoneAtYourHotspot": "Hotspot'unuzdaki herkese parlama efekti verin.",
-          "hotspotName": "/hotspot name",
-          "changeTheNameOfYourHotspot": "Hotspot'unuzun adını değiştirin.",
-          "hotspotInfo": "/hotspot info",
-          "seeInformationAboutTheCurrentHotspotAndWhenYou": "See information about the current Hotspot and when you can create your next one.",
-          "increaseYourViewDistanceForAWhileForBuilding": "Increase your view distance for a while for building. You get the view distance of your highest rank.",
-          "buildermodeHome": "/buildermode home",
-          "enableBuildermodeWhenTeleportingToTheSpecifiedHome": "Belirtilen home'a ışınlandığınızda buildermode'u etkinleştirin.",
-          "putACosmeticBalloonOnYourHead": "Başınıza kozmetik bir balon koyun.",
-          "sitOnAnyBlockToRest": "Dinlenmek için herhangi bir bloğa oturun.",
-          "lieDownOnAnyBlockToRest": "Lie down on any block to rest.",
-          "changeYourInGameSkin": "Oyun içi skininizi değiştirin.",
-          "letsYouLeaveYourBodyAndFlyAroundIn": "Gerçek oyuncunu hareket ettirmeden bölgeyi keşfetmek için bedenini bırakıp izleyici benzeri modda uçmanı sağlar.",
-          "useItRightAfterTheServerPullsYouBack": "Use it right after the server pulls you back. It saves your last minute of movement so staff can check it. Then email contact@6b6t.org.",
-          "shopBuy": "/shop, /buy",
-          "getALinkToTheOfficial6b6tShop": "Resmi 6b6t Mağazasına bağlantı alın.",
-          "giftEliteUltraToAnOnlineElitePlayerOr": "Gift Elite Ultra to an online Elite player, or Prime Ultra to a Prime player. You can take it back after 14 days with /legendgift remove.",
-          "showsTheVoteCountAndInstructionsToVote": "Oy sayısını ve oy verme talimatlarını gösterir.",
-          "showsTheServerSTpsAndPerformancePlusThe": "Shows the server's TPS and performance, plus the TPS you personally had over the last 5 seconds, 1 minute and 5 minutes.",
-          "getAnInviteToThe6b6tDiscordServer": "6b6t Discord Sunucusuna davet alın.",
-          "getALinkToThe6b6tWebsite": "6b6t Web Sitesine bağlantı alın.",
-          "getALinkToThisWebpage": "Bu web sayfasına bağlantı alın."
+      "creator": {
+        "creemRenewal": {
+          "unknownError": "Bilinmeyen hata"
+        },
+        "dailyReport": {
+          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "unknown": "bilinmiyor",
+          "failed": "başarısız",
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
+          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+        },
+        "job": {
+          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "unknownError": "Bilinmeyen hata"
+        },
+        "store": {
+          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
+          "creatorAttributionWasNotStored": "Creator attribution was not stored",
+          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
+          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
+          "attributionNotFound": "Attribution not found",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
+          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
+          "chooseAnExistingCreator": "Choose an existing creator",
+          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
+          "creatorIsInactive": "Creator is inactive",
+          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
+          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+        }
+      },
+      "creem": {
+        "checkout": {
+          "checkoutOperationFailed": "Checkout operation failed",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY yapılandırılmamış",
+          "originHeaderNotFound": "Origin header not found",
+          "bundleNotFound": "Bundle not found",
+          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
+          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
+          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
+          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
+          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
         }
       },
       "db": {
@@ -306,6 +288,17 @@
         "discordReturnedValue1ForValue2": "Discord, #{{value2}} için {{value1}} döndürdü",
         "unknownDiscordError": "Bilinmeyen Discord hatası"
       },
+      "discordEmbed": {
+        "viewPage": "View page"
+      },
+      "effectRuntime": {
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
+        "paymentProviderRequestFailed": "Payment provider request failed",
+        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
+        "paymentProviderResponseFailed": "Payment provider response failed",
+        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
+        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+      },
       "email": {
         "text6b6tAccounts": "6b6t Accounts",
         "text6b6tRecovery": "6b6t Recovery",
@@ -313,19 +306,14 @@
         "text6b6tMerch": "6b6t Merch",
         "text6b6tSupport": "6b6t Support"
       },
-      "galleryUtil": {
-        "recentEpicBuild": "Son Muhteşem Yapı",
-        "aMagnificentStructureBuiltInNovember2024ShowcasingThe": "Kasım 2024'te inşa edilen, oyuncularımızın yaratıcılığını sergileyen muhteşem bir yapı.",
-        "november122024": "12 Kasım 2024",
-        "morningAdventures": "Sabah Maceraları",
-        "earlyMorningExplorationRevealingHiddenTreasuresAndLandscapes": "Gizli hazineleri ve manzaraları ortaya çıkaran sabahın erken saatlerinde keşif.",
-        "september292024": "29 Eylül 2024",
-        "legendGalleryFeature": "Legend Galeri Özelliği",
-        "aFeaturedLegendThemedScreenshotShowcasingPremiumPlayerContent": "Premium oyuncu içeriğini sergileyen, öne çıkan Legend temalı bir ekran görüntüsü.",
-        "november52024": "5 Kasım 2024",
-        "text6b6tGalleryCommunityScreenshotsAndMomentsFromTheAnarchy": "6b6t Galerisi - Anarşi sunucusundan topluluk ekran görüntüleri ve anlar"
-      },
       "link": {
+        "discord": {
+          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
+          "noPlayerInfoFoundForUser": "No player info found for user.",
+          "noDiscordIdFoundForUser": "No Discord ID found for user.",
+          "noTokensFoundForUser": "No tokens found for user."
+        },
         "telegramMembership": {
           "unknownError": "Bilinmeyen hata"
         }
@@ -394,23 +382,46 @@
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem iade uç noktası yapılandırılmamış; iadeyi Creem üzerinden gerçekleştirin ve webhook üzerinden tekrar deneyin/onaylayın.",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY yapılandırılmamış",
           "creemRefundRequestFailedWithStatusValue1": "Creem iade talebi {{value1}} durumuyla başarısız oldu"
+        },
+        "validation": {
+          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
+          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
-      "playerHistoryInput": {
-        "invalidOrExcessiveDateRange": "Geçersiz veya aşırı tarih aralığı"
-      },
       "printify": {
+        "claimValidation": {
+          "invalidEmailAddress": "Invalid email address",
+          "useATwoLetterCountryCode": "Use a two-letter country code",
+          "invalidDate": "Invalid date",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+        },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Fiziksel ürün tedariki henüz açık değil.",
           "delivered": "delivered",
           "unknownError": "Bilinmeyen hata",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "Fiziksel ürün tedariki geçici olarak kullanılamıyor.",
           "submitting": "submitting",
+          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
+          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
           "reserved": "reserved",
-          "processing": "processing"
-        },
-        "client": {
-          "networkError": "Ağ hatası"
+          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
+          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
+          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
+          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
+          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
+          "requestNotFound": "Request not found.",
+          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
+          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
+          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
+          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "processing": "processing",
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
+          "historicalRequestChangedDuringReview": "Historical request changed during review"
         },
         "email": {
           "emailDeliveryFailed": "E-posta gönderimi başarısız oldu"
@@ -439,7 +450,7 @@
           "emailSendFailed": "email_send_failed",
           "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
           "emailNotConfigured": "email_not_configured",
-          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Talebiniz alındı. Hesap mevcutsa ve sağlanan kanıt doğrulanabilirse destek ekibi sizinle iletişime geçecektir.",
           "yourAccountRecoveryRequestHasBeenApproved": "Hesap kurtarma talebiniz onaylandı.",
           "yourAccountRecoveryRequestHasBeenDenied": "Hesap kurtarma talebiniz reddedildi.",
           "noteValue1": "Not: {{value1}}",
@@ -457,7 +468,9 @@
           "failedToCreateChallenge": "Doğrulama oluşturulamadı",
           "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
           "emailSendFailed": "email_send_failed",
-          "failedToNotifyTheAccountOwnerByEmail": "Hesap sahibine e-posta ile bildirim gönderilemedi.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
           "created": "created",
           "invalidOrExpiredBlockToken": "Geçersiz veya süresi dolmuş engelleme belirteci.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Bu kurtarma girişimi zaten engellendi.",
@@ -487,8 +500,10 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
           "unavailable": "unavailable",
           "found": "bulundu",
+          "invalidEmailAddress": "Invalid email address",
           "notFound": "not_found",
           "base": "base",
           "stash": "stash",
@@ -508,6 +523,13 @@
           "exhausted": "exhausted",
           "valid": "valid",
           "invalid": "invalid"
+        },
+        "validation": {
+          "invalidRecoverySessionToken": "Invalid recovery session token",
+          "enterAValidEmailAddress": "Enter a valid email address",
+          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
+          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
+          "invalidEmailAddress": "Invalid email address"
         }
       },
       "requestRateLimit": {
@@ -523,15 +545,49 @@
         "googlebot": "googlebot"
       },
       "shop": {
+        "legendCreditProviders": {
+          "review": "review",
+          "disputed": "disputed",
+          "refunded": "refunded",
+          "paid": "paid"
+        },
+        "legendCreditStore": {
+          "pending": "Beklemede"
+        },
+        "legendUpgradeCheckout": {
+          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+        },
         "legend": {
-          "lifetime": "ÖMÜR BOYU",
-          "lifetime2Apex": "ÖMÜR BOYU + 2 APEX",
+          "legendUltra": "LEGEND ULTRA",
+          "legendUltra2Apex": "LEGEND ULTRA + 2 APEX",
           "monthly": "AYLIK",
           "text3Months": "3 AYLIK"
         },
+        "observability": {
+          "alarms": {
+            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
+            "value1In1h": "{{value1}} in 1h",
+            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
+            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
+            "pendingFor15m": "pending for >15m",
+            "value1In30m": "{{value1}} in 30m",
+            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
+            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
+            "conditionCleared": "condition cleared"
+          },
+          "record": {
+            "declined": "declined",
+            "refunded": "refunded",
+            "disputed": "disputed",
+            "paid": "paid"
+          }
+        },
         "ranks": {
           "unknownError": "Bilinmeyen hata",
-          "legendValue1": "Legend {{value1}}",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
@@ -553,46 +609,45 @@
           "eliteUltra6Months": "Elite Ultra (6 Ay)",
           "primeToEliteUpgrade": "Prime'dan Elite'e yükseltme",
           "primeToApexUpgrade": "Prime'dan Apex'e yükseltme",
-          "eliteToApexUpgrade": "Elite'ten Apex'e yükseltme",
-          "default": "varsayılan"
-        },
-        "reviews": {
-          "text6b6tTheServerThatFinallyConvincedMeThatI": "6b6t.. Minecraft'ı uzun süre oynayacağıma beni sonunda ikna eden sunucu. 2023'te bir arkadaşım sayesinde Prime rank aldım. 5'ten fazla Home'a sahip olmak, sunucuda çoğu oyuncudan çok daha hızlı hareket etme özgürlüğü veriyor. Prime rank'ın fiyatı oldukça makul, özellikle sonsuza kadar oynamaya devam edip etmeyeceğinden emin olmayanlar için. Sohbette görünürlük güzel, insanların mesajlarımı görebilmesi sayesinde eşyalarımı kolayca tanıtabiliyorum. Prime rank'ın bekleme süreleri hâlâ sonsuzmuş gibi hissettiriyor, keşke biraz daha düşük olsalardı. Genel olarak Prime rank ile 6b6t harika bir deneyim; özellikle Hotspot oluşturmayı umursamıyorsan, Elite rank yerine bunu tavsiye ederim.",
-          "text6b6tIsAGreatServerILovePlayingIt": "6b6t harika bir sunucu! Arkadaşlarımla oynamayı ve zaman zaman sunucudaki vaktimi canlı yayınlamayı seviyorum. Kısa süre önce sunucuda Prime rank satın aldım ve 16 euroya gerçekten kelepir! Sahip olabileceğim Home sayısını artırmakta gerçekten yardımcı oluyor ve sohbet mesajlarımı öne çıkarma şeklini çok seviyorum. Home'lardan bahsetmişken, bu sunucunun bir Home eklentisine sahip olmasını gerçekten seviyorum. Üssümü kaybetmeme gerçekten yardımcı oluyor ve istediğim zaman kolayca eve dönebileceğimi bilmek spawn'ı ziyaret etme konusunda beni daha istekli kılıyor. Bu sunucu efsane, kesinlikle 5 yıldız!",
-          "iReallyEnjoyTheNumberOfHomesHavingThat": "Home sayısını gerçekten çok seviyorum — bu kadar çok Home'a sahip olmak benim için sunucuyu tanımlıyor; onlar olmadan oynanış tarzı çok farklı olurdu. /sit gibi kozmetikler arkadaşlarla takılırken eğlenceli, sohbet rengi de kullanışlı (birden fazla renk isterdim ama gökkuşağı olmasın). Discord rolü: eklenecek özel bir şey yok. Prime fiyatı çok iyi (5/5). Elite'ten Apex'e geçiş büyük hissettiriyor; Elite ve Apex arasında ara bir rank/fiyat güzel olurdu. Hatalar için özür dilerim, İngilizce ana dilim değil.",
-          "iLove6bVeryMuchAndEnjoyPlayingIt": "6b'yi çok seviyorum ve oynamaktan keyif alıyorum; şu ana kadarki en iyi anarşi sunucusu. Arkadaşlarla oynamak harika — tp ve /home ile hareketlilik ilerlemeyi teşvik ediyor. Hotspot'lar oyuncuların daha ileri gitmesine yardımcı oluyor ve PvP'yi teşvik ediyor. Chatcolor, balonlar ve /sit gibi sohbet özellikleri sunucuyu daha eğlenceli hale getiriyor ve ilginç ekran görüntüleri ile içerikler oluşturmayı sağlıyor. 6b'ye 5 yıldız veriyorum.",
-          "iLikeTheAbilityToHave12HomesBecause": "12 Home'a sahip olabilme özelliğini seviyorum çünkü spawn dahil birden fazla stok noktasına ve üsse ışınlanmamı sağlıyor; zaten yaklaşık 12'ye sahip olduğum için bunu 15 Home'a çıkarmak deneyimi daha da iyileştirirdi. 300 saniyelik (5dk) bekleme süresi stok noktaları/üsler arasında eşya taşımak için güzel, ama keşke biraz daha düşük olsaydı. 2023'te katıldığımdan beri sunucu aktivitesi epey arttı. Genel olarak, kalıcı bir rank olarak Prime kesinlikle değer; 4/5 yıldız veriyorum.",
-          "homesAmountMyMostUsefulFeatureICanHave": "Home sayısı: en yararlı özelliğim — üsler ve stok noktaları için Home'lara sahip olabiliyorum. Varsayılan Home seviyesi oldukça düşük olsa da yükseltmenin keyfini çıkarıyorum. Sohbette görünürlük: adımın rengi harika ve metnim beyaz, çok daha fark edilir oluyor ki bunu seviyorum. Fiyatın değip değmediği konusunda: vergiler öncesi 20$ biraz yüksek; yaklaşık 8$'a daha ucuz bir seviye (beyaz metin, önek yok, +3 Home, örslerde renkler, Discord rolü yok) tercih ederdim. 3/5 yıldız.",
-          "theRanksAreGoodMyNameNowPopsIn": "Rank'lar iyi — adım artık sohbette öne çıkıyor ve bu fark edilmek için harika. Daha düşük bekleme süreleri oyunun kurallarını değiştiriyor ve daha fazla Home süper kullanışlı. Fiyat konusunda biraz kararsızdım ama bunu ömür boyu almak tamamen değer hissettiriyor; hiç pişman değilim. Satın alınacak en iyi rank Prime 😱 4/5 puan veririm.",
-          "eliteLifetimeRankWasWorthItLifetimeAccessAnd": "Elite ömür boyu rank buna değdi — ömür boyu erişim ve aylık seçenekten daha ucuz. Prime, dışarıda kalmasın diye tek bir balon veya /hat gibi küçük bir kozmetik alabilir (para kazanmanız gerektiğini anlıyorum). Daha az bekleme süresi güzel, ama oylama zaten ücretsiz benzer bir avantaj sağlıyor. Yeni oyuncuların çok kolay kaçmasını önlemek için Hotspot'lar Nether, Overworld veya End'in 5bx5b alanları içine yerleştirilmeyecek şekilde sınırlandırılmalı. Genel olarak satın alımım 5/5.",
-          "myExperienceWithEliteHasBeenVeryGoodSo": "Elite ile deneyimim şimdiye kadar çok iyi oldu. Elimde Home kalıp kalmadığını düşünmem bile gerekmiyor, bu da oyun içi deneyimi büyük ölçüde iyileştiriyor. /hotspot komutu arkadaşlarla PvP için kullanışlı. Aktif APEX ve Elite ULTRA oyuncuları az olduğundan, örs renk kodları Elite'e kozmetik olarak sunulmalı. Genel olarak Elite, aktif oyuncular için harika bir rank ve kalıcı bir rank için kelepir.",
-          "iStarted6b6tWithoutARankAndLaterReceived": "6b6t'ye rank olmadan başladım ve daha sonra birden fazla rank aldım; Elite harika. Bir klan sahibi olarak, mesajların görünür olması için bir rank'a sahip olmak değerli. Discord'daki rank'lı sohbeti beğeniyorum. Hotspot'ları yerleştirebildiğim için artık daha havalı, ve düşürülmüş bekleme süresi büyük bir artı. Bir şikayetim var: en düşük rank'lar genellikle önemli şeyleri kaçırıyor (VIP, rank'sız olmaya benziyordu). Ayrıca, biri bana anonim olarak Prime Ultra hediye ettiğinde reklam kanalına erişimim vardı ama Elite'e geçtikten sonra bu izinleri kaybettim.",
-          "theHomesAmountOnEliteOrHigherIsMore": "Elite ve üzeri seviyedeki Home sayısı fazlasıyla yeterli. /balloon gibi kozmetikler sunucuya renk katıyor. Arkadaşlarla oynamak 6b'yi eğlenceli tutuyor. Buildermode harika ama simülasyon mesafesini değil render mesafesini artırıyor. 6b'de bir yıldan uzun süredir oynuyorsan, satın almak kesinlikle değer — ben 4.5 yıldız veriyorum.",
-          "eliteRankIsActuallyBetterThanIThoughtWhen": "Elite rank aslında düşündüğümden daha iyi. Satın aldığımda sadece renkli metin bekliyordum, ama özel insanlar için bir kulübe girmek gibi hissettiriyor. Arkadaşlarla oynamak harika — düşük ping ve yüksek TPS. Discord'daki rank'lı kanallar çok daha aktif; bir kulüp gibi (🚬-cigar-club-🚬'ı dene). En sevdiğim şey daha düşük bekleme süreleri — /tpa ve /home rank'sız olmaktan çok daha iyi ve üsler arasında dakikalar içinde hareket etmeni sağlıyor. Sohbet renkleri öne çıkmana yardımcı oluyor (ipucu: özel sohbet modları veya modlu istemciler bunu daha da iyi yapıyor). 5/5 Yıldız",
-          "hotspotCreateYouCanCreateHotspotsWhenNoOther": "/hotspot create: başka hiçbir Hotspot aktif değilken Hotspot oluşturabilirsin. 3'ten fazla Home'un mu var? elite rank ile tüm üslerine yetecek kadar, 30 Home'a sahip olabilirsin. Kimsenin seni görmemesinden bıktın mı? elite rank ile öne çıkan bir sohbet rengine sahip olabilirsin ve daha çok kişi seni görecek! Bir inşaatçısın ama render mesafesi çok mu düşük? Daha uzağı görmek için /buildermode kullan! Ve tüm bunlar ve dahası için sadece 49.99'a? Sen de almanı öneririm.",
-          "gettingEliteOn6b6tWasAGreatChoiceThe": "6b6t'de Elite almak harika bir seçimdi. Ekstra Home'lar, arkadaşlarla birden fazla üs için çok yardımcı oluyor ve /buildermode tüm üssünü görmene yardımcı oluyor. /hat ve /balloons komutlarını seviyorum — onlarla oynamak eğlenceli. Hotspot, Elite almamın ana nedeniydi çünkü çok PvP yapıyorum ve Hotspot'lar PvP için mükemmel. Sohbette öne çıkmak ve azaltılmış bekleme süreleri aktif oyuncular için olmazsa olmaz. Discord rolleri (#game-suggestions gibi) topluluğun kendini dahil hissetmesini sağlıyor. Ömür boyu rank, tekrarlayan ödeme olmaması anlamına geliyor — ayrıcalıklar fiyata değer. 5/5 yıldız.",
-          "myExperienceIn6bWithAndWithoutARank": "6b'deki deneyimim rank'lı ve rank'sız olarak oldukça iyi oldu, ama bir rank işleri iyileştiriyor — özellikle Home limitini, böylece Home silmem gerekmiyor, ve etkinlik yapmanı sağlayan /hotspot'u. Balonlar ve /sit gibi kozmetikler eğlenceli ve sohbet rengi mesajları öne çıkarıyor. Bir rank'la deneyimime 4.5/5 puan veriyorum ve uzun vadede kalmayı planlıyorsan bir rank tavsiye ederim.",
-          "iHavePlayedThisServerForThreeYearsFirst": "Bu sunucuda üç yıldır oynuyorum — ilk 2 yıl rank'sız. Daha fazla Home için Prime aldım, sonra hotspot ve daha da fazla Home, ve daha hızlı bekleme süreleri için Elite'e geçtim. Bu, bir Minecraft sunucusuna para harcadığım tek zaman. Kesinlikle değdi, özellikle /hotspot kullanarak yaşadığım eğlence için. Bonus /sit efsane ve bir balona sahip olmayı seviyorum.",
-          "theHomesAmountIsExcellentTheMostUsefulFeature": "Home sayısı mükemmel — benim için en yararlı özellik. Chatcolor öne çıkmak için güzel, sohbette görünürlük artı bir puan ve daha düşük bekleme süreleri yardımcı oluyor (yine de hızlı komut kullanımı biraz yorucu olabiliyor). Arkadaşlarla oynamak eğlenceli ve Discord rolü otorite katıyor. Fiyat yaklaşık 16$ ile makul ve değer. Son puan: 4 yıldız.",
-          "iThinkThatTheApexLifetimeRankWasWorth": "Apex ömür boyu rank'ın satın almaya değdiğini düşünüyorum. 100 Home ayrıcalığı inşa etmek ve Home ayarlayabileceğim üs/stok noktası sayısı için kullanışlı, ve /hat, /balloons, /sit ve /skin gibi kozmetikler sunucuyu gerçekten daha eğlenceli kılıyor. Apex Discord rolü de tüm ekstra kanallar ve izinlerle güzel bir bonus. Buildermode, Hotspot'lar ve örslerde/sohbette tüm renk seçenekleri, tam bir rank paketi gibi hissettiriyor. Benden 5/5 yıldız.",
-          "afterWinningPrimeInAGiveawayIUpgradedTo": "Bir çekilişte Prime kazandıktan sonra Apex'e yükselttim. En çok kullandığım özellik artırılmış Home sayısı — stok noktalarını, üsleri ve konumları takip etmeye yardımcı oluyor. tpa ve /home için daha düşük bekleme süreleri son derece faydalı (15 dakikadan ~15 saniyeye). Kozmetikleri pek kullanmıyorum, ama sohbet rengi kit dilenen yeni oyunculardan öne çıkmama yardımcı oluyor. Discord rolü haberleri hızlıca almak için harika. Çok az oynadığım için Apex benim için en iyi fiyat değildi; Elite daha iyi olurdu. Apex'i sadece haftada ~10 saat oynayan oyunculara tavsiye ederim.",
-          "text6b6tIsPureChaosAndPureFun6b6tIs": "6b6t Saf Kaos — ve Saf Eğlence! 6b6t, her zaman bir şeylerin olduğu türden bir sunucu. Aktif Hotspot'larda savaşmaktan arkadaş olan yabancılarla takım kurmaya kadar, her oturum yeni bir hikaye getiriyor. Ömür boyu Apex rank aldım ve sadece sunucuyu desteklemek ve uzun vadede bağlı kalmak için bile değer. Daha yüksek render mesafesi ve İnşa Modu, büyük ölçekli yapılar planlamayı ve manzaranın tadını tüm detaylarıyla çıkarmayı çok daha kolay hale getiriyor. Devasa üsler inşa etmek, kalıntıları keşfetmek ve arkadaşlarla pusulardan sağ çıkmak, bunu dışarıdaki en çılgın Minecraft deneyimlerinden biri haline getirdi. Filtrelenmemiş anarşi ve topluluk odaklı oynanışla ilgileniyorsan, 6b6t tam yeri—ve Apex, uzun vadede burada olduğunu göstermenin sağlam bir yolu."
+          "eliteToApexUpgrade": "Elite'ten Apex'e yükseltme"
         },
         "shop": {
-          "unknownCreatorCodeCheckTheSpellingOrLeaveIt": "Unknown creator code. Check the spelling or leave it blank."
+          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
+          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
+          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
+          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
+          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
+          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
         }
       },
       "stats": {
+        "playerDiscordEmbed": {
+          "viewStats": "View stats",
+          "leaderboards": "Leaderboards"
+        },
         "previewData": {
-          "apex": "apex",
+          "apex": "Apex",
           "eliteultra": "eliteultra",
           "primeultra": "primeultra",
-          "elite": "elite",
-          "prime": "prime",
+          "elite": "Elite",
+          "prime": "Prime",
           "default": "varsayılan"
+        }
+      },
+      "tebex": {
+        "client": {
+          "invalidNumber": "Invalid number"
+        },
+        "config": {
+          "invalidNumber": "Invalid number"
+        },
+        "intent": {
+          "expectedAGameAccountUuid": "Expected a game account UUID"
         }
       }
     }

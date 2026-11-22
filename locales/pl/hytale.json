@@ -18,7 +18,7 @@
       "areThereReallyNoRules": "Naprawdę nie ma żadnych zasad?",
       "text6b6tHytaleServerIsAPureAnarchyServerGriefing": "Serwer 6b6t Hytale to serwer czystej anarchii. Griefing, rajdy i PvP są dozwolone. Jako pierwszy serwer anarchii w Hytale oferujemy absolutną wolność bez banów.",
       "whatMakesThisTheFirstAnarchyServer": "Co sprawia, że jest to pierwszy serwer anarchii?",
-      "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t wystartowało zaledwie kilka minut po globalnej premierze Hytale 13 stycznia 2026 roku. Stworzyliśmy pierwsze prawdziwe środowisko anarchii w historii Hytale, tworząc trwały świat, który nigdy nie zostanie zresetowany.",
+      "text6b6tWentLiveJustMinutesAfterHytaleSGlobal": "6b6t wystartował zaledwie kilka minut po globalnej premierze Hytale 13 stycznia 2026 roku. Stworzyliśmy pierwsze prawdziwe środowisko anarchii w historii Hytale, tworząc trwały świat, który nigdy nie zostanie zresetowany.",
       "willTheMapEverReset": "Czy mapa kiedykolwiek zostanie zresetowana?",
       "theMapOf6b6tHytaleServerWillNeverReset": "Mapa serwera 6b6t Hytale nigdy nie zostanie zresetowana. 6b6t to najstarszy serwer anarchii w Hytale, uruchomiony 13 stycznia 2026 roku. Ten świat jest trwały, zachowując Wasze budowle i historię na zawsze.",
       "isItPayToWin": "Czy to Pay-to-Win?",
@@ -48,6 +48,7 @@
       "copyIp": "Kopiuj IP",
       "links": "Linki",
       "home": "Strona główna",
+      "manageDiscordConnection": "Manage Discord connection",
       "notAffiliatedWithMojangStudiosOrHypixelStudios": "Nie jesteśmy powiązani z Mojang Studios ani Hypixel Studios.",
       "text6b6tAnarchyAllRightsReserved": "6b6t Anarchia. Wszelkie prawa zastrzeżone."
     },
@@ -101,6 +102,11 @@
       "playVideo": "Odtwórz film",
       "hytaleTrailer": "Zwiastun Hytale"
     },
+    "hytaleLinkingShell": {
+      "hytale": "Hytale",
+      "text6b6t": "6b6t",
+      "backToHytale": "Back to Hytale"
+    },
     "hytaleNav": {
       "home": "STRONA GŁÓWNA",
       "text6b6t": "6b6t",
@@ -117,12 +123,41 @@
       "est": "Od",
       "cet": "CET"
     },
+    "connections": {
+      "hytaleDiscordConnection6b6t": "Hytale Discord connection | 6b6t",
+      "robots": "robots",
+      "noindexNofollow": "noindex, nofollow",
+      "connectHytaleToDiscord": "Connect Hytale to Discord",
+      "linkYourHytaleAccountToGetTheLinkedRole": "Link your Hytale account to get the Linked role and access screenshot channels. No Minecraft account is required.",
+      "tryAgain": "Spróbuj ponownie",
+      "loadingYourConnection": "Loading your connection…",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "signInWithDiscordOrSignInToYour": "Sign in with Discord, or sign in to your existing website account and connect Discord.",
+      "signInToContinue": "Sign in to continue",
+      "verifyYourEmailAddressToContinueYourPrivateLinking": "Verify your email address to continue. Your private linking request stays available until it expires.",
+      "discordAccounts": "Discord accounts",
+      "yourDiscordAccount": "Your Discord account",
+      "chooseTheDiscordAccountToLink": "Choose the Discord account to link",
+      "selectAnAccount": "Select an account",
+      "noDiscordAccountIsConnectedToThisWebsiteAccount": "No Discord account is connected to this website account yet.",
+      "connecting": "Łączenie…",
+      "connectAnotherDiscordAccount": "Connect another Discord account",
+      "confirmHytaleLink": "Confirm Hytale link",
+      "link": "Link",
+      "hytaleId": "Hytale ID:",
+      "confirmThatThisIsYourHytalePlayerAndThe": "Confirm that this is your Hytale player and the selected Discord account is the one you want to use.",
+      "ifThisRequestExpiresRunLinkOnTheHytale": "If this request expires, run /link on the Hytale server again.",
+      "linking": "Linking…",
+      "confirmHytaleAndDiscordLink": "Confirm Hytale and Discord link",
+      "newLinkingIsPausedExistingConnectionsRemainAvailableBelow": "New linking is paused. Existing connections remain available below.",
+      "linkAHytalePlayer": "Link a Hytale player",
+      "run": "Uruchom",
+      "onTheHytaleServerAndOpenThePrivateUrl": "on the Hytale server and open the private URL it gives you. An old, expired, or used request cannot link another account.",
+      "keepThisPageBookmarkedToManageYourHytaleConnection": "Keep this page bookmarked to manage your Hytale connection. Minecraft profiles and ranks are managed separately."
+    },
     "page": {
-      "text6b6tFirstAnarchyServerInHytaleHytaleAnarchy": "6b6t - Pierwszy serwer anarchii w Hytale | Anarchia Hytale",
-      "joinTheFirstAndOldestAnarchyServerInHytale": "Dołącz do pierwszego i najstarszego serwera anarchii w Hytale. Bez zasad, bez banów, bez resetów. Oryginalny serwer anarchii Hytale. Graj za darmo, połącz się przez hytale.6b6t.org",
       "text6b6tHytaleAnarchyServer": "6b6t — anarchistyczny serwer Hytale",
       "text6b6tFirstAnarchyServerInHytaleHytaleAnarchyServer": "6b6t - Pierwszy serwer anarchii w Hytale | Serwer anarchii Hytale",
-      "theFirstAnarchyServerInHytaleNoRulesPure": "Pierwszy serwer anarchii w Hytale. Bez zasad, czysty chaos. Graj za darmo!",
       "join6b6tTheFirstAnarchyServerInHytaleLaunched": "Dołącz do 6b6t, pierwszego serwera anarchii w Hytale, uruchomionego zaledwie kilka minut po premierze gry. Poznaj prawdziwą wolność — bez zasad, bez resetów, czysty chaos.",
       "text6b6t": "6b6t",
       "theFirstAndOldestAnarchyServerInHytaleLike": "Pierwszy i najstarszy serwer anarchii w Hytale. Jak 2b2t dla Hytale – bez zasad, bez resetów, czysty chaos. Oryginalny serwer anarchii Hytale. Darmowa gra bez mechanik pay-to-win.",
@@ -141,5 +176,8 @@
       "oneOfTheFirstPeacefulNights": "Jedna z pierwszych spokojnych nocy",
       "aModernHouse": "Nowoczesny dom"
     }
-  }
+  },
+  "page-name": "6b6t: pierwszy serwer anarchii w Hytale, bez zasad",
+  "seo-description": "Dołącz do 6b6t, pierwszego serwera anarchii w Hytale. Graj za darmo, bez zasad, banów i resetów, w stałym świecie: hytale.6b6t.org.",
+  "share-image-alt": "Anarchiczny serwer Hytale 6b6t"
 }
