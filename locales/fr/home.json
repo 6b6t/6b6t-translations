@@ -23,11 +23,11 @@
   "sections": {
     "faq": {
       "faq": {
-        "frequentlyAskedQuestions": "Frequently Asked Questions",
-        "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
+        "frequentlyAskedQuestions": "Foire aux questions",
+        "howToJoinAndPlayOnThe6b6tMinecraft": "Comment rejoindre et jouer sur le serveur anarchique 6b6t Minecraft.",
         "stillHaveQuestions": "Encore des questions ?",
         "joinOurDiscord": "Rejoignez notre Discord",
-        "forHelp": "for help."
+        "forHelp": "pour obtenir de l'aide."
       }
     },
     "gallery": {
@@ -66,7 +66,7 @@
       },
       "heroContent": {
         "text6b6t": "6b6t",
-        "minecraftAnarchy": "Minecraft Anarchy",
+        "minecraftAnarchy": "Minecraft Anarchie",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t est un serveur Minecraft de survie anarchique, sans règles, sanctions ni file d’attente. Les joueurs peuvent faire ce qu’ils veulent dans un monde accueillant jusqu’à 2 000 joueurs simultanément et utiliser des commandes comme /tpa et /home.",
         "noRules": "Aucune règle",
         "noMapResets": "Aucune réinitialisation de carte",
@@ -78,7 +78,7 @@
       },
       "heroSlider": {
         "spawnArea": "Zone de spawn",
-        "playerBuilds": "Player Builds",
+        "playerBuilds": "Constructions de joueurs",
         "baseBuilding": "Construction de bases",
         "vastLandscapes": "Vastes paysages",
         "text6b6tPreviewSpawnArea": "Aperçu de 6b6t — Zone de spawn",
@@ -121,8 +121,8 @@
       }
     },
     "page": {
-      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarchy Server",
-      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchy with no queue and a world that has never reset. Join on Java with AnarchyMod or on Bedrock at br.6b6t.org, port 19132.",
+      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Serveur d'anarchie",
+      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchie sans file d'attente et un monde qui ne s'est jamais réinitialisé. Rejoignez-nous sur Java avec AnarchyMod ou sur Bedrock sur br.6b6t.org, port 19132.",
       "minecraft": "Minecraft"
     }
   }

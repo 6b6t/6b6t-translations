@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "किल",
+      "killMany": "किल",
+      "kill": "किल",
+      "kills": "किल",
+      "breadcrumb": "ब्रेडक्रम्ब",
+      "playerStatistics": "खिलाड़ी आँकड़े",
+      "leaderboards": "लीडरबोर्ड",
+      "leaderboard": "लीडरबोर्ड",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value2}} में {{value1}} खिलाड़ी। बराबरी पर खिलाड़ी एक ही स्थान साझा करते हैं।",
+      "allTime": "पूरे समय",
+      "jumpToMe": "मेरी रैंक पर जाएँ",
+      "takesYouToYourRowOnThisBoard": "इस लीडरबोर्ड में आपकी पंक्ति तक ले जाता है",
+      "playerIsNotRankedOnThisBoard": "यह खिलाड़ी इस लीडरबोर्ड में रैंक नहीं है",
+      "couldNotFindPlayerOnThisBoard": "इस लीडरबोर्ड में खिलाड़ी नहीं मिला",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} {{value5}} {{value4}} में {{value3}} में से {{value2}} स्थान पर है।",
+      "inTheLast7Days": "पिछले 7 दिनों में",
+      "inTheLast30Days": "पिछले 30 दिनों में",
+      "value1MoreValue2ToPassTheNextPlayer": "अगले खिलाड़ी से आगे निकलने के लिए {{value1}} और {{value2}}।",
+      "leaderboardStatistics": "लीडरबोर्ड आँकड़े",
+      "more": "और",
+      "leaderboardTimePeriod": "लीडरबोर्ड की समय अवधि",
+      "copyLink": "लिंक कॉपी करें",
+      "linkCopied": "लिंक कॉपी हो गया",
+      "couldNotCopyLink": "लिंक कॉपी नहीं हो सका",
+      "value1RankedPlayers": "रैंक किए गए {{value1}} खिलाड़ी",
+      "position": "पद",
+      "player": "खिलाड़ी",
+      "leaderboardPages": "लीडरबोर्ड पृष्ठ",
+      "previousPage": "पिछला पृष्ठ",
+      "pageValue1": "पृष्ठ {{value1}}",
+      "nextPage": "अगला पृष्ठ",
+      "fullLeaderboardTemporarilyUnavailable": "पूरा लीडरबोर्ड अस्थायी रूप से उपलब्ध नहीं है"
+    }
+  }
+}

@@ -1,22 +1,22 @@
 {
   "sections": {
     "siteSearch": {
-      "blogPost": "Blog post",
-      "guide": "Guide",
-      "question": "Question",
+      "blogPost": "Publicación de blog",
+      "guide": "Guía",
+      "question": "Pregunta",
       "search": "Buscar",
-      "findBlogPostsGuidesAndAnswersToCommonQuestions": "Find blog posts, guides and answers to common questions.",
-      "searchTheSite": "Search the site",
-      "forExampleBedrockVoteRefund": "For example: bedrock, vote, refund",
-      "enterAtLeastValue1Characters": "Enter at least {{value1}} characters.",
-      "typeAWordOrPhraseToSearch": "Type a word or phrase to search.",
-      "searching": "Searching…",
-      "searchIsUnavailableRightNowTryAgainInA": "Search is unavailable right now. Try again in a few minutes.",
-      "noResultsFor": "No results for “",
-      "tryFewerOrDifferentWordsOrBrowseThe": "”. Try fewer or different words, or browse the",
+      "findBlogPostsGuidesAndAnswersToCommonQuestions": "Encuentre publicaciones de blog, guías y respuestas a preguntas comunes.",
+      "searchTheSite": "buscar en el sitio",
+      "forExampleBedrockVoteRefund": "Por ejemplo: bedrock, votar, reembolsar",
+      "enterAtLeastValue1Characters": "Introduzca al menos {{value1}} caracteres.",
+      "typeAWordOrPhraseToSearch": "Escriba una palabra o frase para buscar.",
+      "searching": "Búsqueda…",
+      "searchIsUnavailableRightNowTryAgainInA": "La búsqueda no está disponible en este momento. Inténtalo de nuevo en unos minutos.",
+      "noResultsFor": "Sin resultados para “",
+      "tryFewerOrDifferentWordsOrBrowseThe": "\". Pruebe con menos palabras o con diferentes palabras, o explore el",
       "blog": "blog",
-      "text1ResultForValue1": "1 result for “{{value1}}”",
-      "value1ResultsForValue2": "{{value1}} results for “{{value2}}”"
+      "text1ResultForValue1": "1 resultado para “{{value1}}”",
+      "value1ResultsForValue2": "{{value1}} resultados para “{{value2}}”"
     }
   }
 }

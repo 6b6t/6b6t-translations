@@ -11,7 +11,7 @@
         "completed": "zakończone",
         "opened": "otwarte",
         "webhookServiceIsNotConfigured": "Usługa webhooków nie jest skonfigurowana",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Zdarzenie płatności niezwiązane z produkcją",
         "invalidWebhookSignature": "Nieprawidłowy podpis webhooka",
         "webhookProcessingFailed": "Przetwarzanie webhooka nie powiodło się"
       },
@@ -33,14 +33,14 @@
           }
         },
         "newsletter": {
-          "unauthorized": "unauthorized",
+          "unauthorized": "nieuprawnione",
           "invalidEmail": "invalid_email",
           "rateLimited": "rate_limited",
           "unavailable": "niedostępne"
         }
       },
       "text6b6tOrgMetadataApi": "API metadanych 6b6t.org",
-      "online": "online",
+      "online": "w Internecie",
       "legendSubscribers": {
         "unableToLoadLegendSubscribers": "Nie udało się załadować subskrybentów Legend",
         "all": "wszystkie"
@@ -53,7 +53,7 @@
           "noFilePathProvided": "Nie podano ścieżki pliku",
           "invalidFilePath": "Nieprawidłowa ścieżka pliku",
           "fileNotFound": "Nie znaleziono pliku",
-          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
+          "mediaIsTemporarilyUnavailable": "Media są chwilowo niedostępne"
         }
       },
       "monitoring": {
@@ -77,7 +77,7 @@
         }
       },
       "stripe": {
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Zdarzenie płatności niezwiązane z produkcją",
         "unknownError": "Nieznany błąd",
         "webhookErrorValue1": "Błąd webhooka: {{value1}}",
         "received": "Odebrano",
@@ -95,7 +95,7 @@
         "missingSignature": "Brak podpisu",
         "invalidSignature": "Nieprawidłowy podpis",
         "webhookServiceIsNotConfigured": "Usługa webhooków nie jest skonfigurowana",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Zdarzenie płatności niezwiązane z produkcją",
         "webhookProcessingFailed": "Przetwarzanie webhooka nie powiodło się"
       },
       "telegram": {
@@ -125,11 +125,11 @@
       "admin": {
         "cloudflareAccess": {
           "localDevelopment": "Lokalne środowisko programistyczne",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail"
         }
       },
       "adminTableSearch": {
-        "invalidNumber": "Invalid number"
+        "invalidNumber": "Nieprawidłowy numer"
       },
       "auth": {
         "accountLinkHistory": {
@@ -171,33 +171,50 @@
         }
       },
       "blogContent": {
-        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+        "minWidth880px820pxCalc100vw40px": "(min. szerokość: 880 pikseli) 820 pikseli, oblicz (100vw - 40px)"
       },
       "broadcast": {
         "playerHash": {
           "hmac": "HMAC",
-          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+          "broadcastPlayerValue1Value2": "odtwarzacz transmisji:{{value1}}:{{value2}}"
         }
+      },
+      "cmsAdminBar": {
+        "homepage": "Strona główna",
+        "post": "Post",
+        "form": "Formularz",
+        "legalPage": "Strona prawna"
+      },
+      "cmsForms": {
+        "invalidValue": "Nieprawidłowa wartość.",
+        "thisBoxIsRequired": "To pole jest wymagane.",
+        "true": "PRAWDA",
+        "false": "FAŁSZ",
+        "thisFieldIsRequired": "To pole jest wymagane.",
+        "useAtMostValue1Characters": "Użyj maksymalnie {{value1}} znaków.",
+        "enterAValidEmailAddress": "Podaj prawidłowy adres e-mail.",
+        "enterANumber": "Wprowadź numer.",
+        "chooseOneOfTheOptions": "Wybierz jedną z opcji."
       },
       "commandService": {
         "outbox": {
-          "unsupportedCommandRecipient": "Unsupported command recipient",
-          "invalidCommand": "Invalid command",
+          "unsupportedCommandRecipient": "Nieobsługiwany odbiorca polecenia",
+          "invalidCommand": "Nieprawidłowe polecenie",
           "delivered": "dostarczone",
           "completed": "zakończone",
-          "deliveryFailed": "Delivery failed",
-          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
-          "rankLookupFailed": "Rank lookup failed"
+          "deliveryFailed": "Dostawa nie powiodła się",
+          "rankGrantReadBackDidNotConfirmValue1": "Odczyt przyznania rangi nie potwierdził {{value1}}",
+          "rankLookupFailed": "Wyszukiwanie rangi nie powiodło się"
         },
         "reversals": {
-          "skipped": "skipped"
+          "skipped": "pominięte"
         },
         "transport": {
           "unknownCommandServiceError": "Nieznany błąd usługi komend"
         }
       },
       "communityEventAdminSchema": {
-        "anExtensionReasonIsRequired": "An extension reason is required"
+        "anExtensionReasonIsRequired": "Podaj powód przedłużenia"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "Zbyt wiele żądań",
@@ -208,7 +225,7 @@
       },
       "communityEvent": {
         "rank": "Ranga",
-        "legend": "Legend",
+        "legend": "Legenda",
         "apex": "Apex",
         "elite": "Elite",
         "purchasedTheUpgradeFromValue1RankToGoldBold": "zakupił ulepszenie z rangi {{value1}} na <gold><bold>rangę {{value2}}</bold></gold>",
@@ -219,57 +236,57 @@
         "reachTheGoalByAugust14ToUnlockA": "Osiągnij cel do 14 sierpnia, aby odblokować potężny dupe na całym 6b6t na 72 godziny. Jeśli cel zostanie osiągnięty później, wydarzenie zostanie przeniesione na najbliższy kolejny weekend."
       },
       "communityHistory": {
-        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
-        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
+        "useASiteRelativePathOrPublicHttpsImage": "Użyj ścieżki powiązanej z witryną lub publicznego obrazu HTTPS URL",
+        "useAUniqueLowercaseIdWithHyphens": "Użyj unikalnych małych liter ID z łącznikami"
       },
       "creator": {
         "creemRenewal": {
           "unknownError": "Nieznany błąd"
         },
         "dailyReport": {
-          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "discordReturnedHttpValue1": "Discord zwrócone HTTP {{value1}}",
           "unknown": "nieznane",
           "failed": "nieudane",
-          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
-          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Wynik dostarczenia elementu webhook jest nieznany; sprawdź Discord przed ponowną próbą",
+          "webhookCouldNotBePreparedForDelivery": "Nie można przygotować webhooka do dostarczenia"
         },
         "job": {
-          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "jointrackerLookupFailed": "Wyszukiwanie w JoinTracker nie powiodło się",
           "unknownError": "Nieznany błąd"
         },
         "store": {
-          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
-          "creatorAttributionWasNotStored": "Creator attribution was not stored",
-          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
-          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
-          "attributionNotFound": "Attribution not found",
-          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
-          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
-          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
-          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
-          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
-          "chooseAnExistingCreator": "Choose an existing creator",
-          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
-          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
-          "creatorIsInactive": "Creator is inactive",
-          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
-          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
-          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+          "learnedFromAnExcludedSelfPurchase": "Dowiedziałem się z wykluczonego samodzielnego zakupu",
+          "creatorAttributionWasNotStored": "Nie zapisano przypisania do twórcy",
+          "creatorRenewalAttributionWasNotStored": "Nie zapisano przypisania odnowienia twórcy",
+          "theWebsiteD1BindingDbIsNotConfigured": "Baza danych powiązania witryny internetowej D1 nie jest skonfigurowana",
+          "attributionNotFound": "Nie znaleziono przypisania",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Można rozstrzygać tylko atrybucje będące w trakcie sprawdzania lub oczekujące",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Przed przypisaniem atrybucji określ odbiorcę prezentu",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Przed przypisaniem wprowadź zweryfikowaną wartość brutto EUR",
+          "grossIsProviderVerifiedForThisPayment": "Usługa Gross została zweryfikowana przez dostawcę w przypadku tej płatności",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "Odnowienie można przypisać wyłącznie odziedziczonemu twórcy",
+          "chooseAnExistingCreator": "Wybierz istniejącego twórcę",
+          "verifiedEurGrossExceedsTheAllowedRange": "Zweryfikowano, że EUR brutto przekracza dozwolony zakres",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "Administrator nie może przypisać własnego konta twórcy",
+          "creatorIsInactive": "Twórca jest nieaktywny",
+          "selfPurchaseCannotBeAssigned": "Nie można przypisać zakupu samodzielnego",
+          "thisAttributionChangedRefreshAndTryAgain": "To przypisanie uległo zmianie. Odśwież i spróbuj ponownie.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Można ponowić jedynie sprawdzane płatności początkowe ze zweryfikowaną kwotą"
         }
       },
       "creem": {
         "checkout": {
-          "checkoutOperationFailed": "Checkout operation failed",
+          "checkoutOperationFailed": "Operacja realizacji transakcji nie powiodła się",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY nie jest skonfigurowany",
-          "originHeaderNotFound": "Origin header not found",
-          "bundleNotFound": "Bundle not found",
-          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
-          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
-          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
+          "originHeaderNotFound": "Nie znaleziono nagłówka Origin",
+          "bundleNotFound": "Nie znaleziono pakietu",
+          "thisBundleIsNotAvailableForCreemCheckout": "Ten pakiet nie jest dostępny do realizacji transakcji Creem",
+          "thisBundleCannotBeGiftedAtCheckout": "Tego pakietu nie można podarować przy kasie",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Odbiorca musi mieć zweryfikowany profil gry przed dokonaniem transakcji",
+          "targetPlayerIsNotEligibleForThisBundle": "Gracz docelowy nie kwalifikuje się do tego pakietu",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Oferta próbna wygasła. Ta oferta nie jest już dostępna.",
+          "checkoutProductConfigurationMismatch": "Niezgodność konfiguracji produktu w kasie",
+          "failedToCreateCreemCheckoutSession": "Nie udało się utworzyć sesji realizacji transakcji Creem"
         }
       },
       "db": {
@@ -289,15 +306,15 @@
         "unknownDiscordError": "Nieznany błąd Discord"
       },
       "discordEmbed": {
-        "viewPage": "View page"
+        "viewPage": "Zobacz stronę"
       },
       "effectRuntime": {
-        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
-        "paymentProviderRequestFailed": "Payment provider request failed",
-        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
-        "paymentProviderResponseFailed": "Payment provider response failed",
-        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
-        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex zwrócił nieprawidłową odpowiedź przy kasie",
+        "paymentProviderRequestFailed": "Żądanie dostawcy płatności nie powiodło się",
+        "tebexRejectedTheCheckoutRequest": "Tebex odrzucił żądanie kasy",
+        "paymentProviderResponseFailed": "Odpowiedź dostawcy płatności nie powiodła się",
+        "paymentProviderResponseExceedsTheSizeLimit": "Odpowiedź dostawcy płatności przekracza limit rozmiaru",
+        "paymentProviderRequestTimedOut": "Upłynął limit czasu żądania dostawcy płatności"
       },
       "email": {
         "text6b6tAccounts": "Konta 6b6t",
@@ -308,11 +325,11 @@
       },
       "link": {
         "discord": {
-          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
-          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
-          "noPlayerInfoFoundForUser": "No player info found for user.",
-          "noDiscordIdFoundForUser": "No Discord ID found for user.",
-          "noTokensFoundForUser": "No tokens found for user."
+          "missingRequiredDiscordOauthEnvironmentVariables": "Brak wymaganych zmiennych środowiskowych Discord OAuth",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Brak wymaganej zmiennej środowiskowej Discord CLIENT_ID",
+          "noPlayerInfoFoundForUser": "Nie znaleziono informacji o odtwarzaczu dla użytkownika.",
+          "noDiscordIdFoundForUser": "Nie znaleziono Discord ID dla użytkownika.",
+          "noTokensFoundForUser": "Nie znaleziono tokenów dla użytkownika."
         },
         "telegramMembership": {
           "unknownError": "Nieznany błąd"
@@ -384,18 +401,18 @@
           "creemRefundRequestFailedWithStatusValue1": "Żądanie zwrotu Creem nie powiodło się ze statusem {{value1}}"
         },
         "validation": {
-          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
-          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
-          "invalidEmailAddress": "Invalid email address"
+          "motdMustBeAtLeast3CharactersLong": "MOTD musi mieć co najmniej 3 znaki",
+          "motdMustBeAtMost120CharactersLong": "MOTD musi mieć maksymalnie 120 znaków",
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail"
         }
       },
       "printify": {
         "claimValidation": {
-          "invalidEmailAddress": "Invalid email address",
-          "useATwoLetterCountryCode": "Use a two-letter country code",
-          "invalidDate": "Invalid date",
-          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
-          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail",
+          "useATwoLetterCountryCode": "Użyj dwuliterowego kodu kraju",
+          "invalidDate": "Nieprawidłowa data",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Informacje o zakupie: krótko opisz, co i kiedy kupiłeś (co najmniej 10 znaków).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Informacje o zakupie muszą mieć maksymalnie 2000 znaków."
         },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Realizacja produktów fizycznych nie jest jeszcze dostępna.",
@@ -403,25 +420,25 @@
           "unknownError": "Nieznany błąd",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "Realizacja produktów fizycznych jest tymczasowo niedostępna.",
           "submitting": "wysyłanie",
-          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
-          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
-          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
+          "physicalProductClaimsAreNotAvailableYet": "Roszczenia dotyczące produktów fizycznych nie są jeszcze dostępne.",
+          "thisPhysicalProductWasAlreadyFulfilled": "Ten produkt fizyczny został już zrealizowany.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "Żaden nieodebrany produkt fizyczny nie jest powiązany z tym kontem.",
           "reserved": "zarezerwowane",
-          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
-          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
-          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
-          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
-          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
-          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
-          "requestNotFound": "Request not found.",
-          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
-          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
-          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
-          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
-          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "thisPhysicalProductAlreadyHasAClaim": "Ten produkt fizyczny ma już roszczenie",
+          "physicalProductRequestsAreNotAvailableYet": "Żądania dotyczące produktów fizycznych nie są jeszcze dostępne.",
+          "chooseAQualifyingPurchaseType": "Wybierz kwalifikujący się typ zakupu.",
+          "aRequestForThisProductAlreadyExists": "Zapytanie dotyczące tego produktu już istnieje.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "Na ten produkt fizyczny złożono już zamówienie lub reklamację.",
+          "thisRequestChangedRefreshAndTryAgain": "To żądanie uległo zmianie. Odśwież i spróbuj ponownie.",
+          "requestNotFound": "Nie znaleziono żądania.",
+          "thisRequestHasNoFinalEmailToResend": "Ta prośba nie ma ostatecznego adresu e-mail do ponownego wysłania.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "To żądanie zostało już sprawdzone lub jest przetwarzane.",
+          "addACustomerFacingExplanationForThisDecision": "Dodaj skierowane do klienta wyjaśnienie tej decyzji.",
+          "theEncryptedShippingAddressIsMissing": "Brak zaszyfrowanego adresu wysyłki.",
+          "physicalProductFulfillmentIsDisabled": "Fizyczna realizacja produktu jest wyłączona.",
           "processing": "przetwarzanie",
-          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
-          "historicalRequestChangedDuringReview": "Historical request changed during review"
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Inny administrator zaczął już przeglądać tę prośbę.",
+          "historicalRequestChangedDuringReview": "Historyczne żądanie zostało zmienione podczas sprawdzania"
         },
         "email": {
           "emailDeliveryFailed": "Dostarczenie e-maila nie powiodło się"
@@ -468,9 +485,9 @@
           "failedToCreateChallenge": "Nie udało się utworzyć wyzwania",
           "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Właściciel konta się zmienił. Rozpocznij odzyskiwanie od nowa, aby powiadomić obecnego właściciela.",
           "emailSendFailed": "email_send_failed",
-          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Osiągnięto dzienny limit e-maili. Bilet jest nadal w toku i nie rozpoczął się okres oczekiwania. Ponów powiadomienie właściciela, gdy będzie dostępne dostarczanie wiadomości e-mail.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Nie udało się dostarczyć powiadomienia do właściciela. Bilet jest nadal w toku i nie rozpoczął się okres oczekiwania. Ponów powiadomienie właściciela, gdy będzie dostępne dostarczanie wiadomości e-mail.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "Powiadomienie właściciela zmieniło się w trakcie dostawy. Odśwież przed kontynuowaniem.",
           "created": "utworzone",
           "invalidOrExpiredBlockToken": "Nieprawidłowy lub wygasły token blokady.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Ta próba odzyskiwania została już zablokowana.",
@@ -500,10 +517,10 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
-          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Przechowywany adres e-mail właściciela wymaga sprawdzenia. Zanim poprawisz adres e-mail serwera gry, zweryfikuj własność konta. Odzyskiwanie nie zostało zatwierdzone.",
           "unavailable": "niedostępne",
           "found": "znaleziono",
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail",
           "notFound": "not_found",
           "base": "baza",
           "stash": "skrytka",
@@ -525,11 +542,11 @@
           "invalid": "nieprawidłowe"
         },
         "validation": {
-          "invalidRecoverySessionToken": "Invalid recovery session token",
-          "enterAValidEmailAddress": "Enter a valid email address",
-          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
-          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidRecoverySessionToken": "Nieprawidłowy token sesji odzyskiwania",
+          "enterAValidEmailAddress": "Wpisz prawidłowy adres e-mail",
+          "verificationCodeMustBe6Digits": "Kod weryfikacyjny musi składać się z 6 cyfr",
+          "inGameCodeMustBe6Characters": "Kod w grze musi mieć 6 znaków",
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail"
         }
       },
       "requestRateLimit": {
@@ -541,21 +558,21 @@
       },
       "seo": {
         "description": "opis",
-        "robots": "robots",
-        "googlebot": "googlebot"
+        "robots": "roboty",
+        "googlebot": "Googlebota"
       },
       "shop": {
         "legendCreditProviders": {
-          "review": "review",
+          "review": "recenzja",
           "disputed": "sporne",
           "refunded": "zwrócone",
-          "paid": "paid"
+          "paid": "płatny"
         },
         "legendCreditStore": {
           "pending": "Oczekujące"
         },
         "legendUpgradeCheckout": {
-          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+          "legendUpgradeValue1": "Aktualizacja legendy {{value1}}"
         },
         "legend": {
           "legendUltra": "LEGEND ULTRA",
@@ -565,25 +582,25 @@
         },
         "observability": {
           "alarms": {
-            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
-            "value1In1h": "{{value1}} in 1h",
-            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
-            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
-            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
-            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
-            "pendingFor15m": "pending for >15m",
-            "value1In30m": "{{value1}} in 30m",
-            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
-            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
-            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
-            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
-            "conditionCleared": "condition cleared"
+            "value1CreatedValue2CheckoutEvents": "{{value1}} utworzono / {{value2}} zdarzenia realizacji transakcji",
+            "value1In1h": "{{value1}} za 1 godzinę",
+            "value1NowVsValue2Baseline": "{{value1}}% teraz w porównaniu z {{value2}}% wartością bazową",
+            "value1Value2In1h": "{{value1}} {{value2}} za 1h",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} odrzucone lub zbyt duże żądania w ciągu 1 godziny",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooki / {{value2}} sesje w ciągu 24 godzin",
+            "pendingFor15m": "w oczekiwaniu na > 15 m",
+            "value1In30m": "{{value1}} w odległości 30 m",
+            "value1ConsentedViewsIn3h": "{{value1}} wyraził zgodę na wyświetlenia w ciągu 3 godzin",
+            "yesterdayReportRowsValue1": "wczorajsze wiersze raportu={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} w ciągu 24 godzin; 28d mediana {{value2}}",
+            "value1Value2Outcomes": "Wyniki {{value1}}/{{value2}}",
+            "conditionCleared": "stan został usunięty"
           },
           "record": {
-            "declined": "declined",
+            "declined": "odrzucony",
             "refunded": "zwrócone",
             "disputed": "sporne",
-            "paid": "paid"
+            "paid": "płatny"
           }
         },
         "ranks": {
@@ -612,14 +629,14 @@
           "eliteToApexUpgrade": "Ulepszenie z Elite do Apex"
         },
         "shop": {
-          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
-          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
-          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
-          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
-          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
-          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
-          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
-          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
+          "creatorCodesUseLettersNumbersOr": "Kody twórców używają liter, cyfr, _ lub -",
+          "usernameMustBeAtLeast3CharactersLong": "Nazwa użytkownika musi mieć co najmniej 3 znaki",
+          "usernameMustBeAtMost16CharactersLong": "Nazwa użytkownika może mieć maksymalnie 16 znaków",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Nazwa użytkownika może zawierać wyłącznie litery, cyfry, podkreślenia i kropki",
+          "giftSenderMustNotBeEmpty": "Pole nadawcy prezentu nie może być puste",
+          "giftSenderMustBeAtMost32CharactersLong": "Nadawca prezentu musi mieć maksymalnie 32 znaki",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Nadawca prezentu może zawierać wyłącznie litery, cyfry, podkreślenia, kropki i myślniki",
+          "giftMessageMustBeAtMost255CharactersLong": "Wiadomość prezentowa musi mieć maksymalnie 255 znaków"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
@@ -627,27 +644,27 @@
       },
       "stats": {
         "playerDiscordEmbed": {
-          "viewStats": "View stats",
+          "viewStats": "Zobacz statystyki",
           "leaderboards": "Rankingi"
         },
         "previewData": {
-          "apex": "apex",
-          "eliteultra": "eliteultra",
-          "primeultra": "primeultra",
-          "elite": "elite",
-          "prime": "prime",
+          "apex": "wierzchołek",
+          "eliteultra": "elitaultra",
+          "primeultra": "pierwsza ultra",
+          "elite": "elita",
+          "prime": "główny",
           "default": "domyślny"
         }
       },
       "tebex": {
         "client": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Nieprawidłowy numer"
         },
         "config": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Nieprawidłowy numer"
         },
         "intent": {
-          "expectedAGameAccountUuid": "Expected a game account UUID"
+          "expectedAGameAccountUuid": "Oczekiwano konta w grze UUID"
         }
       }
     }

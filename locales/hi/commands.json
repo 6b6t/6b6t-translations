@@ -3,13 +3,13 @@
   "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg और अधिक सहित आवश्यक 6b6t कमांड के बारे में जानें।",
   "sections": {
     "commandEntry": {
-      "aliases": "Aliases",
+      "aliases": "उपनाम",
       "example": "उदाहरण",
-      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copyExampleForValue1": "{{value1}} के लिए उदाहरण कॉपी करें",
       "copied": "कॉपी किया गया",
-      "copyExample": "Copy example",
-      "exampleCopied": "Example copied.",
-      "ranks": "Ranks"
+      "copyExample": "उदाहरण कॉपी करें",
+      "exampleCopied": "उदाहरण कॉपी किया गया.",
+      "ranks": "रैंक"
     },
     "commandRankPrefix": {
       "free": "मुक्त",
@@ -18,29 +18,29 @@
     "commandsList": {
       "bestMatches": "सर्वश्रेष्ठ मैच",
       "commands": "आदेश",
-      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
+      "theInGameCommandReferenceFor6b6t": "6b6t के लिए इन-गेम कमांड संदर्भ।",
       "searchCommands": "आदेश खोजें...",
-      "commandAliasOrDescription": "Command, alias or description",
-      "clearCommandSearch": "Clear command search",
+      "commandAliasOrDescription": "आदेश, उपनाम या विवरण",
+      "clearCommandSearch": "स्पष्ट आदेश खोज",
       "category": "वर्ग",
-      "allCategories": "All categories",
-      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
+      "allCategories": "सभी श्रेणियां",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t आदेश, विवरण, उपयोग के उदाहरण और रैंक आवश्यकताएँ",
       "command": "आज्ञा",
       "description": "विवरण",
       "example": "उदाहरण",
-      "ranks": "Ranks",
-      "noCommandsFound": "No commands found",
-      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
-      "resetFilters": "Reset filters",
-      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
-      "compareRanks": "Compare ranks"
+      "ranks": "रैंक",
+      "noCommandsFound": "कोई आदेश नहीं मिला",
+      "tryAnotherSearchCategoryOrRank": "कोई अन्य खोज, श्रेणी या रैंक आज़माएँ.",
+      "resetFilters": "फ़िल्टर रीसेट करें",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "उदाहरण संपादन योग्य हैं: खिलाड़ी के नाम और मानों को अपने नाम से बदलें।",
+      "compareRanks": "रैंकों की तुलना करें"
     },
     "commandsRankFilter": {
       "rankRequirement": "रैंक की आवश्यकता"
     },
     "page": {
-      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
-      "loadingCommands": "Loading commands…",
+      "commandsAreTemporarilyUnavailable": "आदेश अस्थायी रूप से अनुपलब्ध हैं.",
+      "loadingCommands": "आदेश लोड हो रहे हैं...",
       "text6b6tServerCommands": "6b6t सर्वर कमांड"
     }
   },
@@ -49,6 +49,6 @@
     "auth": "प्रमाणीकरण",
     "homesAndTeleport": "होम और टेलीपोर्ट",
     "hotspots": "हॉटस्पॉट",
-    "groupChat": "Group chat"
+    "groupChat": "समूह बातचीत"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "cmsFormField": {
+      "value1Error": "{{value1}} hatası",
+      "chooseAnOption": "Bir seçenek seçin"
+    },
+    "cmsForm": {
+      "thanksYourAnswersWereSent": "Teşekkürler. Cevaplarınız gönderildi.",
+      "send": "Göndermek"
+    },
+    "slug": {
+      "page": {
+        "value16b6t": "{{value1}} | 6b6t",
+        "thisFormIsTemporarilyUnavailablePleaseTryAgainLater": "Bu form geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+      }
+    }
+  }
+}

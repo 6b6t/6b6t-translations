@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "öldürme",
+      "killMany": "öldürme",
+      "kill": "öldürme",
+      "kills": "öldürme",
+      "breadcrumb": "İçerik yolu",
+      "playerStatistics": "Oyuncu İstatistikleri",
+      "leaderboards": "Sıralamalar",
+      "leaderboard": "Liderlik Tablosu",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value2}} içinde {{value1}} oyuncu. Beraberliklerde oyuncular aynı sırayı paylaşır.",
+      "allTime": "Tüm zamanlar",
+      "jumpToMe": "Beni bul",
+      "takesYouToYourRowOnThisBoard": "Bu sıralamada kendi satırına götürür",
+      "playerIsNotRankedOnThisBoard": "Oyuncu bu sıralamada yer almıyor",
+      "couldNotFindPlayerOnThisBoard": "Oyuncu bu sıralamada bulunamadı",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}}, {{value4}} {{value5}} sıralamasında {{value3}} oyuncu arasında {{value2}} sırada.",
+      "inTheLast7Days": "son 7 günde",
+      "inTheLast30Days": "son 30 günde",
+      "value1MoreValue2ToPassTheNextPlayer": "Sonraki oyuncuyu geçmek için {{value1}} {{value2}} daha gerekir.",
+      "leaderboardStatistics": "Sıralama istatistikleri",
+      "more": "Daha fazla",
+      "leaderboardTimePeriod": "Sıralama dönemi",
+      "copyLink": "Bağlantıyı kopyala",
+      "linkCopied": "Bağlantı kopyalandı",
+      "couldNotCopyLink": "Bağlantı kopyalanamadı",
+      "value1RankedPlayers": "Sıralamada {{value1}} oyuncu",
+      "position": "Konum",
+      "player": "Oyuncu",
+      "leaderboardPages": "Sıralama sayfaları",
+      "previousPage": "Önceki sayfa",
+      "pageValue1": "Sayfa {{value1}}",
+      "nextPage": "Sonraki sayfa",
+      "fullLeaderboardTemporarilyUnavailable": "Tam sıralama geçici olarak kullanılamıyor"
+    }
+  }
+}

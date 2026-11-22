@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "bajas",
+      "killMany": "bajas",
+      "kill": "baja",
+      "kills": "bajas",
+      "breadcrumb": "Migas de pan",
+      "playerStatistics": "Estadísticas de jugadores",
+      "leaderboards": "Clasificaciones",
+      "leaderboard": "Clasificación",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value1}} jugadores en {{value2}}. Los empates comparten posición.",
+      "allTime": "Todo el período",
+      "jumpToMe": "Ir a mi posición",
+      "takesYouToYourRowOnThisBoard": "Te lleva a tu fila en esta clasificación",
+      "playerIsNotRankedOnThisBoard": "El jugador no aparece en esta clasificación",
+      "couldNotFindPlayerOnThisBoard": "No se pudo encontrar al jugador en esta clasificación",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} ocupa el puesto {{value2}} de {{value3}} en {{value4}} {{value5}}.",
+      "inTheLast7Days": "en los últimos 7 días",
+      "inTheLast30Days": "en los últimos 30 días",
+      "value1MoreValue2ToPassTheNextPlayer": "{{value1}} más {{value2}} para superar al siguiente jugador.",
+      "leaderboardStatistics": "Estadísticas de clasificación",
+      "more": "Más",
+      "leaderboardTimePeriod": "Período de la clasificación",
+      "copyLink": "Copiar enlace",
+      "linkCopied": "Enlace copiado",
+      "couldNotCopyLink": "No se pudo copiar el enlace",
+      "value1RankedPlayers": "{{value1}} jugadores en la clasificación",
+      "position": "Posición",
+      "player": "Jugador",
+      "leaderboardPages": "Páginas de la clasificación",
+      "previousPage": "Página anterior",
+      "pageValue1": "Página {{value1}}",
+      "nextPage": "Página siguiente",
+      "fullLeaderboardTemporarilyUnavailable": "Clasificación completa no disponible temporalmente"
+    }
+  }
+}

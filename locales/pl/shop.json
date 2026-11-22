@@ -29,6 +29,7 @@
       "buyNow": "Kup teraz",
       "alreadyOwnTheRank": "Posiadasz już tę rangę",
       "viewRankUpgrades": "Zobacz ulepszenia rang →",
+      "getLegendUltra": "Kup Legend Ultra",
       "shopSections": "Sekcje sklepu",
       "permanent": "Na zawsze",
       "subscriptions": "Subskrypcje",
@@ -42,7 +43,7 @@
       "theUltimateSubscriptionForApexRankHolders500Homes": "Najwyższa subskrypcja dla posiadaczy Apex. 500 domów, 80 balonów, /cigar, własny efekt świecenia i wiele więcej.",
       "text500Homes": "500 domów",
       "text80Balloons": "80 balonów",
-      "text35PlayerGroupChats": "35-Player Group Chats",
+      "text35PlayerGroupChats": "Czaty grupowe dla 35 graczy",
       "customGlow": "Własny glow",
       "legendUltraPayOnceKeepItForever": "Legend Ultra · Zapłać raz i zachowaj na zawsze",
       "from99999": "Od 999,99 €",
@@ -53,6 +54,9 @@
       "alreadyOwnPrimeOrEliteMoveUpToA": "Masz już Prime lub Elite? Przejdź na wyższą rangę stałą i zapłać cenę ulepszenia. Wybierz opcję odpowiadającą Twojej obecnej randze.",
       "questionsAboutYourRankOrPurchase": "Masz pytania dotyczące rangi lub zakupu?",
       "contactUs": "Skontaktuj się z nami"
+    },
+    "legendUltraUpgradeCard": {
+      "whenEligibleLegendMonthsYouAlreadyPaidCountToward": "Jeśli się kwalifikujesz, opłacone już miesiące Legend są uwzględniane w cenie. Dostępny kredyt sprawdzisz na stronie Legend."
     },
     "motdPromoCards": {
       "noHeavySlurs": "Bez ciężkich obelg",
@@ -140,9 +144,9 @@
       "previousReview": "Poprzednia recenzja",
       "nextReview": "Następna recenzja",
       "goToReviewByValue1": "Przejdź do recenzji użytkownika {{value1}}",
-      "reviewsAreTemporarilyUnavailable": "Reviews are temporarily unavailable.",
-      "loadingReviews": "Loading reviews…",
-      "noReviewsToShow": "No reviews to show.",
+      "reviewsAreTemporarilyUnavailable": "Recenzje są chwilowo niedostępne.",
+      "loadingReviews": "Ładowanie recenzji…",
+      "noReviewsToShow": "Brak opinii do wyświetlenia.",
       "playerReviews": "Recenzje graczy",
       "whatOurPlayersAreSaying": "Co mówią nasi gracze",
       "prime": "Prime",
@@ -187,17 +191,17 @@
       "giftRecipientValue1ChooseARankBelowToContinue": "Odbiorca prezentu: {{value1}}. Wybierz poniżej rangę, aby kontynuować."
     },
     "shopSchema": {
-      "text6b6tPermanentRanks": "6b6t permanent ranks",
-      "text6b6tValue1Rank": "6b6t {{value1}} rank",
-      "value1LifetimeRankOnThe6b6tMinecraftServer": "{{value1}} lifetime rank on the 6b6t Minecraft server.",
+      "text6b6tPermanentRanks": "6b6t stałe stopnie",
+      "text6b6tValue1Rank": "6b6t {{value1}} ranga",
+      "value1LifetimeRankOnThe6b6tMinecraftServer": "Ranga dożywotnia {{value1}} na serwerze 6b6t Minecraft.",
       "text6b6t": "6b6t"
     },
     "subscriptionComparisonGrid": {
-      "prime": "prime",
+      "prime": "główny",
       "prime2": "Prime",
-      "elite": "elite",
+      "elite": "elita",
       "elite2": "Elite",
-      "apex": "apex",
+      "apex": "wierzchołek",
       "apex2": "Apex",
       "notIncluded": "Nie obejmuje",
       "classicGold": "Klasyczny złoty",
@@ -234,11 +238,13 @@
       "selectAgainToRemoveComparison": "Wybierz ponownie, aby usunąć porównanie"
     },
     "upgradeCard": {
-      "value1ToValue2Upgrade": "Ulepszenie z {{value1}} do {{value2}}",
+      "legendUltra": "LEGEND ULTRA",
       "to": "do",
+      "value1ToValue2Upgrade": "Ulepszenie z {{value1}} do {{value2}}",
       "currentRank": "Obecna ranga",
       "upgradeTo": "Ulepsz do",
       "oneTimePayment": "Płatność jednorazowa",
+      "lifetimeRank": "Ranga dożywotnia",
       "permanentRank": "Ranga stała",
       "whatYouGain": "Co zyskujesz"
     },

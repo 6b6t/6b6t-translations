@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "убийства",
+      "killMany": "убийств",
+      "kill": "убийство",
+      "kills": "убийства",
+      "breadcrumb": "Навигационная цепочка",
+      "playerStatistics": "Статистика игроков",
+      "leaderboards": "Таблицы лидеров",
+      "leaderboard": "Таблица лидеров",
+      "value1RankedPlayersInValue2TiesShareAPosition": "Игроков: {{value1}} за период {{value2}}. При равенстве игроки делят место.",
+      "allTime": "За всё время",
+      "jumpToMe": "Перейти к моей позиции",
+      "takesYouToYourRowOnThisBoard": "Перейти к вашей строке в этой таблице",
+      "playerIsNotRankedOnThisBoard": "Игрок не попал в эту таблицу лидеров",
+      "couldNotFindPlayerOnThisBoard": "Игрок не найден в этой таблице лидеров",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} занимает {{value2}} место из {{value3}} в категории «{{value4}}» {{value5}}.",
+      "inTheLast7Days": "за последние 7 дней",
+      "inTheLast30Days": "за последние 30 дней",
+      "value1MoreValue2ToPassTheNextPlayer": "Ещё {{value1}} {{value2}}, чтобы обогнать следующего игрока.",
+      "leaderboardStatistics": "Статистика таблиц лидеров",
+      "more": "Ещё",
+      "leaderboardTimePeriod": "Период таблицы лидеров",
+      "copyLink": "Скопировать ссылку",
+      "linkCopied": "Ссылка скопирована",
+      "couldNotCopyLink": "Не удалось скопировать ссылку",
+      "value1RankedPlayers": "{{value1}} игроков в рейтинге",
+      "position": "Позиция",
+      "player": "Игрок",
+      "leaderboardPages": "Страницы рейтинга",
+      "previousPage": "Предыдущая страница",
+      "pageValue1": "Страница {{value1}}",
+      "nextPage": "Следующая страница",
+      "fullLeaderboardTemporarilyUnavailable": "Полная таблица лидеров временно недоступна"
+    }
+  }
+}

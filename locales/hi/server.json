@@ -2,38 +2,38 @@
   "sections": {
     "api": {
       "text": {
-        "notFound": "Not found"
+        "notFound": "नहीं मिला"
       },
       "commands": {
         "failedToFetchCommands": "आदेश लाने में विफल"
       },
       "creem": {
         "completed": "पुरा होना",
-        "opened": "opened",
+        "opened": "खोला गया",
         "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
-        "nonProductionPaymentEvent": "Non-production payment event",
-        "invalidWebhookSignature": "Invalid webhook signature",
+        "nonProductionPaymentEvent": "गैर-उत्पादन भुगतान घटना",
+        "invalidWebhookSignature": "अमान्य वेबहुक हस्ताक्षर",
         "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "discord": {
         "data": {
           "unauthorized": "अनधिकृत",
-          "invalidResource": "Invalid resource",
-          "dataUnavailable": "Data unavailable"
+          "invalidResource": "अमान्य संसाधन",
+          "dataUnavailable": "डेटा अनुपलब्ध"
         },
         "motd": {
           "review": {
             "unauthorized": "अनधिकृत",
             "invalidJsonPayload": "अमान्य JSON पेलोड",
             "youDoNotHavePermissionToReviewMotds": "आपके पास एमओटीडी की समीक्षा करने की अनुमति नहीं है।",
-            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "MOTD अनुरोध {{value1}} को AD के रूप में चिह्नित किया गया। इसे अभी भी मंजूरी की जरूरत है.",
             "approvedMotdRequestValue1": "स्वीकृत MOTD अनुरोध {{value1}}।",
             "requestedRevisionForMotdRequestValue1": "MOTD अनुरोध {{value1}} के लिए अनुरोधित संशोधन।",
             "motdReviewActionFailed": "MOTD समीक्षा कार्रवाई विफल रही."
           }
         },
         "newsletter": {
-          "unauthorized": "unauthorized",
+          "unauthorized": "अनधिकृत",
           "invalidEmail": "invalid_email",
           "rateLimited": "rate_limited",
           "unavailable": "अनुपलब्ध"
@@ -46,14 +46,14 @@
         "all": "सभी"
       },
       "legendUltraHolders": {
-        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
+        "unableToLoadLegendUltraHolders": "Legend Ultra धारकों को लोड करने में असमर्थ"
       },
       "media": {
         "text": {
           "noFilePathProvided": "कोई फ़ाइल पथ प्रदान नहीं किया गया",
           "invalidFilePath": "अमान्य फ़ाइल पथ",
           "fileNotFound": "फ़ाइल प्राप्त नहीं हुई",
-          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
+          "mediaIsTemporarilyUnavailable": "मीडिया अस्थायी रूप से अनुपलब्ध है"
         }
       },
       "monitoring": {
@@ -77,7 +77,7 @@
         }
       },
       "stripe": {
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "गैर-उत्पादन भुगतान घटना",
         "unknownError": "अज्ञात त्रुटि",
         "webhookErrorValue1": "वेबहुक त्रुटि: {{value1}}",
         "received": "प्राप्त",
@@ -85,7 +85,7 @@
         "unhandledEventType": "हैंडल न किया गया इवेंट प्रकार",
         "webhookHandlerFailed": "वेबहुक हैंडलर विफल",
         "completed": "पुरा होना",
-        "opened": "opened",
+        "opened": "खोला गया",
         "lost": "खो गया",
         "pending": "लंबित"
       },
@@ -95,7 +95,7 @@
         "missingSignature": "गुम हस्ताक्षर",
         "invalidSignature": "अमान्य हस्ताक्षर",
         "webhookServiceIsNotConfigured": "वेबहुक सेवा कॉन्फ़िगर नहीं है",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "गैर-उत्पादन भुगतान घटना",
         "webhookProcessingFailed": "वेबहुक प्रोसेसिंग विफल रही"
       },
       "telegram": {
@@ -124,12 +124,12 @@
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development",
-          "invalidEmailAddress": "Invalid email address"
+          "localDevelopment": "स्थानीय विकास",
+          "invalidEmailAddress": "अमान्य ईमेल पता"
         }
       },
       "adminTableSearch": {
-        "invalidNumber": "Invalid number"
+        "invalidNumber": "अमान्य संख्या"
       },
       "auth": {
         "accountLinkHistory": {
@@ -139,65 +139,82 @@
         "accountSafetyPlugin": {
           "accountstepup": "accountStepUp",
           "unauthorized": "अनधिकृत",
-          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
-          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
-          "email": "email",
-          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+          "confirmThisChangeWithACodeFirst": "पहले एक कोड के साथ इस परिवर्तन की पुष्टि करें।",
+          "addAndVerifyAnEmailAddressFirst": "पहले एक ईमेल पता जोड़ें और सत्यापित करें.",
+          "email": "ईमेल",
+          "passAUseridOrAValueToSearchFor": "खोजने के लिए एक उपयोगकर्ता आईडी या मान पास करें।"
         },
         "accountStepUp": {
           "hmac": "HMAC"
         },
         "emailTemplate": {
-          "signInTo6b6t": "Sign in to 6b6t",
-          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
-          "verifyYour6b6tEmail": "Verify your 6b6t email",
-          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
-          "resetYour6b6tPassword": "Reset your 6b6t password",
-          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
-          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
-          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
-          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
-          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+          "signInTo6b6t": "6b6t में साइन इन करें",
+          "enterThisCodeInYourOpenBrowserToSign": "{appName} में {ईमेल} के रूप में साइन इन करने के लिए अपने खुले ब्राउज़र में यह कोड दर्ज करें।",
+          "verifyYour6b6tEmail": "अपना 6b6t ईमेल सत्यापित करें",
+          "enterThisCodeInYourOpenBrowserToVerify": "अपने {appName} खाते के लिए {ईमेल} सत्यापित करने के लिए इस कोड को अपने खुले ब्राउज़र में दर्ज करें।",
+          "resetYour6b6tPassword": "अपना 6b6t पासवर्ड रीसेट करें",
+          "enterThisCodeInYourOpenBrowserToReset": "{appName} पर {ईमेल} का पासवर्ड रीसेट करने के लिए अपने खुले ब्राउज़र में यह कोड दर्ज करें।",
+          "confirmYour6b6tEmailChange": "अपने 6b6t ईमेल परिवर्तन की पुष्टि करें",
+          "enterThisCodeInYourOpenBrowserToConfirm": "{appName} पर {ईमेल} के लिए ईमेल परिवर्तन की पुष्टि करने के लिए इस कोड को अपने खुले ब्राउज़र में दर्ज करें।",
+          "confirmAChangeToYour6b6tAccount": "अपने 6b6t खाते में बदलाव की पुष्टि करें",
+          "someoneSignedInToTheAppnameAccountOfEmail": "{email} के {appName} खाते में साइन इन किया गया कोई व्यक्ति लिंक किए गए खाते को हटा रहा है, ईमेल बदल रहा है, दो-कारक प्रमाणीकरण बंद कर रहा है या खाता हटा रहा है। यह कोड केवल तभी दर्ज करें जब यह आप ही हों। यदि यह आप नहीं हैं, तो कोड साझा न करें और अपने Minecraft खाते का पासवर्ड न बदलें।"
         },
         "linkHistoryPlugin": {
-          "linkHistory": "Link history"
+          "linkHistory": "लिंक इतिहास"
         },
         "options": {
-          "consent": "consent",
-          "useARealEmailAddress": "Use a real email address."
+          "consent": "सहमति",
+          "useARealEmailAddress": "एक रियल ईमेल पते का उपयोग करें।"
         },
         "socialProviders": {
           "telegram": "टेलीग्राम"
         }
       },
       "blogContent": {
-        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+        "minWidth880px820pxCalc100vw40px": "(न्यूनतम-चौड़ाई: 880px) 820px, कैल्क(100vw - 40px)"
       },
       "broadcast": {
         "playerHash": {
           "hmac": "HMAC",
-          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+          "broadcastPlayerValue1Value2": "प्रसारण-खिलाड़ी:{{value1}}:{{value2}}"
         }
+      },
+      "cmsAdminBar": {
+        "homepage": "मुखपृष्ठ",
+        "post": "डाक",
+        "form": "रूप",
+        "legalPage": "कानूनी पेज"
+      },
+      "cmsForms": {
+        "invalidValue": "अमान्य मान.",
+        "thisBoxIsRequired": "यह बॉक्स आवश्यक है.",
+        "true": "सत्य",
+        "false": "असत्य",
+        "thisFieldIsRequired": "यह फ़ील्ड आवश्यक है.",
+        "useAtMostValue1Characters": "अधिकतम {{value1}} वर्णों का उपयोग करें।",
+        "enterAValidEmailAddress": "एक मान्य ईमेल पता दर्ज करें।",
+        "enterANumber": "एक नंबर दर्ज करें.",
+        "chooseOneOfTheOptions": "विकल्पों में से एक चुनें."
       },
       "commandService": {
         "outbox": {
-          "unsupportedCommandRecipient": "Unsupported command recipient",
-          "invalidCommand": "Invalid command",
+          "unsupportedCommandRecipient": "असमर्थित आदेश प्राप्तकर्ता",
+          "invalidCommand": "अमान्य आदेश",
           "delivered": "पहुंचा दिया",
           "completed": "पुरा होना",
-          "deliveryFailed": "Delivery failed",
-          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
-          "rankLookupFailed": "Rank lookup failed"
+          "deliveryFailed": "डिलीवरी विफल रही",
+          "rankGrantReadBackDidNotConfirmValue1": "रैंक अनुदान रीड-बैक ने {{value1}} की पुष्टि नहीं की",
+          "rankLookupFailed": "रैंक लुकअप विफल रहा"
         },
         "reversals": {
-          "skipped": "skipped"
+          "skipped": "को छोड़ दिया"
         },
         "transport": {
           "unknownCommandServiceError": "अज्ञात आदेश सेवा त्रुटि"
         }
       },
       "communityEventAdminSchema": {
-        "anExtensionReasonIsRequired": "An extension reason is required"
+        "anExtensionReasonIsRequired": "एक विस्तार कारण आवश्यक है"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "बहुत सारे अनुरोध",
@@ -219,57 +236,57 @@
         "reachTheGoalByAugust14ToUnlockA": "72 घंटों के लिए 6b6t पर एक शक्तिशाली डुप्लिकेट को अनलॉक करने के लिए 14 अगस्त तक लक्ष्य तक पहुंचें। यदि लक्ष्य बाद में प्राप्त होता है, तो घटना निकटतम अगले सप्ताहांत में चली जाती है।"
       },
       "communityHistory": {
-        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
-        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
+        "useASiteRelativePathOrPublicHttpsImage": "साइट-सापेक्ष पथ या सार्वजनिक HTTPS छवि URL का उपयोग करें",
+        "useAUniqueLowercaseIdWithHyphens": "हाइफ़न के साथ एक अद्वितीय लोअरकेस ID का उपयोग करें"
       },
       "creator": {
         "creemRenewal": {
           "unknownError": "अज्ञात त्रुटि"
         },
         "dailyReport": {
-          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "discordReturnedHttpValue1": "Discord लौट आया HTTP {{value1}}",
           "unknown": "अज्ञात",
           "failed": "असफल",
-          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
-          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "वेबहुक डिलीवरी परिणाम अज्ञात है; पुनः प्रयास करने से पहले Discord सत्यापित करें",
+          "webhookCouldNotBePreparedForDelivery": "वेबहुक डिलीवरी के लिए तैयार नहीं किया जा सका"
         },
         "job": {
-          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "jointrackerLookupFailed": "JoinTracker लुकअप विफल रहा",
           "unknownError": "अज्ञात त्रुटि"
         },
         "store": {
-          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
-          "creatorAttributionWasNotStored": "Creator attribution was not stored",
-          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
-          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
-          "attributionNotFound": "Attribution not found",
-          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
-          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
-          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
-          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
-          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
-          "chooseAnExistingCreator": "Choose an existing creator",
-          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
-          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
-          "creatorIsInactive": "Creator is inactive",
-          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
-          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
-          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+          "learnedFromAnExcludedSelfPurchase": "बहिष्कृत स्व-खरीद से सीखा",
+          "creatorAttributionWasNotStored": "निर्माता का श्रेय संग्रहीत नहीं किया गया था",
+          "creatorRenewalAttributionWasNotStored": "निर्माता नवीनीकरण एट्रिब्यूशन संग्रहीत नहीं किया गया था",
+          "theWebsiteD1BindingDbIsNotConfigured": "वेबसाइट D1 बाइंडिंग DB कॉन्फ़िगर नहीं है",
+          "attributionNotFound": "विशेषता नहीं मिली",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "केवल समीक्षाधीन या लंबित गुणों का ही समाधान किया जा सकता है",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "उपहार प्राप्तकर्ता को श्रेय देने से पहले उसका समाधान कर लें",
+          "enterTheVerifiedEurGrossBeforeAssigning": "असाइन करने से पहले सत्यापित EUR सकल दर्ज करें",
+          "grossIsProviderVerifiedForThisPayment": "इस भुगतान के लिए सकल प्रदाता-सत्यापित है",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "नवीनीकरण केवल उसके विरासत में मिले निर्माता को ही सौंपा जा सकता है",
+          "chooseAnExistingCreator": "किसी मौजूदा निर्माता को चुनें",
+          "verifiedEurGrossExceedsTheAllowedRange": "सत्यापित EUR सकल अनुमत सीमा से अधिक है",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "कोई व्यवस्थापक अपना स्वयं का निर्माता खाता निर्दिष्ट नहीं कर सकता",
+          "creatorIsInactive": "सृजक निष्क्रिय है",
+          "selfPurchaseCannotBeAssigned": "स्व-खरीद असाइन नहीं की जा सकती",
+          "thisAttributionChangedRefreshAndTryAgain": "यह एट्रिब्यूशन बदल गया. ताज़ा करें और पुनः प्रयास करें.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "केवल सत्यापित राशि के साथ समीक्षाधीन प्रारंभिक भुगतानों का पुनः प्रयास किया जा सकता है"
         }
       },
       "creem": {
         "checkout": {
-          "checkoutOperationFailed": "Checkout operation failed",
+          "checkoutOperationFailed": "चेकआउट कार्रवाई विफल रही",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY कॉन्फ़िगर नहीं है",
-          "originHeaderNotFound": "Origin header not found",
-          "bundleNotFound": "Bundle not found",
-          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
-          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
-          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
+          "originHeaderNotFound": "मूल शीर्षलेख नहीं मिला",
+          "bundleNotFound": "बंडल नहीं मिला",
+          "thisBundleIsNotAvailableForCreemCheckout": "यह बंडल Creem चेकआउट के लिए उपलब्ध नहीं है",
+          "thisBundleCannotBeGiftedAtCheckout": "यह बंडल चेकआउट के समय उपहार में नहीं दिया जा सकता",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "चेकआउट से पहले प्राप्तकर्ता के पास सत्यापित गेम प्रोफ़ाइल होनी चाहिए",
+          "targetPlayerIsNotEligibleForThisBundle": "लक्षित खिलाड़ी इस बंडल के लिए पात्र नहीं है",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "परीक्षण प्रस्ताव समाप्त हो गया है. यह ऑफर अब उपलब्ध नहीं है।",
+          "checkoutProductConfigurationMismatch": "चेकआउट उत्पाद कॉन्फ़िगरेशन बेमेल",
+          "failedToCreateCreemCheckoutSession": "Creem चेकआउट सत्र बनाने में विफल"
         }
       },
       "db": {
@@ -289,30 +306,30 @@
         "unknownDiscordError": "अज्ञात Discord त्रुटि"
       },
       "discordEmbed": {
-        "viewPage": "View page"
+        "viewPage": "पेज देखें"
       },
       "effectRuntime": {
-        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
-        "paymentProviderRequestFailed": "Payment provider request failed",
-        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
-        "paymentProviderResponseFailed": "Payment provider response failed",
-        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
-        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex ने एक अमान्य चेकआउट प्रतिक्रिया लौटाई",
+        "paymentProviderRequestFailed": "भुगतान प्रदाता अनुरोध विफल रहा",
+        "tebexRejectedTheCheckoutRequest": "Tebex ने चेकआउट अनुरोध अस्वीकार कर दिया",
+        "paymentProviderResponseFailed": "भुगतान प्रदाता की प्रतिक्रिया विफल रही",
+        "paymentProviderResponseExceedsTheSizeLimit": "भुगतान प्रदाता की प्रतिक्रिया आकार सीमा से अधिक है",
+        "paymentProviderRequestTimedOut": "भुगतान प्रदाता अनुरोध का समय समाप्त हो गया"
       },
       "email": {
-        "text6b6tAccounts": "6b6t Accounts",
-        "text6b6tRecovery": "6b6t Recovery",
-        "text6b6tBillboard": "6b6t Billboard",
-        "text6b6tMerch": "6b6t Merch",
-        "text6b6tSupport": "6b6t Support"
+        "text6b6tAccounts": "6b6t खाते",
+        "text6b6tRecovery": "6b6t पुनर्प्राप्ति",
+        "text6b6tBillboard": "6b6t बिलबोर्ड",
+        "text6b6tMerch": "6b6t मर्चेंट",
+        "text6b6tSupport": "6b6t समर्थन"
       },
       "link": {
         "discord": {
-          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
-          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
-          "noPlayerInfoFoundForUser": "No player info found for user.",
-          "noDiscordIdFoundForUser": "No Discord ID found for user.",
-          "noTokensFoundForUser": "No tokens found for user."
+          "missingRequiredDiscordOauthEnvironmentVariables": "आवश्यक Discord OAuth पर्यावरण चर गुम हैं",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "आवश्यक Discord CLIENT_ID पर्यावरण चर गुम है",
+          "noPlayerInfoFoundForUser": "उपयोगकर्ता के लिए कोई खिलाड़ी जानकारी नहीं मिली.",
+          "noDiscordIdFoundForUser": "उपयोगकर्ता के लिए कोई Discord ID नहीं मिला।",
+          "noTokensFoundForUser": "उपयोगकर्ता के लिए कोई टोकन नहीं मिला."
         },
         "telegramMembership": {
           "unknownError": "अज्ञात त्रुटि"
@@ -340,7 +357,7 @@
           "motd": "MOTD",
           "revisionReason": "संशोधन का कारण",
           "approve": "मंज़ूरी देना",
-          "markAsAd": "Mark as AD",
+          "markAsAd": "AD के रूप में चिह्नित करें",
           "requestRevision": "संशोधन का अनुरोध करें"
         },
         "email": {
@@ -370,7 +387,7 @@
           "checkoutExpired": "चेकआउट_समाप्त",
           "checkoutStarted": "चेकआउट_प्रारंभ",
           "reservationReleasedAfterCheckoutCreationFailed": "चेकआउट निर्माण विफल होने के बाद आरक्षण जारी किया गया",
-          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
+          "markedAsAdInDiscordByValue1": "{{value1}} द्वारा Discord में AD के रूप में चिह्नित किया गया",
           "approvedQueued": "स्वीकृत_कतारबद्ध",
           "revisionRequested": "पुनरीक्षण_अनुरोध",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "भुगतान प्रदाता की ओर से कोई ग्राहक ईमेल उपलब्ध नहीं था",
@@ -384,18 +401,18 @@
           "creemRefundRequestFailedWithStatusValue1": "Creem स्थिति {{value1}} के साथ धनवापसी अनुरोध विफल रहा"
         },
         "validation": {
-          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
-          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
-          "invalidEmailAddress": "Invalid email address"
+          "motdMustBeAtLeast3CharactersLong": "MOTD कम से कम 3 अक्षर लंबा होना चाहिए",
+          "motdMustBeAtMost120CharactersLong": "MOTD अधिकतम 120 अक्षर लंबा होना चाहिए",
+          "invalidEmailAddress": "अमान्य ईमेल पता"
         }
       },
       "printify": {
         "claimValidation": {
-          "invalidEmailAddress": "Invalid email address",
-          "useATwoLetterCountryCode": "Use a two-letter country code",
-          "invalidDate": "Invalid date",
-          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
-          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+          "invalidEmailAddress": "अमान्य ईमेल पता",
+          "useATwoLetterCountryCode": "दो अक्षर वाले देश कोड का उपयोग करें",
+          "invalidDate": "अमान्य दिनांक",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "खरीदारी संबंधी जानकारी: संक्षेप में बताएं कि आपने क्या खरीदा और कब खरीदा (कम से कम 10 अक्षर)।",
+          "purchaseInformationMustBe2000CharactersOrFewer": "खरीदारी की जानकारी 2,000 अक्षर या उससे कम होनी चाहिए."
         },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "भौतिक उत्पाद पूर्ति अभी तक खुली नहीं है।",
@@ -403,25 +420,25 @@
           "unknownError": "अज्ञात त्रुटि",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "भौतिक उत्पाद पूर्ति अस्थायी रूप से अनुपलब्ध है।",
           "submitting": "प्रस्तुत करने",
-          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
-          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
-          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
+          "physicalProductClaimsAreNotAvailableYet": "भौतिक उत्पाद दावे अभी तक उपलब्ध नहीं हैं.",
+          "thisPhysicalProductWasAlreadyFulfilled": "यह भौतिक उत्पाद पहले ही पूरा हो चुका था.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "कोई भी लावारिस भौतिक उत्पाद इस खाते से जुड़ा नहीं है।",
           "reserved": "आरक्षित",
-          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
-          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
-          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
-          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
-          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
-          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
-          "requestNotFound": "Request not found.",
-          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
-          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
-          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
-          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
-          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "thisPhysicalProductAlreadyHasAClaim": "इस भौतिक उत्पाद पर पहले से ही दावा है",
+          "physicalProductRequestsAreNotAvailableYet": "भौतिक उत्पाद अनुरोध अभी तक उपलब्ध नहीं हैं.",
+          "chooseAQualifyingPurchaseType": "एक योग्य खरीदारी प्रकार चुनें.",
+          "aRequestForThisProductAlreadyExists": "इस उत्पाद के लिए अनुरोध पहले से मौजूद है.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "इस भौतिक उत्पाद का पहले से ही ऑर्डर या दावा है।",
+          "thisRequestChangedRefreshAndTryAgain": "यह अनुरोध बदल गया. ताज़ा करें और पुनः प्रयास करें.",
+          "requestNotFound": "अनुरोध नहीं मिला.",
+          "thisRequestHasNoFinalEmailToResend": "इस अनुरोध को दोबारा भेजने के लिए कोई अंतिम ईमेल नहीं है।",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "इस अनुरोध की पहले ही समीक्षा की जा चुकी है या प्रक्रियाधीन है।",
+          "addACustomerFacingExplanationForThisDecision": "इस निर्णय के लिए ग्राहक-सामना करने वाला स्पष्टीकरण जोड़ें।",
+          "theEncryptedShippingAddressIsMissing": "एन्क्रिप्टेड शिपिंग पता गायब है.",
+          "physicalProductFulfillmentIsDisabled": "भौतिक उत्पाद पूर्ति अक्षम है.",
           "processing": "प्रसंस्करण",
-          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
-          "historicalRequestChangedDuringReview": "Historical request changed during review"
+          "anotherAdminAlreadyStartedReviewingThisRequest": "एक अन्य व्यवस्थापक ने पहले ही इस अनुरोध की समीक्षा शुरू कर दी है।",
+          "historicalRequestChangedDuringReview": "समीक्षा के दौरान ऐतिहासिक अनुरोध बदल गया"
         },
         "email": {
           "emailDeliveryFailed": "ईमेल वितरण विफल रहा"
@@ -437,12 +454,12 @@
           "legendRankThreePaid1MonthPeriodsMug": "Legend रैंक (तीन भुगतान वाली 1-महीने की अवधि) - मग"
         },
         "notifications": {
-          "merchRequestResubmitted": "Merch request resubmitted",
-          "newMerchRequest": "New merch request",
-          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "merchRequestResubmitted": "व्यापारिक अनुरोध पुनः सबमिट किया गया",
+          "newMerchRequest": "नया व्यापारिक अनुरोध",
+          "aMerchRequestIsWaitingForStaffReview": "एक व्यापारिक अनुरोध कर्मचारियों की समीक्षा की प्रतीक्षा कर रहा है।",
           "player": "खिलाड़ी",
-          "item": "Item",
-          "requestId": "Request ID"
+          "item": "वस्तु",
+          "requestId": "अनुरोध ID"
         }
       },
       "recovery": {
@@ -466,23 +483,23 @@
           "expired": "खत्म हो चुका",
           "error": "गलती",
           "failedToCreateChallenge": "चुनौती पैदा करने में विफल",
-          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "खाता स्वामी बदल गया. वर्तमान स्वामी को सूचित करने के लिए पुनर्प्राप्ति पुनः आरंभ करें।",
           "emailSendFailed": "email_send_failed",
-          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "दैनिक ईमेल सीमा पूरी हो गई. टिकट अभी भी लंबित है और कोई प्रतीक्षा अवधि शुरू नहीं हुई थी। ईमेल डिलीवरी उपलब्ध होने पर स्वामी अधिसूचना पुनः प्रयास करें।",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "स्वामी अधिसूचना वितरित नहीं की जा सकी. टिकट अभी भी लंबित है और कोई प्रतीक्षा अवधि शुरू नहीं हुई थी। ईमेल डिलीवरी उपलब्ध होने पर स्वामी अधिसूचना पुनः प्रयास करें।",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "डिलिवरी के दौरान मालिक की अधिसूचना बदल गई। जारी रखने से पहले ताज़ा करें.",
           "created": "बनाया था",
           "invalidOrExpiredBlockToken": "अमान्य या समाप्त ब्लॉक टोकन.",
           "thisRecoveryAttemptWasAlreadyBlocked": "पुनर्प्राप्ति का यह प्रयास पहले ही अवरुद्ध कर दिया गया था.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "इस चुनौती के लिए छूट अवधि पहले ही समाप्त हो चुकी है और इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "यह पुनर्प्राप्ति चुनौती पहले ही समाप्त हो चुकी है और अब इसे अवरुद्ध नहीं किया जा सकता है।",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "यह पुनर्प्राप्ति प्रयास पहले से ही एक सुपर एडमिन द्वारा अनुमोदित किया गया था और इसे अवरुद्ध नहीं किया जा सकता है।",
-          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "ब्लॉक किए जाने के दौरान यह चुनौती बदल गई. इसकी वर्तमान स्थिति जांचने के लिए रीफ़्रेश करें.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "पुनर्प्राप्ति प्रयास सफलतापूर्वक अवरुद्ध कर दिया गया है.",
           "passed": "उत्तीर्ण",
           "missing": "गुम",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "खाता स्वामी ने इस पुनर्प्राप्ति प्रयास को अवरुद्ध कर दिया है.",
-          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "सत्यापित खाता ईमेल बदल गया. इस टिकट को अस्वीकार करें और वर्तमान मालिक को सूचित करने के लिए एक नया पुनर्प्राप्ति अनुरोध शुरू करें।",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "खाता-स्वामी अधिसूचना पास पहले ही ख़त्म हो चुका था।",
           "gracePeriodChallengeNotFound": "अनुग्रह-अवधि चुनौती नहीं मिली.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "इस पुनर्प्राप्ति प्रयास को खाता स्वामी द्वारा अवरुद्ध कर दिया गया था।",
@@ -490,7 +507,7 @@
           "thisGracePeriodHasAlreadyBeenConsumed": "यह अनुग्रह अवधि पहले ही समाप्त हो चुकी है।",
           "thisGracePeriodWasAlreadyApprovedByASuper": "यह अनुग्रह अवधि पहले ही एक सुपर एडमिन द्वारा अनुमोदित कर दी गई थी।",
           "adminApproved": "admin_approved",
-          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
+          "thisChallengeChangedRefreshAndTryAgain": "ये चुनौती बदल गई. ताज़ा करें और पुनः प्रयास करें.",
           "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "अनुग्रह अवधि स्वीकृत. अनुरोधकर्ता अब पुनर्प्राप्ति जारी रख सकता है."
         },
         "hcaptcha": {
@@ -500,10 +517,10 @@
           "verificationFailed": "सत्यापन में विफल रहा"
         },
         "provider": {
-          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "संग्रहीत स्वामी ईमेल की समीक्षा की आवश्यकता है. गेम-सर्वर ईमेल को सही करने से पहले खाता स्वामित्व सत्यापित करें। वसूली स्वीकृत नहीं हुई।",
           "unavailable": "अनुपलब्ध",
           "found": "मिला",
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "अमान्य ईमेल पता",
           "notFound": "नहीं मिला",
           "base": "आधार",
           "stash": "छिपाने की जगह",
@@ -525,65 +542,65 @@
           "invalid": "अमान्य"
         },
         "validation": {
-          "invalidRecoverySessionToken": "Invalid recovery session token",
-          "enterAValidEmailAddress": "Enter a valid email address",
-          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
-          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidRecoverySessionToken": "अमान्य पुनर्प्राप्ति सत्र टोकन",
+          "enterAValidEmailAddress": "एक मान्य ईमेल पता दर्ज करें",
+          "verificationCodeMustBe6Digits": "सत्यापन कोड 6 अंकों का होना चाहिए",
+          "inGameCodeMustBe6Characters": "इन-गेम कोड 6 अक्षर का होना चाहिए",
+          "invalidEmailAddress": "अमान्य ईमेल पता"
         }
       },
       "requestRateLimit": {
-        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
-        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
+        "tooManyRequestsPleaseTryAgainLater": "बहुत सारे अनुरोध. कृपया बाद में पुन: प्रयास करें।",
+        "temporarilyUnavailablePleaseTryAgainLater": "अस्थाई रूप से अनुपलब्ध। कृपया बाद में पुन: प्रयास करें।"
       },
       "seoUtil": {
         "text6b6t": "6b6t"
       },
       "seo": {
-        "description": "description",
-        "robots": "robots",
+        "description": "विवरण",
+        "robots": "रोबोटों",
         "googlebot": "googlebot"
       },
       "shop": {
         "legendCreditProviders": {
-          "review": "review",
+          "review": "समीक्षा",
           "disputed": "विवादित",
           "refunded": "वापस कर दी",
-          "paid": "paid"
+          "paid": "चुकाया गया"
         },
         "legendCreditStore": {
           "pending": "लंबित"
         },
         "legendUpgradeCheckout": {
-          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+          "legendUpgradeValue1": "Legend अपग्रेड {{value1}}"
         },
         "legend": {
           "legendUltra": "LEGEND ULTRA",
-          "legendUltra2Apex": "LEGEND ULTRA + 2 APEX",
-          "monthly": "MONTHLY",
-          "text3Months": "3 MONTHS"
+          "legendUltra2Apex": "LEGEND अल्ट्रा + 2 APEX",
+          "monthly": "महीने के",
+          "text3Months": "3 महीने"
         },
         "observability": {
           "alarms": {
-            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
-            "value1In1h": "{{value1}} in 1h",
-            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
-            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
-            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
-            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
-            "pendingFor15m": "pending for >15m",
-            "value1In30m": "{{value1}} in 30m",
-            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
-            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
-            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
-            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
-            "conditionCleared": "condition cleared"
+            "value1CreatedValue2CheckoutEvents": "{{value1}} ने / {{value2}} चेकआउट इवेंट बनाए",
+            "value1In1h": "{{value1}} 1 घंटे में",
+            "value1NowVsValue2Baseline": "{{value1}}% अब बनाम {{value2}}% बेसलाइन",
+            "value1Value2In1h": "{{value1}} {{value2}} 1 घंटे में",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} ने 1 घंटे में अस्वीकृत या बड़े अनुरोधों को अस्वीकार कर दिया",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} वेबहुक / {{value2}} सत्र 24 घंटों में",
+            "pendingFor15m": ">15 मी से लंबित है",
+            "value1In30m": "30 मीटर में {{value1}}",
+            "value1ConsentedViewsIn3h": "{{value1}} 3 घंटे में सहमति व्यक्त की गई",
+            "yesterdayReportRowsValue1": "कल की रिपोर्ट पंक्तियाँ={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} 24 घंटे में; 28d माध्यिका {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} परिणाम",
+            "conditionCleared": "स्थिति साफ़ हो गई"
           },
           "record": {
-            "declined": "declined",
+            "declined": "अस्वीकृत",
             "refunded": "वापस कर दी",
             "disputed": "विवादित",
-            "paid": "paid"
+            "paid": "चुकाया गया"
           }
         },
         "ranks": {
@@ -612,14 +629,14 @@
           "eliteToApexUpgrade": "Elite से Apex अपग्रेड"
         },
         "shop": {
-          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
-          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
-          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
-          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
-          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
-          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
-          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
-          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
+          "creatorCodesUseLettersNumbersOr": "निर्माता कोड अक्षरों, संख्याओं, _ या - का उपयोग करते हैं",
+          "usernameMustBeAtLeast3CharactersLong": "उपयोगकर्ता नाम कम से कम 3 अक्षर लंबा होना चाहिए",
+          "usernameMustBeAtMost16CharactersLong": "उपयोगकर्ता नाम अधिकतम 16 अक्षर लंबा होना चाहिए",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "उपयोगकर्ता नाम में केवल अक्षर, अंक, अंडरस्कोर और बिंदु होने चाहिए",
+          "giftSenderMustNotBeEmpty": "उपहार भेजने वाला खाली नहीं होना चाहिए",
+          "giftSenderMustBeAtMost32CharactersLong": "उपहार भेजने वाले की लंबाई अधिकतम 32 अक्षर होनी चाहिए",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "उपहार भेजने वाले में केवल अक्षर, संख्याएँ, अंडरस्कोर, बिंदु और डैश होने चाहिए",
+          "giftMessageMustBeAtMost255CharactersLong": "उपहार संदेश अधिकतम 255 अक्षर लंबा होना चाहिए"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
@@ -627,27 +644,27 @@
       },
       "stats": {
         "playerDiscordEmbed": {
-          "viewStats": "View stats",
-          "leaderboards": "Leaderboards"
+          "viewStats": "आँकड़े देखें",
+          "leaderboards": "लीडरबोर्ड"
         },
         "previewData": {
-          "apex": "apex",
-          "eliteultra": "eliteultra",
-          "primeultra": "primeultra",
-          "elite": "elite",
-          "prime": "prime",
+          "apex": "शीर्ष",
+          "eliteultra": "एलीटअल्ट्रा",
+          "primeultra": "प्राइमअल्ट्रा",
+          "elite": "अभिजात वर्ग",
+          "prime": "मुख्य",
           "default": "गलती करना"
         }
       },
       "tebex": {
         "client": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "अमान्य संख्या"
         },
         "config": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "अमान्य संख्या"
         },
         "intent": {
-          "expectedAGameAccountUuid": "Expected a game account UUID"
+          "expectedAGameAccountUuid": "अपेक्षित खेल खाता UUID"
         }
       }
     }

@@ -3,58 +3,58 @@
     "discordMarkdown": {
       "value1Value2": "{{value1}}{{value2}}",
       "value1": ":{{value1}}:",
-      "user": "@user",
-      "updatesPing": "@Updates Ping"
+      "user": "@пользователь",
+      "updatesPing": "@Обновления Пинг"
     },
     "updateEntry": {
-      "edited": "Edited",
-      "postedBy": "Posted by",
-      "thisUpdateWasPostedWithAttachmentsInDiscord": "This update was posted with attachments in Discord.",
-      "openInDiscord": "Open in Discord"
+      "edited": "Отредактировано",
+      "postedBy": "Автор:",
+      "thisUpdateWasPostedWithAttachmentsInDiscord": "Это обновление было опубликовано с вложениями в Discord.",
+      "openInDiscord": "Открыть в Discord"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
-      "newUpdate": "new update",
-      "justAppeared": "just appeared.",
-      "dismiss": "Dismiss",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
-      "loadMoreResults": "Load more results",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "tryingAgain": "Пробую еще раз…",
+      "tryAgain": "Попробовать снова",
+      "newUpdate": "новое обновление",
+      "justAppeared": "только что появился.",
+      "dismiss": "Увольнять",
+      "searchingUpdates": "Поиск обновлений…",
+      "showingValue1SearchValue2": "Показан {{value1}} поиск {{value2}}.",
+      "loadMoreResults": "Загрузить больше результатов",
+      "noUpdatesMatched": "Нет соответствующих обновлений »",
+      "tryADifferentTermOrClearYourSearch": "Попробуйте другой термин или очистите поиск.",
+      "showAllUpdates": "Показать все обновления"
     },
     "updatesSchema": {
-      "text6b6tUpdates": "6b6t Updates",
-      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Latest 6b6t server changelog posts and update history from Discord."
+      "text6b6tUpdates": "6b6t Обновления",
+      "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Последние записи журнала изменений сервера 6b6t и история обновлений от Discord."
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
-      "searchUpdates": "Search updates",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
-      "search": "Search",
-      "clear": "Clear"
+      "searchServerUpdates": "Поиск обновлений сервера",
+      "searchUpdates": "Поиск обновлений",
+      "suggestedSearches": "Предлагаемые поисковые запросы",
+      "searching": "Идет поиск…",
+      "search": "Поиск",
+      "clear": "Прозрачный"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
-      "latestPost": "Latest post",
-      "loading": "Loading…",
-      "loadMoreValue1": "Load more {{value1}}"
+      "updatesFromValue1": "Обновления от {{value1}}",
+      "latestPost": "Последнее сообщение",
+      "loading": "Загрузка…",
+      "loadMoreValue1": "Загрузить больше {{value1}}"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
-      "joinDiscord": "Join Discord",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
-      "tryAgain": "Try again",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "serverUpdates": "Обновления сервера",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Изменения, исправления и анонсы с официального сайта 6b6t Discord. Сначала самые свежие публикации.",
+      "joinDiscord": "Присоединяйтесь к Discord",
+      "loadingServerUpdates": "Загрузка обновлений сервера…",
+      "updatesAreTemporarilyUnavailable": "Обновления временно недоступны",
+      "tryAgainOrReadTheLatestPostsInThe": "Попробуйте еще раз или прочитайте последние сообщения на официальном сайте Discord.",
+      "tryingAgain": "Пробую еще раз…",
+      "tryAgain": "Попробовать снова",
+      "noUpdatesToShowYet": "Обновлений пока нет",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Последние новости сервера читайте в официальном Discord. Сообщения будут появляться здесь, когда они будут доступны.",
+      "readNewsOnDiscord": "Читайте новости на Discord"
     }
   },
   "page-name": "Обновления 6b6t: журнал изменений и исправления",

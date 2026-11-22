@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "kill few",
+      "killMany": "kill many",
+      "kill": "kill",
+      "kills": "kills",
+      "breadcrumb": "Breadcrumb",
+      "playerStatistics": "Player statistics",
+      "leaderboards": "Leaderboards",
+      "leaderboard": "Leaderboard",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value1}} ranked players in {{value2}}. Ties share a position.",
+      "allTime": "All time",
+      "jumpToMe": "Jump to me",
+      "takesYouToYourRowOnThisBoard": "Takes you to your row on this board",
+      "playerIsNotRankedOnThisBoard": "Player is not ranked on this board",
+      "couldNotFindPlayerOnThisBoard": "Could not find player on this board",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} is {{value2}} of {{value3}} in {{value4}} {{value5}}.",
+      "inTheLast7Days": "in the last 7 days",
+      "inTheLast30Days": "in the last 30 days",
+      "value1MoreValue2ToPassTheNextPlayer": "{{value1}} more {{value2}} to pass the next player.",
+      "leaderboardStatistics": "Leaderboard statistics",
+      "more": "More",
+      "leaderboardTimePeriod": "Leaderboard time period",
+      "copyLink": "Copy link",
+      "linkCopied": "Link copied",
+      "couldNotCopyLink": "Could not copy link",
+      "value1RankedPlayers": "{{value1}} ranked players",
+      "position": "Position",
+      "player": "Player",
+      "leaderboardPages": "Leaderboard pages",
+      "previousPage": "Previous page",
+      "pageValue1": "Page {{value1}}",
+      "nextPage": "Next page",
+      "fullLeaderboardTemporarilyUnavailable": "Full leaderboard temporarily unavailable"
+    }
+  }
+}

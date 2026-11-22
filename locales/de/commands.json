@@ -3,45 +3,45 @@
   "seo-description": "Learn about essential 6b6t commands including /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg and more.",
   "sections": {
     "commandEntry": {
-      "aliases": "Aliases",
-      "example": "Example",
-      "copyExampleForValue1": "Copy example for {{value1}}",
-      "copied": "Copied",
-      "copyExample": "Copy example",
-      "exampleCopied": "Example copied.",
-      "ranks": "Ranks"
+      "aliases": "Aliase",
+      "example": "Beispiel",
+      "copyExampleForValue1": "Kopierbeispiel für {{value1}}",
+      "copied": "Kopiert",
+      "copyExample": "Beispiel kopieren",
+      "exampleCopied": "Beispiel kopiert.",
+      "ranks": "Ränge"
     },
     "commandRankPrefix": {
-      "free": "Free",
+      "free": "Frei",
       "eliteUltra": "Elite Ultra"
     },
     "commandsList": {
-      "bestMatches": "Best matches",
-      "commands": "Commands",
-      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
+      "bestMatches": "Beste Übereinstimmungen",
+      "commands": "Befehle",
+      "theInGameCommandReferenceFor6b6t": "Die Befehlsreferenz im Spiel für 6b6t.",
       "searchCommands": "Search commands...",
-      "commandAliasOrDescription": "Command, alias or description",
-      "clearCommandSearch": "Clear command search",
-      "category": "Category",
-      "allCategories": "All categories",
-      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
-      "command": "Command",
-      "description": "Description",
-      "example": "Example",
-      "ranks": "Ranks",
-      "noCommandsFound": "No commands found",
-      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
-      "resetFilters": "Reset filters",
-      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
-      "compareRanks": "Compare ranks"
+      "commandAliasOrDescription": "Befehl, Alias ​​oder Beschreibung",
+      "clearCommandSearch": "Befehlssuche löschen",
+      "category": "Kategorie",
+      "allCategories": "Alle Kategorien",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t Befehle, Beschreibungen, Anwendungsbeispiele und Ranganforderungen",
+      "command": "Befehl",
+      "description": "Beschreibung",
+      "example": "Beispiel",
+      "ranks": "Ränge",
+      "noCommandsFound": "Keine Befehle gefunden",
+      "tryAnotherSearchCategoryOrRank": "Versuchen Sie es mit einer anderen Suche, Kategorie oder Rangfolge.",
+      "resetFilters": "Filter zurücksetzen",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Beispiele können bearbeitet werden: Ersetzen Sie Spielernamen und -werte durch Ihre eigenen.",
+      "compareRanks": "Vergleichen Sie die Ränge"
     },
     "commandsRankFilter": {
-      "rankRequirement": "Rank requirement"
+      "rankRequirement": "Ranganforderung"
     },
     "page": {
-      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
-      "loadingCommands": "Loading commands…",
-      "text6b6tServerCommands": "6b6t Server Commands"
+      "commandsAreTemporarilyUnavailable": "Befehle sind vorübergehend nicht verfügbar.",
+      "loadingCommands": "Befehle werden geladen…",
+      "text6b6tServerCommands": "6b6t Serverbefehle"
     }
   },
   "filters": {
@@ -49,6 +49,6 @@
     "auth": "Anmeldung",
     "homesAndTeleport": "Homes und Teleportation",
     "hotspots": "Hotspots",
-    "groupChat": "Group chat"
+    "groupChat": "Gruppenchat"
   }
 }

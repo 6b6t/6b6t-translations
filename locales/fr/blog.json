@@ -1,29 +1,29 @@
 {
   "sections": {
     "blogPostContent": {
-      "youtubeVideo": "YouTube video"
+      "youtubeVideo": "Vidéo YouTube"
     },
     "blogSchema": {
       "text6b6t": "6b6t"
     },
     "slug": {
       "page": {
-        "allPosts": "All posts"
+        "allPosts": "Tous les messages"
       }
     },
     "page": {
-      "text6b6tBlog": "6b6t blog",
-      "blog": "Blog",
-      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "News, guides and stories from the 6b6t anarchy server.",
-      "blogPages": "Blog pages",
-      "newerPosts": "Newer posts",
+      "text6b6tBlog": "Blogue 6b6t",
+      "blog": "Blogue",
+      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "Actualités, guides et histoires du serveur d'anarchie 6b6t.",
+      "blogPages": "Pages de blog",
+      "newerPosts": "Articles plus récents",
       "page": "Page",
       "of": "sur",
-      "olderPosts": "Older posts",
-      "theBlogIsTemporarilyUnavailable": "The blog is temporarily unavailable",
-      "reloadThePageToTryAgain": "Reload the page to try again.",
-      "noPostsOnThisPage": "No posts on this page",
-      "goToTheNewestPosts": "Go to the newest posts"
+      "olderPosts": "Articles plus anciens",
+      "theBlogIsTemporarilyUnavailable": "Le blog est temporairement indisponible",
+      "reloadThePageToTryAgain": "Actualisez la page pour réessayer.",
+      "noPostsOnThisPage": "Aucun message sur cette page",
+      "goToTheNewestPosts": "Accédez aux articles les plus récents"
     }
   }
 }

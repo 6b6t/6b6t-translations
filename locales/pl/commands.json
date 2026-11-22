@@ -39,8 +39,8 @@
       "rankRequirement": "Wymagana ranga"
     },
     "page": {
-      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
-      "loadingCommands": "Loading commands…",
+      "commandsAreTemporarilyUnavailable": "Polecenia są chwilowo niedostępne.",
+      "loadingCommands": "Ładowanie poleceń…",
       "text6b6tServerCommands": "Komendy serwera 6b6t"
     }
   },
@@ -49,6 +49,6 @@
     "auth": "Logowanie",
     "homesAndTeleport": "Domy i teleportacja",
     "hotspots": "Hotspoty",
-    "groupChat": "Group chat"
+    "groupChat": "Czat grupowy"
   }
 }

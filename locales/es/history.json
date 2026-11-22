@@ -32,61 +32,61 @@
   "legacy-description": "Cada bloque colocado, cada estructura construida y cada amistad forjada contribuyen a la historia viva de 6b6t. Únete y forma parte de la leyenda.",
   "sections": {
     "historyEventCard": {
-      "storyTags": "Story tags",
-      "openImageValue1": "Open image: {{value1}}",
-      "readTheFullStory": "Read the full story",
+      "storyTags": "Etiquetas de historia",
+      "openImageValue1": "Abrir imagen: {{value1}}",
+      "readTheFullStory": "Leer la historia completa",
       "value1VideoValue2": "{{value1}} — video {{value2}}",
-      "watchOnYoutube": "Watch on YouTube",
-      "sources": "Sources"
+      "watchOnYoutube": "Ver en YouTube",
+      "sources": "Fuentes"
     },
     "historyHero": {
-      "fromTheFirstBlocksInJanuary2022ToThe": "From the first blocks in January 2022 to the builds, clans and events that shaped the world. Explore the stories left behind by the community.",
-      "exploreTheTimeline": "Explore the timeline",
-      "playersGatheredBeneathAnIlluminated6b6tSignAndBeacon": "Players gathered beneath an illuminated 6b6t sign and beacon beams",
-      "oneWorldThousandsOfStories": "One world. Thousands of stories."
+      "fromTheFirstBlocksInJanuary2022ToThe": "Desde los primeros bloques de enero de 2022 hasta las construcciones, clanes y eventos que dieron forma al mundo. Explore las historias dejadas por la comunidad.",
+      "exploreTheTimeline": "Explora la línea de tiempo",
+      "playersGatheredBeneathAnIlluminated6b6tSignAndBeacon": "Los jugadores se reunieron debajo de un letrero iluminado 6b6t y haces de luz.",
+      "oneWorldThousandsOfStories": "Un mundo. Miles de historias."
     },
     "historyLegacy": {
-      "thePeopleBehindTheHistory": "The people behind the history",
-      "everyMilestoneHasPeopleBehindItTheAdministratorsDevelopers": "Every milestone has people behind it. The administrators, developers and players make this world what it is.",
+      "thePeopleBehindTheHistory": "La gente detrás de la historia.",
+      "everyMilestoneHasPeopleBehindItTheAdministratorsDevelopers": "Cada hito tiene personas detrás. Los administradores, desarrolladores y jugadores hacen de este mundo lo que es.",
       "admins": "Administradores",
-      "theOwnerQbastyAndAdminXymbKeptTheServer": "The owner qbasty and admin Xymb kept the server online through month-long periods of low activity and limited financial support.",
+      "theOwnerQbastyAndAdminXymbKeptTheServer": "El propietario qbasty y el administrador Xymb mantuvieron el servidor en línea durante períodos de meses de baja actividad y apoyo financiero limitado.",
       "team": "Equipo",
-      "scarxNeontonightTajinlawAndTheDevelopersBehindTheServer": "ScarX, NeonTonight, Tajinlaw and the developers behind the server’s features helped 6b6t grow to hundreds of players online without a queue.",
+      "scarxNeontonightTajinlawAndTheDevelopersBehindTheServer": "ScarX, NeonTonight, Tajinlaw y los desarrolladores detrás de las funciones del servidor ayudaron a 6b6t a crecer hasta llegar a tener cientos de jugadores en línea sin cola.",
       "players": "Jugadores",
-      "clansLikeLaggangColonizadores555AndThmHaveUnited": "Clans like LagGang, Colonizadores, 555 and THM have united hundreds of players to leave their mark on the server and challenge what is possible.",
+      "clansLikeLaggangColonizadores555AndThmHaveUnited": "Clanes como LagGang, Colonizadores, 555 y THM han unido a cientos de jugadores para dejar su huella en el servidor y desafiar lo que es posible.",
       "joinTheAdventure": "Únete a la aventura",
       "readOurBlog": "Lee nuestro blog"
     },
     "historyTimeline": {
-      "milestonesBuildsUpdatesAndEventsOpenAStoryFor": "Milestones, builds, updates and events. Open a story for more details, images and videos.",
-      "filterByTags": "Filter by tags",
-      "chooseOneOrMoreTagsStoriesMatchingAnySelected": "Choose one or more tags. Stories matching any selected tag are shown.",
-      "allStories": "All stories",
-      "jumpToYear": "Jump to year",
-      "story": "story",
-      "stories": "stories",
-      "noStoriesToShow": "No stories to show.",
-      "noStoriesMatchTheseTagsChooseAnotherTagOr": "No stories match these tags. Choose another tag or show all stories.",
-      "theStoryContinuesWhatWillYouDoNext": "The story continues. What will you do next?"
+      "milestonesBuildsUpdatesAndEventsOpenAStoryFor": "Hitos, compilaciones, actualizaciones y eventos. Abra una historia para más detalles, imágenes y videos.",
+      "filterByTags": "Filtrar por etiquetas",
+      "chooseOneOrMoreTagsStoriesMatchingAnySelected": "Elija una o más etiquetas. Se muestran las historias que coinciden con cualquier etiqueta seleccionada.",
+      "allStories": "Todas las historias",
+      "jumpToYear": "Saltar al año",
+      "story": "historia",
+      "stories": "historias",
+      "noStoriesToShow": "No hay historias que mostrar.",
+      "noStoriesMatchTheseTagsChooseAnotherTagOr": "Ninguna historia coincide con estas etiquetas. Elige otra etiqueta o muestra todas las historias.",
+      "theStoryContinuesWhatWillYouDoNext": "La historia continúa. ¿Qué harás a continuación?"
     },
     "page": {
       "webpage": "PagínaWeb",
-      "value1Webpage": "{{value1}}#webpage",
+      "value1Webpage": "{{value1}}#página web",
       "website": "SitioWeb",
       "text6b6t": "6b6t",
-      "organization": "Organization",
-      "minecraftAnarchyServerEstablishedInJanuary2022": "Minecraft anarchy server established in January 2022",
-      "article": "Article",
-      "value1Article": "{{value1}}#article",
-      "breadcrumblist": "BreadcrumbList",
-      "listitem": "ListItem",
+      "organization": "Organización",
+      "minecraftAnarchyServerEstablishedInJanuary2022": "Minecraft servidor de anarquía establecido en enero de 2022",
+      "article": "Artículo",
+      "value1Article": "{{value1}}#artículo",
+      "breadcrumblist": "Lista de ruta de navegación",
+      "listitem": "Lista de artículos",
       "home": "Inicio",
-      "historyIsTemporarilyUnavailable": "History is temporarily unavailable.",
-      "loadingServerHistory": "Loading server history…",
+      "historyIsTemporarilyUnavailable": "El historial no está disponible temporalmente.",
+      "loadingServerHistory": "Cargando el historial del servidor…",
       "specialThanks": "Agradecimientos especiales",
       "thisPageWasMadePossibleThanksTo": "Esta página fue posible gracias a",
-      "text6b6tTimes": "6b6t Times",
-      "whoHelpedGatherTheHistoricalInformationAndResearchDocumenting": ", who helped gather the historical information and research documenting our server’s journey."
+      "text6b6tTimes": "6b6t Veces",
+      "whoHelpedGatherTheHistoricalInformationAndResearchDocumenting": ", quien ayudó a recopilar información histórica e investigaciones que documentan el viaje de nuestro servidor."
     }
   }
 }

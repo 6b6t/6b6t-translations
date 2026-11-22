@@ -23,11 +23,11 @@
   "sections": {
     "faq": {
       "faq": {
-        "frequentlyAskedQuestions": "Frequently Asked Questions",
-        "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
+        "frequentlyAskedQuestions": "Sıkça Sorulan Sorular",
+        "howToJoinAndPlayOnThe6b6tMinecraft": "6b6t Minecraft anarşi sunucusuna nasıl katılıp oynayabilirsiniz?",
         "stillHaveQuestions": "Hâlâ sorun mu var?",
         "joinOurDiscord": "Discord'umuza katıl",
-        "forHelp": "for help."
+        "forHelp": "yardım için."
       }
     },
     "gallery": {
@@ -66,7 +66,7 @@
       },
       "heroContent": {
         "text6b6t": "6b6t",
-        "minecraftAnarchy": "Minecraft Anarchy",
+        "minecraftAnarchy": "Minecraft Anarşi",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t, kuralsız, cezasız ve sırasız bir survival Minecraft anarşi sunucusudur. Oyuncular, aynı anda 2000 oyuncuyu destekleyen bir dünyada istediklerini yapabilir ve /tpa ile /home gibi komutları kullanabilir.",
         "noRules": "Kural yok",
         "noMapResets": "Harita sıfırlaması yok",
@@ -78,7 +78,7 @@
       },
       "heroSlider": {
         "spawnArea": "Spawn Alanı",
-        "playerBuilds": "Player Builds",
+        "playerBuilds": "Oyuncu Yapıları",
         "baseBuilding": "Üs İnşası",
         "vastLandscapes": "Uçsuz Bucaksız Manzaralar",
         "text6b6tPreviewSpawnArea": "6b6t Önizleme - Spawn Alanı",
@@ -121,8 +121,8 @@
       }
     },
     "page": {
-      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarchy Server",
-      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchy with no queue and a world that has never reset. Join on Java with AnarchyMod or on Bedrock at br.6b6t.org, port 19132.",
+      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarşi Sunucusu",
+      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft kuyruğu olmayan anarşi ve hiç sıfırlanmayan bir dünya. Java üzerinde AnarchyMod ile veya Bedrock üzerinde br.6b6t.org, bağlantı noktası 19132'de katılın.",
       "minecraft": "Minecraft"
     }
   }

@@ -37,11 +37,11 @@
       "shop": "Sklep",
       "vote": "Głosuj",
       "status": "Status",
-      "anarchyMod": "Anarchy Mod",
+      "anarchyMod": "Mod Anarchii",
       "updates": "Aktualizacje",
       "discover": "Odkrywaj",
       "history": "Historia",
-      "blog": "Blog",
+      "blog": "Bloga",
       "search": "Szukaj",
       "hytale": "Hytale",
       "antispam": "Antyspam",
@@ -52,10 +52,10 @@
       "community": "Społeczność",
       "discord": "Discord",
       "youtube": "YouTube",
-      "xTwitter": "X / Twitter",
+      "xTwitter": "X/Twitter",
       "reddit": "Reddit",
       "tiktok": "TikTok",
-      "instagram": "Instagram",
+      "instagram": "Instagrama",
       "telegram": "Telegram",
       "helpLegal": "Pomoc i informacje prawne",
       "contact": "Kontakt",
@@ -73,32 +73,32 @@
       "closeImage": "Zamknij obraz",
       "previousImage": "Poprzedni obraz",
       "nextImage": "Następny obraz",
-      "credit": "Credit:",
+      "credit": "Kredyt:",
       "value1Value2": "{{value1}}{{value2}}"
     },
     "homeV2Media": {
       "text6b6tShorts": "Shortsy 6b6t",
       "text6b6tOnYoutube": "6b6t na YouTube.",
       "youtubeChannel": "Kanał YouTube",
-      "videosAreTemporarilyUnavailable": "Videos are temporarily unavailable.",
-      "loadingVideos": "Loading videos…",
-      "noVideosToShow": "No videos to show.",
-      "selectAShortToWatch": "Select a Short to watch.",
+      "videosAreTemporarilyUnavailable": "Filmy są chwilowo niedostępne.",
+      "loadingVideos": "Ładowanie filmów…",
+      "noVideosToShow": "Brak filmów do pokazania.",
+      "selectAShortToWatch": "Wybierz film Short, który chcesz obejrzeć.",
       "madeByThePlayers": "Stworzone przez graczy",
       "text6b6tGallery": "Galeria 6b6t.",
       "galleryCategory": "Kategoria galerii",
       "all": "wszystkie",
       "latest": "Najnowsze",
-      "featured": "featured",
+      "featured": "wyróżniony",
       "featured2": "Wyróżnione",
       "galleryIsTemporarilyUnavailable": "Galeria jest tymczasowo niedostępna.",
       "loadingCommunityScreenshots": "Wczytywanie zrzutów ekranu społeczności…",
       "noScreenshotsInThisCategory": "Brak zrzutów ekranu w tej kategorii.",
       "openValue1Fullscreen": "Otwórz {{value1}} na pełnym ekranie",
-      "load": "Load",
-      "more": "more",
-      "photo": "photo",
-      "photos": "photos"
+      "load": "Obciążenie",
+      "more": "więcej",
+      "photo": "zdjęcie",
+      "photos": "zdjęcia"
     },
     "homeV2MobileAccount": {
       "profile": "Profil",
@@ -116,7 +116,7 @@
       "hytale": "Hytale",
       "updates": "Aktualizacje",
       "history": "Historia",
-      "blog": "Blog",
+      "blog": "Bloga",
       "antispam": "Antyspam",
       "vote": "Głosuj",
       "accountRecovery": "Odzyskiwanie konta",
@@ -139,8 +139,8 @@
       "openNavigationMenu": "Otwórz menu nawigacji"
     },
     "homeV2ShortCard": {
-      "playValue1": "Play {{value1}}",
-      "watchThis6b6tShortCloseThePlayerToStop": "Watch this 6b6t Short. Close the player to stop playback.",
+      "playValue1": "Odtwórz {{value1}}",
+      "watchThis6b6tShortCloseThePlayerToStop": "Obejrzyj ten krótki film 6b6t. Zamknij odtwarzacz, aby zatrzymać odtwarzanie.",
       "watchOnYoutube": "Obejrzyj na YouTube"
     },
     "homeV2": {
@@ -211,7 +211,7 @@
       "mojangBlockedStandardJavaConnectionsTo6b6tInstallThe": "Mojang zablokował standardowe połączenia Java z 6b6t. Zainstaluj oficjalnego moda w profilu Fabric, a następnie uruchom Minecraft i wybierz 6b6t w trybie wieloosobowym.",
       "getAnarchyMod": "Pobierz Anarchy Mod",
       "viewSource": "Zobacz kod źródłowy",
-      "fabricJava": "Fabric · Java",
+      "fabricJava": "Tkanina · Java",
       "javaServerAddress": "Adres serwera Java",
       "serverAddress": "Adres serwera",
       "theOfficialAnarchyModAdds6b6tToYourServer": "Oficjalny Anarchy Mod automatycznie dodaje 6b6t do listy serwerów.",
@@ -227,8 +227,8 @@
     },
     "page": {
       "homepageV2Preview6b6t": "Podgląd strony głównej v2 | 6b6t",
-      "robots": "robots",
-      "noindexNofollow": "noindex,nofollow"
+      "robots": "roboty",
+      "noindexNofollow": "noindex, nofollow"
     }
   }
 }

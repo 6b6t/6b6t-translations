@@ -111,6 +111,10 @@
           "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
           "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
         },
+        "cmsForms": {
+          "ready": "ready",
+          "unavailable": "unavailable"
+        },
         "creatorAdmin": {
           "theChangeFailed": "The change failed",
           "invalidEmailAddress": "Invalid email address"
@@ -181,6 +185,10 @@
         },
         "antispam": {
           "antispamMessagesValue1": "antispam_messages:{{value1}}"
+        },
+        "cmsForms": {
+          "invalid": "invalid",
+          "sent": "sent"
         },
         "cms": {
           "theCmsValue1RequestFailed": "The CMS {{value1}} request failed",
@@ -534,11 +542,20 @@
       "viewRanks": "View ranks"
     },
     "content": {
+      "cmsAdminBar": {
+        "text6b6tCms": "6b6t CMS"
+      },
       "cmsPreviewBanner": {
         "cmsPreview": "CMS preview",
         "draftPreview": "Draft preview",
         "saveInTheCmsToRefreshThisLinkExpires": "Save in the CMS to refresh. This link expires after 15 minutes.",
         "exitPreview": "Exit preview"
+      },
+      "cmsRichTextBlocks": {
+        "copyValue1": "Copy {{value1}}",
+        "copied": "Copied",
+        "copy": "Copy",
+        "copied2": "Copied."
       },
       "legalPage": {
         "thisPageIsTemporarilyUnavailableContact": "This page is temporarily unavailable. Contact",
@@ -1401,25 +1418,48 @@
       "playerProfileContent": {
         "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
         "loadingPlayerTheme": "Loading player theme…",
-        "backToLeaderboards": "Back to leaderboards",
-        "memberSince": "Member since",
+        "text7Days": "7 days",
+        "text30Days": "30 days",
+        "allTime": "All time",
+        "theLast7Days": "the last 7 days",
+        "theLast30Days": "the last 30 days",
+        "profileBreadcrumb": "Profile breadcrumb",
+        "playerStatistics": "Player statistics",
+        "memberSinceValue1": "Member since {{value1}}",
+        "copyLink": "Copy link",
+        "linkCopied": "Link copied",
+        "couldNotCopyLink": "Could not copy link",
         "fromBeforeThe22May2026Reset": "From before the 22 May 2026 reset",
+        "last7Days": "Last 7 days",
+        "last30Days": "Last 30 days",
+        "profileStatisticPeriod": "Profile statistic period",
         "playTime": "play_time",
         "kills": "kills",
         "deaths": "deaths",
-        "allTime": "all time",
-        "recordedStatistics": "Recorded statistics",
+        "kd": "kd",
+        "walkedDistance": "walked_distance",
+        "allStats": "All stats",
         "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
-        "aposSStatisticsForTheLast7Days30": "&apos;s statistics for the last 7 days, 30 days, and all time.",
+        "positionsFollowTheSwitchAbove": "Positions follow the switch above.",
+        "statisticsForValue17Days30DaysAllTime": "Statistics for {{value1}}: 7 days, 30 days, all time.",
         "statistic": "Statistic",
-        "text7Days": "7 days",
-        "text30Days": "30 days",
-        "allTime2": "All time",
+        "positionValue1": "Position, {{value1}}",
+        "combat": "Combat",
+        "travel": "Travel",
+        "world": "World",
+        "position": "Position",
+        "jumpToMe": "Jump to me",
+        "text1StatWithNothingYetInValue1Show": "1 stat with nothing yet in {{value1}}. Show",
+        "value1StatsWithNothingYetInValue2Show": "{{value1}} stats with nothing yet in {{value2}}. Show",
+        "biggerThanAllTimeBecauseWeChangedHowThis": "† Bigger than all time because we changed how this stat is counted on 14 Nov 2026. This note goes away on 14 Dec 2026.",
         "noRecordedStatistics": "No recorded statistics",
         "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
         "aboutRecordedTotals": "About recorded totals",
         "theStatsResetOnMay222026WasDeliberate": "The stats reset on May 22, 2026 was deliberate. All-time boards show players active since then.",
-        "playerSkin": "Player skin"
+        "playerSkin": "Player skin",
+        "needsValue1KillsInValue2": "Needs {{value1}} kills in {{value2}}",
+        "nothingInValue1": "Nothing in {{value1}}",
+        "notRankedInValue1": "Not ranked in {{value1}}"
       },
       "playerProfile": {
         "playerStatisticsAreTemporarilyUnavailable": "Player statistics are temporarily unavailable",
@@ -1471,6 +1511,31 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "You can view {{value1}}'s complete stats history, including playtime, kills, deaths, and more right here on their 6b6t profile page.",
         "frequentlyAskedQuestionsAbout": "Frequently Asked Questions about"
       },
+      "profilePositionLabel": {
+        "notRanked": "Not ranked",
+        "rankValue1OfValue2": "Rank #{{value1}} of {{value2}}",
+        "rankValue1OfValue2Value3Behind": "Rank #{{value1}} of {{value2}} · {{value3}} behind",
+        "rankValue1OfValue2Value3ToPass": "Rank #{{value1}} of {{value2}} · {{value3}} to pass"
+      },
+      "profileShopVote": {
+        "value1Value2": "{{value1}}{{value2}}",
+        "rankAndVotes": "Rank and votes",
+        "whatValue1Gives": "What {{value1}} gives",
+        "votesValue1LifetimeValue2ThisMonth": "Votes: {{value1}} lifetime · {{value2}} this month",
+        "voteToday": "Vote today",
+        "rankBenefits": "Rank benefits",
+        "close": "Close",
+        "seeTheShopForRankDetails": "See the shop for rank details.",
+        "seeValue1InTheShop": "See {{value1}} in the shop",
+        "compareAllRanks": "Compare all ranks"
+      },
+      "statsLastSaved": {
+        "statsLastSavedValue1": "Stats last saved {{value1}}",
+        "value1": "({{value1}})",
+        "delayed": "delayed",
+        "countedSince22May2026": "Counted since 22 May 2026",
+        "howWeCount": "How we count"
+      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityIcon": "6b6t Telegram Community Icon",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Linked Telegram and currently a member of the 6b6t group"
@@ -1509,14 +1574,14 @@
         "nextSlide": "Next slide"
       },
       "cookieBanner": {
-        "cookieSettings": "Cookie settings",
         "cookiePreferences": "Cookie preferences",
         "cookieConsent": "Cookie Consent",
         "gdpr": "GDPR",
         "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Accept cookies for analytics and session recordings, or decline to use cookieless analytics. You can change your choice in Cookie settings.",
         "privacyPolicy": "Privacy Policy",
         "decline": "Decline",
-        "acceptAll": "Accept All"
+        "acceptAll": "Accept All",
+        "cookieSettings": "Cookie settings"
       },
       "dialog": {
         "close": "Close"

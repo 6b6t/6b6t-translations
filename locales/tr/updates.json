@@ -3,8 +3,8 @@
     "discordMarkdown": {
       "value1Value2": "{{value1}}{{value2}}",
       "value1": ":{{value1}}:",
-      "user": "@user",
-      "updatesPing": "@Updates Ping"
+      "user": "@kullanıcı",
+      "updatesPing": "@Güncellemeler Ping"
     },
     "updateEntry": {
       "edited": "Düzenlendi",
@@ -13,48 +13,48 @@
       "openInDiscord": "Discord'da Aç"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
+      "tryingAgain": "Tekrar deniyorum…",
       "tryAgain": "Tekrar dene",
       "newUpdate": "yeni güncelleme",
       "justAppeared": "az önce göründü.",
       "dismiss": "Kapat",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
+      "searchingUpdates": "Güncellemeler aranıyor…",
+      "showingValue1SearchValue2": "{{value1}} araması gösteriliyor: {{value2}}.",
       "loadMoreResults": "Daha fazla sonuç yükle",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "noUpdatesMatched": "Eşleşen güncelleme yok \"",
+      "tryADifferentTermOrClearYourSearch": "”. Farklı bir terim deneyin veya aramanızı temizleyin.",
+      "showAllUpdates": "Tüm güncellemeleri göster"
     },
     "updatesSchema": {
       "text6b6tUpdates": "6b6t Güncellemeleri",
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Discord'dan en son 6b6t sunucu değişiklik günlüğü gönderileri ve güncelleme geçmişi."
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
+      "searchServerUpdates": "Sunucu güncellemelerini ara",
       "searchUpdates": "Güncelleme ara",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
+      "suggestedSearches": "Önerilen aramalar",
+      "searching": "Arama…",
       "search": "Ara",
       "clear": "Temizle"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
+      "updatesFromValue1": "{{value1}}'den güncellemeler",
       "latestPost": "Son gönderi",
-      "loading": "Loading…",
+      "loading": "Yükleniyor…",
       "loadMoreValue1": "Daha fazla {{value1}} yükle"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
+      "serverUpdates": "Sunucu güncellemeleri",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Resmi 6b6t Discord adresinden değişiklikler, düzeltmeler ve duyurular. Önce en yeni gönderiler.",
       "joinDiscord": "Discord'a Katıl",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
+      "loadingServerUpdates": "Sunucu güncellemeleri yükleniyor…",
+      "updatesAreTemporarilyUnavailable": "Güncellemeler geçici olarak kullanılamıyor",
+      "tryAgainOrReadTheLatestPostsInThe": "Tekrar deneyin veya resmi Discord adresindeki en son gönderileri okuyun.",
+      "tryingAgain": "Tekrar deniyorum…",
       "tryAgain": "Tekrar dene",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "noUpdatesToShowYet": "Henüz gösterilecek güncelleme yok",
+      "readTheLatestServerNewsInTheOfficialDiscord": "En son sunucu haberlerini resmi Discord adresinden okuyun. Gönderiler mevcut olduğunda burada görünecektir.",
+      "readNewsOnDiscord": "Discord ile ilgili haberleri okuyun"
     }
   },
   "page-name": "6b6t Güncellemeleri: Değişiklikler ve Düzeltmeler",

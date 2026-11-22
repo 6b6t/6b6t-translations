@@ -11,41 +11,41 @@
       "result": "परिणाम",
       "blocked": "अवरोधित",
       "success": "सफलता",
-      "recoveryProgress": "Recovery progress"
+      "recoveryProgress": "पुनर्प्राप्ति प्रगति"
     },
     "recoverForm": {
-      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} Please wait {{value2}} minute{{value3}} before trying again.",
-      "networkErrorPleaseTryAgain": "Network error. Please try again.",
-      "enterYourUsernameToCheckGracePeriodStatus": "Enter your username to check grace period status.",
-      "accountRecoveryForm": "Account recovery form",
-      "startWithYourUsername": "Start with your username",
-      "enterTheAccountYouWantToRecover": "Enter the account you want to recover."
+      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} कृपया दोबारा प्रयास करने से पहले {{value2}} मिनट{{value3}} प्रतीक्षा करें।",
+      "networkErrorPleaseTryAgain": "नेटवर्क त्रुटि। कृपया पुन: प्रयास करें।",
+      "enterYourUsernameToCheckGracePeriodStatus": "अनुग्रह अवधि की स्थिति जांचने के लिए अपना उपयोगकर्ता नाम दर्ज करें।",
+      "accountRecoveryForm": "खाता पुनर्प्राप्ति प्रपत्र",
+      "startWithYourUsername": "अपने उपयोगकर्ता नाम से प्रारंभ करें",
+      "enterTheAccountYouWantToRecover": "वह खाता दर्ज करें जिसे आप पुनर्प्राप्त करना चाहते हैं।"
     },
     "recoveryFlowStore": {
       "start": "शुरू"
     },
     "recoveryWalkthrough": {
-      "findYourAccount": "Find your account",
+      "findYourAccount": "अपना खाता प्राप्त करें",
       "enterTheUsernameFirstTheFlowChecksWhichRecovery": "पहले उपयोगकर्ता नाम दर्ज करें. प्रवाह जाँचता है कि उस खाते के लिए कौन सा पुनर्प्राप्ति पथ सुरक्षित है।",
       "useTheExactInGameUsername": "सटीक इन-गेम उपयोगकर्ता नाम का उपयोग करें.",
       "completeTheCaptchaOnceBeforeSubmitting": "सबमिट करने से पहले एक बार कैप्चा पूरा कर लें.",
       "ifTheAccountCanStillUseTheNormalEmail": "यदि खाता अभी भी सामान्य ईमेल रीसेट पथ का उपयोग कर सकता है, तो पुनर्प्राप्ति वहां पुनर्निर्देशित हो जाएगी।",
-      "chooseAContactEmail": "Choose a contact email",
+      "chooseAContactEmail": "एक संपर्क ईमेल चुनें",
       "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "नया ईमेल केवल पहचान जांच के बाद ही स्वीकार किया जाता है, इसलिए अपने नियंत्रण वाले इनबॉक्स का उपयोग करें।",
       "useAnEmailYouCanVerifyImmediately": "ऐसे ईमेल का उपयोग करें जिसे आप तुरंत सत्यापित कर सकें।",
       "ifYouStillRememberTheOldEmailProvideIt": "यदि आपको अभी भी पुराना ईमेल याद है, तो मांगे जाने पर उसे प्रदान करें।",
       "securityResponsesStayGenericSoAttackersCannotLearnWhat": "सुरक्षा प्रतिक्रियाएँ सामान्य रहती हैं इसलिए हमलावर यह नहीं जान पाते कि क्या मेल खाता है।",
-      "prepareOwnershipDetails": "Prepare ownership details",
+      "prepareOwnershipDetails": "स्वामित्व विवरण तैयार करें",
       "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "इसका पुख्ता प्रमाण विशिष्ट खाता इतिहास है जिसे कोई अन्य खिलाड़ी नहीं जानता होगा।",
       "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "सहेजे गए घर और समन्वित स्थान वैकल्पिक हैं जब वे आपके पास नहीं हैं।",
       "countriesLastLogoutLocationItemNamesAndOldBase": "देश, अंतिम लॉगआउट स्थान, आइटम नाम और पुराने आधार विवरण स्कोर में मदद कर सकते हैं।",
       "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "केवल वही विवरण सबमिट करें जो आपको वास्तव में याद हो; ग़लत अनुमान अनुरोध को कमज़ोर कर सकते हैं.",
-      "verificationAndReview": "Verification and review",
+      "verificationAndReview": "सत्यापन एवं समीक्षा",
       "ifTheAutomaticScoreIsEnoughYouContinueTo": "यदि स्वचालित स्कोर पर्याप्त है, तो आप सत्यापन जारी रखें। नहीं तो टिकट बन जाता है.",
       "manualReviewTicketsKeepTheProofAttachedForStaff": "मैन्युअल समीक्षा टिकट कर्मचारियों के लिए सबूत संलग्न रखते हैं।",
       "recoveryIsRateLimitedSoDoNotSpamAttempts": "पुनर्प्राप्ति दर सीमित है, इसलिए स्पैम प्रयास न करें।",
       "onceApprovedFinishTheEmailCodeStepAndSet": "एक बार स्वीकृत होने पर, ईमेल कोड चरण पूरा करें और एक नया पासवर्ड सेट करें।",
-      "recoveryGuide": "Recovery guide"
+      "recoveryGuide": "पुनर्प्राप्ति मार्गदर्शिका"
     },
     "steps": {
       "blockedStep": {
@@ -99,7 +99,7 @@
         "required": "(आवश्यक)",
         "nameExampleCom": "name@example.com",
         "inGameRecoveryCode": "इन-गेम रिकवरी कोड",
-        "abc123": "ABC123",
+        "abc123": "एबीसी123",
         "verifyInGameCode": "इन-गेम कोड सत्यापित करें",
         "returnToStart": "प्रारंभ पर लौटें"
       },
@@ -186,10 +186,10 @@
       },
       "startStep": {
         "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
-        "yourminecraftname": "YourMinecraftName",
-        "useTheInGameNameYouUseToJoin": "Use the in-game name you use to join 6b6t.",
+        "yourminecraftname": "आपका माइनक्राफ्टनाम",
+        "useTheInGameNameYouUseToJoin": "6b6t से जुड़ने के लिए आप जिस इन-गेम नाम का उपयोग करते हैं उसका उपयोग करें।",
         "verification": "सत्यापन",
-        "continueRecovery": "Continue recovery"
+        "continueRecovery": "पुनर्प्राप्ति जारी रखें"
       },
       "successStep": {
         "recoveryFlowCompletedForThisSession": "इस सत्र के लिए पुनर्प्राप्ति प्रवाह पूरा हो गया.",
@@ -224,11 +224,11 @@
       }
     },
     "page": {
-      "accountRecovery": "Account recovery",
-      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "Prove ownership of your 6b6t account and restore access. Start with your Minecraft username.",
-      "beforeYouStart": "Before you start",
-      "haveYourExactInGameUsernameReadyUseAn": "Have your exact in-game username ready. Use an email inbox you can access when the recovery flow asks for one.",
-      "forYourSecurityResponsesStayGenericSoTheyDo": "For your security, responses stay generic so they do not reveal which account details matched."
+      "accountRecovery": "खाता पुनर्प्राप्ति",
+      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "अपने 6b6t खाते का स्वामित्व साबित करें और पहुंच बहाल करें। अपने Minecraft उपयोक्तानाम से प्रारंभ करें।",
+      "beforeYouStart": "आपके शुरू करने से पहले",
+      "haveYourExactInGameUsernameReadyUseAn": "अपना सटीक इन-गेम उपयोगकर्ता नाम तैयार रखें। एक ईमेल इनबॉक्स का उपयोग करें जिसे आप पुनर्प्राप्ति प्रवाह द्वारा मांगे जाने पर एक्सेस कर सकते हैं।",
+      "forYourSecurityResponsesStayGenericSoTheyDo": "आपकी सुरक्षा के लिए, प्रतिक्रियाएँ सामान्य रहती हैं ताकि वे यह प्रकट न करें कि किस खाते का विवरण मेल खाता है।"
     },
     "reset": {
       "page": {
@@ -240,7 +240,7 @@
         "idle": "निठल्ला",
         "reset": "रीसेट करें",
         "password": "पासवर्ड",
-        "useYourSecureRecoveryLinkToChooseANew": "Use your secure recovery link to choose a new password for your account.",
+        "useYourSecureRecoveryLinkToChooseANew": "अपने खाते के लिए नया पासवर्ड चुनने के लिए अपने सुरक्षित पुनर्प्राप्ति लिंक का उपयोग करें।",
         "newPassword": "नया पासवर्ड",
         "passwordResetComplete": "पासवर्ड रीसेट पूर्ण",
         "minimum8Characters": "न्यूनतम 8 अक्षर",

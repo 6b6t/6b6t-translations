@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "cmsFormField": {
+      "value1Error": "{{value1}}-त्रुटि",
+      "chooseAnOption": "एक विकल्प चुनें"
+    },
+    "cmsForm": {
+      "thanksYourAnswersWereSent": "धन्यवाद। आपके उत्तर भेज दिये गये।",
+      "send": "भेजना"
+    },
+    "slug": {
+      "page": {
+        "value16b6t": "{{value1}} | 6b6t",
+        "thisFormIsTemporarilyUnavailablePleaseTryAgainLater": "यह फॉर्म अस्थायी रूप से अनुपलब्ध है. कृपया बाद में पुन: प्रयास करें।"
+      }
+    }
+  }
+}

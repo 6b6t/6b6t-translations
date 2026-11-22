@@ -3,13 +3,13 @@
   "seo-description": "Découvrez les commandes essentielles de 6b6t, notamment /tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg et bien d’autres.",
   "sections": {
     "commandEntry": {
-      "aliases": "Aliases",
+      "aliases": "Alias",
       "example": "Exemple",
-      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copyExampleForValue1": "Copier un exemple pour {{value1}}",
       "copied": "Copié",
-      "copyExample": "Copy example",
-      "exampleCopied": "Example copied.",
-      "ranks": "Ranks"
+      "copyExample": "Exemple de copie",
+      "exampleCopied": "Exemple copié.",
+      "ranks": "Rangs"
     },
     "commandRankPrefix": {
       "free": "Gratuit",
@@ -18,29 +18,29 @@
     "commandsList": {
       "bestMatches": "Meilleures correspondances",
       "commands": "Commandes",
-      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
+      "theInGameCommandReferenceFor6b6t": "La référence de commande dans le jeu pour 6b6t.",
       "searchCommands": "Rechercher une commande…",
-      "commandAliasOrDescription": "Command, alias or description",
-      "clearCommandSearch": "Clear command search",
+      "commandAliasOrDescription": "Commande, alias ou description",
+      "clearCommandSearch": "Effacer la recherche de commandes",
       "category": "Catégorie",
-      "allCategories": "All categories",
-      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
+      "allCategories": "Toutes les catégories",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "Commandes 6b6t, descriptions, exemples d'utilisation et exigences de classement",
       "command": "Commande",
       "description": "Description",
       "example": "Exemple",
-      "ranks": "Ranks",
-      "noCommandsFound": "No commands found",
-      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
-      "resetFilters": "Reset filters",
-      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
-      "compareRanks": "Compare ranks"
+      "ranks": "Rangs",
+      "noCommandsFound": "Aucune commande trouvée",
+      "tryAnotherSearchCategoryOrRank": "Essayez une autre recherche, catégorie ou classement.",
+      "resetFilters": "Réinitialiser les filtres",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Les exemples sont modifiables : remplacez les noms et les valeurs des joueurs par les vôtres.",
+      "compareRanks": "Comparez les classements"
     },
     "commandsRankFilter": {
       "rankRequirement": "Grade requis"
     },
     "page": {
-      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
-      "loadingCommands": "Loading commands…",
+      "commandsAreTemporarilyUnavailable": "Les commandes sont temporairement indisponibles.",
+      "loadingCommands": "Chargement des commandes…",
       "text6b6tServerCommands": "Commandes du serveur 6b6t"
     }
   },
@@ -48,7 +48,7 @@
     "allRanks": "Tous les grades",
     "auth": "Authentification",
     "homesAndTeleport": "Résidences et téléportation",
-    "hotspots": "Hotspots",
-    "groupChat": "Group chat"
+    "hotspots": "Points chauds",
+    "groupChat": "Discussion de groupe"
   }
 }

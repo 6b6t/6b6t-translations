@@ -8,52 +8,52 @@
         "failedToFetchCommands": "Komutlar getirilemedi"
       },
       "creem": {
-        "completed": "completed",
-        "opened": "opened",
+        "completed": "tamamlanmış",
+        "opened": "açıldı",
         "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Üretim dışı ödeme olayı",
         "invalidWebhookSignature": "Geçersiz webhook imzası",
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
       "discord": {
         "data": {
           "unauthorized": "Yetkisiz erişim",
-          "invalidResource": "Invalid resource",
-          "dataUnavailable": "Data unavailable"
+          "invalidResource": "Geçersiz kaynak",
+          "dataUnavailable": "Veri mevcut değil"
         },
         "motd": {
           "review": {
             "unauthorized": "Yetkisiz erişim",
             "invalidJsonPayload": "Geçersiz JSON verisi",
             "youDoNotHavePermissionToReviewMotds": "MOTD'leri inceleme izniniz yok.",
-            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "MOTD isteği {{value1}} AD olarak işaretlendi. Hala onaylanması gerekiyor.",
             "approvedMotdRequestValue1": "MOTD talebi {{value1}} onaylandı.",
             "requestedRevisionForMotdRequestValue1": "MOTD talebi {{value1}} için revizyon istendi.",
             "motdReviewActionFailed": "MOTD inceleme işlemi başarısız oldu."
           }
         },
         "newsletter": {
-          "unauthorized": "unauthorized",
+          "unauthorized": "yetkisiz",
           "invalidEmail": "invalid_email",
           "rateLimited": "rate_limited",
-          "unavailable": "unavailable"
+          "unavailable": "müsait değil"
         }
       },
-      "text6b6tOrgMetadataApi": "6b6t.org Metadata API",
-      "online": "online",
+      "text6b6tOrgMetadataApi": "6b6t.org Meta Veriler API",
+      "online": "çevrimiçi",
       "legendSubscribers": {
         "unableToLoadLegendSubscribers": "Legend aboneleri yüklenemedi",
         "all": "tümü"
       },
       "legendUltraHolders": {
-        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
+        "unableToLoadLegendUltraHolders": "Legend Ultra tutucular yüklenemiyor"
       },
       "media": {
         "text": {
           "noFilePathProvided": "Dosya yolu sağlanmadı",
           "invalidFilePath": "Geçersiz dosya yolu",
           "fileNotFound": "Dosya bulunamadı",
-          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
+          "mediaIsTemporarilyUnavailable": "Medya geçici olarak kullanılamıyor"
         }
       },
       "monitoring": {
@@ -72,21 +72,21 @@
           "invalidSignature": "Geçersiz imza",
           "invalidJson": "Geçersiz JSON",
           "unexpectedResource": "Beklenmeyen kaynak",
-          "delivered": "delivered",
+          "delivered": "teslim edilmiş",
           "shipped": "kargoya verildikten sonra,"
         }
       },
       "stripe": {
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Üretim dışı ödeme olayı",
         "unknownError": "Bilinmeyen hata",
         "webhookErrorValue1": "Webhook Hatası: {{value1}}",
         "received": "Alındı",
         "alreadyProcessed": "Zaten işlendi",
         "unhandledEventType": "İşlenmeyen etkinlik türü",
         "webhookHandlerFailed": "Webhook işleyicisi başarısız oldu",
-        "completed": "completed",
-        "opened": "opened",
-        "lost": "lost",
+        "completed": "tamamlanmış",
+        "opened": "açıldı",
+        "lost": "kayıp",
         "pending": "Beklemede"
       },
       "tebex": {
@@ -95,7 +95,7 @@
         "missingSignature": "Eksik imza",
         "invalidSignature": "Geçersiz imza",
         "webhookServiceIsNotConfigured": "Webhook servisi yapılandırılmamış",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Üretim dışı ödeme olayı",
         "webhookProcessingFailed": "Webhook işleme başarısız oldu"
       },
       "telegram": {
@@ -124,12 +124,12 @@
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development",
-          "invalidEmailAddress": "Invalid email address"
+          "localDevelopment": "Yerel kalkınma",
+          "invalidEmailAddress": "Geçersiz e-posta adresi"
         }
       },
       "adminTableSearch": {
-        "invalidNumber": "Invalid number"
+        "invalidNumber": "Geçersiz numara"
       },
       "auth": {
         "accountLinkHistory": {
@@ -139,72 +139,89 @@
         "accountSafetyPlugin": {
           "accountstepup": "accountStepUp",
           "unauthorized": "Yetkisiz erişim",
-          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
-          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
-          "email": "email",
-          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+          "confirmThisChangeWithACodeFirst": "Önce bu değişikliği bir kodla onaylayın.",
+          "addAndVerifyAnEmailAddressFirst": "Önce bir e-posta adresi ekleyin ve doğrulayın.",
+          "email": "e-posta",
+          "passAUseridOrAValueToSearchFor": "Aranacak bir kullanıcı kimliğini veya değeri iletin."
         },
         "accountStepUp": {
           "hmac": "HMAC"
         },
         "emailTemplate": {
-          "signInTo6b6t": "Sign in to 6b6t",
-          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
-          "verifyYour6b6tEmail": "Verify your 6b6t email",
-          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
-          "resetYour6b6tPassword": "Reset your 6b6t password",
-          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
-          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
-          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
-          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
-          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+          "signInTo6b6t": "6b6t'de oturum açın",
+          "enterThisCodeInYourOpenBrowserToSign": "{appName} uygulamasında {email} olarak oturum açmak için açık tarayıcınıza bu kodu girin.",
+          "verifyYour6b6tEmail": "6b6t e-posta adresinizi doğrulayın",
+          "enterThisCodeInYourOpenBrowserToVerify": "{appName} hesabınız için {email} adresini doğrulamak üzere açık tarayıcınıza bu kodu girin.",
+          "resetYour6b6tPassword": "6b6t şifrenizi sıfırlayın",
+          "enterThisCodeInYourOpenBrowserToReset": "{appName} uygulamasında {email} şifresini sıfırlamak için açık tarayıcınıza bu kodu girin.",
+          "confirmYour6b6tEmailChange": "6b6t e-posta değişikliğinizi onaylayın",
+          "enterThisCodeInYourOpenBrowserToConfirm": "{appName} üzerinde {email} için e-posta değişikliğini onaylamak için açık tarayıcınıza bu kodu girin.",
+          "confirmAChangeToYour6b6tAccount": "6b6t hesabınızda yapılan bir değişikliği onaylayın",
+          "someoneSignedInToTheAppnameAccountOfEmail": "{email} uygulamasının {appName} hesabında oturum açan biri bağlı bir hesabı kaldırıyor, e-postayı değiştiriyor, iki faktörlü kimlik doğrulamayı kapatıyor veya hesabı siliyor. Bu kodu yalnızca sizseniz girin. Eğer siz değilseniz kodu paylaşmayın ve Minecraft hesabınızın şifresini değiştirmeyin."
         },
         "linkHistoryPlugin": {
-          "linkHistory": "Link history"
+          "linkHistory": "Bağlantı geçmişi"
         },
         "options": {
-          "consent": "consent",
-          "useARealEmailAddress": "Use a real email address."
+          "consent": "onay",
+          "useARealEmailAddress": "Gerçek bir e-posta adresi kullanın."
         },
         "socialProviders": {
-          "telegram": "Telegram"
+          "telegram": "Telgraf"
         }
       },
       "blogContent": {
-        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+        "minWidth880px820pxCalc100vw40px": "(min-genişlik: 880px) 820px, calc(100vw - 40px)"
       },
       "broadcast": {
         "playerHash": {
           "hmac": "HMAC",
-          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+          "broadcastPlayerValue1Value2": "yayın oynatıcısı:{{value1}}:{{value2}}"
         }
+      },
+      "cmsAdminBar": {
+        "homepage": "Ana sayfa",
+        "post": "Postalamak",
+        "form": "Biçim",
+        "legalPage": "Yasal sayfa"
+      },
+      "cmsForms": {
+        "invalidValue": "Geçersiz değer.",
+        "thisBoxIsRequired": "Bu kutu gereklidir.",
+        "true": "doğru",
+        "false": "YANLIŞ",
+        "thisFieldIsRequired": "Bu alan gereklidir.",
+        "useAtMostValue1Characters": "En fazla {{value1}} karakter kullanın.",
+        "enterAValidEmailAddress": "Geçerli bir e-posta adresi girin.",
+        "enterANumber": "Bir sayı girin.",
+        "chooseOneOfTheOptions": "Seçeneklerden birini seçin."
       },
       "commandService": {
         "outbox": {
-          "unsupportedCommandRecipient": "Unsupported command recipient",
-          "invalidCommand": "Invalid command",
-          "delivered": "delivered",
-          "completed": "completed",
-          "deliveryFailed": "Delivery failed",
-          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
-          "rankLookupFailed": "Rank lookup failed"
+          "unsupportedCommandRecipient": "Desteklenmeyen komut alıcısı",
+          "invalidCommand": "Geçersiz komut",
+          "delivered": "teslim edilmiş",
+          "completed": "tamamlanmış",
+          "deliveryFailed": "Teslimat başarısız oldu",
+          "rankGrantReadBackDidNotConfirmValue1": "Derece verme geri okuması {{value1}}'yi onaylamadı",
+          "rankLookupFailed": "Sıralama araması başarısız oldu"
         },
         "reversals": {
-          "skipped": "skipped"
+          "skipped": "atlandı"
         },
         "transport": {
           "unknownCommandServiceError": "Bilinmeyen komut servisi hatası"
         }
       },
       "communityEventAdminSchema": {
-        "anExtensionReasonIsRequired": "An extension reason is required"
+        "anExtensionReasonIsRequired": "Uzatma nedeni gerekli"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "Çok fazla istek",
         "communityEventIsTemporarilyUnavailable": "Topluluk etkinliği geçici olarak kullanılamıyor"
       },
       "communityEventStore": {
-        "active": "active"
+        "active": "aktif"
       },
       "communityEvent": {
         "rank": "Sıra",
@@ -219,57 +236,57 @@
         "reachTheGoalByAugust14ToUnlockA": "6b6t genelinde 72 saat boyunca güçlü bir dupe açmak için 14 Ağustos'a kadar hedefe ulaşın. Hedefe daha geç ulaşılırsa etkinlik en yakın sonraki hafta sonuna ertelenir."
       },
       "communityHistory": {
-        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
-        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
+        "useASiteRelativePathOrPublicHttpsImage": "Siteye bağlı bir yol veya genel HTTPS resmi URL kullanın",
+        "useAUniqueLowercaseIdWithHyphens": "Kısa çizgilerle birlikte benzersiz bir küçük harf ID kullanın"
       },
       "creator": {
         "creemRenewal": {
           "unknownError": "Bilinmeyen hata"
         },
         "dailyReport": {
-          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "discordReturnedHttpValue1": "Discord şunu döndürdü: HTTP {{value1}}",
           "unknown": "bilinmiyor",
           "failed": "başarısız",
-          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
-          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook teslim sonucu bilinmiyor; yeniden denemeden önce Discord doğrulayın",
+          "webhookCouldNotBePreparedForDelivery": "Webhook teslimat için hazırlanamadı"
         },
         "job": {
-          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "jointrackerLookupFailed": "joinTracker araması başarısız oldu",
           "unknownError": "Bilinmeyen hata"
         },
         "store": {
-          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
-          "creatorAttributionWasNotStored": "Creator attribution was not stored",
-          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
-          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
-          "attributionNotFound": "Attribution not found",
-          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
-          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
-          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
-          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
-          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
-          "chooseAnExistingCreator": "Choose an existing creator",
-          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
-          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
-          "creatorIsInactive": "Creator is inactive",
-          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
-          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
-          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+          "learnedFromAnExcludedSelfPurchase": "Hariç tutulan bir kendi kendine satın alma işleminden öğrenildi",
+          "creatorAttributionWasNotStored": "Yaratıcının atıfları saklanmadı",
+          "creatorRenewalAttributionWasNotStored": "Yaratıcı yenileme ilişkilendirmesi saklanmadı",
+          "theWebsiteD1BindingDbIsNotConfigured": "D1 bağlama veritabanı web sitesi yapılandırılmamış",
+          "attributionNotFound": "İlişkilendirme bulunamadı",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Yalnızca incelenmekte olan veya beklemede olan ilişkilendirmeler çözümlenebilir",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "İlişkilendirmeyi atamadan önce hediye alıcısını çözümleyin",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Atama öncesinde doğrulanmış EUR brüt değerini girin",
+          "grossIsProviderVerifiedForThisPayment": "Brüt bu ödeme için sağlayıcı tarafından doğrulandı",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "Yenileme yalnızca devralınan yaratıcıya atanabilir",
+          "chooseAnExistingCreator": "Mevcut bir yaratıcıyı seçin",
+          "verifiedEurGrossExceedsTheAllowedRange": "Doğrulandı EUR brüt izin verilen aralığı aşıyor",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "Bir yönetici kendi yaratıcı hesabını atayamaz",
+          "creatorIsInactive": "Yaratıcı etkin değil",
+          "selfPurchaseCannotBeAssigned": "Kendi kendine satın alma atanamaz",
+          "thisAttributionChangedRefreshAndTryAgain": "Bu ilişkilendirme değişti. Yenileyin ve tekrar deneyin.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Yalnızca incelenmekte olan ve tutarı doğrulanmış ilk ödemeler yeniden denenebilir"
         }
       },
       "creem": {
         "checkout": {
-          "checkoutOperationFailed": "Checkout operation failed",
+          "checkoutOperationFailed": "Ödeme işlemi başarısız oldu",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY yapılandırılmamış",
-          "originHeaderNotFound": "Origin header not found",
-          "bundleNotFound": "Bundle not found",
-          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
-          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
-          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
+          "originHeaderNotFound": "Kaynak başlığı bulunamadı",
+          "bundleNotFound": "Paket bulunamadı",
+          "thisBundleIsNotAvailableForCreemCheckout": "Bu paket Creem ödeme için mevcut değil",
+          "thisBundleCannotBeGiftedAtCheckout": "Bu paket ödeme sırasında hediye edilemez",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Alıcının ödeme yapmadan önce doğrulanmış bir oyun profiline sahip olması gerekir",
+          "targetPlayerIsNotEligibleForThisBundle": "Hedef oyuncu bu paket için uygun değil",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Deneme teklifinin süresi doldu. Bu teklif artık mevcut değil.",
+          "checkoutProductConfigurationMismatch": "Ödeme ürünü yapılandırması uyumsuzluğu",
+          "failedToCreateCreemCheckoutSession": "Creem ödeme oturumu oluşturulamadı"
         }
       },
       "db": {
@@ -278,9 +295,9 @@
           "unknownError": "Bilinmeyen hata",
           "sessionNotFound": "Oturum bulunamadı",
           "transactionUpdateReturnedNull": "Transaction güncellemesi null döndürdü",
-          "refunded": "refunded",
-          "completed": "completed",
-          "disputed": "disputed"
+          "refunded": "iade edildi",
+          "completed": "tamamlanmış",
+          "disputed": "tartışmalı"
         }
       },
       "discordChangelog": {
@@ -289,30 +306,30 @@
         "unknownDiscordError": "Bilinmeyen Discord hatası"
       },
       "discordEmbed": {
-        "viewPage": "View page"
+        "viewPage": "Sayfayı görüntüle"
       },
       "effectRuntime": {
-        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
-        "paymentProviderRequestFailed": "Payment provider request failed",
-        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
-        "paymentProviderResponseFailed": "Payment provider response failed",
-        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
-        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex geçersiz bir ödeme yanıtı döndürdü",
+        "paymentProviderRequestFailed": "Ödeme sağlayıcı isteği başarısız oldu",
+        "tebexRejectedTheCheckoutRequest": "Tebex ödeme isteğini reddetti",
+        "paymentProviderResponseFailed": "Ödeme sağlayıcısının yanıtı başarısız oldu",
+        "paymentProviderResponseExceedsTheSizeLimit": "Ödeme sağlayıcısının yanıtı boyut sınırını aşıyor",
+        "paymentProviderRequestTimedOut": "Ödeme sağlayıcı isteği zaman aşımına uğradı"
       },
       "email": {
-        "text6b6tAccounts": "6b6t Accounts",
-        "text6b6tRecovery": "6b6t Recovery",
-        "text6b6tBillboard": "6b6t Billboard",
-        "text6b6tMerch": "6b6t Merch",
-        "text6b6tSupport": "6b6t Support"
+        "text6b6tAccounts": "6b6t Hesaplar",
+        "text6b6tRecovery": "6b6t Kurtarma",
+        "text6b6tBillboard": "6b6t Pano",
+        "text6b6tMerch": "6b6t Ürünler",
+        "text6b6tSupport": "6b6t Destek"
       },
       "link": {
         "discord": {
-          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
-          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
-          "noPlayerInfoFoundForUser": "No player info found for user.",
-          "noDiscordIdFoundForUser": "No Discord ID found for user.",
-          "noTokensFoundForUser": "No tokens found for user."
+          "missingRequiredDiscordOauthEnvironmentVariables": "Gerekli Discord OAuth ortam değişkenleri eksik",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Gerekli Discord CLIENT_ID ortam değişkeni eksik",
+          "noPlayerInfoFoundForUser": "Kullanıcıya ait oyuncu bilgisi bulunamadı.",
+          "noDiscordIdFoundForUser": "Kullanıcı için Discord ID bulunamadı.",
+          "noTokensFoundForUser": "Kullanıcı için belirteç bulunamadı."
         },
         "telegramMembership": {
           "unknownError": "Bilinmeyen hata"
@@ -340,14 +357,14 @@
           "motd": "MOTD",
           "revisionReason": "Revizyon nedeni",
           "approve": "Onayla",
-          "markAsAd": "Mark as AD",
+          "markAsAd": "AD olarak işaretle",
           "requestRevision": "Revizyon İste"
         },
         "email": {
           "emailSendFailed": "email_send_failed"
         },
         "manual": {
-          "completed": "completed"
+          "completed": "tamamlanmış"
         },
         "minimessage": {
           "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Desteklenmeyen MiniMessage etiketi <{{value1}}>. Yalnızca renkler, kalın, italik, altı çizili ve üstü çizili kullanılabilir.",
@@ -363,20 +380,20 @@
         },
         "payments": {
           "duplicateCheckoutCompletedWebhookIgnored": "Yinelenen checkout.completed webhook'u yok sayıldı",
-          "refunded": "refunded",
-          "completed": "completed"
+          "refunded": "iade edildi",
+          "completed": "tamamlanmış"
         },
         "queue": {
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "Ödeme oluşturma başarısız olduktan sonra rezervasyon serbest bırakıldı",
-          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
+          "markedAsAdInDiscordByValue1": "Discord içinde {{value1}} tarafından AD olarak işaretlendi",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "Ödeme sağlayıcısından müşteri e-postası alınamadı",
-          "cancelled": "cancelled",
-          "completed": "completed",
-          "active": "active"
+          "cancelled": "iptal edildi",
+          "completed": "tamamlanmış",
+          "active": "aktif"
         },
         "refunds": {
           "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem iade uç noktası yapılandırılmamış; iadeyi Creem üzerinden gerçekleştirin ve webhook üzerinden tekrar deneyin/onaylayın.",
@@ -384,50 +401,50 @@
           "creemRefundRequestFailedWithStatusValue1": "Creem iade talebi {{value1}} durumuyla başarısız oldu"
         },
         "validation": {
-          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
-          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
-          "invalidEmailAddress": "Invalid email address"
+          "motdMustBeAtLeast3CharactersLong": "MOTD en az 3 karakter uzunluğunda olmalıdır",
+          "motdMustBeAtMost120CharactersLong": "MOTD en fazla 120 karakter uzunluğunda olmalıdır",
+          "invalidEmailAddress": "Geçersiz e-posta adresi"
         }
       },
       "printify": {
         "claimValidation": {
-          "invalidEmailAddress": "Invalid email address",
-          "useATwoLetterCountryCode": "Use a two-letter country code",
-          "invalidDate": "Invalid date",
-          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
-          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+          "invalidEmailAddress": "Geçersiz e-posta adresi",
+          "useATwoLetterCountryCode": "İki harfli bir ülke kodu kullanın",
+          "invalidDate": "Geçersiz tarih",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Satın alma bilgileri: Neyi ne zaman satın aldığınızı kısaca açıklayın (en az 10 karakter).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Satın alma bilgileri 2.000 karakter veya daha az olmalıdır."
         },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "Fiziksel ürün tedariki henüz açık değil.",
-          "delivered": "delivered",
+          "delivered": "teslim edilmiş",
           "unknownError": "Bilinmeyen hata",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "Fiziksel ürün tedariki geçici olarak kullanılamıyor.",
-          "submitting": "submitting",
-          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
-          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
-          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
-          "reserved": "reserved",
-          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
-          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
-          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
-          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
-          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
-          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
-          "requestNotFound": "Request not found.",
-          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
-          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
-          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
-          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
-          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
-          "processing": "processing",
-          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
-          "historicalRequestChangedDuringReview": "Historical request changed during review"
+          "submitting": "gönderiyorum",
+          "physicalProductClaimsAreNotAvailableYet": "Fiziksel ürün talepleri henüz mevcut değil.",
+          "thisPhysicalProductWasAlreadyFulfilled": "Bu fiziksel ürün zaten yerine getirilmişti.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "Bu hesaba bağlı sahipsiz hiçbir fiziksel ürün yok.",
+          "reserved": "rezerve",
+          "thisPhysicalProductAlreadyHasAClaim": "Bu fiziksel üründe zaten bir hak talebi var",
+          "physicalProductRequestsAreNotAvailableYet": "Fiziksel ürün talepleri henüz mevcut değil.",
+          "chooseAQualifyingPurchaseType": "Uygun bir satın alma türü seçin.",
+          "aRequestForThisProductAlreadyExists": "Bu ürün için bir talep zaten mevcut.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "Bu fiziksel ürünün zaten bir siparişi veya talebi var.",
+          "thisRequestChangedRefreshAndTryAgain": "Bu istek değişti. Yenileyin ve tekrar deneyin.",
+          "requestNotFound": "İstek bulunamadı.",
+          "thisRequestHasNoFinalEmailToResend": "Bu isteğin yeniden gönderilecek son e-postası yok.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "Bu istek zaten incelendi veya işleniyor.",
+          "addACustomerFacingExplanationForThisDecision": "Bu karar için müşteriye yönelik bir açıklama ekleyin.",
+          "theEncryptedShippingAddressIsMissing": "Şifrelenmiş teslimat adresi eksik.",
+          "physicalProductFulfillmentIsDisabled": "Fiziksel ürün karşılama devre dışı bırakıldı.",
+          "processing": "işleme",
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Başka bir yönetici bu isteği incelemeye zaten başladı.",
+          "historicalRequestChangedDuringReview": "İnceleme sırasında geçmiş istek değiştirildi"
         },
         "email": {
           "emailDeliveryFailed": "E-posta gönderimi başarısız oldu"
         },
         "entitlementAnchor": {
-          "completed": "completed"
+          "completed": "tamamlanmış"
         },
         "historicalProducts": {
           "apexRankPurchaseMousepad": "Apex Rank satın alma — mouse pad",
@@ -437,12 +454,12 @@
           "legendRankThreePaid1MonthPeriodsMug": "Legend Rank (üç ödemeli 1 aylık dönem) — kupa"
         },
         "notifications": {
-          "merchRequestResubmitted": "Merch request resubmitted",
-          "newMerchRequest": "New merch request",
-          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "merchRequestResubmitted": "Ürün isteği yeniden gönderildi",
+          "newMerchRequest": "Yeni ürün isteği",
+          "aMerchRequestIsWaitingForStaffReview": "Bir ürün talebi personelin incelemesini bekliyor.",
           "player": "Oyuncu",
-          "item": "Item",
-          "requestId": "Request ID"
+          "item": "Öğe",
+          "requestId": "Talep ID"
         }
       },
       "recovery": {
@@ -460,29 +477,29 @@
         "gracePeriod": {
           "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Bu kurtarma girişimi, hesap bekleme süresi içinde sunucuya giriş yaptığı için engellendi.",
           "pending": "Beklemede",
-          "consumed": "consumed",
-          "blocked": "blocked",
+          "consumed": "tüketilen",
+          "blocked": "engellendi",
           "notApplicable": "not_applicable",
-          "expired": "expired",
-          "error": "error",
+          "expired": "günü geçmiş",
+          "error": "hata",
           "failedToCreateChallenge": "Doğrulama oluşturulamadı",
-          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Hesap sahibi değişti. Mevcut sahibi bilgilendirmek için kurtarma işlemini yeniden başlatın.",
           "emailSendFailed": "email_send_failed",
-          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
-          "created": "created",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Günlük e-posta sınırına ulaşıldı. Bilet halen beklemede olup herhangi bir bekleme süresi başlatılmamıştır. E-posta teslimi mümkün olduğunda sahip bildirimini yeniden deneyin.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Sahip bildirimi teslim edilemedi. Bilet halen beklemede olup herhangi bir bekleme süresi başlatılmamıştır. E-posta teslimi mümkün olduğunda sahip bildirimini yeniden deneyin.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "Teslim edilirken sahip bildirimi değişti. Devam etmeden önce yenileyin.",
+          "created": "yaratıldı",
           "invalidOrExpiredBlockToken": "Geçersiz veya süresi dolmuş engelleme belirteci.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Bu kurtarma girişimi zaten engellendi.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "Bu doğrulama için bekleme süresi zaten sona erdi ve engellenemez.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Bu kurtarma doğrulaması zaten kullanıldı ve artık engellenemez.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Bu kurtarma girişimi zaten bir süper yönetici tarafından onaylandı ve engellenemez.",
-          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "Bu meydan okuma engellenirken değişti. Mevcut durumunu kontrol etmek için yenileyin.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "Kurtarma girişimi başarıyla engellendi.",
-          "passed": "passed",
+          "passed": "geçti",
           "missing": "eksik",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "Hesap sahibi bu kurtarma girişimini engelledi.",
-          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "Doğrulanmış hesabın e-postası değişti. Bu bileti reddedin ve mevcut sahibi bilgilendirmek için yeni bir kurtarma isteği başlatın.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "Hesap sahibi bildirim izni zaten kullanılmış.",
           "gracePeriodChallengeNotFound": "Ek süre sorgusu bulunamadı.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Bu kurtarma girişimi hesap sahibi tarafından engellendi.",
@@ -496,17 +513,17 @@
         "hcaptcha": {
           "missingSecret": "missing_secret",
           "missingToken": "missing_token",
-          "httpValue1": "http_{{value1}}",
+          "httpValue1": "http__{{value1}}",
           "verificationFailed": "verification_failed"
         },
         "provider": {
-          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
-          "unavailable": "unavailable",
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Depolanan sahibin e-postasının incelenmesi gerekiyor. Oyun sunucusu e-postasını düzeltmeden önce hesap sahipliğini doğrulayın. Kurtarma onaylanmadı.",
+          "unavailable": "müsait değil",
           "found": "bulundu",
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "Geçersiz e-posta adresi",
           "notFound": "not_found",
-          "base": "base",
-          "stash": "stash",
+          "base": "temel",
+          "stash": "saklamak",
           "unitedStates": "Amerika Birleşik Devletleri",
           "california": "Kaliforniya",
           "accountEmailUpdateFailed": "Hesap e-postası güncellemesi başarısız oldu.",
@@ -519,17 +536,17 @@
           "inGameVerificationServiceIsUnavailable": "Oyun içi doğrulama servisi kullanılamıyor."
         },
         "sessions": {
-          "expired": "expired",
-          "exhausted": "exhausted",
-          "valid": "valid",
-          "invalid": "invalid"
+          "expired": "günü geçmiş",
+          "exhausted": "yorgun",
+          "valid": "geçerli",
+          "invalid": "geçersiz"
         },
         "validation": {
-          "invalidRecoverySessionToken": "Invalid recovery session token",
-          "enterAValidEmailAddress": "Enter a valid email address",
-          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
-          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidRecoverySessionToken": "Geçersiz kurtarma oturumu jetonu",
+          "enterAValidEmailAddress": "Geçerli bir e-posta adresi girin",
+          "verificationCodeMustBe6Digits": "Doğrulama kodu 6 haneli olmalıdır",
+          "inGameCodeMustBe6Characters": "Oyun içi kod 6 karakter olmalıdır",
+          "invalidEmailAddress": "Geçersiz e-posta adresi"
         }
       },
       "requestRateLimit": {
@@ -540,22 +557,22 @@
         "text6b6t": "6b6t"
       },
       "seo": {
-        "description": "description",
-        "robots": "robots",
+        "description": "Tanım",
+        "robots": "robotlar",
         "googlebot": "googlebot"
       },
       "shop": {
         "legendCreditProviders": {
-          "review": "review",
-          "disputed": "disputed",
-          "refunded": "refunded",
-          "paid": "paid"
+          "review": "gözden geçirmek",
+          "disputed": "tartışmalı",
+          "refunded": "iade edildi",
+          "paid": "paralı"
         },
         "legendCreditStore": {
           "pending": "Beklemede"
         },
         "legendUpgradeCheckout": {
-          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+          "legendUpgradeValue1": "Legend yükseltme {{value1}}"
         },
         "legend": {
           "legendUltra": "LEGEND ULTRA",
@@ -565,25 +582,25 @@
         },
         "observability": {
           "alarms": {
-            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
-            "value1In1h": "{{value1}} in 1h",
-            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
-            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
-            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
-            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
-            "pendingFor15m": "pending for >15m",
-            "value1In30m": "{{value1}} in 30m",
-            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
-            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
-            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
-            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
-            "conditionCleared": "condition cleared"
+            "value1CreatedValue2CheckoutEvents": "{{value1}} oluşturuldu / {{value2}} ödeme etkinlikleri",
+            "value1In1h": "{{value1}} 1 saat içinde",
+            "value1NowVsValue2Baseline": "Şimdi {{value1}}% ile temel değer {{value2}}% arasında",
+            "value1Value2In1h": "{{value1}} {{value2}} 1 saat içinde",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} 1 saat içinde reddedilen veya aşırı büyük istekler",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} web kancaları / 24 saat içindeki {{value2}} oturumları",
+            "pendingFor15m": "15 milyondan fazla beklemede",
+            "value1In30m": "{{value1}} 30 dk sonra",
+            "value1ConsentedViewsIn3h": "{{value1}} 3 saat içinde izin verilen görüntülemeler",
+            "yesterdayReportRowsValue1": "dün rapor satırları={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} 24 saat içinde; 28d medyan {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} sonuçları",
+            "conditionCleared": "durum temizlendi"
           },
           "record": {
-            "declined": "declined",
-            "refunded": "refunded",
-            "disputed": "disputed",
-            "paid": "paid"
+            "declined": "reddedildi",
+            "refunded": "iade edildi",
+            "disputed": "tartışmalı",
+            "paid": "paralı"
           }
         },
         "ranks": {
@@ -612,14 +629,14 @@
           "eliteToApexUpgrade": "Elite'ten Apex'e yükseltme"
         },
         "shop": {
-          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
-          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
-          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
-          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
-          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
-          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
-          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
-          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
+          "creatorCodesUseLettersNumbersOr": "İçerik oluşturucu kodları harf, rakam, _ veya - kullanır",
+          "usernameMustBeAtLeast3CharactersLong": "Kullanıcı adı en az 3 karakter uzunluğunda olmalıdır",
+          "usernameMustBeAtMost16CharactersLong": "Kullanıcı adı en fazla 16 karakter uzunluğunda olmalıdır",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Kullanıcı adı yalnızca harf, sayı, alt çizgi ve nokta içermelidir",
+          "giftSenderMustNotBeEmpty": "Hediye gönderen alanı boş bırakılmamalıdır",
+          "giftSenderMustBeAtMost32CharactersLong": "Hediyeyi gönderen kişi en fazla 32 karakter uzunluğunda olmalıdır",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Hediyeyi gönderen kişi yalnızca harf, rakam, alt çizgi, nokta ve kısa çizgilerden oluşmalıdır",
+          "giftMessageMustBeAtMost255CharactersLong": "Hediye mesajı en fazla 255 karakter uzunluğunda olmalıdır"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
@@ -627,13 +644,13 @@
       },
       "stats": {
         "playerDiscordEmbed": {
-          "viewStats": "View stats",
-          "leaderboards": "Leaderboards"
+          "viewStats": "İstatistikleri görüntüle",
+          "leaderboards": "Sıralamalar"
         },
         "previewData": {
           "apex": "Apex",
-          "eliteultra": "eliteultra",
-          "primeultra": "primeultra",
+          "eliteultra": "elitultra",
+          "primeultra": "ilk ultra",
           "elite": "Elite",
           "prime": "Prime",
           "default": "varsayılan"
@@ -641,13 +658,13 @@
       },
       "tebex": {
         "client": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Geçersiz numara"
         },
         "config": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Geçersiz numara"
         },
         "intent": {
-          "expectedAGameAccountUuid": "Expected a game account UUID"
+          "expectedAGameAccountUuid": "Bir oyun hesabı bekleniyordu UUID"
         }
       }
     }

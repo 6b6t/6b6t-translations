@@ -2,50 +2,50 @@
   "sections": {
     "phaseIndicator": {
       "start": "Başlangıç",
-      "start2": "start",
+      "start2": "başlangıç",
       "identity": "Kimlik",
-      "intent": "intent",
-      "challenge": "challenge",
+      "intent": "niyet",
+      "challenge": "meydan okumak",
       "verify": "Doğrula",
       "reset": "Sıfırla",
       "result": "Sonuç",
-      "blocked": "blocked",
+      "blocked": "engellendi",
       "success": "başarılı",
-      "recoveryProgress": "Recovery progress"
+      "recoveryProgress": "Kurtarma ilerlemesi"
     },
     "recoverForm": {
-      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} Please wait {{value2}} minute{{value3}} before trying again.",
-      "networkErrorPleaseTryAgain": "Network error. Please try again.",
-      "enterYourUsernameToCheckGracePeriodStatus": "Enter your username to check grace period status.",
-      "accountRecoveryForm": "Account recovery form",
-      "startWithYourUsername": "Start with your username",
-      "enterTheAccountYouWantToRecover": "Enter the account you want to recover."
+      "value1PleaseWaitValue2MinuteValue3BeforeTryingAgain": "{{value1}} Tekrar denemeden önce lütfen {{value2}} dakika{{value3}} bekleyin.",
+      "networkErrorPleaseTryAgain": "Ağ hatası. Lütfen tekrar deneyin.",
+      "enterYourUsernameToCheckGracePeriodStatus": "Ek süre durumunu kontrol etmek için kullanıcı adınızı girin.",
+      "accountRecoveryForm": "Hesap kurtarma formu",
+      "startWithYourUsername": "Kullanıcı adınızla başlayın",
+      "enterTheAccountYouWantToRecover": "Kurtarmak istediğiniz hesabı girin."
     },
     "recoveryFlowStore": {
-      "start": "start"
+      "start": "başlangıç"
     },
     "recoveryWalkthrough": {
-      "findYourAccount": "Find your account",
+      "findYourAccount": "Hesabınızı bulun",
       "enterTheUsernameFirstTheFlowChecksWhichRecovery": "Önce kullanıcı adını girin. Süreç, bu hesap için hangi kurtarma yolunun güvenli olduğunu kontrol eder.",
       "useTheExactInGameUsername": "Tam olarak oyun içi kullanıcı adını kullanın.",
       "completeTheCaptchaOnceBeforeSubmitting": "Göndermeden önce captcha'yı bir kez tamamlayın.",
       "ifTheAccountCanStillUseTheNormalEmail": "Hesap hâlâ normal e-posta sıfırlama yolunu kullanabiliyorsa, kurtarma sizi oraya yönlendirir.",
-      "chooseAContactEmail": "Choose a contact email",
+      "chooseAContactEmail": "Bir iletişim e-postası seçin",
       "theNewEmailIsOnlyAcceptedAfterIdentityChecks": "Yeni e-posta yalnızca kimlik kontrolleri başarılı olduktan sonra kabul edilir, bu yüzden kontrolünüzde olan bir e-posta kutusu kullanın.",
       "useAnEmailYouCanVerifyImmediately": "Hemen doğrulayabileceğiniz bir e-posta kullanın.",
       "ifYouStillRememberTheOldEmailProvideIt": "Eski e-postayı hâlâ hatırlıyorsanız, istendiğinde belirtin.",
       "securityResponsesStayGenericSoAttackersCannotLearnWhat": "Güvenlik yanıtları kasıtlı olarak geneldir, böylece saldırganlar neyin eşleştiğini öğrenemez.",
-      "prepareOwnershipDetails": "Prepare ownership details",
+      "prepareOwnershipDetails": "Sahiplik ayrıntılarını hazırlayın",
       "strongProofIsSpecificAccountHistoryThatAnotherPlayer": "Güçlü kanıt, başka bir oyuncunun bilemeyeceği, hesaba özgü geçmiş bilgilerdir.",
       "savedHomesAndCoordinateLocationsAreOptionalWhenYou": "Kayıtlı evler ve koordinat konumları, elinizde yoksa isteğe bağlıdır.",
       "countriesLastLogoutLocationItemNamesAndOldBase": "Ülkeler, son çıkış konumu, eşya isimleri ve eski üs detayları puanı artırmaya yardımcı olabilir.",
       "onlySubmitDetailsYouActuallyRememberWrongGuessesCan": "Yalnızca gerçekten hatırladığınız detayları girin; yanlış tahminler talebi zayıflatabilir.",
-      "verificationAndReview": "Verification and review",
+      "verificationAndReview": "Doğrulama ve inceleme",
       "ifTheAutomaticScoreIsEnoughYouContinueTo": "Otomatik puan yeterliyse doğrulamaya geçersiniz. Değilse bir talep (ticket) oluşturulur.",
       "manualReviewTicketsKeepTheProofAttachedForStaff": "Manuel inceleme talepleri, kanıtı ekip için ekli tutar.",
       "recoveryIsRateLimitedSoDoNotSpamAttempts": "Kurtarma işlemi hız sınırlıdır, bu yüzden art arda deneme yapmayın.",
       "onceApprovedFinishTheEmailCodeStepAndSet": "Onaylandıktan sonra e-posta kodu adımını tamamlayın ve yeni bir şifre belirleyin.",
-      "recoveryGuide": "Recovery guide"
+      "recoveryGuide": "Kurtarma kılavuzu"
     },
     "steps": {
       "blockedStep": {
@@ -137,11 +137,11 @@
       },
       "publicScoreStep": {
         "overworld": "Overworld",
-        "overworld2": "Overworld",
+        "overworld2": "Dünya üstü",
         "nether": "Nether",
         "nether2": "Nether",
         "end": "End",
-        "end2": "End",
+        "end2": "Son",
         "unknown": "bilinmiyor",
         "notSure": "Emin değilim",
         "none": "Yok",
@@ -186,10 +186,10 @@
       },
       "startStep": {
         "minecraftUsername": "Minecraft Kullanıcı Adı",
-        "yourminecraftname": "YourMinecraftName",
-        "useTheInGameNameYouUseToJoin": "Use the in-game name you use to join 6b6t.",
+        "yourminecraftname": "MinecraftAdınız",
+        "useTheInGameNameYouUseToJoin": "6b6t'e katılmak için kullandığınız oyun içi adı kullanın.",
         "verification": "Doğrulama",
-        "continueRecovery": "Continue recovery"
+        "continueRecovery": "Kurtarmaya devam et"
       },
       "successStep": {
         "recoveryFlowCompletedForThisSession": "Bu oturum için kurtarma süreci tamamlandı.",
@@ -205,9 +205,9 @@
     },
     "block": {
       "page": {
-        "error": "error",
+        "error": "hata",
         "noBlockTokenProvided": "Engelleme token'ı sağlanmadı.",
-        "loading": "loading",
+        "loading": "yükleniyor",
         "success": "başarılı",
         "recoveryAttemptHasBeenBlockedSuccessfully": "Kurtarma girişimi başarıyla engellendi.",
         "failedToBlockRecoveryAttempt": "Kurtarma girişimi engellenemedi.",
@@ -224,23 +224,23 @@
       }
     },
     "page": {
-      "accountRecovery": "Account recovery",
-      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "Prove ownership of your 6b6t account and restore access. Start with your Minecraft username.",
-      "beforeYouStart": "Before you start",
-      "haveYourExactInGameUsernameReadyUseAn": "Have your exact in-game username ready. Use an email inbox you can access when the recovery flow asks for one.",
-      "forYourSecurityResponsesStayGenericSoTheyDo": "For your security, responses stay generic so they do not reveal which account details matched."
+      "accountRecovery": "Hesap kurtarma",
+      "proveOwnershipOfYour6b6tAccountAndRestoreAccess": "6b6t hesabınızın sahipliğini kanıtlayın ve erişimi geri yükleyin. Minecraft kullanıcı adınızla başlayın.",
+      "beforeYouStart": "Başlamadan önce",
+      "haveYourExactInGameUsernameReadyUseAn": "Tam oyun içi kullanıcı adınızı hazır bulundurun. Kurtarma akışı istediğinde erişebileceğiniz bir e-posta gelen kutusu kullanın.",
+      "forYourSecurityResponsesStayGenericSoTheyDo": "Güvenliğiniz için yanıtlar genel kalır ve hangi hesap ayrıntılarının eşleştiğini göstermez."
     },
     "reset": {
       "page": {
-        "error": "error",
+        "error": "hata",
         "noResetTokenProvidedInTheUrl": "URL'de sıfırlama token'ı sağlanmadı.",
-        "loading": "loading",
+        "loading": "yükleniyor",
         "success": "başarılı",
         "passwordHasBeenResetSuccessfully": "Şifre başarıyla sıfırlandı.",
-        "idle": "idle",
+        "idle": "boşta",
         "reset": "Sıfırla",
         "password": "Şifre",
-        "useYourSecureRecoveryLinkToChooseANew": "Use your secure recovery link to choose a new password for your account.",
+        "useYourSecureRecoveryLinkToChooseANew": "Hesabınız için yeni bir şifre seçmek üzere güvenli kurtarma bağlantınızı kullanın.",
         "newPassword": "Yeni Şifre",
         "passwordResetComplete": "Şifre Sıfırlama Tamamlandı",
         "minimum8Characters": "En az 8 karakter",

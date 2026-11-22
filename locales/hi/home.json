@@ -23,11 +23,11 @@
   "sections": {
     "faq": {
       "faq": {
-        "frequentlyAskedQuestions": "Frequently Asked Questions",
-        "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
+        "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्नों",
+        "howToJoinAndPlayOnThe6b6tMinecraft": "6b6t Minecraft अराजकता सर्वर से कैसे जुड़ें और खेलें।",
         "stillHaveQuestions": "क्या आपके पास अभी भी प्रश्न हैं?",
         "joinOurDiscord": "हमारे Discord से जुड़ें",
-        "forHelp": "for help."
+        "forHelp": "मदद के लिए."
       }
     },
     "gallery": {
@@ -66,7 +66,7 @@
       },
       "heroContent": {
         "text6b6t": "6b6t",
-        "minecraftAnarchy": "Minecraft Anarchy",
+        "minecraftAnarchy": "Minecraft अराजकता",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t एक उत्तरजीविता Minecraft अराजकता सर्वर है जिसमें कोई नियम, कोई दंड और कोई कतार नहीं है। खिलाड़ी एक साथ 2000 खिलाड़ियों को सपोर्ट करने वाली दुनिया में जो चाहें कर सकते हैं और /tpa और /home जैसे कमांड का उपयोग कर सकते हैं।",
         "noRules": "कोई नियम नहीं",
         "noMapResets": "मैप रीसेट नहीं होता",
@@ -78,7 +78,7 @@
       },
       "heroSlider": {
         "spawnArea": "स्पॉन क्षेत्र",
-        "playerBuilds": "Player Builds",
+        "playerBuilds": "प्लेयर बनाता है",
         "baseBuilding": "आधार भवन",
         "vastLandscapes": "विशाल परिदृश्य",
         "text6b6tPreviewSpawnArea": "6b6t पूर्वावलोकन - स्पॉन क्षेत्र",
@@ -121,8 +121,8 @@
       }
     },
     "page": {
-      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarchy Server",
-      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchy with no queue and a world that has never reset. Join on Java with AnarchyMod or on Bedrock at br.6b6t.org, port 19132.",
+      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft अराजकता सर्वर",
+      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft अराजकता जिसमें कोई कतार नहीं है और एक ऐसी दुनिया जो कभी भी रीसेट नहीं हुई है। Java पर AnarchyMod के साथ या Bedrock पर br.6b6t.org, पोर्ट 19132 पर जुड़ें।",
       "minecraft": "Minecraft"
     }
   }

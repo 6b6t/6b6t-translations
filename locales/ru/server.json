@@ -2,119 +2,119 @@
   "sections": {
     "api": {
       "text": {
-        "notFound": "Not found"
+        "notFound": "Не найдено"
       },
       "commands": {
-        "failedToFetchCommands": "Failed to fetch commands"
+        "failedToFetchCommands": "Не удалось получить команды."
       },
       "creem": {
-        "completed": "completed",
-        "opened": "opened",
-        "webhookServiceIsNotConfigured": "Webhook service is not configured",
-        "nonProductionPaymentEvent": "Non-production payment event",
-        "invalidWebhookSignature": "Invalid webhook signature",
-        "webhookProcessingFailed": "Webhook processing failed"
+        "completed": "завершенный",
+        "opened": "открыт",
+        "webhookServiceIsNotConfigured": "Служба вебхука не настроена",
+        "nonProductionPaymentEvent": "Непроизводственное платежное событие",
+        "invalidWebhookSignature": "Неверная подпись вебхука",
+        "webhookProcessingFailed": "Обработка вебхука не удалась"
       },
       "discord": {
         "data": {
-          "unauthorized": "Unauthorized",
-          "invalidResource": "Invalid resource",
-          "dataUnavailable": "Data unavailable"
+          "unauthorized": "Несанкционированный",
+          "invalidResource": "Неверный ресурс",
+          "dataUnavailable": "Данные недоступны"
         },
         "motd": {
           "review": {
-            "unauthorized": "Unauthorized",
-            "invalidJsonPayload": "Invalid JSON payload",
-            "youDoNotHavePermissionToReviewMotds": "You do not have permission to review MOTDs.",
-            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
-            "approvedMotdRequestValue1": "Approved MOTD request {{value1}}.",
-            "requestedRevisionForMotdRequestValue1": "Requested revision for MOTD request {{value1}}.",
-            "motdReviewActionFailed": "MOTD review action failed."
+            "unauthorized": "Несанкционированный",
+            "invalidJsonPayload": "Неверная полезная нагрузка JSON.",
+            "youDoNotHavePermissionToReviewMotds": "У вас нет разрешения на просмотр MOTD.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Помечен запрос MOTD {{value1}} как AD. Это все еще требует одобрения.",
+            "approvedMotdRequestValue1": "Одобрен запрос MOTD {{value1}}.",
+            "requestedRevisionForMotdRequestValue1": "Запрошена версия для запроса MOTD {{value1}}.",
+            "motdReviewActionFailed": "MOTD действие по проверке не выполнено."
           }
         },
         "newsletter": {
-          "unauthorized": "unauthorized",
+          "unauthorized": "несанкционированный",
           "invalidEmail": "invalid_email",
           "rateLimited": "rate_limited",
-          "unavailable": "unavailable"
+          "unavailable": "недоступен"
         }
       },
-      "text6b6tOrgMetadataApi": "6b6t.org Metadata API",
-      "online": "online",
+      "text6b6tOrgMetadataApi": "6b6t.org Метаданные API",
+      "online": "онлайн",
       "legendSubscribers": {
-        "unableToLoadLegendSubscribers": "Unable to load legend subscribers",
-        "all": "all"
+        "unableToLoadLegendSubscribers": "Невозможно загрузить подписчиков легенды",
+        "all": "все"
       },
       "legendUltraHolders": {
-        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
+        "unableToLoadLegendUltraHolders": "Невозможно загрузить держатели Legend Ultra."
       },
       "media": {
         "text": {
-          "noFilePathProvided": "No file path provided",
-          "invalidFilePath": "Invalid file path",
-          "fileNotFound": "File not found",
-          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
+          "noFilePathProvided": "Путь к файлу не указан",
+          "invalidFilePath": "Неверный путь к файлу",
+          "fileNotFound": "Файл не найден",
+          "mediaIsTemporarilyUnavailable": "Медиа временно недоступно"
         }
       },
       "monitoring": {
         "errorReport": {
-          "reportIsTooLarge": "Report is too large",
-          "invalidJson": "Invalid JSON",
-          "invalidErrorReport": "Invalid error report",
-          "tooManyReports": "Too many reports",
-          "errorLoggedSuccessfully": "Error logged successfully",
-          "internalServerError": "Internal server error"
+          "reportIsTooLarge": "Отчет слишком большой",
+          "invalidJson": "Неверный JSON",
+          "invalidErrorReport": "Неверный отчет об ошибке",
+          "tooManyReports": "Слишком много отчетов",
+          "errorLoggedSuccessfully": "Ошибка зарегистрирована успешно",
+          "internalServerError": "Внутренняя ошибка сервера"
         }
       },
       "printify": {
         "webhook": {
-          "payloadTooLarge": "Payload too large",
-          "invalidSignature": "Invalid signature",
-          "invalidJson": "Invalid JSON",
-          "unexpectedResource": "Unexpected resource",
-          "delivered": "delivered",
-          "shipped": "shipped"
+          "payloadTooLarge": "Полезная нагрузка слишком велика",
+          "invalidSignature": "Неверная подпись",
+          "invalidJson": "Неверный JSON",
+          "unexpectedResource": "Неожиданный ресурс",
+          "delivered": "доставленный",
+          "shipped": "отправленный"
         }
       },
       "stripe": {
-        "nonProductionPaymentEvent": "Non-production payment event",
-        "unknownError": "Unknown error",
-        "webhookErrorValue1": "Webhook Error: {{value1}}",
-        "received": "Received",
-        "alreadyProcessed": "Already processed",
-        "unhandledEventType": "Unhandled event type",
-        "webhookHandlerFailed": "Webhook handler failed",
-        "completed": "completed",
-        "opened": "opened",
-        "lost": "lost",
-        "pending": "pending"
+        "nonProductionPaymentEvent": "Непроизводственное платежное событие",
+        "unknownError": "Неизвестная ошибка",
+        "webhookErrorValue1": "Ошибка вебхука: {{value1}}",
+        "received": "Полученный",
+        "alreadyProcessed": "Уже обработано",
+        "unhandledEventType": "Тип необработанного события",
+        "webhookHandlerFailed": "Обработчик вебхука не удался",
+        "completed": "завершенный",
+        "opened": "открыт",
+        "lost": "потерянный",
+        "pending": "в ожидании"
       },
       "tebex": {
-        "pending": "pending",
-        "payloadTooLarge": "Payload too large",
-        "missingSignature": "Missing signature",
-        "invalidSignature": "Invalid signature",
-        "webhookServiceIsNotConfigured": "Webhook service is not configured",
-        "nonProductionPaymentEvent": "Non-production payment event",
-        "webhookProcessingFailed": "Webhook processing failed"
+        "pending": "в ожидании",
+        "payloadTooLarge": "Полезная нагрузка слишком велика",
+        "missingSignature": "Отсутствует подпись",
+        "invalidSignature": "Неверная подпись",
+        "webhookServiceIsNotConfigured": "Служба вебхука не настроена",
+        "nonProductionPaymentEvent": "Непроизводственное платежное событие",
+        "webhookProcessingFailed": "Обработка вебхука не удалась"
       },
       "telegram": {
         "webhook": {
-          "missingTelegramWebhookSecret": "Missing TELEGRAM_WEBHOOK_SECRET.",
-          "unauthorizedWebhookRequest": "Unauthorized webhook request.",
-          "missingTelegramChannelId": "Missing TELEGRAM_CHANNEL_ID.",
-          "invalidJsonPayload": "Invalid JSON payload.",
-          "failedToRevokeTelegramPerks": "Failed to revoke Telegram perks.",
-          "failedToRemoveMembershipMapping": "Failed to remove membership mapping.",
-          "failedToUpdateMembershipState": "Failed to update membership state.",
-          "failedToGrantTelegramPerks": "Failed to grant Telegram perks.",
-          "failedToFinalizeTelegramPerksState": "Failed to finalize Telegram perks state."
+          "missingTelegramWebhookSecret": "Отсутствует TELEGRAM_WEBHOOK_SECRET.",
+          "unauthorizedWebhookRequest": "Несанкционированный запрос вебхука.",
+          "missingTelegramChannelId": "Отсутствует TELEGRAM_CHANNEL_ID.",
+          "invalidJsonPayload": "Недопустимая полезная нагрузка JSON.",
+          "failedToRevokeTelegramPerks": "Не удалось отозвать бонусы Telegram.",
+          "failedToRemoveMembershipMapping": "Не удалось удалить сопоставление членства.",
+          "failedToUpdateMembershipState": "Не удалось обновить состояние членства.",
+          "failedToGrantTelegramPerks": "Не удалось предоставить преимущества Telegram.",
+          "failedToFinalizeTelegramPerksState": "Не удалось завершить состояние преимуществ Telegram."
         }
       },
       "uptime": {
-        "invalidOrExcessiveDateRange": "Invalid or excessive date range",
-        "failedToFetchUptimeData": "Failed to fetch uptime data",
-        "unknownError": "Unknown error"
+        "invalidOrExcessiveDateRange": "Неверный или чрезмерный диапазон дат.",
+        "failedToFetchUptimeData": "Не удалось получить данные о времени безотказной работы.",
+        "unknownError": "Неизвестная ошибка"
       },
       "voteLookup": {
         "playerVoteLookupIsNotAvailableYet": "Поиск голосов пока недоступен.",
@@ -124,12 +124,12 @@
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development",
-          "invalidEmailAddress": "Invalid email address"
+          "localDevelopment": "Местное развитие",
+          "invalidEmailAddress": "Неверный адрес электронной почты"
         }
       },
       "adminTableSearch": {
-        "invalidNumber": "Invalid number"
+        "invalidNumber": "Неверный номер"
       },
       "auth": {
         "accountLinkHistory": {
@@ -138,311 +138,328 @@
         },
         "accountSafetyPlugin": {
           "accountstepup": "accountStepUp",
-          "unauthorized": "Unauthorized",
-          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
-          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
-          "email": "email",
-          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+          "unauthorized": "Несанкционированный",
+          "confirmThisChangeWithACodeFirst": "Сначала подтвердите это изменение с помощью кода.",
+          "addAndVerifyAnEmailAddressFirst": "Сначала добавьте и подтвердите адрес электронной почты.",
+          "email": "электронная почта",
+          "passAUseridOrAValueToSearchFor": "Передайте идентификатор пользователя или значение для поиска."
         },
         "accountStepUp": {
           "hmac": "HMAC"
         },
         "emailTemplate": {
-          "signInTo6b6t": "Sign in to 6b6t",
-          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
-          "verifyYour6b6tEmail": "Verify your 6b6t email",
-          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
-          "resetYour6b6tPassword": "Reset your 6b6t password",
-          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
-          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
-          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
-          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
-          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+          "signInTo6b6t": "Войдите в 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Введите этот код в открытом браузере, чтобы войти в {appName} как {email}.",
+          "verifyYour6b6tEmail": "Подтвердите свой адрес электронной почты 6b6t.",
+          "enterThisCodeInYourOpenBrowserToVerify": "Введите этот код в открытый браузер, чтобы подтвердить {email} для своей учетной записи {appName}.",
+          "resetYour6b6tPassword": "Сбросьте пароль 6b6t",
+          "enterThisCodeInYourOpenBrowserToReset": "Введите этот код в открытом браузере, чтобы сбросить пароль для {email} в {appName}.",
+          "confirmYour6b6tEmailChange": "Подтвердите изменение адреса электронной почты 6b6t.",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Введите этот код в открытый браузер, чтобы подтвердить изменение адреса электронной почты для {email} в {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Подтвердите изменение вашей учетной записи 6b6t.",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Кто-то вошел в учетную запись {appName} пользователя {email}, удаляет связанную учетную запись, меняет адрес электронной почты, отключает двухфакторную аутентификацию или удаляет учетную запись. Введите этот код, только если это вы. Если это не вы, не сообщайте код и не меняйте пароль своей учетной записи Minecraft."
         },
         "linkHistoryPlugin": {
-          "linkHistory": "Link history"
+          "linkHistory": "История ссылок"
         },
         "options": {
-          "consent": "consent",
-          "useARealEmailAddress": "Use a real email address."
+          "consent": "согласие",
+          "useARealEmailAddress": "Используйте реальный адрес электронной почты."
         },
         "socialProviders": {
-          "telegram": "Telegram"
+          "telegram": "Телеграмма"
         }
       },
       "blogContent": {
-        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+        "minWidth880px820pxCalc100vw40px": "(минимальная ширина: 880 пикселей) 820 пикселей, расчет (100vw – 40 пикселей)"
       },
       "broadcast": {
         "playerHash": {
           "hmac": "HMAC",
-          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+          "broadcastPlayerValue1Value2": "широковещательный плеер:{{value1}}:{{value2}}"
         }
+      },
+      "cmsAdminBar": {
+        "homepage": "Домашняя страница",
+        "post": "Почта",
+        "form": "Форма",
+        "legalPage": "Юридическая страница"
+      },
+      "cmsForms": {
+        "invalidValue": "Недопустимое значение.",
+        "thisBoxIsRequired": "Этот ящик обязателен.",
+        "true": "истинный",
+        "false": "ЛОЖЬ",
+        "thisFieldIsRequired": "Это поле обязательно к заполнению.",
+        "useAtMostValue1Characters": "Используйте не более {{value1}} символов.",
+        "enterAValidEmailAddress": "Введите действительный адрес электронной почты.",
+        "enterANumber": "Введите номер.",
+        "chooseOneOfTheOptions": "Выберите один из вариантов."
       },
       "commandService": {
         "outbox": {
-          "unsupportedCommandRecipient": "Unsupported command recipient",
-          "invalidCommand": "Invalid command",
-          "delivered": "delivered",
-          "completed": "completed",
-          "deliveryFailed": "Delivery failed",
-          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
-          "rankLookupFailed": "Rank lookup failed"
+          "unsupportedCommandRecipient": "Неподдерживаемый получатель команды",
+          "invalidCommand": "Неверная команда",
+          "delivered": "доставленный",
+          "completed": "завершенный",
+          "deliveryFailed": "Доставка не удалась",
+          "rankGrantReadBackDidNotConfirmValue1": "Повторное чтение присвоения ранга не подтвердило {{value1}}",
+          "rankLookupFailed": "Поиск ранга не удался"
         },
         "reversals": {
-          "skipped": "skipped"
+          "skipped": "пропущен"
         },
         "transport": {
-          "unknownCommandServiceError": "Unknown command service error"
+          "unknownCommandServiceError": "Неизвестная ошибка службы команд"
         }
       },
       "communityEventAdminSchema": {
-        "anExtensionReasonIsRequired": "An extension reason is required"
+        "anExtensionReasonIsRequired": "Укажите причину продления."
       },
       "communityEventRateLimit": {
-        "tooManyRequests": "Too many requests",
-        "communityEventIsTemporarilyUnavailable": "Community event is temporarily unavailable"
+        "tooManyRequests": "Слишком много запросов",
+        "communityEventIsTemporarilyUnavailable": "Мероприятие сообщества временно недоступно"
       },
       "communityEventStore": {
-        "active": "active"
+        "active": "активный"
       },
       "communityEvent": {
-        "rank": "Rank",
+        "rank": "Классифицировать",
         "legend": "Legend",
         "apex": "Apex",
         "elite": "Elite",
-        "purchasedTheUpgradeFromValue1RankToGoldBold": "purchased the upgrade from {{value1}} Rank to <gold><bold>{{value2}} Rank</bold></gold>",
-        "purchasedTheGoldBoldValue1RankBoldGold": "purchased the <gold><bold>{{value1}} Rank</bold></gold>",
+        "purchasedTheUpgradeFromValue1RankToGoldBold": "приобрел обновление с ранга {{value1}} до ранга <gold><bold>{{value2}} </bold></gold>",
+        "purchasedTheGoldBoldValue1RankBoldGold": "приобрел <gold><bold>{{value1}} Ранг</bold></gold>",
         "newlineNewlineNewlineNewlineNewlineValue1NewlineNewlineValue2": "<newline><newline><newline><newline><newline>{{value1}}<newline><newline>{{value2}}<newline>"
       },
       "communityGoal": {
-        "reachTheGoalByAugust14ToUnlockA": "Reach the goal by August 14 to unlock a powerful dupe across 6b6t for 72 hours. If the goal lands later, the event moves to the closest following weekend."
+        "reachTheGoalByAugust14ToUnlockA": "Достигните цели к 14 августа и разблокируйте мощную копию 6b6t на 72 часа. Если гол забит позже, событие переносится на ближайшие выходные."
       },
       "communityHistory": {
-        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
-        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
+        "useASiteRelativePathOrPublicHttpsImage": "Используйте путь относительно сайта или общедоступное изображение HTTPS URL.",
+        "useAUniqueLowercaseIdWithHyphens": "Используйте уникальную строчную букву ID с дефисами."
       },
       "creator": {
         "creemRenewal": {
-          "unknownError": "Unknown error"
+          "unknownError": "Неизвестная ошибка"
         },
         "dailyReport": {
-          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
-          "unknown": "unknown",
-          "failed": "failed",
-          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
-          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+          "discordReturnedHttpValue1": "Discord вернул HTTP {{value1}}",
+          "unknown": "неизвестный",
+          "failed": "неуспешный",
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Результат доставки Webhook неизвестен; проверьте Discord перед повторной попыткой",
+          "webhookCouldNotBePreparedForDelivery": "Webhook не удалось подготовить к доставке"
         },
         "job": {
-          "jointrackerLookupFailed": "JoinTracker lookup failed",
-          "unknownError": "Unknown error"
+          "jointrackerLookupFailed": "Не удалось выполнить поиск в JoinTracker.",
+          "unknownError": "Неизвестная ошибка"
         },
         "store": {
-          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
-          "creatorAttributionWasNotStored": "Creator attribution was not stored",
-          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
-          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
-          "attributionNotFound": "Attribution not found",
-          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
-          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
-          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
-          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
-          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
-          "chooseAnExistingCreator": "Choose an existing creator",
-          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
-          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
-          "creatorIsInactive": "Creator is inactive",
-          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
-          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
-          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+          "learnedFromAnExcludedSelfPurchase": "Узнал из исключенной самостоятельной покупки",
+          "creatorAttributionWasNotStored": "Атрибуция автора не сохранена.",
+          "creatorRenewalAttributionWasNotStored": "Атрибут продления авторства не был сохранен.",
+          "theWebsiteD1BindingDbIsNotConfigured": "База данных привязки веб-сайта D1 не настроена.",
+          "attributionNotFound": "Авторство не найдено",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Решать можно только те атрибуции, которые находятся на рассмотрении или в ожидании.",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Прежде чем назначать атрибуцию, определите получателя подарка.",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Перед назначением введите проверенную сумму EUR.",
+          "grossIsProviderVerifiedForThisPayment": "Валовая сумма для этого платежа подтверждена поставщиком",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "Продление может быть назначено только его унаследованному создателю.",
+          "chooseAnExistingCreator": "Выберите существующего автора",
+          "verifiedEurGrossExceedsTheAllowedRange": "Сумма проверенного EUR превышает допустимый диапазон",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "Администратор не может назначить свою собственную учетную запись создателя.",
+          "creatorIsInactive": "Создатель неактивен",
+          "selfPurchaseCannotBeAssigned": "Самостоятельную покупку нельзя назначить",
+          "thisAttributionChangedRefreshAndTryAgain": "Эта атрибуция изменилась. Обновите и повторите попытку.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Повторную попытку можно выполнить только для первоначальных платежей с подтвержденной суммой, находящихся на рассмотрении."
         }
       },
       "creem": {
         "checkout": {
-          "checkoutOperationFailed": "Checkout operation failed",
-          "creemApiKeyIsNotConfigured": "CREEM_API_KEY is not configured",
-          "originHeaderNotFound": "Origin header not found",
-          "bundleNotFound": "Bundle not found",
-          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
-          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
-          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
+          "checkoutOperationFailed": "Операция оформления заказа не удалась",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY не настроен.",
+          "originHeaderNotFound": "Исходный заголовок не найден",
+          "bundleNotFound": "Пакет не найден",
+          "thisBundleIsNotAvailableForCreemCheckout": "Этот пакет недоступен для оформления заказа Creem.",
+          "thisBundleCannotBeGiftedAtCheckout": "Этот комплект нельзя подарить при оформлении заказа.",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Перед оформлением заказа получатель должен иметь подтвержденный игровой профиль.",
+          "targetPlayerIsNotEligibleForThisBundle": "Целевой игрок не имеет права на этот пакет",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "Срок действия пробного предложения истек. Это предложение больше не доступно.",
+          "checkoutProductConfigurationMismatch": "Несоответствие конфигурации продукта при оформлении заказа",
+          "failedToCreateCreemCheckoutSession": "Не удалось создать сеанс оформления заказа Creem."
         }
       },
       "db": {
         "shopAnalytics": {
-          "sessionUpdateReturnedNull": "Session update returned null",
-          "unknownError": "Unknown error",
-          "sessionNotFound": "Session not found",
-          "transactionUpdateReturnedNull": "Transaction update returned null",
-          "refunded": "refunded",
-          "completed": "completed",
-          "disputed": "disputed"
+          "sessionUpdateReturnedNull": "Обновление сеанса вернуло ноль",
+          "unknownError": "Неизвестная ошибка",
+          "sessionNotFound": "Сессия не найдена",
+          "transactionUpdateReturnedNull": "Обновление транзакции вернуло ноль",
+          "refunded": "возвращен",
+          "completed": "завершенный",
+          "disputed": "оспариваемый"
         }
       },
       "discordChangelog": {
-        "unknownError": "Unknown error",
-        "discordReturnedValue1ForValue2": "Discord returned {{value1}} for #{{value2}}",
-        "unknownDiscordError": "Unknown Discord error"
+        "unknownError": "Неизвестная ошибка",
+        "discordReturnedValue1ForValue2": "Discord вернул {{value1}} для #{{value2}}.",
+        "unknownDiscordError": "Неизвестная ошибка Discord"
       },
       "discordEmbed": {
-        "viewPage": "View page"
+        "viewPage": "Посмотреть страницу"
       },
       "effectRuntime": {
-        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
-        "paymentProviderRequestFailed": "Payment provider request failed",
-        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
-        "paymentProviderResponseFailed": "Payment provider response failed",
-        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
-        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex вернул неверный ответ при оформлении заказа",
+        "paymentProviderRequestFailed": "Запрос платежного провайдера не выполнен",
+        "tebexRejectedTheCheckoutRequest": "Tebex отклонил запрос на оформление заказа",
+        "paymentProviderResponseFailed": "Не удалось ответить поставщику платежных услуг",
+        "paymentProviderResponseExceedsTheSizeLimit": "Ответ поставщика платежных услуг превышает лимит размера",
+        "paymentProviderRequestTimedOut": "Время ожидания запроса платежного провайдера истекло"
       },
       "email": {
-        "text6b6tAccounts": "6b6t Accounts",
-        "text6b6tRecovery": "6b6t Recovery",
-        "text6b6tBillboard": "6b6t Billboard",
-        "text6b6tMerch": "6b6t Merch",
-        "text6b6tSupport": "6b6t Support"
+        "text6b6tAccounts": "6b6t Аккаунты",
+        "text6b6tRecovery": "6b6t Восстановление",
+        "text6b6tBillboard": "6b6t Рекламный щит",
+        "text6b6tMerch": "6b6t Товары",
+        "text6b6tSupport": "6b6t Поддержка"
       },
       "link": {
         "discord": {
-          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
-          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
-          "noPlayerInfoFoundForUser": "No player info found for user.",
-          "noDiscordIdFoundForUser": "No Discord ID found for user.",
-          "noTokensFoundForUser": "No tokens found for user."
+          "missingRequiredDiscordOauthEnvironmentVariables": "Отсутствуют необходимые переменные среды Discord OAuth.",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Отсутствует обязательная переменная среды Discord CLIENT_ID.",
+          "noPlayerInfoFoundForUser": "Для пользователя не найдена информация об игроке.",
+          "noDiscordIdFoundForUser": "Для пользователя не найдено Discord ID.",
+          "noTokensFoundForUser": "Токены для пользователя не найдены."
         },
         "telegramMembership": {
-          "unknownError": "Unknown error"
+          "unknownError": "Неизвестная ошибка"
         }
       },
       "motd": {
         "config": {
-          "text6Hours": "6 hours",
-          "text12Hours": "12 hours",
-          "text24Hours": "24 hours"
+          "text6Hours": "6 часов",
+          "text12Hours": "12 часов",
+          "text24Hours": "24 часа"
         },
         "discordReview": {
-          "pending": "pending",
-          "pendingModeratorReview": "Pending moderator review",
-          "approvedByValue1": "Approved by {{value1}}",
-          "revisionRequestedByValue1": "Revision requested by {{value1}}",
-          "motdReviewRequest": "MOTD Review Request",
-          "status": "Status",
-          "request": "Request",
-          "player": "Player",
-          "package": "Package",
-          "duration": "Duration",
+          "pending": "в ожидании",
+          "pendingModeratorReview": "Ожидается проверка модератором",
+          "approvedByValue1": "Утверждено {{value1}}",
+          "revisionRequestedByValue1": "Редактирование запрошено {{value1}}",
+          "motdReviewRequest": "MOTD Запрос на проверку",
+          "status": "Статус",
+          "request": "Запрос",
+          "player": "Игрок",
+          "package": "Упаковка",
+          "duration": "Продолжительность",
           "value1H": "{{value1}}h",
-          "amount": "Amount",
+          "amount": "Количество",
           "motd": "MOTD",
-          "revisionReason": "Revision reason",
-          "approve": "Approve",
-          "markAsAd": "Mark as AD",
-          "requestRevision": "Request Revision"
+          "revisionReason": "Причина изменения",
+          "approve": "Утвердить",
+          "markAsAd": "Отметить как AD",
+          "requestRevision": "Запросить пересмотр"
         },
         "email": {
           "emailSendFailed": "email_send_failed"
         },
         "manual": {
-          "completed": "completed"
+          "completed": "завершенный"
         },
         "minimessage": {
-          "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Unsupported MiniMessage tag <{{value1}}>. Only colors, bold, italic, underline, and strikethrough are allowed.",
-          "legacyMinecraftColorCodesAreNotAllowed": "Legacy Minecraft color codes are not allowed."
+          "unsupportedMinimessageTagValue1OnlyColorsBoldItalicUnderline": "Неподдерживаемый тег MiniMessage <{{value1}}>. Допускаются только цвета, жирный шрифт, курсив, подчеркивание и зачеркивание.",
+          "legacyMinecraftColorCodesAreNotAllowed": "Устаревшие цветовые коды Minecraft не допускаются."
         },
         "notifications": {
-          "motdAdValue1": "MOTD ad {{value1}}",
-          "request": "Request",
-          "player": "Player",
-          "package": "Package",
-          "status": "Status",
+          "motdAdValue1": "MOTD объявление {{value1}}",
+          "request": "Запрос",
+          "player": "Игрок",
+          "package": "Упаковка",
+          "status": "Статус",
           "motd": "MOTD"
         },
         "payments": {
-          "duplicateCheckoutCompletedWebhookIgnored": "Duplicate checkout.completed webhook ignored",
-          "refunded": "refunded",
-          "completed": "completed"
+          "duplicateCheckoutCompletedWebhookIgnored": "Дубликат веб-перехватчика checkout.completed игнорируется",
+          "refunded": "возвращен",
+          "completed": "завершенный"
         },
         "queue": {
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
-          "reservationReleasedAfterCheckoutCreationFailed": "Reservation released after checkout creation failed",
-          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
+          "reservationReleasedAfterCheckoutCreationFailed": "Бронирование снято после того, как не удалось создать оформление заказа",
+          "markedAsAdInDiscordByValue1": "Помечен {{value1}} как AD в Discord.",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
-          "noCustomerEmailWasAvailableFromThePaymentProvider": "No customer email was available from the payment provider",
-          "cancelled": "cancelled",
-          "completed": "completed",
-          "active": "active"
+          "noCustomerEmailWasAvailableFromThePaymentProvider": "От поставщика платежей не было получено адреса электронной почты клиента.",
+          "cancelled": "отменен",
+          "completed": "завершенный",
+          "active": "активный"
         },
         "refunds": {
-          "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Creem refund endpoint is not configured; issue the refund in Creem and retry/confirm from the webhook.",
-          "creemApiKeyIsNotConfigured": "CREEM_API_KEY is not configured",
-          "creemRefundRequestFailedWithStatusValue1": "Creem refund request failed with status {{value1}}"
+          "creemRefundEndpointIsNotConfiguredIssueTheRefund": "Конечная точка возврата Creem не настроена; выполните возврат средств в Creem и повторите попытку/подтвердите с помощью веб-перехватчика.",
+          "creemApiKeyIsNotConfigured": "CREEM_API_KEY не настроен.",
+          "creemRefundRequestFailedWithStatusValue1": "Запрос на возврат средств Creem не выполнен со статусом {{value1}}."
         },
         "validation": {
-          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
-          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
-          "invalidEmailAddress": "Invalid email address"
+          "motdMustBeAtLeast3CharactersLong": "MOTD должен содержать не менее 3 символов.",
+          "motdMustBeAtMost120CharactersLong": "MOTD должен содержать не более 120 символов.",
+          "invalidEmailAddress": "Неверный адрес электронной почты"
         }
       },
       "printify": {
         "claimValidation": {
-          "invalidEmailAddress": "Invalid email address",
-          "useATwoLetterCountryCode": "Use a two-letter country code",
-          "invalidDate": "Invalid date",
-          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
-          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+          "invalidEmailAddress": "Неверный адрес электронной почты",
+          "useATwoLetterCountryCode": "Используйте двухбуквенный код страны",
+          "invalidDate": "Неверная дата",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Информация о покупке: кратко опишите, что и когда вы купили (не менее 10 символов).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Информация о покупке должна содержать не более 2000 символов."
         },
         "claims": {
-          "physicalProductFulfillmentIsNotOpenYet": "Physical product fulfillment is not open yet.",
-          "delivered": "delivered",
-          "unknownError": "Unknown error",
-          "physicalProductFulfillmentIsTemporarilyUnavailable": "Physical product fulfillment is temporarily unavailable.",
-          "submitting": "submitting",
-          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
-          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
-          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
-          "reserved": "reserved",
-          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
-          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
-          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
-          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
-          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
-          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
-          "requestNotFound": "Request not found.",
-          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
-          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
-          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
-          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
-          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
-          "processing": "processing",
-          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
-          "historicalRequestChangedDuringReview": "Historical request changed during review"
+          "physicalProductFulfillmentIsNotOpenYet": "Реализация физической продукции еще не открыта.",
+          "delivered": "доставленный",
+          "unknownError": "Неизвестная ошибка",
+          "physicalProductFulfillmentIsTemporarilyUnavailable": "Физическое выполнение продукции временно недоступно.",
+          "submitting": "представление",
+          "physicalProductClaimsAreNotAvailableYet": "Претензии к физическому продукту пока недоступны.",
+          "thisPhysicalProductWasAlreadyFulfilled": "Этот физический продукт уже был реализован.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "С этим аккаунтом не связан ни один невостребованный физический продукт.",
+          "reserved": "сдержанный",
+          "thisPhysicalProductAlreadyHasAClaim": "На этот физический продукт уже есть претензия",
+          "physicalProductRequestsAreNotAvailableYet": "Запросы на физические продукты пока недоступны.",
+          "chooseAQualifyingPurchaseType": "Выберите подходящий тип покупки.",
+          "aRequestForThisProductAlreadyExists": "Запрос на этот продукт уже существует.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "На этот физический продукт уже есть заказ или претензия.",
+          "thisRequestChangedRefreshAndTryAgain": "Этот запрос изменился. Обновите и повторите попытку.",
+          "requestNotFound": "Запрос не найден.",
+          "thisRequestHasNoFinalEmailToResend": "Для этого запроса нет окончательного электронного письма, которое можно было бы отправить повторно.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "Этот запрос уже рассмотрен или находится в обработке.",
+          "addACustomerFacingExplanationForThisDecision": "Добавьте объяснение этого решения, обращенное к клиенту.",
+          "theEncryptedShippingAddressIsMissing": "Зашифрованный адрес доставки отсутствует.",
+          "physicalProductFulfillmentIsDisabled": "Физическое выполнение продуктов отключено.",
+          "processing": "обработка",
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Другой администратор уже начал рассматривать этот запрос.",
+          "historicalRequestChangedDuringReview": "Исторический запрос изменен во время проверки"
         },
         "email": {
-          "emailDeliveryFailed": "Email delivery failed"
+          "emailDeliveryFailed": "Доставка электронной почты не удалась"
         },
         "entitlementAnchor": {
-          "completed": "completed"
+          "completed": "завершенный"
         },
         "historicalProducts": {
-          "apexRankPurchaseMousepad": "Apex rank purchase — mousepad",
-          "primeToApexUpgradeMousepad": "Prime to Apex upgrade — mousepad",
-          "eliteToApexUpgradeMousepad": "Elite to Apex upgrade — mousepad",
-          "legendRank3MonthsMug": "Legend rank (3 months) — mug",
-          "legendRankThreePaid1MonthPeriodsMug": "Legend rank (three paid 1-month periods) — mug"
+          "apexRankPurchaseMousepad": "Покупка ранга Apex — коврик для мыши",
+          "primeToApexUpgradeMousepad": "Обновление Prime до Apex — коврик для мыши",
+          "eliteToApexUpgradeMousepad": "Обновление от Elite до Apex — коврик для мыши",
+          "legendRank3MonthsMug": "Legend ранг (3 месяца) — кружка",
+          "legendRankThreePaid1MonthPeriodsMug": "Legend ранг (три оплачиваемых месячных периода) — кружка"
         },
         "notifications": {
-          "merchRequestResubmitted": "Merch request resubmitted",
-          "newMerchRequest": "New merch request",
-          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
-          "player": "Player",
-          "item": "Item",
-          "requestId": "Request ID"
+          "merchRequestResubmitted": "Запрос на продажу отправлен повторно",
+          "newMerchRequest": "Новый запрос на товары",
+          "aMerchRequestIsWaitingForStaffReview": "Запрос на товары ожидает рассмотрения сотрудниками.",
+          "player": "Игрок",
+          "item": "Элемент",
+          "requestId": "Запрос ID"
         }
       },
       "recovery": {
@@ -450,48 +467,48 @@
           "emailSendFailed": "email_send_failed",
           "emailNotConfiguredDevMode": "email_not_configured_dev_mode",
           "emailNotConfigured": "email_not_configured",
-          "yourRequestWasReceivedIfTheAccountExistsAnd": "Your request was received. If the account exists and the supplied evidence can be verified, support will contact you.",
-          "yourAccountRecoveryRequestHasBeenApproved": "Your account recovery request has been approved.",
-          "yourAccountRecoveryRequestHasBeenDenied": "Your account recovery request has been denied.",
-          "noteValue1": "Note: {{value1}}",
-          "youMayResubmitANewTicketAfter24Hours": "You may resubmit a new ticket after 24 hours if you have additional evidence.",
-          "clickTheLinkBelowToSetANewPassword": "Click the link below to set a new password: {{value1}} This link expires in 24 hours."
+          "yourRequestWasReceivedIfTheAccountExistsAnd": "Ваш запрос получен. Если учетная запись существует и предоставленные доказательства можно проверить, служба поддержки свяжется с вами.",
+          "yourAccountRecoveryRequestHasBeenApproved": "Ваш запрос на восстановление аккаунта одобрен.",
+          "yourAccountRecoveryRequestHasBeenDenied": "Ваш запрос на восстановление аккаунта был отклонен.",
+          "noteValue1": "Примечание: {{value1}}",
+          "youMayResubmitANewTicketAfter24Hours": "Вы можете повторно отправить новый билет через 24 часа, если у вас есть дополнительные доказательства.",
+          "clickTheLinkBelowToSetANewPassword": "Нажмите ссылку ниже, чтобы установить новый пароль: {{value1}} Срок действия этой ссылки истекает через 24 часа."
         },
         "gracePeriod": {
-          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "This recovery attempt was blocked because the account logged into the server after the owner notification.",
-          "pending": "pending",
-          "consumed": "consumed",
-          "blocked": "blocked",
+          "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Эта попытка восстановления была заблокирована, поскольку учетная запись вошла на сервер после уведомления владельца.",
+          "pending": "в ожидании",
+          "consumed": "потребляется",
+          "blocked": "заблокирован",
           "notApplicable": "not_applicable",
-          "expired": "expired",
-          "error": "error",
-          "failedToCreateChallenge": "Failed to create challenge",
-          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "expired": "истекший",
+          "error": "ошибка",
+          "failedToCreateChallenge": "Не удалось создать вызов.",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Владелец аккаунта сменился. Перезапустите восстановление, чтобы уведомить текущего владельца.",
           "emailSendFailed": "email_send_failed",
-          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
-          "created": "created",
-          "invalidOrExpiredBlockToken": "Invalid or expired block token.",
-          "thisRecoveryAttemptWasAlreadyBlocked": "This recovery attempt was already blocked.",
-          "theGracePeriodForThisChallengeHasAlreadyExpired": "The grace period for this challenge has already expired and cannot be blocked.",
-          "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "This recovery challenge has already been consumed and can no longer be blocked.",
-          "thisRecoveryAttemptWasAlreadyApprovedByASuper": "This recovery attempt was already approved by a super admin and cannot be blocked.",
-          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
-          "recoveryAttemptHasBeenBlockedSuccessfully": "Recovery attempt has been blocked successfully.",
-          "passed": "passed",
-          "missing": "missing",
-          "theAccountOwnerHasBlockedThisRecoveryAttempt": "The account owner has blocked this recovery attempt.",
-          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
-          "theAccountOwnerNotificationPassWasAlreadyConsumed": "The account-owner notification pass was already consumed.",
-          "gracePeriodChallengeNotFound": "Grace-period challenge not found.",
-          "thisRecoveryAttemptWasBlockedByTheAccountOwner": "This recovery attempt was blocked by the account owner.",
-          "thisGracePeriodHasAlreadyElapsed": "This grace period has already elapsed.",
-          "thisGracePeriodHasAlreadyBeenConsumed": "This grace period has already been consumed.",
-          "thisGracePeriodWasAlreadyApprovedByASuper": "This grace period was already approved by a super admin.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Дневной лимит электронной почты достигнут. Билет все еще находится на рассмотрении, период ожидания не начался. Повторите попытку уведомления владельца, когда будет доступна доставка по электронной почте.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Не удалось доставить уведомление владельцу. Билет все еще находится на рассмотрении, период ожидания не начался. Повторите попытку уведомления владельца, когда будет доступна доставка по электронной почте.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "Уведомление владельца изменилось во время доставки. Обновите страницу, прежде чем продолжить.",
+          "created": "созданный",
+          "invalidOrExpiredBlockToken": "Неверный или просроченный токен блокировки.",
+          "thisRecoveryAttemptWasAlreadyBlocked": "Эта попытка восстановления уже заблокирована.",
+          "theGracePeriodForThisChallengeHasAlreadyExpired": "Льготный период для этого испытания уже истек и не может быть заблокирован.",
+          "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Этот вызов восстановления уже использован и больше не может быть заблокирован.",
+          "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Эта попытка восстановления уже одобрена суперадминистратором и не может быть заблокирована.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "Это испытание изменилось, когда его заблокировали. Обновите, чтобы проверить текущий статус.",
+          "recoveryAttemptHasBeenBlockedSuccessfully": "Попытка восстановления успешно заблокирована.",
+          "passed": "прошедший",
+          "missing": "отсутствующий",
+          "theAccountOwnerHasBlockedThisRecoveryAttempt": "Владелец аккаунта заблокировал эту попытку восстановления.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "Адрес электронной почты подтвержденного аккаунта изменился. Отклоните этот билет и начните новый запрос на восстановление, чтобы уведомить текущего владельца.",
+          "theAccountOwnerNotificationPassWasAlreadyConsumed": "Пропуск уведомления владельца учетной записи уже использован.",
+          "gracePeriodChallengeNotFound": "Проблема с льготным периодом не найдена.",
+          "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Эта попытка восстановления была заблокирована владельцем учетной записи.",
+          "thisGracePeriodHasAlreadyElapsed": "Этот льготный период уже истек.",
+          "thisGracePeriodHasAlreadyBeenConsumed": "Этот льготный период уже использован.",
+          "thisGracePeriodWasAlreadyApprovedByASuper": "Этот льготный период уже одобрен суперадминистратором.",
           "adminApproved": "admin_approved",
-          "thisChallengeChangedRefreshAndTryAgain": "This challenge changed. Refresh and try again.",
-          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Grace period approved. The requester can continue recovery now."
+          "thisChallengeChangedRefreshAndTryAgain": "Этот вызов изменился. Обновите и повторите попытку.",
+          "gracePeriodApprovedTheRequesterCanContinueRecoveryNow": "Льготный период одобрен. Запрашивающая сторона теперь может продолжить восстановление."
         },
         "hcaptcha": {
           "missingSecret": "missing_secret",
@@ -500,126 +517,126 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
-          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
-          "unavailable": "unavailable",
-          "found": "found",
-          "invalidEmailAddress": "Invalid email address",
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Сохраненный адрес электронной почты владельца требует проверки. Прежде чем исправлять адрес электронной почты игрового сервера, подтвердите право собственности на учетную запись. Восстановление не было одобрено.",
+          "unavailable": "недоступен",
+          "found": "найденный",
+          "invalidEmailAddress": "Неверный адрес электронной почты",
           "notFound": "not_found",
-          "base": "base",
-          "stash": "stash",
-          "unitedStates": "United States",
-          "california": "California",
-          "accountEmailUpdateFailed": "Account email update failed.",
-          "recoveryEmailUpdateEndpointIsNotConfigured": "Recovery email update endpoint is not configured",
-          "gameServerEmailUpdateFailed": "Game-server email update failed.",
-          "gameServerPasswordResetFailed": "Game-server password reset failed.",
-          "recoveryPasswordResetEndpointIsNotConfigured": "Recovery password reset endpoint is not configured",
-          "inGameCodeVerificationEndpointIsNotConfigured": "In-game code verification endpoint is not configured.",
-          "invalidOrExpiredInGameCode": "Invalid or expired in-game code.",
-          "inGameVerificationServiceIsUnavailable": "In-game verification service is unavailable."
+          "base": "база",
+          "stash": "тайник",
+          "unitedStates": "Соединенные Штаты",
+          "california": "Калифорния",
+          "accountEmailUpdateFailed": "Не удалось обновить адрес электронной почты аккаунта.",
+          "recoveryEmailUpdateEndpointIsNotConfigured": "Конечная точка обновления электронной почты для восстановления не настроена",
+          "gameServerEmailUpdateFailed": "Не удалось обновить электронную почту игрового сервера.",
+          "gameServerPasswordResetFailed": "Сбросить пароль игрового сервера не удалось.",
+          "recoveryPasswordResetEndpointIsNotConfigured": "Конечная точка сброса пароля для восстановления не настроена",
+          "inGameCodeVerificationEndpointIsNotConfigured": "Конечная точка проверки кода в игре не настроена.",
+          "invalidOrExpiredInGameCode": "Неверный или просроченный внутриигровой код.",
+          "inGameVerificationServiceIsUnavailable": "Служба внутриигровой проверки недоступна."
         },
         "sessions": {
-          "expired": "expired",
-          "exhausted": "exhausted",
-          "valid": "valid",
-          "invalid": "invalid"
+          "expired": "истекший",
+          "exhausted": "измученный",
+          "valid": "действительный",
+          "invalid": "неверный"
         },
         "validation": {
-          "invalidRecoverySessionToken": "Invalid recovery session token",
-          "enterAValidEmailAddress": "Enter a valid email address",
-          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
-          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidRecoverySessionToken": "Неверный токен сеанса восстановления.",
+          "enterAValidEmailAddress": "Введите действительный адрес электронной почты",
+          "verificationCodeMustBe6Digits": "Код подтверждения должен состоять из 6 цифр.",
+          "inGameCodeMustBe6Characters": "Внутриигровой код должен состоять из 6 символов.",
+          "invalidEmailAddress": "Неверный адрес электронной почты"
         }
       },
       "requestRateLimit": {
-        "tooManyRequestsPleaseTryAgainLater": "Too many requests. Please try again later.",
-        "temporarilyUnavailablePleaseTryAgainLater": "Temporarily unavailable. Please try again later."
+        "tooManyRequestsPleaseTryAgainLater": "Слишком много запросов. Пожалуйста, повторите попытку позже.",
+        "temporarilyUnavailablePleaseTryAgainLater": "Временно недоступен. Пожалуйста, повторите попытку позже."
       },
       "seoUtil": {
         "text6b6t": "6b6t"
       },
       "seo": {
-        "description": "description",
-        "robots": "robots",
-        "googlebot": "googlebot"
+        "description": "описание",
+        "robots": "роботы",
+        "googlebot": "Googlebot"
       },
       "shop": {
         "legendCreditProviders": {
-          "review": "review",
-          "disputed": "disputed",
-          "refunded": "refunded",
-          "paid": "paid"
+          "review": "обзор",
+          "disputed": "оспариваемый",
+          "refunded": "возвращен",
+          "paid": "оплаченный"
         },
         "legendCreditStore": {
-          "pending": "pending"
+          "pending": "в ожидании"
         },
         "legendUpgradeCheckout": {
-          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+          "legendUpgradeValue1": "Legend обновление {{value1}}"
         },
         "legend": {
           "legendUltra": "LEGEND ULTRA",
-          "legendUltra2Apex": "LEGEND ULTRA + 2 APEX",
-          "monthly": "MONTHLY",
-          "text3Months": "3 MONTHS"
+          "legendUltra2Apex": "LEGEND УЛЬТРА + 2 APEX",
+          "monthly": "ЕЖЕМЕСЯЧНО",
+          "text3Months": "3 МЕСЯЦА"
         },
         "observability": {
           "alarms": {
-            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
-            "value1In1h": "{{value1}} in 1h",
-            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
-            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
-            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
-            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
-            "pendingFor15m": "pending for >15m",
-            "value1In30m": "{{value1}} in 30m",
-            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
-            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
-            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
-            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
-            "conditionCleared": "condition cleared"
+            "value1CreatedValue2CheckoutEvents": "{{value1}} создано/{{value2}} событие оформления заказа",
+            "value1In1h": "{{value1}} через 1 час",
+            "value1NowVsValue2Baseline": "{{value1}}% сейчас по сравнению с базовым уровнем {{value2}}%",
+            "value1Value2In1h": "{{value1}} {{value2}} через 1 час",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} отклонено или превышено количество запросов в течение 1 часа",
+            "value1WebhooksValue2SessionsIn24h": "{{value1}} веб-перехватчиков / {{value2}} сеансов за 24 часа",
+            "pendingFor15m": "Ожидание > 15 мин.",
+            "value1In30m": "{{value1}} через 30 м",
+            "value1ConsentedViewsIn3h": "{{value1}} согласился на просмотры за 3 часа",
+            "yesterdayReportRowsValue1": "вчерашний отчет rows={{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} через 24 часа; Медиана 28 дней {{value2}}",
+            "value1Value2Outcomes": "{{value1}}/{{value2}} результаты",
+            "conditionCleared": "состояние очищено"
           },
           "record": {
-            "declined": "declined",
-            "refunded": "refunded",
-            "disputed": "disputed",
-            "paid": "paid"
+            "declined": "отклоненный",
+            "refunded": "возвращен",
+            "disputed": "оспариваемый",
+            "paid": "оплаченный"
           }
         },
         "ranks": {
-          "unknownError": "Unknown error",
+          "unknownError": "Неизвестная ошибка",
           "prime": "Prime",
           "elite": "Elite",
           "apex": "Apex",
-          "text6b6tMousepad": "6b6t Mousepad",
-          "legend1Month": "Legend (1 Month)",
-          "text6b6tMug": "6b6t Mug",
-          "legend3Months": "Legend (3 Months)",
-          "primeUltra1Month": "Prime Ultra (1 Month)",
-          "primeUltra3Months": "Prime Ultra (3 Months)",
-          "primeUltra6Months": "Prime Ultra (6 Months)",
-          "primeUltraTrial1Month": "Prime Ultra Trial (1 Month)",
-          "primeUltraTrial3Months": "Prime Ultra Trial (3 Months)",
-          "primeUltraTrial6Months": "Prime Ultra Trial (6 Months)",
-          "eliteUltraTrial1Month": "Elite Ultra Trial (1 Month)",
-          "eliteUltraTrial3Months": "Elite Ultra Trial (3 Months)",
-          "eliteUltraTrial6Months": "Elite Ultra Trial (6 Months)",
-          "eliteUltra1Month": "Elite Ultra (1 Month)",
-          "eliteUltra3Months": "Elite Ultra (3 Months)",
-          "eliteUltra6Months": "Elite Ultra (6 Months)",
-          "primeToEliteUpgrade": "Prime to Elite upgrade",
-          "primeToApexUpgrade": "Prime to Apex upgrade",
-          "eliteToApexUpgrade": "Elite to Apex upgrade"
+          "text6b6tMousepad": "6b6t Коврик для мыши",
+          "legend1Month": "Legend (1 месяц)",
+          "text6b6tMug": "6b6t Кружка",
+          "legend3Months": "Legend (3 месяца)",
+          "primeUltra1Month": "Prime Ultra (1 месяц)",
+          "primeUltra3Months": "Prime Ultra (3 месяца)",
+          "primeUltra6Months": "Prime Ultra (6 месяцев)",
+          "primeUltraTrial1Month": "Prime Ultra Пробная версия (1 месяц)",
+          "primeUltraTrial3Months": "Prime Ultra Пробная версия (3 месяца)",
+          "primeUltraTrial6Months": "Prime Ultra Пробная версия (6 месяцев)",
+          "eliteUltraTrial1Month": "Elite Ultra Пробная версия (1 месяц)",
+          "eliteUltraTrial3Months": "Elite Ultra Пробная версия (3 месяца)",
+          "eliteUltraTrial6Months": "Elite Ultra Пробная версия (6 месяцев)",
+          "eliteUltra1Month": "Elite Ultra (1 месяц)",
+          "eliteUltra3Months": "Elite Ultra (3 месяца)",
+          "eliteUltra6Months": "Elite Ultra (6 месяцев)",
+          "primeToEliteUpgrade": "Обновление Prime до Elite",
+          "primeToApexUpgrade": "Обновление Prime до Apex",
+          "eliteToApexUpgrade": "Обновление Elite до Apex"
         },
         "shop": {
-          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
-          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
-          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
-          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
-          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
-          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
-          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
-          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
+          "creatorCodesUseLettersNumbersOr": "В кодах авторов используются буквы, цифры, _ или -.",
+          "usernameMustBeAtLeast3CharactersLong": "Имя пользователя должно содержать не менее 3 символов.",
+          "usernameMustBeAtMost16CharactersLong": "Имя пользователя должно содержать не более 16 символов.",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Имя пользователя должно содержать только буквы, цифры, символы подчеркивания и точки.",
+          "giftSenderMustNotBeEmpty": "Необходимо указать отправителя подарка.",
+          "giftSenderMustBeAtMost32CharactersLong": "Отправитель подарка должен содержать не более 32 символов.",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Отправитель подарка должен содержать только буквы, цифры, символы подчеркивания, точки и тире.",
+          "giftMessageMustBeAtMost255CharactersLong": "Сообщение о подарке должно содержать не более 255 символов."
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
@@ -627,27 +644,27 @@
       },
       "stats": {
         "playerDiscordEmbed": {
-          "viewStats": "View stats",
-          "leaderboards": "Leaderboards"
+          "viewStats": "Посмотреть статистику",
+          "leaderboards": "Таблицы лидеров"
         },
         "previewData": {
-          "apex": "apex",
-          "eliteultra": "eliteultra",
-          "primeultra": "primeultra",
-          "elite": "elite",
-          "prime": "prime",
-          "default": "default"
+          "apex": "вершина",
+          "eliteultra": "элитультра",
+          "primeultra": "праймультра",
+          "elite": "элита",
+          "prime": "основной",
+          "default": "по умолчанию"
         }
       },
       "tebex": {
         "client": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Неверный номер"
         },
         "config": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Неверный номер"
         },
         "intent": {
-          "expectedAGameAccountUuid": "Expected a game account UUID"
+          "expectedAGameAccountUuid": "Ожидается игровой аккаунт UUID"
         }
       }
     }

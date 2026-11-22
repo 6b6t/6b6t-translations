@@ -23,11 +23,11 @@
   "sections": {
     "faq": {
       "faq": {
-        "frequentlyAskedQuestions": "Frequently Asked Questions",
-        "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
+        "frequentlyAskedQuestions": "Preguntas frecuentes",
+        "howToJoinAndPlayOnThe6b6tMinecraft": "Cómo unirse y jugar en el servidor de anarquía 6b6t Minecraft.",
         "stillHaveQuestions": "¿Aún tienes preguntas?",
         "joinOurDiscord": "Únete a nuestro Discord",
-        "forHelp": "for help."
+        "forHelp": "por ayuda."
       }
     },
     "gallery": {
@@ -66,7 +66,7 @@
       },
       "heroContent": {
         "text6b6t": "6b6t",
-        "minecraftAnarchy": "Minecraft Anarchy",
+        "minecraftAnarchy": "Minecraft Anarquía",
         "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t es un servidor anárquico de supervivencia de Minecraft sin reglas, sin castigos y sin cola. Los jugadores pueden hacer lo que quieran en un mundo que admite hasta 2.000 jugadores simultáneamente y utilizar comandos como /tpa y /home.",
         "noRules": "Sin reglas",
         "noMapResets": "Sin reinicios del mapa",
@@ -78,7 +78,7 @@
       },
       "heroSlider": {
         "spawnArea": "Zona del spawn",
-        "playerBuilds": "Player Builds",
+        "playerBuilds": "Construcciones de jugadores",
         "baseBuilding": "Construcción de bases",
         "vastLandscapes": "Paisajes inmensos",
         "text6b6tPreviewSpawnArea": "Vista previa de 6b6t - Zona del spawn",
@@ -121,8 +121,8 @@
       }
     },
     "page": {
-      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarchy Server",
-      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchy with no queue and a world that has never reset. Join on Java with AnarchyMod or on Bedrock at br.6b6t.org, port 19132.",
+      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Servidor de anarquía",
+      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarquía sin colas y un mundo que nunca se ha reiniciado. Únase en Java con AnarchyMod o en Bedrock en br.6b6t.org, puerto 19132.",
       "minecraft": "Minecraft"
     }
   }

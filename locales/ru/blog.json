@@ -1,29 +1,29 @@
 {
   "sections": {
     "blogPostContent": {
-      "youtubeVideo": "YouTube video"
+      "youtubeVideo": "YouTube видео"
     },
     "blogSchema": {
       "text6b6t": "6b6t"
     },
     "slug": {
       "page": {
-        "allPosts": "All posts"
+        "allPosts": "Все сообщения"
       }
     },
     "page": {
-      "text6b6tBlog": "6b6t blog",
-      "blog": "Blog",
-      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "News, guides and stories from the 6b6t anarchy server.",
-      "blogPages": "Blog pages",
-      "newerPosts": "Newer posts",
-      "page": "Page",
-      "of": "of",
-      "olderPosts": "Older posts",
-      "theBlogIsTemporarilyUnavailable": "The blog is temporarily unavailable",
-      "reloadThePageToTryAgain": "Reload the page to try again.",
-      "noPostsOnThisPage": "No posts on this page",
-      "goToTheNewestPosts": "Go to the newest posts"
+      "text6b6tBlog": "6b6t блог",
+      "blog": "Блог",
+      "newsGuidesAndStoriesFromThe6b6tAnarchyServer": "Новости, руководства и истории с сервера анархии 6b6t.",
+      "blogPages": "Страницы блога",
+      "newerPosts": "Новые сообщения",
+      "page": "Страница",
+      "of": "из",
+      "olderPosts": "Старые сообщения",
+      "theBlogIsTemporarilyUnavailable": "Блог временно недоступен",
+      "reloadThePageToTryAgain": "Перезагрузите страницу, чтобы повторить попытку.",
+      "noPostsOnThisPage": "На этой странице нет сообщений",
+      "goToTheNewestPosts": "Перейти к новым сообщениям"
     }
   }
 }

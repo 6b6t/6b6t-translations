@@ -1,8 +1,8 @@
 {
   "sections": {
-    "text6b6tTeam": "6b6t Team",
-    "yes": "yes",
-    "no": "no",
-    "default": "default"
+    "text6b6tTeam": "6b6t Команда",
+    "yes": "да",
+    "no": "нет",
+    "default": "по умолчанию"
   }
 }

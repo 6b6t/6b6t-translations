@@ -3,44 +3,44 @@
   "seo-description": "/tpa, /home, /hotspot, /skin, /vote, /buildermode, /msg ve daha fazlası dahil olmak üzere temel 6b6t komutları hakkında bilgi edinin.",
   "sections": {
     "commandEntry": {
-      "aliases": "Aliases",
+      "aliases": "Takma adlar",
       "example": "Örnek",
-      "copyExampleForValue1": "Copy example for {{value1}}",
+      "copyExampleForValue1": "{{value1}} için örneği kopyalayın",
       "copied": "Kopyalandı",
-      "copyExample": "Copy example",
-      "exampleCopied": "Example copied.",
-      "ranks": "Ranks"
+      "copyExample": "Örneği kopyala",
+      "exampleCopied": "Örnek kopyalandı.",
+      "ranks": "Rütbeler"
     },
     "commandRankPrefix": {
-      "free": "Free",
+      "free": "Özgür",
       "eliteUltra": "Elite Ultra"
     },
     "commandsList": {
       "bestMatches": "En iyi eşleşmeler",
       "commands": "Komutlar",
-      "theInGameCommandReferenceFor6b6t": "The in-game command reference for 6b6t.",
+      "theInGameCommandReferenceFor6b6t": "6b6t için oyun içi komut referansı.",
       "searchCommands": "Komut ara...",
-      "commandAliasOrDescription": "Command, alias or description",
-      "clearCommandSearch": "Clear command search",
+      "commandAliasOrDescription": "Komut, takma ad veya açıklama",
+      "clearCommandSearch": "Komut aramasını temizle",
       "category": "Kategori",
-      "allCategories": "All categories",
-      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t commands, descriptions, usage examples and rank requirements",
+      "allCategories": "Tüm kategoriler",
+      "text6b6tCommandsDescriptionsUsageExamplesAndRankRequirements": "6b6t komutları, açıklamalar, kullanım örnekleri ve sıralama gereksinimleri",
       "command": "Komut",
       "description": "Açıklama",
       "example": "Örnek",
-      "ranks": "Ranks",
-      "noCommandsFound": "No commands found",
-      "tryAnotherSearchCategoryOrRank": "Try another search, category or rank.",
-      "resetFilters": "Reset filters",
-      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Examples are editable: replace player names and values with your own.",
-      "compareRanks": "Compare ranks"
+      "ranks": "Rütbeler",
+      "noCommandsFound": "Hiçbir komut bulunamadı",
+      "tryAnotherSearchCategoryOrRank": "Başka bir arama, kategori veya sıralama deneyin.",
+      "resetFilters": "Filtreleri sıfırla",
+      "examplesAreEditableReplacePlayerNamesAndValuesWith": "Örnekler düzenlenebilir: Oyuncu adlarını ve değerlerini kendinizinkiyle değiştirin.",
+      "compareRanks": "Sıralamaları karşılaştır"
     },
     "commandsRankFilter": {
       "rankRequirement": "Rank gereksinimi"
     },
     "page": {
-      "commandsAreTemporarilyUnavailable": "Commands are temporarily unavailable.",
-      "loadingCommands": "Loading commands…",
+      "commandsAreTemporarilyUnavailable": "Komutlar geçici olarak kullanılamıyor.",
+      "loadingCommands": "Komutlar yükleniyor…",
       "text6b6tServerCommands": "6b6t Sunucu Komutları"
     }
   },
@@ -49,6 +49,6 @@
     "auth": "Kimlik doğrulama",
     "homesAndTeleport": "Evler ve ışınlanma",
     "hotspots": "Hotspot'lar",
-    "groupChat": "Group chat"
+    "groupChat": "Grup sohbeti"
   }
 }

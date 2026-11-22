@@ -3,8 +3,8 @@
     "discordMarkdown": {
       "value1Value2": "{{value1}}{{value2}}",
       "value1": ":{{value1}}:",
-      "user": "@user",
-      "updatesPing": "@Updates Ping"
+      "user": "@usuario",
+      "updatesPing": "@Actualizaciones Ping"
     },
     "updateEntry": {
       "edited": "Editado",
@@ -13,48 +13,48 @@
       "openInDiscord": "Abrir en Discord"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
+      "tryingAgain": "Intentando de nuevo…",
       "tryAgain": "Intentar de nuevo",
       "newUpdate": "nueva actualización",
       "justAppeared": "acaba de aparecer.",
       "dismiss": "Cerrar",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
-      "loadMoreResults": "Load more results",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "searchingUpdates": "Buscando actualizaciones…",
+      "showingValue1SearchValue2": "Mostrando {{value1}} búsqueda {{value2}}.",
+      "loadMoreResults": "Cargar más resultados",
+      "noUpdatesMatched": "No hay actualizaciones coincidentes \"",
+      "tryADifferentTermOrClearYourSearch": "”. Pruebe con un término diferente o borre su búsqueda.",
+      "showAllUpdates": "Mostrar todas las actualizaciones"
     },
     "updatesSchema": {
       "text6b6tUpdates": "Actualizaciones de 6b6t",
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Últimas publicaciones del changelog del servidor 6b6t e historial de actualizaciones de Discord."
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
+      "searchServerUpdates": "Buscar actualizaciones del servidor",
       "searchUpdates": "Buscar actualizaciones",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
+      "suggestedSearches": "Búsquedas sugeridas",
+      "searching": "Búsqueda…",
       "search": "Buscar",
       "clear": "Limpiar"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
+      "updatesFromValue1": "Actualizaciones de {{value1}}",
       "latestPost": "Última publicación",
-      "loading": "Loading…",
+      "loading": "Cargando…",
       "loadMoreValue1": "Cargar {{value1}} más"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
+      "serverUpdates": "Actualizaciones del servidor",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Cambios, correcciones y anuncios del 6b6t Discord oficial. Las publicaciones más recientes primero.",
       "joinDiscord": "Únete a Discord",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
+      "loadingServerUpdates": "Cargando actualizaciones del servidor…",
+      "updatesAreTemporarilyUnavailable": "Las actualizaciones no están disponibles temporalmente",
+      "tryAgainOrReadTheLatestPostsInThe": "Inténtalo de nuevo o lee las últimas publicaciones en el Discord oficial.",
+      "tryingAgain": "Intentando de nuevo…",
       "tryAgain": "Intentar de nuevo",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "noUpdatesToShowYet": "Aún no hay actualizaciones para mostrar",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Lea las últimas noticias del servidor en el Discord oficial. Las publicaciones aparecerán aquí cuando estén disponibles.",
+      "readNewsOnDiscord": "Leer noticias en Discord"
     }
   },
   "page-name": "Cambios en 6b6t: novedades y arreglos del servidor",

@@ -179,6 +179,23 @@
           "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
         }
       },
+      "cmsAdminBar": {
+        "homepage": "Homepage",
+        "post": "Post",
+        "form": "Form",
+        "legalPage": "Legal page"
+      },
+      "cmsForms": {
+        "invalidValue": "Invalid value.",
+        "thisBoxIsRequired": "This box is required.",
+        "true": "true",
+        "false": "false",
+        "thisFieldIsRequired": "This field is required.",
+        "useAtMostValue1Characters": "Use at most {{value1}} characters.",
+        "enterAValidEmailAddress": "Enter a valid email address.",
+        "enterANumber": "Enter a number.",
+        "chooseOneOfTheOptions": "Choose one of the options."
+      },
       "commandService": {
         "outbox": {
           "unsupportedCommandRecipient": "Unsupported command recipient",
