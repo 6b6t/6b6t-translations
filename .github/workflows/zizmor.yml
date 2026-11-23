@@ -24,5 +24,5 @@ jobs:
         with:
           inputs: .github/workflows
           min-severity: medium
-          version: 1.32.0
+          version: 1.33.1
           advanced-security: false
