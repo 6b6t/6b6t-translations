@@ -389,5 +389,14 @@
         "returnToShop": "Return to shop"
       }
     }
+  },
+  "communityGoal": {
+    "title": "Community Goal",
+    "reward": "Nether Roof + player heads event",
+    "contribution": "Eligible rank purchases count toward the community goal.",
+    "notificationTitle": "Community Goal Reached!",
+    "unlocked": "{{value1}} has been unlocked{{value2}}!",
+    "description": "Reach the community goal to unlock the December event.",
+    "reached": "Community goal reached. The December event has been unlocked."
   }
 }
