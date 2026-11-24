@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has moved to **[git.6b6t.org/6b6t/6b6t-translations](https://git.6b6t.org/6b6t/6b6t-translations)**. This GitHub copy is archived and no longer updated.
+
 # 6b6t website translations
 
 Community-maintained translations for [6b6t.org](https://www.6b6t.org).
