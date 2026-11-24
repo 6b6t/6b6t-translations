@@ -1,100 +1,100 @@
 {
   "sections": {
     "root": {
-      "viewport": "viewport",
-      "widthDeviceWidthInitialScale1": "width=device-width, initial-scale=1",
+      "viewport": "görünüm alanı",
+      "widthDeviceWidthInitialScale1": "genişlik=cihaz genişliği, başlangıç ​​ölçeği=1",
       "text6b6t": "6b6t"
     },
     "creator": {
       "creatorActivity": {
-        "connectionsByDomain": "Connections by domain",
-        "connectionsReportingEachAddressPerUtcDayLast60": "Connections reporting each address per UTC day, last 60 days.",
-        "dateUtc": "Date (UTC)",
-        "domain": "Domain",
-        "connections": "Connections",
-        "accounts": "Accounts",
-        "connectionTotalsCouldNotBeLoaded": "Connection totals could not be loaded.",
-        "noConnectionsReportedInTheLast60Days": "No connections reported in the last 60 days.",
-        "linkClicks": "Link clicks",
-        "clicksPerUtcDayLast60DaysAnalyticsOnly": "Clicks per UTC day, last 60 days. Analytics only.",
-        "clicks": "Clicks",
-        "clicksCouldNotBeLoaded": "Clicks could not be loaded.",
-        "noLinkClicksInTheLast60Days": "No link clicks in the last 60 days."
+        "connectionsByDomain": "Etki alanına göre bağlantılar",
+        "connectionsReportingEachAddressPerUtcDayLast60": "Her adresi UTC gününe göre raporlayan bağlantılar 60 gün sürer.",
+        "dateUtc": "Tarih (UTC)",
+        "domain": "İhtisas",
+        "connections": "Bağlantılar",
+        "accounts": "Hesaplar",
+        "connectionTotalsCouldNotBeLoaded": "Bağlantı toplamları yüklenemedi.",
+        "noConnectionsReportedInTheLast60Days": "Son 60 gün içinde hiçbir bağlantı bildirilmedi.",
+        "linkClicks": "Bağlantı tıklamaları",
+        "clicksPerUtcDayLast60DaysAnalyticsOnly": "UTC günü başına tıklamalar 60 gün sürer. Yalnızca analitik.",
+        "clicks": "Tıklamalar",
+        "clicksCouldNotBeLoaded": "Tıklamalar yüklenemedi.",
+        "noLinkClicksInTheLast60Days": "Son 60 gün içinde hiçbir bağlantı tıklaması olmadı."
       },
       "creatorPayouts": {
-        "beingPrepared": "Being prepared",
+        "beingPrepared": "Hazırlıklı olmak",
         "approved": "Onaylandı",
         "paid": "Ödendi",
-        "carriedForward": "Carried forward",
-        "payouts": "Payouts",
-        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "Monthly statements by UTC calendar month. Payment is sent manually.",
-        "monthUtc": "Month (UTC)",
+        "carriedForward": "İleriye taşındı",
+        "payouts": "Ödemeler",
+        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "UTC takvim ayına göre aylık ekstreler. Ödeme manuel olarak gönderilir.",
+        "monthUtc": "Ay (UTC)",
         "status": "Durum",
         "amount": "Tutar",
-        "payoutsCouldNotBeLoaded": "Payouts could not be loaded.",
-        "noPayoutStatementsYet": "No payout statements yet."
+        "payoutsCouldNotBeLoaded": "Ödemeler yüklenemedi.",
+        "noPayoutStatementsYet": "Henüz ödeme bildirimi yok."
       },
       "creatorRules": {
-        "howAttributionWorks": "How attribution works",
-        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "A creator code entered at checkout always wins. Without a code, a purchase counts for you when the buyer&apos;s most recent connection before the purchase, no matter how long ago it was reported one of your domains. Matching domain purchases are credited automatically.",
-        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "Commissions are available for manual monthly payout. Refunds and chargebacks reduce the commission of the sale they belong to, or a later statement if the sale has already been paid.",
-        "purchasesYouMakeYourselfAndGiftsSentToYour": "Purchases you make yourself and gifts sent to your own account do not earn commission.",
-        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "Connections are connections reporting this address. The Minecraft client supplies the address, so it does not prove a visit and can be spoofed.",
-        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "Link clicks are analytics only and never earn commission.",
-        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "Buyer names, account IDs, email addresses and exact purchase times are never shown. Sales are listed by UTC day only."
+        "howAttributionWorks": "İlişkilendirmenin işleyiş şekli",
+        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "Ödeme sırasında girilen yaratıcı kodu her zaman kazanır. Kod olmadan, alanlarınızdan biri ne kadar zaman önce bildirilmiş olursa olsun, alıcının satın alma işleminden önceki en son bağlantısı, sizin için bir satın alma işlemi sayılır. Eşleşen alan adı satın alımları otomatik olarak kredilendirilir.",
+        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "Manuel aylık ödeme için komisyonlar mevcuttur. Geri ödemeler ve ters ibrazlar, ait oldukları satışın komisyonunu veya satış zaten ödenmişse daha sonraki bir ekstreyi azaltır.",
+        "purchasesYouMakeYourselfAndGiftsSentToYour": "Kendi yaptığınız alışverişler ve kendi hesabınıza gönderilen hediyeler komisyon kazandırmaz.",
+        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "Bağlantılar bu adresi bildiren bağlantılardır. Minecraft istemcisi adresi sağlar, dolayısıyla ziyareti kanıtlamaz ve sahtekarlık yapılabilir.",
+        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "Bağlantı tıklamaları yalnızca analiz amaçlıdır ve hiçbir zaman komisyon kazandırmaz.",
+        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "Alıcı adları, hesap kimlikleri, e-posta adresleri ve kesin satın alma süreleri hiçbir zaman gösterilmez. Satışlar yalnızca UTC gününe göre listelenir."
       },
       "creatorSalesTable": {
-        "sales": "Sales",
-        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "Attributed purchases by UTC day. Buyer details are never shown.",
-        "dateUtc": "Date (UTC)",
+        "sales": "Satış",
+        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "UTC gününe göre ilişkilendirilen satın almalar. Alıcı ayrıntıları hiçbir zaman gösterilmez.",
+        "dateUtc": "Tarih (UTC)",
         "rank": "Sıra",
         "source": "Kaynak",
-        "gross": "Gross",
-        "refunds": "Refunds",
-        "commission": "Commission",
+        "gross": "Brüt",
+        "refunds": "Geri ödemeler",
+        "commission": "Komisyon",
         "status": "Durum",
-        "salesCouldNotBeLoadedTryAgainLater": "Sales could not be loaded. Try again later.",
-        "noAttributedSalesYet": "No attributed sales yet.",
+        "salesCouldNotBeLoadedTryAgainLater": "Satışlar yüklenemedi. Daha sonra tekrar deneyin.",
+        "noAttributedSalesYet": "Henüz atfedilen satış yok.",
         "previous": "Önceki",
         "page": "Sayfa",
         "value1Value2": "{{value1}}{{value2}}",
         "next": "Sonraki"
       },
       "creatorSummary": {
-        "earnedThisMonth": "Earned this month",
-        "commissionRecordedThisUtcMonth": "Commission recorded this UTC month",
-        "onHold": "On hold",
-        "unpaidCommissionAvailableForManualPayout": "Unpaid commission available for manual payout",
-        "available": "Available",
-        "readyForTheNextStatement": "Ready for the next statement",
-        "carriedForward": "Carried forward",
-        "unpaidBalanceCarriedToTheNextManualPayment": "Unpaid balance carried to the next manual payment",
-        "lifetimePaid": "Lifetime paid",
-        "totalOfPaidStatements": "Total of paid statements",
-        "earningsSummary": "Earnings summary"
+        "earnedThisMonth": "Bu ay kazandım",
+        "commissionRecordedThisUtcMonth": "Komisyon bu UTC ayını kaydetti",
+        "onHold": "beklemede",
+        "unpaidCommissionAvailableForManualPayout": "Manuel ödeme için ödenmemiş komisyon mevcuttur",
+        "available": "Mevcut",
+        "readyForTheNextStatement": "Bir sonraki açıklamaya hazırız",
+        "carriedForward": "İleriye taşındı",
+        "unpaidBalanceCarriedToTheNextManualPayment": "Ödenmemiş bakiye bir sonraki manuel ödemeye aktarılır",
+        "lifetimePaid": "Ömür boyu ödenen",
+        "totalOfPaidStatements": "Toplam ücretli ekstreler",
+        "earningsSummary": "Kazanç özeti"
       },
       "format": {
-        "creatorCode": "Creator code",
-        "domainJoin": "Domain join",
-        "renewal": "Renewal",
-        "assignedByStaff": "Assigned by staff",
-        "onHold": "On hold",
-        "available": "Available",
+        "creatorCode": "Yaratıcı kodu",
+        "domainJoin": "Etki alanına katılma",
+        "renewal": "Yenileme",
+        "assignedByStaff": "Personel tarafından atanan",
+        "onHold": "beklemede",
+        "available": "Mevcut",
         "paid": "Ödendi",
-        "reversed": "Reversed",
-        "draft": "Draft",
+        "reversed": "Ters çevrilmiş",
+        "draft": "Taslak",
         "approved": "Onaylandı",
-        "carriedForward": "Carried forward",
-        "void": "Void"
+        "carriedForward": "İleriye taşındı",
+        "void": "Geçersiz"
       },
       "page": {
-        "creatorDashboard": "Creator dashboard",
+        "creatorDashboard": "Yaratıcı kontrol paneli",
         "value1": "{{value1}} ·",
-        "amountsAreInEurDatesAndMonthlyStatementsUse": "Amounts are in EUR. Dates and monthly statements use UTC.",
-        "activeDomains": "Active domains:",
-        "creatorInformationCouldNotBeLoaded": "Creator information could not be loaded",
-        "reloadThePageOrTryAgainLater": "Reload the page or try again later.",
-        "thisAccountDoesNotHaveACreatorProfile": "This account does not have a creator profile."
+        "amountsAreInEurDatesAndMonthlyStatementsUse": "Tutarlar EUR cinsindendir. Tarihler ve aylık beyanlar UTC'yi kullanır.",
+        "activeDomains": "Aktif alanlar:",
+        "creatorInformationCouldNotBeLoaded": "Yaratıcı bilgileri yüklenemedi",
+        "reloadThePageOrTryAgainLater": "Sayfayı yeniden yükleyin veya daha sonra tekrar deneyin.",
+        "thisAccountDoesNotHaveACreatorProfile": "Bu hesabın yaratıcı profili yok."
       }
     },
     "app": {
@@ -111,23 +111,27 @@
           "signInToAssignYourApexRanks": "Apex rank'larınızı atamak için giriş yapın.",
           "couldNotCompleteTheAssignmentIfItWasReserved": "Atama tamamlanamadı. Hakkınız ayrıldıysa aynı kullanıcı adıyla tekrar deneyin. Her hak yalnızca bir kez ve farklı bir oyuncuya atanabilir."
         },
+        "cmsForms": {
+          "ready": "hazır",
+          "unavailable": "müsait değil"
+        },
         "creatorAdmin": {
-          "theChangeFailed": "The change failed",
-          "invalidEmailAddress": "Invalid email address"
+          "theChangeFailed": "Değişiklik başarısız oldu",
+          "invalidEmailAddress": "Geçersiz e-posta adresi"
         },
         "editorialContent": {
-          "ready": "ready",
-          "unavailable": "unavailable"
+          "ready": "hazır",
+          "unavailable": "müsait değil"
         },
         "legalPages": {
-          "ready": "ready",
-          "unavailable": "unavailable"
+          "ready": "hazır",
+          "unavailable": "müsait değil"
         },
         "legendUpgrade": {
           "signInAndSelectALinkedProfileOrChoose": "Yükseltme kredisini görmek için giriş yapıp bağlı bir profil veya hediye alıcısı seçin.",
-          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "We're automatically syncing your previous Legend payments. Your upgrade will be available once your verified balance is ready.",
-          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "Your payment history is temporarily unavailable. We'll retry automatically.",
-          "legendUpgradeCreditIsNotAvailableYet": "Legend upgrade credit is not available yet.",
+          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "Önceki Legend ödemelerinizi otomatik olarak senkronize ediyoruz. Doğrulanmış bakiyeniz hazır olduğunda yükseltmeniz mümkün olacaktır.",
+          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "Ödeme geçmişiniz geçici olarak kullanılamıyor. Otomatik olarak yeniden deneyeceğiz.",
+          "legendUpgradeCreditIsNotAvailableYet": "Legend yükseltme kredisi henüz mevcut değil.",
           "couldNotCompleteYourLegendUltraClaimRefreshYour": "Legend Ultra talebin tamamlanamadı. Bakiyeni yenileyip tekrar dene. Sorun sürerse destek ekibiyle iletişime geç."
         },
         "motd": {
@@ -149,12 +153,12 @@
           "unknownError": "Bilinmeyen hata"
         },
         "siteSearch": {
-          "ready": "ready",
-          "unavailable": "unavailable"
+          "ready": "hazır",
+          "unavailable": "müsait değil"
         },
         "websiteContent": {
-          "ready": "ready",
-          "unavailable": "unavailable"
+          "ready": "hazır",
+          "unavailable": "müsait değil"
         }
       },
       "jobs": {
@@ -182,26 +186,30 @@
         "antispam": {
           "antispamMessagesValue1": "antispam_messages:{{value1}}"
         },
+        "cmsForms": {
+          "invalid": "geçersiz",
+          "sent": "gönderilmiş"
+        },
         "cms": {
-          "theCmsValue1RequestFailed": "The CMS {{value1}} request failed",
-          "theCmsReturnedAnInvalidValue1Response": "The CMS returned an invalid {{value1}} response",
-          "theCmsServiceBindingIsMissing": "The CMS service binding is missing"
+          "theCmsValue1RequestFailed": "CMS {{value1}} isteği başarısız oldu",
+          "theCmsReturnedAnInvalidValue1Response": "CMS geçersiz bir {{value1}} yanıtı döndürdü",
+          "theCmsServiceBindingIsMissing": "CMS hizmeti bağlaması eksik"
         },
         "editorialContent": {
-          "aReviewImageHasNoUrl": "A review image has no URL",
-          "publishedWebsiteMediaIsIncomplete": "Published website media is incomplete"
+          "aReviewImageHasNoUrl": "İnceleme görselinde URL yok",
+          "publishedWebsiteMediaIsIncomplete": "Yayınlanan web sitesi medyası eksik"
         },
         "legendTheme": {
           "noThemeFound": "Tema bulunamadı"
         },
         "mcpData": {
-          "methodNotAllowed": "Method not allowed",
-          "notFound": "Not found",
-          "invalidInput": "Invalid input",
-          "statisticsTemporarilyUnavailable": "Statistics temporarily unavailable"
+          "methodNotAllowed": "Yönteme izin verilmiyor",
+          "notFound": "Bulunamadı",
+          "invalidInput": "Geçersiz giriş",
+          "statisticsTemporarilyUnavailable": "İstatistikler geçici olarak kullanılamıyor"
         },
         "newsletterSignup": {
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "Geçersiz e-posta adresi",
           "pendingConfirmation": "pending_confirmation"
         },
         "playerHistory": {
@@ -219,7 +227,7 @@
             "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "Kurtarma oturumunun süresi doldu veya geçersiz. Lütfen kurtarmayı yeniden başlatın.",
             "yourRequestWasReceivedIfTheAccountExistsAnd": "Talebiniz alındı. Hesap mevcutsa ve sağlanan kanıt doğrulanabilirse destek ekibi sizinle iletişime geçecektir.",
             "pending": "Beklemede",
-            "ownerNotificationIsTemporarilyUnavailable": "Owner notification is temporarily unavailable."
+            "ownerNotificationIsTemporarilyUnavailable": "Sahip bildirimi geçici olarak kullanılamıyor."
           },
           "recover": {
             "ifThisAccountExistsRecoveryOptionsWillBeShown": "Bu hesap mevcutsa, kurtarma seçenekleri gösterilecektir.",
@@ -281,102 +289,102 @@
           }
         },
         "reviewRecoveryTicket": {
-          "recoveryReviewFailed": "Recovery review failed",
-          "ticketNotFound": "Ticket not found",
-          "ticketHasAlreadyBeenReviewed": "Ticket has already been reviewed.",
-          "ticketChangedWhileBeingReviewed": "Ticket changed while being reviewed",
-          "ticketHasAlreadyBeenReviewedAndHasNoPending": "Ticket has already been reviewed and has no pending notification to retry.",
-          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Game-server email availability check is unavailable. Ticket was not approved.",
-          "targetEmailIsAlreadyLinkedToAnotherAccount": "Target email is already linked to another account.",
-          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Game-server recovery snapshot is unavailable. Ticket was not approved.",
-          "theAccountIdentityChangedTicketWasNotApproved": "The account identity changed. Ticket was not approved.",
-          "theAccountEmailChangedAfterApprovalANewRecovery": "The account email changed after approval. A new recovery review is required.",
-          "ownerNotificationGracePeriodIsStillActiveWaitFor": "Owner notification grace period is still active. Wait for it to elapse or use the super-admin grace-period override first.",
-          "noAccountOwnerNotificationChallengeExistsForThisVerified": "No account-owner notification challenge exists for this verified email account. Use Notify account owner to start the waiting period on this ticket. Ticket was not approved.",
-          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Could not consume the account-owner notification pass. Ticket was not approved.",
-          "gameServerEmailUpdateFailedTicketWasNotApproved": "Game-server email update failed. Ticket was not approved.",
-          "accountChangesMayHaveCompletedButTheTicketCould": "Account changes may have completed, but the ticket could not be finalized. Contact an operator before retrying.",
+          "recoveryReviewFailed": "Kurtarma incelemesi başarısız oldu",
+          "ticketNotFound": "Bilet bulunamadı",
+          "ticketHasAlreadyBeenReviewed": "Bilet zaten incelendi.",
+          "ticketChangedWhileBeingReviewed": "Bilet incelenirken değiştirildi",
+          "ticketHasAlreadyBeenReviewedAndHasNoPending": "Bilet zaten incelendi ve yeniden denenecek bekleyen bir bildirim yok.",
+          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Oyun sunucusu e-posta kullanılabilirliği kontrolü kullanılamıyor. Bilet onaylanmadı.",
+          "targetEmailIsAlreadyLinkedToAnotherAccount": "Hedef e-posta zaten başka bir hesaba bağlı.",
+          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Oyun sunucusu kurtarma anlık görüntüsü kullanılamıyor. Bilet onaylanmadı.",
+          "theAccountIdentityChangedTicketWasNotApproved": "Hesap kimliği değişti. Bilet onaylanmadı.",
+          "theAccountEmailChangedAfterApprovalANewRecovery": "Hesap e-postası onaylandıktan sonra değişti. Yeni bir kurtarma incelemesi gerekiyor.",
+          "ownerNotificationGracePeriodIsStillActiveWaitFor": "Sahip bildirimi ek süresi hâlâ etkin. Bu sürenin dolmasını bekleyin veya önce süper yönetici yetkisiz kullanım süresini geçersiz kılmayı kullanın.",
+          "noAccountOwnerNotificationChallengeExistsForThisVerified": "Bu doğrulanmış e-posta hesabı için hesap sahibi bildirim sorgulaması mevcut değil. Bu destek bildiriminde bekleme süresini başlatmak için Hesap sahibine bildir seçeneğini kullanın. Bilet onaylanmadı.",
+          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Hesap sahibi bildirim geçişi kullanılamadı. Bilet onaylanmadı.",
+          "gameServerEmailUpdateFailedTicketWasNotApproved": "Oyun sunucusu e-posta güncellemesi başarısız oldu. Bilet onaylanmadı.",
+          "accountChangesMayHaveCompletedButTheTicketCould": "Hesap değişiklikleri tamamlanmış olabilir ancak bilet kesinleşememiştir. Tekrar denemeden önce bir operatörle iletişime geçin.",
           "emailSendFailed": "email_send_failed",
-          "ticketDecisionWasSavedButTheResultEmailCould": "Ticket decision was saved, but the result email could not be delivered. Retry the same decision to resend it.",
-          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "Recovery may already be approved, but the override audit could not be finalized. Refresh the ticket before taking another action.",
-          "theOverrideAuditRecordIsMissingRefreshTheTicket": "The override audit record is missing. Refresh the ticket and contact an operator before taking another action.",
-          "thisTicketIsAlreadyBeingReviewed": "This ticket is already being reviewed",
-          "onlyPendingTicketsCanBeApprovedWithAnOverride": "Only pending tickets can be approved with an override.",
-          "couldNotSaveTheOverrideAuditTicketWasNot": "Could not save the override audit. Ticket was not approved.",
-          "onlySuperAdminsCanOverrideRecoverySafeguards": "Only super admins can override recovery safeguards.",
+          "ticketDecisionWasSavedButTheResultEmailCould": "Bilet kararı kaydedildi ancak sonuç e-postası teslim edilemedi. Yeniden göndermek için aynı kararı yeniden deneyin.",
+          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "Kurtarma zaten onaylanmış olabilir ancak geçersiz kılma denetimi tamamlanamamıştır. Başka bir işlem yapmadan önce bileti yenileyin.",
+          "theOverrideAuditRecordIsMissingRefreshTheTicket": "Geçersiz kılma denetim kaydı eksik. Başka bir işlem yapmadan önce bileti yenileyin ve bir operatörle iletişime geçin.",
+          "thisTicketIsAlreadyBeingReviewed": "Bu bilet zaten inceleniyor",
+          "onlyPendingTicketsCanBeApprovedWithAnOverride": "Yalnızca bekleyen biletler geçersiz kılma işlemiyle onaylanabilir.",
+          "couldNotSaveTheOverrideAuditTicketWasNot": "Geçersiz kılma denetimi kaydedilemedi. Bilet onaylanmadı.",
+          "onlySuperAdminsCanOverrideRecoverySafeguards": "Yalnızca süper yöneticiler kurtarma korumalarını geçersiz kılabilir.",
           "approved": "Onaylandı"
         },
         "scheduledRetention": {
-          "hytaleRequestCleanupUnavailable": "Hytale request cleanup unavailable",
-          "retentionFailed": "Retention failed"
+          "hytaleRequestCleanupUnavailable": "Hytale istek temizleme kullanılamıyor",
+          "retentionFailed": "Saklama başarısız oldu"
         },
         "serverStatus": {
           "unknown": "Bilinmiyor"
         },
         "shopCheckout": {
-          "signInToUseTheShop": "Sign in to use the shop",
-          "invalidRecipient": "Invalid recipient",
-          "theSelectedGameProfileHasAnInvalidAccountId": "The selected game profile has an invalid account ID. Link it again in your account settings, then try again.",
-          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "This player has never joined 6b6t. Gifts can only go to players who have joined the server.",
-          "weCouldNotFindThisGameAccountOn6b6t": "We could not find this game account on 6b6t. Join the server once with it, then try again.",
-          "unsupportedCheckoutLanguage": "Unsupported checkout language",
-          "paypalCheckoutIsTemporarilyUnavailable": "PayPal checkout is temporarily unavailable",
-          "unableToDetermineTheWebsiteUrl": "Unable to determine the website URL",
-          "bundleNotFound": "Bundle not found",
-          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal is only available for permanent ranks. Please choose card checkout for subscriptions.",
-          "thisBundleCannotBeGifted": "This bundle cannot be gifted",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "tebexPackageConfigurationUnavailable": "Tebex package configuration unavailable",
-          "tebexPackageMappingIsMissingForValue1": "Tebex package mapping is missing for {{value1}}",
-          "tebexConfigurationUnavailable": "Tebex configuration unavailable",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "checkoutSigningConfigurationUnavailable": "Checkout signing configuration unavailable",
-          "invalidCheckoutIntent": "Invalid checkout intent",
-          "tebexDidNotReturnACheckoutUrl": "Tebex did not return a checkout URL",
-          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex basket total does not match the shop catalog"
+          "signInToUseTheShop": "Mağazayı kullanmak için oturum açın",
+          "invalidRecipient": "Geçersiz alıcı",
+          "theSelectedGameProfileHasAnInvalidAccountId": "Seçilen oyun profilinde geçersiz bir hesap var ID. Hesap ayarlarınızda tekrar bağlayın ve tekrar deneyin.",
+          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "Bu oyuncu 6b6t'e hiç katılmadı. Hediyeler yalnızca sunucuya katılan oyunculara verilebilir.",
+          "weCouldNotFindThisGameAccountOn6b6t": "Bu oyun hesabını 6b6t üzerinde bulamadık. Onunla bir kez sunucuya katılın, ardından tekrar deneyin.",
+          "unsupportedCheckoutLanguage": "Desteklenmeyen ödeme dili",
+          "paypalCheckoutIsTemporarilyUnavailable": "PayPal ödeme geçici olarak kullanılamıyor",
+          "unableToDetermineTheWebsiteUrl": "URL web sitesi belirlenemiyor",
+          "bundleNotFound": "Paket bulunamadı",
+          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal yalnızca kalıcı rütbeler için geçerlidir. Lütfen abonelikler için kartla ödemeyi seçin.",
+          "thisBundleCannotBeGifted": "Bu paket hediye edilemez",
+          "targetPlayerIsNotEligibleForThisBundle": "Hedef oyuncu bu paket için uygun değil",
+          "tebexPackageConfigurationUnavailable": "Tebex paket yapılandırması kullanılamıyor",
+          "tebexPackageMappingIsMissingForValue1": "{{value1}} için Tebex paket eşlemesi eksik",
+          "tebexConfigurationUnavailable": "Tebex yapılandırması kullanılamıyor",
+          "checkoutProductConfigurationMismatch": "Ödeme ürünü yapılandırması uyumsuzluğu",
+          "checkoutSigningConfigurationUnavailable": "Ödeme imzalama yapılandırması kullanılamıyor",
+          "invalidCheckoutIntent": "Geçersiz ödeme amacı",
+          "tebexDidNotReturnACheckoutUrl": "Tebex bir ödeme döndürmedi URL",
+          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex sepet toplamı mağaza kataloğuyla eşleşmiyor"
         },
         "websiteContent": {
-          "aPublishedGalleryEntryHasNoImage": "A published gallery entry has no image",
+          "aPublishedGalleryEntryHasNoImage": "Yayınlanan bir galeri girişinde resim yok",
           "value1Value2": "{{value1}}{{value2}}"
         }
       }
     },
     "auth": {
       "additionalField": {
-        "noItemsFound": "No items found."
+        "noItemsFound": "Hiçbir öğe bulunamadı."
       },
       "admin": {
         "adminUsers": {
           "all": "tümü",
-          "email": "email",
-          "name": "name",
-          "contains": "contains",
+          "email": "e-posta",
+          "name": "isim",
+          "contains": "içerir",
           "startsWith": "starts_with",
           "endsWith": "ends_with",
-          "active": "active",
-          "banned": "banned",
+          "active": "aktif",
+          "banned": "yasaklandı",
           "value1Value2": "{{value1}}:{{value2}}"
         },
         "linkHistoryTab": {
-          "appendOnlyRecordOfAccountLinksUseItAs": "Append-only record of account links. Use it as evidence for lost-account requests; rows marked backfill describe links that existed when the history started.",
-          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Find accounts by Minecraft UUID, Discord ID, Telegram ID or email",
-          "thisAccount": "This account",
-          "noLinkHistoryYet": "No link history yet.",
-          "when": "When",
+          "appendOnlyRecordOfAccountLinksUseItAs": "Hesap bağlantılarının yalnızca ekleme kaydı. Kayıp hesap talepleri için delil olarak kullanın; Dolgu işaretli satırlar, geçmiş başladığında var olan bağlantıları tanımlar.",
+          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Hesapları Minecraft UUID, Discord ID, Telegram ID veya e-posta ile bulun",
+          "thisAccount": "Bu hesap",
+          "noLinkHistoryYet": "Henüz bağlantı geçmişi yok.",
+          "when": "Ne zaman",
           "change": "Değiştir",
           "value": "Değer",
-          "signedInWith": "Signed in with",
-          "websiteAccount": "Website account",
-          "backfill": "backfill",
-          "by": "by",
+          "signedInWith": "Şununla oturum açıldı:",
+          "websiteAccount": "Web sitesi hesabı",
+          "backfill": "dolgu",
+          "by": "ile",
           "ip": "ip"
         }
       },
       "authCaptcha": {
-        "captchaVerification": "CAPTCHA verification"
+        "captchaVerification": "CAPTCHA doğrulaması"
       },
       "authForm": {
-        "unableToSubmitThisFormTryAgain": "Unable to submit this form. Try again."
+        "unableToSubmitThisFormTryAgain": "Bu form gönderilemiyor. Tekrar deneyin."
       },
       "dash": {
         "activity": {
@@ -385,109 +393,109 @@
       },
       "emailOtp": {
         "changeEmailOtp": {
-          "email": "email",
+          "email": "e-posta",
           "currentcode": "currentCode",
           "newcode": "newCode"
         }
       },
       "hytaleLinkedPlayers": {
-        "linkedHytalePlayers": "Linked Hytale players",
-        "yourHytaleConnections": "Your Hytale connections",
-        "noHytaleAccountIsLinkedToYourConnectedDiscord": "No Hytale account is linked to your connected Discord accounts.",
-        "linkedTo": "linked to",
-        "disconnect": "Disconnect",
-        "theLinkedRoleRemainsIfYouAlsoHaveA": "? The Linked role remains if you also have a Minecraft link.",
-        "disconnecting": "Disconnecting…",
-        "confirmDisconnect": "Confirm disconnect",
+        "linkedHytalePlayers": "Bağlantılı Hytale oyuncular",
+        "yourHytaleConnections": "Hytale bağlantılarınız",
+        "noHytaleAccountIsLinkedToYourConnectedDiscord": "Bağlı Discord hesaplarınıza hiçbir Hytale hesabı bağlı değil.",
+        "linkedTo": "bağlantılı",
+        "disconnect": "Bağlantıyı kes",
+        "theLinkedRoleRemainsIfYouAlsoHaveA": "? Ayrıca bir Minecraft bağlantınız varsa Bağlantılı rolü kalır.",
+        "disconnecting": "Bağlantı kesiliyor…",
+        "confirmDisconnect": "Bağlantıyı kesmeyi onayla",
         "cancel": "İptal",
-        "disconnectHytale": "Disconnect Hytale"
+        "disconnectHytale": "Hytale bağlantısını kes"
       },
       "hytaleRoleStatus": {
-        "discordConfirmsThatYouHaveTheLinkedRole": "Discord confirms that you have the Linked role.",
-        "thisDiscordAccountIsNotInTheServerUse": "This Discord account is not in the server. Use Join Discord again below; your Hytale connection is preserved.",
-        "yourAccountIsLinkedButWeCouldNotCheck": "Your account is linked, but we could not check Discord access. Try again shortly.",
-        "yourAccountIsLinkedButDiscordAccessIsTaking": "Your account is linked, but Discord access is taking longer than expected. Check again shortly or contact support. You do not need to relink.",
-        "yourAccountIsLinkedWaitingForTheBotTo": "Your account is linked. Waiting for the bot to update Discord access.",
+        "discordConfirmsThatYouHaveTheLinkedRole": "Discord Bağlantılı rolüne sahip olduğunuzu doğrular.",
+        "thisDiscordAccountIsNotInTheServerUse": "Bu Discord hesabı sunucuda değil. Aşağıda Discord Katıl'ı tekrar kullanın; Hytale bağlantınız korunur.",
+        "yourAccountIsLinkedButWeCouldNotCheck": "Hesabınız bağlı ancak Discord erişimini kontrol edemedik. Kısa süre sonra tekrar deneyin.",
+        "yourAccountIsLinkedButDiscordAccessIsTaking": "Hesabınız bağlı ancak Discord erişimi beklenenden uzun sürüyor. Kısa bir süre sonra tekrar kontrol edin veya destek ekibiyle iletişime geçin. Yeniden bağlanmanıza gerek yok.",
+        "yourAccountIsLinkedWaitingForTheBotTo": "Hesabınız bağlı. Botun Discord erişimini güncellemesi bekleniyor.",
         "joining": "Joining...",
-        "joinDiscordAgain": "Join Discord again",
-        "checkDiscordAccess": "Check Discord access"
+        "joinDiscordAgain": "Discord'e tekrar katılın",
+        "checkDiscordAccess": "Discord erişimini kontrol edin"
       },
       "minecraftAccounts": {
-        "gameProfile": "Game profile",
-        "couldNotLoadYourAccounts": "Could not load your accounts.",
+        "gameProfile": "Oyun profili",
+        "couldNotLoadYourAccounts": "Hesaplarınız yüklenemedi.",
         "tryAgain": "Tekrar dene"
       },
       "minecraftIdentityActions": {
-        "linkAnotherProfile": "Link another profile",
-        "linkAGameProfile": "Link a game profile",
-        "manageProfiles": "Manage profiles"
+        "linkAnotherProfile": "Başka bir profil bağlayın",
+        "linkAGameProfile": "Bir oyun profilini bağlayın",
+        "manageProfiles": "Profilleri yönet"
       },
       "minecraftIdentityPicker": {
-        "couldNotLoadYourGameProfiles": "Could not load your game profiles."
+        "couldNotLoadYourGameProfiles": "Oyun profilleriniz yüklenemedi."
       },
       "minecraftIdentitySelect": {
-        "gameProfile": "Game profile",
-        "chooseAGameProfile": "Choose a game profile"
+        "gameProfile": "Oyun profili",
+        "chooseAGameProfile": "Bir oyun profili seçin"
       },
       "oauthProvider": {
         "authorizedApplication": {
           "value1Value2": "{{value1}} {{value2}}"
         },
         "oauthClients": {
-          "web": "web",
-          "native": "native",
-          "openidProfileEmail": "openid profile email"
+          "web": "ağ",
+          "native": "yerli",
+          "openidProfileEmail": "openid profil e-postası"
         },
         "oauthSelectAccount": {
           "value1Value2Value3": "{{value1}}: {{value2}} ({{value3}})"
         }
       },
       "requiredEmailForm": {
-        "invalidEmailAddress": "Invalid email address",
-        "yourEmailIsNotVerifiedYetOpenTheLink": "Your email is not verified yet. Open the link in your inbox, then try again.",
-        "enterAValidEmailAddressYouCanAccess": "Enter a valid email address you can access.",
-        "couldNotCompleteTheRequestPleaseTryAgain": "Could not complete the request. Please try again.",
-        "linkYourEmailToContinue": "Link your email to continue",
-        "verifyAnEmailAddressToUseYour6b6tWebsite": "Verify an email address to use your 6b6t website account. This gives you a way to sign in and recover access if you need it.",
-        "emailAddress": "Email address",
-        "check": "Check",
-        "forAVerificationLinkIfItDoesNotArrive": "for a verification link. If it does not arrive, check your spam folder or try a different email address.",
-        "sendAgainInValue1S": "Send again in {{value1}}s",
-        "sendAnotherLink": "Send another link",
-        "sendVerificationLink": "Send verification link",
-        "signOut": "Sign out",
-        "iVeVerifiedMyEmail": "I’ve verified my email"
+        "invalidEmailAddress": "Geçersiz e-posta adresi",
+        "yourEmailIsNotVerifiedYetOpenTheLink": "E-postanız henüz doğrulanmadı. Bağlantıyı gelen kutunuzda açın ve tekrar deneyin.",
+        "enterAValidEmailAddressYouCanAccess": "Erişebileceğiniz geçerli bir e-posta adresi girin.",
+        "couldNotCompleteTheRequestPleaseTryAgain": "İstek tamamlanamadı. Lütfen tekrar deneyin.",
+        "linkYourEmailToContinue": "Devam etmek için e-postanızı bağlayın",
+        "verifyAnEmailAddressToUseYour6b6tWebsite": "6b6t web sitesi hesabınızı kullanmak için bir e-posta adresini doğrulayın. Bu, ihtiyacınız olması durumunda oturum açmanız ve erişimi kurtarmanız için bir yol sağlar.",
+        "emailAddress": "E-posta adresi",
+        "check": "Kontrol etmek",
+        "forAVerificationLinkIfItDoesNotArrive": "doğrulama bağlantısı için. Ulaşmazsa spam klasörünüzü kontrol edin veya farklı bir e-posta adresi deneyin.",
+        "sendAgainInValue1S": "{{value1}}s içinde tekrar gönder",
+        "sendAnotherLink": "Başka bir bağlantı gönder",
+        "sendVerificationLink": "Doğrulama bağlantısını gönder",
+        "signOut": "oturumu Kapat",
+        "iVeVerifiedMyEmail": "E-postamı doğruladım"
       },
       "settings": {
         "security": {
           "activeSession": {
-            "unknownBrowser": "Unknown Browser",
+            "unknownBrowser": "Bilinmeyen Tarayıcı",
             "value1": ", {{value1}}"
           },
           "changePassword": {
-            "addAVerifiedEmailIn": "Add a verified email in",
-            "accountSettings": "account settings",
-            "beforeSettingAPassword": "before setting a password."
+            "addAVerifiedEmailIn": "Doğrulanmış bir e-posta ekleyin",
+            "accountSettings": "hesap ayarları",
+            "beforeSettingAPassword": "Bir şifre ayarlamadan önce."
           }
         }
       },
       "stepUp": {
         "stepUpDialog": {
-          "confirmItIsYou": "Confirm it is you",
-          "weSentA6DigitCodeToTheEmail": "We sent a 6-digit code to the email address on your account. It works for 10 minutes and only once.",
-          "enterThe6DigitCodeFromYourAuthenticatorApp": "Enter the 6-digit code from your authenticator app.",
-          "confirmationCode": "Confirmation code",
-          "sendANewCode": "Send a new code",
-          "useMyAuthenticatorApp": "Use my authenticator app",
-          "useAnEmailCode": "Use an email code",
-          "confirm": "Confirm"
+          "confirmItIsYou": "Sen olduğunu doğrula",
+          "weSentA6DigitCodeToTheEmail": "Hesabınızdaki e-posta adresine 6 haneli bir kod gönderdik. 10 dakika boyunca ve yalnızca bir kez çalışır.",
+          "enterThe6DigitCodeFromYourAuthenticatorApp": "Kimlik doğrulayıcı uygulamanızdan 6 haneli kodu girin.",
+          "confirmationCode": "Onay kodu",
+          "sendANewCode": "Yeni bir kod gönder",
+          "useMyAuthenticatorApp": "Kimlik doğrulayıcı uygulamamı kullan",
+          "useAnEmailCode": "Bir e-posta kodu kullanın",
+          "confirm": "Onaylamak"
         }
       },
       "websiteAuthProvider": {
         "minecraft": "Minecraft",
         "discord": "Discord",
         "google": "Google",
-        "telegram": "Telegram"
+        "telegram": "Telgraf"
       }
     },
     "communityEventCountdown": {
@@ -501,7 +509,7 @@
       "upgradedFrom": "şunu yükseltti:",
       "to": "→",
       "boughtThe": "şunu satın aldı:",
-      "rank": "Rank.",
+      "rank": "Rütbe.",
       "addedToTheDupeEvent": "Dupe Etkinliğine eklendi",
       "finalizing": "Sonlandırılıyor",
       "ended": "Sona erdi",
@@ -534,39 +542,48 @@
       "viewRanks": "Rank'ları görüntüle"
     },
     "content": {
+      "cmsAdminBar": {
+        "text6b6tCms": "6b6t CMS"
+      },
       "cmsPreviewBanner": {
-        "cmsPreview": "CMS preview",
-        "draftPreview": "Draft preview",
-        "saveInTheCmsToRefreshThisLinkExpires": "Save in the CMS to refresh. This link expires after 15 minutes.",
-        "exitPreview": "Exit preview"
+        "cmsPreview": "CMS önizlemesi",
+        "draftPreview": "Taslak önizlemesi",
+        "saveInTheCmsToRefreshThisLinkExpires": "Yenilemek için CMS'ye kaydedin. Bu bağlantının süresi 15 dakika sonra sona erer.",
+        "exitPreview": "Önizlemeden çık"
+      },
+      "cmsRichTextBlocks": {
+        "copyValue1": "{{value1}} Kopyala",
+        "copied": "Kopyalandı",
+        "copy": "Kopyala",
+        "copied2": "Kopyalandı."
       },
       "legalPage": {
-        "thisPageIsTemporarilyUnavailableContact": "This page is temporarily unavailable. Contact",
+        "thisPageIsTemporarilyUnavailableContact": "Bu sayfa geçici olarak kullanılamıyor. Temas etmek",
         "contact6b6tOrg": "contact@6b6t.org",
-        "forACopy": "for a copy.",
-        "loading": "Loading…",
+        "forACopy": "bir kopya için.",
+        "loading": "Yükleniyor…",
         "onThisPage": "Bu sayfada",
         "policySections": "Politika bölümleri",
         "effectiveDate": "Yürürlük Tarihi:",
         "lastUpdated": "Son güncelleme:"
       },
       "websiteAnnouncements": {
-        "serverAnnouncements": "Server announcements"
+        "serverAnnouncements": "Sunucu duyuruları"
       },
       "websiteFaqs": {
-        "questionsAreTemporarilyUnavailable": "Questions are temporarily unavailable.",
-        "loadingQuestions": "Loading questions…",
-        "noQuestionsToShow": "No questions to show.",
-        "frequentlyAskedQuestions": "Frequently Asked Questions"
+        "questionsAreTemporarilyUnavailable": "Sorular geçici olarak kullanılamıyor.",
+        "loadingQuestions": "Sorular yükleniyor…",
+        "noQuestionsToShow": "Gösterilecek soru yok.",
+        "frequentlyAskedQuestions": "Sıkça Sorulan Sorular"
       },
       "websiteGuide": {
-        "thisGuideIsTemporarilyUnavailable": "This guide is temporarily unavailable.",
-        "loadingGuide": "Loading guide…",
-        "thisGuideIsNotPublished": "This guide is not published."
+        "thisGuideIsTemporarilyUnavailable": "Bu kılavuz geçici olarak kullanılamıyor.",
+        "loadingGuide": "Kılavuz yükleniyor…",
+        "thisGuideIsNotPublished": "Bu kılavuz yayınlanmamıştır."
       },
       "websiteMediaImage": {
-        "imageIsTemporarilyUnavailable": "Image is temporarily unavailable.",
-        "loadingImage": "Loading image…"
+        "imageIsTemporarilyUnavailable": "Resim geçici olarak kullanılamıyor.",
+        "loadingImage": "Resim yükleniyor…"
       }
     },
     "errorPage": {
@@ -574,13 +591,13 @@
     },
     "layout": {
       "accountMenu": {
-        "accountNavigation": "Account navigation",
+        "accountNavigation": "Hesapta gezinme",
         "account": "Hesap",
-        "loadingAccount": "Loading account",
-        "profile": "Profile",
-        "settings": "Settings",
-        "signOut": "Sign out",
-        "signIn": "Sign in"
+        "loadingAccount": "Hesap yükleniyor",
+        "profile": "Profil",
+        "settings": "Ayarlar",
+        "signOut": "oturumu Kapat",
+        "signIn": "Oturum aç"
       },
       "copyButton": {
         "copied": "Kopyalandı!",
@@ -590,26 +607,26 @@
         "socials": "Sosyal Medya",
         "discord": "Discord",
         "youtube": "YouTube",
-        "twitter": "Twitter",
+        "twitter": "heyecan",
         "reddit": "Reddit",
         "tiktok": "TikTok",
-        "instagram": "Instagram",
-        "telegram": "Telegram",
+        "instagram": "instagram",
+        "telegram": "Telgraf",
         "about": "Hakkında",
         "about6b6t": "6b6t Hakkında",
         "votingRewards": "Oy verme ödülleri",
-        "informationAbout2b2tQueue": "Information about 2b2t queue",
+        "informationAbout2b2tQueue": "2b2t kuyruğu hakkında bilgi",
         "join6b6t": "6b6t'ye Katıl",
-        "connectionHelp": "Connection help",
-        "rulesAndGameplay": "Rules and gameplay",
+        "connectionHelp": "Bağlantı yardımı",
+        "rulesAndGameplay": "Kurallar ve oynanış",
         "history": "Tarih",
         "hytale": "Hytale",
-        "legendRank": "Legend rank",
+        "legendRank": "Legend sıralaması",
         "antiSpamLogs": "Anti-Spam Kayıtları",
-        "newsletter": "Newsletter",
-        "accountRecovery": "Account recovery",
+        "newsletter": "Bülten",
+        "accountRecovery": "Hesap kurtarma",
         "blog": "Blog",
-        "anarchyServerGuide": "Anarchy server guide",
+        "anarchyServerGuide": "Anarşi sunucu kılavuzu",
         "contact": "İletişim",
         "termsOfService": "Kullanım Şartları",
         "privacyPolicy": "Gizlilik Politikası",
@@ -627,7 +644,7 @@
         "text6b6tMinecraftServerLogo": "6b6t Minecraft Sunucusu Logosu",
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
-        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft anarchy since 2022. Java: play.6b6t.org with AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
+        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft 2022'den beri anarşi. Java: play.6b6t.org ile AnarchyMod. Bedrock: br.6b6t.org, bağlantı noktası 19132.",
         "serverAddress": "Sunucu Adresi:",
         "teleportToAPlayer": "Bir oyuncuya ışınlan",
         "teleportToYourHome": "Home'una ışınlan",
@@ -644,7 +661,7 @@
         "text6b6t": "6b6t",
         "theBiggestMinecraftAnarchyServerWithNoRulesAnd": "Kuralsız ve sırasız en büyük Minecraft anarşi sunucusu. /tpa ve /home gibi temel komutlarla hem Java hem de Bedrock sürümlerini destekler.",
         "joinTheBiggestMinecraftAnarchyServerWithNoRules": "Kuralsız, sırasız ve 2000'den fazla oyuncu kapasitesine sahip en büyük Minecraft anarşi sunucusuna katılın. Hem Java hem de Bedrock sürümlerinde /tpa ve /home gibi temel komutlarla gerçek anarşiyi deneyimleyin.",
-        "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarchy server, 6b6t, no rules server, free Minecraft server, anarchy gameplay, Minecraft PvP, survival server"
+        "minecraftAnarchyServer6b6tNoRulesServerFreeMinecraft": "Minecraft anarşi sunucusu, 6b6t, kuralsız sunucu, ücretsiz Minecraft sunucusu, anarşi oynanışı, Minecraft PvP, hayatta kalma sunucusu"
       },
       "languageSwitcher": {
         "language": "Dil"
@@ -674,7 +691,7 @@
         "mainNavigation": "Ana navigasyon",
         "text6b6tLogo": "6b6t Logosu",
         "text6b": "6b",
-        "text6t": "6t",
+        "text6t": "6 ton",
         "theBiggestAnarchyServer": "En büyük anarşi sunucusu",
         "joinDiscord": "Discord'a Katıl",
         "discord": "Discord",
@@ -689,14 +706,14 @@
         "acceptedPaymentMethods": "Kabul Edilen Ödeme Yöntemleri",
         "cardsAndWallets": "Kartlar ve Cüzdanlar",
         "visa": "Visa",
-        "mastercard": "Mastercard",
+        "mastercard": "MasterCard",
         "paypal": "PayPal",
         "crypto": "Kripto",
         "applePay": "Apple Pay",
         "googlePay": "Google Pay",
         "alipay": "Alipay",
         "ideal": "iDEAL",
-        "bancontact": "Bancontact",
+        "bancontact": "İletişimi yasakla",
         "eps": "EPS"
       },
       "websiteLayout": {
@@ -725,41 +742,41 @@
         "change": "Değiştir",
         "setYourMinecraftUsername": "Minecraft Kullanıcı Adınızı Belirleyin",
         "enterMinecraftUsername": "Minecraft Kullanıcı Adını Girin",
-        "dinnerbone": "Dinnerbone",
+        "dinnerbone": "Yemek kemiği",
         "thisWillBeUsedToLinkYourPurchasesTo": "Bu, satın alımlarınızı Minecraft hesabınızla ilişkilendirmek için kullanılacaktır.",
         "loading": "Yükleniyor..."
       }
     },
     "newsletter": {
       "newsletterEmailSignup": {
-        "text6b6tNewsletter": "6b6t newsletter",
-        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
-        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "text6b6tNewsletter": "6b6t haber bülteni",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "6b6t tekrar engellenirse sunucu güncellemelerini, etkinlikleri ve oynamaya devam etmenin yollarını öğrenin.",
+        "checkYourEmailToConfirm": "Onaylamak için e-postanızı kontrol edin.",
         "email": "E-posta",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter",
-        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click."
+        "joining": "Katılıyor…",
+        "joinNewsletter": "Bültene katıl",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Sadece katılırsanız. Tek tıkla abonelikten çıkın."
       },
       "newsletterPromptContent": {
-        "text6b6tNewsletter": "6b6t newsletter",
-        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang blacklisted 6b6t. Then they took down our GitHub. Email is the only thing they can&apos;t take.",
-        "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
-        "serverUpdates": "Server updates",
-        "events": "Events",
-        "weSendItToYourAccountEmail": "We send it to your account email:",
-        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
-        "noThanks": "No thanks",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter"
+        "text6b6tNewsletter": "6b6t haber bülteni",
+        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang kara listeye alındı ​​6b6t. Daha sonra GitHub aracımızı kaldırdılar. E-posta alamayacakları tek şey.",
+        "howToKeepPlayingWhenTheyTryAgain": "Tekrar denediklerinde oynamaya nasıl devam edilir?",
+        "serverUpdates": "Sunucu güncellemeleri",
+        "events": "Olaylar",
+        "weSendItToYourAccountEmail": "Hesabınızın e-postasına gönderiyoruz:",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "Sadece katılırsanız. Tek tıkla abonelikten çıkın.",
+        "noThanks": "Hayır, teşekkürler",
+        "joining": "Katılıyor…",
+        "joinNewsletter": "Bültene katıl"
       },
       "newsletterSignup": {
-        "emailNewsletter": "Email newsletter",
-        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again. Unsubscribe with one click.",
-        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Could not load your newsletter preference. Please refresh the page.",
-        "youJoinedThe6b6tNewsletter": "You joined the 6b6t newsletter.",
-        "checkYourEmailToConfirm": "Check your email to confirm.",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter"
+        "emailNewsletter": "E-posta bülteni",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "6b6t tekrar engellenirse sunucu güncellemelerini, etkinlikleri ve oynamaya devam etmenin yollarını öğrenin. Tek tıkla abonelikten çıkın.",
+        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Bülten tercihiniz yüklenemedi. Lütfen sayfayı yenileyin.",
+        "youJoinedThe6b6tNewsletter": "6b6t bültenine katıldınız.",
+        "checkYourEmailToConfirm": "Onaylamak için e-postanızı kontrol edin.",
+        "joining": "Katılıyor…",
+        "joinNewsletter": "Bültene katıl"
       }
     },
     "notFoundPage": {
@@ -772,12 +789,12 @@
     "paymentIcons": {
       "paypal": "PayPal",
       "visa": "Visa",
-      "mastercard": "Mastercard",
+      "mastercard": "MasterCard",
       "applePay": "Apple Pay",
       "googlePay": "Google Pay",
       "alipay": "Alipay",
       "ideal": "iDEAL",
-      "bancontact": "Bancontact",
+      "bancontact": "İletişimi yasakla",
       "eps": "EPS",
       "eps2": "eps"
     },
@@ -841,9 +858,9 @@
       "prime": "Prime",
       "elite": "Elite",
       "apex": "Apex",
-      "reviewsAreTemporarilyUnavailable": "Reviews are temporarily unavailable.",
-      "loadingReviews": "Loading reviews…",
-      "noReviewsToShow": "No reviews to show.",
+      "reviewsAreTemporarilyUnavailable": "Yorumlar geçici olarak kullanılamıyor.",
+      "loadingReviews": "İncelemeler yükleniyor…",
+      "noReviewsToShow": "Gösterilecek inceleme yok.",
       "reviews": "Değerlendirmeler",
       "whatOurCommunitySaysAboutTheirExperience": "Topluluğumuz deneyimleri hakkında ne diyor",
       "averageRating": "Ortalama Puan",
@@ -867,7 +884,7 @@
       "mojangBlockedStandardConnectionsTo6b6tTheOfficialMod": "Mojang, 6b6t'ye standart bağlantıları engelledi. Resmi mod erişimi geri yükler ve sunucuyu otomatik olarak ekler.",
       "javaEdition": "Java Sürümü",
       "twoStepsThenYouAreIn": "İki adım, ardından içeridesin",
-      "fabric": "FABRIC ·",
+      "fabric": "KUMAŞ ·",
       "required": "Gerekli",
       "downloadTheAnarchyMod": "Anarchy Mod'u indir",
       "getTheLatestOfficialReleaseAndInstallItIn": "En son resmi sürümü edin ve Fabric profiline yükle.",
@@ -889,52 +906,52 @@
     },
     "shop": {
       "checkoutGiftFields": {
-        "nameOnTheGiftBook": "Name on the gift book",
-        "shownToTheRecipientInASignedInGame": "Shown to the recipient in a signed in-game book. This is separate from your billing name.",
-        "editYourPersonalMessage": "Edit your personal message",
-        "addAPersonalMessageOptional": "Add a personal message (optional)",
-        "giftBookMessage": "Gift book message",
-        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 characters. Included in the gift book."
+        "nameOnTheGiftBook": "Hediye kitabındaki isim",
+        "shownToTheRecipientInASignedInGame": "Alıcıya imzalı bir oyun içi kitapta gösterilir. Bu, fatura adınızdan ayrıdır.",
+        "editYourPersonalMessage": "Kişisel mesajınızı düzenleyin",
+        "addAPersonalMessageOptional": "Kişisel bir mesaj ekleyin (isteğe bağlı)",
+        "giftBookMessage": "Hediye kitap mesajı",
+        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 karakterler. Hediye kitabına dahildir."
       },
       "checkoutPaymentOptions": {
-        "payWith": "Pay with",
-        "cardAndWallets": "Card and wallets",
-        "cardAmpWallets": "Card &amp; wallets",
-        "paypalCryptoAndMore": "PayPal, crypto and more",
-        "paypalCryptoAmpMore": "PayPal, crypto &amp; more"
+        "payWith": "Şununla öde:",
+        "cardAndWallets": "Kart ve cüzdanlar",
+        "cardAmpWallets": "Kart ve cüzdanlar",
+        "paypalCryptoAndMore": "PayPal, kripto ve daha fazlası",
+        "paypalCryptoAmpMore": "PayPal, kripto ve daha fazlası"
       },
       "creatorCodeField": {
-        "creatorCodeOptional": "Creator code (optional)",
-        "supportACreatorWithYourPurchaseYourPriceStays": "Support a creator with your purchase. Your price stays the same."
+        "creatorCodeOptional": "İçerik oluşturucu kodu (isteğe bağlı)",
+        "supportACreatorWithYourPurchaseYourPriceStays": "Satın alma işleminizle bir yaratıcıyı destekleyin. Fiyatınız aynı kalır."
       },
       "featureDefinitions": {
         "prefix": "Önek",
-        "gifts": "gifts",
+        "gifts": "hediyeler",
         "homes": "Homelar",
-        "chatcolors": "chatcolors",
-        "hat": "hat",
-        "sit": "sit",
-        "lay": "lay",
-        "invisframe": "invisframe",
+        "chatcolors": "sohbet renkleri",
+        "hat": "şapka",
+        "sit": "oturmak",
+        "lay": "sermek",
+        "invisframe": "Invisframe",
         "balloons": "Balonlar",
-        "namecolor": "namecolor",
+        "namecolor": "İsim rengi",
         "particles": "Parçacıklar",
         "glow": "Parlama",
-        "cigar": "cigar",
+        "cigar": "puro",
         "vpn": "vpn",
-        "builder": "builder",
+        "builder": "inşaatçı",
         "hotspot": "Hotspot",
-        "rename": "rename",
-        "seal": "seal",
-        "ignore": "ignore",
+        "rename": "yeniden isimlendirmek",
+        "seal": "fok",
+        "ignore": "görmezden gelmek",
         "discord": "discord",
-        "support": "support",
-        "embed": "embed",
-        "attach": "attach",
-        "reaction": "reaction",
-        "nickname": "nickname",
-        "streaming": "streaming",
-        "ads": "ads",
+        "support": "Destek",
+        "embed": "gömmek",
+        "attach": "eklemek",
+        "reaction": "tepki",
+        "nickname": "takma ad",
+        "streaming": "akış",
+        "ads": "reklamlar",
         "general": "Genel",
         "general2": "Genel",
         "homesTpa": "Home'lar ve TPA",
@@ -946,12 +963,12 @@
         "chat": "Sohbet",
         "chat2": "Sohbet",
         "groupChat": "group_chat",
-        "groupChat2": "Group Chat",
+        "groupChat2": "Grup Sohbeti",
         "website": "Web Sitesi",
         "website2": "Web Sitesi",
         "discord2": "Discord",
         "prefix2": "Önek",
-        "image": "image",
+        "image": "görüntü",
         "goldLegendUltraPrefixInChat": "Sohbette altın Legend Ultra öneki",
         "primePrefix": "Prime Öneki",
         "elitePrefix": "Elite Öneki",
@@ -1001,8 +1018,8 @@
         "text3s": "3sn",
         "tpaExecutionTime": "/tpa Çalışma Süresi",
         "tpaExecutionTimeDiagram": "/tpa çalışma süresi diyagramı",
-        "skin": "skin",
-        "skin2": "Skin",
+        "skin": "deri",
+        "skin2": "Deri",
         "skinCommandInterface": "Skin komutu arayüzü",
         "hat2": "Şapka",
         "hatCommandInterface": "Şapka komutu arayüzü",
@@ -1093,21 +1110,21 @@
         "text5000Players2": "5.000 oyuncu",
         "chatWithoutItem": "Eşyasız Sohbet",
         "groupChatSize": "Grup büyüklüğü",
-        "text7Players": "7 Players",
-        "text10Players": "10 Players",
+        "text7Players": "7 Oyuncu",
+        "text10Players": "10 Oyuncu",
         "text15Players": "15 oyuncu",
         "text35Players": "35 oyuncu",
         "groupChats": "Gruplar",
-        "text1Group": "1 Group",
-        "text2Groups": "2 Groups",
+        "text1Group": "1 Grup",
+        "text2Groups": "2 Grup",
         "text3Groups": "3 grup",
         "text4Groups": "4 grup",
         "missedGroupMessages": "Kaçırılan grup mesajları",
-        "text25From24Hours": "25 from 24 hours",
+        "text25From24Hours": "24 saatten itibaren 25",
         "text100From3Days": "3 günden 100",
         "text200From7Days": "7 günden 200",
         "groupChatSounds": "Grup sohbeti sesleri",
-        "text4MoreSounds": "4 More Sounds",
+        "text4MoreSounds": "4 Daha Fazla Ses",
         "text12Sounds": "12 ses",
         "text28Sounds": "28 ses",
         "groupOfficers": "Grup görevlileri",
@@ -1117,7 +1134,7 @@
         "groupDescriptionPin": "Grup açıklaması ve sabitleme",
         "renameYourGroup": "Grubunuzu yeniden adlandırın",
         "groupNameLength": "Grup adı uzunluğu",
-        "text16Characters": "16 Characters",
+        "text16Characters": "16 Karakter",
         "text24Characters": "24 karakter",
         "text32Characters": "32 karakter",
         "hostedByALegend": "Legend yönetiminde",
@@ -1237,7 +1254,7 @@
         "howLongYouWaitBetweenChatMessagesPrivateMessages": "Sohbet mesajları / özel mesajlar (/msg) arasında ne kadar beklemeniz gerektiği.",
         "theMaximumAmountOfPlayersThatYouCanIgnore": "/ignore ile yoksayabileceğiniz maksimum oyuncu sayısı",
         "talkInChatWithoutNeedingToHaveAnItem": "Envanterinizde bir eşyaya sahip olmaya gerek kalmadan sohbette konuşun",
-        "howManyPlayersCanBeInAGroupYou": "How many players can be in a group you lead. Without a rank: 5.",
+        "howManyPlayersCanBeInAGroupYou": "Liderlik ettiğiniz bir grupta kaç oyuncu olabilir? Sıralama olmadan: 5.",
         "howManyGroupsYouCanBeInAtThe": "Aynı anda kaç grupta olabileceğiniz. Rütbesiz: 1.",
         "whenYouLogInYouSeeTheGroupMessages": "Giriş yaptığınızda kaçırdığınız grup mesajlarını görürsünüz.",
         "pickYourOwnSoundsForInvitesYourNameMessages": "Davetler, adınız, mesajlar ve üyelerin çevrimiçi olması için ses seçin. Bunları yalnızca siz duyarsınız. Diğerleri standart sesleri duyar.",
@@ -1265,34 +1282,34 @@
         "closeModal": "Pencereyi kapat"
       },
       "shopBuyButton": {
-        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Could not open checkout. Your details have been kept. Please try again.",
-        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} has an active {{value2}} subscription. Its perks will no longer apply after this upgrade. The existing subscription is not canceled automatically; its payer must cancel it to avoid further charges.",
-        "thisRankCannotBeGifted": "This rank cannot be gifted",
-        "giftToValue1": "Gift to {{value1}}"
+        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Ödeme açılamadı. Bilgileriniz saklandı. Lütfen tekrar deneyin.",
+        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} etkin bir {{value2}} aboneliğine sahip. Bu yükseltmeden sonra avantajları artık geçerli olmayacak. Mevcut abonelik otomatik olarak iptal edilmez; Daha fazla masraftan kaçınmak için ödeme yapan kişinin ödemeyi iptal etmesi gerekir.",
+        "thisRankCannotBeGifted": "Bu rütbe hediye edilemez",
+        "giftToValue1": "{{value1}}'e hediye"
       },
       "shopCheckoutPanel": {
-        "giftARank": "Gift a rank",
-        "reviewYourPurchase": "Review your purchase",
-        "checkThePlayerAndPurchaseDetailsBeforePayment": "Check the player and purchase details before payment.",
-        "whoIsThisPurchaseFor": "Who is this purchase for?",
-        "forMyself": "For myself",
-        "sendAGift": "Send a gift",
-        "giftRecipient": "Gift recipient",
-        "minecraftPlayer": "Minecraft player",
-        "changeRecipient": "Change recipient",
+        "giftARank": "Bir rütbe hediye et",
+        "reviewYourPurchase": "Satın alma işleminizi inceleyin",
+        "checkThePlayerAndPurchaseDetailsBeforePayment": "Ödeme yapmadan önce oynatıcıyı ve satın alma ayrıntılarını kontrol edin.",
+        "whoIsThisPurchaseFor": "Bu satın alma kimin için?",
+        "forMyself": "Kendim için",
+        "sendAGift": "Hediye gönder",
+        "giftRecipient": "Hediye alıcısı",
+        "minecraftPlayer": "Minecraft oynatıcı",
+        "changeRecipient": "Alıcıyı değiştir",
         "theRecipientSLegendCreditCoversThisUpgradeNo": "Alıcının Legend kredisi bu yükseltmeyi karşılıyor. Ödeme gerekmiyor.",
-        "youPayTheRenewalsTheRecipientReceivesThePerks": "You pay the renewals. The recipient receives the perks. Manage cancellation using the billing portal link in your payment receipt email.",
-        "manageCancellationUsingTheBillingPortalLinkInYour": "Manage cancellation using the billing portal link in your payment receipt email.",
-        "youPayValue1ReceivesValue2AndASignedIn": "You pay. {{value1}} receives {{value2}} and a signed in-game book.",
-        "thisPurchaseGoesToValue1": "This purchase goes to {{value1}}.",
-        "haveACreatorCode": "Have a creator code?",
+        "youPayTheRenewalsTheRecipientReceivesThePerks": "Yenileme masraflarını siz ödüyorsunuz. Alıcı ayrıcalıkları alır. Ödeme makbuzu e-postanızdaki faturalandırma portalı bağlantısını kullanarak iptali yönetin.",
+        "manageCancellationUsingTheBillingPortalLinkInYour": "Ödeme makbuzu e-postanızdaki faturalandırma portalı bağlantısını kullanarak iptali yönetin.",
+        "youPayValue1ReceivesValue2AndASignedIn": "Sen öde. {{value1}}, {{value2}} ve imzalı bir oyun içi kitap alır.",
+        "thisPurchaseGoesToValue1": "Bu satın alma işlemi {{value1}} adresine gidiyor.",
+        "haveACreatorCode": "Yaratıcı kodunuz var mı?",
         "activatingLegendUltra": "Legend Ultra etkinleştiriliyor…",
-        "openingSecureCheckout": "Opening secure checkout…",
+        "openingSecureCheckout": "Güvenli ödeme açılıyor…",
         "activateLegendUltra": "Legend Ultra’yı etkinleştir",
-        "continueToPaymentValue1": "Continue to payment · {{value1}}",
-        "backToRanks": "Back to ranks",
+        "continueToPaymentValue1": "Ödemeye devam et · {{value1}}",
+        "backToRanks": "Sıralamalara geri dön",
         "refundPolicy": "İade Politikası",
-        "paymentDetailsAreEnteredOnThePaymentProviderApos": "Payment details are entered on the payment provider&apos;s secure checkout. Eligible purchases have a 14-day refund window."
+        "paymentDetailsAreEnteredOnThePaymentProviderApos": "Ödeme ayrıntıları, ödeme sağlayıcının güvenli ödeme sayfasına girilir. Uygun satın alma işlemlerinin 14 günlük bir geri ödeme süresi vardır."
       }
     },
     "socialIcons": {
@@ -1346,7 +1363,7 @@
         "completedThe2025ChristmasLobbyChallenge": "2025 Noel Lobi Meydan Okumasını Tamamladı"
       },
       "halloween2026BadgeDisplay": {
-        "foundAll310HeadsInThe6b6tLobbyDuring": "Found all 310 heads in the 6b6t lobby during Halloween 2026",
+        "foundAll310HeadsInThe6b6tLobbyDuring": "2026 Cadılar Bayramı sırasında 6b6t lobisinde 310 kafanın tamamı bulundu",
         "text2026HalloweenLobbyHeadHuntIcon": "2026 Cadılar Bayramı Lobi Kafa Avı Simgesi"
       },
       "legendThemes": {
@@ -1395,49 +1412,72 @@
         "snowy": "Karlı"
       },
       "likelyBotMarker": {
-        "likelyABot": "Likely a bot",
-        "markedAsAPlayerMadeBotBy6b6t": "Marked as a player-made bot by 6b6t"
+        "likelyABot": "Büyük olasılıkla bir bot",
+        "markedAsAPlayerMadeBotBy6b6t": "6b6t tarafından oyuncu yapımı bot olarak işaretlendi"
       },
       "playerProfileContent": {
-        "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
-        "loadingPlayerTheme": "Loading player theme…",
-        "backToLeaderboards": "Back to leaderboards",
-        "memberSince": "Member since",
-        "fromBeforeThe22May2026Reset": "22 Mayıs 2026 sıfırlamasından önce",
-        "playTime": "play_time",
-        "kills": "kills",
-        "deaths": "deaths",
-        "allTime": "all time",
-        "recordedStatistics": "Recorded statistics",
-        "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
-        "aposSStatisticsForTheLast7Days30": "&apos;s statistics for the last 7 days, 30 days, and all time.",
-        "statistic": "Statistic",
+        "designPreviewSamplePlayerStatistics": "Tasarım önizlemesi: örnek oyuncu istatistikleri.",
+        "loadingPlayerTheme": "Oyuncu teması yükleniyor…",
         "text7Days": "7 gün",
         "text30Days": "30 gün",
-        "allTime2": "Tüm zamanlar",
-        "noRecordedStatistics": "No recorded statistics",
-        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
-        "aboutRecordedTotals": "About recorded totals",
+        "allTime": "Tüm zamanlar",
+        "theLast7Days": "son 7 gün",
+        "theLast30Days": "son 30 gün",
+        "profileBreadcrumb": "Profil gezinme yolu",
+        "playerStatistics": "Oyuncu istatistikleri",
+        "memberSinceValue1": "{{value1}} tarihinden beri üye",
+        "copyLink": "Bağlantıyı kopyala",
+        "linkCopied": "Bağlantı kopyalandı",
+        "couldNotCopyLink": "Bağlantı kopyalanamadı",
+        "fromBeforeThe22May2026Reset": "22 Mayıs 2026 sıfırlamasından önce",
+        "last7Days": "Son 7 gün",
+        "last30Days": "Son 30 gün",
+        "profileStatisticPeriod": "Profil istatistikleri dönemi",
+        "playTime": "play_time",
+        "kills": "öldürme",
+        "deaths": "ölümler",
+        "kd": "kd",
+        "walkedDistance": "walked_distance",
+        "allStats": "Tüm istatistikler",
+        "compareRecentActivityWithAllTimeTotals": "Son etkinliği tüm zamanların toplamlarıyla karşılaştırın.",
+        "positionsFollowTheSwitchAbove": "Sıralamalar yukarıdaki dönem seçimini izler.",
+        "statisticsForValue17Days30DaysAllTime": "{{value1}} istatistikleri: 7 gün, 30 gün ve tüm zamanlar.",
+        "statistic": "İstatistik",
+        "positionValue1": "Sıralama, {{value1}}",
+        "combat": "Savaş",
+        "travel": "Seyahat",
+        "world": "Dünya",
+        "position": "Konum",
+        "jumpToMe": "Beni bul",
+        "text1StatWithNothingYetInValue1Show": "{{value1}} içinde henüz değeri olmayan 1 istatistik. Göster",
+        "value1StatsWithNothingYetInValue2Show": "Etkinlik olmayan {{value1}} istatistik ({{value2}}). Göster",
+        "biggerThanAllTimeBecauseWeChangedHowThis": "† Bu değer toplamdan yüksek; çünkü bu istatistiğin sayımını 14 Kas 2026 tarihinde değiştirdik. Bu not 14 Ara 2026 tarihinde kaldırılacak.",
+        "noRecordedStatistics": "Kaydedilmiş istatistik yok",
+        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "Bu oyuncu için henüz istatistik yok.",
+        "aboutRecordedTotals": "Kaydedilen toplamlar hakkında",
         "theStatsResetOnMay222026WasDeliberate": "22 Mayıs 2026'daki istatistik sıfırlaması planlıydı. Tüm zamanların liderlik tabloları o tarihten beri aktif olan oyuncuları gösterir.",
-        "playerSkin": "Player skin"
+        "playerSkin": "Oyuncu görünümü",
+        "needsValue1KillsInValue2": "{{value2}} döneminde {{value1}} öldürme gerekiyor",
+        "nothingInValue1": "{{value1}} döneminde etkinlik yok",
+        "notRankedInValue1": "{{value1}} döneminde sıralamada değil"
       },
       "playerProfile": {
-        "playerStatisticsAreTemporarilyUnavailable": "Player statistics are temporarily unavailable",
-        "pleaseTryAgainInAMinute": "Please try again in a minute.",
-        "checkingStatisticsAgain": "Checking statistics again.",
-        "statisticsAreStillUnavailable": "Statistics are still unavailable.",
-        "trying": "Trying…",
+        "playerStatisticsAreTemporarilyUnavailable": "Oyuncu istatistikleri geçici olarak kullanılamıyor",
+        "pleaseTryAgainInAMinute": "Lütfen bir dakika sonra tekrar deneyin.",
+        "checkingStatisticsAgain": "İstatistikler tekrar kontrol ediliyor.",
+        "statisticsAreStillUnavailable": "İstatistikler hâlâ mevcut değil.",
+        "trying": "Deniyorum…",
         "tryAgain": "Tekrar dene"
       },
       "playerSkinView": {
-        "ready": "ready",
-        "error": "error",
-        "playerSMinecraftSkin": "Player's Minecraft skin",
-        "patPlayerSHead": "Pat player's head",
-        "steveSDefaultMinecraftSkin": "Steve's default Minecraft skin",
-        "text3dSkinLoaded": "3D skin loaded",
-        "text3dViewUnavailable": "3D view unavailable",
-        "loading3dSkin": "Loading 3D skin…"
+        "ready": "hazır",
+        "error": "hata",
+        "playerSMinecraftSkin": "Oyuncunun Minecraft görünümü",
+        "patPlayerSHead": "Pat oyuncunun kafası",
+        "steveSDefaultMinecraftSkin": "Steve'in varsayılan Minecraft görünümü",
+        "text3dSkinLoaded": "3D dış görünüm yüklendi",
+        "text3dViewUnavailable": "3D görünüm kullanılamıyor",
+        "loading3dSkin": "3D görünüm yükleniyor…"
       },
       "playerBadgeDisplay": {
         "text2025HalloweenChallengeIcon": "2025 Cadılar Bayramı Meydan Okuması Simgesi",
@@ -1471,16 +1511,41 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "{{value1}}'in oynama süresi, öldürme, ölüm ve daha fazlasını içeren tam istatistik geçmişini tam burada, 6b6t profil sayfasında görüntüleyebilirsiniz.",
         "frequentlyAskedQuestionsAbout": "Hakkında Sıkça Sorulan Sorular:"
       },
+      "profilePositionLabel": {
+        "notRanked": "Sıralamada değil",
+        "rankValue1OfValue2": "{{value2}} içinde #{{value1}}. sıra",
+        "rankValue1OfValue2Value3Behind": "{{value2}} içinde #{{value1}}. sıra · {{value3}} geride",
+        "rankValue1OfValue2Value3ToPass": "{{value2}} içinde #{{value1}}. sıra · geçmek için {{value3}}"
+      },
+      "profileShopVote": {
+        "value1Value2": "{{value1}}{{value2}}",
+        "rankAndVotes": "Rütbe ve oylar",
+        "whatValue1Gives": "{{value1}} neler sunuyor?",
+        "votesValue1LifetimeValue2ThisMonth": "Oylar: toplam {{value1}} · bu ay {{value2}}",
+        "voteToday": "Bugün oy ver",
+        "rankBenefits": "Rütbe avantajları",
+        "close": "Kapat",
+        "seeTheShopForRankDetails": "Rütbe ayrıntıları için mağazaya göz atın.",
+        "seeValue1InTheShop": "Mağazada {{value1}} rütbesini gör",
+        "compareAllRanks": "Tüm rütbeleri karşılaştır"
+      },
+      "statsLastSaved": {
+        "statsLastSavedValue1": "İstatistiklerin son kaydedilme zamanı {{value1}}",
+        "value1": "({{value1}})",
+        "delayed": "gecikmeli",
+        "countedSince22May2026": "22 Mayıs 2026 tarihinden itibaren sayılır",
+        "howWeCount": "Nasıl hesaplıyoruz"
+      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityIcon": "6b6t Telegram Topluluğu Simgesi",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Telegram'ı bağladı ve şu anda 6b6t grubunun üyesi"
       },
       "themedStatsRenderer": {
         "legend": "Legend",
-        "champion": "champion",
-        "hero": "hero",
-        "playerSkin": "Player skin",
-        "playerStats": "Player stats",
+        "champion": "şampiyon",
+        "hero": "kahraman",
+        "playerSkin": "Oyuncu görünümü",
+        "playerStats": "Oyuncu istatistikleri",
         "memberSince": "🗓️ Üyelik tarihi:",
         "returnToLeaderboards": "Liderlik Tablolarına Dön",
         "statsReset": "İstatistikler sıfırlandı",
@@ -1509,14 +1574,14 @@
         "nextSlide": "Sonraki slayt"
       },
       "cookieBanner": {
-        "cookieSettings": "Cookie settings",
-        "cookiePreferences": "Cookie preferences",
+        "cookiePreferences": "Çerez tercihleri",
         "cookieConsent": "Çerez Onayı",
         "gdpr": "GDPR",
-        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Accept cookies for analytics and session recordings, or decline to use cookieless analytics. You can change your choice in Cookie settings.",
+        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Analizler ve oturum kayıtları için çerezleri kabul edin veya çerezsiz analizleri kullanmayı reddedin. Seçiminizi Çerez ayarlarından değiştirebilirsiniz.",
         "privacyPolicy": "Gizlilik Politikası",
         "decline": "Reddet",
-        "acceptAll": "Tümünü Kabul Et"
+        "acceptAll": "Tümünü Kabul Et",
+        "cookieSettings": "Çerez ayarları"
       },
       "dialog": {
         "close": "Kapat"
@@ -1525,12 +1590,12 @@
         "dismissNotification": "Bildirimi kapat"
       },
       "spinner": {
-        "loading": "Loading"
+        "loading": "Yükleniyor"
       }
     },
     "monitoring": {
       "shopErrorBoundary": {
-        "client": "client",
+        "client": "müşteri",
         "somethingWentWrong": "Bir şeyler ters gitti",
         "weAposReSorryButSomethingUnexpectedHappenedOur": "Üzgünüz, beklenmeyen bir şey oldu. Ekibimiz bilgilendirildi.",
         "tryAgain": "Tekrar Dene",

@@ -32,61 +32,61 @@
   "legacy-description": "Yerleştirilen her blok, inşa edilen her yapı, kurulan her dostluk - hepsi 6b6t'nin yaşayan tarihine katkıda bulunuyor. Bize katıl ve efsanenin bir parçası ol.",
   "sections": {
     "historyEventCard": {
-      "storyTags": "Story tags",
-      "openImageValue1": "Open image: {{value1}}",
-      "readTheFullStory": "Read the full story",
+      "storyTags": "Hikaye etiketleri",
+      "openImageValue1": "Resmi aç: {{value1}}",
+      "readTheFullStory": "Hikayenin tamamını okuyun",
       "value1VideoValue2": "{{value1}} — video {{value2}}",
-      "watchOnYoutube": "Watch on YouTube",
-      "sources": "Sources"
+      "watchOnYoutube": "YouTube'de izle",
+      "sources": "Kaynaklar"
     },
     "historyHero": {
-      "fromTheFirstBlocksInJanuary2022ToThe": "From the first blocks in January 2022 to the builds, clans and events that shaped the world. Explore the stories left behind by the community.",
-      "exploreTheTimeline": "Explore the timeline",
-      "playersGatheredBeneathAnIlluminated6b6tSignAndBeacon": "Players gathered beneath an illuminated 6b6t sign and beacon beams",
-      "oneWorldThousandsOfStories": "One world. Thousands of stories."
+      "fromTheFirstBlocksInJanuary2022ToThe": "Ocak 2022'deki ilk bloklardan dünyayı şekillendiren yapılara, klanlara ve etkinliklere kadar. Topluluğun geride bıraktığı hikayeleri keşfedin.",
+      "exploreTheTimeline": "Zaman çizelgesini keşfedin",
+      "playersGatheredBeneathAnIlluminated6b6tSignAndBeacon": "Oyuncular ışıklı bir 6b6t işaretinin ve işaret ışınlarının altında toplandı",
+      "oneWorldThousandsOfStories": "Tek dünya. Binlerce hikaye."
     },
     "historyLegacy": {
-      "thePeopleBehindTheHistory": "The people behind the history",
-      "everyMilestoneHasPeopleBehindItTheAdministratorsDevelopers": "Every milestone has people behind it. The administrators, developers and players make this world what it is.",
+      "thePeopleBehindTheHistory": "Tarihin arkasındaki insanlar",
+      "everyMilestoneHasPeopleBehindItTheAdministratorsDevelopers": "Her dönüm noktasının arkasında insanlar vardır. Yöneticiler, geliştiriciler ve oyuncular bu dünyayı bu hale getiriyor.",
       "admins": "Yöneticiler",
-      "theOwnerQbastyAndAdminXymbKeptTheServer": "The owner qbasty and admin Xymb kept the server online through month-long periods of low activity and limited financial support.",
+      "theOwnerQbastyAndAdminXymbKeptTheServer": "Sahibi qbasty ve yönetici Xymb, aylarca süren düşük aktivite ve sınırlı mali destek dönemleri boyunca sunucuyu çevrimiçi tuttu.",
       "team": "Ekip",
-      "scarxNeontonightTajinlawAndTheDevelopersBehindTheServer": "ScarX, NeonTonight, Tajinlaw and the developers behind the server’s features helped 6b6t grow to hundreds of players online without a queue.",
+      "scarxNeontonightTajinlawAndTheDevelopersBehindTheServer": "ScarX, NeonTonight, Tajinlaw ve sunucunun özelliklerinin arkasındaki geliştiriciler, 6b6t'nin sıra olmadan yüzlerce çevrimiçi oyuncuya ulaşmasına yardımcı oldu.",
       "players": "Oyuncular",
-      "clansLikeLaggangColonizadores555AndThmHaveUnited": "Clans like LagGang, Colonizadores, 555 and THM have united hundreds of players to leave their mark on the server and challenge what is possible.",
+      "clansLikeLaggangColonizadores555AndThmHaveUnited": "LagGang, Colonizadores, 555 ve THM gibi klanlar, sunucuda iz bırakmak ve mümkün olana meydan okumak için yüzlerce oyuncuyu bir araya getirdi.",
       "joinTheAdventure": "Maceraya Katıl",
       "readOurBlog": "Blogumuzu Oku"
     },
     "historyTimeline": {
-      "milestonesBuildsUpdatesAndEventsOpenAStoryFor": "Milestones, builds, updates and events. Open a story for more details, images and videos.",
-      "filterByTags": "Filter by tags",
-      "chooseOneOrMoreTagsStoriesMatchingAnySelected": "Choose one or more tags. Stories matching any selected tag are shown.",
-      "allStories": "All stories",
-      "jumpToYear": "Jump to year",
-      "story": "story",
-      "stories": "stories",
-      "noStoriesToShow": "No stories to show.",
-      "noStoriesMatchTheseTagsChooseAnotherTagOr": "No stories match these tags. Choose another tag or show all stories.",
-      "theStoryContinuesWhatWillYouDoNext": "The story continues. What will you do next?"
+      "milestonesBuildsUpdatesAndEventsOpenAStoryFor": "Kilometre taşları, yapılar, güncellemeler ve etkinlikler. Daha fazla ayrıntı, görsel ve video için hikayeyi açın.",
+      "filterByTags": "Etiketlere göre filtrele",
+      "chooseOneOrMoreTagsStoriesMatchingAnySelected": "Bir veya daha fazla etiket seçin. Seçilen herhangi bir etiketle eşleşen hikayeler gösterilir.",
+      "allStories": "Tüm hikayeler",
+      "jumpToYear": "Yıla atla",
+      "story": "hikaye",
+      "stories": "hikayeler",
+      "noStoriesToShow": "Gösterilecek hikaye yok.",
+      "noStoriesMatchTheseTagsChooseAnotherTagOr": "Bu etiketlerle eşleşen hikaye yok. Başka bir etiket seçin veya tüm hikayeleri gösterin.",
+      "theStoryContinuesWhatWillYouDoNext": "Hikaye devam ediyor. Bundan sonra ne yapacaksın?"
     },
     "page": {
-      "webpage": "WebPage",
-      "value1Webpage": "{{value1}}#webpage",
-      "website": "WebSite",
+      "webpage": "Web sayfası",
+      "value1Webpage": "{{value1}}#web sayfası",
+      "website": "WebSitesi",
       "text6b6t": "6b6t",
-      "organization": "Organization",
+      "organization": "Organizasyon",
       "minecraftAnarchyServerEstablishedInJanuary2022": "Ocak 2022'de kurulan Minecraft anarşi sunucusu",
-      "article": "Article",
-      "value1Article": "{{value1}}#article",
-      "breadcrumblist": "BreadcrumbList",
-      "listitem": "ListItem",
+      "article": "Madde",
+      "value1Article": "{{value1}}#makale",
+      "breadcrumblist": "İçerik Kırıntı Listesi",
+      "listitem": "Liste Öğesi",
       "home": "Ana Sayfa",
-      "historyIsTemporarilyUnavailable": "History is temporarily unavailable.",
-      "loadingServerHistory": "Loading server history…",
+      "historyIsTemporarilyUnavailable": "Geçmiş geçici olarak kullanılamıyor.",
+      "loadingServerHistory": "Sunucu geçmişi yükleniyor…",
       "specialThanks": "Özel Teşekkürler",
       "thisPageWasMadePossibleThanksTo": "Bu sayfa şunun sayede mümkün oldu:",
-      "text6b6tTimes": "6b6t Times",
-      "whoHelpedGatherTheHistoricalInformationAndResearchDocumenting": ", who helped gather the historical information and research documenting our server’s journey."
+      "text6b6tTimes": "6b6t Kez",
+      "whoHelpedGatherTheHistoricalInformationAndResearchDocumenting": "Sunucumuzun yolculuğunu belgeleyen tarihsel bilgilerin ve araştırmaların toplanmasına yardımcı olan."
     }
   }
 }

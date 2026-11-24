@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "Abschüsse",
+      "killMany": "Abschüsse",
+      "kill": "Abschuss",
+      "kills": "Abschüsse",
+      "breadcrumb": "Brotkrumennavigation",
+      "playerStatistics": "Spielerstatistiken",
+      "leaderboards": "Ranglisten",
+      "leaderboard": "Rangliste",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value1}} Spieler in {{value2}}. Bei Gleichstand teilen sich Spieler einen Platz.",
+      "allTime": "Gesamtzeit",
+      "jumpToMe": "Zu mir springen",
+      "takesYouToYourRowOnThisBoard": "Springt zu deiner Zeile in dieser Rangliste",
+      "playerIsNotRankedOnThisBoard": "Spieler ist in dieser Rangliste nicht platziert",
+      "couldNotFindPlayerOnThisBoard": "Spieler konnte in dieser Rangliste nicht gefunden werden",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} ist auf Platz {{value2}} von {{value3}} bei {{value4}} {{value5}}.",
+      "inTheLast7Days": "in den letzten 7 Tagen",
+      "inTheLast30Days": "in den letzten 30 Tagen",
+      "value1MoreValue2ToPassTheNextPlayer": "{{value1}} mehr {{value2}}, um den nächsten Spieler zu überholen.",
+      "leaderboardStatistics": "Ranglistenstatistiken",
+      "more": "Mehr",
+      "leaderboardTimePeriod": "Ranglistenzeitraum",
+      "copyLink": "Link kopieren",
+      "linkCopied": "Link kopiert",
+      "couldNotCopyLink": "Link konnte nicht kopiert werden",
+      "value1RankedPlayers": "{{value1}} Spieler in der Rangliste",
+      "position": "Platz",
+      "player": "Spieler",
+      "leaderboardPages": "Ranglistenseiten",
+      "previousPage": "Vorherige Seite",
+      "pageValue1": "Seite {{value1}}",
+      "nextPage": "Nächste Seite",
+      "fullLeaderboardTemporarilyUnavailable": "Rangliste vorübergehend nicht verfügbar"
+    }
+  }
+}

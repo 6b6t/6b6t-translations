@@ -29,6 +29,7 @@
       "buyNow": "Buy Now",
       "alreadyOwnTheRank": "Already Own the Rank",
       "viewRankUpgrades": "View Rank Upgrades →",
+      "getLegendUltra": "Get Legend Ultra",
       "shopSections": "Shop sections",
       "permanent": "Permanent",
       "subscriptions": "Subscriptions",
@@ -53,6 +54,9 @@
       "alreadyOwnPrimeOrEliteMoveUpToA": "Already own Prime or Elite? Move up to a higher permanent rank and pay the upgrade price. Choose the path that matches your current rank.",
       "questionsAboutYourRankOrPurchase": "Questions about your rank or purchase?",
       "contactUs": "Contact us"
+    },
+    "legendUltraUpgradeCard": {
+      "whenEligibleLegendMonthsYouAlreadyPaidCountToward": "When eligible, Legend months you already paid count toward the price. See available credit on the Legend page."
     },
     "motdPromoCards": {
       "noHeavySlurs": "No heavy slurs",
@@ -234,11 +238,13 @@
       "selectAgainToRemoveComparison": "Select again to remove comparison"
     },
     "upgradeCard": {
-      "value1ToValue2Upgrade": "{{value1}} to {{value2}} upgrade",
+      "legendUltra": "LEGEND ULTRA",
       "to": "to",
+      "value1ToValue2Upgrade": "{{value1}} to {{value2}} upgrade",
       "currentRank": "Current rank",
       "upgradeTo": "Upgrade to",
       "oneTimePayment": "One-time payment",
+      "lifetimeRank": "Lifetime rank",
       "permanentRank": "Permanent rank",
       "whatYouGain": "What you gain"
     },

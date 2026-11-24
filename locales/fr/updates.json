@@ -3,8 +3,8 @@
     "discordMarkdown": {
       "value1Value2": "{{value1}}{{value2}}",
       "value1": ":{{value1}}:",
-      "user": "@user",
-      "updatesPing": "@Updates Ping"
+      "user": "@utilisateur",
+      "updatesPing": "@Mises à jour Ping"
     },
     "updateEntry": {
       "edited": "Modifié",
@@ -13,48 +13,48 @@
       "openInDiscord": "Ouvrir dans Discord"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
+      "tryingAgain": "Je réessaye…",
       "tryAgain": "Réessayer",
       "newUpdate": "nouvelle mise à jour",
       "justAppeared": "vient d’apparaître.",
       "dismiss": "Fermer",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
+      "searchingUpdates": "Recherche de mises à jour…",
+      "showingValue1SearchValue2": "Affichage de {{value1}}, recherchez {{value2}}.",
       "loadMoreResults": "Charger plus de résultats",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "noUpdatesMatched": "Aucune mise à jour ne correspond \"",
+      "tryADifferentTermOrClearYourSearch": "\". Essayez un terme différent ou effacez votre recherche.",
+      "showAllUpdates": "Afficher toutes les mises à jour"
     },
     "updatesSchema": {
       "text6b6tUpdates": "Mises à jour de 6b6t",
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "Dernières notes de mise à jour du serveur 6b6t et historique des nouveautés depuis Discord."
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
+      "searchServerUpdates": "Mises à jour du serveur de recherche",
       "searchUpdates": "Rechercher des mises à jour",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
+      "suggestedSearches": "Recherches suggérées",
+      "searching": "Recherche…",
       "search": "Rechercher",
       "clear": "Effacer"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
+      "updatesFromValue1": "Mises à jour de {{value1}}",
       "latestPost": "Dernière publication",
       "loading": "Chargement…",
       "loadMoreValue1": "Charger davantage de {{value1}}"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
+      "serverUpdates": "Mises à jour du serveur",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Modifications, correctifs et annonces du 6b6t Discord officiel. Les messages les plus récents en premier.",
       "joinDiscord": "Rejoindre Discord",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
+      "loadingServerUpdates": "Chargement des mises à jour du serveur…",
+      "updatesAreTemporarilyUnavailable": "Les mises à jour sont temporairement indisponibles",
+      "tryAgainOrReadTheLatestPostsInThe": "Réessayez ou lisez les derniers messages dans le Discord officiel.",
+      "tryingAgain": "Je réessaye…",
       "tryAgain": "Réessayer",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "noUpdatesToShowYet": "Aucune mise à jour à afficher pour l'instant",
+      "readTheLatestServerNewsInTheOfficialDiscord": "Lisez les dernières nouvelles du serveur dans le Discord officiel. Les messages apparaîtront ici lorsqu’ils seront disponibles.",
+      "readNewsOnDiscord": "Lire l'actualité sur Discord"
     }
   },
   "page-name": "Mises à jour 6b6t : journal des changements",

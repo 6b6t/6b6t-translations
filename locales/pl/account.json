@@ -33,14 +33,14 @@
     "hytaleAccountsPanel": {
       "hytaleAccounts": "Konta Hytale",
       "manageYourHytaleLinksToDiscordNoMinecraftAccount": "Zarządzaj połączeniami Hytale z Discordem. Konto Minecraft nie jest wymagane.",
-      "loadingYourConnection": "Loading your connection…",
-      "hytaleConnectionsAreUnavailablePleaseTryAgainShortly": "Hytale connections are unavailable. Please try again shortly.",
+      "loadingYourConnection": "Ładowanie połączenia…",
+      "hytaleConnectionsAreUnavailablePleaseTryAgainShortly": "Połączenia Hytale są niedostępne. Spróbuj ponownie wkrótce.",
       "tryAgain": "Spróbuj ponownie",
-      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Hytale linking is temporarily unavailable. Please try again later.",
+      "hytaleLinkingIsTemporarilyUnavailablePleaseTryAgainLater": "Łączenie Hytale jest chwilowo niedostępne. Spróbuj ponownie później.",
       "verifyYourEmailAddressToManageHytaleConnections": "Zweryfikuj adres e-mail, aby zarządzać połączeniami Hytale.",
       "toLinkAHytaleAccountRunLinkOnThe": "Aby połączyć konto Hytale, użyj /link na serwerze Hytale i otwórz swój prywatny adres URL łączenia.",
       "newHytaleLinksAreTemporarilyPausedYouCanStill": "Nowe połączenia Hytale są tymczasowo wstrzymane. Nadal możesz zarządzać istniejącymi połączeniami.",
-      "continueToDiscordLinking": "Continue to Discord linking",
+      "continueToDiscordLinking": "Kontynuuj łączenie Discord",
       "manageHytaleLinking": "Zarządzaj połączeniami Hytale"
     },
     "logOutButton": {
@@ -125,16 +125,16 @@
       "phone": "telefon",
       "phoneNumber": "Numer telefonu",
       "includeCountryCode": "Podaj numer kierunkowy kraju",
-      "address1": "address1",
+      "address1": "adres1",
       "streetAddress": "Adres ulicy",
       "houseNumberAndStreet": "Numer domu i ulica",
-      "address2": "address2",
+      "address2": "adres2",
       "apartmentSuiteOrUnit": "Mieszkanie, lokal lub jednostka",
       "city": "Miasto",
       "city2": "Miasto",
       "region": "region",
       "stateProvinceRegion": "Województwo / prowincja / region",
-      "zip": "zip",
+      "zip": "zamek błyskawiczny",
       "postalCode": "Kod pocztowy",
       "country": "Kraj",
       "selectYourCountry": "Wybierz swój kraj",
@@ -231,8 +231,8 @@
     "admin": {
       "users": {
         "websiteUsers6b6t": "Użytkownicy strony | 6b6t",
-        "robots": "robots",
-        "noindex": "noindex",
+        "robots": "roboty",
+        "noindex": "brak indeksu",
         "websiteUsers": "Użytkownicy strony",
         "backToAccountSettings": "Wróć do ustawień konta"
       }
@@ -248,7 +248,7 @@
       "loadingApexGifts": "Wczytywanie prezentów Apex…",
       "legendThemeControls": "Sterowanie motywami Legend",
       "themeCustomizationIsExclusivelyAvailableTo": "Personalizacja motywów jest dostępna wyłącznie dla",
-      "legend": "Legend",
+      "legend": "Legenda",
       "rankHolders": "posiadaczy rangi.",
       "yourCurrentRank": "Twoja aktualna ranga:",
       "yourRankDataIsNotAvailableOrYouHaven": "Dane o Twojej randze są niedostępne lub nie posiadasz jeszcze statusu Legend.",
@@ -258,7 +258,7 @@
       "manageYour6b6tAccountAndLinkedServices": "Zarządzaj swoim kontem 6b6t i powiązanymi usługami."
     },
     "layout": {
-      "alexprogrammerde": "AlexProgrammerDE",
+      "alexprogrammerde": "AlexProgramistaDE",
       "text6b6t": "6b6t",
       "crackedAnarchy": "anarchia non-premium",
       "text2b2tAlternative": "Alternatywa dla 2b2t",

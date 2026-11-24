@@ -11,29 +11,29 @@
         "completed": "terminé",
         "opened": "ouvert",
         "webhookServiceIsNotConfigured": "Le service de webhook n’est pas configuré",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Événement de paiement hors production",
         "invalidWebhookSignature": "Signature du webhook invalide",
         "webhookProcessingFailed": "Échec du traitement du webhook"
       },
       "discord": {
         "data": {
           "unauthorized": "Non autorisé",
-          "invalidResource": "Invalid resource",
-          "dataUnavailable": "Data unavailable"
+          "invalidResource": "Ressource invalide",
+          "dataUnavailable": "Données indisponibles"
         },
         "motd": {
           "review": {
             "unauthorized": "Non autorisé",
             "invalidJsonPayload": "Données JSON invalides",
             "youDoNotHavePermissionToReviewMotds": "Vous n’avez pas l’autorisation d’examiner les MOTD.",
-            "markedMotdRequestValue1AsAdItStillNeeds": "Marked MOTD request {{value1}} as AD. It still needs approval.",
+            "markedMotdRequestValue1AsAdItStillNeeds": "Marqué MOTD demande {{value1}} comme AD. Il faut encore l’approbation.",
             "approvedMotdRequestValue1": "Demande MOTD {{value1}} approuvée.",
             "requestedRevisionForMotdRequestValue1": "Modification demandée pour la demande MOTD {{value1}}.",
             "motdReviewActionFailed": "Échec de l’action d’examen du MOTD."
           }
         },
         "newsletter": {
-          "unauthorized": "unauthorized",
+          "unauthorized": "non autorisé",
           "invalidEmail": "invalid_email",
           "rateLimited": "rate_limited",
           "unavailable": "indisponible"
@@ -46,14 +46,14 @@
         "all": "tous"
       },
       "legendUltraHolders": {
-        "unableToLoadLegendUltraHolders": "Unable to load Legend Ultra holders"
+        "unableToLoadLegendUltraHolders": "Impossible de charger les supports Legend Ultra"
       },
       "media": {
         "text": {
           "noFilePathProvided": "Aucun chemin de fichier fourni",
           "invalidFilePath": "Chemin de fichier invalide",
           "fileNotFound": "Fichier introuvable",
-          "mediaIsTemporarilyUnavailable": "Media is temporarily unavailable"
+          "mediaIsTemporarilyUnavailable": "Le média est temporairement indisponible"
         }
       },
       "monitoring": {
@@ -77,7 +77,7 @@
         }
       },
       "stripe": {
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Événement de paiement hors production",
         "unknownError": "Erreur inconnue",
         "webhookErrorValue1": "Erreur de webhook : {{value1}}",
         "received": "Reçu",
@@ -95,7 +95,7 @@
         "missingSignature": "Signature manquante",
         "invalidSignature": "Signature invalide",
         "webhookServiceIsNotConfigured": "Le service de webhook n’est pas configuré",
-        "nonProductionPaymentEvent": "Non-production payment event",
+        "nonProductionPaymentEvent": "Événement de paiement hors production",
         "webhookProcessingFailed": "Échec du traitement du webhook"
       },
       "telegram": {
@@ -124,12 +124,12 @@
     "lib": {
       "admin": {
         "cloudflareAccess": {
-          "localDevelopment": "Local development",
-          "invalidEmailAddress": "Invalid email address"
+          "localDevelopment": "Développement local",
+          "invalidEmailAddress": "Adresse e-mail invalide"
         }
       },
       "adminTableSearch": {
-        "invalidNumber": "Invalid number"
+        "invalidNumber": "Numéro invalide"
       },
       "auth": {
         "accountLinkHistory": {
@@ -139,65 +139,82 @@
         "accountSafetyPlugin": {
           "accountstepup": "accountStepUp",
           "unauthorized": "Non autorisé",
-          "confirmThisChangeWithACodeFirst": "Confirm this change with a code first.",
-          "addAndVerifyAnEmailAddressFirst": "Add and verify an email address first.",
-          "email": "email",
-          "passAUseridOrAValueToSearchFor": "Pass a userId or a value to search for."
+          "confirmThisChangeWithACodeFirst": "Confirmez d'abord ce changement avec un code.",
+          "addAndVerifyAnEmailAddressFirst": "Ajoutez et vérifiez d'abord une adresse e-mail.",
+          "email": "e-mail",
+          "passAUseridOrAValueToSearchFor": "Transmettez un ID utilisateur ou une valeur à rechercher."
         },
         "accountStepUp": {
           "hmac": "HMAC"
         },
         "emailTemplate": {
-          "signInTo6b6t": "Sign in to 6b6t",
-          "enterThisCodeInYourOpenBrowserToSign": "Enter this code in your open browser to sign in to {appName} as {email}.",
-          "verifyYour6b6tEmail": "Verify your 6b6t email",
-          "enterThisCodeInYourOpenBrowserToVerify": "Enter this code in your open browser to verify {email} for your {appName} account.",
-          "resetYour6b6tPassword": "Reset your 6b6t password",
-          "enterThisCodeInYourOpenBrowserToReset": "Enter this code in your open browser to reset the password for {email} on {appName}.",
-          "confirmYour6b6tEmailChange": "Confirm your 6b6t email change",
-          "enterThisCodeInYourOpenBrowserToConfirm": "Enter this code in your open browser to confirm the email change for {email} on {appName}.",
-          "confirmAChangeToYour6b6tAccount": "Confirm a change to your 6b6t account",
-          "someoneSignedInToTheAppnameAccountOfEmail": "Someone signed in to the {appName} account of {email} is removing a linked account, changing the email, turning off two-factor authentication or deleting the account. Enter this code only if it is you. If it is not you, do not share the code and change the password of your Minecraft account."
+          "signInTo6b6t": "Connectez-vous à 6b6t",
+          "enterThisCodeInYourOpenBrowserToSign": "Saisissez ce code dans votre navigateur ouvert pour vous connecter à {appName} en tant que {email}.",
+          "verifyYour6b6tEmail": "Vérifiez votre adresse e-mail 6b6t",
+          "enterThisCodeInYourOpenBrowserToVerify": "Saisissez ce code dans votre navigateur ouvert pour vérifier l'adresse {email} de votre compte {appName}.",
+          "resetYour6b6tPassword": "Réinitialisez votre mot de passe 6b6t",
+          "enterThisCodeInYourOpenBrowserToReset": "Saisissez ce code dans votre navigateur ouvert pour réinitialiser le mot de passe de {email} sur {appName}.",
+          "confirmYour6b6tEmailChange": "Confirmez votre changement d'e-mail 6b6t",
+          "enterThisCodeInYourOpenBrowserToConfirm": "Saisissez ce code dans votre navigateur ouvert pour confirmer le changement d'adresse e-mail pour {email} sur {appName}.",
+          "confirmAChangeToYour6b6tAccount": "Confirmez une modification de votre compte 6b6t",
+          "someoneSignedInToTheAppnameAccountOfEmail": "Une personne connectée au compte {appName} de {email} supprime un compte associé, modifie l'adresse e-mail, désactive l'authentification à deux facteurs ou supprime le compte. Entrez ce code uniquement si c'est vous. Si ce n'est pas vous, ne partagez pas le code et changez le mot de passe de votre compte Minecraft."
         },
         "linkHistoryPlugin": {
-          "linkHistory": "Link history"
+          "linkHistory": "Historique des liens"
         },
         "options": {
-          "consent": "consent",
-          "useARealEmailAddress": "Use a real email address."
+          "consent": "consentement",
+          "useARealEmailAddress": "Utilisez une vraie adresse e-mail."
         },
         "socialProviders": {
-          "telegram": "Telegram"
+          "telegram": "Télégramme"
         }
       },
       "blogContent": {
-        "minWidth880px820pxCalc100vw40px": "(min-width: 880px) 820px, calc(100vw - 40px)"
+        "minWidth880px820pxCalc100vw40px": "(largeur min : 880 px) 820 px, calcul (100 vw - 40 px)"
       },
       "broadcast": {
         "playerHash": {
           "hmac": "HMAC",
-          "broadcastPlayerValue1Value2": "broadcast-player:{{value1}}:{{value2}}"
+          "broadcastPlayerValue1Value2": "lecteur de diffusion :{{value1}} :{{value2}}"
         }
+      },
+      "cmsAdminBar": {
+        "homepage": "Page d'accueil",
+        "post": "Poste",
+        "form": "Formulaire",
+        "legalPage": "Page juridique"
+      },
+      "cmsForms": {
+        "invalidValue": "Valeur invalide.",
+        "thisBoxIsRequired": "Cette case est obligatoire.",
+        "true": "vrai",
+        "false": "FAUX",
+        "thisFieldIsRequired": "Ce champ est obligatoire.",
+        "useAtMostValue1Characters": "Utilisez au maximum {{value1}} caractères.",
+        "enterAValidEmailAddress": "Saisissez une adresse e-mail valide.",
+        "enterANumber": "Entrez un numéro.",
+        "chooseOneOfTheOptions": "Choisissez l'une des options."
       },
       "commandService": {
         "outbox": {
-          "unsupportedCommandRecipient": "Unsupported command recipient",
-          "invalidCommand": "Invalid command",
+          "unsupportedCommandRecipient": "Destinataire de commande non pris en charge",
+          "invalidCommand": "Commande invalide",
           "delivered": "livré",
           "completed": "terminé",
-          "deliveryFailed": "Delivery failed",
-          "rankGrantReadBackDidNotConfirmValue1": "Rank grant read-back did not confirm {{value1}}",
-          "rankLookupFailed": "Rank lookup failed"
+          "deliveryFailed": "La livraison a échoué",
+          "rankGrantReadBackDidNotConfirmValue1": "La relecture de l'attribution du rang n'a pas confirmé {{value1}}",
+          "rankLookupFailed": "La recherche de classement a échoué"
         },
         "reversals": {
-          "skipped": "skipped"
+          "skipped": "ignoré"
         },
         "transport": {
           "unknownCommandServiceError": "Erreur inconnue du service de commandes"
         }
       },
       "communityEventAdminSchema": {
-        "anExtensionReasonIsRequired": "An extension reason is required"
+        "anExtensionReasonIsRequired": "Un motif de prolongation est requis"
       },
       "communityEventRateLimit": {
         "tooManyRequests": "Trop de requêtes",
@@ -219,57 +236,57 @@
         "reachTheGoalByAugust14ToUnlockA": "Atteignez l’objectif d’ici le 14 août pour débloquer un puissant dupe sur tout 6b6t pendant 72 heures. Si l’objectif est atteint plus tard, l’événement sera reporté au week-end suivant le plus proche."
       },
       "communityHistory": {
-        "useASiteRelativePathOrPublicHttpsImage": "Use a site-relative path or public HTTPS image URL",
-        "useAUniqueLowercaseIdWithHyphens": "Use a unique lowercase ID with hyphens"
+        "useASiteRelativePathOrPublicHttpsImage": "Utilisez un chemin relatif au site ou une image publique HTTPS URL",
+        "useAUniqueLowercaseIdWithHyphens": "Utilisez un ID minuscule unique avec des traits d'union"
       },
       "creator": {
         "creemRenewal": {
           "unknownError": "Erreur inconnue"
         },
         "dailyReport": {
-          "discordReturnedHttpValue1": "Discord returned HTTP {{value1}}",
+          "discordReturnedHttpValue1": "Discord a renvoyé HTTP {{value1}}",
           "unknown": "inconnu",
           "failed": "échoué",
-          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Webhook delivery outcome is unknown; verify Discord before retrying",
-          "webhookCouldNotBePreparedForDelivery": "Webhook could not be prepared for delivery"
+          "webhookDeliveryOutcomeIsUnknownVerifyDiscordBeforeRetrying": "Le résultat de la livraison du webhook est inconnu ; vérifiez Discord avant de réessayer",
+          "webhookCouldNotBePreparedForDelivery": "Le Webhook n'a pas pu être préparé pour la livraison"
         },
         "job": {
-          "jointrackerLookupFailed": "JoinTracker lookup failed",
+          "jointrackerLookupFailed": "La recherche JoinTracker a échoué",
           "unknownError": "Erreur inconnue"
         },
         "store": {
-          "learnedFromAnExcludedSelfPurchase": "Learned from an excluded self-purchase",
-          "creatorAttributionWasNotStored": "Creator attribution was not stored",
-          "creatorRenewalAttributionWasNotStored": "Creator renewal attribution was not stored",
-          "theWebsiteD1BindingDbIsNotConfigured": "The website D1 binding DB is not configured",
-          "attributionNotFound": "Attribution not found",
-          "onlyAttributionsInReviewOrPendingCanBeResolved": "Only attributions in review or pending can be resolved",
-          "resolveTheGiftRecipientBeforeAssigningAttribution": "Resolve the gift recipient before assigning attribution",
-          "enterTheVerifiedEurGrossBeforeAssigning": "Enter the verified EUR gross before assigning",
-          "grossIsProviderVerifiedForThisPayment": "Gross is provider-verified for this payment",
-          "aRenewalCanOnlyBeAssignedToItsInherited": "A renewal can only be assigned to its inherited creator",
-          "chooseAnExistingCreator": "Choose an existing creator",
-          "verifiedEurGrossExceedsTheAllowedRange": "Verified EUR gross exceeds the allowed range",
-          "anAdminCannotAssignTheirOwnCreatorAccount": "An admin cannot assign their own creator account",
-          "creatorIsInactive": "Creator is inactive",
-          "selfPurchaseCannotBeAssigned": "Self-purchase cannot be assigned",
-          "thisAttributionChangedRefreshAndTryAgain": "This attribution changed. Refresh and try again.",
-          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Only initial payments in review with a verified amount can be retried"
+          "learnedFromAnExcludedSelfPurchase": "Appris d'un auto-achat exclu",
+          "creatorAttributionWasNotStored": "L'attribution du créateur n'a pas été stockée",
+          "creatorRenewalAttributionWasNotStored": "L'attribution de renouvellement du créateur n'a pas été stockée",
+          "theWebsiteD1BindingDbIsNotConfigured": "La base de données de liaison D1 du site Web n'est pas configurée",
+          "attributionNotFound": "Attribution introuvable",
+          "onlyAttributionsInReviewOrPendingCanBeResolved": "Seules les attributions en cours de révision ou en attente peuvent être résolues",
+          "resolveTheGiftRecipientBeforeAssigningAttribution": "Résolvez le destinataire du cadeau avant d'attribuer l'attribution",
+          "enterTheVerifiedEurGrossBeforeAssigning": "Entrez le EUR brut vérifié avant d'attribuer",
+          "grossIsProviderVerifiedForThisPayment": "Le montant brut est vérifié par le fournisseur pour ce paiement",
+          "aRenewalCanOnlyBeAssignedToItsInherited": "Un renouvellement ne peut être attribué qu'à son créateur hérité",
+          "chooseAnExistingCreator": "Choisissez un créateur existant",
+          "verifiedEurGrossExceedsTheAllowedRange": "Le brut EUR vérifié dépasse la plage autorisée.",
+          "anAdminCannotAssignTheirOwnCreatorAccount": "Un administrateur ne peut pas attribuer son propre compte de créateur",
+          "creatorIsInactive": "Le créateur est inactif",
+          "selfPurchaseCannotBeAssigned": "L'auto-achat ne peut pas être cédé",
+          "thisAttributionChangedRefreshAndTryAgain": "Cette attribution a changé. Actualisez et réessayez.",
+          "onlyInitialPaymentsInReviewWithAVerifiedAmount": "Seuls les paiements initiaux en cours de révision avec un montant vérifié peuvent être réessayés"
         }
       },
       "creem": {
         "checkout": {
-          "checkoutOperationFailed": "Checkout operation failed",
+          "checkoutOperationFailed": "L'opération de paiement a échoué",
           "creemApiKeyIsNotConfigured": "CREEM_API_KEY n’est pas configuré",
-          "originHeaderNotFound": "Origin header not found",
-          "bundleNotFound": "Bundle not found",
-          "thisBundleIsNotAvailableForCreemCheckout": "This bundle is not available for Creem checkout",
-          "thisBundleCannotBeGiftedAtCheckout": "This bundle cannot be gifted at checkout",
-          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Recipient must have a verified game profile before checkout",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "trialOfferHasExpiredThisOfferIsNoLonger": "Trial offer has expired. This offer is no longer available.",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "failedToCreateCreemCheckoutSession": "Failed to create Creem checkout session"
+          "originHeaderNotFound": "En-tête d'origine introuvable",
+          "bundleNotFound": "Pack introuvable",
+          "thisBundleIsNotAvailableForCreemCheckout": "Ce pack n'est pas disponible pour le paiement Creem",
+          "thisBundleCannotBeGiftedAtCheckout": "Ce lot ne peut pas être offert à la caisse",
+          "recipientMustHaveAVerifiedGameProfileBeforeCheckout": "Le destinataire doit avoir un profil de jeu vérifié avant de procéder au paiement",
+          "targetPlayerIsNotEligibleForThisBundle": "Le joueur cible n'est pas éligible à ce pack",
+          "trialOfferHasExpiredThisOfferIsNoLonger": "L'offre d'essai a expiré. Cette offre n'est plus disponible.",
+          "checkoutProductConfigurationMismatch": "Incompatibilité de configuration du produit de paiement",
+          "failedToCreateCreemCheckoutSession": "Échec de la création de la session de paiement Creem"
         }
       },
       "db": {
@@ -289,30 +306,30 @@
         "unknownDiscordError": "Erreur Discord inconnue"
       },
       "discordEmbed": {
-        "viewPage": "View page"
+        "viewPage": "Afficher la page"
       },
       "effectRuntime": {
-        "tebexReturnedAnInvalidCheckoutResponse": "Tebex returned an invalid checkout response",
-        "paymentProviderRequestFailed": "Payment provider request failed",
-        "tebexRejectedTheCheckoutRequest": "Tebex rejected the checkout request",
-        "paymentProviderResponseFailed": "Payment provider response failed",
-        "paymentProviderResponseExceedsTheSizeLimit": "Payment provider response exceeds the size limit",
-        "paymentProviderRequestTimedOut": "Payment provider request timed out"
+        "tebexReturnedAnInvalidCheckoutResponse": "Tebex a renvoyé une réponse de paiement non valide",
+        "paymentProviderRequestFailed": "La demande du fournisseur de paiement a échoué",
+        "tebexRejectedTheCheckoutRequest": "Tebex a rejeté la demande de paiement",
+        "paymentProviderResponseFailed": "Échec de la réponse du fournisseur de paiement",
+        "paymentProviderResponseExceedsTheSizeLimit": "La réponse du fournisseur de paiement dépasse la limite de taille",
+        "paymentProviderRequestTimedOut": "La demande du fournisseur de paiement a expiré"
       },
       "email": {
-        "text6b6tAccounts": "6b6t Accounts",
-        "text6b6tRecovery": "6b6t Recovery",
-        "text6b6tBillboard": "6b6t Billboard",
-        "text6b6tMerch": "6b6t Merch",
-        "text6b6tSupport": "6b6t Support"
+        "text6b6tAccounts": "Comptes 6b6t",
+        "text6b6tRecovery": "6b6t Récupération",
+        "text6b6tBillboard": "6b6t Panneau d'affichage",
+        "text6b6tMerch": "6b6t Marchandise",
+        "text6b6tSupport": "6b6t Assistance"
       },
       "link": {
         "discord": {
-          "missingRequiredDiscordOauthEnvironmentVariables": "Missing required Discord OAuth environment variables",
-          "missingRequiredDiscordClientIdEnvironmentVariable": "Missing required Discord CLIENT_ID environment variable",
-          "noPlayerInfoFoundForUser": "No player info found for user.",
-          "noDiscordIdFoundForUser": "No Discord ID found for user.",
-          "noTokensFoundForUser": "No tokens found for user."
+          "missingRequiredDiscordOauthEnvironmentVariables": "Variables d'environnement Discord OAuth requises manquantes",
+          "missingRequiredDiscordClientIdEnvironmentVariable": "Variable d'environnement Discord CLIENT_ID requise manquante",
+          "noPlayerInfoFoundForUser": "Aucune information de joueur trouvée pour l'utilisateur.",
+          "noDiscordIdFoundForUser": "Aucun Discord ID trouvé pour l'utilisateur.",
+          "noTokensFoundForUser": "Aucun jeton trouvé pour l'utilisateur."
         },
         "telegramMembership": {
           "unknownError": "Erreur inconnue"
@@ -340,7 +357,7 @@
           "motd": "MOTD",
           "revisionReason": "Motif de modification",
           "approve": "Approuver",
-          "markAsAd": "Mark as AD",
+          "markAsAd": "Marquer comme AD",
           "requestRevision": "Demander une modification"
         },
         "email": {
@@ -370,7 +387,7 @@
           "checkoutExpired": "checkout_expired",
           "checkoutStarted": "checkout_started",
           "reservationReleasedAfterCheckoutCreationFailed": "Réservation libérée après l’échec de création du paiement",
-          "markedAsAdInDiscordByValue1": "Marked as AD in Discord by {{value1}}",
+          "markedAsAdInDiscordByValue1": "Marqué comme AD dans Discord par {{value1}}",
           "approvedQueued": "approved_queued",
           "revisionRequested": "revision_requested",
           "noCustomerEmailWasAvailableFromThePaymentProvider": "Aucun e-mail client n’était disponible auprès du prestataire de paiement",
@@ -384,18 +401,18 @@
           "creemRefundRequestFailedWithStatusValue1": "La demande de remboursement Creem a échoué avec le statut {{value1}}"
         },
         "validation": {
-          "motdMustBeAtLeast3CharactersLong": "MOTD must be at least 3 characters long",
-          "motdMustBeAtMost120CharactersLong": "MOTD must be at most 120 characters long",
-          "invalidEmailAddress": "Invalid email address"
+          "motdMustBeAtLeast3CharactersLong": "MOTD doit comporter au moins 3 caractères",
+          "motdMustBeAtMost120CharactersLong": "MOTD doit comporter au maximum 120 caractères.",
+          "invalidEmailAddress": "Adresse e-mail invalide"
         }
       },
       "printify": {
         "claimValidation": {
-          "invalidEmailAddress": "Invalid email address",
-          "useATwoLetterCountryCode": "Use a two-letter country code",
-          "invalidDate": "Invalid date",
-          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Purchase information: briefly describe what you bought and when (at least 10 characters).",
-          "purchaseInformationMustBe2000CharactersOrFewer": "Purchase information must be 2,000 characters or fewer."
+          "invalidEmailAddress": "Adresse e-mail invalide",
+          "useATwoLetterCountryCode": "Utilisez un code de pays à deux lettres",
+          "invalidDate": "Date invalide",
+          "purchaseInformationBrieflyDescribeWhatYouBoughtAndWhen": "Informations d'achat : décrivez brièvement ce que vous avez acheté et quand (au moins 10 caractères).",
+          "purchaseInformationMustBe2000CharactersOrFewer": "Les informations d'achat doivent comporter 2 000 caractères ou moins."
         },
         "claims": {
           "physicalProductFulfillmentIsNotOpenYet": "L’expédition des produits physiques n’est pas encore ouverte.",
@@ -403,25 +420,25 @@
           "unknownError": "Erreur inconnue",
           "physicalProductFulfillmentIsTemporarilyUnavailable": "L’expédition des produits physiques est temporairement indisponible.",
           "submitting": "envoi en cours",
-          "physicalProductClaimsAreNotAvailableYet": "Physical product claims are not available yet.",
-          "thisPhysicalProductWasAlreadyFulfilled": "This physical product was already fulfilled.",
-          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "No unclaimed physical product is linked to this account.",
+          "physicalProductClaimsAreNotAvailableYet": "Les allégations de produits physiques ne sont pas encore disponibles.",
+          "thisPhysicalProductWasAlreadyFulfilled": "Ce produit physique était déjà réalisé.",
+          "noUnclaimedPhysicalProductIsLinkedToThisAccount": "Aucun produit physique non réclamé n'est lié à ce compte.",
           "reserved": "réservé",
-          "thisPhysicalProductAlreadyHasAClaim": "This physical product already has a claim",
-          "physicalProductRequestsAreNotAvailableYet": "Physical product requests are not available yet.",
-          "chooseAQualifyingPurchaseType": "Choose a qualifying purchase type.",
-          "aRequestForThisProductAlreadyExists": "A request for this product already exists.",
-          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "This physical product already has an order or claim.",
-          "thisRequestChangedRefreshAndTryAgain": "This request changed. Refresh and try again.",
-          "requestNotFound": "Request not found.",
-          "thisRequestHasNoFinalEmailToResend": "This request has no final email to resend.",
-          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "This request has already been reviewed or is processing.",
-          "addACustomerFacingExplanationForThisDecision": "Add a customer-facing explanation for this decision.",
-          "theEncryptedShippingAddressIsMissing": "The encrypted shipping address is missing.",
-          "physicalProductFulfillmentIsDisabled": "Physical product fulfillment is disabled.",
+          "thisPhysicalProductAlreadyHasAClaim": "Ce produit physique a déjà une allégation",
+          "physicalProductRequestsAreNotAvailableYet": "Les demandes de produits physiques ne sont pas encore disponibles.",
+          "chooseAQualifyingPurchaseType": "Choisissez un type d'achat admissible.",
+          "aRequestForThisProductAlreadyExists": "Une demande pour ce produit existe déjà.",
+          "thisPhysicalProductAlreadyHasAnOrderOrClaim": "Ce produit physique a déjà une commande ou une réclamation.",
+          "thisRequestChangedRefreshAndTryAgain": "Cette demande a changé. Actualisez et réessayez.",
+          "requestNotFound": "Demande introuvable.",
+          "thisRequestHasNoFinalEmailToResend": "Cette demande n'a pas d'e-mail final à renvoyer.",
+          "thisRequestHasAlreadyBeenReviewedOrIsProcessing": "Cette demande a déjà été examinée ou est en cours de traitement.",
+          "addACustomerFacingExplanationForThisDecision": "Ajoutez une explication destinée au client pour cette décision.",
+          "theEncryptedShippingAddressIsMissing": "L'adresse de livraison cryptée est manquante.",
+          "physicalProductFulfillmentIsDisabled": "L'exécution physique des produits est désactivée.",
           "processing": "traitement en cours",
-          "anotherAdminAlreadyStartedReviewingThisRequest": "Another admin already started reviewing this request.",
-          "historicalRequestChangedDuringReview": "Historical request changed during review"
+          "anotherAdminAlreadyStartedReviewingThisRequest": "Un autre administrateur a déjà commencé à examiner cette demande.",
+          "historicalRequestChangedDuringReview": "Demande historique modifiée lors de l'examen"
         },
         "email": {
           "emailDeliveryFailed": "Échec de l’envoi de l’e-mail"
@@ -437,12 +454,12 @@
           "legendRankThreePaid1MonthPeriodsMug": "Grade Legend (trois périodes mensuelles payées) — mug"
         },
         "notifications": {
-          "merchRequestResubmitted": "Merch request resubmitted",
-          "newMerchRequest": "New merch request",
-          "aMerchRequestIsWaitingForStaffReview": "A merch request is waiting for staff review.",
+          "merchRequestResubmitted": "Demande de merchandising renvoyée",
+          "newMerchRequest": "Nouvelle demande de produit",
+          "aMerchRequestIsWaitingForStaffReview": "Une demande de marchandise est en attente d'examen par le personnel.",
           "player": "Joueur",
-          "item": "Item",
-          "requestId": "Request ID"
+          "item": "Article",
+          "requestId": "Demande ID"
         }
       },
       "recovery": {
@@ -461,28 +478,28 @@
           "thisRecoveryAttemptWasBlockedBecauseTheAccountLogged": "Cette tentative de récupération a été bloquée car le compte s’est connecté au serveur pendant le délai de grâce.",
           "pending": "en attente",
           "consumed": "utilisé",
-          "blocked": "blocked",
+          "blocked": "bloqué",
           "notApplicable": "not_applicable",
           "expired": "expiré",
           "error": "erreur",
           "failedToCreateChallenge": "Impossible de créer la demande de vérification",
-          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "The account owner changed. Restart recovery to notify the current owner.",
+          "theAccountOwnerChangedRestartRecoveryToNotifyThe": "Le propriétaire du compte a changé. Redémarrez la récupération pour informer le propriétaire actuel.",
           "emailSendFailed": "email_send_failed",
-          "dailyEmailLimitReachedTheTicketIsStillPending": "Daily email limit reached. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "Owner notification could not be delivered. The ticket is still pending and no waiting period was started. Retry owner notification when email delivery is available.",
-          "theOwnerNotificationChangedWhileItWasBeingDelivered": "The owner notification changed while it was being delivered. Refresh before continuing.",
+          "dailyEmailLimitReachedTheTicketIsStillPending": "Limite quotidienne d'e-mails atteinte. Le ticket est toujours en attente et aucun délai d'attente n'a été entamé. Réessayez la notification du propriétaire lorsque la livraison par e-mail est disponible.",
+          "ownerNotificationCouldNotBeDeliveredTheTicketIs": "La notification au propriétaire n'a pas pu être envoyée. Le ticket est toujours en attente et aucun délai d'attente n'a été entamé. Réessayez la notification du propriétaire lorsque la livraison par e-mail est disponible.",
+          "theOwnerNotificationChangedWhileItWasBeingDelivered": "La notification du propriétaire a changé pendant sa livraison. Actualisez avant de continuer.",
           "created": "créé",
           "invalidOrExpiredBlockToken": "Jeton de blocage invalide ou expiré.",
           "thisRecoveryAttemptWasAlreadyBlocked": "Cette tentative de récupération a déjà été bloquée.",
           "theGracePeriodForThisChallengeHasAlreadyExpired": "Le délai de grâce de cette demande a déjà expiré et le blocage n’est plus possible.",
           "thisRecoveryChallengeHasAlreadyBeenConsumedAndCan": "Cette demande de récupération a déjà été utilisée et ne peut plus être bloquée.",
           "thisRecoveryAttemptWasAlreadyApprovedByASuper": "Cette tentative de récupération a déjà été approuvée par un super-administrateur et ne peut plus être bloquée.",
-          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "This challenge changed while being blocked. Refresh to check its current status.",
+          "thisChallengeChangedWhileBeingBlockedRefreshToCheck": "Ce défi a changé en étant bloqué. Actualisez pour vérifier son état actuel.",
           "recoveryAttemptHasBeenBlockedSuccessfully": "La tentative de récupération a été bloquée avec succès.",
           "passed": "réussi",
           "missing": "manquant",
           "theAccountOwnerHasBlockedThisRecoveryAttempt": "Le propriétaire du compte a bloqué cette tentative de récupération.",
-          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "The verified account email changed. Deny this ticket and start a new recovery request to notify the current owner.",
+          "theVerifiedAccountEmailChangedDenyThisTicketAnd": "L'e-mail du compte vérifié a changé. Refusez ce ticket et lancez une nouvelle demande de récupération pour informer le propriétaire actuel.",
           "theAccountOwnerNotificationPassWasAlreadyConsumed": "L’autorisation issue de la notification du propriétaire a déjà été utilisée.",
           "gracePeriodChallengeNotFound": "Demande de délai de grâce introuvable.",
           "thisRecoveryAttemptWasBlockedByTheAccountOwner": "Cette tentative de récupération a été bloquée par le propriétaire du compte.",
@@ -500,10 +517,10 @@
           "verificationFailed": "verification_failed"
         },
         "provider": {
-          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "Stored owner email needs review. Verify account ownership before correcting the game-server email. Recovery was not approved.",
+          "storedOwnerEmailNeedsReviewVerifyAccountOwnershipBefore": "L'e-mail du propriétaire stocké doit être examiné. Vérifiez la propriété du compte avant de corriger l'e-mail du serveur de jeu. La récupération n'a pas été approuvée.",
           "unavailable": "indisponible",
           "found": "trouvé",
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "Adresse e-mail invalide",
           "notFound": "not_found",
           "base": "base",
           "stash": "cache",
@@ -525,11 +542,11 @@
           "invalid": "invalide"
         },
         "validation": {
-          "invalidRecoverySessionToken": "Invalid recovery session token",
-          "enterAValidEmailAddress": "Enter a valid email address",
-          "verificationCodeMustBe6Digits": "Verification code must be 6 digits",
-          "inGameCodeMustBe6Characters": "In-game code must be 6 characters",
-          "invalidEmailAddress": "Invalid email address"
+          "invalidRecoverySessionToken": "Jeton de session de récupération invalide",
+          "enterAValidEmailAddress": "Entrez une adresse e-mail valide",
+          "verificationCodeMustBe6Digits": "Le code de vérification doit être composé de 6 chiffres",
+          "inGameCodeMustBe6Characters": "Le code du jeu doit comporter 6 caractères",
+          "invalidEmailAddress": "Adresse e-mail invalide"
         }
       },
       "requestRateLimit": {
@@ -542,20 +559,20 @@
       "seo": {
         "description": "description",
         "robots": "robots",
-        "googlebot": "googlebot"
+        "googlebot": "Googlebot"
       },
       "shop": {
         "legendCreditProviders": {
-          "review": "review",
+          "review": "revoir",
           "disputed": "contesté",
           "refunded": "remboursé",
-          "paid": "paid"
+          "paid": "payé"
         },
         "legendCreditStore": {
           "pending": "en attente"
         },
         "legendUpgradeCheckout": {
-          "legendUpgradeValue1": "Legend upgrade {{value1}}"
+          "legendUpgradeValue1": "Legend mise à niveau {{value1}}"
         },
         "legend": {
           "legendUltra": "LEGEND ULTRA",
@@ -565,25 +582,25 @@
         },
         "observability": {
           "alarms": {
-            "value1CreatedValue2CheckoutEvents": "{{value1}} created / {{value2}} checkout events",
-            "value1In1h": "{{value1}} in 1h",
-            "value1NowVsValue2Baseline": "{{value1}}% now vs {{value2}}% baseline",
-            "value1Value2In1h": "{{value1}} {{value2}} in 1h",
-            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} rejected or oversized requests in 1h",
-            "value1WebhooksValue2SessionsIn24h": "{{value1}} webhooks / {{value2}} sessions in 24h",
-            "pendingFor15m": "pending for >15m",
-            "value1In30m": "{{value1}} in 30m",
-            "value1ConsentedViewsIn3h": "{{value1}} consented views in 3h",
-            "yesterdayReportRowsValue1": "yesterday report rows={{value1}}",
-            "value1In24h28dMedianValue2": "{{value1}} in 24h; 28d median {{value2}}",
-            "value1Value2Outcomes": "{{value1}}/{{value2}} outcomes",
-            "conditionCleared": "condition cleared"
+            "value1CreatedValue2CheckoutEvents": "{{value1}} créé / {{value2}} événements de paiement",
+            "value1In1h": "{{value1}} en 1h",
+            "value1NowVsValue2Baseline": "{{value1}}% maintenant par rapport à {{value2}}% de référence",
+            "value1Value2In1h": "{{value1}} {{value2}} en 1h",
+            "value1RejectedOrOversizedRequestsIn1h": "{{value1}} requêtes rejetées ou surdimensionnées en 1h",
+            "value1WebhooksValue2SessionsIn24h": "Webhooks {{value1}} / sessions {{value2}} en 24h",
+            "pendingFor15m": "en attente depuis >15 m",
+            "value1In30m": "{{value1}} dans 30 m",
+            "value1ConsentedViewsIn3h": "{{value1}} vues consenties en 3 h",
+            "yesterdayReportRowsValue1": "lignes du rapport d'hier = {{value1}}",
+            "value1In24h28dMedianValue2": "{{value1}} dans 24h ; Médiane 28 jours {{value2}}",
+            "value1Value2Outcomes": "Résultats {{value1}}/{{value2}}",
+            "conditionCleared": "état réglé"
           },
           "record": {
-            "declined": "declined",
+            "declined": "refusé",
             "refunded": "remboursé",
             "disputed": "contesté",
-            "paid": "paid"
+            "paid": "payé"
           }
         },
         "ranks": {
@@ -612,14 +629,14 @@
           "eliteToApexUpgrade": "Amélioration d’Elite vers Apex"
         },
         "shop": {
-          "creatorCodesUseLettersNumbersOr": "Creator codes use letters, numbers, _ or -",
-          "usernameMustBeAtLeast3CharactersLong": "Username must be at least 3 characters long",
-          "usernameMustBeAtMost16CharactersLong": "Username must be at most 16 characters long",
-          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Username must only contain letters, numbers, underscores and dots",
-          "giftSenderMustNotBeEmpty": "Gift sender must not be empty",
-          "giftSenderMustBeAtMost32CharactersLong": "Gift sender must be at most 32 characters long",
-          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "Gift sender must only contain letters, numbers, underscores, dots and dashes",
-          "giftMessageMustBeAtMost255CharactersLong": "Gift message must be at most 255 characters long"
+          "creatorCodesUseLettersNumbersOr": "Les codes de créateur utilisent des lettres, des chiffres, _ ou -",
+          "usernameMustBeAtLeast3CharactersLong": "Le nom d'utilisateur doit comporter au moins 3 caractères",
+          "usernameMustBeAtMost16CharactersLong": "Le nom d'utilisateur doit comporter au maximum 16 caractères",
+          "usernameMustOnlyContainLettersNumbersUnderscoresAndDots": "Le nom d'utilisateur ne doit contenir que des lettres, des chiffres, des traits de soulignement et des points.",
+          "giftSenderMustNotBeEmpty": "L'expéditeur du cadeau ne doit pas être vide",
+          "giftSenderMustBeAtMost32CharactersLong": "L'expéditeur du cadeau doit comporter au maximum 32 caractères.",
+          "giftSenderMustOnlyContainLettersNumbersUnderscoresDots": "L'expéditeur du cadeau ne doit contenir que des lettres, des chiffres, des traits de soulignement, des points et des tirets.",
+          "giftMessageMustBeAtMost255CharactersLong": "Le message cadeau doit comporter au maximum 255 caractères"
         },
         "stripe": {
           "text6b6tShop": "6b6t-shop"
@@ -627,27 +644,27 @@
       },
       "stats": {
         "playerDiscordEmbed": {
-          "viewStats": "View stats",
-          "leaderboards": "Leaderboards"
+          "viewStats": "Afficher les statistiques",
+          "leaderboards": "Classements"
         },
         "previewData": {
-          "apex": "apex",
-          "eliteultra": "eliteultra",
+          "apex": "sommet",
+          "eliteultra": "éliteultra",
           "primeultra": "primeultra",
-          "elite": "elite",
+          "elite": "élite",
           "prime": "prime",
           "default": "par défaut"
         }
       },
       "tebex": {
         "client": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Numéro invalide"
         },
         "config": {
-          "invalidNumber": "Invalid number"
+          "invalidNumber": "Numéro invalide"
         },
         "intent": {
-          "expectedAGameAccountUuid": "Expected a game account UUID"
+          "expectedAGameAccountUuid": "Attendu un compte de jeu UUID"
         }
       }
     }

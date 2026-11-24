@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "zabójstwa",
+      "killMany": "zabójstw",
+      "kill": "zabójstwo",
+      "kills": "zabójstwa",
+      "breadcrumb": "Okruszki nawigacyjne",
+      "playerStatistics": "Statystyki graczy",
+      "leaderboards": "Rankingi",
+      "leaderboard": "Ranking",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value1}} graczy w okresie {{value2}}. Remisy mają tę samą pozycję.",
+      "allTime": "Cały okres",
+      "jumpToMe": "Przejdź do mojej pozycji",
+      "takesYouToYourRowOnThisBoard": "Przenosi do Twojego wiersza w tym rankingu",
+      "playerIsNotRankedOnThisBoard": "Gracz nie jest sklasyfikowany w tym rankingu",
+      "couldNotFindPlayerOnThisBoard": "Nie znaleziono gracza w tym rankingu",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} zajmuje {{value2}} miejsce z {{value3}} w {{value4}} {{value5}}.",
+      "inTheLast7Days": "w ciągu ostatnich 7 dni",
+      "inTheLast30Days": "w ciągu ostatnich 30 dni",
+      "value1MoreValue2ToPassTheNextPlayer": "{{value1}} {{value2}} więcej, aby wyprzedzić następnego gracza.",
+      "leaderboardStatistics": "Statystyki rankingów",
+      "more": "Więcej",
+      "leaderboardTimePeriod": "Okres rankingu",
+      "copyLink": "Kopiuj link",
+      "linkCopied": "Link skopiowany",
+      "couldNotCopyLink": "Nie udało się skopiować linku",
+      "value1RankedPlayers": "{{value1}} graczy w rankingu",
+      "position": "Pozycja",
+      "player": "Gracz",
+      "leaderboardPages": "Strony rankingu",
+      "previousPage": "Poprzednia strona",
+      "pageValue1": "Strona {{value1}}",
+      "nextPage": "Następna strona",
+      "fullLeaderboardTemporarilyUnavailable": "Pełny ranking jest tymczasowo niedostępny"
+    }
+  }
+}

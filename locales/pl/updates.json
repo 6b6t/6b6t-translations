@@ -3,8 +3,8 @@
     "discordMarkdown": {
       "value1Value2": "{{value1}}{{value2}}",
       "value1": ":{{value1}}:",
-      "user": "@user",
-      "updatesPing": "@Updates Ping"
+      "user": "@użytkownik",
+      "updatesPing": "@Aktualizacje Ping"
     },
     "updateEntry": {
       "edited": "Edytowano",

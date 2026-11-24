@@ -1,32 +1,32 @@
 {
   "sections": {
     "statusClient": {
-      "serverStatus": "Server status",
-      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Current availability, player count and connection details for 6b6t.",
-      "lastCheckedValue1": "Last checked {{value1}}",
-      "checkingServerStatus": "Checking server status...",
+      "serverStatus": "सर्वर की स्थिति",
+      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "6b6t के लिए वर्तमान उपलब्धता, खिलाड़ियों की संख्या और कनेक्शन विवरण।",
+      "lastCheckedValue1": "अंतिम बार जाँच की गई {{value1}}",
+      "checkingServerStatus": "सर्वर स्थिति जाँची जा रही है...",
       "refreshing": "Refreshing...",
-      "refreshStatus": "Refresh status",
-      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
-      "showingTheLastReceivedInformation": "Showing the last received information.",
-      "serverInformation": "Server information",
-      "checkingAvailability": "Checking availability",
-      "statusUnavailable": "Status unavailable",
-      "text6b6tIsOnline": "6b6t is online",
-      "text6b6tIsOffline": "6b6t is offline",
+      "refreshStatus": "ताज़ा स्थिति",
+      "weCouldnAposTRefreshTheServerStatusTry": "हम सर्वर स्थिति ताज़ा नहीं कर सके. थोड़ी देर में पुनः प्रयास करें.",
+      "showingTheLastReceivedInformation": "अंतिम प्राप्त जानकारी दिखा रहा हूँ.",
+      "serverInformation": "सर्वर जानकारी",
+      "checkingAvailability": "उपलब्धता की जाँच की जा रही है",
+      "statusUnavailable": "स्थिति अनुपलब्ध",
+      "text6b6tIsOnline": "6b6t ऑनलाइन है",
+      "text6b6tIsOffline": "6b6t ऑफ़लाइन है",
       "playersOnline": "खिलाड़ी ऑनलाइन",
       "checking": "जाँच हो रही है...",
-      "playerCapacity": "Player capacity",
+      "playerCapacity": "खिलाड़ी क्षमता",
       "minecraftVersion": "minecraft संस्करण",
-      "autoRefresh": "Auto refresh",
-      "text30Seconds": "30 seconds"
+      "autoRefresh": "स्वतः ताज़ा करें",
+      "text30Seconds": "30 सेकंड"
     },
     "page": {
-      "onlineButCannotJoin": "Online but cannot join?",
-      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
-      "joiningInstructions": "Joining instructions",
+      "onlineButCannotJoin": "ऑनलाइन लेकिन शामिल नहीं हो सकते?",
+      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang ने 15 जुलाई 2026 को 6b6t को काली सूची में डाल दिया। Java खिलाड़ियों को सर्वर ऑनलाइन होने पर भी AnarchyMod की आवश्यकता होती है। Bedrock प्लेयर्स पोर्ट 19132 पर br.6b6t.org से कनेक्ट होते हैं।",
+      "joiningInstructions": "शामिल होने के निर्देश",
       "downloadAnarchymod": "AnarchyMod डाउनलोड करें",
-      "connectionHelp": "Connection help"
+      "connectionHelp": "कनेक्शन सहायता"
     }
   },
   "page-name": "क्या 6b6t डाउन है? लाइव स्थिति और खिलाड़ी संख्या",

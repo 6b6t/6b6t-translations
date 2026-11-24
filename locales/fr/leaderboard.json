@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "stat": {
+      "killFew": "éliminations",
+      "killMany": "éliminations",
+      "kill": "élimination",
+      "kills": "éliminations",
+      "breadcrumb": "Fil d’Ariane",
+      "playerStatistics": "Statistiques des joueurs",
+      "leaderboards": "Classements",
+      "leaderboard": "Classement",
+      "value1RankedPlayersInValue2TiesShareAPosition": "{{value1}} joueurs sur {{value2}}. Les égalités partagent une position.",
+      "allTime": "Depuis le début",
+      "jumpToMe": "Aller à ma position",
+      "takesYouToYourRowOnThisBoard": "Vous mène à votre ligne dans ce classement",
+      "playerIsNotRankedOnThisBoard": "Le joueur ne figure pas dans ce classement",
+      "couldNotFindPlayerOnThisBoard": "Impossible de trouver le joueur dans ce classement",
+      "value1IsValue2OfValue3InValue4Value5": "{{value1}} est {{value2}} sur {{value3}} pour {{value4}} {{value5}}.",
+      "inTheLast7Days": "au cours des 7 derniers jours",
+      "inTheLast30Days": "au cours des 30 derniers jours",
+      "value1MoreValue2ToPassTheNextPlayer": "{{value1}} {{value2}} de plus pour dépasser le joueur suivant.",
+      "leaderboardStatistics": "Statistiques du classement",
+      "more": "Plus",
+      "leaderboardTimePeriod": "Période du classement",
+      "copyLink": "Copier le lien",
+      "linkCopied": "Lien copié",
+      "couldNotCopyLink": "Impossible de copier le lien",
+      "value1RankedPlayers": "{{value1}} joueurs classés",
+      "position": "Position",
+      "player": "Joueur",
+      "leaderboardPages": "Pages du classement",
+      "previousPage": "Page précédente",
+      "pageValue1": "Page {{value1}}",
+      "nextPage": "Page suivante",
+      "fullLeaderboardTemporarilyUnavailable": "Classement complet temporairement indisponible"
+    }
+  }
+}

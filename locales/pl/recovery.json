@@ -138,10 +138,10 @@
       "publicScoreStep": {
         "overworld": "świat podstawowy",
         "overworld2": "Świat podstawowy",
-        "nether": "nether",
-        "nether2": "Nether",
+        "nether": "dolny",
+        "nether2": "Dolny",
         "end": "koniec",
-        "end2": "End",
+        "end2": "Koniec",
         "unknown": "nieznane",
         "notSure": "Nie wiem",
         "none": "Brak",

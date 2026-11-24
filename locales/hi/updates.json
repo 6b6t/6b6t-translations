@@ -13,48 +13,48 @@
       "openInDiscord": "Discord में खोलें"
     },
     "updatesList": {
-      "tryingAgain": "Trying again…",
+      "tryingAgain": "पुनः प्रयास करो…",
       "tryAgain": "पुनः प्रयास करें",
       "newUpdate": "नई अपडेट",
       "justAppeared": "अभी प्रकट हुआ.",
       "dismiss": "नकार देना",
-      "searchingUpdates": "Searching updates…",
-      "showingValue1SearchValue2": "Showing {{value1}} search {{value2}}.",
-      "loadMoreResults": "Load more results",
-      "noUpdatesMatched": "No updates matched “",
-      "tryADifferentTermOrClearYourSearch": "”. Try a different term or clear your search.",
-      "showAllUpdates": "Show all updates"
+      "searchingUpdates": "अपडेट खोज रहे हैं...",
+      "showingValue1SearchValue2": "{{value1}} खोज {{value2}} दिखा रहा है।",
+      "loadMoreResults": "अधिक परिणाम लोड करें",
+      "noUpdatesMatched": "कोई अपडेट मेल नहीं खाता\"",
+      "tryADifferentTermOrClearYourSearch": "”। कोई भिन्न शब्द आज़माएँ या अपनी खोज साफ़ करें।",
+      "showAllUpdates": "सभी अपडेट दिखाएं"
     },
     "updatesSchema": {
       "text6b6tUpdates": "6b6t अपडेट",
       "latest6b6tServerChangelogPostsAndUpdateHistoryFrom": "नवीनतम 6b6t सर्वर चेंजलॉग पोस्ट और Discord से अद्यतन इतिहास।"
     },
     "updatesSearch": {
-      "searchServerUpdates": "Search server updates",
+      "searchServerUpdates": "सर्वर अपडेट खोजें",
       "searchUpdates": "अपडेट खोजें",
-      "suggestedSearches": "Suggested searches",
-      "searching": "Searching…",
+      "suggestedSearches": "सुझाई गई खोजें",
+      "searching": "खोज रहे हैं...",
       "search": "खोज",
       "clear": "स्पष्ट"
     },
     "updatesSection": {
-      "updatesFromValue1": "Updates from {{value1}}",
+      "updatesFromValue1": "{{value1}} से अपडेट",
       "latestPost": "नवीनतम पोस्ट",
-      "loading": "Loading…",
+      "loading": "लोड हो रहा है...",
       "loadMoreValue1": "अधिक {{value1}} लोड करें"
     },
     "page": {
-      "serverUpdates": "Server updates",
-      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "Changes, fixes and announcements from the official 6b6t Discord. Newest posts first.",
+      "serverUpdates": "सर्वर अद्यतन",
+      "changesFixesAndAnnouncementsFromTheOfficial6b6tDiscord": "आधिकारिक 6b6t Discord से परिवर्तन, सुधार और घोषणाएँ। सबसे पहले नवीनतम पोस्ट.",
       "joinDiscord": "Discord से जुड़ें",
-      "loadingServerUpdates": "Loading server updates…",
-      "updatesAreTemporarilyUnavailable": "Updates are temporarily unavailable",
-      "tryAgainOrReadTheLatestPostsInThe": "Try again, or read the latest posts in the official Discord.",
-      "tryingAgain": "Trying again…",
+      "loadingServerUpdates": "सर्वर अपडेट लोड हो रहा है...",
+      "updatesAreTemporarilyUnavailable": "अपडेट अस्थायी रूप से अनुपलब्ध हैं",
+      "tryAgainOrReadTheLatestPostsInThe": "पुनः प्रयास करें, या आधिकारिक Discord में नवीनतम पोस्ट पढ़ें।",
+      "tryingAgain": "पुनः प्रयास करो…",
       "tryAgain": "पुनः प्रयास करें",
-      "noUpdatesToShowYet": "No updates to show yet",
-      "readTheLatestServerNewsInTheOfficialDiscord": "Read the latest server news in the official Discord. Posts will appear here when available.",
-      "readNewsOnDiscord": "Read news on Discord"
+      "noUpdatesToShowYet": "अभी तक दिखाने के लिए कोई अपडेट नहीं है",
+      "readTheLatestServerNewsInTheOfficialDiscord": "आधिकारिक Discord में नवीनतम सर्वर समाचार पढ़ें। उपलब्ध होने पर पोस्ट यहां दिखाई देंगी.",
+      "readNewsOnDiscord": "Discord पर समाचार पढ़ें"
     }
   },
   "page-name": "6b6t चेंजलॉग: सर्वर अपडेट और सुधार",

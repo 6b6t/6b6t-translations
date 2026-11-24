@@ -2,13 +2,13 @@
   "sections": {
     "page": {
       "page": {
-        "playerDirectoryPageValue16b6t": "Player directory — page {{value1}} | 6b6t",
-        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "Browse 6b6t player profiles and view their Minecraft playtime, kills, deaths and other statistics.",
-        "backToPlayerStatistics": "Back to player statistics",
+        "playerDirectoryPageValue16b6t": "Oynatıcı dizini — sayfa {{value1}} | 6b6t",
+        "browse6b6tPlayerProfilesAndViewTheirMinecraftPlaytime": "6b6t oyuncu profillerine göz atın ve Minecraft oynama sürelerini, öldürmelerini, ölümlerini ve diğer istatistiklerini görüntüleyin.",
+        "backToPlayerStatistics": "Oyuncu istatistiklerine geri dön",
         "playerDirectory": "Oyuncu dizini",
-        "browsePlayerProfilesOrderedByUsernamePage": "Browse player profiles, ordered by username. Page",
+        "browsePlayerProfilesOrderedByUsernamePage": "Kullanıcı adına göre sıralanmış oyuncu profillerine göz atın. Sayfa",
         "of": "/",
-        "playerDirectoryPages": "Player directory pages"
+        "playerDirectoryPages": "Oynatıcı dizini sayfaları"
       }
     }
   }

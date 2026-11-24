@@ -1,141 +1,145 @@
 {
   "sections": {
     "root": {
-      "viewport": "viewport",
-      "widthDeviceWidthInitialScale1": "width=device-width, initial-scale=1",
+      "viewport": "व्यूपोर्ट",
+      "widthDeviceWidthInitialScale1": "चौड़ाई=डिवाइस-चौड़ाई, प्रारंभिक-पैमाना=1",
       "text6b6t": "6b6t"
     },
     "creator": {
       "creatorActivity": {
-        "connectionsByDomain": "Connections by domain",
-        "connectionsReportingEachAddressPerUtcDayLast60": "Connections reporting each address per UTC day, last 60 days.",
-        "dateUtc": "Date (UTC)",
-        "domain": "Domain",
-        "connections": "Connections",
-        "accounts": "Accounts",
-        "connectionTotalsCouldNotBeLoaded": "Connection totals could not be loaded.",
-        "noConnectionsReportedInTheLast60Days": "No connections reported in the last 60 days.",
-        "linkClicks": "Link clicks",
-        "clicksPerUtcDayLast60DaysAnalyticsOnly": "Clicks per UTC day, last 60 days. Analytics only.",
-        "clicks": "Clicks",
-        "clicksCouldNotBeLoaded": "Clicks could not be loaded.",
-        "noLinkClicksInTheLast60Days": "No link clicks in the last 60 days."
+        "connectionsByDomain": "डोमेन द्वारा कनेक्शन",
+        "connectionsReportingEachAddressPerUtcDayLast60": "प्रत्येक यूटीसी दिन, पिछले 60 दिनों में प्रत्येक पते की रिपोर्टिंग करने वाले कनेक्शन।",
+        "dateUtc": "दिनांक (UTC)",
+        "domain": "कार्यक्षेत्र",
+        "connections": "कनेक्शन",
+        "accounts": "हिसाब किताब",
+        "connectionTotalsCouldNotBeLoaded": "कनेक्शन योग लोड नहीं किया जा सका.",
+        "noConnectionsReportedInTheLast60Days": "पिछले 60 दिनों में कोई कनेक्शन रिपोर्ट नहीं किया गया।",
+        "linkClicks": "लिंक क्लिक",
+        "clicksPerUtcDayLast60DaysAnalyticsOnly": "पिछले 60 दिनों में प्रति यूटीसी दिन पर क्लिक। केवल विश्लेषिकी.",
+        "clicks": "क्लिक्स",
+        "clicksCouldNotBeLoaded": "क्लिक लोड नहीं किये जा सके.",
+        "noLinkClicksInTheLast60Days": "पिछले 60 दिनों में कोई लिंक क्लिक नहीं हुआ।"
       },
       "creatorPayouts": {
-        "beingPrepared": "Being prepared",
+        "beingPrepared": "तैयार होना",
         "approved": "अनुमत",
         "paid": "चुकाया गया",
-        "carriedForward": "Carried forward",
-        "payouts": "Payouts",
-        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "Monthly statements by UTC calendar month. Payment is sent manually.",
-        "monthUtc": "Month (UTC)",
+        "carriedForward": "आगे बढ़ाया",
+        "payouts": "भुगतान",
+        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "यूटीसी कैलेंडर माह के अनुसार मासिक विवरण। भुगतान मैन्युअल रूप से भेजा जाता है.",
+        "monthUtc": "महीना (UTC)",
         "status": "स्थिति",
         "amount": "मात्रा",
-        "payoutsCouldNotBeLoaded": "Payouts could not be loaded.",
-        "noPayoutStatementsYet": "No payout statements yet."
+        "payoutsCouldNotBeLoaded": "भुगतान लोड नहीं किया जा सका.",
+        "noPayoutStatementsYet": "अभी तक कोई भुगतान विवरण नहीं."
       },
       "creatorRules": {
-        "howAttributionWorks": "How attribution works",
-        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "A creator code entered at checkout always wins. Without a code, a purchase counts for you when the buyer&apos;s most recent connection before the purchase, no matter how long ago it was reported one of your domains. Matching domain purchases are credited automatically.",
-        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "Commissions are available for manual monthly payout. Refunds and chargebacks reduce the commission of the sale they belong to, or a later statement if the sale has already been paid.",
-        "purchasesYouMakeYourselfAndGiftsSentToYour": "Purchases you make yourself and gifts sent to your own account do not earn commission.",
-        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "Connections are connections reporting this address. The Minecraft client supplies the address, so it does not prove a visit and can be spoofed.",
-        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "Link clicks are analytics only and never earn commission.",
-        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "Buyer names, account IDs, email addresses and exact purchase times are never shown. Sales are listed by UTC day only."
+        "howAttributionWorks": "एट्रिब्यूशन कैसे काम करता है",
+        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "चेकआउट के समय दर्ज किया गया क्रिएटर कोड हमेशा जीतता है। बिना कोड के, खरीदारी आपके लिए तभी मायने रखती है जब खरीदार का खरीदारी से पहले सबसे हालिया कनेक्शन हो, चाहे यह आपके डोमेन में से किसी एक द्वारा कितने समय पहले रिपोर्ट किया गया हो। मेल खाने वाली डोमेन खरीद स्वचालित रूप से क्रेडिट की जाती है।",
+        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "मैन्युअल मासिक भुगतान के लिए कमीशन उपलब्ध है। रिफंड और चार्जबैक से संबंधित बिक्री का कमीशन कम हो जाता है, या यदि बिक्री का भुगतान पहले ही किया जा चुका है तो बाद में विवरण दिया जाता है।",
+        "purchasesYouMakeYourselfAndGiftsSentToYour": "आपके द्वारा स्वयं की गई खरीदारी और आपके स्वयं के खाते में भेजे गए उपहारों पर कमीशन नहीं मिलता है।",
+        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "कनेक्शन इस पते की रिपोर्ट करने वाले कनेक्शन हैं। Minecraft क्लाइंट पता प्रदान करता है, इसलिए यह विज़िट साबित नहीं होता है और इसे धोखा दिया जा सकता है।",
+        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "लिंक क्लिक केवल एनालिटिक्स हैं और कभी भी कमीशन नहीं कमाते हैं।",
+        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "क्रेता के नाम, खाता आईडी, ईमेल पते और सटीक खरीदारी का समय कभी नहीं दिखाया जाता है। बिक्री केवल यूटीसी दिवस द्वारा सूचीबद्ध की जाती है।"
       },
       "creatorSalesTable": {
-        "sales": "Sales",
-        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "Attributed purchases by UTC day. Buyer details are never shown.",
-        "dateUtc": "Date (UTC)",
+        "sales": "बिक्री",
+        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "यूटीसी दिवस तक जिम्मेदार खरीद। खरीदार का विवरण कभी नहीं दिखाया जाता है.",
+        "dateUtc": "दिनांक (UTC)",
         "rank": "पद",
         "source": "स्रोत",
-        "gross": "Gross",
-        "refunds": "Refunds",
-        "commission": "Commission",
+        "gross": "कुल",
+        "refunds": "रिफंड",
+        "commission": "आयोग",
         "status": "स्थिति",
-        "salesCouldNotBeLoadedTryAgainLater": "Sales could not be loaded. Try again later.",
-        "noAttributedSalesYet": "No attributed sales yet.",
+        "salesCouldNotBeLoadedTryAgainLater": "बिक्री लोड नहीं की जा सकी. बाद में पुन: प्रयास।",
+        "noAttributedSalesYet": "अभी तक कोई जिम्मेदार बिक्री नहीं हुई.",
         "previous": "पहले का",
         "page": "पेज",
         "value1Value2": "{{value1}}{{value2}}",
         "next": "अगला"
       },
       "creatorSummary": {
-        "earnedThisMonth": "Earned this month",
-        "commissionRecordedThisUtcMonth": "Commission recorded this UTC month",
-        "onHold": "On hold",
-        "unpaidCommissionAvailableForManualPayout": "Unpaid commission available for manual payout",
-        "available": "Available",
-        "readyForTheNextStatement": "Ready for the next statement",
-        "carriedForward": "Carried forward",
-        "unpaidBalanceCarriedToTheNextManualPayment": "Unpaid balance carried to the next manual payment",
-        "lifetimePaid": "Lifetime paid",
-        "totalOfPaidStatements": "Total of paid statements",
-        "earningsSummary": "Earnings summary"
+        "earnedThisMonth": "इस महीने कमाया",
+        "commissionRecordedThisUtcMonth": "आयोग ने इस यूटीसी माह को रिकार्ड किया",
+        "onHold": "होल्ड पर",
+        "unpaidCommissionAvailableForManualPayout": "मैन्युअल भुगतान के लिए अवैतनिक कमीशन उपलब्ध है",
+        "available": "उपलब्ध",
+        "readyForTheNextStatement": "अगले बयान के लिए तैयार",
+        "carriedForward": "आगे बढ़ाया",
+        "unpaidBalanceCarriedToTheNextManualPayment": "अवैतनिक शेष राशि को अगले मैन्युअल भुगतान में ले जाया जाता है",
+        "lifetimePaid": "आजीवन भुगतान किया गया",
+        "totalOfPaidStatements": "भुगतान किए गए विवरणों का कुल योग",
+        "earningsSummary": "कमाई सारांश"
       },
       "format": {
-        "creatorCode": "Creator code",
-        "domainJoin": "Domain join",
-        "renewal": "Renewal",
-        "assignedByStaff": "Assigned by staff",
-        "onHold": "On hold",
-        "available": "Available",
+        "creatorCode": "निर्माता कोड",
+        "domainJoin": "डोमेन शामिल हों",
+        "renewal": "नवीनीकरण",
+        "assignedByStaff": "स्टाफ द्वारा सौंपा गया",
+        "onHold": "होल्ड पर",
+        "available": "उपलब्ध",
         "paid": "चुकाया गया",
-        "reversed": "Reversed",
-        "draft": "Draft",
+        "reversed": "औंधा",
+        "draft": "मसौदा",
         "approved": "अनुमत",
-        "carriedForward": "Carried forward",
-        "void": "Void"
+        "carriedForward": "आगे बढ़ाया",
+        "void": "खालीपन"
       },
       "page": {
-        "creatorDashboard": "Creator dashboard",
+        "creatorDashboard": "निर्माता डैशबोर्ड",
         "value1": "{{value1}} ·",
-        "amountsAreInEurDatesAndMonthlyStatementsUse": "Amounts are in EUR. Dates and monthly statements use UTC.",
-        "activeDomains": "Active domains:",
-        "creatorInformationCouldNotBeLoaded": "Creator information could not be loaded",
-        "reloadThePageOrTryAgainLater": "Reload the page or try again later.",
-        "thisAccountDoesNotHaveACreatorProfile": "This account does not have a creator profile."
+        "amountsAreInEurDatesAndMonthlyStatementsUse": "राशियाँ EUR में हैं। दिनांक और मासिक विवरण UTC का उपयोग करते हैं।",
+        "activeDomains": "सक्रिय डोमेन:",
+        "creatorInformationCouldNotBeLoaded": "निर्माता की जानकारी लोड नहीं की जा सकी",
+        "reloadThePageOrTryAgainLater": "पृष्ठ पुनः लोड करें या बाद में पुनः प्रयास करें।",
+        "thisAccountDoesNotHaveACreatorProfile": "इस खाते में कोई निर्माता प्रोफ़ाइल नहीं है."
       }
     },
     "app": {
       "functions": {
         "adminOperations": {
-          "addedValue1PointsTotalValue2": "Added {{value1}} points. Total: {{value2}}.",
-          "thisAdjustmentWasAlreadyAppliedTotalValue1": "This adjustment was already applied. Total: {{value1}}."
+          "addedValue1PointsTotalValue2": "{{value1}} अंक जोड़े गए। कुल: {{value2}}.",
+          "thisAdjustmentWasAlreadyAppliedTotalValue1": "यह समायोजन पहले ही लागू किया जा चुका था. कुल: {{value1}}."
         },
         "admin": {
           "all": "सभी",
           "pending": "लंबित"
         },
         "apexGifts": {
-          "signInToAssignYourApexRanks": "Sign in to assign your Apex ranks.",
-          "couldNotCompleteTheAssignmentIfItWasReserved": "Could not complete the assignment. If it was reserved, retry with the same username. Each slot can only be assigned once, to a different player."
+          "signInToAssignYourApexRanks": "अपनी Apex रैंक निर्दिष्ट करने के लिए साइन इन करें।",
+          "couldNotCompleteTheAssignmentIfItWasReserved": "असाइनमेंट पूरा नहीं कर सका. यदि यह आरक्षित था, तो उसी उपयोगकर्ता नाम के साथ पुनः प्रयास करें। प्रत्येक स्लॉट केवल एक बार, एक अलग खिलाड़ी को सौंपा जा सकता है।"
+        },
+        "cmsForms": {
+          "ready": "तैयार",
+          "unavailable": "अनुपलब्ध"
         },
         "creatorAdmin": {
-          "theChangeFailed": "The change failed",
-          "invalidEmailAddress": "Invalid email address"
+          "theChangeFailed": "परिवर्तन विफल रहा",
+          "invalidEmailAddress": "अमान्य ईमेल पता"
         },
         "editorialContent": {
-          "ready": "ready",
+          "ready": "तैयार",
           "unavailable": "अनुपलब्ध"
         },
         "legalPages": {
-          "ready": "ready",
+          "ready": "तैयार",
           "unavailable": "अनुपलब्ध"
         },
         "legendUpgrade": {
           "signInAndSelectALinkedProfileOrChoose": "अपग्रेड क्रेडिट देखने के लिए साइन इन करके लिंक की गई प्रोफ़ाइल या उपहार पाने वाला खिलाड़ी चुनें।",
-          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "We're automatically syncing your previous Legend payments. Your upgrade will be available once your verified balance is ready.",
-          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "Your payment history is temporarily unavailable. We'll retry automatically.",
-          "legendUpgradeCreditIsNotAvailableYet": "Legend upgrade credit is not available yet.",
+          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "हम आपके पिछले Legend भुगतानों को स्वचालित रूप से समन्वयित कर रहे हैं। आपका सत्यापित बैलेंस तैयार हो जाने पर आपका अपग्रेड उपलब्ध हो जाएगा।",
+          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "आपका भुगतान इतिहास अस्थायी रूप से अनुपलब्ध है. हम स्वचालित रूप से पुनः प्रयास करेंगे.",
+          "legendUpgradeCreditIsNotAvailableYet": "Legend अपग्रेड क्रेडिट अभी उपलब्ध नहीं है।",
           "couldNotCompleteYourLegendUltraClaimRefreshYour": "आपका Legend Ultra क्लेम पूरा नहीं हो सका। अपना बैलेंस रीफ़्रेश करके फिर कोशिश करें। समस्या बनी रहे तो सहायता से संपर्क करें।"
         },
         "motd": {
           "paidPendingReview": "भुगतान_लंबित_समीक्षा"
         },
         "playerStats": {
-          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} is a player on 6b6t.org. View their playtime, kills, deaths, and other stats on the 6b6t Minecraft anarchy server.",
-          "viewValue1SStatsOn6b6tOrgTheBest": "View {{value1}}'s stats on 6b6t.org. The best place for 6b6t statistics."
+          "value1IsAPlayerOn6b6tOrgViewTheir": "{{value1}} 6b6t.org पर एक खिलाड़ी है। 6b6t Minecraft अराजकता सर्वर पर उनके खेलने का समय, हत्याएं, मौतें और अन्य आँकड़े देखें।",
+          "viewValue1SStatsOn6b6tOrgTheBest": "6b6t.org पर {{value1}} के आँकड़े देखें। 6b6t आँकड़ों के लिए सर्वोत्तम स्थान।"
         },
         "printify": {
           "signInAgainBeforeClaiming": "दावा करने से पहले दोबारा साइन इन करें.",
@@ -149,59 +153,63 @@
           "unknownError": "अज्ञात त्रुटि"
         },
         "siteSearch": {
-          "ready": "ready",
+          "ready": "तैयार",
           "unavailable": "अनुपलब्ध"
         },
         "websiteContent": {
-          "ready": "ready",
+          "ready": "तैयार",
           "unavailable": "अनुपलब्ध"
         }
       },
       "jobs": {
         "playerHistory": {
-          "playerHistoryRecordedSuccessfully": "Player history recorded successfully"
+          "playerHistoryRecordedSuccessfully": "खिलाड़ी का इतिहास सफलतापूर्वक दर्ज किया गया"
         },
         "uptime": {
-          "serverUptimeCheckCompleted": "Server uptime check completed"
+          "serverUptimeCheckCompleted": "सर्वर अपटाइम जांच पूरी हुई"
         }
       },
       "seo": {
         "manifest": {
           "text6b6tWebsite": "6b6t वेबसाइट",
-          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "Official website for the 6b6t Minecraft anarchy server."
+          "officialWebsiteForThe6b6tMinecraftAnarchyServer": "6b6t Minecraft अराजकता सर्वर के लिए आधिकारिक वेबसाइट।"
         }
       },
       "services": {
         "adminOperations": {
-          "eventDeliveryIsNotConfigured": "Event delivery is not configured.",
-          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} delivered, {{value2}} scheduled for retry, {{value3}} stopped after repeated failures.",
-          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} accounts processed, {{value2}} memberships removed, {{value3}} failed.",
-          "recordedValue1OfValue2PlayersForTheCurrentHour": "Recorded {{value1}} of {{value2}} players for the current hour.",
-          "serverIsValue1RecordedValue2HoursOfUptime": "Server is {{value1}}. Recorded {{value2}} hours of uptime."
+          "eventDeliveryIsNotConfigured": "इवेंट डिलीवरी कॉन्फ़िगर नहीं है.",
+          "value1DeliveredValue2ScheduledForRetryValue3StoppedAfter": "{{value1}} वितरित, {{value2}} पुनः प्रयास के लिए निर्धारित, {{value3}} बार-बार विफलताओं के बाद बंद हो गया।",
+          "value1AccountsProcessedValue2MembershipsRemovedValue3Failed": "{{value1}} खाते संसाधित, {{value2}} सदस्यताएँ हटाई गईं, {{value3}} विफल।",
+          "recordedValue1OfValue2PlayersForTheCurrentHour": "वर्तमान घंटे के लिए {{value2}} खिलाड़ियों में से {{value1}} रिकॉर्ड किया गया।",
+          "serverIsValue1RecordedValue2HoursOfUptime": "सर्वर {{value1}} है. {{value2}} घंटे का अपटाइम रिकॉर्ड किया गया।"
         },
         "antispam": {
-          "antispamMessagesValue1": "antispam_messages:{{value1}}"
+          "antispamMessagesValue1": "एंटीस्पैम_संदेश:{{value1}}"
+        },
+        "cmsForms": {
+          "invalid": "अमान्य",
+          "sent": "भेजा"
         },
         "cms": {
-          "theCmsValue1RequestFailed": "The CMS {{value1}} request failed",
-          "theCmsReturnedAnInvalidValue1Response": "The CMS returned an invalid {{value1}} response",
-          "theCmsServiceBindingIsMissing": "The CMS service binding is missing"
+          "theCmsValue1RequestFailed": "CMS {{value1}} अनुरोध विफल रहा",
+          "theCmsReturnedAnInvalidValue1Response": "सीएमएस ने एक अमान्य {{value1}} प्रतिक्रिया लौटा दी",
+          "theCmsServiceBindingIsMissing": "सीएमएस सेवा बाइंडिंग गायब है"
         },
         "editorialContent": {
-          "aReviewImageHasNoUrl": "A review image has no URL",
-          "publishedWebsiteMediaIsIncomplete": "Published website media is incomplete"
+          "aReviewImageHasNoUrl": "एक समीक्षा छवि में कोई URL नहीं है",
+          "publishedWebsiteMediaIsIncomplete": "प्रकाशित वेबसाइट मीडिया अधूरा है"
         },
         "legendTheme": {
-          "noThemeFound": "No theme found"
+          "noThemeFound": "कोई थीम नहीं मिली"
         },
         "mcpData": {
-          "methodNotAllowed": "Method not allowed",
-          "notFound": "Not found",
-          "invalidInput": "Invalid input",
-          "statisticsTemporarilyUnavailable": "Statistics temporarily unavailable"
+          "methodNotAllowed": "विधि अनुमत नहीं",
+          "notFound": "नहीं मिला",
+          "invalidInput": "अमान्य निवेश",
+          "statisticsTemporarilyUnavailable": "आँकड़े अस्थायी रूप से अनुपलब्ध हैं"
         },
         "newsletterSignup": {
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "अमान्य ईमेल पता",
           "pendingConfirmation": "pending_confirmation"
         },
         "playerHistory": {
@@ -219,7 +227,7 @@
             "recoverySessionExpiredOrInvalidPleaseRestartRecovery": "पुनर्प्राप्ति सत्र समाप्त या अमान्य है. कृपया पुनर्प्राप्ति पुनः प्रारंभ करें.",
             "yourRequestWasReceivedIfTheAccountExistsAnd": "आपका अनुरोध प्राप्त हुआ. यदि खाता मौजूद है और दिए गए साक्ष्य को सत्यापित किया जा सकता है, तो समर्थन आपसे संपर्क करेगा।",
             "pending": "लंबित",
-            "ownerNotificationIsTemporarilyUnavailable": "Owner notification is temporarily unavailable."
+            "ownerNotificationIsTemporarilyUnavailable": "स्वामी अधिसूचना अस्थायी रूप से अनुपलब्ध है."
           },
           "recover": {
             "ifThisAccountExistsRecoveryOptionsWillBeShown": "यदि यह खाता मौजूद है, तो पुनर्प्राप्ति विकल्प दिखाए जाएंगे।",
@@ -281,102 +289,102 @@
           }
         },
         "reviewRecoveryTicket": {
-          "recoveryReviewFailed": "Recovery review failed",
-          "ticketNotFound": "Ticket not found",
-          "ticketHasAlreadyBeenReviewed": "Ticket has already been reviewed.",
-          "ticketChangedWhileBeingReviewed": "Ticket changed while being reviewed",
-          "ticketHasAlreadyBeenReviewedAndHasNoPending": "Ticket has already been reviewed and has no pending notification to retry.",
-          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Game-server email availability check is unavailable. Ticket was not approved.",
-          "targetEmailIsAlreadyLinkedToAnotherAccount": "Target email is already linked to another account.",
-          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Game-server recovery snapshot is unavailable. Ticket was not approved.",
-          "theAccountIdentityChangedTicketWasNotApproved": "The account identity changed. Ticket was not approved.",
-          "theAccountEmailChangedAfterApprovalANewRecovery": "The account email changed after approval. A new recovery review is required.",
-          "ownerNotificationGracePeriodIsStillActiveWaitFor": "Owner notification grace period is still active. Wait for it to elapse or use the super-admin grace-period override first.",
-          "noAccountOwnerNotificationChallengeExistsForThisVerified": "No account-owner notification challenge exists for this verified email account. Use Notify account owner to start the waiting period on this ticket. Ticket was not approved.",
-          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Could not consume the account-owner notification pass. Ticket was not approved.",
-          "gameServerEmailUpdateFailedTicketWasNotApproved": "Game-server email update failed. Ticket was not approved.",
-          "accountChangesMayHaveCompletedButTheTicketCould": "Account changes may have completed, but the ticket could not be finalized. Contact an operator before retrying.",
+          "recoveryReviewFailed": "पुनर्प्राप्ति समीक्षा विफल रही",
+          "ticketNotFound": "टिकट नहीं मिला",
+          "ticketHasAlreadyBeenReviewed": "टिकट की समीक्षा पहले ही हो चुकी है.",
+          "ticketChangedWhileBeingReviewed": "समीक्षा के दौरान टिकट बदला गया",
+          "ticketHasAlreadyBeenReviewedAndHasNoPending": "टिकट की समीक्षा पहले ही की जा चुकी है और पुनः प्रयास करने के लिए कोई अधिसूचना लंबित नहीं है।",
+          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "गेम-सर्वर ईमेल उपलब्धता जांच उपलब्ध नहीं है। टिकट स्वीकृत नहीं हुआ.",
+          "targetEmailIsAlreadyLinkedToAnotherAccount": "लक्ष्य ईमेल पहले से ही दूसरे खाते से लिंक है.",
+          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "गेम-सर्वर पुनर्प्राप्ति स्नैपशॉट अनुपलब्ध है. टिकट स्वीकृत नहीं हुआ.",
+          "theAccountIdentityChangedTicketWasNotApproved": "खाते की पहचान बदल गई. टिकट स्वीकृत नहीं हुआ.",
+          "theAccountEmailChangedAfterApprovalANewRecovery": "अनुमोदन के बाद खाते का ईमेल बदल गया. एक नई पुनर्प्राप्ति समीक्षा की आवश्यकता है.",
+          "ownerNotificationGracePeriodIsStillActiveWaitFor": "स्वामी अधिसूचना अनुग्रह अवधि अभी भी सक्रिय है. इसके समाप्त होने तक प्रतीक्षा करें या पहले सुपर-एडमिन ग्रेस-पीरियड ओवरराइड का उपयोग करें।",
+          "noAccountOwnerNotificationChallengeExistsForThisVerified": "इस सत्यापित ईमेल खाते के लिए कोई खाता-स्वामी अधिसूचना चुनौती मौजूद नहीं है। इस टिकट पर प्रतीक्षा अवधि शुरू करने के लिए नोटिफाई अकाउंट ओनर का उपयोग करें। टिकट स्वीकृत नहीं हुआ.",
+          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "खाता-स्वामी अधिसूचना पास का उपभोग नहीं किया जा सका. टिकट स्वीकृत नहीं हुआ.",
+          "gameServerEmailUpdateFailedTicketWasNotApproved": "गेम-सर्वर ईमेल अपडेट विफल रहा. टिकट स्वीकृत नहीं हुआ.",
+          "accountChangesMayHaveCompletedButTheTicketCould": "खाता परिवर्तन भले ही पूरा हो गया हो, लेकिन टिकट को अंतिम रूप नहीं दिया जा सका। पुनः प्रयास करने से पहले किसी ऑपरेटर से संपर्क करें.",
           "emailSendFailed": "email_send_failed",
-          "ticketDecisionWasSavedButTheResultEmailCould": "Ticket decision was saved, but the result email could not be delivered. Retry the same decision to resend it.",
-          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "Recovery may already be approved, but the override audit could not be finalized. Refresh the ticket before taking another action.",
-          "theOverrideAuditRecordIsMissingRefreshTheTicket": "The override audit record is missing. Refresh the ticket and contact an operator before taking another action.",
-          "thisTicketIsAlreadyBeingReviewed": "This ticket is already being reviewed",
-          "onlyPendingTicketsCanBeApprovedWithAnOverride": "Only pending tickets can be approved with an override.",
-          "couldNotSaveTheOverrideAuditTicketWasNot": "Could not save the override audit. Ticket was not approved.",
-          "onlySuperAdminsCanOverrideRecoverySafeguards": "Only super admins can override recovery safeguards.",
+          "ticketDecisionWasSavedButTheResultEmailCould": "टिकट का निर्णय सहेज लिया गया, लेकिन परिणाम ईमेल वितरित नहीं किया जा सका। इसे पुनः भेजने के लिए वही निर्णय पुनः प्रयास करें।",
+          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "वसूली को पहले ही मंजूरी मिल सकती है, लेकिन ओवरराइड ऑडिट को अंतिम रूप नहीं दिया जा सका। कोई अन्य कार्रवाई करने से पहले टिकट ताज़ा करें.",
+          "theOverrideAuditRecordIsMissingRefreshTheTicket": "ओवरराइड ऑडिट रिकॉर्ड गायब है. टिकट को ताज़ा करें और कोई अन्य कार्रवाई करने से पहले ऑपरेटर से संपर्क करें।",
+          "thisTicketIsAlreadyBeingReviewed": "इस टिकट की पहले से ही समीक्षा की जा रही है",
+          "onlyPendingTicketsCanBeApprovedWithAnOverride": "केवल लंबित टिकटों को ओवरराइड के साथ अनुमोदित किया जा सकता है।",
+          "couldNotSaveTheOverrideAuditTicketWasNot": "ओवरराइड ऑडिट सहेजा नहीं जा सका. टिकट स्वीकृत नहीं हुआ.",
+          "onlySuperAdminsCanOverrideRecoverySafeguards": "केवल सुपर एडमिन ही पुनर्प्राप्ति सुरक्षा उपायों को ओवरराइड कर सकते हैं।",
           "approved": "अनुमत"
         },
         "scheduledRetention": {
-          "hytaleRequestCleanupUnavailable": "Hytale request cleanup unavailable",
-          "retentionFailed": "Retention failed"
+          "hytaleRequestCleanupUnavailable": "Hytale अनुरोध सफ़ाई उपलब्ध नहीं है",
+          "retentionFailed": "प्रतिधारण विफल"
         },
         "serverStatus": {
-          "unknown": "Unknown"
+          "unknown": "अज्ञात"
         },
         "shopCheckout": {
-          "signInToUseTheShop": "Sign in to use the shop",
-          "invalidRecipient": "Invalid recipient",
-          "theSelectedGameProfileHasAnInvalidAccountId": "The selected game profile has an invalid account ID. Link it again in your account settings, then try again.",
-          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "This player has never joined 6b6t. Gifts can only go to players who have joined the server.",
-          "weCouldNotFindThisGameAccountOn6b6t": "We could not find this game account on 6b6t. Join the server once with it, then try again.",
-          "unsupportedCheckoutLanguage": "Unsupported checkout language",
-          "paypalCheckoutIsTemporarilyUnavailable": "PayPal checkout is temporarily unavailable",
-          "unableToDetermineTheWebsiteUrl": "Unable to determine the website URL",
-          "bundleNotFound": "Bundle not found",
-          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal is only available for permanent ranks. Please choose card checkout for subscriptions.",
-          "thisBundleCannotBeGifted": "This bundle cannot be gifted",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "tebexPackageConfigurationUnavailable": "Tebex package configuration unavailable",
-          "tebexPackageMappingIsMissingForValue1": "Tebex package mapping is missing for {{value1}}",
-          "tebexConfigurationUnavailable": "Tebex configuration unavailable",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "checkoutSigningConfigurationUnavailable": "Checkout signing configuration unavailable",
-          "invalidCheckoutIntent": "Invalid checkout intent",
-          "tebexDidNotReturnACheckoutUrl": "Tebex did not return a checkout URL",
-          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex basket total does not match the shop catalog"
+          "signInToUseTheShop": "दुकान का उपयोग करने के लिए साइन इन करें",
+          "invalidRecipient": "अमान्य प्राप्तकर्ता",
+          "theSelectedGameProfileHasAnInvalidAccountId": "चयनित गेम प्रोफ़ाइल में एक अमान्य खाता ID है। इसे अपनी खाता सेटिंग में दोबारा लिंक करें, फिर दोबारा प्रयास करें।",
+          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "यह खिलाड़ी कभी भी 6b6t में शामिल नहीं हुआ है। उपहार केवल उन खिलाड़ियों को मिल सकते हैं जो सर्वर से जुड़े हैं।",
+          "weCouldNotFindThisGameAccountOn6b6t": "हमें यह गेम अकाउंट 6b6t पर नहीं मिला। एक बार सर्वर से जुड़ें, फिर दोबारा प्रयास करें।",
+          "unsupportedCheckoutLanguage": "असमर्थित चेकआउट भाषा",
+          "paypalCheckoutIsTemporarilyUnavailable": "PayPal चेकआउट अस्थायी रूप से अनुपलब्ध है",
+          "unableToDetermineTheWebsiteUrl": "वेबसाइट URL निर्धारित करने में असमर्थ",
+          "bundleNotFound": "बंडल नहीं मिला",
+          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal केवल स्थायी रैंक के लिए उपलब्ध है। कृपया सदस्यता के लिए कार्ड चेकआउट चुनें।",
+          "thisBundleCannotBeGifted": "यह बंडल उपहार में नहीं दिया जा सकता",
+          "targetPlayerIsNotEligibleForThisBundle": "लक्षित खिलाड़ी इस बंडल के लिए पात्र नहीं है",
+          "tebexPackageConfigurationUnavailable": "Tebex पैकेज कॉन्फ़िगरेशन अनुपलब्ध है",
+          "tebexPackageMappingIsMissingForValue1": "Tebex पैकेज मैपिंग {{value1}} के लिए अनुपलब्ध है",
+          "tebexConfigurationUnavailable": "Tebex कॉन्फ़िगरेशन अनुपलब्ध है",
+          "checkoutProductConfigurationMismatch": "चेकआउट उत्पाद कॉन्फ़िगरेशन बेमेल",
+          "checkoutSigningConfigurationUnavailable": "चेकआउट हस्ताक्षर कॉन्फ़िगरेशन अनुपलब्ध है",
+          "invalidCheckoutIntent": "अमान्य चेकआउट इरादा",
+          "tebexDidNotReturnACheckoutUrl": "Tebex ने चेकआउट वापस नहीं किया URL",
+          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex टोकरी का कुल योग दुकान सूची से मेल नहीं खाता"
         },
         "websiteContent": {
-          "aPublishedGalleryEntryHasNoImage": "A published gallery entry has no image",
+          "aPublishedGalleryEntryHasNoImage": "प्रकाशित गैलरी प्रविष्टि में कोई छवि नहीं है",
           "value1Value2": "{{value1}}{{value2}}"
         }
       }
     },
     "auth": {
       "additionalField": {
-        "noItemsFound": "No items found."
+        "noItemsFound": "कोई आइटम नहीं मिला।"
       },
       "admin": {
         "adminUsers": {
           "all": "सभी",
-          "email": "email",
-          "name": "name",
-          "contains": "contains",
+          "email": "ईमेल",
+          "name": "नाम",
+          "contains": "रोकना",
           "startsWith": "starts_with",
           "endsWith": "ends_with",
           "active": "सक्रिय",
-          "banned": "banned",
+          "banned": "पर प्रतिबंध लगा दिया",
           "value1Value2": "{{value1}}:{{value2}}"
         },
         "linkHistoryTab": {
-          "appendOnlyRecordOfAccountLinksUseItAs": "Append-only record of account links. Use it as evidence for lost-account requests; rows marked backfill describe links that existed when the history started.",
-          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Find accounts by Minecraft UUID, Discord ID, Telegram ID or email",
-          "thisAccount": "This account",
-          "noLinkHistoryYet": "No link history yet.",
-          "when": "When",
+          "appendOnlyRecordOfAccountLinksUseItAs": "खाता लिंक का केवल-संलग्न रिकॉर्ड। खोए हुए खाते के अनुरोधों के लिए इसे साक्ष्य के रूप में उपयोग करें; बैकफ़िल के रूप में चिह्नित पंक्तियाँ उन लिंक्स का वर्णन करती हैं जो इतिहास शुरू होने के समय मौजूद थे।",
+          "findAccountsByMinecraftUuidDiscordIdTelegramId": "Minecraft UUID, Discord ID, टेलीग्राम ID या ईमेल द्वारा खाते खोजें",
+          "thisAccount": "इस खाते",
+          "noLinkHistoryYet": "अभी तक कोई लिंक इतिहास नहीं.",
+          "when": "कब",
           "change": "परिवर्तन",
           "value": "कीमत",
-          "signedInWith": "Signed in with",
-          "websiteAccount": "Website account",
-          "backfill": "backfill",
-          "by": "by",
+          "signedInWith": "के साथ साइन इन किया गया",
+          "websiteAccount": "वेबसाइट खाता",
+          "backfill": "बैकफ़िल",
+          "by": "द्वारा",
           "ip": "ip"
         }
       },
       "authCaptcha": {
-        "captchaVerification": "CAPTCHA verification"
+        "captchaVerification": "यंत्रमानव मनुष्य विभेदक सत्यापन"
       },
       "authForm": {
-        "unableToSubmitThisFormTryAgain": "Unable to submit this form. Try again."
+        "unableToSubmitThisFormTryAgain": "यह फ़ॉर्म सबमिट करने में असमर्थ. पुनः प्रयास करें।"
       },
       "dash": {
         "activity": {
@@ -385,108 +393,108 @@
       },
       "emailOtp": {
         "changeEmailOtp": {
-          "email": "email",
+          "email": "ईमेल",
           "currentcode": "currentCode",
           "newcode": "newCode"
         }
       },
       "hytaleLinkedPlayers": {
-        "linkedHytalePlayers": "Linked Hytale players",
-        "yourHytaleConnections": "Your Hytale connections",
-        "noHytaleAccountIsLinkedToYourConnectedDiscord": "No Hytale account is linked to your connected Discord accounts.",
-        "linkedTo": "linked to",
-        "disconnect": "Disconnect",
-        "theLinkedRoleRemainsIfYouAlsoHaveA": "? The Linked role remains if you also have a Minecraft link.",
-        "disconnecting": "Disconnecting…",
-        "confirmDisconnect": "Confirm disconnect",
+        "linkedHytalePlayers": "जुड़े हुए Hytale खिलाड़ी",
+        "yourHytaleConnections": "आपके Hytale कनेक्शन",
+        "noHytaleAccountIsLinkedToYourConnectedDiscord": "कोई भी Hytale खाता आपके कनेक्टेड Discord खातों से लिंक नहीं है।",
+        "linkedTo": "से जुड़ा हुआ",
+        "disconnect": "डिस्कनेक्ट",
+        "theLinkedRoleRemainsIfYouAlsoHaveA": "? यदि आपके पास Minecraft लिंक भी है तो लिंक की गई भूमिका बनी रहती है।",
+        "disconnecting": "डिस्कनेक्ट हो रहा है...",
+        "confirmDisconnect": "डिस्कनेक्ट की पुष्टि करें",
         "cancel": "रद्द करना",
-        "disconnectHytale": "Disconnect Hytale"
+        "disconnectHytale": "डिस्कनेक्ट करें Hytale"
       },
       "hytaleRoleStatus": {
-        "discordConfirmsThatYouHaveTheLinkedRole": "Discord confirms that you have the Linked role.",
-        "thisDiscordAccountIsNotInTheServerUse": "This Discord account is not in the server. Use Join Discord again below; your Hytale connection is preserved.",
-        "yourAccountIsLinkedButWeCouldNotCheck": "Your account is linked, but we could not check Discord access. Try again shortly.",
-        "yourAccountIsLinkedButDiscordAccessIsTaking": "Your account is linked, but Discord access is taking longer than expected. Check again shortly or contact support. You do not need to relink.",
-        "yourAccountIsLinkedWaitingForTheBotTo": "Your account is linked. Waiting for the bot to update Discord access.",
+        "discordConfirmsThatYouHaveTheLinkedRole": "Discord पुष्टि करता है कि आपके पास लिंक की गई भूमिका है।",
+        "thisDiscordAccountIsNotInTheServerUse": "यह Discord खाता सर्वर में नहीं है. नीचे फिर से Join Discord का उपयोग करें; आपका Hytale कनेक्शन संरक्षित है।",
+        "yourAccountIsLinkedButWeCouldNotCheck": "आपका खाता लिंक है, लेकिन हम Discord एक्सेस की जांच नहीं कर सके। शीघ्र ही पुनः प्रयास करें.",
+        "yourAccountIsLinkedButDiscordAccessIsTaking": "आपका खाता लिंक हो गया है, लेकिन Discord तक पहुंच में अपेक्षा से अधिक समय लग रहा है। शीघ्र ही पुनः जांचें या सहायता से संपर्क करें। आपको पुनः लिंक करने की आवश्यकता नहीं है.",
+        "yourAccountIsLinkedWaitingForTheBotTo": "आपका खाता लिंक हो गया है. बॉट द्वारा Discord एक्सेस को अपडेट करने की प्रतीक्षा की जा रही है।",
         "joining": "Joining...",
-        "joinDiscordAgain": "Join Discord again",
-        "checkDiscordAccess": "Check Discord access"
+        "joinDiscordAgain": "Discord से पुनः जुड़ें",
+        "checkDiscordAccess": "Discord पहुंच की जाँच करें"
       },
       "minecraftAccounts": {
-        "gameProfile": "Game profile",
-        "couldNotLoadYourAccounts": "Could not load your accounts.",
+        "gameProfile": "गेम प्रोफ़ाइल",
+        "couldNotLoadYourAccounts": "आपके खाते लोड नहीं हो सके.",
         "tryAgain": "पुनः प्रयास करें"
       },
       "minecraftIdentityActions": {
-        "linkAnotherProfile": "Link another profile",
-        "linkAGameProfile": "Link a game profile",
-        "manageProfiles": "Manage profiles"
+        "linkAnotherProfile": "किसी अन्य प्रोफ़ाइल को लिंक करें",
+        "linkAGameProfile": "गेम प्रोफ़ाइल लिंक करें",
+        "manageProfiles": "प्रोफ़ाइल प्रबंधित करें"
       },
       "minecraftIdentityPicker": {
-        "couldNotLoadYourGameProfiles": "Could not load your game profiles."
+        "couldNotLoadYourGameProfiles": "आपकी गेम प्रोफ़ाइल लोड नहीं की जा सकी."
       },
       "minecraftIdentitySelect": {
-        "gameProfile": "Game profile",
-        "chooseAGameProfile": "Choose a game profile"
+        "gameProfile": "गेम प्रोफ़ाइल",
+        "chooseAGameProfile": "एक गेम प्रोफ़ाइल चुनें"
       },
       "oauthProvider": {
         "authorizedApplication": {
           "value1Value2": "{{value1}} {{value2}}"
         },
         "oauthClients": {
-          "web": "web",
-          "native": "native",
-          "openidProfileEmail": "openid profile email"
+          "web": "वेब",
+          "native": "देशी",
+          "openidProfileEmail": "ओपनआईडी प्रोफ़ाइल ईमेल"
         },
         "oauthSelectAccount": {
           "value1Value2Value3": "{{value1}}: {{value2}} ({{value3}})"
         }
       },
       "requiredEmailForm": {
-        "invalidEmailAddress": "Invalid email address",
-        "yourEmailIsNotVerifiedYetOpenTheLink": "Your email is not verified yet. Open the link in your inbox, then try again.",
-        "enterAValidEmailAddressYouCanAccess": "Enter a valid email address you can access.",
-        "couldNotCompleteTheRequestPleaseTryAgain": "Could not complete the request. Please try again.",
-        "linkYourEmailToContinue": "Link your email to continue",
-        "verifyAnEmailAddressToUseYour6b6tWebsite": "Verify an email address to use your 6b6t website account. This gives you a way to sign in and recover access if you need it.",
-        "emailAddress": "Email address",
-        "check": "Check",
-        "forAVerificationLinkIfItDoesNotArrive": "for a verification link. If it does not arrive, check your spam folder or try a different email address.",
-        "sendAgainInValue1S": "Send again in {{value1}}s",
-        "sendAnotherLink": "Send another link",
-        "sendVerificationLink": "Send verification link",
-        "signOut": "Sign out",
-        "iVeVerifiedMyEmail": "I’ve verified my email"
+        "invalidEmailAddress": "अमान्य ईमेल पता",
+        "yourEmailIsNotVerifiedYetOpenTheLink": "आपका ईमेल अभी तक सत्यापित नहीं है. अपने इनबॉक्स में लिंक खोलें, फिर पुनः प्रयास करें।",
+        "enterAValidEmailAddressYouCanAccess": "एक वैध ईमेल पता दर्ज करें जिसे आप एक्सेस कर सकते हैं।",
+        "couldNotCompleteTheRequestPleaseTryAgain": "अनुरोध पूरा नहीं किया जा सका. कृपया पुन: प्रयास करें।",
+        "linkYourEmailToContinue": "जारी रखने के लिए अपना ईमेल लिंक करें",
+        "verifyAnEmailAddressToUseYour6b6tWebsite": "अपने 6b6t वेबसाइट खाते का उपयोग करने के लिए एक ईमेल पता सत्यापित करें। यह आपको साइन इन करने और ज़रूरत पड़ने पर एक्सेस पुनर्प्राप्त करने का एक तरीका देता है।",
+        "emailAddress": "मेल पता",
+        "check": "जाँच करना",
+        "forAVerificationLinkIfItDoesNotArrive": "सत्यापन लिंक के लिए. यदि यह नहीं आता है, तो अपने स्पैम फ़ोल्डर की जाँच करें या कोई भिन्न ईमेल पता आज़माएँ।",
+        "sendAgainInValue1S": "{{value1}}s में दोबारा भेजें",
+        "sendAnotherLink": "दूसरा लिंक भेजें",
+        "sendVerificationLink": "सत्यापन लिंक भेजें",
+        "signOut": "साइन आउट",
+        "iVeVerifiedMyEmail": "मैंने अपना ईमेल सत्यापित कर लिया है"
       },
       "settings": {
         "security": {
           "activeSession": {
-            "unknownBrowser": "Unknown Browser",
+            "unknownBrowser": "अज्ञात ब्राउज़र",
             "value1": ", {{value1}}"
           },
           "changePassword": {
-            "addAVerifiedEmailIn": "Add a verified email in",
-            "accountSettings": "account settings",
-            "beforeSettingAPassword": "before setting a password."
+            "addAVerifiedEmailIn": "इसमें एक सत्यापित ईमेल जोड़ें",
+            "accountSettings": "अकाउंट सेटिंग",
+            "beforeSettingAPassword": "पासवर्ड सेट करने से पहले."
           }
         }
       },
       "stepUp": {
         "stepUpDialog": {
-          "confirmItIsYou": "Confirm it is you",
-          "weSentA6DigitCodeToTheEmail": "We sent a 6-digit code to the email address on your account. It works for 10 minutes and only once.",
-          "enterThe6DigitCodeFromYourAuthenticatorApp": "Enter the 6-digit code from your authenticator app.",
-          "confirmationCode": "Confirmation code",
-          "sendANewCode": "Send a new code",
-          "useMyAuthenticatorApp": "Use my authenticator app",
-          "useAnEmailCode": "Use an email code",
-          "confirm": "Confirm"
+          "confirmItIsYou": "पुष्टि करें कि यह आप ही हैं",
+          "weSentA6DigitCodeToTheEmail": "हमने आपके खाते के ईमेल पते पर 6 अंकों का एक कोड भेजा है। यह 10 मिनट तक और केवल एक बार काम करता है।",
+          "enterThe6DigitCodeFromYourAuthenticatorApp": "अपने प्रमाणक ऐप से 6 अंकों का कोड दर्ज करें।",
+          "confirmationCode": "पुष्टि कोड",
+          "sendANewCode": "एक नया कोड भेजें",
+          "useMyAuthenticatorApp": "मेरे प्रमाणक ऐप का उपयोग करें",
+          "useAnEmailCode": "एक ईमेल कोड का प्रयोग करें",
+          "confirm": "पुष्टि करना"
         }
       },
       "websiteAuthProvider": {
         "minecraft": "Minecraft",
         "discord": "Discord",
-        "google": "Google",
+        "google": "गूगल",
         "telegram": "टेलीग्राम"
       }
     },
@@ -534,53 +542,62 @@
       "viewRanks": "रैंक देखें"
     },
     "content": {
+      "cmsAdminBar": {
+        "text6b6tCms": "6b6t CMS"
+      },
       "cmsPreviewBanner": {
-        "cmsPreview": "CMS preview",
-        "draftPreview": "Draft preview",
-        "saveInTheCmsToRefreshThisLinkExpires": "Save in the CMS to refresh. This link expires after 15 minutes.",
-        "exitPreview": "Exit preview"
+        "cmsPreview": "सीएमएस पूर्वावलोकन",
+        "draftPreview": "ड्राफ्ट पूर्वावलोकन",
+        "saveInTheCmsToRefreshThisLinkExpires": "ताज़ा करने के लिए सीएमएस में सहेजें. यह लिंक 15 मिनट बाद समाप्त हो जाता है.",
+        "exitPreview": "पूर्वावलोकन से बाहर निकलें"
+      },
+      "cmsRichTextBlocks": {
+        "copyValue1": "{{value1}} कॉपी करें",
+        "copied": "कॉपी किया गया",
+        "copy": "प्रतिलिपि",
+        "copied2": "नकल की गई."
       },
       "legalPage": {
-        "thisPageIsTemporarilyUnavailableContact": "This page is temporarily unavailable. Contact",
+        "thisPageIsTemporarilyUnavailableContact": "यह पृष्ठ अस्थायी रूप से अनुपलब्ध है. संपर्क",
         "contact6b6tOrg": "contact@6b6t.org",
-        "forACopy": "for a copy.",
-        "loading": "Loading…",
+        "forACopy": "एक प्रति के लिए.",
+        "loading": "लोड हो रहा है...",
         "onThisPage": "इस पेज पर",
         "policySections": "नीति अनुभाग",
         "effectiveDate": "प्रभावी तिथि:",
         "lastUpdated": "आखरी अपडेट:"
       },
       "websiteAnnouncements": {
-        "serverAnnouncements": "Server announcements"
+        "serverAnnouncements": "सर्वर घोषणाएँ"
       },
       "websiteFaqs": {
-        "questionsAreTemporarilyUnavailable": "Questions are temporarily unavailable.",
-        "loadingQuestions": "Loading questions…",
-        "noQuestionsToShow": "No questions to show.",
-        "frequentlyAskedQuestions": "Frequently Asked Questions"
+        "questionsAreTemporarilyUnavailable": "प्रश्न अस्थायी रूप से अनुपलब्ध हैं.",
+        "loadingQuestions": "प्रश्न लोड हो रहे हैं...",
+        "noQuestionsToShow": "दिखाने के लिए कोई प्रश्न नहीं.",
+        "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्नों"
       },
       "websiteGuide": {
-        "thisGuideIsTemporarilyUnavailable": "This guide is temporarily unavailable.",
-        "loadingGuide": "Loading guide…",
-        "thisGuideIsNotPublished": "This guide is not published."
+        "thisGuideIsTemporarilyUnavailable": "यह मार्गदर्शिका अस्थायी रूप से अनुपलब्ध है.",
+        "loadingGuide": "गाइड लोड हो रहा है...",
+        "thisGuideIsNotPublished": "यह मार्गदर्शिका प्रकाशित नहीं है."
       },
       "websiteMediaImage": {
-        "imageIsTemporarilyUnavailable": "Image is temporarily unavailable.",
-        "loadingImage": "Loading image…"
+        "imageIsTemporarilyUnavailable": "छवि अस्थायी रूप से अनुपलब्ध है.",
+        "loadingImage": "छवि लोड हो रही है..."
       }
     },
     "errorPage": {
-      "weCouldNotLoadThisPagePleaseTryAgain": "We could not load this page. Please try again."
+      "weCouldNotLoadThisPagePleaseTryAgain": "हम इस पृष्ठ को लोड नहीं कर सके. कृपया पुन: प्रयास करें।"
     },
     "layout": {
       "accountMenu": {
-        "accountNavigation": "Account navigation",
+        "accountNavigation": "खाता नेविगेशन",
         "account": "खाता",
-        "loadingAccount": "Loading account",
-        "profile": "Profile",
-        "settings": "Settings",
-        "signOut": "Sign out",
-        "signIn": "Sign in"
+        "loadingAccount": "खाता लोड हो रहा है",
+        "profile": "प्रोफ़ाइल",
+        "settings": "सेटिंग्स",
+        "signOut": "साइन आउट",
+        "signIn": "दाखिल करना"
       },
       "copyButton": {
         "copied": "नकल की गई!",
@@ -590,7 +607,7 @@
         "socials": "सामाजिक",
         "discord": "Discord",
         "youtube": "YouTube",
-        "twitter": "Twitter",
+        "twitter": "ट्विटर",
         "reddit": "Reddit",
         "tiktok": "TikTok",
         "instagram": "Instagram",
@@ -598,18 +615,18 @@
         "about": "के बारे में",
         "about6b6t": "6b6t के बारे में",
         "votingRewards": "मतदान पुरस्कार",
-        "informationAbout2b2tQueue": "Information about 2b2t queue",
+        "informationAbout2b2tQueue": "2b2t कतार के बारे में जानकारी",
         "join6b6t": "6b6t से जुड़ें",
-        "connectionHelp": "Connection help",
-        "rulesAndGameplay": "Rules and gameplay",
+        "connectionHelp": "कनेक्शन सहायता",
+        "rulesAndGameplay": "नियम और गेमप्ले",
         "history": "इतिहास",
         "hytale": "Hytale",
-        "legendRank": "Legend rank",
+        "legendRank": "Legend रैंक",
         "antiSpamLogs": "एंटी-स्पैम लॉग",
-        "newsletter": "Newsletter",
-        "accountRecovery": "Account recovery",
+        "newsletter": "समाचार पत्रिका",
+        "accountRecovery": "खाता पुनर्प्राप्ति",
         "blog": "ब्लॉग",
-        "anarchyServerGuide": "Anarchy server guide",
+        "anarchyServerGuide": "अराजकता सर्वर गाइड",
         "contact": "संपर्क",
         "termsOfService": "सेवा की शर्तें",
         "privacyPolicy": "गोपनीयता नीति",
@@ -627,7 +644,7 @@
         "text6b6tMinecraftServerLogo": "6b6t Minecraft सर्वर लोगो",
         "text6b6t": "6b6t",
         "minecraft": "Minecraft",
-        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft anarchy since 2022. Java: play.6b6t.org with AnarchyMod. Bedrock: br.6b6t.org, port 19132.",
+        "minecraftAnarchySince2022JavaPlay6b6tOrgWith": "Minecraft 2022 से अराजकता। Java: play.6b6t.org AnarchyMod के साथ। Bedrock: br.6b6t.org, पोर्ट 19132।",
         "serverAddress": "सर्वर पता:",
         "teleportToAPlayer": "किसी खिलाड़ी को टेलीपोर्ट करें",
         "teleportToYourHome": "अपने घर पर टेलीपोर्ट करें",
@@ -673,7 +690,7 @@
         "contact": "संपर्क",
         "mainNavigation": "मुख्य नेविगेशन",
         "text6b6tLogo": "6b6t लोगो",
-        "text6b": "6b",
+        "text6b": "6बी",
         "text6t": "6t",
         "theBiggestAnarchyServer": "सबसे बड़ा अराजकता सर्वर",
         "joinDiscord": "Discord से जुड़ें",
@@ -694,7 +711,7 @@
         "crypto": "क्रिप्टो",
         "applePay": "एप्पल पे",
         "googlePay": "गूगल पे",
-        "alipay": "Alipay",
+        "alipay": "अलीपे",
         "ideal": "iDEAL",
         "bancontact": "बैनसंपर्क",
         "eps": "EPS"
@@ -714,13 +731,13 @@
     },
     "motion": {
       "username": {
-        "minecraftPlayerValue1": "Minecraft player: {{value1}}",
-        "chooseTheMinecraftAccountReceivingLegend": "Choose the Minecraft account receiving Legend.",
-        "changeUsername": "Change username",
-        "setUsername": "Set username",
+        "minecraftPlayerValue1": "Minecraft प्लेयर: {{value1}}",
+        "chooseTheMinecraftAccountReceivingLegend": "Legend प्राप्त करने वाला Minecraft खाता चुनें।",
+        "changeUsername": "उपयोक्तानाम बदलें",
+        "setUsername": "उपयोक्तानाम सेट करें",
         "minecraftUsername": "Minecraft उपयोगकर्ता नाम",
-        "saving": "Saving…",
-        "saveUsername": "Save username",
+        "saving": "सहेजा जा रहा है...",
+        "saveUsername": "उपयोक्तानाम सहेजें",
         "loggedInAs": "के रूप में लॉग इन किया गया",
         "change": "परिवर्तन",
         "setYourMinecraftUsername": "अपना Minecraft उपयोगकर्ता नाम सेट करें",
@@ -732,34 +749,34 @@
     },
     "newsletter": {
       "newsletterEmailSignup": {
-        "text6b6tNewsletter": "6b6t newsletter",
-        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again.",
-        "checkYourEmailToConfirm": "Check your email to confirm.",
+        "text6b6tNewsletter": "6b6t न्यूज़लेटर",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "यदि 6b6t फिर से अवरुद्ध हो जाता है तो सर्वर अपडेट, ईवेंट और खेलना जारी रखने के तरीके प्राप्त करें।",
+        "checkYourEmailToConfirm": "पुष्टि करने के लिए अपना ईमेल जांचें.",
         "email": "ईमेल",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter",
-        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click."
+        "joining": "शामिल हो रहे हैं...",
+        "joinNewsletter": "न्यूज़लेटर से जुड़ें",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "यदि आप शामिल हों तो ही। एक क्लिक से सदस्यता समाप्त करें."
       },
       "newsletterPromptContent": {
-        "text6b6tNewsletter": "6b6t newsletter",
-        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang blacklisted 6b6t. Then they took down our GitHub. Email is the only thing they can&apos;t take.",
-        "howToKeepPlayingWhenTheyTryAgain": "How to keep playing when they try again",
-        "serverUpdates": "Server updates",
-        "events": "Events",
-        "weSendItToYourAccountEmail": "We send it to your account email:",
-        "onlyIfYouJoinUnsubscribeWithOneClick": "Only if you join. Unsubscribe with one click.",
-        "noThanks": "No thanks",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter"
+        "text6b6tNewsletter": "6b6t न्यूज़लेटर",
+        "mojangBlacklisted6b6tThenTheyTookDownOurGithub": "Mojang काली सूची में डाला गया 6b6t। फिर उन्होंने हमारा GitHub हटा दिया। ईमेल ही एकमात्र ऐसी चीज़ है जिसे वे नहीं ले सकते।",
+        "howToKeepPlayingWhenTheyTryAgain": "जब वे दोबारा कोशिश करें तो कैसे खेलना जारी रखें",
+        "serverUpdates": "सर्वर अद्यतन",
+        "events": "घटनाएँ",
+        "weSendItToYourAccountEmail": "हम इसे आपके खाते के ईमेल पर भेजते हैं:",
+        "onlyIfYouJoinUnsubscribeWithOneClick": "यदि आप शामिल हों तो ही। एक क्लिक से सदस्यता समाप्त करें.",
+        "noThanks": "जी नहीं, धन्यवाद",
+        "joining": "शामिल हो रहे हैं...",
+        "joinNewsletter": "न्यूज़लेटर से जुड़ें"
       },
       "newsletterSignup": {
-        "emailNewsletter": "Email newsletter",
-        "getServerUpdatesEventsAndWaysToKeepPlaying": "Get server updates, events, and ways to keep playing if 6b6t gets blocked again. Unsubscribe with one click.",
-        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "Could not load your newsletter preference. Please refresh the page.",
-        "youJoinedThe6b6tNewsletter": "You joined the 6b6t newsletter.",
-        "checkYourEmailToConfirm": "Check your email to confirm.",
-        "joining": "Joining…",
-        "joinNewsletter": "Join newsletter"
+        "emailNewsletter": "ईमेल न्यूज़लेटर",
+        "getServerUpdatesEventsAndWaysToKeepPlaying": "यदि 6b6t फिर से अवरुद्ध हो जाता है तो सर्वर अपडेट, ईवेंट और खेलना जारी रखने के तरीके प्राप्त करें। एक क्लिक से सदस्यता समाप्त करें.",
+        "couldNotLoadYourNewsletterPreferencePleaseRefreshThe": "आपकी न्यूज़लेटर प्राथमिकता लोड नहीं की जा सकी. कृपया पृष्ठ को ताज़ा करें.",
+        "youJoinedThe6b6tNewsletter": "आप 6b6t न्यूज़लेटर में शामिल हुए।",
+        "checkYourEmailToConfirm": "पुष्टि करने के लिए अपना ईमेल जांचें.",
+        "joining": "शामिल हो रहे हैं...",
+        "joinNewsletter": "न्यूज़लेटर से जुड़ें"
       }
     },
     "notFoundPage": {
@@ -775,7 +792,7 @@
       "mastercard": "मास्टर कार्ड",
       "applePay": "एप्पल पे",
       "googlePay": "गूगल पे",
-      "alipay": "Alipay",
+      "alipay": "अलीपे",
       "ideal": "iDEAL",
       "bancontact": "बैनसंपर्क",
       "eps": "EPS",
@@ -783,7 +800,7 @@
     },
     "paymentMethods": {
       "crypto": "क्रिप्टो",
-      "klarna": "Klarna",
+      "klarna": "कर्लना",
       "cashApp": "Cash App",
       "blik": "BLIK",
       "upi": "UPI",
@@ -841,9 +858,9 @@
       "prime": "Prime",
       "elite": "Elite",
       "apex": "Apex",
-      "reviewsAreTemporarilyUnavailable": "Reviews are temporarily unavailable.",
-      "loadingReviews": "Loading reviews…",
-      "noReviewsToShow": "No reviews to show.",
+      "reviewsAreTemporarilyUnavailable": "समीक्षाएँ अस्थायी रूप से अनुपलब्ध हैं.",
+      "loadingReviews": "समीक्षाएँ लोड हो रही हैं...",
+      "noReviewsToShow": "दिखाने के लिए कोई समीक्षा नहीं.",
       "reviews": "समीक्षा",
       "whatOurCommunitySaysAboutTheirExperience": "हमारा समुदाय अपने अनुभव के बारे में क्या कहता है",
       "averageRating": "औसत श्रेणी",
@@ -889,32 +906,32 @@
     },
     "shop": {
       "checkoutGiftFields": {
-        "nameOnTheGiftBook": "Name on the gift book",
-        "shownToTheRecipientInASignedInGame": "Shown to the recipient in a signed in-game book. This is separate from your billing name.",
-        "editYourPersonalMessage": "Edit your personal message",
-        "addAPersonalMessageOptional": "Add a personal message (optional)",
-        "giftBookMessage": "Gift book message",
-        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 characters. Included in the gift book."
+        "nameOnTheGiftBook": "उपहार पुस्तक पर नाम",
+        "shownToTheRecipientInASignedInGame": "प्राप्तकर्ता को हस्ताक्षरित इन-गेम बुक में दिखाया गया। यह आपके बिलिंग नाम से अलग है.",
+        "editYourPersonalMessage": "अपना व्यक्तिगत संदेश संपादित करें",
+        "addAPersonalMessageOptional": "एक व्यक्तिगत संदेश जोड़ें (वैकल्पिक)",
+        "giftBookMessage": "उपहार पुस्तक संदेश",
+        "value1255CharactersIncludedInTheGiftBook": "{{value1}}/255 वर्ण. उपहार पुस्तक में शामिल है."
       },
       "checkoutPaymentOptions": {
-        "payWith": "Pay with",
-        "cardAndWallets": "Card and wallets",
-        "cardAmpWallets": "Card &amp; wallets",
-        "paypalCryptoAndMore": "PayPal, crypto and more",
-        "paypalCryptoAmpMore": "PayPal, crypto &amp; more"
+        "payWith": "के साथ भुगतान करें",
+        "cardAndWallets": "कार्ड और बटुए",
+        "cardAmpWallets": "कार्ड और बटुए",
+        "paypalCryptoAndMore": "PayPal, क्रिप्टो और बहुत कुछ",
+        "paypalCryptoAmpMore": "PayPal, क्रिप्टो और बहुत कुछ"
       },
       "creatorCodeField": {
-        "creatorCodeOptional": "Creator code (optional)",
-        "supportACreatorWithYourPurchaseYourPriceStays": "Support a creator with your purchase. Your price stays the same."
+        "creatorCodeOptional": "निर्माता कोड (वैकल्पिक)",
+        "supportACreatorWithYourPurchaseYourPriceStays": "अपनी खरीदारी में किसी निर्माता का समर्थन करें. आपकी कीमत वही रहती है."
       },
       "featureDefinitions": {
         "prefix": "उपसर्ग",
-        "gifts": "gifts",
+        "gifts": "उपहार",
         "homes": "घरों",
         "chatcolors": "चैट कलर्स",
         "hat": "टोपी",
         "sit": "बैठना",
-        "lay": "lay",
+        "lay": "बिछाना",
         "invisframe": "invisframe",
         "balloons": "गुब्बारे",
         "namecolor": "नामरंग",
@@ -924,8 +941,8 @@
         "vpn": "vpn",
         "builder": "निर्माता",
         "hotspot": "हॉटस्पॉट",
-        "rename": "rename",
-        "seal": "seal",
+        "rename": "नाम बदलने",
+        "seal": "मुहर",
         "ignore": "अनदेखा करना",
         "discord": "discord",
         "support": "सहायता",
@@ -946,7 +963,7 @@
         "chat": "बात करना",
         "chat2": "बात करना",
         "groupChat": "group_chat",
-        "groupChat2": "Group Chat",
+        "groupChat2": "समूह बातचीत",
         "website": "वेबसाइट",
         "website2": "वेबसाइट",
         "discord2": "Discord",
@@ -985,17 +1002,17 @@
         "homeCooldown": "/home कूलडाउन",
         "homeCooldownInterface": "होम कूलडाउन इंटरफ़ेस",
         "text300s": "300s",
-        "text90s": "90s",
+        "text90s": "90 के दशक",
         "text15s": "15s",
-        "text180s": "180s",
-        "text40s": "40s",
+        "text180s": "180 के दशक",
+        "text40s": "40",
         "text10s": "10s",
         "tpaCooldown": "/tpa कूलडाउन",
         "tpaCooldownInterface": "टीपीए कूलडाउन इंटरफ़ेस",
         "text420s": "420s",
         "text120s": "120s",
         "text30s": "30s",
-        "text70s": "70s",
+        "text70s": "70 के दशक",
         "homeExecutionTime": "/home निष्पादन समय",
         "homeExecutionTimeDiagram": "/home निष्पादन समय आरेख",
         "text3s": "3s",
@@ -1085,7 +1102,7 @@
         "text12PerDay": "प्रतिदिन 12",
         "text24PerDay": "प्रतिदिन 24",
         "chatCooldown": "चैट कूलडाउन",
-        "text5s25s": "5s / 2.5s",
+        "text5s25s": "5एस/2.5एस",
         "text2s1s": "2s / 1s",
         "ignoreLimit": "सीमा पर ध्यान न दें",
         "text2000Players": "2000 खिलाड़ी",
@@ -1093,21 +1110,21 @@
         "text5000Players2": "5,000 खिलाड़ी",
         "chatWithoutItem": "बिना आइटम के चैट करें",
         "groupChatSize": "समूह का आकार",
-        "text7Players": "7 Players",
-        "text10Players": "10 Players",
+        "text7Players": "7 खिलाड़ी",
+        "text10Players": "10 खिलाड़ी",
         "text15Players": "15 खिलाड़ी",
         "text35Players": "35 खिलाड़ी",
         "groupChats": "समूह",
-        "text1Group": "1 Group",
-        "text2Groups": "2 Groups",
+        "text1Group": "1 समूह",
+        "text2Groups": "2 समूह",
         "text3Groups": "3 समूह",
         "text4Groups": "4 समूह",
         "missedGroupMessages": "छूटे हुए समूह संदेश",
-        "text25From24Hours": "25 from 24 hours",
+        "text25From24Hours": "24 घंटे से 25",
         "text100From3Days": "पिछले 3 दिनों के 100",
         "text200From7Days": "पिछले 7 दिनों के 200",
         "groupChatSounds": "समूह चैट की ध्वनियाँ",
-        "text4MoreSounds": "4 More Sounds",
+        "text4MoreSounds": "4 और ध्वनियाँ",
         "text12Sounds": "12 ध्वनियाँ",
         "text28Sounds": "28 ध्वनियाँ",
         "groupOfficers": "समूह अधिकारी",
@@ -1117,7 +1134,7 @@
         "groupDescriptionPin": "समूह विवरण और पिन",
         "renameYourGroup": "अपने समूह का नाम बदलें",
         "groupNameLength": "समूह नाम की लंबाई",
-        "text16Characters": "16 Characters",
+        "text16Characters": "16 अक्षर",
         "text24Characters": "24 अक्षर",
         "text32Characters": "32 अक्षर",
         "hostedByALegend": "Legend द्वारा संचालित",
@@ -1202,7 +1219,7 @@
         "weHaveProgrammedBuilderModeInAWaySo": "हमने बिल्डर मोड को इस तरह बनाया है कि यह P2W (पे-टू-विन) नहीं है। बहुत दूर जाने पर यह अपने-आप बंद हो जाता है और इस पर कूलडाउन भी लागू होता है।",
         "before": "पहले",
         "normalRenderDistanceBeforeEnablingBuilderMode": "बिल्डर मोड सक्षम करने से पहले सामान्य रेंडर दूरी",
-        "enlargeImage": "Enlarge image",
+        "enlargeImage": "छवि बड़ा करें",
         "normalRenderDistance": "सामान्य रेंडर दूरी",
         "after": "बाद",
         "ultraHighRenderDistanceWithBuilderModeEnabled": "बिल्डर मोड सक्षम होने के साथ अल्ट्रा हाई रेंडर दूरी",
@@ -1237,7 +1254,7 @@
         "howLongYouWaitBetweenChatMessagesPrivateMessages": "चैट संदेशों / निजी संदेशों (/msg) के बीच आपको कितना इंतज़ार करना होगा।",
         "theMaximumAmountOfPlayersThatYouCanIgnore": "/ignore के साथ आप खिलाड़ियों की अधिकतम संख्या को अनदेखा कर सकते हैं",
         "talkInChatWithoutNeedingToHaveAnItem": "अपनी इन्वेंट्री में कोई आइटम रखने की आवश्यकता के बिना चैट में बात करें",
-        "howManyPlayersCanBeInAGroupYou": "How many players can be in a group you lead. Without a rank: 5.",
+        "howManyPlayersCanBeInAGroupYou": "आप जिस समूह का नेतृत्व कर रहे हैं उसमें कितने खिलाड़ी हो सकते हैं. बिना रैंक के: 5.",
         "howManyGroupsYouCanBeInAtThe": "एक साथ आप कितने समूहों में हो सकते हैं। बिना रैंक: 1.",
         "whenYouLogInYouSeeTheGroupMessages": "लॉग इन करने पर छूटे हुए समूह संदेश दिखते हैं।",
         "pickYourOwnSoundsForInvitesYourNameMessages": "निमंत्रण, अपने नाम, संदेश और सदस्यों के ऑनलाइन आने के लिए ध्वनियाँ चुनें। इन्हें केवल आप सुनेंगे। बाकी लोगों को सामान्य ध्वनियाँ सुनाई देंगी।",
@@ -1265,34 +1282,34 @@
         "closeModal": "मोडल बंद करें"
       },
       "shopBuyButton": {
-        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "Could not open checkout. Your details have been kept. Please try again.",
-        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} has an active {{value2}} subscription. Its perks will no longer apply after this upgrade. The existing subscription is not canceled automatically; its payer must cancel it to avoid further charges.",
-        "thisRankCannotBeGifted": "This rank cannot be gifted",
-        "giftToValue1": "Gift to {{value1}}"
+        "couldNotOpenCheckoutYourDetailsHaveBeenKept": "चेकआउट नहीं खोला जा सका. आपका विवरण रखा गया है. कृपया पुन: प्रयास करें।",
+        "value1HasAnActiveValue2SubscriptionItsPerksWill": "{{value1}} के पास सक्रिय {{value2}} सदस्यता है। इस अपग्रेड के बाद इसके लाभ लागू नहीं होंगे. मौजूदा सदस्यता स्वचालित रूप से रद्द नहीं होती है; आगे के शुल्क से बचने के लिए इसके भुगतानकर्ता को इसे रद्द करना होगा।",
+        "thisRankCannotBeGifted": "यह रैंक उपहार में नहीं दी जा सकती",
+        "giftToValue1": "{{value1}} को उपहार"
       },
       "shopCheckoutPanel": {
-        "giftARank": "Gift a rank",
-        "reviewYourPurchase": "Review your purchase",
-        "checkThePlayerAndPurchaseDetailsBeforePayment": "Check the player and purchase details before payment.",
-        "whoIsThisPurchaseFor": "Who is this purchase for?",
-        "forMyself": "For myself",
-        "sendAGift": "Send a gift",
-        "giftRecipient": "Gift recipient",
-        "minecraftPlayer": "Minecraft player",
-        "changeRecipient": "Change recipient",
+        "giftARank": "एक रैंक उपहार में दें",
+        "reviewYourPurchase": "अपनी खरीदारी की समीक्षा करें",
+        "checkThePlayerAndPurchaseDetailsBeforePayment": "भुगतान से पहले खिलाड़ी और खरीद विवरण की जाँच करें।",
+        "whoIsThisPurchaseFor": "यह खरीदारी किसके लिए है?",
+        "forMyself": "अपने आप के लिए",
+        "sendAGift": "एक उपहार भेजें",
+        "giftRecipient": "उपहार प्राप्तकर्ता",
+        "minecraftPlayer": "Minecraft प्लेयर",
+        "changeRecipient": "प्राप्तकर्ता बदलें",
         "theRecipientSLegendCreditCoversThisUpgradeNo": "प्राप्तकर्ता का Legend क्रेडिट इस अपग्रेड को पूरा कवर करता है। किसी भुगतान की ज़रूरत नहीं है।",
-        "youPayTheRenewalsTheRecipientReceivesThePerks": "You pay the renewals. The recipient receives the perks. Manage cancellation using the billing portal link in your payment receipt email.",
-        "manageCancellationUsingTheBillingPortalLinkInYour": "Manage cancellation using the billing portal link in your payment receipt email.",
-        "youPayValue1ReceivesValue2AndASignedIn": "You pay. {{value1}} receives {{value2}} and a signed in-game book.",
-        "thisPurchaseGoesToValue1": "This purchase goes to {{value1}}.",
-        "haveACreatorCode": "Have a creator code?",
+        "youPayTheRenewalsTheRecipientReceivesThePerks": "आप नवीनीकरण का भुगतान करें. प्राप्तकर्ता को भत्ते प्राप्त होते हैं। अपने भुगतान रसीद ईमेल में बिलिंग पोर्टल लिंक का उपयोग करके रद्दीकरण प्रबंधित करें।",
+        "manageCancellationUsingTheBillingPortalLinkInYour": "अपने भुगतान रसीद ईमेल में बिलिंग पोर्टल लिंक का उपयोग करके रद्दीकरण प्रबंधित करें।",
+        "youPayValue1ReceivesValue2AndASignedIn": "तुम भुगतान दो। {{value1}} को {{value2}} और एक हस्ताक्षरित इन-गेम पुस्तक प्राप्त होती है।",
+        "thisPurchaseGoesToValue1": "यह खरीदारी {{value1}} को जाती है।",
+        "haveACreatorCode": "क्या आपके पास क्रिएटर कोड है?",
         "activatingLegendUltra": "Legend Ultra सक्रिय हो रहा है…",
-        "openingSecureCheckout": "Opening secure checkout…",
+        "openingSecureCheckout": "सुरक्षित चेकआउट खोला जा रहा है...",
         "activateLegendUltra": "Legend Ultra सक्रिय करें",
-        "continueToPaymentValue1": "Continue to payment · {{value1}}",
-        "backToRanks": "Back to ranks",
+        "continueToPaymentValue1": "भुगतान जारी रखें · {{value1}}",
+        "backToRanks": "रैंकों पर वापस जाएँ",
         "refundPolicy": "भुगतान वापसी की नीति",
-        "paymentDetailsAreEnteredOnThePaymentProviderApos": "Payment details are entered on the payment provider&apos;s secure checkout. Eligible purchases have a 14-day refund window."
+        "paymentDetailsAreEnteredOnThePaymentProviderApos": "भुगतान विवरण भुगतान प्रदाता के सुरक्षित चेकआउट पर दर्ज किया जाता है। योग्य खरीदारी के लिए 14 दिन की रिफंड विंडो है।"
       }
     },
     "socialIcons": {
@@ -1346,7 +1363,7 @@
         "completedThe2025ChristmasLobbyChallenge": "2025 क्रिसमस लॉबी चैलेंज पूरा किया"
       },
       "halloween2026BadgeDisplay": {
-        "foundAll310HeadsInThe6b6tLobbyDuring": "Found all 310 heads in the 6b6t lobby during Halloween 2026",
+        "foundAll310HeadsInThe6b6tLobbyDuring": "हैलोवीन 2026 के दौरान 6b6t लॉबी में सभी 310 सिर मिले",
         "text2026HalloweenLobbyHeadHuntIcon": "2026 हैलोवीन लॉबी हेड हंट आइकन"
       },
       "legendThemes": {
@@ -1395,49 +1412,72 @@
         "snowy": "हिमाच्छन्न"
       },
       "likelyBotMarker": {
-        "likelyABot": "Likely a bot",
-        "markedAsAPlayerMadeBotBy6b6t": "Marked as a player-made bot by 6b6t"
+        "likelyABot": "संभवतः एक बॉट",
+        "markedAsAPlayerMadeBotBy6b6t": "6b6t द्वारा खिलाड़ी-निर्मित बॉट के रूप में चिह्नित किया गया"
       },
       "playerProfileContent": {
-        "designPreviewSamplePlayerStatistics": "Design preview: sample player statistics.",
-        "loadingPlayerTheme": "Loading player theme…",
-        "backToLeaderboards": "Back to leaderboards",
-        "memberSince": "Member since",
-        "fromBeforeThe22May2026Reset": "22 मई 2026 के रीसेट से पहले के आँकड़े",
-        "playTime": "play_time",
-        "kills": "kills",
-        "deaths": "deaths",
-        "allTime": "all time",
-        "recordedStatistics": "Recorded statistics",
-        "compareRecentActivityWithAllTimeTotals": "Compare recent activity with all-time totals.",
-        "aposSStatisticsForTheLast7Days30": "&apos;s statistics for the last 7 days, 30 days, and all time.",
-        "statistic": "Statistic",
+        "designPreviewSamplePlayerStatistics": "डिज़ाइन पूर्वावलोकन: नमूना खिलाड़ी आँकड़े।",
+        "loadingPlayerTheme": "प्लेयर थीम लोड हो रहा है...",
         "text7Days": "7 दिन",
         "text30Days": "30 दिन",
-        "allTime2": "पूरे समय",
-        "noRecordedStatistics": "No recorded statistics",
-        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "This player does not have any statistics available yet.",
-        "aboutRecordedTotals": "About recorded totals",
+        "allTime": "पूरे समय",
+        "theLast7Days": "पिछले 7 दिनों",
+        "theLast30Days": "पिछले 30 दिनों",
+        "profileBreadcrumb": "प्रोफ़ाइल नेविगेशन",
+        "playerStatistics": "खिलाड़ी आँकड़े",
+        "memberSinceValue1": "{{value1}} से सदस्य",
+        "copyLink": "लिंक कॉपी करें",
+        "linkCopied": "लिंक कॉपी हो गया",
+        "couldNotCopyLink": "लिंक कॉपी नहीं हो सका",
+        "fromBeforeThe22May2026Reset": "22 मई 2026 के रीसेट से पहले के आँकड़े",
+        "last7Days": "पिछले 7 दिन",
+        "last30Days": "पिछले 30 दिन",
+        "profileStatisticPeriod": "प्रोफ़ाइल आँकड़ों की अवधि",
+        "playTime": "play_time",
+        "kills": "किल",
+        "deaths": "मौतें",
+        "kd": "केडी",
+        "walkedDistance": "walked_distance",
+        "allStats": "सभी आँकड़े",
+        "compareRecentActivityWithAllTimeTotals": "हाल की गतिविधि की तुलना कुल आँकड़ों से करें।",
+        "positionsFollowTheSwitchAbove": "पोज़िशन ऊपर चुनी गई अवधि के अनुसार हैं।",
+        "statisticsForValue17Days30DaysAllTime": "{{value1}} के आँकड़े: 7 दिन, 30 दिन और पूरा समय।",
+        "statistic": "आँकड़ा",
+        "positionValue1": "स्थान, {{value1}}",
+        "combat": "युद्ध",
+        "travel": "यात्रा",
+        "world": "दुनिया",
+        "position": "पद",
+        "jumpToMe": "मेरी रैंक पर जाएँ",
+        "text1StatWithNothingYetInValue1Show": "{{value1}} में अभी कुछ नहीं वाली 1 स्टैट। दिखाएँ",
+        "value1StatsWithNothingYetInValue2Show": "{{value2}} में {{value1}} आँकड़ों में अभी कुछ नहीं है। दिखाएँ",
+        "biggerThanAllTimeBecauseWeChangedHowThis": "† यह कुल संख्या से बड़ा है क्योंकि 14 नवंबर 2026 को इस आँकड़े की गणना बदल दी गई थी। यह सूचना 14 दिसंबर 2026 को हट जाएगी।",
+        "noRecordedStatistics": "कोई आँकड़े दर्ज नहीं",
+        "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "इस खिलाड़ी के आँकड़े अभी उपलब्ध नहीं हैं।",
+        "aboutRecordedTotals": "दर्ज कुल आँकड़ों के बारे में",
         "theStatsResetOnMay222026WasDeliberate": "22 मई 2026 को आँकड़ों का रीसेट जानबूझकर किया गया था। सर्वकालिक लीडरबोर्ड तब से सक्रिय खिलाड़ियों को दिखाते हैं।",
-        "playerSkin": "Player skin"
+        "playerSkin": "खिलाड़ी की स्किन",
+        "needsValue1KillsInValue2": "{{value2}} में {{value1}} किल चाहिए",
+        "nothingInValue1": "{{value1}} में कोई गतिविधि नहीं",
+        "notRankedInValue1": "{{value1}} में रैंक नहीं है"
       },
       "playerProfile": {
-        "playerStatisticsAreTemporarilyUnavailable": "Player statistics are temporarily unavailable",
-        "pleaseTryAgainInAMinute": "Please try again in a minute.",
-        "checkingStatisticsAgain": "Checking statistics again.",
-        "statisticsAreStillUnavailable": "Statistics are still unavailable.",
-        "trying": "Trying…",
+        "playerStatisticsAreTemporarilyUnavailable": "खिलाड़ी आँकड़े अस्थायी रूप से अनुपलब्ध हैं",
+        "pleaseTryAgainInAMinute": "कृपया एक मिनट में पुनः प्रयास करें.",
+        "checkingStatisticsAgain": "आंकड़ों की दोबारा जांच हो रही है.",
+        "statisticsAreStillUnavailable": "आँकड़े अभी भी उपलब्ध नहीं हैं.",
+        "trying": "कोशिश कर रहा हूँ...",
         "tryAgain": "पुनः प्रयास करें"
       },
       "playerSkinView": {
-        "ready": "ready",
+        "ready": "तैयार",
         "error": "गलती",
-        "playerSMinecraftSkin": "Player's Minecraft skin",
-        "patPlayerSHead": "Pat player's head",
-        "steveSDefaultMinecraftSkin": "Steve's default Minecraft skin",
-        "text3dSkinLoaded": "3D skin loaded",
-        "text3dViewUnavailable": "3D view unavailable",
-        "loading3dSkin": "Loading 3D skin…"
+        "playerSMinecraftSkin": "खिलाड़ी की Minecraft त्वचा",
+        "patPlayerSHead": "खिलाड़ी के सिर को थपथपाएं",
+        "steveSDefaultMinecraftSkin": "स्टीव की डिफ़ॉल्ट Minecraft त्वचा",
+        "text3dSkinLoaded": "3डी त्वचा भरी हुई",
+        "text3dViewUnavailable": "3डी दृश्य अनुपलब्ध",
+        "loading3dSkin": "3डी त्वचा लोड हो रही है..."
       },
       "playerBadgeDisplay": {
         "text2025HalloweenChallengeIcon": "2025 हैलोवीन चैलेंज आइकन",
@@ -1471,16 +1511,41 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "आप {{value1}} का संपूर्ण आँकड़ा इतिहास देख सकते हैं, जिसमें खेलने का समय, हत्याएँ, मौतें और बहुत कुछ शामिल है, यहीं उनके 6b6t प्रोफ़ाइल पृष्ठ पर।",
         "frequentlyAskedQuestionsAbout": "के बारे में अक्सर पूछे जाने वाले प्रश्न"
       },
+      "profilePositionLabel": {
+        "notRanked": "रैंक नहीं है",
+        "rankValue1OfValue2": "{{value2}} में रैंक #{{value1}}",
+        "rankValue1OfValue2Value3Behind": "{{value2}} में रैंक #{{value1}} · {{value3}} पीछे",
+        "rankValue1OfValue2Value3ToPass": "{{value2}} में रैंक #{{value1}} · आगे जाने के लिए {{value3}}"
+      },
+      "profileShopVote": {
+        "value1Value2": "{{value1}}{{value2}}",
+        "rankAndVotes": "रैंक और वोट",
+        "whatValue1Gives": "{{value1}} के लाभ",
+        "votesValue1LifetimeValue2ThisMonth": "वोट: कुल {{value1}} · इस महीने {{value2}}",
+        "voteToday": "आज वोट करें",
+        "rankBenefits": "रैंक के लाभ",
+        "close": "बंद करना",
+        "seeTheShopForRankDetails": "रैंक की जानकारी के लिए दुकान देखें।",
+        "seeValue1InTheShop": "दुकान में {{value1}} देखें",
+        "compareAllRanks": "सभी रैंक की तुलना करें"
+      },
+      "statsLastSaved": {
+        "statsLastSavedValue1": "आँकड़े पिछली बार {{value1}} सहेजे गए",
+        "value1": "({{value1}})",
+        "delayed": "देरी से",
+        "countedSince22May2026": "22 मई 2026 से गिने गए",
+        "howWeCount": "हम गणना कैसे करते हैं"
+      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityIcon": "6b6t टेलीग्राम समुदाय आइकन",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "टेलीग्राम से जुड़े और वर्तमान में 6b6t समूह के सदस्य हैं"
       },
       "themedStatsRenderer": {
-        "legend": "legend",
+        "legend": "दंतकथा",
         "champion": "चैंपियन",
         "hero": "नायक",
-        "playerSkin": "Player skin",
-        "playerStats": "Player stats",
+        "playerSkin": "खिलाड़ी की स्किन",
+        "playerStats": "खिलाड़ी आँकड़े",
         "memberSince": "🗓️से सदस्य",
         "returnToLeaderboards": "लीडरबोर्ड पर लौटें",
         "statsReset": "आँकड़े रीसेट",
@@ -1509,14 +1574,14 @@
         "nextSlide": "अगली स्लाइड"
       },
       "cookieBanner": {
-        "cookieSettings": "Cookie settings",
-        "cookiePreferences": "Cookie preferences",
+        "cookiePreferences": "कुकी प्राथमिकताएँ",
         "cookieConsent": "कुकी सहमति",
         "gdpr": "GDPR",
-        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Accept cookies for analytics and session recordings, or decline to use cookieless analytics. You can change your choice in Cookie settings.",
+        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "एनालिटिक्स और सत्र रिकॉर्डिंग के लिए कुकीज़ स्वीकार करें, या कुकी रहित एनालिटिक्स का उपयोग करने से इनकार करें। आप कुकी सेटिंग में अपनी पसंद बदल सकते हैं.",
         "privacyPolicy": "गोपनीयता नीति",
         "decline": "गिरावट",
-        "acceptAll": "सभी स्वीकृत"
+        "acceptAll": "सभी स्वीकृत",
+        "cookieSettings": "कुकी सेटिंग्स"
       },
       "dialog": {
         "close": "बंद करना"
@@ -1525,7 +1590,7 @@
         "dismissNotification": "अधिसूचना ख़ारिज करें"
       },
       "spinner": {
-        "loading": "Loading"
+        "loading": "लोड हो रहा है"
       }
     },
     "monitoring": {

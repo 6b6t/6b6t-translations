@@ -1,128 +1,128 @@
 {
   "page-name": "6b6t: сервер-анархия Minecraft. IP и как зайти",
   "seo-description": "Без правил. Без очереди. Заходите на 6b6t с Java через AnarchyMod по адресу play.6b6t.org или с Bedrock: br.6b6t.org, порт 19132. Один мир с 2022 года.",
-  "server-statistics": "Server Statistics",
-  "about-us": "About us",
-  "tell-me-more": "Tell Me More",
-  "server-age": "Server Age: {{days}} days old",
-  "players-joined": "{{players}} players joined",
-  "world-size": "World Size: {{size}}",
+  "server-statistics": "Статистика сервера",
+  "about-us": "О нас",
+  "tell-me-more": "Расскажи мне больше",
+  "server-age": "Возраст сервера: {{days}} дней.",
+  "players-joined": "{{players}} игроков присоединилось",
+  "world-size": "Размер мира: {{size}}",
   "tps": "TPS",
-  "online": "Online",
-  "carousel-image-alt": "6b6t showcase image",
-  "location": "Location: Miami, USA",
-  "read-now": "Read Now",
-  "featured-video-badge": "Now Streaming",
-  "featured-video-title": "Latest From 6b6t",
-  "featured-video-description": "Watch the latest video about 6b6t from FitMC. The largest and the oldest anarchy server in Hytale.",
-  "featured-video-cta": "Click to play",
-  "youtube-shorts-title": "Latest YouTube Shorts",
-  "youtube-shorts-description": "Check out our latest YouTube Shorts showcasing epic moments, base tours, and highlights from the 6b6t anarchy server.",
-  "youtube-shorts-visit-channel": "Visit Our Channel",
-  "youtube-shorts-error": "Failed to load YouTube content. Please try again later.",
+  "online": "Онлайн",
+  "carousel-image-alt": "6b6t изображение витрины",
+  "location": "Местоположение: Майами, USA.",
+  "read-now": "Читать сейчас",
+  "featured-video-badge": "Сейчас транслирую",
+  "featured-video-title": "Последние от 6b6t",
+  "featured-video-description": "Посмотрите последнее видео о 6b6t от FitMC. Самый большой и самый старый сервер анархии в Hytale.",
+  "featured-video-cta": "Нажмите, чтобы играть",
+  "youtube-shorts-title": "Последние шорты YouTube",
+  "youtube-shorts-description": "Посмотрите наши последние короткометражки YouTube, демонстрирующие эпические моменты, экскурсии по базе и основные моменты анархического сервера 6b6t.",
+  "youtube-shorts-visit-channel": "Посетите наш канал",
+  "youtube-shorts-error": "Не удалось загрузить содержимое YouTube. Пожалуйста, повторите попытку позже.",
   "sections": {
     "faq": {
       "faq": {
-        "frequentlyAskedQuestions": "Frequently Asked Questions",
-        "howToJoinAndPlayOnThe6b6tMinecraft": "How to join and play on the 6b6t Minecraft anarchy server.",
-        "stillHaveQuestions": "Still have questions?",
-        "joinOurDiscord": "Join our Discord",
-        "forHelp": "for help."
+        "frequentlyAskedQuestions": "Часто задаваемые вопросы",
+        "howToJoinAndPlayOnThe6b6tMinecraft": "Как присоединиться и играть на сервере анархии 6b6t Minecraft.",
+        "stillHaveQuestions": "Остались вопросы?",
+        "joinOurDiscord": "Присоединяйтесь к нашему Discord",
+        "forHelp": "за помощью."
       }
     },
     "gallery": {
       "galleryModal": {
-        "featured": "Featured"
+        "featured": "Рекомендуемые"
       },
       "gallery": {
-        "builds": "builds",
-        "events": "events",
-        "gallery": "Gallery",
-        "serverScreenshots": "Server Screenshots",
-        "momentsCapturedFromThe6b6tAnarchyServer": "Moments captured from the 6b6t anarchy server",
-        "tryAgain": "Try again",
-        "noImagesFound": "No images found",
-        "showLess": "Show less",
-        "showAllValue1": "Show all ({{value1}})"
+        "builds": "строит",
+        "events": "события",
+        "gallery": "Галерея",
+        "serverScreenshots": "Скриншоты сервера",
+        "momentsCapturedFromThe6b6tAnarchyServer": "Моменты, снятые с сервера анархии 6b6t.",
+        "tryAgain": "Попробовать снова",
+        "noImagesFound": "Изображения не найдены",
+        "showLess": "Показать меньше",
+        "showAllValue1": "Показать все ({{value1}})"
       }
     },
     "hero": {
       "connectionNotice": {
-        "text6b6tConnection": "6b6t / connection",
-        "weHaveProtectedYour": "We have protected your",
-        "freedomToChoose": "freedom to choose",
-        "whereYouPlay": "where you play.",
-        "mojangBanned6b6tToKeepPlayingDownloadAnarchymod": "Mojang banned 6b6t. To keep playing, download AnarchyMod.",
-        "connectInTwoSteps": "Connect in two steps",
-        "downloadTheMod": "Download the mod",
-        "getTheLatestFabricRelease": "Get the latest Fabric release.",
-        "playOn6b6t": "Play on 6b6t",
-        "openMinecraftAndConnect": "Open Minecraft and connect.",
-        "downloadAnarchyMod": "Download Anarchy Mod"
+        "text6b6tConnection": "6b6t / соединение",
+        "weHaveProtectedYour": "Мы защитили ваш",
+        "freedomToChoose": "свобода выбора",
+        "whereYouPlay": "где ты играешь.",
+        "mojangBanned6b6tToKeepPlayingDownloadAnarchymod": "Mojang забанил 6b6t. Чтобы продолжить игру, скачайте AnarchyMod.",
+        "connectInTwoSteps": "Подключитесь в два шага",
+        "downloadTheMod": "Скачать мод",
+        "getTheLatestFabricRelease": "Получите последнюю версию Fabric.",
+        "playOn6b6t": "Играйте на 6b6t",
+        "openMinecraftAndConnect": "Откройте Minecraft и подключитесь.",
+        "downloadAnarchyMod": "Скачать мод Анархия"
       },
       "heroButtons": {
-        "playNow": "Play Now",
-        "shop": "Shop"
+        "playNow": "Играть сейчас",
+        "shop": "Магазин"
       },
       "heroContent": {
         "text6b6t": "6b6t",
-        "minecraftAnarchy": "Minecraft Anarchy",
-        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t is a survival Minecraft anarchy server with no rules, no punishments and no queue. Players can do whatever they want in a world supporting up to 2000 players simultaneously and use commands such as /tpa and /home.",
+        "minecraftAnarchy": "Minecraft Анархия",
+        "text6b6tIsASurvivalMinecraftAnarchyServerWithNo": "6b6t — это анархический сервер выживания Minecraft без правил, наказаний и очередей. Игроки могут делать все, что хотят, в мире, поддерживающем до 2000 игроков одновременно, и использовать такие команды, как /tpa и /home.",
         "noRules": "Без правил",
         "noMapResets": "Без сбросов карты",
         "text200PlayersDaily": "Более 200 игроков ежедневно",
         "noQueue": "Без очереди",
-        "bulletPointIcon": "Bullet Point Icon",
-        "join": "Join",
-        "membersOnDiscord": "members on Discord"
+        "bulletPointIcon": "Иконка «Точка пули»",
+        "join": "Присоединиться",
+        "membersOnDiscord": "участники Discord"
       },
       "heroSlider": {
-        "spawnArea": "Spawn Area",
-        "playerBuilds": "Player Builds",
-        "baseBuilding": "Base Building",
-        "vastLandscapes": "Vast Landscapes",
-        "text6b6tPreviewSpawnArea": "6b6t Preview - Spawn Area",
-        "text6b6tPreviewValue1": "6b6t Preview - {{value1}}",
-        "viewValue1": "View {{value1}}",
-        "previousSlide": "Previous slide",
-        "nextSlide": "Next slide",
+        "spawnArea": "Зона появления",
+        "playerBuilds": "Сборки игроков",
+        "baseBuilding": "Базовое здание",
+        "vastLandscapes": "Огромные пейзажи",
+        "text6b6tPreviewSpawnArea": "6b6t Предварительный просмотр — зона появления",
+        "text6b6tPreviewValue1": "6b6t Предварительный просмотр - {{value1}}",
+        "viewValue1": "Посмотреть {{value1}}",
+        "previousSlide": "Предыдущий слайд",
+        "nextSlide": "Следующий слайд",
         "copied": "COPIED",
-        "clickToCopy": "CLICK TO COPY"
+        "clickToCopy": "НАЖМИТЕ, ЧТОБЫ КОПИРОВАТЬ"
       },
       "heroStats": {
-        "onlinePlayers": "Online Players",
-        "maxPlayers": "Max Players",
-        "version": "Version"
+        "onlinePlayers": "Онлайн-игроки",
+        "maxPlayers": "Максимальное количество игроков",
+        "version": "Версия"
       }
     },
     "social": {
       "youTubeShorts": {
-        "failedToLoadYoutubeShorts": "Failed to load YouTube shorts",
-        "youtubePlayButton": "YouTube Play Button"
+        "failedToLoadYoutubeShorts": "Не удалось загрузить короткометражки YouTube.",
+        "youtubePlayButton": "YouTube Кнопка воспроизведения"
       }
     },
     "stats": {
       "playerGraph": {
-        "text7Days": "7 Days",
-        "text1Month": "1 Month",
-        "text1Year": "1 Year",
-        "failedToLoadData": "Failed to load data",
-        "playerActivity": "Player Activity",
-        "current": "Current",
-        "activePlayers": "active players",
-        "serverOffline": "server offline",
-        "value1Average": "{{value1}} Average",
-        "avgPlayers": "avg players",
-        "value1Peak": "{{value1}} Peak",
-        "peakPlayers": "peak players",
+        "text7Days": "7 дней",
+        "text1Month": "1 месяц",
+        "text1Year": "1 год",
+        "failedToLoadData": "Не удалось загрузить данные",
+        "playerActivity": "Активность игрока",
+        "current": "Текущий",
+        "activePlayers": "активные игроки",
+        "serverOffline": "сервер оффлайн",
+        "value1Average": "{{value1}} Среднее",
+        "avgPlayers": "среднее количество игроков",
+        "value1Peak": "{{value1}} Пик",
+        "peakPlayers": "пиковые игроки",
         "trackTheServerAposSPlayerCountOverThe": "Отслеживайте число игроков на сервере за последние 7 дней и узнайте, когда сообщество наиболее активно.",
-        "averagePlayers": "Average Players",
-        "peakPlayers2": "Peak Players"
+        "averagePlayers": "Среднее количество игроков",
+        "peakPlayers2": "Пиковые игроки"
       }
     },
     "page": {
-      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Anarchy Server",
-      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft anarchy with no queue and a world that has never reset. Join on Java with AnarchyMod or on Bedrock at br.6b6t.org, port 19132.",
+      "text6b6tMinecraftAnarchyServer": "6b6t Minecraft Сервер Анархии",
+      "minecraftAnarchyWithNoQueueAndAWorldThat": "Minecraft анархия без очередей и мир, который никогда не обновляется. Присоединяйтесь к Java с помощью AnarchyMod или к Bedrock по адресу br.6b6t.org, порт 19132.",
       "minecraft": "Minecraft"
     }
   }

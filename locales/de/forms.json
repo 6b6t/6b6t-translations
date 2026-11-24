@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "cmsFormField": {
+      "value1Error": "{{value1}}-Fehler",
+      "chooseAnOption": "Wählen Sie eine Option"
+    },
+    "cmsForm": {
+      "thanksYourAnswersWereSent": "Danke. Ihre Antworten wurden gesendet.",
+      "send": "Schicken"
+    },
+    "slug": {
+      "page": {
+        "value16b6t": "{{value1}} | 6b6t",
+        "thisFormIsTemporarilyUnavailablePleaseTryAgainLater": "Dieses Formular ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später noch einmal."
+      }
+    }
+  }
+}

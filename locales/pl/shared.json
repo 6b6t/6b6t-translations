@@ -1,100 +1,100 @@
 {
   "sections": {
     "root": {
-      "viewport": "viewport",
-      "widthDeviceWidthInitialScale1": "width=device-width, initial-scale=1",
+      "viewport": "rzutnia",
+      "widthDeviceWidthInitialScale1": "szerokość=szerokość-urządzenia, skala-początkowa=1",
       "text6b6t": "6b6t"
     },
     "creator": {
       "creatorActivity": {
-        "connectionsByDomain": "Connections by domain",
-        "connectionsReportingEachAddressPerUtcDayLast60": "Connections reporting each address per UTC day, last 60 days.",
-        "dateUtc": "Date (UTC)",
-        "domain": "Domain",
-        "connections": "Connections",
-        "accounts": "Accounts",
-        "connectionTotalsCouldNotBeLoaded": "Connection totals could not be loaded.",
-        "noConnectionsReportedInTheLast60Days": "No connections reported in the last 60 days.",
-        "linkClicks": "Link clicks",
-        "clicksPerUtcDayLast60DaysAnalyticsOnly": "Clicks per UTC day, last 60 days. Analytics only.",
-        "clicks": "Clicks",
-        "clicksCouldNotBeLoaded": "Clicks could not be loaded.",
-        "noLinkClicksInTheLast60Days": "No link clicks in the last 60 days."
+        "connectionsByDomain": "Połączenia według domeny",
+        "connectionsReportingEachAddressPerUtcDayLast60": "Połączenia raportujące każdy adres w dniu UTC, ostatnie 60 dni.",
+        "dateUtc": "Data (UTC)",
+        "domain": "Domena",
+        "connections": "Znajomości",
+        "accounts": "Konta",
+        "connectionTotalsCouldNotBeLoaded": "Nie udało się wczytać łącznej liczby połączeń.",
+        "noConnectionsReportedInTheLast60Days": "Brak zarejestrowanych połączeń w ciągu ostatnich 60 dni.",
+        "linkClicks": "Kliknięcia linków",
+        "clicksPerUtcDayLast60DaysAnalyticsOnly": "Clicks per UTC day, last 60 days. Tylko analityka.",
+        "clicks": "Kliknięcia",
+        "clicksCouldNotBeLoaded": "Nie udało się wczytać danych o kliknięciach.",
+        "noLinkClicksInTheLast60Days": "Brak kliknięć linków w ciągu ostatnich 60 dni."
       },
       "creatorPayouts": {
-        "beingPrepared": "Being prepared",
+        "beingPrepared": "Będąc przygotowanym",
         "approved": "Zatwierdzone",
         "paid": "Opłacono",
-        "carriedForward": "Carried forward",
-        "payouts": "Payouts",
-        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "Monthly statements by UTC calendar month. Payment is sent manually.",
-        "monthUtc": "Month (UTC)",
+        "carriedForward": "Przeniesione do przodu",
+        "payouts": "Wypłaty",
+        "monthlyStatementsByUtcCalendarMonthPaymentIsSent": "Zestawienia dotyczą miesięcy kalendarzowych w strefie UTC. Płatności są wysyłane ręcznie.",
+        "monthUtc": "Miesiąc (UTC)",
         "status": "Status",
         "amount": "Kwota",
-        "payoutsCouldNotBeLoaded": "Payouts could not be loaded.",
-        "noPayoutStatementsYet": "No payout statements yet."
+        "payoutsCouldNotBeLoaded": "Nie udało się wczytać wypłat.",
+        "noPayoutStatementsYet": "Nie ma jeszcze zestawień wypłat."
       },
       "creatorRules": {
-        "howAttributionWorks": "How attribution works",
-        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "A creator code entered at checkout always wins. Without a code, a purchase counts for you when the buyer&apos;s most recent connection before the purchase, no matter how long ago it was reported one of your domains. Matching domain purchases are credited automatically.",
-        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "Commissions are available for manual monthly payout. Refunds and chargebacks reduce the commission of the sale they belong to, or a later statement if the sale has already been paid.",
-        "purchasesYouMakeYourselfAndGiftsSentToYour": "Purchases you make yourself and gifts sent to your own account do not earn commission.",
-        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "Connections are connections reporting this address. The Minecraft client supplies the address, so it does not prove a visit and can be spoofed.",
-        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "Link clicks are analytics only and never earn commission.",
-        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "Buyer names, account IDs, email addresses and exact purchase times are never shown. Sales are listed by UTC day only."
+        "howAttributionWorks": "Jak działa atrybucja",
+        "aCreatorCodeEnteredAtCheckoutAlwaysWinsWithout": "Kod twórcy wprowadzony przy kasie zawsze wygrywa. Bez kodu zakup liczy się dla Ciebie w momencie ostatniego połączenia kupującego przed zakupem, niezależnie od tego jak dawno temu była zgłoszona jedna z Twoich domen. Zakupy pasujących domen są przyznawane automatycznie.",
+        "commissionsAreAvailableForManualMonthlyPayoutRefundsAnd": "Prowizje są dostępne w przypadku ręcznej miesięcznej wypłaty. Zwroty i obciążenia zwrotne zmniejszają prowizję od sprzedaży, do której należą, lub późniejsze zestawienie, jeżeli sprzedaż została już opłacona.",
+        "purchasesYouMakeYourselfAndGiftsSentToYour": "Zakupy dokonane samodzielnie oraz prezenty przesłane na Twoje konto nie podlegają prowizji.",
+        "connectionsAreConnectionsReportingThisAddressTheMinecraftClient": "Połączenia to połączenia zgłaszające ten adres. Klient Minecraft podaje adres, więc nie jest to dowód wizyty i może zostać sfałszowany.",
+        "linkClicksAreAnalyticsOnlyAndNeverEarnCommission": "Kliknięcia linków służą wyłącznie do celów analitycznych i nigdy nie generują prowizji.",
+        "buyerNamesAccountIdsEmailAddressesAndExactPurchase": "Imiona i nazwiska kupujących, identyfikatory kont, adresy e-mail i dokładne godziny zakupów nigdy nie są wyświetlane. Sales are listed by UTC day only."
       },
       "creatorSalesTable": {
-        "sales": "Sales",
-        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "Attributed purchases by UTC day. Buyer details are never shown.",
-        "dateUtc": "Date (UTC)",
+        "sales": "Obroty",
+        "attributedPurchasesByUtcDayBuyerDetailsAreNever": "Przypisane zakupy według dnia UTC. Dane kupującego nigdy nie są pokazywane.",
+        "dateUtc": "Data (UTC)",
         "rank": "Ranga",
         "source": "Źródło",
-        "gross": "Gross",
-        "refunds": "Refunds",
-        "commission": "Commission",
+        "gross": "Brutto",
+        "refunds": "Zwroty pieniędzy",
+        "commission": "Zamawiać",
         "status": "Status",
-        "salesCouldNotBeLoadedTryAgainLater": "Sales could not be loaded. Try again later.",
-        "noAttributedSalesYet": "No attributed sales yet.",
+        "salesCouldNotBeLoadedTryAgainLater": "Sales could not be loaded. Spróbuj ponownie później.",
+        "noAttributedSalesYet": "Nie ma jeszcze przypisanej sprzedaży.",
         "previous": "Poprzednia",
         "page": "Strona",
         "value1Value2": "{{value1}}{{value2}}",
         "next": "Następna"
       },
       "creatorSummary": {
-        "earnedThisMonth": "Earned this month",
-        "commissionRecordedThisUtcMonth": "Commission recorded this UTC month",
-        "onHold": "On hold",
-        "unpaidCommissionAvailableForManualPayout": "Unpaid commission available for manual payout",
-        "available": "Available",
-        "readyForTheNextStatement": "Ready for the next statement",
-        "carriedForward": "Carried forward",
-        "unpaidBalanceCarriedToTheNextManualPayment": "Unpaid balance carried to the next manual payment",
-        "lifetimePaid": "Lifetime paid",
-        "totalOfPaidStatements": "Total of paid statements",
-        "earningsSummary": "Earnings summary"
+        "earnedThisMonth": "Zdobyte w tym miesiącu",
+        "commissionRecordedThisUtcMonth": "Komisja zarejestrowała ten miesiąc UTC",
+        "onHold": "Wstrzymane",
+        "unpaidCommissionAvailableForManualPayout": "Niewypłacona prowizja jest dostępna do wypłaty ręcznej",
+        "available": "Dostępny",
+        "readyForTheNextStatement": "Gotowe do ujęcia w kolejnym zestawieniu",
+        "carriedForward": "Przeniesione do przodu",
+        "unpaidBalanceCarriedToTheNextManualPayment": "Niespłacone saldo przenoszone na następną płatność ręczną",
+        "lifetimePaid": "Dożywotnio płatne",
+        "totalOfPaidStatements": "Suma opłaconych wyciągów",
+        "earningsSummary": "Podsumowanie zarobków"
       },
       "format": {
         "creatorCode": "Kod twórcy",
-        "domainJoin": "Domain join",
-        "renewal": "Renewal",
-        "assignedByStaff": "Assigned by staff",
-        "onHold": "On hold",
-        "available": "Available",
+        "domainJoin": "Dołącz do domeny",
+        "renewal": "Odnowienie",
+        "assignedByStaff": "Przydzielane przez personel",
+        "onHold": "Wstrzymane",
+        "available": "Dostępny",
         "paid": "Opłacono",
-        "reversed": "Reversed",
-        "draft": "Draft",
+        "reversed": "Wywrócony",
+        "draft": "Projekt",
         "approved": "Zatwierdzone",
-        "carriedForward": "Carried forward",
-        "void": "Void"
+        "carriedForward": "Przeniesione do przodu",
+        "void": "Próżnia"
       },
       "page": {
-        "creatorDashboard": "Creator dashboard",
+        "creatorDashboard": "Panel twórcy",
         "value1": "{{value1}} ·",
-        "amountsAreInEurDatesAndMonthlyStatementsUse": "Amounts are in EUR. Dates and monthly statements use UTC.",
-        "activeDomains": "Active domains:",
-        "creatorInformationCouldNotBeLoaded": "Creator information could not be loaded",
-        "reloadThePageOrTryAgainLater": "Reload the page or try again later.",
-        "thisAccountDoesNotHaveACreatorProfile": "This account does not have a creator profile."
+        "amountsAreInEurDatesAndMonthlyStatementsUse": "Kwoty podano w EUR. Daty i wyciągi miesięczne korzystają z czasu UTC.",
+        "activeDomains": "Aktywne domeny:",
+        "creatorInformationCouldNotBeLoaded": "Nie można wczytać informacji o twórcy",
+        "reloadThePageOrTryAgainLater": "Załaduj ponownie stronę lub spróbuj ponownie później.",
+        "thisAccountDoesNotHaveACreatorProfile": "To konto nie ma profilu twórcy."
       }
     },
     "app": {
@@ -111,23 +111,27 @@
           "signInToAssignYourApexRanks": "Zaloguj się, aby przypisać swoje rangi Apex.",
           "couldNotCompleteTheAssignmentIfItWasReserved": "Nie udało się zakończyć przypisywania. Jeśli miejsce zostało zarezerwowane, spróbuj ponownie z tą samą nazwą użytkownika. Każde miejsce można przypisać tylko raz, każdemu innemu graczowi."
         },
+        "cmsForms": {
+          "ready": "gotowy",
+          "unavailable": "niedostępne"
+        },
         "creatorAdmin": {
-          "theChangeFailed": "The change failed",
-          "invalidEmailAddress": "Invalid email address"
+          "theChangeFailed": "Zmiana nie powiodła się",
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail"
         },
         "editorialContent": {
-          "ready": "ready",
+          "ready": "gotowy",
           "unavailable": "niedostępne"
         },
         "legalPages": {
-          "ready": "ready",
+          "ready": "gotowy",
           "unavailable": "niedostępne"
         },
         "legendUpgrade": {
           "signInAndSelectALinkedProfileOrChoose": "Zaloguj się i wybierz połączony profil lub odbiorcę prezentu, aby zobaczyć środki na ulepszenie.",
-          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "We're automatically syncing your previous Legend payments. Your upgrade will be available once your verified balance is ready.",
-          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "Your payment history is temporarily unavailable. We'll retry automatically.",
-          "legendUpgradeCreditIsNotAvailableYet": "Legend upgrade credit is not available yet.",
+          "weReAutomaticallySyncingYourPreviousLegendPaymentsYour": "Automatycznie synchronizujemy Twoje poprzednie płatności Legend. Twoje uaktualnienie będzie dostępne, gdy Twoje zweryfikowane saldo będzie gotowe.",
+          "yourPaymentHistoryIsTemporarilyUnavailableWeLlRetry": "Twoja historia płatności jest chwilowo niedostępna. Spróbujemy ponownie automatycznie.",
+          "legendUpgradeCreditIsNotAvailableYet": "Kredyt na ulepszenie legendy nie jest jeszcze dostępny.",
           "couldNotCompleteYourLegendUltraClaimRefreshYour": "Nie udało się odebrać Legend Ultra. Odśwież saldo i spróbuj ponownie. Jeśli problem nie ustąpi, skontaktuj się z pomocą."
         },
         "motd": {
@@ -149,11 +153,11 @@
           "unknownError": "Nieznany błąd"
         },
         "siteSearch": {
-          "ready": "ready",
+          "ready": "gotowy",
           "unavailable": "niedostępne"
         },
         "websiteContent": {
-          "ready": "ready",
+          "ready": "gotowy",
           "unavailable": "niedostępne"
         }
       },
@@ -180,28 +184,32 @@
           "serverIsValue1RecordedValue2HoursOfUptime": "Serwer jest {{value1}}. Zapisano {{value2}} godzin działania."
         },
         "antispam": {
-          "antispamMessagesValue1": "antispam_messages:{{value1}}"
+          "antispamMessagesValue1": "wiadomości_antyspamowe:{{value1}}"
+        },
+        "cmsForms": {
+          "invalid": "nieprawidłowe",
+          "sent": "wysłano"
         },
         "cms": {
-          "theCmsValue1RequestFailed": "The CMS {{value1}} request failed",
-          "theCmsReturnedAnInvalidValue1Response": "The CMS returned an invalid {{value1}} response",
-          "theCmsServiceBindingIsMissing": "The CMS service binding is missing"
+          "theCmsValue1RequestFailed": "Żądanie CMS {{value1}} nie powiodło się",
+          "theCmsReturnedAnInvalidValue1Response": "System CMS zwrócił nieprawidłową odpowiedź {{value1}}",
+          "theCmsServiceBindingIsMissing": "Brak powiązania usługi CMS"
         },
         "editorialContent": {
-          "aReviewImageHasNoUrl": "A review image has no URL",
-          "publishedWebsiteMediaIsIncomplete": "Published website media is incomplete"
+          "aReviewImageHasNoUrl": "Obraz recenzyjny nie zawiera URL",
+          "publishedWebsiteMediaIsIncomplete": "Opublikowane multimedia na stronie internetowej są niekompletne"
         },
         "legendTheme": {
           "noThemeFound": "Nie znaleziono motywu"
         },
         "mcpData": {
-          "methodNotAllowed": "Method not allowed",
+          "methodNotAllowed": "Metoda niedozwolona",
           "notFound": "Nie znaleziono",
-          "invalidInput": "Invalid input",
-          "statisticsTemporarilyUnavailable": "Statistics temporarily unavailable"
+          "invalidInput": "Nieprawidłowe dane wejściowe",
+          "statisticsTemporarilyUnavailable": "Statystyki chwilowo niedostępne"
         },
         "newsletterSignup": {
-          "invalidEmailAddress": "Invalid email address",
+          "invalidEmailAddress": "Nieprawidłowy adres e-mail",
           "pendingConfirmation": "pending_confirmation"
         },
         "playerHistory": {
@@ -281,62 +289,62 @@
           }
         },
         "reviewRecoveryTicket": {
-          "recoveryReviewFailed": "Recovery review failed",
-          "ticketNotFound": "Ticket not found",
-          "ticketHasAlreadyBeenReviewed": "Ticket has already been reviewed.",
-          "ticketChangedWhileBeingReviewed": "Ticket changed while being reviewed",
-          "ticketHasAlreadyBeenReviewedAndHasNoPending": "Ticket has already been reviewed and has no pending notification to retry.",
-          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Game-server email availability check is unavailable. Ticket was not approved.",
-          "targetEmailIsAlreadyLinkedToAnotherAccount": "Target email is already linked to another account.",
-          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Game-server recovery snapshot is unavailable. Ticket was not approved.",
-          "theAccountIdentityChangedTicketWasNotApproved": "The account identity changed. Ticket was not approved.",
-          "theAccountEmailChangedAfterApprovalANewRecovery": "The account email changed after approval. A new recovery review is required.",
-          "ownerNotificationGracePeriodIsStillActiveWaitFor": "Owner notification grace period is still active. Wait for it to elapse or use the super-admin grace-period override first.",
-          "noAccountOwnerNotificationChallengeExistsForThisVerified": "No account-owner notification challenge exists for this verified email account. Use Notify account owner to start the waiting period on this ticket. Ticket was not approved.",
-          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Could not consume the account-owner notification pass. Ticket was not approved.",
-          "gameServerEmailUpdateFailedTicketWasNotApproved": "Game-server email update failed. Ticket was not approved.",
-          "accountChangesMayHaveCompletedButTheTicketCould": "Account changes may have completed, but the ticket could not be finalized. Contact an operator before retrying.",
+          "recoveryReviewFailed": "Przegląd odzyskiwania nie powiódł się",
+          "ticketNotFound": "Nie znaleziono biletu",
+          "ticketHasAlreadyBeenReviewed": "Bilet został już sprawdzony.",
+          "ticketChangedWhileBeingReviewed": "Bilet został zmieniony w trakcie sprawdzania",
+          "ticketHasAlreadyBeenReviewedAndHasNoPending": "Bilet został już sprawdzony i nie ma oczekującego powiadomienia o konieczności ponownej próby.",
+          "gameServerEmailAvailabilityCheckIsUnavailableTicketWas": "Sprawdzanie dostępności poczty e-mail serwera gry jest niedostępne. Bilet nie został zatwierdzony.",
+          "targetEmailIsAlreadyLinkedToAnotherAccount": "Docelowy adres e-mail jest już połączony z innym kontem.",
+          "gameServerRecoverySnapshotIsUnavailableTicketWasNot": "Migawka odzyskiwania serwera gry jest niedostępna. Bilet nie został zatwierdzony.",
+          "theAccountIdentityChangedTicketWasNotApproved": "Zmieniła się tożsamość konta. Bilet nie został zatwierdzony.",
+          "theAccountEmailChangedAfterApprovalANewRecovery": "Adres e-mail konta został zmieniony po zatwierdzeniu. Wymagana jest nowa ocena odzyskiwania.",
+          "ownerNotificationGracePeriodIsStillActiveWaitFor": "Okres karencji na powiadomienie właściciela jest nadal aktywny. Poczekaj, aż upłynie ten czas, lub najpierw skorzystaj z zastąpienia okresu karencji superadministratora.",
+          "noAccountOwnerNotificationChallengeExistsForThisVerified": "Dla tego zweryfikowanego konta e-mail nie istnieje żadne wezwanie do powiadomienia właściciela konta. Użyj opcji Powiadom właściciela konta, aby rozpocząć okres oczekiwania na ten bilet. Bilet nie został zatwierdzony.",
+          "couldNotConsumeTheAccountOwnerNotificationPassTicket": "Nie można wykorzystać przepustki powiadomień właściciela konta. Bilet nie został zatwierdzony.",
+          "gameServerEmailUpdateFailedTicketWasNotApproved": "Aktualizacja poczty e-mail serwera gry nie powiodła się. Bilet nie został zatwierdzony.",
+          "accountChangesMayHaveCompletedButTheTicketCould": "Zmiany konta mogły zostać zakończone, ale nie udało się sfinalizować zgłoszenia. Przed ponowną próbą skontaktuj się z operatorem.",
           "emailSendFailed": "email_send_failed",
-          "ticketDecisionWasSavedButTheResultEmailCould": "Ticket decision was saved, but the result email could not be delivered. Retry the same decision to resend it.",
-          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "Recovery may already be approved, but the override audit could not be finalized. Refresh the ticket before taking another action.",
-          "theOverrideAuditRecordIsMissingRefreshTheTicket": "The override audit record is missing. Refresh the ticket and contact an operator before taking another action.",
-          "thisTicketIsAlreadyBeingReviewed": "This ticket is already being reviewed",
-          "onlyPendingTicketsCanBeApprovedWithAnOverride": "Only pending tickets can be approved with an override.",
-          "couldNotSaveTheOverrideAuditTicketWasNot": "Could not save the override audit. Ticket was not approved.",
-          "onlySuperAdminsCanOverrideRecoverySafeguards": "Only super admins can override recovery safeguards.",
+          "ticketDecisionWasSavedButTheResultEmailCould": "Decyzja dotycząca biletu została zapisana, ale e-mail z wynikami nie mógł zostać dostarczony. Spróbuj ponownie podjąć tę samą decyzję, aby wysłać wiadomość ponownie.",
+          "recoveryMayAlreadyBeApprovedButTheOverrideAudit": "Odzyskiwanie mogło zostać już zatwierdzone, ale nie można było sfinalizować audytu obejścia. Odśwież zgłoszenie przed podjęciem kolejnej akcji.",
+          "theOverrideAuditRecordIsMissingRefreshTheTicket": "Brak rekordu kontroli zastąpienia. Odśwież zgłoszenie i skontaktuj się z operatorem przed podjęciem kolejnych działań.",
+          "thisTicketIsAlreadyBeingReviewed": "Ten bilet jest już sprawdzany",
+          "onlyPendingTicketsCanBeApprovedWithAnOverride": "Za pomocą zastąpienia można zatwierdzić wyłącznie bilety oczekujące.",
+          "couldNotSaveTheOverrideAuditTicketWasNot": "Nie można zapisać audytu zastąpienia. Bilet nie został zatwierdzony.",
+          "onlySuperAdminsCanOverrideRecoverySafeguards": "Tylko superadministratorzy mogą pominąć zabezpieczenia odzyskiwania.",
           "approved": "Zatwierdzone"
         },
         "scheduledRetention": {
-          "hytaleRequestCleanupUnavailable": "Hytale request cleanup unavailable",
-          "retentionFailed": "Retention failed"
+          "hytaleRequestCleanupUnavailable": "Hytale żądanie czyszczenia jest niedostępne",
+          "retentionFailed": "Przechowywanie nie powiodło się"
         },
         "serverStatus": {
           "unknown": "Nieznane"
         },
         "shopCheckout": {
-          "signInToUseTheShop": "Sign in to use the shop",
-          "invalidRecipient": "Invalid recipient",
-          "theSelectedGameProfileHasAnInvalidAccountId": "The selected game profile has an invalid account ID. Link it again in your account settings, then try again.",
-          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "This player has never joined 6b6t. Gifts can only go to players who have joined the server.",
-          "weCouldNotFindThisGameAccountOn6b6t": "We could not find this game account on 6b6t. Join the server once with it, then try again.",
-          "unsupportedCheckoutLanguage": "Unsupported checkout language",
-          "paypalCheckoutIsTemporarilyUnavailable": "PayPal checkout is temporarily unavailable",
-          "unableToDetermineTheWebsiteUrl": "Unable to determine the website URL",
-          "bundleNotFound": "Bundle not found",
-          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal is only available for permanent ranks. Please choose card checkout for subscriptions.",
-          "thisBundleCannotBeGifted": "This bundle cannot be gifted",
-          "targetPlayerIsNotEligibleForThisBundle": "Target player is not eligible for this bundle",
-          "tebexPackageConfigurationUnavailable": "Tebex package configuration unavailable",
-          "tebexPackageMappingIsMissingForValue1": "Tebex package mapping is missing for {{value1}}",
-          "tebexConfigurationUnavailable": "Tebex configuration unavailable",
-          "checkoutProductConfigurationMismatch": "Checkout product configuration mismatch",
-          "checkoutSigningConfigurationUnavailable": "Checkout signing configuration unavailable",
-          "invalidCheckoutIntent": "Invalid checkout intent",
-          "tebexDidNotReturnACheckoutUrl": "Tebex did not return a checkout URL",
-          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex basket total does not match the shop catalog"
+          "signInToUseTheShop": "Zaloguj się, aby korzystać ze sklepu",
+          "invalidRecipient": "Nieprawidłowy odbiorca",
+          "theSelectedGameProfileHasAnInvalidAccountId": "Wybrany profil gry ma nieprawidłowe konto ID. Połącz je ponownie w ustawieniach konta, a następnie spróbuj ponownie.",
+          "thisPlayerHasNeverJoined6b6tGiftsCanOnly": "Ten gracz nigdy nie dołączył do 6b6t. Prezenty mogą trafiać tylko do graczy, którzy dołączyli do serwera.",
+          "weCouldNotFindThisGameAccountOn6b6t": "Nie mogliśmy znaleźć tego konta gry na 6b6t. Dołącz raz do serwera i spróbuj ponownie.",
+          "unsupportedCheckoutLanguage": "Nieobsługiwany język realizacji transakcji",
+          "paypalCheckoutIsTemporarilyUnavailable": "Kasa PayPal jest chwilowo niedostępna",
+          "unableToDetermineTheWebsiteUrl": "Nie można określić witryny internetowej URL",
+          "bundleNotFound": "Nie znaleziono pakietu",
+          "paypalIsOnlyAvailableForPermanentRanksPleaseChoose": "PayPal jest dostępny tylko dla rang stałych. Wybierz opcję płatności kartą w przypadku subskrypcji.",
+          "thisBundleCannotBeGifted": "Tego pakietu nie można podarować",
+          "targetPlayerIsNotEligibleForThisBundle": "Gracz docelowy nie kwalifikuje się do tego pakietu",
+          "tebexPackageConfigurationUnavailable": "Konfiguracja pakietu Tebex niedostępna",
+          "tebexPackageMappingIsMissingForValue1": "Brak mapowania pakietu Tebex dla {{value1}}",
+          "tebexConfigurationUnavailable": "Konfiguracja Tebex jest niedostępna",
+          "checkoutProductConfigurationMismatch": "Niezgodność konfiguracji produktu w kasie",
+          "checkoutSigningConfigurationUnavailable": "Konfiguracja podpisywania płatności jest niedostępna",
+          "invalidCheckoutIntent": "Nieprawidłowy zamiar realizacji transakcji",
+          "tebexDidNotReturnACheckoutUrl": "Tebex nie zwrócił adresu URL płatności",
+          "tebexBasketTotalDoesNotMatchTheShopCatalog": "Tebex suma koszyka nie zgadza się z katalogiem sklepu"
         },
         "websiteContent": {
-          "aPublishedGalleryEntryHasNoImage": "A published gallery entry has no image",
+          "aPublishedGalleryEntryHasNoImage": "Opublikowany wpis w galerii nie ma obrazu",
           "value1Value2": "{{value1}}{{value2}}"
         }
       }
@@ -367,7 +375,7 @@
           "value": "Wartość",
           "signedInWith": "Zalogowano przez",
           "websiteAccount": "Konto na stronie",
-          "backfill": "backfill",
+          "backfill": "zasypka",
           "by": "przez",
           "ip": "ip"
         }
@@ -391,26 +399,26 @@
         }
       },
       "hytaleLinkedPlayers": {
-        "linkedHytalePlayers": "Linked Hytale players",
-        "yourHytaleConnections": "Your Hytale connections",
-        "noHytaleAccountIsLinkedToYourConnectedDiscord": "No Hytale account is linked to your connected Discord accounts.",
-        "linkedTo": "linked to",
-        "disconnect": "Disconnect",
-        "theLinkedRoleRemainsIfYouAlsoHaveA": "? The Linked role remains if you also have a Minecraft link.",
-        "disconnecting": "Disconnecting…",
-        "confirmDisconnect": "Confirm disconnect",
+        "linkedHytalePlayers": "Połączeni gracze Hytale",
+        "yourHytaleConnections": "Twoje połączenia w Hytale",
+        "noHytaleAccountIsLinkedToYourConnectedDiscord": "Żadne konto Hytale nie jest powiązane z Twoimi połączonymi kontami Discord.",
+        "linkedTo": "powiązane z",
+        "disconnect": "Odłączyć",
+        "theLinkedRoleRemainsIfYouAlsoHaveA": "? Rola Połączony pozostaje, jeśli masz także łącze Minecraft.",
+        "disconnecting": "Rozłączam…",
+        "confirmDisconnect": "Potwierdź rozłączenie",
         "cancel": "Anuluj",
-        "disconnectHytale": "Disconnect Hytale"
+        "disconnectHytale": "Odłącz Hytale"
       },
       "hytaleRoleStatus": {
-        "discordConfirmsThatYouHaveTheLinkedRole": "Discord confirms that you have the Linked role.",
-        "thisDiscordAccountIsNotInTheServerUse": "This Discord account is not in the server. Use Join Discord again below; your Hytale connection is preserved.",
-        "yourAccountIsLinkedButWeCouldNotCheck": "Your account is linked, but we could not check Discord access. Try again shortly.",
-        "yourAccountIsLinkedButDiscordAccessIsTaking": "Your account is linked, but Discord access is taking longer than expected. Check again shortly or contact support. You do not need to relink.",
-        "yourAccountIsLinkedWaitingForTheBotTo": "Your account is linked. Waiting for the bot to update Discord access.",
+        "discordConfirmsThatYouHaveTheLinkedRole": "Discord potwierdza, że ​​masz rolę Połączony.",
+        "thisDiscordAccountIsNotInTheServerUse": "To konto Discord nie należy do serwera. Użyj ponownie przycisku „Dołącz do Discorda” poniżej. Powiązanie z Hytale zostanie zachowane.",
+        "yourAccountIsLinkedButWeCouldNotCheck": "Twoje konto jest połączone, ale nie mogliśmy sprawdzić dostępu Discord. Spróbuj ponownie wkrótce.",
+        "yourAccountIsLinkedButDiscordAccessIsTaking": "Twoje konto jest połączone, ale dostęp do konta Discord trwa dłużej niż oczekiwano. Check again shortly or contact support. You do not need to relink.",
+        "yourAccountIsLinkedWaitingForTheBotTo": "Twoje konto jest połączone. Waiting for the bot to update Discord access.",
         "joining": "Joining...",
-        "joinDiscordAgain": "Join Discord again",
-        "checkDiscordAccess": "Check Discord access"
+        "joinDiscordAgain": "Dołącz ponownie do Discord",
+        "checkDiscordAccess": "Sprawdź dostęp Discord"
       },
       "minecraftAccounts": {
         "gameProfile": "Profil gry",
@@ -434,16 +442,16 @@
           "value1Value2": "{{value1}} {{value2}}"
         },
         "oauthClients": {
-          "web": "web",
+          "web": "sieć",
           "native": "natywna",
-          "openidProfileEmail": "openid profile email"
+          "openidProfileEmail": "Adres e-mail profilu openid"
         },
         "oauthSelectAccount": {
           "value1Value2Value3": "{{value1}}: {{value2}} ({{value3}})"
         }
       },
       "requiredEmailForm": {
-        "invalidEmailAddress": "Invalid email address",
+        "invalidEmailAddress": "Nieprawidłowy adres e-mail",
         "yourEmailIsNotVerifiedYetOpenTheLink": "Twój adres e-mail nie jest jeszcze zweryfikowany. Otwórz link w skrzynce pocztowej i spróbuj ponownie.",
         "enterAValidEmailAddressYouCanAccess": "Wpisz prawidłowy adres e-mail, do którego masz dostęp.",
         "couldNotCompleteTheRequestPleaseTryAgain": "Nie udało się wykonać żądania. Spróbuj ponownie.",
@@ -534,16 +542,25 @@
       "viewRanks": "Zobacz rangi"
     },
     "content": {
+      "cmsAdminBar": {
+        "text6b6tCms": "6b6t CMS"
+      },
       "cmsPreviewBanner": {
-        "cmsPreview": "CMS preview",
-        "draftPreview": "Draft preview",
-        "saveInTheCmsToRefreshThisLinkExpires": "Save in the CMS to refresh. This link expires after 15 minutes.",
-        "exitPreview": "Exit preview"
+        "cmsPreview": "Podgląd CMS-a",
+        "draftPreview": "Podgląd wersji roboczej",
+        "saveInTheCmsToRefreshThisLinkExpires": "Zapisz zmiany w CMS, aby odświeżyć podgląd. Ten link wygaśnie po 15 minutach.",
+        "exitPreview": "Wyjdź z podglądu"
+      },
+      "cmsRichTextBlocks": {
+        "copyValue1": "Kopiuj {{value1}}",
+        "copied": "Skopiowano",
+        "copy": "Kopiuj",
+        "copied2": "Skopiowano."
       },
       "legalPage": {
-        "thisPageIsTemporarilyUnavailableContact": "This page is temporarily unavailable. Contact",
+        "thisPageIsTemporarilyUnavailableContact": "Ta strona jest chwilowo niedostępna. Kontakt",
         "contact6b6tOrg": "contact@6b6t.org",
-        "forACopy": "for a copy.",
+        "forACopy": "za kopię.",
         "loading": "Wczytywanie…",
         "onThisPage": "Na tej stronie",
         "policySections": "Sekcje regulaminu",
@@ -551,22 +568,22 @@
         "lastUpdated": "Ostatnia aktualizacja:"
       },
       "websiteAnnouncements": {
-        "serverAnnouncements": "Server announcements"
+        "serverAnnouncements": "Ogłoszenia serwera"
       },
       "websiteFaqs": {
-        "questionsAreTemporarilyUnavailable": "Questions are temporarily unavailable.",
-        "loadingQuestions": "Loading questions…",
-        "noQuestionsToShow": "No questions to show.",
+        "questionsAreTemporarilyUnavailable": "Pytania są chwilowo niedostępne.",
+        "loadingQuestions": "Ładowanie pytań…",
+        "noQuestionsToShow": "Brak pytań do pokazania.",
         "frequentlyAskedQuestions": "Najczęściej zadawane pytania"
       },
       "websiteGuide": {
-        "thisGuideIsTemporarilyUnavailable": "This guide is temporarily unavailable.",
-        "loadingGuide": "Loading guide…",
-        "thisGuideIsNotPublished": "This guide is not published."
+        "thisGuideIsTemporarilyUnavailable": "Ten poradnik jest tymczasowo niedostępny.",
+        "loadingGuide": "Wczytywanie poradnika…",
+        "thisGuideIsNotPublished": "Ten przewodnik nie jest publikowany."
       },
       "websiteMediaImage": {
-        "imageIsTemporarilyUnavailable": "Image is temporarily unavailable.",
-        "loadingImage": "Loading image…"
+        "imageIsTemporarilyUnavailable": "Obraz jest chwilowo niedostępny.",
+        "loadingImage": "Ładowanie obrazu…"
       }
     },
     "errorPage": {
@@ -590,10 +607,10 @@
         "socials": "Social media",
         "discord": "Discord",
         "youtube": "YouTube",
-        "twitter": "Twitter",
+        "twitter": "Świergot",
         "reddit": "Reddit",
         "tiktok": "TikTok",
-        "instagram": "Instagram",
+        "instagram": "Instagrama",
         "telegram": "Telegram",
         "about": "O nas",
         "about6b6t": "O 6b6t",
@@ -606,9 +623,9 @@
         "hytale": "Hytale",
         "legendRank": "Ranga Legend",
         "antiSpamLogs": "Dziennik systemu antyspamowego",
-        "newsletter": "Newsletter",
+        "newsletter": "Biuletyn",
         "accountRecovery": "Odzyskiwanie konta",
-        "blog": "Blog",
+        "blog": "Bloga",
         "anarchyServerGuide": "Poradnik serwera anarchii",
         "contact": "Kontakt",
         "termsOfService": "Regulamin",
@@ -666,7 +683,7 @@
         "hytale": "Hytale",
         "updates": "Aktualizacje",
         "history": "Historia",
-        "blog": "Blog",
+        "blog": "Bloga",
         "antispam": "Antyspam",
         "vote": "Głosuj",
         "accountRecovery": "Odzyskiwanie konta",
@@ -688,15 +705,15 @@
       "paymentMethodsShowcase": {
         "acceptedPaymentMethods": "Akceptowane metody płatności",
         "cardsAndWallets": "Karty i portfele",
-        "visa": "Visa",
-        "mastercard": "Mastercard",
+        "visa": "Wiza",
+        "mastercard": "Karta MasterCard",
         "paypal": "PayPal",
         "crypto": "Krypto",
         "applePay": "Apple Pay",
         "googlePay": "Google Pay",
         "alipay": "Alipay",
         "ideal": "iDEAL",
-        "bancontact": "Bancontact",
+        "bancontact": "Bankontakt",
         "eps": "EPS"
       },
       "websiteLayout": {
@@ -725,7 +742,7 @@
         "change": "Zmień",
         "setYourMinecraftUsername": "Ustaw swój nick Minecraft",
         "enterMinecraftUsername": "Wpisz nick Minecraft",
-        "dinnerbone": "Dinnerbone",
+        "dinnerbone": "Kość obiadowa",
         "thisWillBeUsedToLinkYourPurchasesTo": "Będzie używany do powiązania zakupów z Twoim kontem Minecraft.",
         "loading": "Ładowanie..."
       }
@@ -771,13 +788,13 @@
     },
     "paymentIcons": {
       "paypal": "PayPal",
-      "visa": "Visa",
-      "mastercard": "Mastercard",
+      "visa": "Wiza",
+      "mastercard": "Karta MasterCard",
       "applePay": "Apple Pay",
       "googlePay": "Google Pay",
       "alipay": "Alipay",
       "ideal": "iDEAL",
-      "bancontact": "Bancontact",
+      "bancontact": "Bankontakt",
       "eps": "EPS",
       "eps2": "eps"
     },
@@ -841,9 +858,9 @@
       "prime": "Prime",
       "elite": "Elite",
       "apex": "Apex",
-      "reviewsAreTemporarilyUnavailable": "Reviews are temporarily unavailable.",
-      "loadingReviews": "Loading reviews…",
-      "noReviewsToShow": "No reviews to show.",
+      "reviewsAreTemporarilyUnavailable": "Recenzje są chwilowo niedostępne.",
+      "loadingReviews": "Ładowanie recenzji…",
+      "noReviewsToShow": "Brak opinii do wyświetlenia.",
       "reviews": "Recenzje",
       "whatOurCommunitySaysAboutTheirExperience": "Co społeczność mówi o swoich doświadczeniach",
       "averageRating": "Średnia ocena",
@@ -909,7 +926,7 @@
       },
       "featureDefinitions": {
         "prefix": "prefiks",
-        "gifts": "gifts",
+        "gifts": "prezenty",
         "homes": "domy",
         "chatcolors": "kolory czatu",
         "hat": "kapelusz",
@@ -922,10 +939,10 @@
         "glow": "świecenie",
         "cigar": "cygaro",
         "vpn": "vpn",
-        "builder": "builder",
+        "builder": "budowniczy",
         "hotspot": "hotspot",
-        "rename": "rename",
-        "seal": "seal",
+        "rename": "przemianować",
+        "seal": "foka",
         "ignore": "ignorowanie",
         "discord": "discord",
         "support": "wsparcie",
@@ -946,7 +963,7 @@
         "chat": "Czat",
         "chat2": "Czat",
         "groupChat": "group_chat",
-        "groupChat2": "Group Chat",
+        "groupChat2": "Czat grupowy",
         "website": "Strona",
         "website2": "Strona",
         "discord2": "Discord",
@@ -958,7 +975,7 @@
         "apex": "[APEX]",
         "primeUltraPrefix": "Prefix Prime Ultra",
         "eliteUltraPrefix": "Prefix Elite Ultra",
-        "legend": "[LEGEND]",
+        "legend": "[LEGENDA]",
         "legendUltra": "[LEGEND ULTRA]",
         "customPrefix": "Własny prefiks",
         "customPrefixEditorWithAGoldStarPreview": "Edytor własnego prefiksu z podglądem złotej gwiazdy",
@@ -985,17 +1002,17 @@
         "homeCooldown": "Cooldown /home",
         "homeCooldownInterface": "Interfejs cooldownu /home",
         "text300s": "300s",
-        "text90s": "90s",
-        "text15s": "15s",
+        "text90s": "Lata 90-te",
+        "text15s": "15 s",
         "text180s": "180s",
-        "text40s": "40s",
-        "text10s": "10s",
+        "text40s": "lata 40",
+        "text10s": "10 s",
         "tpaCooldown": "Cooldown /tpa",
         "tpaCooldownInterface": "Interfejs cooldownu /tpa",
         "text420s": "420s",
-        "text120s": "120s",
-        "text30s": "30s",
-        "text70s": "70s",
+        "text120s": "120 s",
+        "text30s": "lata 30",
+        "text70s": "lata 70",
         "homeExecutionTime": "Czas wykonania /home",
         "homeExecutionTimeDiagram": "Schemat czasu wykonania /home",
         "text3s": "3s",
@@ -1079,35 +1096,35 @@
         "sealCatalogueWithAvailableSymbols": "Katalog pieczęci z dostępnymi symbolami",
         "itemCooldown": "Czas odnowienia /item",
         "aDiamondSwordShownInPublicChatWithItem": "Diamentowy miecz pokazany na czacie publicznym za pomocą /item",
-        "text2Min": "2 min",
-        "text1Min": "1 min",
+        "text2Min": "2 minuty",
+        "text1Min": "1 minuta",
         "itemPerDay": "/item dziennie",
         "text12PerDay": "12 dziennie",
         "text24PerDay": "24 dziennie",
         "chatCooldown": "Cooldown czatu",
         "text5s25s": "5s / 2,5s",
-        "text2s1s": "2s / 1s",
+        "text2s1s": "2 s / 1 s",
         "ignoreLimit": "Limit ignorowania",
         "text2000Players": "2000 graczy",
         "text5000Players": "5000 graczy",
         "text5000Players2": "5 000 graczy",
         "chatWithoutItem": "Czat bez przedmiotu",
         "groupChatSize": "Wielkość grupy",
-        "text7Players": "7 Players",
-        "text10Players": "10 Players",
+        "text7Players": "7 graczy",
+        "text10Players": "10 graczy",
         "text15Players": "15 graczy",
         "text35Players": "35 graczy",
         "groupChats": "Grupy",
-        "text1Group": "1 Group",
-        "text2Groups": "2 Groups",
+        "text1Group": "1 grupa",
+        "text2Groups": "2 grupy",
         "text3Groups": "3 grupy",
         "text4Groups": "4 grupy",
         "missedGroupMessages": "Pominięte wiadomości grupowe",
-        "text25From24Hours": "25 from 24 hours",
+        "text25From24Hours": "25 z 24 godzin",
         "text100From3Days": "100 z 3 dni",
         "text200From7Days": "200 z 7 dni",
         "groupChatSounds": "Dźwięki czatu grupowego",
-        "text4MoreSounds": "4 More Sounds",
+        "text4MoreSounds": "4 więcej dźwięków",
         "text12Sounds": "12 dźwięków",
         "text28Sounds": "28 dźwięków",
         "groupOfficers": "Oficerowie grupy",
@@ -1117,7 +1134,7 @@
         "groupDescriptionPin": "Opis i przypięta wiadomość grupy",
         "renameYourGroup": "Zmień nazwę grupy",
         "groupNameLength": "Długość nazwy grupy",
-        "text16Characters": "16 Characters",
+        "text16Characters": "16 znaków",
         "text24Characters": "24 znaki",
         "text32Characters": "32 znaki",
         "hostedByALegend": "Prowadzona przez Legend",
@@ -1189,7 +1206,7 @@
         "prime": "Prime",
         "elite": "Elite",
         "apex2": "Apex",
-        "legend2": "Legend",
+        "legend2": "Legenda",
         "value1Value2": "{{value1}}{{value2}}",
         "primeUltra": "Prime Ultra",
         "eliteUltra": "Elite Ultra",
@@ -1237,7 +1254,7 @@
         "howLongYouWaitBetweenChatMessagesPrivateMessages": "Ile czasu musisz odczekać między wiadomościami na czacie / prywatnymi wiadomościami (/msg).",
         "theMaximumAmountOfPlayersThatYouCanIgnore": "Maksymalna liczba graczy, których możesz zignorować za pomocą /ignore",
         "talkInChatWithoutNeedingToHaveAnItem": "Pisz na czacie bez konieczności posiadania przedmiotu w ekwipunku",
-        "howManyPlayersCanBeInAGroupYou": "How many players can be in a group you lead. Without a rank: 5.",
+        "howManyPlayersCanBeInAGroupYou": "Ilu graczy może znajdować się w grupie, którą prowadzisz. Bez rangi: 5.",
         "howManyGroupsYouCanBeInAtThe": "Do ilu grup możesz należeć jednocześnie. Bez rangi: 1.",
         "whenYouLogInYouSeeTheGroupMessages": "Po zalogowaniu zobaczysz pominięte wiadomości grupowe.",
         "pickYourOwnSoundsForInvitesYourNameMessages": "Wybierz dźwięki zaproszeń, swojej nazwy, wiadomości i wejścia członków. Słyszysz je tylko Ty. Inni słyszą standardowe dźwięki.",
@@ -1395,49 +1412,72 @@
         "snowy": "Śnieżny"
       },
       "likelyBotMarker": {
-        "likelyABot": "Likely a bot",
-        "markedAsAPlayerMadeBotBy6b6t": "Marked as a player-made bot by 6b6t"
+        "likelyABot": "Prawdopodobnie bot",
+        "markedAsAPlayerMadeBotBy6b6t": "Oznaczone jako bot stworzony przez gracza przez 6b6t"
       },
       "playerProfileContent": {
         "designPreviewSamplePlayerStatistics": "Podgląd projektu: przykładowe statystyki gracza.",
         "loadingPlayerTheme": "Wczytywanie motywu gracza…",
-        "backToLeaderboards": "Wróć do rankingów",
-        "memberSince": "Członek od",
+        "text7Days": "7 dni",
+        "text30Days": "30 dni",
+        "allTime": "cały okres",
+        "theLast7Days": "ostatnich 7 dni",
+        "theLast30Days": "ostatnich 30 dni",
+        "profileBreadcrumb": "Nawigacja profilu",
+        "playerStatistics": "Statystyki graczy",
+        "memberSinceValue1": "Gracz od {{value1}}",
+        "copyLink": "Kopiuj link",
+        "linkCopied": "Link skopiowany",
+        "couldNotCopyLink": "Nie udało się skopiować linku",
         "fromBeforeThe22May2026Reset": "Sprzed resetu z 22 maja 2026 roku",
+        "last7Days": "Ostatnie 7 dni",
+        "last30Days": "Ostatnie 30 dni",
+        "profileStatisticPeriod": "Okres statystyk profilu",
         "playTime": "play_time",
         "kills": "zabójstwa",
         "deaths": "zgony",
-        "allTime": "cały okres",
-        "recordedStatistics": "Zapisane statystyki",
+        "kd": "kd",
+        "walkedDistance": "walked_distance",
+        "allStats": "Wszystkie statystyki",
         "compareRecentActivityWithAllTimeTotals": "Porównaj ostatnią aktywność z wynikami z całego okresu.",
-        "aposSStatisticsForTheLast7Days30": " — statystyki z ostatnich 7 dni, 30 dni i całego okresu.",
+        "positionsFollowTheSwitchAbove": "Pozycje odpowiadają okresowi wybranemu powyżej.",
+        "statisticsForValue17Days30DaysAllTime": "Statystyki {{value1}}: 7 dni, 30 dni i cały okres.",
         "statistic": "Statystyka",
-        "text7Days": "7 dni",
-        "text30Days": "30 dni",
-        "allTime2": "Cały okres",
+        "positionValue1": "Pozycja, {{value1}}",
+        "combat": "Walka",
+        "travel": "Podróże",
+        "world": "Świat",
+        "position": "Pozycja",
+        "jumpToMe": "Przejdź do mojej pozycji",
+        "text1StatWithNothingYetInValue1Show": "1 statystyka bez aktywności w okresie {{value1}}. Pokaż",
+        "value1StatsWithNothingYetInValue2Show": "Statystyki bez aktywności ({{value2}}): {{value1}}. Pokaż",
+        "biggerThanAllTimeBecauseWeChangedHowThis": "† Wynik jest wyższy od sumy, ponieważ 14 lis 2026 zmieniliśmy sposób liczenia tej statystyki. Ta informacja zniknie 14 gru 2026.",
         "noRecordedStatistics": "Brak zapisanych statystyk",
         "thisPlayerDoesNotHaveAnyStatisticsAvailableYet": "Ten gracz nie ma jeszcze dostępnych statystyk.",
         "aboutRecordedTotals": "Informacje o zapisanych sumach",
         "theStatsResetOnMay222026WasDeliberate": "Reset statystyk z 22 maja 2026 roku był celowy. Rankingi wszech czasów pokazują graczy aktywnych od tego dnia.",
-        "playerSkin": "Player skin"
+        "playerSkin": "Wygląd gracza",
+        "needsValue1KillsInValue2": "{{value2}}: wymagane {{value1}} zabójstw",
+        "nothingInValue1": "Brak aktywności: {{value1}}",
+        "notRankedInValue1": "Brak pozycji w {{value1}}"
       },
       "playerProfile": {
-        "playerStatisticsAreTemporarilyUnavailable": "Player statistics are temporarily unavailable",
-        "pleaseTryAgainInAMinute": "Please try again in a minute.",
-        "checkingStatisticsAgain": "Checking statistics again.",
-        "statisticsAreStillUnavailable": "Statistics are still unavailable.",
-        "trying": "Trying…",
+        "playerStatisticsAreTemporarilyUnavailable": "Statystyki graczy są chwilowo niedostępne",
+        "pleaseTryAgainInAMinute": "Spróbuj ponownie za minutę.",
+        "checkingStatisticsAgain": "Ponownie sprawdzam statystyki.",
+        "statisticsAreStillUnavailable": "Statystyki są nadal niedostępne.",
+        "trying": "Męczący…",
         "tryAgain": "Spróbuj ponownie"
       },
       "playerSkinView": {
-        "ready": "ready",
+        "ready": "gotowy",
         "error": "błąd",
-        "playerSMinecraftSkin": "Player's Minecraft skin",
-        "patPlayerSHead": "Pat player's head",
-        "steveSDefaultMinecraftSkin": "Steve's default Minecraft skin",
-        "text3dSkinLoaded": "3D skin loaded",
-        "text3dViewUnavailable": "3D view unavailable",
-        "loading3dSkin": "Loading 3D skin…"
+        "playerSMinecraftSkin": "Skórka gracza Minecraft",
+        "patPlayerSHead": "Pogłaszcz gracza po głowie",
+        "steveSDefaultMinecraftSkin": "Domyślna skórka Steve'a Minecraft",
+        "text3dSkinLoaded": "Załadowano skórkę 3D",
+        "text3dViewUnavailable": "Widok 3D niedostępny",
+        "loading3dSkin": "Ładowanie skórki 3D…"
       },
       "playerBadgeDisplay": {
         "text2025HalloweenChallengeIcon": "Ikona wyzwania halloweenowego 2025",
@@ -1471,15 +1511,40 @@
         "youCanViewValue1SCompleteStatsHistoryIncluding": "Możesz zobaczyć pełną historię statystyk {{value1}}, w tym czas gry, zabójstwa, śmierci i więcej, właśnie tutaj na stronie profilu 6b6t.",
         "frequentlyAskedQuestionsAbout": "Często zadawane pytania o"
       },
+      "profilePositionLabel": {
+        "notRanked": "Brak pozycji",
+        "rankValue1OfValue2": "Miejsce #{{value1}} z {{value2}}",
+        "rankValue1OfValue2Value3Behind": "Miejsce #{{value1}} z {{value2}} · {{value3}} za",
+        "rankValue1OfValue2Value3ToPass": "Miejsce #{{value1}} z {{value2}} · {{value3}} do wyprzedzenia"
+      },
+      "profileShopVote": {
+        "value1Value2": "{{value1}}{{value2}}",
+        "rankAndVotes": "Ranga i głosy",
+        "whatValue1Gives": "Co daje ranga {{value1}}",
+        "votesValue1LifetimeValue2ThisMonth": "Głosy: łącznie {{value1}} · w tym miesiącu {{value2}}",
+        "voteToday": "Zagłosuj dziś",
+        "rankBenefits": "Korzyści rangi",
+        "close": "Zamknij",
+        "seeTheShopForRankDetails": "Szczegóły rangi znajdziesz w sklepie.",
+        "seeValue1InTheShop": "Zobacz rangę {{value1}} w sklepie",
+        "compareAllRanks": "Porównaj wszystkie rangi"
+      },
+      "statsLastSaved": {
+        "statsLastSavedValue1": "Statystyki zapisano ostatnio {{value1}}",
+        "value1": "({{value1}})",
+        "delayed": "z opóźnieniem",
+        "countedSince22May2026": "Liczone od 22 maja 2026 r.",
+        "howWeCount": "Jak liczymy"
+      },
       "telegramBadgeDisplay": {
         "text6b6tTelegramCommunityIcon": "Ikona społeczności Telegram 6b6t",
         "linkedTelegramAndCurrentlyAMemberOfThe6b6t": "Połączono Telegram i obecnie jest członkiem grupy 6b6t"
       },
       "themedStatsRenderer": {
-        "legend": "legend",
-        "champion": "champion",
-        "hero": "hero",
-        "playerSkin": "Player skin",
+        "legend": "legenda",
+        "champion": "mistrz",
+        "hero": "bohater",
+        "playerSkin": "Wygląd gracza",
         "playerStats": "Statystyki gracza",
         "memberSince": "🗓️ Członek od",
         "returnToLeaderboards": "Wróć do rankingów",
@@ -1509,14 +1574,14 @@
         "nextSlide": "Następny slajd"
       },
       "cookieBanner": {
-        "cookieSettings": "Cookie settings",
-        "cookiePreferences": "Cookie preferences",
+        "cookiePreferences": "Preferencje dotyczące plików cookie",
         "cookieConsent": "Zgoda na pliki cookie",
         "gdpr": "RODO",
-        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Accept cookies for analytics and session recordings, or decline to use cookieless analytics. You can change your choice in Cookie settings.",
+        "acceptCookiesForAnalyticsAndSessionRecordingsOrDecline": "Zaakceptuj pliki cookie do celów analitycznych i nagrań sesji lub odmów korzystania z analiz bez plików cookie. Możesz zmienić swój wybór w ustawieniach plików cookies.",
         "privacyPolicy": "Polityka prywatności",
         "decline": "Odrzuć",
-        "acceptAll": "Akceptuj wszystkie"
+        "acceptAll": "Akceptuj wszystkie",
+        "cookieSettings": "Ustawienia plików cookie"
       },
       "dialog": {
         "close": "Zamknij"

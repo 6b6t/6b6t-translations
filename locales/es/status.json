@@ -1,32 +1,32 @@
 {
   "sections": {
     "statusClient": {
-      "serverStatus": "Server status",
-      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Current availability, player count and connection details for 6b6t.",
-      "lastCheckedValue1": "Last checked {{value1}}",
-      "checkingServerStatus": "Checking server status...",
+      "serverStatus": "Estado del servidor",
+      "currentAvailabilityPlayerCountAndConnectionDetailsFor6b6t": "Disponibilidad actual, recuento de jugadores y detalles de conexión para 6b6t.",
+      "lastCheckedValue1": "Última comprobación {{value1}}",
+      "checkingServerStatus": "Comprobando el estado del servidor...",
       "refreshing": "Refreshing...",
-      "refreshStatus": "Refresh status",
-      "weCouldnAposTRefreshTheServerStatusTry": "We couldn&apos;t refresh the server status. Try again in a moment.",
-      "showingTheLastReceivedInformation": "Showing the last received information.",
-      "serverInformation": "Server information",
-      "checkingAvailability": "Checking availability",
-      "statusUnavailable": "Status unavailable",
-      "text6b6tIsOnline": "6b6t is online",
-      "text6b6tIsOffline": "6b6t is offline",
+      "refreshStatus": "Actualizar estado",
+      "weCouldnAposTRefreshTheServerStatusTry": "No pudimos actualizar el estado del servidor. Inténtalo de nuevo en un momento.",
+      "showingTheLastReceivedInformation": "Mostrando la última información recibida.",
+      "serverInformation": "Información del servidor",
+      "checkingAvailability": "Comprobando disponibilidad",
+      "statusUnavailable": "Estado no disponible",
+      "text6b6tIsOnline": "6b6t está en línea",
+      "text6b6tIsOffline": "6b6t está desconectado",
       "playersOnline": "jugadores conectados",
       "checking": "Comprobando...",
-      "playerCapacity": "Player capacity",
+      "playerCapacity": "Capacidad de jugadores",
       "minecraftVersion": "versión de Minecraft",
-      "autoRefresh": "Auto refresh",
-      "text30Seconds": "30 seconds"
+      "autoRefresh": "Actualización automática",
+      "text30Seconds": "30 segundos"
     },
     "page": {
-      "onlineButCannotJoin": "Online but cannot join?",
-      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang blacklisted 6b6t on 15 July 2026. Java players need AnarchyMod even when the server is online. Bedrock players connect to br.6b6t.org on port 19132.",
-      "joiningInstructions": "Joining instructions",
+      "onlineButCannotJoin": "¿En línea pero no puedes unirte?",
+      "mojangBlacklisted6b6tOn15July2026JavaPlayers": "Mojang incluyó a 6b6t en la lista negra el 15 de julio de 2026. Los jugadores de Java necesitan AnarchyMod incluso cuando el servidor está en línea. Los reproductores Bedrock se conectan a br.6b6t.org en el puerto 19132.",
+      "joiningInstructions": "Instrucciones para unirse",
       "downloadAnarchymod": "Descargar AnarchyMod",
-      "connectionHelp": "Connection help"
+      "connectionHelp": "Ayuda de conexión"
     }
   },
   "page-name": "¿6b6t está caído? Estado y jugadores en vivo",

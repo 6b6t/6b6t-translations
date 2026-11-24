@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "cmsFormField": {
+      "value1Error": "{{value1}}-ошибка",
+      "chooseAnOption": "Выберите вариант"
+    },
+    "cmsForm": {
+      "thanksYourAnswersWereSent": "Спасибо. Ваши ответы отправлены.",
+      "send": "Отправлять"
+    },
+    "slug": {
+      "page": {
+        "value16b6t": "{{value1}} | 6b6t",
+        "thisFormIsTemporarilyUnavailablePleaseTryAgainLater": "Данная форма временно недоступна. Пожалуйста, повторите попытку позже."
+      }
+    }
+  }
+}
