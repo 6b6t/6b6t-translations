@@ -81,14 +81,6 @@
       "yesAnarchymodIsFreeAndFullyOpenSourceYou": "Evet. AnarchyMod ücretsiz ve tamamen açık kaynaklıdır. Kaynak kodunu şurada okuyabilirsin:",
       "theAnarchymodSourceSite": "AnarchyMod kaynak sitesi"
     },
-    "modTrustStats": {
-      "verifiedByTheCommunity": "Topluluk tarafından doğrulandı",
-      "openSourceThousandsOfDownloads": "Açık kaynak. Binlerce indirme.",
-      "curseforgeDownloads": "CurseForge indirmeleri",
-      "latestRelease": "En son sürüm",
-      "anarchymodValue1Value2": "AnarchyMod {{value1}} · {{value2}}",
-      "viewAnarchymodOnCurseforge": "AnarchyMod’u CurseForge’da görüntüle"
-    },
     "page": {
       "youCanJoinWithMinecraftJavaValue1ToValue2": "Minecraft Java {{value1}} ile {{value2}} arasında katılabilirsin. Minecraft, Fabric Loader ve AnarchyMod için aynı sürümü seç.",
       "minecraftJavaVersionAvailabilityFollowsTheCurrentAnarchymodDownloads": "Kullanılabilir Minecraft Java sürümleri güncel AnarchyMod indirmelerine bağlıdır. Minecraft, Fabric Loader ve AnarchyMod için aynı sürümü seç.",

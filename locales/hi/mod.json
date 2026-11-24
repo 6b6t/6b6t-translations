@@ -81,14 +81,6 @@
       "yesAnarchymodIsFreeAndFullyOpenSourceYou": "हाँ। AnarchyMod मुफ़्त और पूरी तरह ओपन सोर्स है। इसका स्रोत कोड यहाँ पढ़ें:",
       "theAnarchymodSourceSite": "AnarchyMod स्रोत साइट"
     },
-    "modTrustStats": {
-      "verifiedByTheCommunity": "समुदाय द्वारा सत्यापित",
-      "openSourceThousandsOfDownloads": "ओपन सोर्स। हज़ारों डाउनलोड।",
-      "curseforgeDownloads": "CurseForge डाउनलोड",
-      "latestRelease": "नवीनतम रिलीज़",
-      "anarchymodValue1Value2": "AnarchyMod {{value1}} · {{value2}}",
-      "viewAnarchymodOnCurseforge": "CurseForge पर AnarchyMod देखें"
-    },
     "page": {
       "youCanJoinWithMinecraftJavaValue1ToValue2": "आप Minecraft Java {{value1}} से {{value2}} तक से जुड़ सकते हैं। Minecraft, Fabric Loader और AnarchyMod का संस्करण एक जैसा रखें।",
       "minecraftJavaVersionAvailabilityFollowsTheCurrentAnarchymodDownloads": "Minecraft Java के उपलब्ध संस्करण AnarchyMod के मौजूदा डाउनलोड के अनुसार हैं। Minecraft, Fabric Loader और AnarchyMod का संस्करण एक जैसा रखें।",

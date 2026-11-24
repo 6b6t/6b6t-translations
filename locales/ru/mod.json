@@ -81,14 +81,6 @@
       "yesAnarchymodIsFreeAndFullyOpenSourceYou": "Да. AnarchyMod бесплатный и полностью открытый. Исходный код можно прочитать на",
       "theAnarchymodSourceSite": "сайте исходного кода AnarchyMod"
     },
-    "modTrustStats": {
-      "verifiedByTheCommunity": "Подтверждено сообществом",
-      "openSourceThousandsOfDownloads": "Открытый код. Тысячи загрузок.",
-      "curseforgeDownloads": "Загрузки с CurseForge",
-      "latestRelease": "Последний релиз",
-      "anarchymodValue1Value2": "AnarchyMod {{value1}} · {{value2}}",
-      "viewAnarchymodOnCurseforge": "Открыть AnarchyMod на CurseForge"
-    },
     "page": {
       "youCanJoinWithMinecraftJavaValue1ToValue2": "Можно играть с Minecraft Java от {{value1}} до {{value2}}. Выберите одну версию для Minecraft, Fabric Loader и AnarchyMod.",
       "minecraftJavaVersionAvailabilityFollowsTheCurrentAnarchymodDownloads": "Доступные версии Minecraft Java соответствуют текущим загрузкам AnarchyMod. Выберите одну версию для Minecraft, Fabric Loader и AnarchyMod.",
